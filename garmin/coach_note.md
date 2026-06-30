@@ -1,23 +1,15 @@
-**Recovery is holding — four controlled runs back, your engine is warming up right on schedule.**
+**You've done the right work — four clean runs back, load is low, and it's time to build.**
 
----
+**What your data says**
+Resting HR is 62 (trending down from 64–65 earlier this week), readiness was 87 this morning before today's run and settled to 70 post-effort — both solid numbers. ACWR sits at 0.70 (LOW): your acute load of 169 is 23% below your chronic base of 219, meaning you're currently undertraining relative to your fitness level and have clear room to build without injury risk. VO2max has recovered to 55.7 and HM prediction is 2:00:37 — still 10+ minutes off the 1:45–1:50 goal, but expected post-illness with 89 days to race. Heat acclimatisation is 24% and trending up (Acclimatising) — keep running evenings.
 
-**What the numbers say**
-
-Resting HR hit 62 today — down from 64–65 earlier this week, a clear positive trend post-fever. Training Readiness was 87 (HIGH, "Well Recovered") before your run, settled to 70 (MODERATE) after — normal drop for an active session. Body Battery peaked at 86, finished at 39 after today's effort. Stress average: 28, consistently calm all week.
-
-Run log since returning: Jun 25 (5.0km, 7:30/km, avg HR 116), Jun 27 (10.6km, 7:34/km, avg HR 130 — max briefly touched 156), Jun 29 (5.0km, 7:13/km, avg HR 132), Jun 30 (5.4km, 6:53/km, avg HR 131). Every single run kept average HR under your 135 cap. Pace improving 37 sec/km over four runs at the same effort — your aerobic base is coming back fast.
-
-**Today (Jun 30) — already done**
-
-5.4km at 6:53/km, avg HR 131. Controlled, cadence 165 spm, aerobic base maintained. Job done — rest tonight.
+**Today's session**
+Already done: 5.4km at 6:53/km, avg HR 131, cadence 165 spm — clean aerobic base session. Every run this return block has stayed under the 135 HR cap. Rest tonight; body battery is at 39 and the Garmin flags an aerobic high shortage, so tomorrow's full rest is non-negotiable.
 
 **3-Day Plan**
+- Today (Jun 30, Tue): 5.4km easy — completed ✓
+- Tomorrow (Jul 1, Wed): Full rest — 4 runs in 6 days, absorb the load, target body battery 70+ by Thursday morning
+- Day after (Jul 2, Thu): Easy 6–7km, pace 7:00–7:20/km, HR cap 135 — first run past 5km since Jun 27, monitor medial knee
 
-- **Today (Jun 30):** ✓ Run complete. Hydrate, legs up.
-- **Tomorrow (Jul 1):** Full rest day. Walk only. Let body battery recharge above 70+.
-- **Day after (Jul 2):** Easy 5km, 7:00–7:15/km, HR cap 130. Watch the knee if it shows any signal.
-
-**Looking ahead**
-
-Confirm Recovery phase ends Jul 4. You're entering it strong. If Jul 2 goes clean, the Jul 5 Rebuild Base phase — long runs up to 11km — starts ahead of where it needed to.
+**This week's focus**
+Confirm Recovery phase: push weekly volume slightly above last week to close the ACWR gap toward 0.85, and watch cadence stays above 163 spm on the Thursday run — sloppy form is when the knee grumbles.

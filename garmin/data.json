@@ -80640,5 +80640,28 @@
         }
       ]
     }
-  ]
+  ],
+  "performance": {
+    "2026-06-30": {
+      "training_status": "RECOVERY_2",
+      "fitness_trend": 2,
+      "acwr": 0.7,
+      "acwr_status": "LOW",
+      "acute_load": 169,
+      "chronic_load": 219,
+      "aerobic_low_load": 317.41943,
+      "aerobic_high_load": 84.675644,
+      "load_balance_feedback": "AEROBIC_HIGH_SHORTAGE",
+      "vo2max_precise": 55.7,
+      "heat_acclimation_pct": 24,
+      "heat_trend": "ACCLIMATIZING",
+      "race_pred_5k": "24:30",
+      "race_pred_10k": "53:12",
+      "race_pred_hm": "2:00:37",
+      "race_pred_marathon": "4:27:40",
+      "avg_respiration": 13.0,
+      "sleep_respiration": null,
+      "avg_spo2": null
+    }
+  }
 }
