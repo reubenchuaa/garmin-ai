@@ -272,7 +272,7 @@ def generate_html(data, context, coaching_text):
         para = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', para)
         coach_html += f"<p>{para}</p>\n"
 
-    return f"""<!DOCTYPE html>
+    html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">

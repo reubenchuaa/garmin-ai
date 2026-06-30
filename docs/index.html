@@ -158,7 +158,13 @@ tr:last-child td{border-bottom:none}
 </div>
 
 <script>
-CHART_JS_PLACEHOLDER
+const L=["06-28", "06-29", "06-30"];
+const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[82,91,86],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[24,26,24],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[null,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[64,65,62],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('hrv'),{"type":"line","data":{"labels":L,"datasets":[{"label":"HRV","data":[null,null,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+
 </script>
 </body>
 </html>
