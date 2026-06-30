@@ -1,0 +1,5 @@
+.garmin_tokens/
+.garmin_token_b64.txt
+sync.log
+__pycache__/
+*.pyc
