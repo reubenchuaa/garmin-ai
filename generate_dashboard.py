@@ -78,12 +78,24 @@ def get_coaching(data, context):
         stress = g(today_w, "wellness", "averageStressLevel")
 
     # Most recent run
-    recent_acts = get_recent_activities(data, 3)
+    recent_acts = get_recent_activities(data, 5)
     last_run = next((a for a in recent_acts if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
     days_since_run = None
+    last_run_z2_pct = None
+    last_run_cadence = None
+    last_run_recovery_hours = None
     if last_run:
         last_run_date = date.fromisoformat((last_run.get("startTimeLocal") or "")[:10])
         days_since_run = (today - last_run_date).days
+        details = last_run.get("_details", {})
+        summary = details.get("summaryDTO", {}) if details else {}
+        last_run_cadence = summary.get("averageRunningCadenceInStepsPerMinute") or last_run.get("averageRunningCadenceInStepsPerMinute")
+        last_run_recovery_hours = summary.get("recoveryTime")
+        hr_zones = details.get("heartRateDTOs", []) if details else []
+        if hr_zones and len(hr_zones) >= 2:
+            total = sum(z.get("secsInZone", 0) for z in hr_zones)
+            z1z2 = sum(z.get("secsInZone", 0) for z in hr_zones[:2])
+            last_run_z2_pct = round(z1z2 / total * 100) if total else None
 
     # --- Recovery score (composite) ---
     # Use TR if available, else estimate from BB + HRV
@@ -126,6 +138,29 @@ def get_coaching(data, context):
 
     if metrics_parts:
         lines.append("Your numbers today: " + ", ".join(metrics_parts) + ".")
+        lines.append("")
+
+    # Last run insights
+    run_notes = []
+    if last_run_z2_pct is not None:
+        if last_run_z2_pct >= 80:
+            run_notes.append(f"Last run was well-controlled — {last_run_z2_pct}% in Z1-Z2. Good aerobic work.")
+        elif last_run_z2_pct >= 60:
+            run_notes.append(f"Last run had {last_run_z2_pct}% in Z1-Z2 — a bit of Z3 creep. Watch the HR cap in the heat.")
+        else:
+            run_notes.append(f"Last run only {last_run_z2_pct}% in Z1-Z2 — too much time in higher zones. Slow down on easy days.")
+    if last_run_cadence:
+        if last_run_cadence < 160:
+            run_notes.append(f"Cadence was {last_run_cadence:.0f} spm — try to push toward 170+ for better efficiency.")
+        elif last_run_cadence < 170:
+            run_notes.append(f"Cadence was {last_run_cadence:.0f} spm — getting close to the 170+ target.")
+        else:
+            run_notes.append(f"Cadence was {last_run_cadence:.0f} spm — solid running economy.")
+    if last_run_recovery_hours:
+        lines.append(f"Garmin estimates {last_run_recovery_hours}h recovery from your last run.")
+        lines.append("")
+    if run_notes:
+        lines.append(" ".join(run_notes))
         lines.append("")
 
     # Body paragraph 2 — what to do

@@ -96,7 +96,7 @@ def format_pace(seconds_per_meter):
     return f"{m}:{s:02d} /km"
 
 
-def write_activity_note(act):
+def write_activity_note(act, details=None):
     name = act.get("activityName", "Workout")
     start = (act.get("startTimeLocal") or "")[:10]
     act_id = act.get("activityId", "unknown")
@@ -131,6 +131,66 @@ def write_activity_note(act):
         f"**Aerobic Training Effect:** {training_effect}  ",
         f"**VO2 Max:** {vo2}  ",
     ]
+
+    # Extra details from get_activity_details
+    if details:
+        summary = details.get("summaryDTO", {})
+
+        # Cadence
+        cadence = summary.get("averageRunningCadenceInStepsPerMinute") or act.get("averageRunningCadenceInStepsPerMinute")
+        if cadence:
+            lines.append(f"**Avg Cadence:** {cadence:.0f} spm  ")
+
+        # Running dynamics
+        gct = summary.get("groundContactTime") or act.get("groundContactTime")
+        vo_cm = summary.get("verticalOscillation") or act.get("verticalOscillation")
+        stride = summary.get("strideLength") or act.get("strideLength")
+        if gct:
+            lines.append(f"**Ground Contact Time:** {gct:.0f} ms  ")
+        if vo_cm:
+            lines.append(f"**Vertical Oscillation:** {vo_cm:.1f} cm  ")
+        if stride:
+            lines.append(f"**Stride Length:** {stride:.2f} m  ")
+
+        # Recovery time
+        recovery_time = summary.get("recoveryTime")
+        if recovery_time:
+            lines.append(f"**Recovery Time Advised:** {recovery_time} hours  ")
+
+        # Training load
+        training_load = summary.get("trainingLoad") or act.get("activityTrainingLoad")
+        if training_load:
+            lines.append(f"**Training Load:** {training_load:.0f}  ")
+
+        # HR zones
+        hr_zones = details.get("heartRateDTOs") or []
+        if hr_zones:
+            lines.append("")
+            lines.append("## HR Zones")
+            zone_names = ["Zone 1 (Warm-up)", "Zone 2 (Easy)", "Zone 3 (Aerobic)", "Zone 4 (Threshold)", "Zone 5 (Max)"]
+            total_secs = sum(z.get("secsInZone", 0) for z in hr_zones)
+            for i, z in enumerate(hr_zones[:5]):
+                secs = z.get("secsInZone", 0)
+                pct = f"{secs/total_secs*100:.0f}%" if total_secs else "—"
+                m, s = divmod(int(secs), 60)
+                label = zone_names[i] if i < len(zone_names) else f"Zone {i+1}"
+                lines.append(f"**{label}:** {m}m {s}s ({pct})  ")
+
+        # Lap splits
+        laps = details.get("splitSummaries") or []
+        running_laps = [l for l in laps if l.get("splitType") == "INTERVAL_ACTIVE" or l.get("noOfSplits", 0) > 0]
+        if not running_laps:
+            running_laps = [l for l in laps if l.get("distance", 0) > 0]
+        if running_laps:
+            lines.append("")
+            lines.append("## Lap Splits")
+            for i, lap in enumerate(running_laps[:20], 1):
+                lap_dist = lap.get("distance", 0)
+                lap_spd = lap.get("averageSpeed", 0)
+                lap_hr = lap.get("averageHR") or "—"
+                lap_pace = format_pace(1 / lap_spd if lap_spd > 0 else None)
+                lap_dist_str = f"{lap_dist/1000:.2f} km" if lap_dist else "—"
+                lines.append(f"**Lap {i}:** {lap_dist_str} · {lap_pace} · {lap_hr} bpm  ")
 
     filename.write_text("\n".join(lines) + "\n")
     return str(filename.name)
@@ -239,8 +299,15 @@ def sync(days=3):
     try:
         activities = client.get_activities_by_date(dates[0], dates[-1])
         for act in activities:
+            act_id = act.get("activityId")
+            details = None
+            try:
+                details = client.get_activity_details(act_id)
+                act["_details"] = details
+            except Exception as e:
+                print(f"  Warning: details for {act_id} — {e}")
             new_activities.append(act)
-            fname = write_activity_note(act)
+            fname = write_activity_note(act, details)
             print(f"  Activity: {fname}")
             written.append(fname)
     except Exception as e:
