@@ -1,17 +1,19 @@
-_Updated: Tue, 30 Jun 2026 at 09:27 PM SGT_
+_Updated: Wed, 01 Jul 2026 at 06:25 AM SGT_
 
-**Solid return — 4 runs this week, HR discipline intact, ACWR safe to build.**
+_Updated: Wed, 1 Jul 2026 at 12:00 AM SGT_
+
+**Rest day locked in — 4 runs in 6 days done, let the body bank the gains.**
 
 **What your data says**
-Readiness is 87/HIGH today (RHR 62, body battery 86), and you've logged four runs since Jun 25 with average HR peaking at 132 — inside the 135 cap every time. ACWR sits at 0.70 (acute load 169 vs chronic 219): you're well below the danger zone (>1.3) and have clear room to build, though being 23% below baseline confirms this week is correctly easy. Predicted half marathon is 2:00:37, 10+ minutes off the 1:50 goal — expected post-illness — but VO2max at 55.7 is strong and will climb as load returns. Heat acclimatisation is 24% and rising; keep running Singapore afternoon heat.
+Readiness dropped to 70 today (from 81 on Sunday) after back-to-back runs Monday and Tuesday — normal and expected, not a red flag. Resting HR is 62 bpm, trending down across the week; body battery low hit 24 overnight after yesterday's 5.4km. ACWR is 0.70 (acute load 169 vs chronic 219): you're underloading relative to your fitness base, which is the right call in Confirm Recovery, but this gap means you have clear room to build from Thursday. Predicted half marathon is 2:00:37 — still 10+ minutes off the 1:50 target, but VO2max at 55.7 says the engine is intact; fitness will track load as training resumes properly. Heat acclimatisation is 24% and still climbing.
 
 **Today's session**
-Done ✓ — Easy aerobic run, 5.39km @ 6:53/km, avgHR 131, cadence 165 spm. HR held under 135 throughout. Four runs this week is the right ceiling for Confirm Recovery; focus shifts to rest and sleep tonight.
+Full rest. You prescribed this yourself yesterday — honour it. Walk, light stretching, stairs on the way home, push-ups and sit-ups if energy is there. No running.
 
 **3-Day Plan**
-- Today (Jun 30, Tue): Done — 5.4km easy @ 6:53/km, HR 131 ✓
-- Tomorrow (Jul 1, Wed): Full rest. Walk, stairs, light stretching only.
-- Day after (Jul 2, Thu): Easy run 5–6km @ 7:00–7:20/km, HR cap 135. Start at 7:20/km; only accelerate if HR stays under 130 in the first 2km — Singapore afternoon heat adds 5–8 bpm.
+- Today (Wed 1 Jul): Rest — stairs, push-ups/sit-ups, light walk only.
+- Tomorrow (Thu 2 Jul): Easy 5–6km @ 7:00–7:20/km, HR cap 135 bpm. Start at 7:20/km; only pick up if HR holds below 130 through the first 2km.
+- Day after (Fri 3 Jul): Rest or easy 4km shakeout walk/run — keep HR under 125, see how knee and legs feel going into the weekend.
 
 **This week's focus**
-Confirm Recovery means consistent aerobic stimulus, not fitness gains yet — four easy runs at controlled HR is exactly right. Watch the medial knee on Thursday; any tightness before 4km, cut the session and rest Friday.
+Close out Confirm Recovery: the phase ends Saturday, and you've run 4 sessions at controlled HR under 135 with zero knee flare — that's exactly the target. Watch cadence; every run this week has been 165 spm — aim to edge toward 168–170 on Thursday without chasing pace.
