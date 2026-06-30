@@ -1,0 +1,39 @@
+{
+  "athlete_name": "Reuben",
+  "goal": "Sub 1:50 (chase 1:45) · Kiprun Singapore Half Marathon · 27 Sep 2026",
+  "race_date": "2026-09-27",
+  "race_name": "Kiprun Singapore Half Marathon",
+  "target_time": "1:45–1:50",
+
+  "health_notes": [
+    "Post-illness recovery (fever 38°C, body aches, cough 16–20 Jun). Two clean runs done 25 Jun and 29 Jun.",
+    "Knee niggle (medial, mild) flared once mid-June — resolved with rest. Watch for recurrence.",
+    "VO2 Max dipped post-illness but still top 5% for age/gender — expect full return."
+  ],
+
+  "key_context": [
+    "Gym (Snap Fitness Buangkok) opens August — literally across the road.",
+    "Columbia OutDry hiking shoes need 50–80km break-in before Norway.",
+    "IPPT target: Silver Nov 2026, Gold Feb 2027.",
+    "Daily habits: stairs up on return home, push-ups + sit-ups morning routine (resume once fully recovered).",
+    "Norway: 8 hike days, ~79km, ~7,400m elevation across Senja and Lofoten (8–22 Aug)."
+  ],
+
+  "training_phases": [
+    { "name": "Confirm Recovery",  "start": "2026-06-28", "end": "2026-07-04", "focus": "Easy 3×/week, HR < 135" },
+    { "name": "Rebuild Base",      "start": "2026-07-05", "end": "2026-07-18", "focus": "Long run up to 10–11km" },
+    { "name": "Build + Hike Prep", "start": "2026-07-19", "end": "2026-08-01", "focus": "Tempo, stairs w/ pack, gym" },
+    { "name": "Taper",             "start": "2026-08-02", "end": "2026-08-07", "focus": "Ease off before Norway" },
+    { "name": "Norway Hiking",     "start": "2026-08-08", "end": "2026-08-22", "focus": "~79km, 7,400m — active recovery" },
+    { "name": "Shake Out",         "start": "2026-08-23", "end": "2026-08-29", "focus": "2 easy runs, reintegrate" },
+    { "name": "Peak Block",        "start": "2026-08-30", "end": "2026-09-19", "focus": "Intervals, long runs 16–17km" },
+    { "name": "Race Taper",        "start": "2026-09-20", "end": "2026-09-26", "focus": "Easy + rest" },
+    { "name": "RACE DAY",          "start": "2026-09-27", "end": "2026-09-27", "focus": "Sub 1:50, chase 1:45 🏁" }
+  ],
+
+  "hr_zones": {
+    "easy_max": 135,
+    "tempo_range": "155–165",
+    "notes": "Singapore heat — expect 5–8 bpm higher than cool-weather equivalent"
+  }
+}

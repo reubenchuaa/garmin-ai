@@ -2,15 +2,14 @@ name: Garmin Daily Sync
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 6 AM Singapore time (UTC+8 = 22:00 UTC previous day)
-  workflow_dispatch:         # allows manual "Run workflow" button
+    - cron: '0 22 * * *'   # 6 AM Singapore time (UTC+8)
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write        # needed to commit files back to the repo
+      contents: write
 
     steps:
       - name: Check out repo
@@ -29,10 +28,15 @@ jobs:
           GARMIN_TOKEN_B64: ${{ secrets.GARMIN_TOKEN_B64 }}
         run: python3 sync.py 3
 
-      - name: Commit updated data
+      - name: Generate dashboard
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 generate_dashboard.py
+
+      - name: Commit and push
         run: |
           git config user.name "Garmin Sync Bot"
           git config user.email "sync@garmin-ai"
-          git add garmin/
+          git add garmin/ docs/
           git diff --cached --quiet || git commit -m "sync: $(date -u '+%Y-%m-%d')"
           git push

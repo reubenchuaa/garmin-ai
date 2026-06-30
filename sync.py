@@ -206,10 +206,28 @@ def write_wellness_note(day_str, wellness, sleep_data, hrv_data, training_readin
     return str(filename.name)
 
 
+def merge_data(existing, new_activities, new_wellness):
+    """Merge new data into existing accumulated data.json."""
+    act_ids = {a.get("activityId") for a in existing.get("activities", [])}
+    for act in new_activities:
+        if act.get("activityId") not in act_ids:
+            existing.setdefault("activities", []).append(act)
+
+    well_dates = {w["date"] for w in existing.get("wellness", [])}
+    for w in new_wellness:
+        if w["date"] in well_dates:
+            existing["wellness"] = [w if e["date"] == w["date"] else e for e in existing["wellness"]]
+        else:
+            existing.setdefault("wellness", []).append(w)
+
+    return existing
+
+
 def sync(days=3):
     client = load_client()
 
-    all_data = {"activities": [], "wellness": []}
+    new_activities = []
+    new_wellness = []
     written = []
 
     today = date.today()
@@ -221,7 +239,7 @@ def sync(days=3):
     try:
         activities = client.get_activities_by_date(dates[0], dates[-1])
         for act in activities:
-            all_data["activities"].append(act)
+            new_activities.append(act)
             fname = write_activity_note(act)
             print(f"  Activity: {fname}")
             written.append(fname)
@@ -252,13 +270,20 @@ def sync(days=3):
         except Exception as e:
             print(f"  Warning: training readiness {day} — {e}")
 
-        all_data["wellness"].append({"date": day, "wellness": wellness, "sleep": sleep, "hrv": hrv, "training_readiness": tr})
+        new_wellness.append({"date": day, "wellness": wellness, "sleep": sleep, "hrv": hrv, "training_readiness": tr})
         fname = write_wellness_note(day, wellness, sleep, hrv, tr)
         print(f"  Wellness: {fname}")
         written.append(fname)
 
-    # Write combined JSON
-    DATA_FILE.write_text(json.dumps(all_data, indent=2, default=str))
+    # Merge into accumulated data.json
+    existing = {}
+    if DATA_FILE.exists():
+        try:
+            existing = json.loads(DATA_FILE.read_text())
+        except Exception:
+            existing = {}
+    merged = merge_data(existing, new_activities, new_wellness)
+    DATA_FILE.write_text(json.dumps(merged, indent=2, default=str))
     print(f"\nAll data saved to garmin/data.json")
     print(f"Markdown notes written: {len(written)} files")
     return written
