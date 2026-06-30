@@ -203,15 +203,15 @@
       "endTimeGMT": "2026-06-29 09:58:59",
       "qualifyingDive": false,
       "activityUUID": "0625a052-2854-45bb-bfe9-cd092c7a114c",
-      "pr": false,
-      "purposeful": false,
-      "favorite": false,
-      "parent": false,
-      "decoDive": false,
-      "manualActivity": false,
       "autoCalcCalories": false,
+      "favorite": false,
+      "purposeful": false,
+      "manualActivity": false,
+      "pr": false,
       "elevationCorrected": false,
-      "atpActivity": false
+      "atpActivity": false,
+      "decoDive": false,
+      "parent": false
     }
   ],
   "wellness": [
