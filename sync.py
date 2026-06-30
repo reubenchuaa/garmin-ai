@@ -32,7 +32,7 @@ def load_client():
         tmp = Path(tempfile.mkdtemp())
         for fname, data in bundle.items():
             (tmp / fname).write_text(json.dumps(data))
-        client = Garmin()
+        client = Garmin("noop", "noop")
         client.login(tokenstore=str(tmp))
         shutil.rmtree(tmp, ignore_errors=True)
         return client
