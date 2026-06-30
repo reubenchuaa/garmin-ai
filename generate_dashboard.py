@@ -170,18 +170,64 @@ def get_coaching(data, context):
 
     lines.append("")
 
-    # Body paragraph 3 — forward look
-    if days_since_run is not None and days_since_run == 0:
-        lines.append(f"{days_to_race} days to race. You ran today — good consistency.")
-    elif days_since_run is not None:
-        lines.append(
-            f"{days_to_race} days to race. Last run was {days_since_run} day{'s' if days_since_run != 1 else ''} ago — "
-            f"aim to keep the 3×/week rhythm going. Phase: {phase_name} — {phase_focus}."
-        )
-    else:
-        lines.append(
-            f"{days_to_race} days to race. Phase: {phase_name} — {phase_focus}."
-        )
+    # --- 3-day plan ---
+    def day_plan(offset):
+        """Return a one-line plan for today+offset days."""
+        target_date = today + timedelta(days=offset)
+        label = ["Today", "Tomorrow", "Day after"][offset]
+        dow = target_date.strftime("%a")
+
+        # Which phase are we in on that day?
+        p = None
+        for phase in context.get("training_phases", []):
+            if phase["start"] <= target_date.isoformat() <= phase["end"]:
+                p = phase
+                break
+        pname = p["name"] if p else phase_name
+
+        # Simple weekly pattern logic: run Mon/Wed/Fri-ish during base phases
+        # Use recovery_score only for today; assume moderate recovery for future days
+        is_run_day = offset == 0  # we already decided today above
+        # For future days, plan alternating run/rest
+        if offset > 0:
+            # Count runs in last 7 days to decide cadence
+            recent_run_dates = set()
+            for a in data.get("activities", []):
+                d = (a.get("startTimeLocal") or "")[:10]
+                if d >= (today - timedelta(days=7)).isoformat():
+                    if "run" in (a.get("activityType", {}).get("typeKey", "")).lower():
+                        recent_run_dates.add(d)
+            runs_this_week = sum(1 for d in recent_run_dates if d >= (today - timedelta(days=today.weekday())).isoformat())
+            # Alternate run/rest for future days
+            is_run_day = (offset % 2 == 1)  # tomorrow rest, day after run (simple pattern)
+
+        if pname == "Norway Hiking":
+            return f"**{label} ({dow}):** Hiking — active recovery, manage knees on descents."
+        elif pname == "Race Taper":
+            return f"**{label} ({dow}):** Easy 3–4 km shakeout or rest. Stay fresh."
+        elif pname == "RACE DAY":
+            return f"**{label} ({dow}):** 🏁 RACE DAY — Kiprun Singapore Half Marathon. Sub 1:50, chase 1:45."
+        elif not is_run_day:
+            return f"**{label} ({dow}):** Rest or easy walk. Let your body absorb the training."
+        elif pname == "Confirm Recovery":
+            return f"**{label} ({dow}):** Easy run — 5–6 km, 7:00–7:30/km, HR under {easy_hr_cap} bpm."
+        elif pname == "Rebuild Base":
+            if offset == 2:
+                return f"**{label} ({dow}):** Long run — 8–10 km easy, HR under {easy_hr_cap} bpm, focus on time on feet."
+            return f"**{label} ({dow}):** Easy run — 6–7 km, relaxed pace, HR under {easy_hr_cap} bpm."
+        elif pname in ("Build + Hike Prep", "Peak Block"):
+            if offset == 2:
+                return f"**{label} ({dow}):** Tempo run — 10 km with 20 min at 155–165 bpm, easy warm-up/cool-down."
+            return f"**{label} ({dow}):** Easy run — 6 km, HR under {easy_hr_cap} bpm."
+        else:
+            return f"**{label} ({dow}):** Easy run — 5 km, HR under {easy_hr_cap} bpm."
+
+    lines.append("**3-Day Plan:**")
+    lines.append("")
+    for i in range(3):
+        lines.append(day_plan(i))
+    lines.append("")
+    lines.append(f"*{days_to_race} days to race · Phase: {phase_name}*")
 
     return "\n".join(lines)
 
