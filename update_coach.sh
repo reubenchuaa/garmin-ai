@@ -39,6 +39,12 @@ Be direct, use real numbers, adapt to what actually happened. Under 280 words.
 Write ONLY the markdown to garmin/coach_note.md.
 " 2>/dev/null
 
+# Prepend timestamp to coach note
+if [ -f garmin/coach_note.md ]; then
+  TIMESTAMP="_Updated: $(date '+%a, %d %b %Y at %I:%M %p SGT')_"
+  echo -e "$TIMESTAMP\n\n$(cat garmin/coach_note.md)" > garmin/coach_note.md
+fi
+
 # Regenerate dashboard with new coach note
 python3 generate_dashboard.py 2>/dev/null
 
