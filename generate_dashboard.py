@@ -47,97 +47,143 @@ def get_recent_activities(data, n=8):
 
 
 def get_coaching(data, context):
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return "Coach unavailable — ANTHROPIC_API_KEY secret not configured."
-
-    import anthropic
-
+    """Rule-based daily coaching — no API needed."""
     today = date.today()
     race_date = date.fromisoformat(context.get("race_date", "2026-09-27"))
     days_to_race = (race_date - today).days
+    easy_hr_cap = context.get("hr_zones", {}).get("easy_max", 135)
 
-    wellness_7 = sorted(
-        [w for w in data.get("wellness", [])
-         if w["date"] >= (today - timedelta(days=7)).isoformat()],
-        key=lambda x: x["date"]
-    )
-    recent_acts = get_recent_activities(data, 5)
-
-    # Determine current training phase
+    # Current training phase
     current_phase = None
     for phase in context.get("training_phases", []):
         if phase["start"] <= today.isoformat() <= phase["end"]:
             current_phase = phase
             break
 
-    data_summary = {
-        "today": today.isoformat(),
-        "days_to_race": days_to_race,
-        "current_phase": current_phase,
-        "recent_wellness_7_days": [
-            {
-                "date": w["date"],
-                "resting_hr": g(w, "wellness", "restingHeartRate"),
-                "body_battery_peak": g(w, "wellness", "bodyBatteryHighestValue"),
-                "body_battery_low": g(w, "wellness", "bodyBatteryLowestValue"),
-                "stress": g(w, "wellness", "averageStressLevel"),
-                "steps": g(w, "wellness", "totalSteps"),
-                "hrv_last_night": g(w, "hrv", "hrvSummary", "lastNight"),
-                "hrv_weekly_avg": g(w, "hrv", "hrvSummary", "weeklyAvg"),
-                "hrv_status": g(w, "hrv", "hrvSummary", "status"),
-                "sleep_total_hours": round(g(w, "sleep", "dailySleepDTO", "sleepTimeSeconds") / 3600, 1)
-                    if g(w, "sleep", "dailySleepDTO", "sleepTimeSeconds") else None,
-                "sleep_score": g(w, "sleep", "dailySleepDTO", "sleepScores", "overall", "value"),
-                "training_readiness_score": g(w, "training_readiness", 0, "score") if w.get("training_readiness") else None,
-                "training_readiness_level": g(w, "training_readiness", 0, "level") if w.get("training_readiness") else None,
-            }
-            for w in wellness_7
-        ],
-        "recent_runs": [
-            {
-                "date": (act.get("startTimeLocal") or "")[:10],
-                "name": act.get("activityName"),
-                "distance_km": round(act.get("distance", 0) / 1000, 2),
-                "duration_min": round((act.get("duration") or 0) / 60),
-                "avg_hr": act.get("averageHR"),
-                "max_hr": act.get("maxHR"),
-                "pace_per_km": f"{int((1/act['averageSpeed'])*1000//60)}:{int((1/act['averageSpeed'])*1000%60):02d}"
-                    if act.get("averageSpeed") else None,
-                "training_effect": round(act.get("aerobicTrainingEffect") or 0, 1),
-            }
-            for act in recent_acts
-        ]
-    }
+    # Today's wellness
+    today_w = next((w for w in data.get("wellness", []) if w["date"] == today.isoformat()), None)
+    tr_score = None
+    bb_peak = None
+    rhr = None
+    hrv = None
+    hrv_status = None
+    stress = None
+    if today_w:
+        tr_list = today_w.get("training_readiness", [])
+        tr_score = tr_list[0].get("score") if tr_list else None
+        bb_peak = g(today_w, "wellness", "bodyBatteryHighestValue")
+        rhr = g(today_w, "wellness", "restingHeartRate")
+        hrv = g(today_w, "hrv", "hrvSummary", "lastNight")
+        hrv_status = (g(today_w, "hrv", "hrvSummary", "status") or "").upper()
+        stress = g(today_w, "wellness", "averageStressLevel")
 
-    prompt = f"""You are a personal running coach for {context.get('athlete_name', 'the athlete')}.
+    # Most recent run
+    recent_acts = get_recent_activities(data, 3)
+    last_run = next((a for a in recent_acts if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
+    days_since_run = None
+    if last_run:
+        last_run_date = date.fromisoformat((last_run.get("startTimeLocal") or "")[:10])
+        days_since_run = (today - last_run_date).days
 
-ATHLETE CONTEXT:
-- Goal: {context.get('goal')}
-- Health notes: {'; '.join(context.get('health_notes', []))}
-- Key context: {'; '.join(context.get('key_context', []))}
-- Easy run HR cap: {context.get('hr_zones', {}).get('easy_max', 135)} bpm
-- Current training phase: {current_phase['name'] if current_phase else 'Unknown'} — {current_phase['focus'] if current_phase else ''}
+    # --- Recovery score (composite) ---
+    # Use TR if available, else estimate from BB + HRV
+    recovery_score = tr_score
+    if recovery_score is None and bb_peak is not None:
+        recovery_score = bb_peak  # rough proxy
 
-GARMIN DATA (last 7 days):
-{json.dumps(data_summary, indent=2, default=str)}
+    # --- Decision logic ---
+    phase_name = current_phase["name"] if current_phase else "Training"
+    phase_focus = current_phase["focus"] if current_phase else ""
 
-Write a daily coaching briefing. Be direct, specific, personal, and use the actual numbers.
+    # Headline
+    if recovery_score is not None:
+        if recovery_score >= 75:
+            headline = "Recovery looks strong — green light to run today."
+        elif recovery_score >= 50:
+            headline = "Moderate recovery — keep it easy today."
+        else:
+            headline = "Low readiness — prioritise rest or a very short walk."
+    else:
+        headline = "Check your Garmin for today's readiness before heading out."
 
-Format:
-**[One-line headline assessment]**
+    # Today's recommendation
+    lines = [f"**{headline}**", ""]
 
-[2–3 short paragraphs covering: what the data says today, exactly what to do today with specifics (distance, pace, HR cap), and one forward-looking note about the coming days.]
+    # Body paragraph 1 — what the numbers say
+    metrics_parts = []
+    if tr_score is not None:
+        metrics_parts.append(f"Training Readiness is {tr_score}")
+    if bb_peak is not None:
+        metrics_parts.append(f"Body Battery peaked at {bb_peak}")
+    if rhr is not None:
+        metrics_parts.append(f"resting HR is {rhr} bpm")
+    if hrv is not None:
+        status_note = f" ({hrv_status.lower()})" if hrv_status else ""
+        metrics_parts.append(f"HRV last night was {hrv} ms{status_note}")
+    if stress is not None:
+        stress_label = "low" if stress < 26 else ("moderate" if stress < 51 else "elevated")
+        metrics_parts.append(f"average stress was {stress} ({stress_label})")
 
-Under 180 words total. Second person. No bullet lists."""
+    if metrics_parts:
+        lines.append("Your numbers today: " + ", ".join(metrics_parts) + ".")
+        lines.append("")
 
-    client = anthropic.Anthropic(api_key=api_key)
-    message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=350,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return message.content[0].text
+    # Body paragraph 2 — what to do
+    if recovery_score is not None and recovery_score >= 75:
+        if phase_name == "Confirm Recovery":
+            lines.append(
+                f"Stick to the recovery protocol: easy 5–6 km at 7:00–7:30/km, "
+                f"HR under {easy_hr_cap} bpm. Singapore heat will push your HR up — "
+                f"slow down rather than let it creep above the cap."
+            )
+        elif phase_name == "Rebuild Base":
+            lines.append(
+                f"Good day to extend your long run. Aim for 8–10 km at an easy conversational pace, "
+                f"HR under {easy_hr_cap} bpm. Focus on time on feet, not pace."
+            )
+        elif phase_name in ("Build + Hike Prep", "Peak Block"):
+            lines.append(
+                f"Readiness supports a quality session. Consider a tempo effort: "
+                f"10–12 km with 20 min at 155–165 bpm in the middle. "
+                f"Warm up and cool down easy."
+            )
+        elif phase_name == "Norway Hiking":
+            lines.append(
+                "You're in Norway — today's hiking is your training. Enjoy it. "
+                "Focus on fuelling well and managing your knees on the descents."
+            )
+        else:
+            lines.append(
+                f"Good recovery — an easy 5–6 km run today is well within range. "
+                f"Keep HR under {easy_hr_cap} bpm."
+            )
+    elif recovery_score is not None and recovery_score >= 50:
+        lines.append(
+            f"Keep today easy: 4–5 km at a relaxed pace, HR strictly under {easy_hr_cap} bpm. "
+            f"If you feel flat after 10 minutes, turn around. No hero miles today."
+        )
+    else:
+        lines.append(
+            "Skip the run today. Rest, hydrate, and get to bed early. "
+            "One rest day now protects the whole training block."
+        )
+
+    lines.append("")
+
+    # Body paragraph 3 — forward look
+    if days_since_run is not None and days_since_run == 0:
+        lines.append(f"{days_to_race} days to race. You ran today — good consistency.")
+    elif days_since_run is not None:
+        lines.append(
+            f"{days_to_race} days to race. Last run was {days_since_run} day{'s' if days_since_run != 1 else ''} ago — "
+            f"aim to keep the 3×/week rhythm going. Phase: {phase_name} — {phase_focus}."
+        )
+    else:
+        lines.append(
+            f"{days_to_race} days to race. Phase: {phase_name} — {phase_focus}."
+        )
+
+    return "\n".join(lines)
 
 
 def js_arr(lst):
