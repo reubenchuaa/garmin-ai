@@ -1,23 +1,23 @@
-**Recovery is holding — four solid runs since illness, body responding well.**
+**Recovery is holding — four controlled runs back, your engine is warming up right on schedule.**
 
 ---
 
 **What the numbers say**
 
-Training Readiness: 87/100 (HIGH), "Well Recovered." RHR is 62 today — that's a 3-beat drop from your 64-65 range earlier this week, a clear upward trend post-fever. Body Battery peaked at 86 and finished the day at 39 after today's run. Stress average is 28, consistently calm all week.
+Resting HR hit 62 today — down from 64–65 earlier this week, a clear positive trend post-fever. Training Readiness was 87 (HIGH, "Well Recovered") before your run, settled to 70 (MODERATE) after — normal drop for an active session. Body Battery peaked at 86, finished at 39 after today's effort. Stress average: 28, consistently calm all week.
 
-Run log this week: Jun 25 (5.0km, 7:30/km, avg HR 116), Jun 27 (10.6km, 7:34/km, avg HR 130 — max touched 156 briefly), Jun 29 (5.0km, 7:13/km, avg HR 132), Jun 30 (5.4km, 6:53/km, avg HR 131). All four kept average HR under the 135 cap. The pace improvement — 7:30 down to 6:53 at the same effort — tells you your aerobic engine is coming back.
+Run log since returning: Jun 25 (5.0km, 7:30/km, avg HR 116), Jun 27 (10.6km, 7:34/km, avg HR 130 — max briefly touched 156), Jun 29 (5.0km, 7:13/km, avg HR 132), Jun 30 (5.4km, 6:53/km, avg HR 131). Every single run kept average HR under your 135 cap. Pace improving 37 sec/km over four runs at the same effort — your aerobic base is coming back fast.
 
-**Today (Jun 30) — DONE**
+**Today (Jun 30) — already done**
 
-Today's run is complete: 5.4km at 6:53/km, avg HR 131. Good work. HR stayed controlled, cadence held at 165 spm. Rest up tonight.
+5.4km at 6:53/km, avg HR 131. Controlled, cadence 165 spm, aerobic base maintained. Job done — rest tonight.
 
 **3-Day Plan**
 
-- **Today (Jun 30):** ✓ 5.4km easy — session complete, job done.
-- **Tomorrow (Jul 1):** Full rest. Walk if you want, no running. Let that body battery recover overnight.
-- **Day after (Jul 2):** Easy 5km, target 7:00–7:15/km, HR cap 135. Stop if knee gives any signal.
+- **Today (Jun 30):** ✓ Run complete. Hydrate, legs up.
+- **Tomorrow (Jul 1):** Full rest day. Walk only. Let body battery recharge above 70+.
+- **Day after (Jul 2):** Easy 5km, 7:00–7:15/km, HR cap 130. Watch the knee if it shows any signal.
 
 **Looking ahead**
 
-You complete the Confirm Recovery phase (Jun 28–Jul 4) in good shape. From Jul 5, Rebuild Base begins — long run extends to 10–11km. If this week stays clean, you'll enter that phase ahead of schedule.
+Confirm Recovery phase ends Jul 4. You're entering it strong. If Jul 2 goes clean, the Jul 5 Rebuild Base phase — long runs up to 11km — starts ahead of where it needed to.
