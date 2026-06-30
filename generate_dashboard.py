@@ -296,6 +296,20 @@ def generate_html(data, context, coaching_text):
     tr_score = tr_list[0].get("score") if tr_list else None
     tr_level = tr_list[0].get("level", "—") if tr_list else "—"
 
+    # Performance metrics
+    perf_all = data.get("performance", {})
+    perf = perf_all.get(today.isoformat()) or (perf_all.get(sorted(perf_all.keys())[-1]) if perf_all else {})
+    acwr = perf.get("acwr")
+    acwr_status = (perf.get("acwr_status") or "").replace("_", " ").title()
+    acwr_s = f"{acwr:.2f}" if acwr else "—"
+    acwr_color = "#10b981" if acwr and acwr < 1.0 else ("#f59e0b" if acwr and acwr < 1.3 else "#ef4444")
+    race_pred_hm = perf.get("race_pred_hm") or "—"
+    training_status = (perf.get("training_status") or "—").replace("_", " ").replace("2", "").title().strip()
+    heat_pct = perf.get("heat_acclimation_pct")
+    heat_s = f"{heat_pct}%" if heat_pct is not None else "—"
+    vo2_precise = perf.get("vo2max_precise")
+    vo2_s = f"{vo2_precise:.1f}" if vo2_precise else "—"
+
     tr_color = "#6b7280"
     if tr_score is not None:
         if tr_score >= 75: tr_color = "#10b981"
@@ -551,6 +565,11 @@ tr:last-child td{{border-bottom:none}}
     <div class="card"><div class="lbl">Stress</div><div class="val">{stress}</div><div class="sub2">avg</div></div>
     <div class="card"><div class="lbl">Sleep</div><div class="val" style="font-size:1.1rem">{sleep_str}</div><div class="sub2">score {sleep_score}</div></div>
     <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">{steps}</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:{acwr_color}">{acwr_s}</div><div class="sub2">ACWR · {acwr_status}</div></div>
+    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem">{race_pred_hm}</div><div class="sub2">goal 1:45–1:50</div></div>
+    <div class="card"><div class="lbl">VO2 Max</div><div class="val">{vo2_s}</div><div class="sub2">ml/kg/min</div></div>
+    <div class="card"><div class="lbl">Heat Adapt</div><div class="val">{heat_s}</div><div class="sub2">acclimatised</div></div>
+    <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">{training_status}</div><div class="sub2">Garmin</div></div>
   </div>
 </div>
 

@@ -8,23 +8,41 @@ git pull --quiet
 
 # Run Claude to reason about the data and write coach_note.md
 /opt/homebrew/bin/claude --dangerously-skip-permissions -p "
-You are a running coach for Reuben. Read the file garmin/data.json and context.json in the current directory.
+You are an expert running coach for Reuben. Read garmin/data.json and context.json in the current directory.
 
-Based on the last 7 days of Garmin data and his training context, write a coach note to garmin/coach_note.md.
+From data.json, extract and reason about:
+- Last 7 days of wellness (training_readiness, body_battery, HRV, resting HR, sleep, stress)
+- Recent activities (distance, pace, avg HR, cadence, HR zones, training load)
+- performance[most recent date]: training_status, acwr + acwr_status, acute_load, chronic_load, load_balance_feedback, vo2max_precise, heat_acclimation_pct, heat_trend
+- race_pred_hm (current predicted half marathon time vs goal of 1:45-1:50)
+- Any missed runs (gaps in activity dates vs expected 3x/week cadence)
 
-The note should include:
-1. A one-line headline (bold) assessing today's readiness
-2. What the numbers say (use actual values)
-3. What to do TODAY specifically — session type, distance, pace, HR cap
-4. Adapt based on missed runs, recovery trends, or anything notable
-5. A 3-day plan (Today, Tomorrow, Day after) with specific sessions
-6. One forward-looking note about the week or phase
+Write a coach note to garmin/coach_note.md with:
 
-Be direct, specific, and personal. Under 250 words. Write in second person.
-Write ONLY the markdown content to garmin/coach_note.md — nothing else.
+**[Bold headline: one sharp sentence on today's status]**
+
+**What your data says**
+2-3 sentences using actual numbers. Include ACWR ratio and what it means (safe to build / at risk), predicted HM time vs goal, training status phrase in plain English, and heat acclimatisation progress.
+
+**Today's session**
+Specific: session type, exact distance, pace range, HR cap. Adapt if ACWR is high (>1.3 = back off), if readiness is low (<50 = rest), or if there's a missed run to account for.
+
+**3-Day Plan**
+- Today (day+0, weekday): specific session
+- Tomorrow (day+1, weekday): specific session
+- Day after (day+2, weekday): specific session
+
+**This week's focus**
+One sentence on the phase goal and one thing to watch (knee, cadence, HR discipline, load ratio).
+
+Be direct, use real numbers, adapt to what actually happened. Under 280 words.
+Write ONLY the markdown to garmin/coach_note.md.
 " 2>/dev/null
 
-# Push the updated coach note back to GitHub
-git add garmin/coach_note.md
+# Regenerate dashboard with new coach note
+python3 generate_dashboard.py 2>/dev/null
+
+# Push everything back to GitHub
+git add garmin/coach_note.md docs/index.html garmin/data.json
 git diff --cached --quiet || git commit -m "coach: $(date '+%Y-%m-%d %H:%M')"
 git push --quiet

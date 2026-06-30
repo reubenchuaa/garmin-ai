@@ -342,6 +342,66 @@ def sync(days=3):
         print(f"  Wellness: {fname}")
         written.append(fname)
 
+    # Fetch daily performance metrics (once per sync, for today)
+    performance = {}
+    today_str = today.isoformat()
+
+    try:
+        ts = client.get_training_status(today_str) or {}
+        # Extract key fields
+        latest = {}
+        ts_map = (ts.get("mostRecentTrainingStatus") or {}).get("latestTrainingStatusData") or {}
+        if ts_map:
+            latest = next(iter(ts_map.values()), {})
+        acwr = (latest.get("acuteTrainingLoadDTO") or {})
+        load_balance_map = (ts.get("mostRecentTrainingLoadBalance") or {}).get("metricsTrainingLoadBalanceDTOMap") or {}
+        load_balance = next(iter(load_balance_map.values()), {}) if load_balance_map else {}
+        vo2_data = (ts.get("mostRecentVO2Max") or {}).get("generic") or {}
+        heat = (ts.get("mostRecentVO2Max") or {}).get("heatAltitudeAcclimation") or {}
+
+        performance["training_status"] = latest.get("trainingStatusFeedbackPhrase")
+        performance["fitness_trend"] = latest.get("fitnessTrend")
+        performance["acwr"] = acwr.get("dailyAcuteChronicWorkloadRatio")
+        performance["acwr_status"] = acwr.get("acwrStatus")
+        performance["acute_load"] = acwr.get("dailyTrainingLoadAcute")
+        performance["chronic_load"] = acwr.get("dailyTrainingLoadChronic")
+        performance["aerobic_low_load"] = load_balance.get("monthlyLoadAerobicLow")
+        performance["aerobic_high_load"] = load_balance.get("monthlyLoadAerobicHigh")
+        performance["load_balance_feedback"] = load_balance.get("trainingBalanceFeedbackPhrase")
+        performance["vo2max_precise"] = vo2_data.get("vo2MaxPreciseValue")
+        performance["heat_acclimation_pct"] = heat.get("heatAcclimationPercentage")
+        performance["heat_trend"] = heat.get("heatTrend")
+        print(f"  Training status: {performance['training_status']}, ACWR: {performance['acwr']}")
+    except Exception as e:
+        print(f"  Warning: training status — {e}")
+
+    try:
+        rp = client.get_race_predictions() or {}
+        def secs_to_time(s):
+            if not s: return None
+            h, m = divmod(int(s) // 60, 60)
+            return f"{h}:{m:02d}:{int(s)%60:02d}" if h else f"{m}:{int(s)%60:02d}"
+        performance["race_pred_5k"] = secs_to_time(rp.get("time5K"))
+        performance["race_pred_10k"] = secs_to_time(rp.get("time10K"))
+        performance["race_pred_hm"] = secs_to_time(rp.get("timeHalfMarathon"))
+        performance["race_pred_marathon"] = secs_to_time(rp.get("timeMarathon"))
+        print(f"  Race predictions — HM: {performance['race_pred_hm']}")
+    except Exception as e:
+        print(f"  Warning: race predictions — {e}")
+
+    try:
+        resp = client.get_respiration_data(today_str) or {}
+        performance["avg_respiration"] = resp.get("avgWakingRespirationValue")
+        performance["sleep_respiration"] = resp.get("avgSleepRespirationValue")
+    except Exception as e:
+        print(f"  Warning: respiration — {e}")
+
+    try:
+        spo2 = client.get_spo2_data(today_str) or {}
+        performance["avg_spo2"] = (spo2.get("averages") or {}).get("average")
+    except Exception as e:
+        print(f"  Warning: SpO2 — {e}")
+
     # Merge into accumulated data.json
     existing = {}
     if DATA_FILE.exists():
@@ -350,6 +410,12 @@ def sync(days=3):
         except Exception:
             existing = {}
     merged = merge_data(existing, new_activities, new_wellness)
+
+    # Store performance metrics by date
+    perf_by_date = existing.get("performance", {})
+    perf_by_date[today_str] = performance
+    merged["performance"] = perf_by_date
+
     DATA_FILE.write_text(json.dumps(merged, indent=2, default=str))
     print(f"\nAll data saved to garmin/data.json")
     print(f"Markdown notes written: {len(written)} files")
