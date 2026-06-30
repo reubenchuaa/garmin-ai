@@ -310,6 +310,105 @@ def generate_html(data, context, coaching_text):
     chart_rhr     = js_arr([g(w, "wellness", "restingHeartRate") for w in wellness_14])
     chart_hrv     = js_arr([g(w, "hrv", "hrvSummary", "lastNight") for w in wellness_14])
 
+    # Latest run review
+    latest_run = next((a for a in get_recent_activities(data, 1) if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
+    run_review_html = ""
+    if latest_run:
+        lr = latest_run
+        lr_date = (lr.get("startTimeLocal") or "")[:10]
+        lr_name = lr.get("activityName", "Run")
+        lr_dist = lr.get("distance", 0)
+        lr_dist_s = f"{lr_dist/1000:.2f} km" if lr_dist else "—"
+        lr_dur = int(lr.get("duration") or 0)
+        lr_dur_s = f"{lr_dur//60}m" if lr_dur < 3600 else f"{lr_dur//3600}h {(lr_dur%3600)//60}m"
+        lr_spd = lr.get("averageSpeed", 0)
+        lr_pace = f"{int((1/lr_spd)*1000//60)}:{int((1/lr_spd)*1000%60):02d}/km" if lr_spd else "—"
+        lr_hr_avg = lr.get("averageHR") or "—"
+        lr_hr_max = lr.get("maxHR") or "—"
+        lr_cad = None
+        lr_te = lr.get("aerobicTrainingEffect")
+        lr_te_s = f"{lr_te:.1f}" if lr_te else "—"
+        lr_load = None
+        lr_z2_pct = None
+        lr_zones_html = ""
+        details = lr.get("_details", {})
+        if details:
+            summary = details.get("summaryDTO", {})
+            lr_cad = summary.get("averageRunningCadenceInStepsPerMinute") or lr.get("averageRunningCadenceInStepsPerMinute")
+            lr_load = summary.get("trainingLoad") or lr.get("activityTrainingLoad")
+            hr_zones = details.get("heartRateDTOs", [])
+            if hr_zones:
+                total_secs = sum(z.get("secsInZone", 0) for z in hr_zones)
+                z_names = ["Z1 Warm-up", "Z2 Easy", "Z3 Aerobic", "Z4 Threshold", "Z5 Max"]
+                z_colors = ["#64748b", "#10b981", "#f59e0b", "#f97316", "#ef4444"]
+                z1z2 = sum(z.get("secsInZone", 0) for z in hr_zones[:2])
+                lr_z2_pct = round(z1z2 / total_secs * 100) if total_secs else None
+                for i, z in enumerate(hr_zones[:5]):
+                    secs = z.get("secsInZone", 0)
+                    pct = round(secs / total_secs * 100) if total_secs else 0
+                    m, s = divmod(int(secs), 60)
+                    zn = z_names[i] if i < len(z_names) else f"Z{i+1}"
+                    zc = z_colors[i]
+                    lr_zones_html += f"""<div style="margin-bottom:6px">
+                      <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:2px">
+                        <span style="color:{zc};font-weight:600">{zn}</span>
+                        <span style="color:#94a3b8">{m}m {s}s &nbsp;{pct}%</span>
+                      </div>
+                      <div style="background:#0f172a;border-radius:4px;height:6px">
+                        <div style="background:{zc};width:{pct}%;height:6px;border-radius:4px"></div>
+                      </div>
+                    </div>\n"""
+
+        # Coaching verdict on the run
+        verdict_parts = []
+        if lr_hr_avg != "—" and isinstance(lr_hr_avg, (int, float)):
+            easy_cap = context.get("hr_zones", {}).get("easy_max", 135)
+            if lr_hr_avg <= easy_cap:
+                verdict_parts.append(f"HR well controlled at {lr_hr_avg} bpm avg — good discipline.")
+            elif lr_hr_avg <= easy_cap + 5:
+                verdict_parts.append(f"HR slightly above cap ({lr_hr_avg} bpm avg vs {easy_cap} target) — acceptable in the heat.")
+            else:
+                verdict_parts.append(f"HR ran high at {lr_hr_avg} bpm avg — aim to slow down earlier next time.")
+        if lr_cad:
+            if lr_cad < 160:
+                verdict_parts.append(f"Cadence {lr_cad:.0f} spm — work on quicker turnover, aim for 170+.")
+            elif lr_cad < 170:
+                verdict_parts.append(f"Cadence {lr_cad:.0f} spm — improving, keep nudging toward 170.")
+            else:
+                verdict_parts.append(f"Cadence {lr_cad:.0f} spm — excellent turnover.")
+        if lr_z2_pct is not None:
+            if lr_z2_pct >= 80:
+                verdict_parts.append(f"{lr_z2_pct}% in Z1-Z2 — truly easy. Perfect for this phase.")
+            elif lr_z2_pct >= 60:
+                verdict_parts.append(f"{lr_z2_pct}% in Z1-Z2 — some Z3 drift, common in the heat.")
+            else:
+                verdict_parts.append(f"Only {lr_z2_pct}% in Z1-Z2 — this ran harder than easy. Slow it down next time.")
+        verdict = " ".join(verdict_parts) if verdict_parts else "Good effort — keep the consistency going."
+
+        cad_s = f"{lr_cad:.0f} spm" if lr_cad else "—"
+        load_s = f"{lr_load:.0f}" if lr_load else "—"
+
+        run_review_html = f"""<div class="run-review">
+  <div class="run-header">
+    <div>
+      <div class="run-title">{lr_name}</div>
+      <div class="run-date">{lr_date}</div>
+    </div>
+    <div class="run-stat-row">
+      <div class="run-stat"><span class="rs-val">{lr_dist_s}</span><span class="rs-lbl">Distance</span></div>
+      <div class="run-stat"><span class="rs-val">{lr_pace}</span><span class="rs-lbl">Avg Pace</span></div>
+      <div class="run-stat"><span class="rs-val">{lr_dur_s}</span><span class="rs-lbl">Time</span></div>
+      <div class="run-stat"><span class="rs-val">{lr_hr_avg}</span><span class="rs-lbl">Avg HR</span></div>
+      <div class="run-stat"><span class="rs-val">{lr_hr_max}</span><span class="rs-lbl">Max HR</span></div>
+      <div class="run-stat"><span class="rs-val">{cad_s}</span><span class="rs-lbl">Cadence</span></div>
+      <div class="run-stat"><span class="rs-val">{lr_te_s}</span><span class="rs-lbl">Training Effect</span></div>
+      <div class="run-stat"><span class="rs-val">{load_s}</span><span class="rs-lbl">Training Load</span></div>
+    </div>
+  </div>
+  {"<div class='run-zones'><div class='run-zones-title'>HR Zones</div>" + lr_zones_html + "</div>" if lr_zones_html else ""}
+  <div class="run-verdict">💬 {verdict}</div>
+</div>"""
+
     # Activities table
     acts_rows = ""
     for act in get_recent_activities(data, 8):
@@ -405,6 +504,17 @@ tr:last-child td{{border-bottom:none}}
 .phase-focus{{font-size:0.73rem;color:#94a3b8;text-align:right}}
 .phase-current .phase-focus{{color:#93c5fd}}
 .now-tag{{background:#3b82f6;color:#fff;font-size:0.6rem;font-weight:700;padding:2px 6px;border-radius:4px;text-transform:uppercase}}
+.run-review{{background:#1e293b;border-radius:10px;padding:14px;border:1px solid #334155;margin-bottom:8px}}
+.run-header{{margin-bottom:12px}}
+.run-title{{font-size:1rem;font-weight:700;color:#f1f5f9}}
+.run-date{{font-size:0.72rem;color:#64748b;margin-top:2px}}
+.run-stat-row{{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}}
+.run-stat{{display:flex;flex-direction:column;min-width:60px}}
+.rs-val{{font-size:0.95rem;font-weight:700;color:#f1f5f9}}
+.rs-lbl{{font-size:0.62rem;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-top:1px}}
+.run-zones{{margin:10px 0}}
+.run-zones-title{{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#475569;margin-bottom:8px}}
+.run-verdict{{background:#0f172a;border-radius:8px;padding:10px 12px;font-size:0.82rem;color:#94a3b8;margin-top:10px;line-height:1.5}}
 .footer{{font-size:0.65rem;color:#334155;text-align:center;padding:20px 0 12px}}
 @media(max-width:520px){{
   .tr-wrap{{grid-template-columns:1fr}}
@@ -448,6 +558,9 @@ tr:last-child td{{border-bottom:none}}
 <div class="coach-card">
   {coach_html}
 </div>
+
+<div class="sec">Latest Run Review</div>
+{run_review_html if run_review_html else '<div class="box" style="color:#475569;font-size:0.85rem">No recent run data yet.</div>'}
 
 <div class="sec">14-Day Trends</div>
 <div class="box"><h3>Body Battery</h3><canvas id="bb" height="75"></canvas></div>

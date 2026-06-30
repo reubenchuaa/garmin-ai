@@ -50,6 +50,17 @@ tr:last-child td{border-bottom:none}
 .phase-focus{font-size:0.73rem;color:#94a3b8;text-align:right}
 .phase-current .phase-focus{color:#93c5fd}
 .now-tag{background:#3b82f6;color:#fff;font-size:0.6rem;font-weight:700;padding:2px 6px;border-radius:4px;text-transform:uppercase}
+.run-review{background:#1e293b;border-radius:10px;padding:14px;border:1px solid #334155;margin-bottom:8px}
+.run-header{margin-bottom:12px}
+.run-title{font-size:1rem;font-weight:700;color:#f1f5f9}
+.run-date{font-size:0.72rem;color:#64748b;margin-top:2px}
+.run-stat-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.run-stat{display:flex;flex-direction:column;min-width:60px}
+.rs-val{font-size:0.95rem;font-weight:700;color:#f1f5f9}
+.rs-lbl{font-size:0.62rem;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-top:1px}
+.run-zones{margin:10px 0}
+.run-zones-title{font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#475569;margin-bottom:8px}
+.run-verdict{background:#0f172a;border-radius:8px;padding:10px 12px;font-size:0.82rem;color:#94a3b8;margin-top:10px;line-height:1.5}
 .footer{font-size:0.65rem;color:#334155;text-align:center;padding:20px 0 12px}
 @media(max-width:520px){
   .tr-wrap{grid-template-columns:1fr}
@@ -101,6 +112,28 @@ tr:last-child td{border-bottom:none}
 <p><strong>Day after (Thu):</strong> Rest or easy walk. Let your body absorb the training.</p>
 <p>*89 days to race · Phase: Confirm Recovery*</p>
 
+</div>
+
+<div class="sec">Latest Run Review</div>
+<div class="run-review">
+  <div class="run-header">
+    <div>
+      <div class="run-title">Singapore Running</div>
+      <div class="run-date">2026-06-30</div>
+    </div>
+    <div class="run-stat-row">
+      <div class="run-stat"><span class="rs-val">5.39 km</span><span class="rs-lbl">Distance</span></div>
+      <div class="run-stat"><span class="rs-val">6:53/km</span><span class="rs-lbl">Avg Pace</span></div>
+      <div class="run-stat"><span class="rs-val">37m</span><span class="rs-lbl">Time</span></div>
+      <div class="run-stat"><span class="rs-val">131.0</span><span class="rs-lbl">Avg HR</span></div>
+      <div class="run-stat"><span class="rs-val">143.0</span><span class="rs-lbl">Max HR</span></div>
+      <div class="run-stat"><span class="rs-val">165 spm</span><span class="rs-lbl">Cadence</span></div>
+      <div class="run-stat"><span class="rs-val">2.5</span><span class="rs-lbl">Training Effect</span></div>
+      <div class="run-stat"><span class="rs-val">43</span><span class="rs-lbl">Training Load</span></div>
+    </div>
+  </div>
+  
+  <div class="run-verdict">💬 HR well controlled at 131.0 bpm avg — good discipline. Cadence 165 spm — improving, keep nudging toward 170.</div>
 </div>
 
 <div class="sec">14-Day Trends</div>
