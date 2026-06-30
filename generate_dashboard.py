@@ -623,8 +623,13 @@ if __name__ == "__main__":
     DOCS_DIR.mkdir(exist_ok=True)
     data = load_data()
     context = load_context()
-    print("Calling Claude for coaching text...")
-    coaching = get_coaching(data, context)
+    coach_note_file = SCRIPT_DIR / "garmin" / "coach_note.md"
+    if coach_note_file.exists():
+        print("Using Claude coach note...")
+        coaching = coach_note_file.read_text().strip()
+    else:
+        print("Generating rule-based coaching text...")
+        coaching = get_coaching(data, context)
     print("Generating dashboard...")
     html = generate_html(data, context, coaching)
     OUTPUT_FILE.write_text(html)
