@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Garmin sync script — pulls recent activities and daily wellness data."""
 
+import base64
 import json
 import os
 import sys
 import getpass
+import shutil
+import tempfile
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -22,19 +25,24 @@ def load_client():
     In GitHub Actions, reads token from GARMIN_TOKEN_B64 env var.
     Locally, reads from the .garmin_tokens folder.
     """
-    import base64, tempfile, shutil
     from garminconnect import Garmin
 
     token_b64 = os.environ.get("GARMIN_TOKEN_B64")
     if token_b64:
-        # GitHub Actions path: decode token bundle to a temp directory
+        # GitHub Actions path: load garth token directly, skip login()
+        import garth as garth_module
         bundle = json.loads(base64.b64decode(token_b64).decode())
         tmp = Path(tempfile.mkdtemp())
         for fname, data in bundle.items():
             (tmp / fname).write_text(json.dumps(data))
-        client = Garmin("noop", "noop")
-        client.login(tokenstore=str(tmp))
+        garth_client = garth_module.Client()
+        garth_client.load(str(tmp))
         shutil.rmtree(tmp, ignore_errors=True)
+        client = Garmin("noop", "noop")
+        client.garth = garth_client
+        client.display_name = garth_client.profile.get("displayName", "user")
+        client.full_name = garth_client.profile.get("fullName", "user")
+        client.unit_system = "metric"
         return client
 
     if TOKEN_DIR.exists():
