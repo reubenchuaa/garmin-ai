@@ -297,12 +297,18 @@ def generate_html(data, context, coaching_text):
     stress = g(today_w, "wellness", "averageStressLevel") or "—" if today_w else "—"
     steps_raw = g(today_w, "wellness", "totalSteps") if today_w else None
     steps = f"{steps_raw:,}" if isinstance(steps_raw, int) else "—"
-    hrv_n = g(today_w, "hrv", "hrvSummary", "lastNight") or "—" if today_w else "—"
-    hrv_w = g(today_w, "hrv", "hrvSummary", "weeklyAvg") or "—" if today_w else "—"
-    hrv_s = g(today_w, "hrv", "hrvSummary", "status") or "—" if today_w else "—"
-    sleep_secs = g(today_w, "sleep", "dailySleepDTO", "sleepTimeSeconds") if today_w else None
-    sleep_str = f"{int(sleep_secs)//3600}h {(int(sleep_secs)%3600)//60}m" if sleep_secs else "—"
-    sleep_score = g(today_w, "sleep", "dailySleepDTO", "sleepScores", "overall", "value") or "—" if today_w else "—"
+    # Extra wellness metrics
+    ww = (today_w or {}).get("wellness", {})
+    intensity_mod = ww.get("moderateIntensityMinutes") or 0
+    intensity_vig = ww.get("vigorousIntensityMinutes") or 0
+    intensity_total = intensity_mod + intensity_vig
+    intensity_str = f"{intensity_total}" if intensity_total else "—"
+    active_cal = ww.get("activeKilocalories")
+    active_cal_str = f"{int(active_cal)}" if active_cal else "—"
+    distance_m = ww.get("totalDistanceMeters")
+    distance_str = f"{distance_m/1000:.1f}" if distance_m else "—"
+    floors_raw = ww.get("floorsAscended")
+    floors_str = f"{int(floors_raw)}" if floors_raw else "—"
     tr_list = (today_w or {}).get("training_readiness", [])
     tr_score = tr_list[0].get("score") if tr_list else None
     tr_level = tr_list[0].get("level", "—") if tr_list else "—"
@@ -334,7 +340,7 @@ def generate_html(data, context, coaching_text):
     chart_bb_low  = js_arr([g(w, "wellness", "bodyBatteryLowestValue") for w in wellness_14])
     chart_tr      = js_arr([g(w, "training_readiness", 0, "score") if w.get("training_readiness") else None for w in wellness_14])
     chart_rhr     = js_arr([g(w, "wellness", "restingHeartRate") for w in wellness_14])
-    chart_hrv     = js_arr([g(w, "hrv", "hrvSummary", "lastNight") for w in wellness_14])
+    chart_stress  = js_arr([g(w, "wellness", "averageStressLevel") for w in wellness_14])
 
     # Latest run review
     latest_run = next((a for a in get_recent_activities(data, 1) if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
@@ -573,10 +579,12 @@ tr:last-child td{{border-bottom:none}}
   <div class="cards" style="margin:0">
     <div class="card"><div class="lbl">Resting HR</div><div class="val">{rhr}</div><div class="sub2">bpm</div></div>
     <div class="card"><div class="lbl">Body Battery</div><div class="val">{bb_hi}</div><div class="sub2">peak · {bb_lo} low</div></div>
-    <div class="card"><div class="lbl">HRV</div><div class="val">{hrv_n}</div><div class="sub2">ms · {hrv_s}</div></div>
     <div class="card"><div class="lbl">Stress</div><div class="val">{stress}</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Sleep</div><div class="val" style="font-size:1.1rem">{sleep_str}</div><div class="sub2">score {sleep_score}</div></div>
     <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">{steps}</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Intensity</div><div class="val">{intensity_str}</div><div class="sub2">min (mod+vig)</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">{active_cal_str}</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Distance</div><div class="val">{distance_str}</div><div class="sub2">km today</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">{floors_str}</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:{acwr_color}">{acwr_s}</div><div class="sub2">ACWR · {acwr_status}</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem">{race_pred_hm}</div><div class="sub2">goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">{vo2_s}</div><div class="sub2">ml/kg/min</div></div>
@@ -597,7 +605,7 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Body Battery</h3><canvas id="bb" height="75"></canvas></div>
 <div class="box"><h3>Training Readiness</h3><canvas id="tr" height="75"></canvas></div>
 <div class="box"><h3>Resting Heart Rate</h3><canvas id="rhr" height="75"></canvas></div>
-<div class="box"><h3>HRV Last Night</h3><canvas id="hrv" height="75"></canvas></div>
+<div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
 
 <div class="sec">Recent Activities</div>
 <div class="box" style="overflow-x:auto">
@@ -612,7 +620,7 @@ tr:last-child td{{border-bottom:none}}
   {phase_html}
 </div>
 
-<div class="footer">Garmin Connect · auto-synced daily at 6 AM SGT</div>
+<div class="footer">Garmin Connect · auto-synced hourly 7 AM – 12 AM SGT</div>
 </div>
 
 <script>
@@ -642,10 +650,10 @@ CHART_JS_PLACEHOLDER
         '"type":"line","data":{"labels":L,"datasets":['
         '{"label":"RHR","data":' + chart_rhr + ',"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt()});\n'
-        "new Chart(document.getElementById('hrv'),{"
+        "new Chart(document.getElementById('stress'),{"
         '"type":"line","data":{"labels":L,"datasets":['
-        '{"label":"HRV","data":' + chart_hrv + ',"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}'
-        ']},"options":opt()});\n'
+        '{"label":"Stress","data":' + chart_stress + ',"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}'
+        ']},"options":opt(0,100)});\n'
     )
     return html.replace("CHART_JS_PLACEHOLDER", js)
 
