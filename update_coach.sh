@@ -3,8 +3,11 @@
 
 cd /Users/amandakoh/garmin-ai
 
-# Pull latest data from GitHub
+# Pull latest from GitHub
 git pull --quiet
+
+# Sync latest Garmin data first
+/usr/bin/python3 sync.py 3 2>/dev/null
 
 # Run Claude to reason about the data and write coach_note.md
 # 5-min timeout guard so a hung CLI call can never stall for hours
