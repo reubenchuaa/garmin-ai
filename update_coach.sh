@@ -46,9 +46,13 @@ Be direct, use real numbers, adapt to what actually happened. Under 280 words.
 Write ONLY the markdown to garmin/coach_note.md.
 " 2>/dev/null
 
-# Prepend timestamp to coach note
+# Prepend timestamp to coach note (replace any existing timestamp line)
 if [ -f garmin/coach_note.md ]; then
-  TIMESTAMP="_Updated: $(date '+%a, %d %b %Y at %I:%M %p SGT')_"
+  TIMESTAMP="_Updated: $(date '+%A, %d %b %Y at %I:%M %p SGT')_"
+  # Remove any existing timestamp lines first
+  sed -i '' '/^_Updated:.*SGT_$/d' garmin/coach_note.md
+  # Remove leading blank lines
+  sed -i '' '/./,$!d' garmin/coach_note.md
   echo -e "$TIMESTAMP\n\n$(cat garmin/coach_note.md)" > garmin/coach_note.md
 fi
 

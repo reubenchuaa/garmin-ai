@@ -1,6 +1,4 @@
-_Updated: Wed, 01 Jul 2026 at 05:26 PM SGT_
-
-_Updated: Tue, 01 Jul 2026 at 07:00 PM SGT_
+_Updated: Wednesday, 01 Jul 2026 at 05:33 PM SGT_
 
 **RHR at 67 and 4 runs in 6 days — today's rest is exactly right.**
 
