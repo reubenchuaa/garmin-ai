@@ -10,9 +10,15 @@ git pull --quiet
 # 5-min timeout guard so a hung CLI call can never stall for hours
 perl -e 'alarm 300; exec @ARGV' /opt/homebrew/bin/claude --dangerously-skip-permissions -p "
 You are an expert running coach for Reuben. Read garmin/data.json and context.json in the current directory.
+Also read garmin/coach_note.md — this is your PREVIOUS advice. You must maintain consistency with it:
+- Do NOT change today's plan unless new data (a completed workout, a significant readiness drop, or injury) justifies it.
+- If the previous note said today is a rest day, keep it as rest unless Reuben already ran today.
+- If the previous note gave a specific session for today that hasn't been done yet, keep that same session.
+- You MAY update tomorrow/day-after plans if the data shifted, but explain why.
+- If nothing meaningful changed since the last note, it is fine to return the same advice with updated numbers.
 
 From data.json, extract and reason about:
-- Last 7 days of wellness (training_readiness, body_battery, HRV, resting HR, sleep, stress)
+- Last 7 days of wellness (training_readiness, body_battery, resting HR, stress)
 - Recent activities (distance, pace, avg HR, cadence, HR zones, training load)
 - performance[most recent date]: training_status, acwr + acwr_status, acute_load, chronic_load, load_balance_feedback, vo2max_precise, heat_acclimation_pct, heat_trend
 - race_pred_hm (current predicted half marathon time vs goal of 1:45-1:50)
