@@ -3,7 +3,7 @@
 
 import json
 import os
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -569,7 +569,7 @@ tr:last-child td{{border-bottom:none}}
   <div class="sub">{context.get('race_name','Race')} · {context.get('target_time','')}</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 {days_to_race} days to race</span>
-    <span class="pill pill-green">Synced {datetime.now().strftime('%d %b %Y %I:%M %p')}</span>
+    <span class="pill pill-green">Synced {datetime.now(timezone(timedelta(hours=8))).strftime('%d %b %Y %I:%M %p')} SGT</span>
   </div>
 </div>
 </div>
