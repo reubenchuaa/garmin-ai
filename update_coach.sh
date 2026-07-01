@@ -1,13 +1,14 @@
 #!/bin/bash
 # Runs on Mac wake/login — pulls latest Garmin data and updates coach note via Claude
 
-cd /Users/amandakoh/Desktop/garmin-ai
+cd /Users/amandakoh/garmin-ai
 
 # Pull latest data from GitHub
 git pull --quiet
 
 # Run Claude to reason about the data and write coach_note.md
-/opt/homebrew/bin/claude --dangerously-skip-permissions -p "
+# 5-min timeout guard so a hung CLI call can never stall for hours
+perl -e 'alarm 300; exec @ARGV' /opt/homebrew/bin/claude --dangerously-skip-permissions -p "
 You are an expert running coach for Reuben. Read garmin/data.json and context.json in the current directory.
 
 From data.json, extract and reason about:
