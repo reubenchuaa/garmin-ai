@@ -3,7 +3,7 @@
 
 import json
 import os
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -60,8 +60,13 @@ def get_coaching(data, context):
             current_phase = phase
             break
 
-    # Today's wellness
+    # Today's wellness (fall back to most recent with data)
     today_w = next((w for w in data.get("wellness", []) if w["date"] == today.isoformat()), None)
+    def _coach_has_data(w):
+        return w and g(w, "wellness", "restingHeartRate") is not None
+    if not _coach_has_data(today_w):
+        sorted_well = sorted(data.get("wellness", []), key=lambda x: x["date"], reverse=True)
+        today_w = next((w for w in sorted_well if _coach_has_data(w)), today_w)
     tr_score = None
     bb_peak = None
     rhr = None
@@ -277,7 +282,13 @@ def generate_html(data, context, coaching_text):
     days_to_race = (race_date - today).days
 
     wellness_14 = get_wellness_range(data, 14)
+    # Try today first, fall back to most recent day with actual data
     today_w = next((w for w in wellness_14 if w["date"] == today.isoformat()), None)
+    def _has_data(w):
+        return w and g(w, "wellness", "restingHeartRate") is not None
+    if not _has_data(today_w):
+        sorted_w = sorted(wellness_14, key=lambda x: x["date"], reverse=True)
+        today_w = next((w for w in sorted_w if _has_data(w)), today_w)
 
     # Today's metrics
     rhr = g(today_w, "wellness", "restingHeartRate") or "—" if today_w else "—"
@@ -295,6 +306,7 @@ def generate_html(data, context, coaching_text):
     tr_list = (today_w or {}).get("training_readiness", [])
     tr_score = tr_list[0].get("score") if tr_list else None
     tr_level = tr_list[0].get("level", "—") if tr_list else "—"
+    wellness_date_label = today_w["date"] if today_w and today_w["date"] != today.isoformat() else None
 
     # Performance metrics
     perf_all = data.get("performance", {})
@@ -544,7 +556,7 @@ tr:last-child td{{border-bottom:none}}
   <div class="sub">{context.get('race_name','Race')} · {context.get('target_time','')}</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 {days_to_race} days to race</span>
-    <span class="pill pill-green">Updated {today.isoformat()}</span>
+    <span class="pill pill-green">Synced {datetime.now().strftime('%d %b %Y %I:%M %p')}</span>
   </div>
 </div>
 </div>
