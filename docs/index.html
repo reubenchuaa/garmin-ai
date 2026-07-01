@@ -24,10 +24,10 @@ a{color:inherit;text-decoration:none}
 .card .val{font-size:1.5rem;font-weight:700;color:#f1f5f9;line-height:1}
 .card .sub2{font-size:0.7rem;color:#94a3b8;margin-top:2px}
 .tr-wrap{display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:start}
-.tr-card{background:#1e293b;border-radius:10px;padding:14px 16px;border:2px solid #10b981;min-width:110px;text-align:center}
+.tr-card{background:#1e293b;border-radius:10px;padding:14px 16px;border:2px solid #6b7280;min-width:110px;text-align:center}
 .tr-card .lbl{font-size:0.65rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
-.tr-card .score{font-size:2.8rem;font-weight:800;color:#10b981;line-height:1}
-.tr-card .level{font-size:0.8rem;color:#10b981;font-weight:700;margin-top:3px;text-transform:uppercase}
+.tr-card .score{font-size:2.8rem;font-weight:800;color:#6b7280;line-height:1}
+.tr-card .level{font-size:0.8rem;color:#6b7280;font-weight:700;margin-top:3px;text-transform:uppercase}
 .coach-card{background:#1e293b;border-radius:10px;padding:16px;border-left:3px solid #3b82f6}
 .coach-card p{font-size:0.88rem;line-height:1.65;color:#cbd5e1}
 .coach-card p+p{margin-top:8px}
@@ -75,8 +75,8 @@ tr:last-child td{border-bottom:none}
   <h1>🏃 Reuben · Training Dashboard</h1>
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
-    <span class="pill pill-blue">🏁 88 days to race</span>
-    <span class="pill pill-green">Synced 02 Jul 2026 01:58 AM SGT</span>
+    <span class="pill pill-blue">🏁 87 days to race</span>
+    <span class="pill pill-green">Synced 02 Jul 2026 04:03 AM SGT</span>
   </div>
 </div>
 </div>
@@ -87,18 +87,18 @@ tr:last-child td{border-bottom:none}
 <div class="tr-wrap">
   <div class="tr-card">
     <div class="lbl">Readiness</div>
-    <div class="score">81</div>
-    <div class="level">HIGH</div>
+    <div class="score">—</div>
+    <div class="level">—</div>
   </div>
   <div class="cards" style="margin:0">
-    <div class="card"><div class="lbl">Resting HR</div><div class="val">64</div><div class="sub2">bpm</div></div>
-    <div class="card"><div class="lbl">Body Battery</div><div class="val">82</div><div class="sub2">peak · 24 low</div></div>
-    <div class="card"><div class="lbl">Stress</div><div class="val">30</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">8,716</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Resting HR</div><div class="val">68</div><div class="sub2">bpm</div></div>
+    <div class="card"><div class="lbl">Body Battery</div><div class="val">21</div><div class="sub2">peak · 20 low</div></div>
+    <div class="card"><div class="lbl">Stress</div><div class="val">25</div><div class="sub2">avg</div></div>
+    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">153</div><div class="sub2">today</div></div>
     <div class="card"><div class="lbl">Intensity</div><div class="val">—</div><div class="sub2">min (mod+vig)</div></div>
-    <div class="card"><div class="lbl">Active Cal</div><div class="val">131</div><div class="sub2">kcal</div></div>
-    <div class="card"><div class="lbl">Distance</div><div class="val">6.7</div><div class="sub2">km today</div></div>
-    <div class="card"><div class="lbl">Floors</div><div class="val">22</div><div class="sub2">ascended</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">5</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Distance</div><div class="val">0.1</div><div class="sub2">km today</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">—</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">0.70</div><div class="sub2">ACWR · Low</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem">2:00:37</div><div class="sub2">goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">55.7</div><div class="sub2">ml/kg/min</div></div>
@@ -213,12 +213,12 @@ tr:last-child td{border-bottom:none}
 </div>
 
 <script>
-const L=["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"];
+const L=["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[72,71,64,76,88,42,93,95,93,95,82,null,null,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[5,6,5,32,38,35,41,46,45,26,24,null,null,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,94,85,94,70,81,null,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[68,62,70,71,66,66,64,64,61,65,64,null,null,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[49,55,67,51,31,27,25,30,26,36,30,null,null,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[71,64,76,88,42,93,95,93,95,82,null,null,77,21],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[6,5,32,38,35,41,46,45,26,24,null,null,21,20],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,85,94,70,81,null,70,81,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[62,70,71,66,66,64,64,61,65,64,null,null,67,68],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[55,67,51,31,27,25,30,26,36,30,null,null,34,25],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 
 </script>
 </body>
