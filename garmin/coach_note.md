@@ -1,12 +1,12 @@
-_Updated: Thursday, 02 Jul 2026 at 12:06 AM SGT_
+_Updated: Thursday, 02 Jul 2026 at 12:34 AM SGT_
 
-**Rest confirmed — now deliver the easy 5km you've been building toward.**
+**Rest day held — now go run your 5km and hold the pace cap.**
 
 **What your data says**
-ACWR sits at 0.6 (acute 147 vs chronic 219) — still safely underloaded, no overtraining risk. Readiness scored 81 (HIGH) this morning, though RHR ticked up to 67 (vs 61–65 on clean days) and body battery only peaked at 77, indicating partial recovery — the rest day did its job but you're not fully topped up. HM prediction holds at 2:00:44, 11 min off the 1:50 goal — expected at this stage of rebuild; VO2max 55.7, heat acclimatisation 24%.
+ACWR sits at 0.7 (acute 169 vs chronic 219, status: LOW) — still underloaded, aerobic high shortage flagged, zero overtraining risk. Training status is RECOVERY_2 from Jun 30, appropriate for post-illness rebuild. RHR ticked to 67–68 over the last two days (vs 61–65 on clean days), body battery peaked at 77 yesterday — the rest day did its job; you're close but not fully topped up. HM prediction is 2:00:45, 11 min off the 1:50 goal — on track for the rebuild timeline; VO2max 55.7, heat acclimatisation 24% (still ACCLIMATIZING).
 
 **Today's session**
-Easy run — 5km, 7:20–7:40/km, HR cap 133. Jun 30 drifted to 6:53/km at HR 131: that felt easy but the trend across three runs is clear — each session faster, each session deeper into Z3. Lock into 7:30 on the GPS watch, not by feel. Walk 500m before easing in. If HR hits 133 at any point, slow down — pace is secondary to the cap.
+Easy run — 5km, 7:20–7:40/km, HR cap 133. The pace drift across the last three runs is the one thing to fix: Jun 29 was 7:12/km at HR 132, Jun 30 was 6:53/km at HR 131 — both felt easy, but you're buying speed with HR creep. Walk 500m before starting. Set a pace alert at 7:15/km on the watch and do not cross it. If HR hits 133 at any point, slow to 7:40+ regardless of how easy it feels. Pace is information; HR is the rule.
 
 **3-Day Plan**
 - Today (Thu, Jul 2): Easy 5km, 7:20–7:40/km, HR cap 133 — pace by watch, not feel
@@ -14,4 +14,4 @@ Easy run — 5km, 7:20–7:40/km, HR cap 133. Jun 30 drifted to 6:53/km at HR 13
 - Day after (Sat, Jul 4): Rest — transition day before Rebuild Base begins Sun Jul 5
 
 **This week's focus**
-Close out Confirm Recovery with two clean Z2 runs — the goal this week is discipline, not fitness; lock pace to the HR cap so Rebuild Base starts from a solid foundation, not a drifting one.
+Close out Confirm Recovery with two clean Z2 runs: the only goal is HR discipline, not fitness gains — lock the cap now so Rebuild Base can safely push distance from Sunday onward.
