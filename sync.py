@@ -48,8 +48,9 @@ def load_client():
         shutil.rmtree(tmp, ignore_errors=True)
         client = Garmin("noop", "noop")
         client.garth = garth_client
-        client.display_name = garth_client.profile.get("displayName", "user")
-        client.full_name = garth_client.profile.get("fullName", "user")
+        # Skip profile lookup — it triggers oauth refresh which Garmin blocks from cloud IPs
+        client.display_name = "user"
+        client.full_name = "user"
         client.unit_system = "metric"
         return client
 

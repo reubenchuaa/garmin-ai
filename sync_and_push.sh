@@ -16,4 +16,5 @@ python3 generate_dashboard.py 2>/dev/null
 # Push if anything changed
 git add garmin/ docs/
 git diff --cached --quiet || git commit -m "sync: $(date '+%Y-%m-%d %H:%M')"
+git pull --rebase --quiet 2>/dev/null || true
 git push --quiet
