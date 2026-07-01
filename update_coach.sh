@@ -65,4 +65,5 @@ python3 generate_dashboard.py 2>/dev/null
 # Push everything back to GitHub
 git add garmin/coach_note.md docs/index.html garmin/data.json
 git diff --cached --quiet || git commit -m "coach: $(date '+%Y-%m-%d %H:%M')"
+git pull --rebase --quiet 2>/dev/null || true
 git push --quiet

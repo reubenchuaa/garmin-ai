@@ -43,4 +43,5 @@ jobs:
           git config user.email "sync@garmin-ai"
           git add garmin/ docs/
           git diff --cached --quiet || git commit -m "sync: $(date -u '+%Y-%m-%d')"
+          git pull --rebase --quiet || true
           git push
