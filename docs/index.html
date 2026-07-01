@@ -75,8 +75,8 @@ tr:last-child td{border-bottom:none}
   <h1>🏃 Reuben · Training Dashboard</h1>
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
-    <span class="pill pill-blue">🏁 88 days to race</span>
-    <span class="pill pill-green">Synced 01 Jul 2026 07:44 PM SGT</span>
+    <span class="pill pill-blue">🏁 87 days to race</span>
+    <span class="pill pill-green">Synced 02 Jul 2026 12:06 AM SGT</span>
   </div>
 </div>
 </div>
@@ -109,18 +109,18 @@ tr:last-child td{border-bottom:none}
 
 <div class="sec">Daily Coach</div>
 <div class="coach-card">
-  <p>_Updated: Wednesday, 01 Jul 2026 at 06:49 PM SGT_</p>
-<p><strong>Rest day confirmed — pace discipline now, or every run drifts deeper into tempo territory you haven't earned yet.</strong></p>
+  <p>_Updated: Thursday, 02 Jul 2026 at 12:06 AM SGT_</p>
+<p><strong>Rest confirmed — now deliver the easy 5km you've been building toward.</strong></p>
 <p><strong>What your data says</strong></p>
-<p>ACWR is 0.6 (acute 147 vs chronic 219) — safely underloaded, no overtraining risk; Garmin shows RECOVERY_2 with an aerobic high-zone deficit. The pace drift is the real concern: Jun 27 was 7:34/km (10.6km, avgHR 130, 26 min Z3), Jun 29 jumped to 7:12/km at HR 132 (12 min Z3), and Jun 30 hit 6:53/km at HR 131 (14 min Z3) — each run faster, each run deeper into the wrong zone. HM prediction holds at 2:00:44, 11 min off goal; VO2max 55.7, heat acclimatised 24%.</p>
+<p>ACWR sits at 0.6 (acute 147 vs chronic 219) — still safely underloaded, no overtraining risk. Readiness scored 81 (HIGH) this morning, though RHR ticked up to 67 (vs 61–65 on clean days) and body battery only peaked at 77, indicating partial recovery — the rest day did its job but you're not fully topped up. HM prediction holds at 2:00:44, 11 min off the 1:50 goal — expected at this stage of rebuild; VO2max 55.7, heat acclimatisation 24%.</p>
 <p><strong>Today's session</strong></p>
-<p>REST — no activity logged. RHR 67 (elevated vs 61–65 on cleaner days), body battery peaked at only 77. Three runs in four days with a clear pace-drift pattern warrants a full rest today. Readiness rebounded to 81 (HIGH) by morning — good signal for tomorrow.</p>
+<p>Easy run — 5km, 7:20–7:40/km, HR cap 133. Jun 30 drifted to 6:53/km at HR 131: that felt easy but the trend across three runs is clear — each session faster, each session deeper into Z3. Lock into 7:30 on the GPS watch, not by feel. Walk 500m before easing in. If HR hits 133 at any point, slow down — pace is secondary to the cap.</p>
 <p><strong>3-Day Plan</strong></p>
-<p>- Today (Wed, Jul 1): Rest — let RHR settle back toward 62–64</p>
-<p>- Tomorrow (Thu, Jul 2): Easy 5km, 7:20–7:40/km, HR cap 133. Walk the first 500m before easing in — do not let Jun 30's 6:53 feel become your new normal</p>
-<p>- Day after (Fri, Jul 3): Easy 5km, 7:15–7:35/km, HR cap 133. Final run of Confirm Recovery; Rebuild Base starts Sun Jul 5</p>
+<p>- Today (Thu, Jul 2): Easy 5km, 7:20–7:40/km, HR cap 133 — pace by watch, not feel</p>
+<p>- Tomorrow (Fri, Jul 3): Easy 5km, 7:15–7:35/km, HR cap 133 — final run of Confirm Recovery phase</p>
+<p>- Day after (Sat, Jul 4): Rest — transition day before Rebuild Base begins Sun Jul 5</p>
 <p><strong>This week's focus</strong></p>
-<p>Close out Confirm Recovery with two clean Z2 runs — pace by HR, not feel, because Singapore heat will drag you into Z3 the moment you stop watching the number.</p>
+<p>Close out Confirm Recovery with two clean Z2 runs — the goal this week is discipline, not fitness; lock pace to the HR cap so Rebuild Base starts from a solid foundation, not a drifting one.</p>
 
 </div>
 
@@ -213,12 +213,12 @@ tr:last-child td{border-bottom:none}
 </div>
 
 <script>
-const L=["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"];
+const L=["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[72,71,64,76,88,42,93,95,93,95,82,91,86,77],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[5,6,5,32,38,35,41,46,45,26,24,26,24,30],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,94,85,94,70,81,75,70,81],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[68,62,70,71,66,66,64,64,61,65,64,65,62,67],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[49,55,67,51,31,27,25,30,26,36,30,33,34,34],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[71,64,76,88,42,93,95,93,95,82,91,86,77],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[6,5,32,38,35,41,46,45,26,24,26,24,30],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,85,94,70,81,75,70,81],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[62,70,71,66,66,64,64,61,65,64,65,62,67],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[55,67,51,31,27,25,30,26,36,30,33,34,34],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 
 </script>
 </body>
