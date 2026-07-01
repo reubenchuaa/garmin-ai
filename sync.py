@@ -31,10 +31,18 @@ def load_client():
     if token_b64:
         # GitHub Actions path: load garth token directly, skip login()
         import garth as garth_module
-        bundle = json.loads(base64.b64decode(token_b64).decode())
+        raw = base64.b64decode(token_b64)
         tmp = Path(tempfile.mkdtemp())
-        for fname, data in bundle.items():
-            (tmp / fname).write_text(json.dumps(data))
+        try:
+            # Format 1: JSON dict of files
+            bundle = json.loads(raw.decode())
+            for fname, data in bundle.items():
+                (tmp / fname).write_text(json.dumps(data))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            # Format 2: tar.gz archive
+            import tarfile, io
+            with tarfile.open(fileobj=io.BytesIO(raw), mode='r:gz') as tar:
+                tar.extractall(tmp)
         garth_client = garth_module.Client()
         garth_client.load(str(tmp))
         shutil.rmtree(tmp, ignore_errors=True)
