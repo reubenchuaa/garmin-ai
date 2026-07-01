@@ -75,8 +75,8 @@ tr:last-child td{border-bottom:none}
   <h1>🏃 Reuben · Training Dashboard</h1>
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
-    <span class="pill pill-blue">🏁 88 days to race</span>
-    <span class="pill pill-green">Synced 02 Jul 2026 12:23 AM SGT</span>
+    <span class="pill pill-blue">🏁 87 days to race</span>
+    <span class="pill pill-green">Synced 02 Jul 2026 12:26 AM SGT</span>
   </div>
 </div>
 </div>
@@ -213,12 +213,12 @@ tr:last-child td{border-bottom:none}
 </div>
 
 <script>
-const L=["06-18", "06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"];
+const L=["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[72,71,64,76,88,42,93,95,93,95,82,null,null,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[5,6,5,32,38,35,41,46,45,26,24,null,null,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,94,85,94,70,81,null,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[68,62,70,71,66,66,64,64,61,65,64,null,null,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[49,55,67,51,31,27,25,30,26,36,30,null,null,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[71,64,76,88,42,93,95,93,95,82,null,null,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[6,5,32,38,35,41,46,45,26,24,null,null,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,85,94,70,81,null,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[62,70,71,66,66,64,64,61,65,64,null,null,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[55,67,51,31,27,25,30,26,36,30,null,null,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 
 </script>
 </body>
