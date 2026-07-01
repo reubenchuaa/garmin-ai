@@ -18,3 +18,6 @@ git add garmin/ docs/
 git diff --cached --quiet || git commit -m "sync: $(date '+%Y-%m-%d %H:%M')"
 git pull --rebase --quiet 2>/dev/null || true
 git push --quiet
+
+# Update GitHub secret with fresh tokens so Actions runs don't get 429'd
+/usr/bin/python3 update_github_token.py 2>/dev/null
