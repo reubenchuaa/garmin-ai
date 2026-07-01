@@ -29,6 +29,8 @@ def g(d, *keys):
     for k in keys:
         if isinstance(d, dict):
             d = d.get(k)
+        elif isinstance(d, list) and isinstance(k, int) and k < len(d):
+            d = d[k]
         else:
             return None
     return d if d is not None else None

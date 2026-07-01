@@ -2,8 +2,8 @@ name: Garmin Daily Sync
 
 on:
   schedule:
-    - cron: '0 23 * * *'   #  7 AM SGT (UTC+8)
-    - cron: '0 0-16 * * *' #  8 AM – 12 AM SGT hourly
+    - cron: '0,30 23 * * *'   #  7:00 & 7:30 AM SGT
+    - cron: '0,30 0-16 * * *' #  8 AM – 12 AM SGT every 30 min
   workflow_dispatch:
 
 jobs:
