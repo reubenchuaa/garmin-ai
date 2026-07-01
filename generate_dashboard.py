@@ -314,9 +314,14 @@ def generate_html(data, context, coaching_text):
     tr_level = tr_list[0].get("level", "—") if tr_list else "—"
     wellness_date_label = today_w["date"] if today_w and today_w["date"] != today.isoformat() else None
 
-    # Performance metrics
+    # Performance metrics — fall back to most recent date with actual data
     perf_all = data.get("performance", {})
-    perf = perf_all.get(today.isoformat()) or (perf_all.get(sorted(perf_all.keys())[-1]) if perf_all else {})
+    perf = {}
+    for pdate in sorted(perf_all.keys(), reverse=True):
+        p = perf_all[pdate]
+        if p.get("acwr") is not None or p.get("vo2max_precise") is not None:
+            perf = p
+            break
     acwr = perf.get("acwr")
     acwr_status = (perf.get("acwr_status") or "").replace("_", " ").title()
     acwr_s = f"{acwr:.2f}" if acwr else "—"
