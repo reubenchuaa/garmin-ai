@@ -58,7 +58,7 @@ def load_client():
                 proxy = proxy_url.rstrip("/")
                 _orig_send = HTTPAdapter.send
                 def _patched_send(self, request, **kwargs):
-                    if "connectapi.garmin.com/oauth-service" in request.url:
+                    if "connectapi.garmin.com" in request.url:
                         request.url = request.url.replace(orig_url, proxy)
                     return _orig_send(self, request, **kwargs)
                 HTTPAdapter.send = _patched_send

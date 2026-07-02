@@ -1,41 +1,42 @@
-// Cloudflare Worker — proxies Garmin OAuth exchange requests
-// Transparently forwards all headers, body, and method
+// Cloudflare Worker — proxies all Garmin API requests (OAuth + data endpoints)
 
 export default {
   async fetch(request) {
     const url = new URL(request.url);
 
-    // Only proxy requests to /oauth-service/
-    if (!url.pathname.startsWith("/oauth-service/")) {
-      return new Response("Not found", { status: 404 });
+    // Debug endpoint to verify worker is live
+    if (url.pathname === "/ping") {
+      return new Response("pong", { status: 200 });
     }
 
-    // Build Garmin URL
+    // Reject root and unknown paths
+    if (url.pathname === "/" || url.pathname === "") {
+      return new Response("Garmin API proxy. Use a valid Garmin API path.", { status: 200 });
+    }
+
     const garminUrl = `https://connectapi.garmin.com${url.pathname}${url.search}`;
 
-    // Clone all headers, strip Cloudflare-specific ones
-    const headers = new Headers();
-    for (const [key, value] of request.headers.entries()) {
-      const k = key.toLowerCase();
-      if (k === "host" || k.startsWith("cf-") || k === "x-forwarded-for" || k === "x-real-ip") continue;
-      headers.set(key, value);
-    }
-    headers.set("Host", "connectapi.garmin.com");
-
-    const resp = await fetch(garminUrl, {
+    // Clone the incoming request and retarget it to Garmin
+    const modifiedRequest = new Request(garminUrl, {
       method: request.method,
-      headers: headers,
-      body: request.method !== "GET" && request.method !== "HEAD" ? request.body : undefined,
+      headers: request.headers,
+      body: request.body,
       redirect: "follow",
     });
 
-    const respHeaders = new Headers(resp.headers);
-    respHeaders.set("Access-Control-Allow-Origin", "*");
+    // Override the Host header to match Garmin's domain
+    modifiedRequest.headers.set("Host", "connectapi.garmin.com");
 
-    return new Response(resp.body, {
-      status: resp.status,
-      statusText: resp.statusText,
-      headers: respHeaders,
-    });
+    try {
+      const resp = await fetch(modifiedRequest);
+      // Return Garmin's response as-is
+      return new Response(resp.body, {
+        status: resp.status,
+        statusText: resp.statusText,
+        headers: resp.headers,
+      });
+    } catch (err) {
+      return new Response(`Proxy error: ${err.message}`, { status: 502 });
+    }
   },
 };
