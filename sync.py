@@ -411,6 +411,14 @@ def sync(days=3):
     except Exception as e:
         print(f"  Warning: SpO2 — {e}")
 
+    # Check if we actually got any real data (not all 429'd)
+    has_real_wellness = any(w.get("wellness") for w in new_wellness)
+    has_real_data = bool(new_activities) or has_real_wellness or bool(performance.get("acwr"))
+
+    if not has_real_data:
+        print("\nNo real data fetched (all API calls failed). Keeping existing data.json unchanged.")
+        return written
+
     # Merge into accumulated data.json
     existing = {}
     if DATA_FILE.exists():
@@ -418,11 +426,15 @@ def sync(days=3):
             existing = json.loads(DATA_FILE.read_text())
         except Exception:
             existing = {}
-    merged = merge_data(existing, new_activities, new_wellness)
 
-    # Store performance metrics by date
+    # Only merge wellness entries that actually have data
+    real_wellness = [w for w in new_wellness if w.get("wellness")]
+    merged = merge_data(existing, new_activities, real_wellness)
+
+    # Store performance metrics by date (only if we got real data)
     perf_by_date = existing.get("performance", {})
-    perf_by_date[today_str] = performance
+    if any(v is not None for v in performance.values()):
+        perf_by_date[today_str] = performance
     merged["performance"] = perf_by_date
 
     DATA_FILE.write_text(json.dumps(merged, indent=2, default=str))

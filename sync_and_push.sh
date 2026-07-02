@@ -11,7 +11,7 @@ git pull --quiet
 /Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3
 
 # Regenerate dashboard with fresh data
-python3 generate_dashboard.py 2>/dev/null
+/Users/amandakoh/opt/anaconda3/bin/python3 generate_dashboard.py 2>/dev/null
 
 # Push if anything changed
 git add garmin/ docs/

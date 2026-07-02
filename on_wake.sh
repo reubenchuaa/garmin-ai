@@ -10,8 +10,7 @@ while true; do
         # Wait a few seconds for network to come up
         sleep 10
 
-        # Run sync first, then coach (sequential to avoid git conflicts)
-        /bin/bash /Users/amandakoh/garmin-ai/sync_and_push.sh >> /Users/amandakoh/garmin-ai/sync.log 2>&1
+        # Coach script does everything: pull data → sync Garmin → Claude reasons → dashboard → push
         /bin/bash /Users/amandakoh/garmin-ai/update_coach.sh >> /Users/amandakoh/garmin-ai/coach.log 2>&1
 
         # Only trigger once per wake — wait 5 min before listening again

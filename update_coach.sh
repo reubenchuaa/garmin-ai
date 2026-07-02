@@ -7,7 +7,7 @@ cd /Users/amandakoh/garmin-ai
 git pull --quiet
 
 # Sync latest Garmin data first
-/usr/bin/python3 sync.py 3 2>/dev/null
+/Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3 2>/dev/null
 
 # Run Claude to reason about the data and write coach_note.md
 # 5-min timeout guard so a hung CLI call can never stall for hours
@@ -60,7 +60,7 @@ if [ -f garmin/coach_note.md ]; then
 fi
 
 # Regenerate dashboard with new coach note
-python3 generate_dashboard.py 2>/dev/null
+/Users/amandakoh/opt/anaconda3/bin/python3 generate_dashboard.py 2>/dev/null
 
 # Push everything back to GitHub
 git add garmin/coach_note.md docs/index.html garmin/data.json
