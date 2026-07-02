@@ -38,14 +38,43 @@ def g(d, *keys):
 
 def get_wellness_range(data, days=14):
     today = date.today()
-    dates = {(today - timedelta(days=i)).isoformat() for i in range(days)}
-    items = [w for w in data.get("wellness", []) if w["date"] in dates]
-    return sorted(items, key=lambda x: x["date"])
+    by_date = {w["date"]: w for w in data.get("wellness", [])}
+    items = []
+    for i in range(days - 1, -1, -1):
+        d = (today - timedelta(days=i)).isoformat()
+        items.append(by_date.get(d, {"date": d, "wellness": {}, "sleep": {}, "hrv": {}, "training_readiness": []}))
+    return items
 
 
 def get_recent_activities(data, n=8):
     acts = sorted(data.get("activities", []), key=lambda x: x.get("startTimeLocal", ""), reverse=True)
     return acts[:n]
+
+
+def get_monthly_mileage(data):
+    """Return last 6 months of total running mileage."""
+    from collections import defaultdict
+    monthly = defaultdict(float)
+    for a in data.get("activities", []):
+        start = a.get("startTimeLocal", "")[:7]  # "YYYY-MM"
+        atype = a.get("activityType", {}).get("typeKey", "")
+        dist = a.get("distance", 0) or 0
+        if start and "run" in atype.lower():
+            monthly[start] += dist / 1000  # meters to km
+    today = date.today()
+    labels = []
+    values = []
+    for i in range(5, -1, -1):
+        # Go back i months from current month
+        m = today.month - i
+        y = today.year
+        while m <= 0:
+            m += 12
+            y -= 1
+        key = f"{y:04d}-{m:02d}"
+        labels.append(date(y, m, 1).strftime("%b %y"))
+        values.append(round(monthly.get(key, 0), 1))
+    return labels, values
 
 
 def get_coaching(data, context):
@@ -349,6 +378,11 @@ def generate_html(data, context, coaching_text):
     chart_rhr     = js_arr([g(w, "wellness", "restingHeartRate") for w in wellness_14])
     chart_stress  = js_arr([g(w, "wellness", "averageStressLevel") for w in wellness_14])
 
+    # Monthly mileage chart data
+    mile_labels, mile_values = get_monthly_mileage(data)
+    chart_mile_labels = json.dumps(mile_labels)
+    chart_mile_values = json.dumps(mile_values)
+
     # Latest run review
     latest_run = next((a for a in get_recent_activities(data, 1) if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
     run_review_html = ""
@@ -613,6 +647,7 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Training Readiness</h3><canvas id="tr" height="75"></canvas></div>
 <div class="box"><h3>Resting Heart Rate</h3><canvas id="rhr" height="75"></canvas></div>
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
+<div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
 <div class="sec">Recent Activities</div>
 <div class="box" style="overflow-x:auto">
@@ -661,6 +696,10 @@ CHART_JS_PLACEHOLDER
         '"type":"line","data":{"labels":L,"datasets":['
         '{"label":"Stress","data":' + chart_stress + ',"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt(0,100)});\n'
+        "new Chart(document.getElementById('mileage'),{"
+        '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
+        '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'
+        ']},"options":{"responsive":true,"plugins":{"legend":{"display":false}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});\n'
     )
     return html.replace("CHART_JS_PLACEHOLDER", js)
 

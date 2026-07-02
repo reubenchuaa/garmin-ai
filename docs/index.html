@@ -76,7 +76,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 87 days to race</span>
-    <span class="pill pill-green">Synced 02 Jul 2026 05:54 PM SGT</span>
+    <span class="pill pill-green">Synced 02 Jul 2026 06:06 PM SGT</span>
   </div>
 </div>
 </div>
@@ -151,6 +151,7 @@ tr:last-child td{border-bottom:none}
 <div class="box"><h3>Training Readiness</h3><canvas id="tr" height="75"></canvas></div>
 <div class="box"><h3>Resting Heart Rate</h3><canvas id="rhr" height="75"></canvas></div>
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
+<div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
 <div class="sec">Recent Activities</div>
 <div class="box" style="overflow-x:auto">
@@ -215,10 +216,11 @@ tr:last-child td{border-bottom:none}
 <script>
 const L=["06-19", "06-20", "06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30", "07-01", "07-02"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[71,64,76,88,42,93,95,93,95,82,null,86,77,84],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[6,5,32,38,35,41,46,45,26,24,null,24,21,20],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,85,94,70,81,null,70,81,85],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[62,70,71,66,66,64,64,61,65,64,null,62,67,62],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[55,67,51,31,27,25,30,26,36,30,null,34,34,27],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Peak","data":[71,64,76,88,42,93,95,93,95,82,91,86,77,84],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[6,5,32,38,35,41,46,45,26,24,26,24,21,20],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,85,94,70,81,75,70,81,85],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":L,"datasets":[{"label":"RHR","data":[62,70,71,66,66,64,64,61,65,64,65,62,67,62],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":L,"datasets":[{"label":"Stress","data":[55,67,51,31,27,25,30,26,36,30,33,34,34,27],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('mileage'),{"type":"bar","data":{"labels":["Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26"],"datasets":[{"label":"km","data":[0, 0, 0, 0, 59.1, 0],"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}]},"options":{"responsive":true,"plugins":{"legend":{"display":false}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
 
 </script>
 </body>
