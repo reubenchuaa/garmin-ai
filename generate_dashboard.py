@@ -683,7 +683,7 @@ CHART_JS_PLACEHOLDER
 </html>"""
 
     js = (
-        "const L=" + labels + ";\n"
+        "const LB=" + labels + ";\n"
         "const opt=(ymin,ymax)=>({"
         '"responsive":true,'
         '"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},'
@@ -691,20 +691,20 @@ CHART_JS_PLACEHOLDER
         '"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}'
         "});\n"
         "new Chart(document.getElementById('bb'),{"
-        '"type":"line","data":{"labels":L,"datasets":['
+        '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"Peak","data":' + chart_bb_high + ',"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},'
         '{"label":"Low","data":' + chart_bb_low + ',"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt(0,100)});\n'
         "new Chart(document.getElementById('tr'),{"
-        '"type":"line","data":{"labels":L,"datasets":['
+        '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"Readiness","data":' + chart_tr + ',"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt(0,100)});\n'
         "new Chart(document.getElementById('rhr'),{"
-        '"type":"line","data":{"labels":L,"datasets":['
+        '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"RHR","data":' + chart_rhr + ',"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt()});\n'
         "new Chart(document.getElementById('stress'),{"
-        '"type":"line","data":{"labels":L,"datasets":['
+        '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"Stress","data":' + chart_stress + ',"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt(0,100)});\n'
         "new Chart(document.getElementById('mileage'),{"
