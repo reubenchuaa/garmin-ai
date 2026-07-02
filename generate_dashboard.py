@@ -383,6 +383,12 @@ def generate_html(data, context, coaching_text):
     chart_mile_labels = json.dumps(mile_labels)
     chart_mile_values = json.dumps(mile_values)
 
+    # Latest activity route map
+    route_data = data.get("latest_route", {})
+    route_points = json.dumps(route_data.get("points", []))
+    route_name = route_data.get("name", "")
+    route_date = route_data.get("date", "")
+
     # Latest run review
     latest_run = next((a for a in get_recent_activities(data, 1) if "run" in (a.get("activityType", {}).get("typeKey", "")).lower()), None)
     run_review_html = ""
@@ -532,6 +538,8 @@ def generate_html(data, context, coaching_text):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{context.get('athlete_name', 'Garmin')} · Training Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}}
@@ -649,6 +657,9 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
 <div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
+<div class="sec">Latest Route — {route_name} ({route_date})</div>
+<div class="box"><div id="routemap" style="height:300px;border-radius:8px"></div></div>
+
 <div class="sec">Recent Activities</div>
 <div class="box" style="overflow-x:auto">
   <table>
@@ -700,6 +711,16 @@ CHART_JS_PLACEHOLDER
         '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
         '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'
         ']},"options":{"responsive":true,"plugins":{"legend":{"display":false}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});\n'
+        # Leaflet route map
+        "var pts=" + route_points + ";\n"
+        "if(pts.length>0){"
+        "var map=L.map('routemap',{zoomControl:true,attributionControl:false});"
+        "L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);"
+        "var line=L.polyline(pts,{color:'#3b82f6',weight:3,opacity:.9}).addTo(map);"
+        "L.circleMarker(pts[0],{radius:6,color:'#10b981',fillColor:'#10b981',fillOpacity:1}).addTo(map).bindPopup('Start');"
+        "L.circleMarker(pts[pts.length-1],{radius:6,color:'#ef4444',fillColor:'#ef4444',fillOpacity:1}).addTo(map).bindPopup('Finish');"
+        "map.fitBounds(line.getBounds(),{padding:[20,20]});"
+        "}else{document.getElementById('routemap').innerHTML='<p style=\"color:#64748b;text-align:center;padding:2em\">No route data</p>';}\n"
     )
     return html.replace("CHART_JS_PLACEHOLDER", js)
 

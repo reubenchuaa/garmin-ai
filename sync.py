@@ -457,6 +457,27 @@ def sync(days=3):
         perf_by_date[today_str] = performance
     merged["performance"] = perf_by_date
 
+    # Store latest activity route (compact lat/lon pairs for map)
+    all_acts = sorted(merged.get("activities", []), key=lambda x: x.get("startTimeLocal", ""), reverse=True)
+    latest_with_poly = next((a for a in all_acts if a.get("hasPolyline")), None)
+    if latest_with_poly:
+        details = latest_with_poly.get("_details")
+        if details:
+            geo = details.get("geoPolylineDTO", {})
+            polyline = geo.get("polyline", [])
+            if polyline:
+                # Store compact: [[lat,lon], ...] — skip every other point to save space
+                route = [[round(p["lat"], 6), round(p["lon"], 6)] for p in polyline[::2] if p.get("lat") and p.get("lon")]
+                merged["latest_route"] = {
+                    "name": latest_with_poly.get("activityName", "Activity"),
+                    "date": (latest_with_poly.get("startTimeLocal") or "")[:10],
+                    "points": route,
+                }
+
+    # Strip _details before saving (too large)
+    for a in merged.get("activities", []):
+        a.pop("_details", None)
+
     DATA_FILE.write_text(json.dumps(merged, indent=2, default=str))
     print(f"\nAll data saved to garmin/data.json")
     print(f"Markdown notes written: {len(written)} files")
