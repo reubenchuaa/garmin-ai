@@ -46,6 +46,35 @@ def load_client():
         garth_client = garth_module.Client()
         garth_client.load(str(tmp))
         shutil.rmtree(tmp, ignore_errors=True)
+
+        # Route OAuth exchange through Cloudflare Worker proxy to avoid Garmin 429
+        proxy_url = os.environ.get("GARMIN_OAUTH_PROXY")
+        if proxy_url and garth_client.oauth1_token:
+            try:
+                import garth.sso as sso
+                _orig_exchange = sso.exchange
+                def _proxied_exchange(oauth1, client_obj):
+                    # Temporarily swap the exchange URL to our proxy
+                    orig_url = "https://connectapi.garmin.com"
+                    proxy = proxy_url.rstrip("/")
+                    # Monkey-patch requests to route through proxy
+                    import requests as req_lib
+                    _orig_post = req_lib.Session.post
+                    def _patched_post(self, url, **kwargs):
+                        if "connectapi.garmin.com/oauth-service" in url:
+                            url = url.replace(orig_url, proxy)
+                        return _orig_post(self, url, **kwargs)
+                    req_lib.Session.post = _patched_post
+                    try:
+                        result = _orig_exchange(oauth1, client_obj)
+                    finally:
+                        req_lib.Session.post = _orig_post
+                    return result
+                sso.exchange = _proxied_exchange
+                print("  Using OAuth proxy for token refresh")
+            except Exception as e:
+                print(f"  Warning: proxy setup failed — {e}")
+
         client = Garmin("noop", "noop")
         client.garth = garth_client
         # Skip profile lookup — it triggers oauth refresh which Garmin blocks from cloud IPs
