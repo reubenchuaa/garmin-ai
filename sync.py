@@ -48,18 +48,20 @@ def load_client():
         shutil.rmtree(tmp, ignore_errors=True)
 
         # Route OAuth exchange through Cloudflare Worker proxy to avoid Garmin 429
+        # Patch at HTTPAdapter.send level so OAuth1 signs with the real Garmin URL,
+        # then the URL is swapped to the proxy for transport only.
         proxy_url = os.environ.get("GARMIN_OAUTH_PROXY")
         if proxy_url:
             try:
-                import requests as req_lib
+                from requests.adapters import HTTPAdapter
                 orig_url = "https://connectapi.garmin.com"
                 proxy = proxy_url.rstrip("/")
-                _orig_request = req_lib.Session.request
-                def _patched_request(self, method, url, **kwargs):
-                    if isinstance(url, str) and "connectapi.garmin.com/oauth-service" in url:
-                        url = url.replace(orig_url, proxy)
-                    return _orig_request(self, method, url, **kwargs)
-                req_lib.Session.request = _patched_request
+                _orig_send = HTTPAdapter.send
+                def _patched_send(self, request, **kwargs):
+                    if "connectapi.garmin.com/oauth-service" in request.url:
+                        request.url = request.url.replace(orig_url, proxy)
+                    return _orig_send(self, request, **kwargs)
+                HTTPAdapter.send = _patched_send
                 print("  Using OAuth proxy for token refresh")
             except Exception as e:
                 print(f"  Warning: proxy setup failed — {e}")
