@@ -538,8 +538,9 @@ def generate_html(data, context, coaching_text):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{context.get('athlete_name', 'Garmin')} · Training Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/deck.gl@9.1.8/dist.min.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"/>
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
 body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}}
@@ -711,15 +712,28 @@ CHART_JS_PLACEHOLDER
         '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
         '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'
         ']},"options":{"responsive":true,"plugins":{"legend":{"display":false}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});\n'
-        # Leaflet route map
+        # deck.gl 3D route map
         "var pts=" + route_points + ";\n"
         "if(pts.length>0){"
-        "var map=L.map('routemap',{zoomControl:true,attributionControl:false});"
-        "L.tileLayer('https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png').addTo(map);"
-        "var line=L.polyline(pts,{color:'#3b82f6',weight:3,opacity:.9}).addTo(map);"
-        "L.circleMarker(pts[0],{radius:6,color:'#10b981',fillColor:'#10b981',fillOpacity:1}).addTo(map).bindPopup('Start');"
-        "L.circleMarker(pts[pts.length-1],{radius:6,color:'#ef4444',fillColor:'#ef4444',fillOpacity:1}).addTo(map).bindPopup('Finish');"
-        "map.fitBounds(line.getBounds(),{padding:[20,20]});"
+        "var lats=pts.map(function(p){return p[0]}),lons=pts.map(function(p){return p[1]});"
+        "var cLat=(Math.min.apply(null,lats)+Math.max.apply(null,lats))/2;"
+        "var cLon=(Math.min.apply(null,lons)+Math.max.apply(null,lons))/2;"
+        "var path=pts.map(function(p){return[p[1],p[0]]});"  # deck.gl uses [lon,lat]
+        "new deck.DeckGL({"
+        "container:'routemap',"
+        "mapStyle:'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',"
+        "initialViewState:{longitude:cLon,latitude:cLat,zoom:14,pitch:45,bearing:-20},"
+        "controller:true,"
+        "layers:["
+        "new deck.PathLayer({id:'route',data:[{path:path}],getPath:function(d){return d.path},"
+        "getColor:[59,130,246],getWidth:4,widthMinPixels:3,widthScale:1,capRounded:true,jointRounded:true}),"
+        "new deck.ScatterplotLayer({id:'markers',data:["
+        "{position:path[0],color:[16,185,129]},{position:path[path.length-1],color:[239,68,68]}"
+        "],getPosition:function(d){return d.position},getFillColor:function(d){return d.color},"
+        "getRadius:30,radiusMinPixels:6})"
+        "],"
+        "parameters:{depthTest:false}"
+        "});"
         "}else{document.getElementById('routemap').innerHTML='<p style=\"color:#64748b;text-align:center;padding:2em\">No route data</p>';}\n"
     )
     return html.replace("CHART_JS_PLACEHOLDER", js)
