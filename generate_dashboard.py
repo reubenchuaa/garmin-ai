@@ -715,7 +715,7 @@ CHART_JS_PLACEHOLDER
         "var pts=" + route_points + ";\n"
         "if(pts.length>0){"
         "var map=L.map('routemap',{zoomControl:true,attributionControl:false});"
-        "L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);"
+        "L.tileLayer('https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png').addTo(map);"
         "var line=L.polyline(pts,{color:'#3b82f6',weight:3,opacity:.9}).addTo(map);"
         "L.circleMarker(pts[0],{radius:6,color:'#10b981',fillColor:'#10b981',fillOpacity:1}).addTo(map).bindPopup('Start');"
         "L.circleMarker(pts[pts.length-1],{radius:6,color:'#ef4444',fillColor:'#ef4444',fillOpacity:1}).addTo(map).bindPopup('Finish');"
