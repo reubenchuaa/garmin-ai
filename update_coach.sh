@@ -9,10 +9,29 @@ git pull --quiet
 # Sync latest Garmin data first
 /Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3 2>/dev/null
 
+# Trim data.json to last 30 days for coach (faster Claude processing)
+/Users/amandakoh/opt/anaconda3/bin/python3 -c "
+import json
+from datetime import date, timedelta
+d = json.load(open('garmin/data.json'))
+cutoff = (date.today() - timedelta(days=30)).isoformat()
+d['activities'] = [a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] >= cutoff]
+for a in d['activities']:
+    a.pop('_details', None)
+d['wellness'] = [w for w in d.get('wellness', []) if w.get('date', '') >= cutoff]
+# Keep only latest performance entry
+perf = d.get('performance', {})
+if perf:
+    latest_key = max(perf.keys())
+    d['performance'] = {latest_key: perf[latest_key]}
+d.pop('latest_route', None)
+open('garmin/coach_data.json', 'w').write(json.dumps(d, indent=1))
+" 2>/dev/null
+
 # Run Claude to reason about the data and write coach_note.md
 # 5-min timeout guard so a hung CLI call can never stall for hours
 perl -e 'alarm 300; exec @ARGV' /opt/homebrew/bin/claude --dangerously-skip-permissions -p "
-You are an expert running coach for Reuben. Read garmin/data.json and context.json in the current directory.
+You are an expert running coach for Reuben. Read garmin/coach_data.json and context.json in the current directory.
 Also read garmin/coach_note.md — this is your PREVIOUS advice. You must maintain consistency with it:
 - Do NOT change today's plan unless new data (a completed workout, a significant readiness drop, or injury) justifies it.
 - If the previous note said today is a rest day, keep it as rest unless Reuben already ran today.
