@@ -8,7 +8,7 @@ cd /Users/amandakoh/garmin-ai
 git pull --quiet
 
 # Sync last 3 days of Garmin data
-/usr/bin/python3 sync.py 3
+/Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3
 
 # Regenerate dashboard with fresh data
 python3 generate_dashboard.py 2>/dev/null
@@ -20,4 +20,4 @@ git pull --rebase --quiet 2>/dev/null || true
 git push --quiet
 
 # Update GitHub secret with fresh tokens so Actions runs don't get 429'd
-/usr/bin/python3 update_github_token.py 2>/dev/null
+/Users/amandakoh/opt/anaconda3/bin/python3 update_github_token.py 2>/dev/null
