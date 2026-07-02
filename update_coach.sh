@@ -14,7 +14,7 @@ git pull --quiet
 import json
 from datetime import date, timedelta
 d = json.load(open('garmin/data.json'))
-cutoff = (date.today() - timedelta(days=30)).isoformat()
+cutoff = (date.today() - timedelta(days=60)).isoformat()
 d['activities'] = [a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] >= cutoff]
 for a in d['activities']:
     a.pop('_details', None)
