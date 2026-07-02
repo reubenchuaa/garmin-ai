@@ -1,12 +1,12 @@
-_Updated: Thursday, 02 Jul 2026 at 07:49 AM SGT_
+_Updated: Thursday, 02 Jul 2026 at 05:12 PM SGT_
 
-**Today's easy 5km is unchanged — pace discipline is the only thing standing between you and a clean Rebuild Base launch Sunday.**
+**You're even more underloaded than this morning — today's 5km is not optional, and pace discipline remains the only job.**
 
 **What your data says**
-ACWR is 0.7 (acute 169 vs chronic 219, LOW) — still underloaded, aerobic high shortage, no overtraining risk. TR was 75 (HIGH) on Jul 1 morning; stress is only 25 so far today, you're primed to run. HM prediction is 2:00:45 — 11 min off the 1:50 goal but on timeline; VO2max 55.7, heat acclimatisation 24% and climbing. The pace drift pattern is clear: Jun 29 at 7:12/km and Jun 30 at 6:53/km — both faster than the 7:20–7:40 cap even though HR stayed under 133. HR under cap is not permission to run faster.
+ACWR dropped to 0.5 (acute 126 vs chronic 219, LOW) — the gap widened since the morning note because Jul 1 was rest and the acute load decayed. TR is 85 (HIGH, well recovered), resting HR fell to 62 (down from 67 yesterday), stress at 27 — body is fully primed. HM prediction holds at 2:00:45, 11 min off the 1:50 goal; VO2max 55.7 unchanged. One real positive: heat trend upgraded to ACCLIMATIZED (was Acclimatizing) at 24%.
 
 **Today's session**
-Easy run — 5km, 7:20–7:40/km, HR cap 133. Set a pace alert at 7:15/km on the watch and treat it as a hard ceiling. Walk 500m before starting. If HR hits 133 at any point, slow to 7:40+ regardless of feel. This is the third Confirm Recovery run; the goal is clean execution, not fitness.
+Easy run — 5km, 7:20–7:40/km, HR cap 133. Unchanged from this morning. The last two runs (Jun 29: 7:12/km, Jun 30: 6:53/km) both undercut the pace floor while HR stayed under cap — HR compliance is not pace compliance. Set a pace alert at 7:15/km and treat a buzz as a hard ceiling, not a nudge. Walk 500m before starting. If HR hits 133 at any point, drop to 7:40+ regardless of feel.
 
 **3-Day Plan**
 - Today (Thu, Jul 2): Easy 5km, 7:20–7:40/km, HR cap 133 — pace alert active
@@ -14,4 +14,4 @@ Easy run — 5km, 7:20–7:40/km, HR cap 133. Set a pace alert at 7:15/km on the
 - Day after (Sat, Jul 4): Rest — transition day before Rebuild Base begins Sun Jul 5
 
 **This week's focus**
-Close out Confirm Recovery with two clean Z2 runs: HR discipline locks the foundation so Rebuild Base can safely push distance to 7–8km from Sunday — don't trade tomorrow's range for today's feel.
+Close out Confirm Recovery with two clean Z2 completions: heat is now officially ACCLIMATIZED at 24%, but the aerobic-high shortage only closes with paced runs — don't let feel override the watch today.
