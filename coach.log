@@ -1,1 +1,23 @@
 /bin/bash: /Users/amandakoh/Desktop/garmin-ai/update_coach.sh: Operation not permitted
+
+Fetching data for: 2026-07-01 → 2026-07-03
+
+  Activity: activity_2026-07-02_23452155782.md
+  Wellness: wellness_2026-07-01.md
+  Wellness: wellness_2026-07-02.md
+  Wellness: wellness_2026-07-03.md
+  Training status: NO_STATUS_2, ACWR: 0.7
+  Race predictions — HM: 2:01:57
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+Coach note updated. Key facts driving the note:
+
+- **Today (Fri Jul 3)**: Rest day maintained — TR 78, rHR 49, BB woke at 97, sleep 85 — all identical to the 4:55pm note, no new data
+- **Jul 2 run** confirmed: 6.82km, avg HR 125 (~7:00/km), cadence 168 — executed cleanly within the HR cap
+- **ACWR 0.7 (LOW)** unchanged — Sunday's 6km run is non-negotiable to stop the ratio sliding further
+- **3-day plan unchanged**: Sat rest → Sun 6km easy, 7:15–7:35/km, HR ≤135, before 7am
+- HM prediction 2:01:57 vs 1:45–1:50 goal; VO2max 55.7, heat accl 39% (ACCLIMATIZED)
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
