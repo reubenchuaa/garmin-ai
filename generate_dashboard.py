@@ -424,11 +424,13 @@ def generate_html(data, context, coaching_text):
         lr_load = None
         lr_z2_pct = None
         lr_zones_html = ""
+        lr_cad = lr.get("averageRunningCadenceInStepsPerMinute")
+        lr_load = lr.get("activityTrainingLoad")
         details = lr.get("_details", {})
         if details:
             summary = details.get("summaryDTO", {})
-            lr_cad = summary.get("averageRunningCadenceInStepsPerMinute") or lr.get("averageRunningCadenceInStepsPerMinute")
-            lr_load = summary.get("trainingLoad") or lr.get("activityTrainingLoad")
+            lr_cad = summary.get("averageRunningCadenceInStepsPerMinute") or lr_cad
+            lr_load = summary.get("trainingLoad") or lr_load
             hr_zones = details.get("heartRateDTOs", [])
             if hr_zones:
                 total_secs = sum(z.get("secsInZone", 0) for z in hr_zones)
@@ -665,6 +667,9 @@ tr:last-child td{{border-bottom:none}}
 <div class="sec">Latest Run Review</div>
 {run_review_html if run_review_html else '<div class="box" style="color:#475569;font-size:0.85rem">No recent run data yet.</div>'}
 
+<div class="sec">Latest Route — {route_name} ({route_date})</div>
+<div class="box"><div id="routemap" style="height:300px;border-radius:8px"></div></div>
+
 <div class="sec">14-Day Trends</div>
 <div class="box"><h3>Body Battery</h3><canvas id="bb" height="75"></canvas></div>
 <div class="box"><h3>Training Readiness</h3><canvas id="tr" height="75"></canvas></div>
@@ -673,9 +678,6 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Sleep (hours)</h3><canvas id="sleep" height="75"></canvas></div>
 <div class="box"><h3>HRV (overnight avg)</h3><canvas id="hrv" height="75"></canvas></div>
 <div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
-
-<div class="sec">Latest Route — {route_name} ({route_date})</div>
-<div class="box"><div id="routemap" style="height:300px;border-radius:8px"></div></div>
 
 <div class="sec">Recent Activities</div>
 <div class="box" style="overflow-x:auto">
