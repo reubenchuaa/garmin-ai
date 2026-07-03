@@ -1,17 +1,17 @@
-_Updated: Friday, 03 Jul 2026 at 04:51 PM SGT_
+_Updated: Friday, 03 Jul 2026 at 04:55 PM SGT_
 
-**Confirm Recovery is done — hold rest Friday and Saturday, Rebuild Base opens Sunday.**
+**Rest day confirmed — TR 78, rHR 49, fully recovered and ready for Sunday.**
 
 **What your data says**
-ACWR sits at 0.8 (OPTIMAL): acute load 182, chronic 219 — safe to build but no urgency. Today's 6.82km at 6:58/km, avgHR 125 was clean Z1/Z2 work; training status is MAINTAINING_2, fitness held through the illness block. HM prediction is 2:00:45 — 10:45 off the 1:50 goal, but that gap closes with volume, not rushing. Heat acclimation at 39% (ACCLIMATIZING), rHR holding at 62, body battery down to 28 post-run — numbers confirm recovery, not another effort.
+ACWR slipped to 0.7 (LOW): acute load 155, chronic 219 — two rest days have naturally pulled the ratio down from yesterday's 0.8, which makes Sunday's run more important, not optional. Training status shows NO_STATUS (expected on a rest day); HM prediction 2:01:57, 12 minutes off the 1:50 goal — gap closes with volume, not rushing. Heat acclimation at 39%, trend now ACCLIMATIZED; rHR today dropped to 49 (7-day avg 62), sleep scored 85, BB woke at 97 — body is in the best shape it's been since the illness block.
 
 **Today's session**
-Done. 6.82km, 6:58/km, avgHR 125 — textbook easy run, Confirm Recovery phase closed. Pace alert at 7:15/km should be set before every run so you don't drift fast in the heat.
+Rest — no run today, plan unchanged. BB is at 35 mid-afternoon after an inactive day, but that's fine; you woke at 97 and slept well. Nothing to add. Set your alarm for Sunday before 7am to beat the heat.
 
 **3-Day Plan**
-- Today (Thu, Jul 2): Done ✓ — easy run complete
-- Tomorrow (Fri, Jul 3): Full rest — BB at 28, TR 66 post-run; let it recharge above 70 before Sunday
-- Day after (Sat, Jul 4): Full rest — transition day before Rebuild Base; legs need to arrive Sunday fresh
+- Today (Fri, Jul 3): Full rest ✓ — confirmed, data supports it
+- Tomorrow (Sat, Jul 4): Full rest — let BB top up overnight; arrive Sunday fresh
+- Day after (Sun, Jul 5): Rebuild Base opens — 6km easy, 7:15–7:35/km, HR cap 135; out the door before 7am
 
 **This week's focus**
-Three runs inside Confirm Recovery (Jun 29, Jun 30, Jul 2), ACWR restored to 0.8, rHR holding at 62 — the phase did its job. Sunday Jul 5 opens Rebuild Base: 6km easy at 7:15–7:35/km, HR cap 135; load balance flags AEROBIC_HIGH_SHORTAGE so the coming weeks will layer in light quality work, but not yet — base first.
+Confirm Recovery closed cleanly with 3 runs (Jun 29, Jun 30, Jul 2); ACWR at 0.7 means Sunday must happen to stop it sliding further. Watch the HR cap — 35°C at 6:30am is still brutal, and heat is the main risk now that fitness is holding at VO2max 55.7.
