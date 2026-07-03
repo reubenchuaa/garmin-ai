@@ -1,22 +1,36 @@
 #!/bin/bash
-# Watches for Mac wake events and triggers sync + coach
-# Runs as a background launchd agent
+# Watches for Mac wake events and triggers sync + coach.
+# Runs as a persistent background launchd agent (KeepAlive).
+# Waits 10s after wake for network, then runs coach (which includes data sync).
+# Skips if coach is already running (lock file check).
+
+REPO="/Users/amandakoh/garmin-ai"
+LOCKFILE="$REPO/.git/garmin-sync.lock"
 
 while true; do
-    # Wait for a wake event from system log
     log stream --predicate 'eventMessage contains "Wake reason"' --style compact 2>/dev/null | while read -r line; do
-        echo "$(date): Wake detected, triggering sync + coach" >> /Users/amandakoh/garmin-ai/wake.log
+        echo "$(date): Wake detected"
 
-        # Wait a few seconds for network to come up
+        # Skip if another sync/coach is already running
+        if [ -f "$LOCKFILE" ]; then
+            lock_age=$(( $(date +%s) - $(stat -f %m "$LOCKFILE" 2>/dev/null || echo 0) ))
+            if [ "$lock_age" -lt 600 ]; then
+                echo "$(date): Skipping — another sync is running (lock ${lock_age}s old)"
+                sleep 300
+                continue
+            fi
+        fi
+
+        # Wait for network
         sleep 10
 
-        # Coach script does everything: pull data → sync Garmin → Claude reasons → dashboard → push
-        /bin/bash /Users/amandakoh/garmin-ai/update_coach.sh >> /Users/amandakoh/garmin-ai/coach.log 2>&1
+        echo "$(date): Triggering sync + coach"
+        /bin/bash "$REPO/update_coach.sh" >> "$REPO/coach.log" 2>&1
 
-        # Only trigger once per wake — wait 5 min before listening again
-        sleep 300
+        # Cooldown — don't trigger again for 10 minutes
+        sleep 600
     done
 
-    # If log stream exits, restart after a pause
+    # If log stream exits unexpectedly, restart after a pause
     sleep 5
 done

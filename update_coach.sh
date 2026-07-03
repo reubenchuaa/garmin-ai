@@ -1,16 +1,21 @@
 #!/bin/bash
 # Runs on Mac wake/login — pulls latest Garmin data and updates coach note via Claude
+# Uses git_safe_push.sh for reliable git operations with locking and retries.
 
-cd /Users/amandakoh/garmin-ai
+REPO="/Users/amandakoh/garmin-ai"
+PYTHON="/Users/amandakoh/opt/anaconda3/bin/python3"
+CLAUDE="/opt/homebrew/bin/claude"
 
-# Pull latest from GitHub
-git pull --quiet
+cd "$REPO"
 
-# Sync latest Garmin data first
-/Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3 2>/dev/null
+# --- Pull latest ---
+/bin/bash "$REPO/git_safe_push.sh" "__pull_only__" 2>/dev/null || true
 
-# Trim data.json to last 30 days for coach (faster Claude processing)
-/Users/amandakoh/opt/anaconda3/bin/python3 -c "
+# --- Sync latest Garmin data (last 3 days) ---
+$PYTHON sync.py 3 2>/dev/null
+
+# --- Trim data.json for coach (last 60 days, ~676KB vs ~1.7MB) ---
+$PYTHON -c "
 import json
 from datetime import date, timedelta
 d = json.load(open('garmin/data.json'))
@@ -19,7 +24,6 @@ d['activities'] = [a for a in d.get('activities', []) if (a.get('startTimeLocal'
 for a in d['activities']:
     a.pop('_details', None)
 d['wellness'] = [w for w in d.get('wellness', []) if w.get('date', '') >= cutoff]
-# Keep only latest performance entry
 perf = d.get('performance', {})
 if perf:
     latest_key = max(perf.keys())
@@ -28,9 +32,8 @@ d.pop('latest_route', None)
 open('garmin/coach_data.json', 'w').write(json.dumps(d, indent=1))
 " 2>/dev/null
 
-# Run Claude to reason about the data and write coach_note.md
-# 5-min timeout guard so a hung CLI call can never stall for hours
-perl -e 'alarm 300; exec @ARGV' /opt/homebrew/bin/claude --dangerously-skip-permissions -p "
+# --- Run Claude to generate coach note (5-min timeout) ---
+perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "
 You are an expert running coach for Reuben. Read garmin/coach_data.json and context.json in the current directory.
 Also read garmin/coach_note.md — this is your PREVIOUS advice. You must maintain consistency with it:
 - Do NOT change today's plan unless new data (a completed workout, a significant readiness drop, or injury) justifies it.
@@ -68,23 +71,16 @@ Be direct, use real numbers, adapt to what actually happened. Under 280 words.
 Write ONLY the markdown to garmin/coach_note.md.
 " 2>/dev/null
 
-# Prepend timestamp to coach note (replace any existing timestamp line)
+# --- Prepend timestamp to coach note ---
 if [ -f garmin/coach_note.md ]; then
   TIMESTAMP="_Updated: $(date '+%A, %d %b %Y at %I:%M %p SGT')_"
-  # Remove any existing timestamp lines first
   sed -i '' '/^_Updated:.*SGT_$/d' garmin/coach_note.md
-  # Remove leading blank lines
   sed -i '' '/./,$!d' garmin/coach_note.md
-  echo -e "$TIMESTAMP\n\n$(cat garmin/coach_note.md)" > garmin/coach_note.md
+  printf '%s\n\n%s\n' "$TIMESTAMP" "$(cat garmin/coach_note.md)" > garmin/coach_note.md
 fi
 
-# Regenerate dashboard with new coach note
-/Users/amandakoh/opt/anaconda3/bin/python3 generate_dashboard.py 2>/dev/null
+# --- Regenerate dashboard ---
+$PYTHON generate_dashboard.py 2>/dev/null
 
-# Push everything back to GitHub
-git add garmin/coach_note.md docs/index.html garmin/data.json
-git diff --cached --quiet || git commit -m "coach: $(date '+%Y-%m-%d %H:%M')"
-git stash --quiet 2>/dev/null
-git pull --rebase --quiet 2>/dev/null || true
-git stash pop --quiet 2>/dev/null || true
-git push --quiet
+# --- Commit and push (with locking, conflict resolution, retries) ---
+/bin/bash "$REPO/git_safe_push.sh" "coach: $(date '+%Y-%m-%d %H:%M')" garmin/coach_note.md docs/index.html garmin/data.json

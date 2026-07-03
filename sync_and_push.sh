@@ -1,25 +1,24 @@
 #!/bin/bash
-# Pulls latest Garmin data, regenerates dashboard, pushes to GitHub
-# Runs hourly 7am-12am via launchd — no Claude needed
+# Pulls latest Garmin data, regenerates dashboard, pushes to GitHub.
+# Runs every 30 min via launchd — no Claude needed.
+# Uses git_safe_push.sh for reliable git operations with locking and retries.
 
-cd /Users/amandakoh/garmin-ai
+REPO="/Users/amandakoh/garmin-ai"
+PYTHON="/Users/amandakoh/opt/anaconda3/bin/python3"
 
-# Pull latest from GitHub first
-git pull --quiet
+cd "$REPO"
 
-# Sync last 3 days of Garmin data
-/Users/amandakoh/opt/anaconda3/bin/python3 sync.py 3
+# --- Pull latest ---
+/bin/bash "$REPO/git_safe_push.sh" "__pull_only__" 2>/dev/null || true
 
-# Regenerate dashboard with fresh data
-/Users/amandakoh/opt/anaconda3/bin/python3 generate_dashboard.py 2>/dev/null
+# --- Sync last 3 days of Garmin data ---
+$PYTHON sync.py 3
 
-# Push if anything changed
-git add garmin/ docs/
-git diff --cached --quiet || git commit -m "sync: $(date '+%Y-%m-%d %H:%M')"
-git stash --quiet 2>/dev/null
-git pull --rebase --quiet 2>/dev/null || true
-git stash pop --quiet 2>/dev/null || true
-git push --quiet
+# --- Regenerate dashboard ---
+$PYTHON generate_dashboard.py 2>/dev/null
 
-# Update GitHub secret with fresh tokens so Actions runs don't get 429'd
-/Users/amandakoh/opt/anaconda3/bin/python3 update_github_token.py 2>/dev/null
+# --- Commit and push (with locking, conflict resolution, retries) ---
+/bin/bash "$REPO/git_safe_push.sh" "sync: $(date '+%Y-%m-%d %H:%M')" garmin/ docs/
+
+# --- Update GitHub secret with fresh tokens ---
+$PYTHON update_github_token.py 2>/dev/null || true
