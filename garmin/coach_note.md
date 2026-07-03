@@ -1,17 +1,17 @@
-_Updated: Friday, 03 Jul 2026 at 06:32 PM SGT_
+_Updated: Friday, 03 Jul 2026 at 07:06 PM SGT_
 
-**You ran through the rest day — and the data completely vindicates it.**
+**Confirm Recovery week is closed — Rebuild Base opens Sunday.**
 
 **What your data says**
-Today's 6.09km (avg HR 131, pace 7:17/km, cadence 172, load 42) was textbook: HR held under the 135 cap the whole way. ACWR is now 0.9 (OPTIMAL), acute load 209 vs chronic 219 — properly in the green zone, no longer undertraining. Heat acclimation jumped from 39% to 54% (ACCLIMATIZING) — a meaningful single-session gain. Sleep scored 85 (7.1h, HRV overnight avg 79, deep 1.6h, POSITIVE_RECOVERING); rHR 49 confirms full illness recovery. VO2max 55.6, HM prediction 2:01:57 — 12 minutes off goal, closed only by volume.
+ACWR is 0.9 (OPTIMAL), acute load 209 vs chronic 219 — safely under-training, no injury risk heading into the build phase. Heat acclimation is 54% (ACCLIMATIZING) after four consistent sessions; HRV overnight avg 79 (5-min high 107), sleep 7.1h with 1.6h deep — recovery quality is solid. VO2max 55.6, predicted HM 2:01:57 — 12 minutes off goal, closed only by volume; load balance flags AEROBIC_HIGH_SHORTAGE, which is exactly right until tempo work enters in the Jul 19 block.
 
 **Today's session**
-Done — 6.09km easy, avg HR 131, cadence 172. Body battery is at 27 post-run; normal after exercise, not a warning sign. Nothing more today.
+Done — 6.09km easy, HR avg 131 (under 135 cap), pace 7:17/km, cadence 172. Four runs this week (Jun 30, Jul 2, Jul 3 + the Jun 29 opener); Confirm Recovery phase is complete. Body battery at 27 post-run — nothing more today.
 
 **3-Day Plan**
-- Today (Fri, Jul 3): 6.09km easy ✓ — HR 131, cadence 172, ACWR 0.9
-- Tomorrow (Sat, Jul 4): Full rest — BB needs overnight recharge from 27; arrive Sunday charged
-- Day after (Sun, Jul 5): 7km easy, 7:10–7:30/km, HR cap 135; out by 6:45am before heat peaks — ACWR headroom healthy, add 1km vs prior plan
+- Today (Fri, Jul 3): 6.09km easy ✓ — HR 131, cadence 172, load 42
+- Tomorrow (Sat, Jul 4): Full rest — BB needs overnight recharge; final day of Confirm Recovery
+- Day after (Sun, Jul 5): 7km easy, 7:10–7:30/km, HR cap 135 — first Rebuild Base run; out by 6:45am before heat peaks
 
 **This week's focus**
-Confirm Recovery closed with 4 runs (Jun 29, Jun 30, Jul 2, Jul 3); Rebuild Base is now open — the 100km July target needs ~87km in 28 days, so 3 runs/week with a long run building to 10–11km by Jul 18. Heat discipline is the main risk: 54% acclimated means adapting fast, but 17:00 SGT is still brutal — keep the early alarm.
+Rebuild Base (Jul 5–18) opens Sunday with the goal of reaching 10–11km long runs by Jul 18 and 3×/week volume to pace toward the 100km July target (~87km remaining). One thing to watch: pace discipline even when HR has headroom — the Jul 2 run (6:58/km at HR 125) drifted fast; Sunday, hold 7:10+.
