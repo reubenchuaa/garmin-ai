@@ -378,6 +378,18 @@ def generate_html(data, context, coaching_text):
     chart_rhr     = js_arr([g(w, "wellness", "restingHeartRate") for w in wellness_14])
     chart_stress  = js_arr([g(w, "wellness", "averageStressLevel") for w in wellness_14])
 
+    # Sleep chart data (hours)
+    def sleep_hrs(w, field):
+        v = g(w, "sleep", "dailySleepDTO", field)
+        return round(v / 3600, 1) if v else None
+    chart_sleep_deep  = js_arr([sleep_hrs(w, "deepSleepSeconds") for w in wellness_14])
+    chart_sleep_light = js_arr([sleep_hrs(w, "lightSleepSeconds") for w in wellness_14])
+    chart_sleep_rem   = js_arr([sleep_hrs(w, "remSleepSeconds") for w in wellness_14])
+    chart_sleep_awake = js_arr([sleep_hrs(w, "awakeSleepSeconds") for w in wellness_14])
+
+    # HRV chart data
+    chart_hrv = js_arr([g(w, "hrv", "hrvSummary", "lastNightAvg") for w in wellness_14])
+
     # Monthly mileage chart data
     mile_labels, mile_values = get_monthly_mileage(data)
     chart_mile_labels = json.dumps(mile_labels)
@@ -656,6 +668,8 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Training Readiness</h3><canvas id="tr" height="75"></canvas></div>
 <div class="box"><h3>Resting Heart Rate</h3><canvas id="rhr" height="75"></canvas></div>
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
+<div class="box"><h3>Sleep (hours)</h3><canvas id="sleep" height="75"></canvas></div>
+<div class="box"><h3>HRV (overnight avg)</h3><canvas id="hrv" height="75"></canvas></div>
 <div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
 <div class="sec">Latest Route — {route_name} ({route_date})</div>
@@ -708,6 +722,19 @@ CHART_JS_PLACEHOLDER
         '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"Stress","data":' + chart_stress + ',"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt(0,100)});\n'
+        "new Chart(document.getElementById('sleep'),{"
+        '"type":"bar","data":{"labels":LB,"datasets":['
+        '{"label":"Deep","data":' + chart_sleep_deep + ',"backgroundColor":"#1e40af"},'
+        '{"label":"Light","data":' + chart_sleep_light + ',"backgroundColor":"#60a5fa"},'
+        '{"label":"REM","data":' + chart_sleep_rem + ',"backgroundColor":"#a78bfa"},'
+        '{"label":"Awake","data":' + chart_sleep_awake + ',"backgroundColor":"#f87171"}'
+        ']},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},'
+        '"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},'
+        '"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});\n'
+        "new Chart(document.getElementById('hrv'),{"
+        '"type":"line","data":{"labels":LB,"datasets":['
+        '{"label":"HRV","data":' + chart_hrv + ',"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}'
+        ']},"options":opt()});\n'
         "new Chart(document.getElementById('mileage'),{"
         '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
         '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'

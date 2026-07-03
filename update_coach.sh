@@ -24,6 +24,16 @@ d['activities'] = [a for a in d.get('activities', []) if (a.get('startTimeLocal'
 for a in d['activities']:
     a.pop('_details', None)
 d['wellness'] = [w for w in d.get('wellness', []) if w.get('date', '') >= cutoff]
+for w in d['wellness']:
+    # Trim sleep to just the summary (dailySleepDTO) — raw arrays are 100KB+ each
+    s = w.get('sleep', {})
+    if s:
+        dto = s.get('dailySleepDTO', {})
+        w['sleep'] = {'dailySleepDTO': {k: dto[k] for k in ('calendarDate','sleepTimeSeconds','deepSleepSeconds','lightSleepSeconds','remSleepSeconds','awakeSleepSeconds','avgHeartRate','avgSleepStress','sleepScoreFeedback') if k in dto}, 'avgOvernightHrv': s.get('avgOvernightHrv')}
+    # Trim HRV to just the summary
+    h = w.get('hrv', {})
+    if h:
+        w['hrv'] = {'hrvSummary': h.get('hrvSummary', {})}
 perf = d.get('performance', {})
 if perf:
     latest_key = max(perf.keys())
@@ -43,7 +53,7 @@ Also read garmin/coach_note.md — this is your PREVIOUS advice. You must mainta
 - If nothing meaningful changed since the last note, it is fine to return the same advice with updated numbers.
 
 From data.json, extract and reason about:
-- Last 7 days of wellness (training_readiness, body_battery, resting HR, stress)
+- Last 7 days of wellness (training_readiness, body_battery, resting HR, stress, sleep duration + stages, HRV overnight avg)
 - Recent activities (distance, pace, avg HR, cadence, HR zones, training load)
 - performance[most recent date]: training_status, acwr + acwr_status, acute_load, chronic_load, load_balance_feedback, vo2max_precise, heat_acclimation_pct, heat_trend
 - race_pred_hm (current predicted half marathon time vs goal of 1:45-1:50)
