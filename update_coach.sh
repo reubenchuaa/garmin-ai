@@ -84,5 +84,7 @@ fi
 # Push everything back to GitHub
 git add garmin/coach_note.md docs/index.html garmin/data.json
 git diff --cached --quiet || git commit -m "coach: $(date '+%Y-%m-%d %H:%M')"
+git stash --quiet 2>/dev/null
 git pull --rebase --quiet 2>/dev/null || true
+git stash pop --quiet 2>/dev/null || true
 git push --quiet
