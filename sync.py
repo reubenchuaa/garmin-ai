@@ -350,6 +350,46 @@ def sync(days=3):
             wellness = client.get_user_summary(day) or {}
         except Exception as e:
             print(f"  Warning: wellness {day} — {e}")
+            # Fallback: build partial wellness from individual endpoints
+            # Use client.garth (the authenticated garth instance), not the global garth.client
+            try:
+                _gc = client.garth
+                _w = {}
+                try:
+                    _steps = _gc.connectapi(f"/usersummary-service/stats/steps/daily/{day}/{day}")
+                    if _steps and len(_steps) > 0:
+                        _w["totalSteps"] = _steps[0].get("totalSteps")
+                        _w["totalDistanceMeters"] = _steps[0].get("totalDistance")
+                except Exception:
+                    pass
+                try:
+                    _stress = _gc.connectapi(f"/wellness-service/wellness/dailyStress/{day}")
+                    if _stress:
+                        _w["averageStressLevel"] = _stress.get("avgStressLevel")
+                        _w["maxStressLevel"] = _stress.get("maxStressLevel")
+                except Exception:
+                    pass
+                try:
+                    _bb = _gc.connectapi("/wellness-service/wellness/bodyBattery/reports/daily", params={"startDate": day, "endDate": day})
+                    if _bb and len(_bb) > 0:
+                        bb_vals = [v[1] for v in _bb[0].get("bodyBatteryValuesArray", []) if isinstance(v, list) and len(v) > 1 and v[1] is not None]
+                        if bb_vals:
+                            _w["bodyBatteryHighestValue"] = max(bb_vals)
+                            _w["bodyBatteryLowestValue"] = min(bb_vals)
+                except Exception:
+                    pass
+                try:
+                    _floors = _gc.connectapi(f"/wellness-service/wellness/floorsChartData/daily/{day}")
+                    if _floors and "floorValuesArray" in _floors:
+                        total_up = sum((f[2] if isinstance(f, list) and len(f) > 2 else 0) or 0 for f in _floors["floorValuesArray"])
+                        _w["floorsAscended"] = total_up
+                except Exception:
+                    pass
+                if _w:
+                    wellness = _w
+                    print(f"  Fallback wellness {day}: got {list(_w.keys())}")
+            except Exception as e2:
+                print(f"  Warning: fallback wellness {day} — {e2}")
 
         try:
             sleep = client.get_sleep_data(day) or {}
