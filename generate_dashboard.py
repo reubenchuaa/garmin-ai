@@ -109,7 +109,7 @@ def get_coaching(data, context):
         tr_score = tr_list[0].get("score") if tr_list else None
         bb_peak = g(today_w, "wellness", "bodyBatteryHighestValue")
         rhr = g(today_w, "wellness", "restingHeartRate")
-        hrv = g(today_w, "hrv", "hrvSummary", "lastNight")
+        hrv = g(today_w, "hrv", "hrvSummary", "lastNightAvg")
         hrv_status = (g(today_w, "hrv", "hrvSummary", "status") or "").upper()
         stress = g(today_w, "wellness", "averageStressLevel")
 
@@ -356,7 +356,7 @@ def generate_html(data, context, coaching_text):
     acwr = perf.get("acwr")
     acwr_status = (perf.get("acwr_status") or "").replace("_", " ").title()
     acwr_s = f"{acwr:.2f}" if acwr else "—"
-    acwr_color = "#10b981" if acwr and acwr < 1.0 else ("#f59e0b" if acwr and acwr < 1.3 else "#ef4444")
+    acwr_color = "#6b7280" if acwr is None else ("#10b981" if acwr < 1.0 else ("#f59e0b" if acwr < 1.3 else "#ef4444"))
     race_pred_hm = perf.get("race_pred_hm") or "—"
     training_status = (perf.get("training_status") or "—").replace("_", " ").replace("2", "").title().strip()
     heat_pct = perf.get("heat_acclimation_pct")
@@ -381,7 +381,9 @@ def generate_html(data, context, coaching_text):
     # Sleep chart data (hours)
     def sleep_hrs(w, field):
         v = g(w, "sleep", "dailySleepDTO", field)
-        return round(v / 3600, 1) if v else None
+        if v is None or not isinstance(v, (int, float)):
+            return None
+        return round(v / 3600, 1)
     chart_sleep_deep  = js_arr([sleep_hrs(w, "deepSleepSeconds") for w in wellness_14])
     chart_sleep_light = js_arr([sleep_hrs(w, "lightSleepSeconds") for w in wellness_14])
     chart_sleep_rem   = js_arr([sleep_hrs(w, "remSleepSeconds") for w in wellness_14])

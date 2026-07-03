@@ -302,10 +302,13 @@ def merge_data(existing, new_activities, new_wellness):
         if act.get("activityId") not in act_ids:
             existing.setdefault("activities", []).append(act)
 
-    well_dates = {w["date"] for w in existing.get("wellness", [])}
+    well_dates = {w.get("date") for w in existing.get("wellness", []) if w.get("date")}
     for w in new_wellness:
-        if w["date"] in well_dates:
-            existing["wellness"] = [w if e["date"] == w["date"] else e for e in existing["wellness"]]
+        wdate = w.get("date")
+        if not wdate:
+            continue
+        if wdate in well_dates:
+            existing["wellness"] = [w if e.get("date") == wdate else e for e in existing["wellness"]]
         else:
             existing.setdefault("wellness", []).append(w)
 
@@ -547,7 +550,10 @@ def sync(days=3):
     for a in merged.get("activities", []):
         a.pop("_details", None)
 
-    DATA_FILE.write_text(json.dumps(merged, indent=2, default=str))
+    # Atomic write: write to temp file first, then rename (prevents corruption on crash)
+    tmp_file = DATA_FILE.with_suffix(".json.tmp")
+    tmp_file.write_text(json.dumps(merged, indent=2, default=str))
+    tmp_file.replace(DATA_FILE)
     print(f"\nAll data saved to garmin/data.json")
     print(f"Markdown notes written: {len(written)} files")
     return written

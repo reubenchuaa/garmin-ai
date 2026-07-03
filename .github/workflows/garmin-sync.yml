@@ -11,6 +11,10 @@ on:
     - cron: '0 16 * * *'   # 12 AM SGT
   workflow_dispatch:
 
+concurrency:
+  group: garmin-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -29,38 +33,59 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate secrets exist
+        run: |
+          if [ -z "${{ secrets.GARMIN_TOKEN_B64 }}" ]; then
+            echo "::error::GARMIN_TOKEN_B64 secret is not set"
+            exit 1
+          fi
+
       - name: Try Garmin sync
         id: sync
-        continue-on-error: true
         env:
           GARMIN_TOKEN_B64: ${{ secrets.GARMIN_TOKEN_B64 }}
           GARMIN_OAUTH_PROXY: ${{ secrets.GARMIN_OAUTH_PROXY }}
-        run: python3 sync.py 3 2>&1 | tee sync_output.txt
+        run: |
+          set -o pipefail
+          python3 sync.py 3 2>&1 | tee sync_output.txt
+          echo "sync_ok=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
 
-      - name: Check if sync got real data
+      - name: Check sync result
         id: check
         run: |
-          if grep -q "429" sync_output.txt 2>/dev/null; then
-            echo "Garmin API blocked (429). Skipping data commit, regenerating dashboard only."
+          if [ "${{ steps.sync.outputs.sync_ok }}" != "true" ]; then
+            echo "Sync failed (Python error). Dashboard-only update."
+            echo "got_data=false" >> $GITHUB_OUTPUT
+          elif grep -q "No real data fetched" sync_output.txt 2>/dev/null; then
+            echo "No real data from API. Dashboard-only update."
+            echo "got_data=false" >> $GITHUB_OUTPUT
+          elif grep -q "429" sync_output.txt 2>/dev/null; then
+            echo "Garmin API blocked (429). Dashboard-only update."
             echo "got_data=false" >> $GITHUB_OUTPUT
           else
             echo "got_data=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Generate dashboard
-        run: |
-          git pull --quiet || true
-          python3 generate_dashboard.py
+        run: python3 generate_dashboard.py
 
       - name: Commit and push
         run: |
           git config user.name "Garmin Sync Bot"
           git config user.email "sync@garmin-ai"
+          # Pull first to avoid push rejection
+          git pull --rebase --quiet || git pull --quiet || true
           if [ "${{ steps.check.outputs.got_data }}" = "true" ]; then
             git add garmin/ docs/
           else
             git add docs/
           fi
-          git diff --cached --quiet || git commit -m "sync: $(date -u '+%Y-%m-%d')"
-          git pull --rebase --quiet || true
-          git push
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "sync: $(date -u '+%Y-%m-%d %H:%M')"
+          # Push with retry
+          git push || {
+            echo "Push failed, retrying after pull..."
+            git pull --rebase --quiet || git pull --quiet || true
+            git push
+          }
