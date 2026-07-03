@@ -64907,6 +64907,27 @@
       "avg_respiration": 14.0,
       "sleep_respiration": null,
       "avg_spo2": null
+    },
+    "2026-07-03": {
+      "training_status": "NO_STATUS_2",
+      "fitness_trend": 0,
+      "acwr": 0.7,
+      "acwr_status": "LOW",
+      "acute_load": 155,
+      "chronic_load": 219,
+      "aerobic_low_load": 361.61334,
+      "aerobic_high_load": 0.0,
+      "load_balance_feedback": "AEROBIC_HIGH_SHORTAGE",
+      "vo2max_precise": 55.7,
+      "heat_acclimation_pct": 39,
+      "heat_trend": "ACCLIMATIZED",
+      "race_pred_5k": "24:53",
+      "race_pred_10k": "53:52",
+      "race_pred_hm": "2:01:57",
+      "race_pred_marathon": "4:30:17",
+      "avg_respiration": 13.0,
+      "sleep_respiration": 15.0,
+      "avg_spo2": null
     }
   },
   "latest_route": {
