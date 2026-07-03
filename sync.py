@@ -385,6 +385,35 @@ def sync(days=3):
                         _w["floorsAscended"] = total_up
                 except Exception:
                     pass
+                try:
+                    _hr = _gc.connectapi(f"/usersummary-service/stats/heartRate/daily/{day}/{day}")
+                    if _hr and len(_hr) > 0:
+                        vals = _hr[0].get("values", {})
+                        if vals.get("restingHR"):
+                            _w["restingHeartRate"] = vals["restingHR"]
+                        if vals.get("wellnessMaxAvgHR"):
+                            _w["maxAvgHeartRate"] = vals["wellnessMaxAvgHR"]
+                        if vals.get("wellnessMinAvgHR"):
+                            _w["minAvgHeartRate"] = vals["wellnessMinAvgHR"]
+                except Exception:
+                    pass
+                try:
+                    _im = _gc.connectapi(f"/usersummary-service/stats/im/daily/{day}/{day}")
+                    if _im and len(_im) > 0:
+                        _w["moderateIntensityMinutes"] = _im[0].get("moderateValue", 0)
+                        _w["vigorousIntensityMinutes"] = _im[0].get("vigorousValue", 0)
+                except Exception:
+                    pass
+                try:
+                    _cal = _gc.connectapi(f"/usersummary-service/stats/calories/daily/{day}/{day}")
+                    if _cal and len(_cal) > 0:
+                        vals = _cal[0].get("values", {})
+                        if vals.get("activeCalories"):
+                            _w["activeKilocalories"] = vals["activeCalories"]
+                        if vals.get("totalCalories"):
+                            _w["totalKilocalories"] = vals["totalCalories"]
+                except Exception:
+                    pass
                 if _w:
                     wellness = _w
                     print(f"  Fallback wellness {day}: got {list(_w.keys())}")
