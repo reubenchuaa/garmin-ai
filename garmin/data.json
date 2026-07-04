@@ -71855,6 +71855,7 @@
     {
       "date": "2026-07-04",
       "wellness": {
+<<<<<<< Updated upstream
         "totalSteps": 1347,
         "totalDistanceMeters": 1035,
         "averageStressLevel": 40,
@@ -71862,6 +71863,8 @@
         "bodyBatteryHighestValue": 8,
         "bodyBatteryLowestValue": 5,
         "floorsAscended": 1,
+=======
+>>>>>>> Stashed changes
         "restingHeartRate": 64,
         "maxAvgHeartRate": 99,
         "minAvgHeartRate": 57,
