@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 85 days to race</span>
-    <span class="pill pill-green">Synced 04 Jul 2026 07:27 PM SGT</span>
+    <span class="pill pill-green">Synced 04 Jul 2026 10:17 PM SGT</span>
   </div>
 </div>
 </div>
@@ -96,12 +96,12 @@ tr:last-child td{border-bottom:none}
   <div class="cards" style="margin:0">
     <div class="card"><div class="lbl">Resting HR</div><div class="val">50</div><div class="sub2">bpm</div></div>
     <div class="card"><div class="lbl">Body Battery</div><div class="val">86</div><div class="sub2">peak · 5 low</div></div>
-    <div class="card"><div class="lbl">Stress</div><div class="val">29</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">5,283</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Stress</div><div class="val">30</div><div class="sub2">avg</div></div>
+    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">7,778</div><div class="sub2">today</div></div>
     <div class="card"><div class="lbl">Intensity</div><div class="val">—</div><div class="sub2">min (mod+vig)</div></div>
-    <div class="card"><div class="lbl">Active Cal</div><div class="val">89</div><div class="sub2">kcal</div></div>
-    <div class="card"><div class="lbl">Distance</div><div class="val">4.1</div><div class="sub2">km today</div></div>
-    <div class="card"><div class="lbl">Floors</div><div class="val">10</div><div class="sub2">ascended</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">121</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Distance</div><div class="val">6.0</div><div class="sub2">km today</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">16</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">0.80</div><div class="sub2">ACWR · Optimal</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem">2:02:43</div><div class="sub2">goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">55.6</div><div class="sub2">ml/kg/min</div></div>
@@ -112,7 +112,7 @@ tr:last-child td{border-bottom:none}
 
 <div class="sec">Daily Coach</div>
 <div class="coach-card">
-  <p>_Updated: Saturday, 04 Jul 2026 at 06:17 PM SGT_</p>
+  <p>_Updated: Saturday, 04 Jul 2026 at 10:17 PM SGT_</p>
 <p><strong>Confirm Recovery week is closed — Rebuild Base opens Sunday.</strong></p>
 <p><strong>What your data says</strong></p>
 <p>ACWR is 0.9 (OPTIMAL), acute load 209 vs chronic 219 — safely under-training, no injury risk heading into the build phase. Heat acclimation is 54% (ACCLIMATIZING) after four consistent sessions; HRV overnight avg 79 (5-min high 107), sleep 7.1h with 1.6h deep — recovery quality is solid. VO2max 55.6, predicted HM 2:01:57 — 12 minutes off goal, closed only by volume; load balance flags AEROBIC_HIGH_SHORTAGE, which is exactly right until tempo work enters in the Jul 19 block.</p>
@@ -221,7 +221,7 @@ const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color
 new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[null,null,null,null,null,null,null,null,null,null,null,84,97,86],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[null,null,null,null,null,null,null,null,null,null,null,17,8,5],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[null,null,null,null,null,null,null,null,null,null,null,66,65,64],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[null,null,null,null,null,null,null,null,null,null,null,62,49,50],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[null,null,null,null,null,null,null,null,null,null,null,27,31,29],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[null,null,null,null,null,null,null,null,null,null,null,27,31,30],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[null,null,null,null,null,null,null,null,null,null,null,null,1.6,2.1],"backgroundColor":"#1e40af"},{"label":"Light","data":[null,null,null,null,null,null,null,null,null,null,null,null,4.2,2.8],"backgroundColor":"#60a5fa"},{"label":"REM","data":[null,null,null,null,null,null,null,null,null,null,null,null,1.3,1.9],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[null,null,null,null,null,null,null,null,null,null,null,null,0.0,0.0],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
 new Chart(document.getElementById('hrv'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"HRV","data":[null,null,null,null,null,null,null,null,null,null,null,null,79,63],"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('mileage'),{"type":"bar","data":{"labels":["Feb 26", "Mar 26", "Apr 26", "May 26", "Jun 26", "Jul 26"],"datasets":[{"label":"km","data":[0, 0, 0, 0, 0, 12.9],"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}]},"options":{"responsive":true,"plugins":{"legend":{"display":false}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
