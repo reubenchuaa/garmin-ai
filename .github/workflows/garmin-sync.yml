@@ -74,8 +74,30 @@ jobs:
         run: |
           git config user.name "Garmin Sync Bot"
           git config user.email "sync@garmin-ai"
-          # Pull first to avoid push rejection
-          git pull --rebase --quiet || git pull --quiet || true
+
+          # Helper: strip conflict markers (keep ours)
+          resolve_conflicts() {
+            for f in $(grep -rl '<<<<<<< ' --include='*.json' --include='*.html' --include='*.md' . 2>/dev/null || true); do
+              python3 -c "
+          import re
+          text = open('$f').read()
+          text = re.sub(r'<<<<<<< [^\n]*\n(.*?)\n=======\n.*?\n>>>>>>> [^\n]*', lambda m: m.group(1), text, flags=re.DOTALL)
+          open('$f', 'w').write(text)
+          " && echo "Resolved conflicts in $f"
+            done
+          }
+
+          # Pull first, resolve any conflicts
+          git pull --rebase --quiet 2>/dev/null || {
+            git rebase --abort 2>/dev/null || true
+            git pull --quiet 2>/dev/null || {
+              git diff --name-only --diff-filter=U 2>/dev/null | xargs -r git checkout --ours
+              git diff --name-only --diff-filter=U 2>/dev/null | xargs -r git add
+              git commit --no-edit 2>/dev/null || true
+            }
+          }
+          resolve_conflicts
+
           if [ "${{ steps.check.outputs.got_data }}" = "true" ]; then
             git add garmin/ docs/
           else
@@ -86,6 +108,9 @@ jobs:
           # Push with retry
           git push || {
             echo "Push failed, retrying after pull..."
-            git pull --rebase --quiet || git pull --quiet || true
+            git pull --rebase --quiet || { git rebase --abort 2>/dev/null || true; git pull --quiet || true; }
+            resolve_conflicts
+            git add garmin/ docs/ 2>/dev/null || true
+            git diff --cached --quiet || git commit -m "sync: $(date -u '+%Y-%m-%d %H:%M') retry"
             git push
           }

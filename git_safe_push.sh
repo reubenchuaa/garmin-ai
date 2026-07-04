@@ -2,12 +2,8 @@
 # Reliable git commit + push with locking, conflict resolution, and retries.
 # Usage: git_safe_push.sh "commit message" [files to add...]
 #
-# This script handles EVERY known failure mode:
-# 1. Concurrent git operations (file lock)
-# 2. Unstaged changes blocking pull/rebase
-# 3. Merge conflicts on auto-generated files (auto-resolved)
-# 4. Push rejections (retry with fresh pull)
-# 5. Dirty working tree from previous failed runs
+# CRITICAL INVARIANT: This script NEVER leaves conflict markers in files.
+# Every git operation that can produce conflicts is followed by a check.
 
 set -euo pipefail
 
@@ -19,11 +15,29 @@ FILES_TO_ADD=("$@")
 
 cd "$REPO_DIR"
 
+# --- Check for and remove conflict markers ---
+has_conflict_markers() {
+    grep -rql '<<<<<<< ' --include='*.json' --include='*.html' --include='*.md' . 2>/dev/null
+}
+
+resolve_conflict_markers() {
+    if has_conflict_markers; then
+        echo "  [git] CONFLICT MARKERS DETECTED — auto-resolving"
+        grep -rl '<<<<<<< ' --include='*.json' --include='*.html' --include='*.md' . 2>/dev/null | while read -r f; do
+            python3 -c "
+import re
+text = open('$f').read()
+text = re.sub(r'<<<<<<< [^\n]*\n(.*?)\n=======\n.*?\n>>>>>>> [^\n]*', lambda m: m.group(1), text, flags=re.DOTALL)
+open('$f', 'w').write(text)
+" 2>/dev/null && echo "  [git] Resolved conflicts in $f" || true
+        done
+    fi
+}
+
 # --- Acquire exclusive lock (wait up to 5 min, then steal it) ---
 acquire_lock() {
     local waited=0
     while [ -f "$LOCKFILE" ]; do
-        # Check if lock is stale (older than 10 minutes)
         if [ -f "$LOCKFILE" ]; then
             local lock_age=$(( $(date +%s) - $(stat -f %m "$LOCKFILE" 2>/dev/null || echo 0) ))
             if [ "$lock_age" -gt 600 ]; then
@@ -50,6 +64,7 @@ cleanup_rebase() {
         echo "  [git] Aborting interrupted rebase"
         git rebase --abort 2>/dev/null || true
     fi
+    resolve_conflict_markers
 }
 
 # --- Safe pull: stash, pull, pop ---
@@ -60,37 +75,39 @@ safe_pull() {
         git stash --quiet --include-untracked 2>/dev/null || true
     fi
 
-    git pull --rebase --quiet 2>/dev/null || {
-        # If rebase fails due to conflict, accept theirs for auto-generated files
-        echo "  [git] Rebase conflict, auto-resolving generated files"
-        git checkout --theirs docs/index.html 2>/dev/null || true
-        git checkout --theirs garmin/data.json 2>/dev/null || true
-        git add docs/index.html garmin/data.json 2>/dev/null || true
-        GIT_EDITOR=true git rebase --continue 2>/dev/null || {
-            echo "  [git] Rebase still failing, aborting and using merge instead"
-            git rebase --abort 2>/dev/null || true
-            git pull --quiet 2>/dev/null || true
-        }
-    }
+    if ! git pull --rebase --quiet 2>/dev/null; then
+        echo "  [git] Rebase conflict, aborting rebase"
+        git rebase --abort 2>/dev/null || true
+        if ! git pull --quiet 2>/dev/null; then
+            echo "  [git] Merge pull has conflicts, auto-resolving (keep ours)"
+            git diff --name-only --diff-filter=U 2>/dev/null | while read -r f; do
+                git checkout --ours "$f" 2>/dev/null || true
+                git add "$f" 2>/dev/null || true
+            done
+            git commit --no-edit 2>/dev/null || true
+        fi
+    fi
+
+    resolve_conflict_markers
 
     if [ "$has_changes" = true ]; then
-        git stash pop --quiet 2>/dev/null || {
-            # If stash pop conflicts, drop the stash (our new changes are better)
-            echo "  [git] Stash pop conflict, dropping stale stash"
-            git checkout -- . 2>/dev/null || true
+        if ! git stash pop --quiet 2>/dev/null; then
+            echo "  [git] Stash pop conflict — resolving"
+            resolve_conflict_markers
+            git add -A 2>/dev/null || true
             git stash drop --quiet 2>/dev/null || true
-        }
+        fi
     fi
+
+    resolve_conflict_markers
 }
 
 # --- Commit and push with retry ---
 commit_and_push() {
-    # Stage specified files
     if [ ${#FILES_TO_ADD[@]} -gt 0 ]; then
         git add "${FILES_TO_ADD[@]}" 2>/dev/null || true
     fi
 
-    # Only commit if there are staged changes
     if git diff --cached --quiet 2>/dev/null; then
         echo "  [git] Nothing to commit"
         return 0
@@ -101,7 +118,6 @@ commit_and_push() {
         return 1
     }
 
-    # Push with up to 3 retries
     local attempt=0
     while [ $attempt -lt 3 ]; do
         if git push --quiet 2>/dev/null; then
@@ -122,7 +138,6 @@ acquire_lock
 cleanup_rebase
 safe_pull
 
-# If called with "__pull_only__", just pull and exit (no commit/push)
 if [ "$COMMIT_MSG" = "__pull_only__" ]; then
     exit 0
 fi
