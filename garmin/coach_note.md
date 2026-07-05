@@ -1,4 +1,4 @@
-_Updated: Sunday, 05 Jul 2026 at 11:50 PM SGT_
+_Updated: Monday, 06 Jul 2026 at 12:05 AM SGT_
 
 **Long run banked — but aerobic high load is ZERO and your race pred is sitting 17 minutes off target.**
 
