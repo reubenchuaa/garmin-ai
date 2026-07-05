@@ -1,17 +1,17 @@
-_Updated: Sunday, 05 Jul 2026 at 09:53 AM SGT_
+_Updated: Sunday, 05 Jul 2026 at 09:59 AM SGT_
 
-**Recovered strong — 7km easy today, ACWR still needs feeding.**
+**12.9km in July, 87km still to go — today's run is not optional.**
 
-**What your data says**
-Readiness 82 (HIGH / WELL_RECOVERED), body battery 99 (peaked, fully charged), RHR 52, stress 11, sleep 7.7h with 1.8h deep and 1.5h REM, HRV overnight 68. ACWR is 0.6 (LOW) — acute load 144 vs chronic 219 — you're at 60% of your training baseline, so today's run is necessary, not optional. Predicted HM 2:02:43 vs goal 1:45–1:50; VO2max 55.6; heat trend ACCLIMATIZED at 54%.
+**The numbers don't lie**
+ACWR 0.6 (LOW) — acute load 144 vs chronic 219, you're training at 66% of your baseline and Garmin is screaming AEROBIC_HIGH_SHORTAGE. Predicted HM is 2:02:43, that's 13-18 minutes slower than your 1:45–1:50 target with 84 days to race day. July mileage: 12.9km done (Jul 2: 6.82km, Jul 3: 6.09km), 87.1km left in 27 days — you need 11-12 more sessions averaging 7-8km each with zero misses.
 
-**Today's session**
-7km easy, 7:10–7:30/km, HR cap 135. Last completed run Jul 3: 6.09km at 7:17/km, HR 131 — that's the template. Add ~1km today, hold identical discipline. Out by 6:45am for cooler air. Low ACWR means pace creep is the only real risk — hold 7:10+ even when legs feel fresh.
+**Today's session — non-negotiable**
+7km easy, 7:10–7:30/km, HR cap 135. Readiness is 82 (HIGH/WELL_RECOVERED) — the body is charged and ready. Your Jul 3 benchmark was 6.09km at 7:17/km, HR 131 — use that as your template and add 1km. Out before 7am; heat acclimation is at 54% so morning air buys you 5-8bpm headroom. No pace creep — the fix for low ACWR is consistent volume, not one heroic effort.
 
 **3-Day Plan**
-- Today (Sun, Jul 5): 7km easy, 7:10–7:30/km, HR cap 135
+- Today (Sun, Jul 5): 7km easy, 7:10–7:30/km, HR cap 135 — get it done now
 - Tomorrow (Mon, Jul 6): Full rest — aerobic signal needs to embed
 - Day after (Tue, Jul 7): 7km easy, 7:10–7:30/km, HR cap 135
 
-**This week's focus**
-Rebuild Base (Jul 5–18): long runs up to 10–11km, July mileage target 100km (12.9km done, ~87km to go in 26 days). One thing to watch: ACWR sitting at 0.6 — hit every planned session consistently and the ratio recovers on its own; do not spike distance trying to fix it in one go.
+**Bottom line**
+Hit every session this week — missing even one puts you further behind a July 100km target you're already chasing hard.
