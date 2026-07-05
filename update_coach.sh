@@ -11,8 +11,8 @@ cd "$REPO"
 # --- Pull latest ---
 /bin/bash "$REPO/git_safe_push.sh" "__pull_only__" 2>/dev/null || true
 
-# --- Sync latest Garmin data (last 3 days) ---
-$PYTHON sync.py 3 2>/dev/null
+# --- Sync latest Garmin data (last 3 days, 10-min timeout) ---
+perl -e 'alarm 600; exec @ARGV' $PYTHON sync.py 3 2>/dev/null || echo "  [sync] Sync timed out or failed"
 
 # --- Trim data.json for coach (last 60 days) ---
 $PYTHON -c "

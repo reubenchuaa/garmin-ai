@@ -4,12 +4,21 @@
 import base64
 import json
 import os
+import signal
 import sys
 import getpass
 import shutil
 import tempfile
 from datetime import date, timedelta
 from pathlib import Path
+
+# Global timeout: kill the entire sync if it hangs for more than 10 minutes
+def _timeout_handler(signum, frame):
+    print("\n  TIMEOUT: sync.py exceeded 10 minutes, exiting", file=sys.stderr)
+    sys.exit(1)
+
+signal.signal(signal.SIGALRM, _timeout_handler)
+signal.alarm(600)  # 10 minutes
 
 SCRIPT_DIR = Path(__file__).parent
 GARMIN_DIR = SCRIPT_DIR / "garmin"
@@ -68,6 +77,8 @@ def load_client():
 
         client = Garmin("noop", "noop")
         client.garth = garth_client
+        # Set request timeout so we never hang forever
+        garth_client.sess.timeout = 30
         # Skip profile lookup — it triggers oauth refresh which Garmin blocks from cloud IPs
         client.display_name = "user"
         client.full_name = "user"
@@ -78,6 +89,7 @@ def load_client():
         client = Garmin()
         try:
             client.login(tokenstore=str(TOKEN_DIR))
+            client.garth.sess.timeout = 30
             client.get_user_summary(date.today().isoformat())
             return client
         except Exception:
