@@ -1,4 +1,4 @@
-_Updated: Sunday, 05 Jul 2026 at 09:38 AM SGT_
+_Updated: Sunday, 05 Jul 2026 at 09:50 AM SGT_
 
 **Recovered strong — 7km easy today, ACWR still needs feeding.**
 
