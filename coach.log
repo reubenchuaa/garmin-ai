@@ -180,3 +180,15 @@ Write ONLY the markdown to garmin/coach_note.md.
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+
+Fetching data for: 2026-07-03 → 2026-07-05
+
+  Activity: activity_2026-07-03_23463020810.md
+  Wellness: wellness_2026-07-03.md
+  Wellness: wellness_2026-07-04.md
+  Wellness: wellness_2026-07-05.md
+  Training status: None, ACWR: None
+  Race predictions — HM: 2:02:43
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
