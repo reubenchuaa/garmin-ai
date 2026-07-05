@@ -1,9 +1,9 @@
-_Updated: Sunday, 05 Jul 2026 at 09:50 AM SGT_
+_Updated: Sunday, 05 Jul 2026 at 09:53 AM SGT_
 
 **Recovered strong — 7km easy today, ACWR still needs feeding.**
 
 **What your data says**
-Readiness 82 (HIGH / WELL_RECOVERED), body battery 80, RHR 52, stress 11, sleep 7.7h with 1.8h deep and 1.5h REM, HRV overnight 68. ACWR is 0.6 (LOW) — acute load 144 vs chronic 219 — you're at 60% of your training baseline, so today's run is necessary, not optional. Predicted HM 2:02:43 vs goal 1:45–1:50; VO2max 55.6; heat trend ACCLIMATIZED at 54%.
+Readiness 82 (HIGH / WELL_RECOVERED), body battery 99 (peaked, fully charged), RHR 52, stress 11, sleep 7.7h with 1.8h deep and 1.5h REM, HRV overnight 68. ACWR is 0.6 (LOW) — acute load 144 vs chronic 219 — you're at 60% of your training baseline, so today's run is necessary, not optional. Predicted HM 2:02:43 vs goal 1:45–1:50; VO2max 55.6; heat trend ACCLIMATIZED at 54%.
 
 **Today's session**
 7km easy, 7:10–7:30/km, HR cap 135. Last completed run Jul 3: 6.09km at 7:17/km, HR 131 — that's the template. Add ~1km today, hold identical discipline. Out by 6:45am for cooler air. Low ACWR means pace creep is the only real risk — hold 7:10+ even when legs feel fresh.
