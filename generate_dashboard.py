@@ -392,6 +392,23 @@ def generate_html(data, context, coaching_text):
     # HRV chart data
     chart_hrv = js_arr([g(w, "hrv", "hrvSummary", "lastNightAvg") for w in wellness_14])
 
+    # HM prediction trend from performance data
+    perf_all = data.get("performance", {})
+    hm_dates = []
+    hm_values = []
+    for dk in sorted(perf_all.keys()):
+        pred = perf_all[dk].get("race_pred_hm")
+        if pred and isinstance(pred, str) and ":" in pred:
+            parts = pred.split(":")
+            try:
+                total_min = int(parts[0]) * 60 + int(parts[1]) + (int(parts[2]) / 60 if len(parts) > 2 else 0)
+                hm_dates.append(dk[-5:])  # MM-DD
+                hm_values.append(round(total_min, 1))
+            except (ValueError, IndexError):
+                pass
+    chart_hm_labels = json.dumps(hm_dates)
+    chart_hm_values = json.dumps(hm_values)
+
     # Monthly mileage chart data
     mile_labels, mile_values = get_monthly_mileage(data)
     chart_mile_labels = json.dumps(mile_labels)
@@ -677,6 +694,7 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
 <div class="box"><h3>Sleep (hours)</h3><canvas id="sleep" height="75"></canvas></div>
 <div class="box"><h3>HRV (overnight avg)</h3><canvas id="hrv" height="75"></canvas></div>
+<div class="box"><h3>HM Race Prediction</h3><canvas id="hmpred" height="75"></canvas></div>
 <div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
 <div class="sec">Recent Activities</div>
@@ -739,6 +757,14 @@ CHART_JS_PLACEHOLDER
         '"type":"line","data":{"labels":LB,"datasets":['
         '{"label":"HRV","data":' + chart_hrv + ',"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt()});\n'
+        "new Chart(document.getElementById('hmpred'),{"
+        '"type":"line","data":{"labels":' + chart_hm_labels + ',"datasets":['
+        '{"label":"HM Pred","data":' + chart_hm_values + ',"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.15)","fill":true,"tension":.35,"pointRadius":4,"pointBackgroundColor":"#f59e0b"},'
+        '{"label":"1:50 goal","data":' + json.dumps([110] * len(hm_dates)) + ',"borderColor":"#10b981","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false},'
+        '{"label":"1:45 stretch","data":' + json.dumps([105] * len(hm_dates)) + ',"borderColor":"#22d3ee","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false}'
+        ']},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},'
+        '"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},'
+        '"y":{"reverse":true,"ticks":{"color":"#475569","font":{"size":10},callback:function(v){var h=Math.floor(v/60);var m=Math.floor(v%60);return h+\":\"+String(m).padStart(2,\"0\")}},"grid":{"color":"#334155"}}}}});\n'
         "new Chart(document.getElementById('mileage'),{"
         '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
         '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'
