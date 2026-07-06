@@ -320,17 +320,19 @@ def push_to_garmin(client, workout, schedule_date=None):
     print(f"  [workout] Created: {workout['workoutName']} (ID: {workout_id})")
 
     # Schedule it to a specific date so it shows on the calendar/watch
+    schedule_id = None
     if schedule_date:
         sched_url = f"/workout-service/schedule/{workout_id}"
         try:
-            client.garth.connectapi(
+            sched_resp = client.garth.connectapi(
                 sched_url, method="POST", json={"date": schedule_date}, headers=headers
             )
+            schedule_id = sched_resp.get("workoutScheduleId") if isinstance(sched_resp, dict) else None
             print(f"  [workout] Scheduled for {schedule_date}")
         except Exception as e:
             print(f"  [workout] Schedule failed (workout still created): {e}")
 
-    return workout_id
+    return workout_id, schedule_id
 
 
 def load_push_state():
@@ -350,22 +352,35 @@ def already_pushed(session):
             and state.get("name") == session["name"])
 
 
-def save_push_state(session, workout_id):
+def save_push_state(session, workout_id, schedule_id=None):
     """Record what was pushed so we can deduplicate or clean up."""
     LAST_PUSH_FILE.write_text(json.dumps({
         "date": session.get("date"),
         "name": session["name"],
         "workoutId": workout_id,
+        "scheduleId": schedule_id,
     }) + "\n")
 
 
 def cleanup_old_workout(client, session):
-    """Delete the previously pushed workout before creating a new one.
-    Keeps the Garmin workout library clean — only the latest coach workout exists."""
+    """Delete the previously pushed workout and its schedule entry.
+    Keeps the Garmin workout library and calendar clean."""
     state = load_push_state()
     old_id = state.get("workoutId")
+    old_schedule_id = state.get("scheduleId")
     if not old_id:
         return
+    # Delete schedule entry first (otherwise it lingers on the calendar)
+    if old_schedule_id:
+        try:
+            client.garth.connectapi(
+                f"/workout-service/schedule/{old_schedule_id}",
+                method="DELETE",
+            )
+            print(f"  [workout] Removed old schedule (ID: {old_schedule_id})")
+        except Exception:
+            pass
+    # Delete the workout itself
     try:
         client.garth.connectapi(
             f"/workout-service/workout/{old_id}",
@@ -400,9 +415,9 @@ def main():
     try:
         client = load_client()
         cleanup_old_workout(client, session)
-        workout_id = push_to_garmin(client, workout, schedule_date=session.get("date"))
+        workout_id, schedule_id = push_to_garmin(client, workout, schedule_date=session.get("date"))
         if workout_id:
-            save_push_state(session, workout_id)
+            save_push_state(session, workout_id, schedule_id)
             print(f"\n  ✅ Workout pushed! Sync your watch to see it.")
     except Exception as e:
         print(f"\n  [workout] Push failed: {e}")
