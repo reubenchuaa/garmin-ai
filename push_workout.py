@@ -317,21 +317,48 @@ def push_to_garmin(client, workout, schedule_date=None):
     return workout_id
 
 
-def already_pushed(session):
-    """Check if this workout was already pushed (avoid duplicates).
-    Uses a file tracked in git so it persists across GH Actions runs."""
-    key = f"{session.get('date', '')}|{session['name']}"
+def load_push_state():
+    """Load last push state: {date, name, workoutId}."""
     if LAST_PUSH_FILE.exists():
-        last = LAST_PUSH_FILE.read_text().strip()
-        if last == key:
-            return True
-    return False
+        try:
+            return json.loads(LAST_PUSH_FILE.read_text())
+        except (json.JSONDecodeError, ValueError):
+            pass
+    return {}
 
 
-def mark_pushed(session):
-    """Record that this workout was pushed."""
-    key = f"{session.get('date', '')}|{session['name']}"
-    LAST_PUSH_FILE.write_text(key + "\n")
+def already_pushed(session):
+    """Check if this exact workout was already pushed."""
+    state = load_push_state()
+    return (state.get("date") == session.get("date")
+            and state.get("name") == session["name"])
+
+
+def save_push_state(session, workout_id):
+    """Record what was pushed so we can deduplicate or clean up."""
+    LAST_PUSH_FILE.write_text(json.dumps({
+        "date": session.get("date"),
+        "name": session["name"],
+        "workoutId": workout_id,
+    }) + "\n")
+
+
+def cleanup_old_workout(client, session):
+    """If a different workout was previously pushed for the same date, delete it."""
+    state = load_push_state()
+    old_id = state.get("workoutId")
+    if not old_id:
+        return
+    # Same date but different workout name = plan changed
+    if state.get("date") == session.get("date") and state.get("name") != session["name"]:
+        try:
+            client.garth.connectapi(
+                f"/workout-service/workout/{old_id}",
+                method="DELETE",
+            )
+            print(f"  [workout] Deleted old workout: {state.get('name')} (ID: {old_id})")
+        except Exception as e:
+            print(f"  [workout] Could not delete old workout {old_id}: {e}")
 
 
 def main():
@@ -357,9 +384,10 @@ def main():
 
     try:
         client = load_client()
+        cleanup_old_workout(client, session)
         workout_id = push_to_garmin(client, workout, schedule_date=session.get("date"))
         if workout_id:
-            mark_pushed(session)
+            save_push_state(session, workout_id)
             print(f"\n  ✅ Workout pushed! Sync your watch to see it.")
     except Exception as e:
         print(f"\n  [workout] Push failed: {e}")
