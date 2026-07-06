@@ -67,6 +67,13 @@ jobs:
             echo "got_data=true" >> $GITHUB_OUTPUT
           fi
 
+      - name: Push workout to Garmin watch
+        if: steps.check.outputs.got_data == 'true'
+        env:
+          GARMIN_TOKEN_B64: ${{ secrets.GARMIN_TOKEN_B64 }}
+        run: python3 push_workout.py 2>&1 || echo "Workout push skipped or failed"
+        continue-on-error: true
+
       - name: Generate dashboard
         run: python3 generate_dashboard.py
 
@@ -101,7 +108,7 @@ jobs:
           if [ "${{ steps.check.outputs.got_data }}" = "true" ]; then
             git add garmin/ docs/
           else
-            git add docs/
+            git add docs/ garmin/.last_workout_push 2>/dev/null || true
           fi
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
           git commit -m "sync: $(date -u '+%Y-%m-%d %H:%M')"

@@ -155,6 +155,9 @@ else
   echo "  [coach] No coach note generated"
 fi
 
+# --- Push next workout to Garmin watch ---
+$PYTHON push_workout.py 2>/dev/null || echo "  [workout] Push skipped or failed"
+
 # --- Regenerate dashboard ---
 $PYTHON generate_dashboard.py 2>/dev/null
 
