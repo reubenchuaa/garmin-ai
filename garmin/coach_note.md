@@ -1,17 +1,16 @@
-_Updated: Monday, 06 Jul 2026 at 04:48 PM SGT_
+_Updated: Monday, 06 Jul 2026 at 04:50 PM SGT_
 
-**Rest day stands — but your race pred SLIPPED to 2:03:15 and AEROBIC_HIGH_SHORTAGE is still sitting at zero, so tomorrow is not optional.**
+**Yesterday's 11.65km long run is in the bank — protect it, then add your first quality session of the month.**
 
-**The numbers don't lie**
-ACWR 0.8 (OPTIMAL floor), MAINTAINING_2 — you are not building, you are barely holding. Aerobic high load: 0.0. Every July session has been easy-only, and until you do quality work that number stays zero and your race ceiling stays capped. Race pred 2:03:15 vs 1:45–1:50 target — the gap GREW since yesterday, now 13–18 minutes with 83 days left. July: 24.56km done, 75.44km remaining in 25 days — ~21km/week minimum, no slack.
+**Numbers**
+ACWR 0.8 (OPTIMAL, MAINTAINING_2) — load is in range but you're holding, not building. Aerobic high load: 0.0 — every July session has been easy-only and that caps your race ceiling until you put in quality work. Race pred HM: 2:03:15 vs 1:45–1:50 goal — 13–18 min gap with 83 days left. July: 24.56km of 100km done, 75.44km remaining in 25 days (~21km/week minimum, no slack). VO2max 55.5, heat acclimatisation 74% — the fitness is there; the work now is directing it.
 
-**Today's session — non-negotiable**
-REST. Readiness 67 (MODERATE) — good, but that's an asset for tomorrow, not permission to double up today. Stairs on the way home, push-ups and sit-ups. That's it. Protect the legs for Tuesday.
+**Today — Mon 6 Jul**
+Rest. You ran 11.65km yesterday; recovery time sits at ~14h and readiness is 67 (MODERATE, RECOVERED_AND_READY). Bank that readiness for tomorrow. Stairs on the way home, push-ups and sit-ups. Zero running.
 
 **3-Day Plan**
-- Today (Mon, Jul 6): Rest — stairs + morning routine only, zero running
-- Tomorrow (Tue, Jul 7): 8km easy, 7:00–7:15/km, HR ≤135. Hold the cap. If you're above 135 before 7:15 pace, your base is still soft — report it.
-- Day after (Wed, Jul 8): Cannot run — full rest or light mobility only
+- **Tue 7 Jul:** 8km easy · 7:00–7:15/km · HR ≤135. If HR climbs above 135 before hitting 7:15 pace, your base is still soft — note it.
+- **Wed 8 Jul:** Blackout — rest or light mobility only
+- **Thu 9 Jul:** First tempo since illness · 6km · warm up 1km easy, 4km at 6:00–6:15/km HR 155–165, cool down 1km. This directly attacks the AEROBIC_HIGH_SHORTAGE.
 
-**Bottom line**
-Tue Jul 7 easy run and Thu Jul 9 tempo (6km, 6:00–6:15/km, HR 155–165) are the only two running sessions you get this week — miss either one and July 100km and your race gap both get worse.
+Two running sessions this week is all you get — nail both and you start closing that gap.
