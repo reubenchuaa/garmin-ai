@@ -146,7 +146,7 @@ if [ -f garmin/coach_note.md ]; then
   else
     # Prepend timestamp
     TIMESTAMP="_Updated: $(date '+%A, %d %b %Y at %I:%M %p SGT')_"
-    sed -i '' '/^_Updated:.*SGT_$/d' garmin/coach_note.md
+    sed -i '' '/^_Updated:/d' garmin/coach_note.md
     sed -i '' '/./,$!d' garmin/coach_note.md
     printf '%s\n\n%s\n' "$TIMESTAMP" "$(cat garmin/coach_note.md)" > garmin/coach_note.md
   fi
