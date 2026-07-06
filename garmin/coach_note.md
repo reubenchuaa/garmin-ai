@@ -1,4 +1,4 @@
-_Updated: Monday, 06 Jul 2026 at 04:57 PM SGT_
+_Updated: Monday, 06 Jul 2026 at 07:41 PM SGT_
 
 **Run today — Tue and Thu are blocked, don't waste the window.**
 
