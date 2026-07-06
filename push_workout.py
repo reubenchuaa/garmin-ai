@@ -360,21 +360,20 @@ def save_push_state(session, workout_id):
 
 
 def cleanup_old_workout(client, session):
-    """If a different workout was previously pushed for the same date, delete it."""
+    """Delete the previously pushed workout before creating a new one.
+    Keeps the Garmin workout library clean — only the latest coach workout exists."""
     state = load_push_state()
     old_id = state.get("workoutId")
     if not old_id:
         return
-    # Same date but different workout name = plan changed
-    if state.get("date") == session.get("date") and state.get("name") != session["name"]:
-        try:
-            client.garth.connectapi(
-                f"/workout-service/workout/{old_id}",
-                method="DELETE",
-            )
-            print(f"  [workout] Deleted old workout: {state.get('name')} (ID: {old_id})")
-        except Exception as e:
-            print(f"  [workout] Could not delete old workout {old_id}: {e}")
+    try:
+        client.garth.connectapi(
+            f"/workout-service/workout/{old_id}",
+            method="DELETE",
+        )
+        print(f"  [workout] Deleted previous: {state.get('name')} (ID: {old_id})")
+    except Exception as e:
+        print(f"  [workout] Could not delete old workout {old_id}: {e}")
 
 
 def main():
