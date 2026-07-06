@@ -192,3 +192,21 @@ Fetching data for: 2026-07-03 → 2026-07-05
 
 All data saved to garmin/data.json
 Markdown notes written: 4 files
+
+Fetching data for: 2026-07-05 → 2026-07-07
+
+  Activity: activity_2026-07-06_23496536180.md
+  Activity: activity_2026-07-05_23486361216.md
+  Wellness: wellness_2026-07-05.md
+  Wellness: wellness_2026-07-06.md
+  Wellness: wellness_2026-07-07.md
+  Training status: None, ACWR: None
+  Race predictions — HM: 2:03:48
+
+All data saved to garmin/data.json
+Markdown notes written: 5 files
+Request timed out
+  [workout] Already pushed: Tempo 5km @ 6:00-6:15/km for 2026-07-08 — skipping
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
