@@ -46,14 +46,45 @@ d.pop('latest_route', None)
 open('garmin/coach_data.json', 'w').write(json.dumps(d, indent=1))
 " || { echo "Coach data trim failed"; exit 1; }
 
+# --- Detect new activities since last coach note ---
+LAST_NOTE_TIME=""
+NEW_ACTIVITIES=""
+if [ -f garmin/coach_note.md ]; then
+  LAST_NOTE_TIME=$(stat -f %m garmin/coach_note.md 2>/dev/null || echo 0)
+fi
+# Find today's activities in data.json and build a hint for Claude
+NEW_ACTIVITIES=$($PYTHON -c "
+import json
+from datetime import date
+d = json.load(open('garmin/data.json'))
+today = date.today().isoformat()
+acts = [a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today]
+for a in acts:
+    dist = round(a.get('distance', 0) / 1000, 2)
+    dur = round(a.get('duration', 0) / 60, 1)
+    hr = a.get('averageHR', '?')
+    print(f'  {a.get(\"startTimeLocal\",\"?\")[:16]}: {dist}km, {dur}min, avg HR {hr}')
+" 2>/dev/null)
+
 # --- Back up current coach note before Claude overwrites ---
 if [ -f garmin/coach_note.md ]; then
   cp garmin/coach_note.md garmin/coach_note.md.bak
 fi
 
+# --- Build activity hint for Claude ---
+ACTIVITY_HINT=""
+if [ -n "$NEW_ACTIVITIES" ]; then
+  ACTIVITY_HINT="
+IMPORTANT: Reuben has ALREADY RUN today. Here are today's completed activities:
+$NEW_ACTIVITIES
+Acknowledge the completed run with specific stats. Mark today's session as DONE. Do NOT suggest a run for today — it's already done.
+"
+fi
+
 # --- Run Claude to generate coach note (5-min timeout) ---
 perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "
 You are Reuben's running coach. You are firm, encouraging, and data-driven. You push him to be his best while keeping it positive. You celebrate progress AND point out where he needs to step up.
+$ACTIVITY_HINT
 
 Your tone: like a coach who genuinely believes in him. Be direct with the numbers, honest about gaps, but motivating — not harsh. When he hits a session well, give him credit. When he's behind, tell him clearly what needs to happen, but frame it as "here's how we fix this" not "you're failing."
 
