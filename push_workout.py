@@ -96,29 +96,45 @@ def parse_coach_note():
         if any(x in lower for x in ["cannot run", "rest", "blackout", "done", "no run"]):
             continue
 
-        # Extract date info
-        day_match = re.search(r"(\w+),?\s+Jul\s+(\d+)", line, re.IGNORECASE)
-        if not day_match:
-            day_match = re.search(r"(Today|Tomorrow|Day after)", line, re.IGNORECASE)
-
         # Extract workout details
         session = parse_session(line)
         if session:
-            # Figure out the date
-            if day_match:
-                g = day_match.groups()
-                if g[0].lower() == "today":
-                    session["date"] = today.isoformat()
-                elif g[0].lower() == "tomorrow":
-                    session["date"] = (today + timedelta(days=1)).isoformat()
-                elif g[0].lower() == "day after":
-                    session["date"] = (today + timedelta(days=2)).isoformat()
-                else:
+            # Figure out the date from various formats:
+            # "Today (Mon, Jul 6):", "Tomorrow (Tue, Jul 7):", "Wednesday (Jul 8):",
+            # "Mon, Jul 6:", "Tue 7 Jul:", "Jul 8:", etc.
+            session_date = None
+
+            if re.search(r"\btoday\b", lower):
+                session_date = today
+            elif re.search(r"\btomorrow\b", lower):
+                session_date = today + timedelta(days=1)
+            elif re.search(r"\bday after\b", lower):
+                session_date = today + timedelta(days=2)
+            else:
+                # Try to extract month + day: "Jul 8", "8 Jul", "Aug 12", etc.
+                months = {"jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,
+                          "jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dec":12}
+                mon_match = re.search(
+                    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d+)",
+                    line, re.IGNORECASE
+                )
+                if not mon_match:
+                    mon_match = re.search(
+                        r"(\d+)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)",
+                        line, re.IGNORECASE
+                    )
+                    if mon_match:
+                        mon_match = type('M', (), {'group': lambda s,i: [None, mon_match.group(2), mon_match.group(1)][i]})()
+                if mon_match:
                     try:
-                        day_num = int(g[-1])
-                        session["date"] = f"2026-07-{day_num:02d}"
-                    except (ValueError, IndexError):
-                        session["date"] = today.isoformat()
+                        m = months[mon_match.group(1)[:3].lower()]
+                        d = int(mon_match.group(2))
+                        session_date = date(today.year, m, d)
+                    except (ValueError, KeyError):
+                        pass
+
+            if session_date:
+                session["date"] = session_date.isoformat()
             sessions.append(session)
 
     if not sessions:
