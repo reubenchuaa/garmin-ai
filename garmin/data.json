@@ -93907,10 +93907,10 @@
       "date": "2026-07-07",
       "wellness": {
         "userProfileId": 9515677,
-        "totalKilocalories": 600.0,
+        "totalKilocalories": 601.0,
         "activeKilocalories": 1.0,
-        "bmrKilocalories": 599.0,
-        "wellnessKilocalories": 600.0,
+        "bmrKilocalories": 600.0,
+        "wellnessKilocalories": 601.0,
         "burnedKilocalories": null,
         "consumedKilocalories": null,
         "remainingKilocalories": null,
@@ -93930,13 +93930,13 @@
         "dailyStepGoal": 9570,
         "wellnessStartTimeGmt": "2026-07-06T16:00:00.0",
         "wellnessStartTimeLocal": "2026-07-07T00:00:00.0",
-        "wellnessEndTimeGmt": "2026-07-07T00:03:00.0",
-        "wellnessEndTimeLocal": "2026-07-07T08:03:00.0",
-        "durationInMilliseconds": 28980000,
+        "wellnessEndTimeGmt": "2026-07-07T00:04:00.0",
+        "wellnessEndTimeLocal": "2026-07-07T08:04:00.0",
+        "durationInMilliseconds": 29040000,
         "wellnessDescription": null,
         "highlyActiveSeconds": 65,
         "activeSeconds": 18,
-        "sedentarySeconds": 5351,
+        "sedentarySeconds": 5411,
         "sleepingSeconds": 23546,
         "includesWellnessData": true,
         "includesActivityData": false,
@@ -93960,22 +93960,22 @@
         "stressDuration": 900,
         "restStressDuration": 26100,
         "activityStressDuration": 720,
-        "uncategorizedStressDuration": 1260,
-        "totalStressDuration": 28980,
+        "uncategorizedStressDuration": 1320,
+        "totalStressDuration": 29040,
         "lowStressDuration": 780,
         "mediumStressDuration": 120,
         "highStressDuration": null,
-        "stressPercentage": 3.11,
-        "restStressPercentage": 90.06,
+        "stressPercentage": 3.1,
+        "restStressPercentage": 89.88,
         "activityStressPercentage": 2.48,
-        "uncategorizedStressPercentage": 4.35,
+        "uncategorizedStressPercentage": 4.55,
         "lowStressPercentage": 2.69,
         "mediumStressPercentage": 0.41,
         "highStressPercentage": 0.0,
         "stressQualifier": "UNKNOWN",
         "measurableAwakeDuration": 4200,
         "measurableAsleepDuration": 23520,
-        "lastSyncTimestampGMT": "2026-07-07T00:04:01.705",
+        "lastSyncTimestampGMT": "2026-07-07T00:05:02.825",
         "minAvgHeartRate": 46,
         "maxAvgHeartRate": 80,
         "bodyBatteryChargedValue": 76,
@@ -96500,72 +96500,77 @@
           {
             "startGMT": "2026-07-06T23:49:00.0",
             "endGMT": "2026-07-06T23:50:00.0",
-            "activityLevel": 3.180264234284257
+            "activityLevel": 3.186759877280433
           },
           {
             "startGMT": "2026-07-06T23:50:00.0",
             "endGMT": "2026-07-06T23:51:00.0",
-            "activityLevel": 3.595782270645505
+            "activityLevel": 3.593821765417936
           },
           {
             "startGMT": "2026-07-06T23:51:00.0",
             "endGMT": "2026-07-06T23:52:00.0",
-            "activityLevel": 4.008761491152328
+            "activityLevel": 3.992833523618065
           },
           {
             "startGMT": "2026-07-06T23:52:00.0",
             "endGMT": "2026-07-06T23:53:00.0",
-            "activityLevel": 4.413897736361719
+            "activityLevel": 4.378257696565939
           },
           {
             "startGMT": "2026-07-06T23:53:00.0",
             "endGMT": "2026-07-06T23:54:00.0",
-            "activityLevel": 4.806421899138283
+            "activityLevel": 4.7455265898597645
           },
           {
             "startGMT": "2026-07-06T23:54:00.0",
             "endGMT": "2026-07-06T23:55:00.0",
-            "activityLevel": 5.182217319284198
+            "activityLevel": 5.09118938792027
           },
           {
             "startGMT": "2026-07-06T23:55:00.0",
             "endGMT": "2026-07-06T23:56:00.0",
-            "activityLevel": 5.5379001369032
+            "activityLevel": 5.412991110496126
           },
           {
             "startGMT": "2026-07-06T23:56:00.0",
             "endGMT": "2026-07-06T23:57:00.0",
-            "activityLevel": 5.870858904384794
+            "activityLevel": 5.709872616959519
           },
           {
             "startGMT": "2026-07-06T23:57:00.0",
             "endGMT": "2026-07-06T23:58:00.0",
-            "activityLevel": 6.179253156855154
+            "activityLevel": 5.981887041546359
           },
           {
             "startGMT": "2026-07-06T23:58:00.0",
             "endGMT": "2026-07-06T23:59:00.0",
-            "activityLevel": 6.461973976206129
+            "activityLevel": 6.230035588890575
           },
           {
             "startGMT": "2026-07-06T23:59:00.0",
             "endGMT": "2026-07-07T00:00:00.0",
-            "activityLevel": 6.718572685142349
+            "activityLevel": 6.456034423656076
           },
           {
             "startGMT": "2026-07-07T00:00:00.0",
             "endGMT": "2026-07-07T00:01:00.0",
-            "activityLevel": 6.949166396555974
+            "activityLevel": 6.662033679572716
           },
           {
             "startGMT": "2026-07-07T00:01:00.0",
             "endGMT": "2026-07-07T00:02:00.0",
-            "activityLevel": 7.154330895546391
+            "activityLevel": 6.85031791182506
           },
           {
             "startGMT": "2026-07-07T00:02:00.0",
             "endGMT": "2026-07-07T00:03:00.0",
-            "activityLevel": 7.33499194704414
+            "activityLevel": 7.023022620598154
+          },
+          {
+            "startGMT": "2026-07-07T00:03:00.0",
+            "endGMT": "2026-07-07T00:04:00.0",
+            "activityLevel": 7.18190179483714
           }
         ],
         "remSleepData": true,
