@@ -1,17 +1,17 @@
-_Updated: Tuesday, 07 Jul 2026 at 05:04 PM SGT_
+_Updated: Tuesday, 07 Jul 2026 at 05:36 PM SGT_
 
-**Rest day locked in — Wednesday's tempo is the week's defining session, and you're primed for it**
+**Rest locked in today — Wednesday's tempo is your only shot this week to move the needle**
 
 **What your data says**
-ACWR sits at 0.8 (acute 196, chronic 219) — Garmin reads OPTIMAL but your aerobic HIGH load is zero, meaning all four July runs have been easy and your engine hasn't been pushed once. HM prediction holds at 2:03:48, still 14–19 minutes off your 1:45–1:50 target — tempo work is the lever that moves this number. July stands at 31.7km through day 7, with 68.3km needed in 24 remaining days (2.8km/day average required).
+ACWR sits at 0.8 (acute 196, chronic 219) — Garmin says OPTIMAL, but every single July run has been aerobic low. Zero aerobic HIGH load means your predicted HM of 2:03:48 isn't moving until you push past easy effort. July stands at 31.7km through day 7; you need 68.3km in the remaining 24 days (2.85km/day average) — doable, but you can't afford dead weeks. RHR is trending beautifully down to 47 today and stress is low at 26 — your body is quietly telling you it's ready.
 
 **Today's session**
-Rest — Tuesday is blocked, and your numbers agree with the call. RHR 47, HRV last night 73 (weekly avg 69), Training Readiness 68 (Recovered and Ready). Sleep was 6h 31m with a score of 81 — solid, but body battery has drained to 37 mid-afternoon. Tonight: aim for 7.5–8 hours so you wake Wednesday fully loaded.
+Full rest — Tuesday is blocked and the numbers back the call. Yesterday's 7.18km easy run (HR 126) did its job; now recover properly. Aim for 7.5–8 hours of sleep tonight. Wednesday has one job to do and you need to arrive charged for it.
 
 **3-Day Plan**
 - **Today (Tuesday, 07 July 2026):** Rest — enforced off day
-- **Tomorrow (Wednesday, 08 July 2026):** Tempo — 9km: 2km easy warm-up → 5km at 6:00–6:15/km (HR 155–165) → 2km cool-down. First quality session of the month — this is where the gap to 1:45 starts closing.
+- **Tomorrow (Wednesday, 08 July 2026):** Tempo — 9km: 2km easy warm-up → 5km at 6:00–6:15/km (HR 155–165) → 2km cool-down. First quality session of July — this is the lever that moves your HM prediction.
 - **Day After (Thursday, 09 July 2026):** Rest — enforced off day
 
 **Coach's take**
-Four clean easy runs have rebuilt the base — Wednesday is where you prove what it's worth.
+Your body is in better shape than the numbers show — Wednesday is where you prove it.
