@@ -1,17 +1,17 @@
-_Updated: Tuesday, 07 Jul 2026 at 08:07 AM SGT_
+_Updated: Tuesday, 07 Jul 2026 at 08:09 AM SGT_
 
-**Monday base run banked — 7.18km done ✅**
+**Rest day — let Monday's 7.18km do its work**
 
 **What your data says**
-ACWR is 1.0 — right in the optimal zone, no overreach risk. Garmin's HM prediction sits at 2:03:15, still 13–18 minutes short of your 1:45–1:50 goal, but that gap is exactly what the next 12 weeks are built to close. July mileage stands at 31.7km through today (6.82 + 6.09 + 11.65 + 7.18), on pace for 100km if you stay consistent on available days.
+ACWR sits at ~1.0 — optimal zone, no overreach. Garmin's HM prediction is 2:03:15, still 13–18 minutes off your 1:45–1:50 target, but that gap closes through consistent weeks like this one. July mileage: 31.7km through Monday (6.82 + 6.09 + 11.65 + 7.18) — on pace for 100km if you hit Wed/Fri/Sat/Sun. Training Readiness is 68 (Moderate); Body Battery recovered well to 96 overnight.
 
-**Today's session — DONE ✅**
-7.18km in 51:55 at 7:14/km, average HR 126 bpm — well inside your 135 easy ceiling. Max HR touched 143 briefly but stayed controlled. Garmin tagged it Aerobic Base / Maintaining. Disciplined effort in Singapore heat; this is exactly what Rebuild Base week looks like.
+**Today's session — Rest**
+You're unavailable today, and that's fine — it's a scheduled constraint, not a setback. Yesterday's 7:14/km easy run at avg HR 126 bpm is actively converting to fitness right now. Sleep was solid (6h 31m, score 81). Use today for hydration, sleep, and mobility if you have 10 minutes.
 
 **3-Day Plan**
-- **Today (Mon, Jul 6):** DONE — 7.18km easy, 7:14/km, avg HR 126 bpm
-- **Tomorrow (Tue, Jul 7):** CANNOT RUN — full rest, prioritise sleep and hydration
-- **Wednesday (Jul 8):** First quality session of July — 9km: 2km easy warm-up, 5km tempo at 6:00–6:15/km (HR 155–165), 2km cool-down
+- **Tue Jul 7:** Rest — enforced off day
+- **Wed Jul 8:** First quality session of July — 9km: 2km easy warm-up → 5km tempo at 6:00–6:15/km (HR 155–165) → 2km cool-down
+- **Thu Jul 9:** Rest — enforced off day
 
 **Coach's take**
-You held the easy pace when it would've been easy to push — that discipline in July is what earns you the fitness to race in September.
+Two forced rest days mid-week means Wednesday's tempo session carries extra weight — show up fresh and execute it well.

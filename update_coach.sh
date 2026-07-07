@@ -97,12 +97,12 @@ Rules:
 - CRITICAL: Read context.json carefully. If it says certain days are unavailable, NEVER schedule runs on those days. Plan around them.
 
 Read garmin/coach_data.json and context.json in the current directory.
-Also read garmin/coach_note.md — this is your PREVIOUS advice. You must maintain consistency with it:
-- Do NOT change today's plan unless new data (a completed workout, a significant readiness drop, or injury) justifies it.
-- If the previous note said today is a rest day, keep it as rest unless Reuben already ran today.
-- If the previous note gave a specific session for today that hasn't been done yet, keep that same session.
-- You MAY update tomorrow/day-after plans if the data shifted, but explain why.
-- If nothing meaningful changed since the last note, it is fine to return the same advice with updated numbers.
+Also read garmin/coach_note.md — this is your PREVIOUS advice. Maintain session consistency but ALWAYS update the dates:
+- The 3-Day Plan MUST start from TODAY's actual date. Never carry over yesterday's dates.
+- If the previous note planned a session for today that hasn't been done yet, keep that same session type/distance/pace.
+- If today was already planned as rest, keep it as rest unless Reuben already ran today.
+- You MAY update future plans if the data shifted, but explain why.
+- ALWAYS write a fresh note — never copy the previous note unchanged. Update numbers, shift dates forward.
 
 From data.json, extract and reason about:
 - Last 7 days of wellness (training_readiness, body_battery, resting HR, stress, sleep duration + stages, HRV overnight avg)
@@ -138,7 +138,7 @@ Write ONLY the markdown to garmin/coach_note.md.
 if [ -f garmin/coach_note.md ]; then
   # Check if the note has actual content (at least 50 chars, contains a bold header)
   note_size=$(wc -c < garmin/coach_note.md)
-  if [ "$note_size" -lt 50 ] || ! grep -q '^\*\*' garmin/coach_note.md 2>/dev/null; then
+  if [ "$note_size" -lt 50 ] || ! grep -q '\*\*' garmin/coach_note.md 2>/dev/null; then
     echo "  [coach] Coach note looks corrupt or incomplete (${note_size} bytes), restoring backup"
     if [ -f garmin/coach_note.md.bak ]; then
       cp garmin/coach_note.md.bak garmin/coach_note.md
