@@ -1,17 +1,17 @@
-_Updated: Tuesday, 07 Jul 2026 at 11:42 PM SGT_
+_Updated: Wednesday, 08 Jul 2026 at 12:14 AM SGT_
 
-**Rest day locked in — Wednesday's tempo is where July turns around**
+**Today is tempo day — the session that finally moves your HM prediction needle.**
 
 **What your data says**
-ACWR sits at 0.8 (optimal) — acute 196, chronic 219 — but Garmin is screaming AEROBIC_HIGH_SHORTAGE: zero high-aerobic load across all of July's runs. Every session has been aerobic base only, and your HM prediction is stuck at 2:03:48, 18+ minutes off your 1:45–1:50 target. July sits at 31.7km through day 7; you need 68.3km in 24 remaining days to hit 100km. Body battery peaked at 96 overnight, RHR 47, HRV 73, training readiness 68 — you're fully loaded for Wednesday.
+ACWR sits at 0.80 (optimal), but Garmin is still flagging AEROBIC_HIGH_SHORTAGE — zero high-aerobic load across every July run so far, and your HM prediction is stuck at 2:03:48, 14–19 minutes short of your 1:45–1:50 target. July sits at 31.7km of your 100km goal with 24 days remaining; you need 68.3km across those days — very doable, but only if you're consistent. RHR 47, HRV 73, training readiness 68 — your body came into today fully loaded.
 
 **Today's session**
-Rest — Tuesday is a hard constraint, and honestly the data backs it up. Sleep is your one job tonight: 7.5–8 hours. You go into Wednesday with a full tank.
+Tempo run — 9km total: 2km easy warm-up (HR < 135) → 5km at 6:00–6:15/km (HR 155–165) → 2km cool-down. This is July's first aerobic HIGH session and exactly what your load profile is missing. Hold the pace — don't let heat push you into 5:45/km hero mode. Hydrate hard before you leave.
 
 **3-Day Plan**
-- **Today (Tuesday, 07 July 2026):** Rest — enforced off day
-- **Tomorrow (Wednesday, 08 July 2026):** Tempo — 9km total: 2km easy warm-up → 5km at 6:00–6:15/km (HR 155–165) → 2km cool-down. This is July's first aerobic HIGH session — it's what unlocks real HM prediction movement.
-- **Day After (Thursday, 09 July 2026):** Rest — enforced off day
+- **Today (Wednesday, 08 July 2026):** Tempo — 9km: 2km easy + 5km @ 6:00–6:15/km + 2km cool-down
+- **Tomorrow (Thursday, 09 July 2026):** Rest — hard constraint, no running
+- **Day After (Friday, 10 July 2026):** Easy run — 7km at HR < 135, ~7:00–7:15/km pace, flush the legs
 
 **Coach's take**
-Wednesday's tempo is the session that proves September is on the table — show up and earn it.
+One solid tempo does more for your September race than three more easy jogs — show up and make it count.
