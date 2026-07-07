@@ -93662,20 +93662,20 @@
     {
       "date": "2026-07-07",
       "wellness": {
-        "totalSteps": 5351,
-        "totalDistanceMeters": 4114,
-        "averageStressLevel": 21,
+        "totalSteps": 6321,
+        "totalDistanceMeters": 4860,
+        "averageStressLevel": 23,
         "maxStressLevel": 81,
         "bodyBatteryHighestValue": 96,
         "bodyBatteryLowestValue": 20,
-        "floorsAscended": 4,
+        "floorsAscended": 5,
         "restingHeartRate": 47,
         "maxAvgHeartRate": 97,
         "minAvgHeartRate": 46,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 90,
-        "totalKilocalories": 1098
+        "activeKilocalories": 104,
+        "totalKilocalories": 1202
       },
       "sleep": {
         "dailySleepDTO": {
