@@ -1,4 +1,4 @@
-_Updated: Wednesday, 08 Jul 2026 at 10:19 PM SGT_
+_Updated: Wednesday, 08 Jul 2026 at 10:46 PM SGT_
 
 **ACWR at 1.5 and training readiness bottomed at 1/100 — tonight's run is banked, now let the adaptation happen.**
 
