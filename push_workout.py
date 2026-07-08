@@ -141,12 +141,9 @@ def parse_coach_note():
         print("No runnable sessions found in plan")
         return None
 
-    # Return the next upcoming session (skip today if already done)
-    for s in sessions:
-        if s.get("date", "") >= today.isoformat():
-            return s
-
-    return sessions[0] if sessions else None
+    # Return all upcoming sessions (today and future)
+    upcoming = [s for s in sessions if s.get("date", "") >= today.isoformat()]
+    return upcoming if upcoming else sessions
 
 
 def parse_session(line):
@@ -160,8 +157,11 @@ def parse_session(line):
     total_match = re.search(r"(\d+)\s*km\s*(?:total)?", lower)
     total_km = int(total_match.group(1)) if total_match else None
 
-    # Extract warmup distance
+    # Extract warmup distance: "2km easy warm-up", "2km warm-up", "2km easy +"
     warmup_match = re.search(r"(\d+(?:\.\d+)?)\s*km\s*(?:easy\s+)?(?:warm|wu)", lower)
+    if not warmup_match and is_tempo:
+        # In a tempo workout, "Xkm easy" before the tempo portion = warmup
+        warmup_match = re.search(r"(\d+(?:\.\d+)?)\s*km\s*easy(?:\s*[+→])", lower)
     warmup_km = float(warmup_match.group(1)) if warmup_match else None
 
     # Extract cooldown distance
@@ -336,89 +336,110 @@ def push_to_garmin(client, workout, schedule_date=None):
 
 
 def load_push_state():
-    """Load last push state: {date, name, workoutId}."""
+    """Load push state: list of pushed workouts [{date, name, workoutId, scheduleId}]."""
     if LAST_PUSH_FILE.exists():
         try:
-            return json.loads(LAST_PUSH_FILE.read_text())
+            data = json.loads(LAST_PUSH_FILE.read_text())
+            # Migrate old single-workout format to list
+            if isinstance(data, dict):
+                return [data]
+            return data
         except (json.JSONDecodeError, ValueError):
             pass
-    return {}
+    return []
 
 
 def already_pushed(session):
     """Check if this exact workout was already pushed."""
     state = load_push_state()
-    return (state.get("date") == session.get("date")
-            and state.get("name") == session["name"])
+    return any(
+        s.get("date") == session.get("date") and s.get("name") == session["name"]
+        for s in state
+    )
 
 
-def save_push_state(session, workout_id, schedule_id=None):
-    """Record what was pushed so we can deduplicate or clean up."""
-    LAST_PUSH_FILE.write_text(json.dumps({
-        "date": session.get("date"),
-        "name": session["name"],
-        "workoutId": workout_id,
-        "scheduleId": schedule_id,
-    }) + "\n")
+def save_push_state(sessions_pushed):
+    """Record all pushed workouts for dedup and cleanup."""
+    LAST_PUSH_FILE.write_text(json.dumps(sessions_pushed) + "\n")
 
 
-def cleanup_old_workout(client, session):
-    """Delete the previously pushed workout and its schedule entry.
+def cleanup_old_workouts(client, new_sessions):
+    """Delete previously pushed workouts that are no longer in the plan.
     Keeps the Garmin workout library and calendar clean."""
-    state = load_push_state()
-    old_id = state.get("workoutId")
-    old_schedule_id = state.get("scheduleId")
-    if not old_id:
-        return
-    # Delete schedule entry first (otherwise it lingers on the calendar)
-    if old_schedule_id:
-        try:
-            client.garth.connectapi(
-                f"/workout-service/schedule/{old_schedule_id}",
-                method="DELETE",
-            )
-            print(f"  [workout] Removed old schedule (ID: {old_schedule_id})")
-        except Exception:
-            pass
-    # Delete the workout itself
-    try:
-        client.garth.connectapi(
-            f"/workout-service/workout/{old_id}",
-            method="DELETE",
-        )
-        print(f"  [workout] Deleted previous: {state.get('name')} (ID: {old_id})")
-    except Exception as e:
-        print(f"  [workout] Could not delete old workout {old_id}: {e}")
+    old_state = load_push_state()
+    new_keys = {(s.get("date"), s["name"]) for s in new_sessions}
+
+    for old in old_state:
+        old_key = (old.get("date"), old.get("name"))
+        if old_key in new_keys:
+            continue  # Still in the plan, keep it
+        # Delete schedule entry first
+        if old.get("scheduleId"):
+            try:
+                client.garth.connectapi(
+                    f"/workout-service/schedule/{old['scheduleId']}",
+                    method="DELETE",
+                )
+            except Exception:
+                pass
+        # Delete the workout
+        if old.get("workoutId"):
+            try:
+                client.garth.connectapi(
+                    f"/workout-service/workout/{old['workoutId']}",
+                    method="DELETE",
+                )
+                print(f"  [workout] Deleted old: {old.get('name')} (ID: {old['workoutId']})")
+            except Exception as e:
+                print(f"  [workout] Could not delete {old.get('workoutId')}: {e}")
 
 
 def main():
-    session = parse_coach_note()
-    if not session:
+    sessions = parse_coach_note()
+    if not sessions:
         print("No workout to push")
         return
 
-    if already_pushed(session):
-        print(f"  [workout] Already pushed: {session['name']} for {session.get('date', '?')} — skipping")
+    # Filter out already-pushed sessions
+    to_push = [s for s in sessions if not already_pushed(s)]
+    if not to_push:
+        names = ", ".join(f"{s['name']} ({s.get('date','?')})" for s in sessions)
+        print(f"  [workout] Already pushed: {names} — skipping")
         return
-
-    print(f"  [workout] Parsed: {session['name']} ({session['type']})")
-    for s in session["steps"]:
-        print(f"    - {s['type']}: {s['distance_m']}m", end="")
-        if s.get("hr_low"):
-            print(f", HR {s['hr_low']}-{s['hr_high']}", end="")
-        if s.get("pace_min_ms"):
-            print(f", pace {s['pace_min_ms']:.3f}-{s['pace_max_ms']:.3f} m/s", end="")
-        print()
-
-    workout = build_garmin_workout(session)
 
     try:
         client = load_client()
-        cleanup_old_workout(client, session)
-        workout_id, schedule_id = push_to_garmin(client, workout, schedule_date=session.get("date"))
-        if workout_id:
-            save_push_state(session, workout_id, schedule_id)
-            print(f"\n  ✅ Workout pushed! Sync your watch to see it.")
+        cleanup_old_workouts(client, sessions)
+
+        pushed = []
+        # Keep any already-pushed sessions in state
+        old_state = load_push_state()
+        for old in old_state:
+            if any(s.get("date") == old.get("date") and s["name"] == old.get("name") for s in sessions):
+                pushed.append(old)
+
+        for session in to_push:
+            print(f"  [workout] Pushing: {session['name']} ({session['type']}) for {session.get('date', '?')}")
+            for s in session["steps"]:
+                print(f"    - {s['type']}: {s['distance_m']}m", end="")
+                if s.get("hr_low"):
+                    print(f", HR {s['hr_low']}-{s['hr_high']}", end="")
+                if s.get("pace_min_ms"):
+                    print(f", pace {s['pace_min_ms']:.3f}-{s['pace_max_ms']:.3f} m/s", end="")
+                print()
+
+            workout = build_garmin_workout(session)
+            workout_id, schedule_id = push_to_garmin(client, workout, schedule_date=session.get("date"))
+            if workout_id:
+                pushed.append({
+                    "date": session.get("date"),
+                    "name": session["name"],
+                    "workoutId": workout_id,
+                    "scheduleId": schedule_id,
+                })
+                print(f"  ✅ Pushed: {session['name']} → {session.get('date', '?')}")
+
+        save_push_state(pushed)
     except Exception as e:
         print(f"\n  [workout] Push failed: {e}")
 
