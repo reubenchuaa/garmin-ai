@@ -91,9 +91,26 @@ def load_client():
             client.login(tokenstore=str(TOKEN_DIR))
             client.garth.sess.timeout = 30
             client.get_user_summary(date.today().isoformat())
+            # Re-save tokens after successful use (refreshes expiry)
+            client.garth.dump(str(TOKEN_DIR))
             return client
-        except Exception:
-            shutil.rmtree(TOKEN_DIR, ignore_errors=True)
+        except Exception as e:
+            print(f"  [auth] Token login failed: {e}", file=sys.stderr)
+            # Try refreshing the OAuth2 token before giving up
+            try:
+                client.garth.refresh_oauth2()
+                client.get_user_summary(date.today().isoformat())
+                client.garth.dump(str(TOKEN_DIR))
+                print("  [auth] Token refreshed successfully", file=sys.stderr)
+                return client
+            except Exception as e2:
+                print(f"  [auth] Token refresh also failed: {e2}", file=sys.stderr)
+                print("  [auth] Tokens expired — need manual re-login: cd ~/garmin-ai && python3 sync.py 1", file=sys.stderr)
+                # Don't delete tokens on transient errors — only on auth failures
+                err_str = str(e).lower() + str(e2).lower()
+                if "401" in err_str or "unauthorized" in err_str or "forbidden" in err_str:
+                    shutil.rmtree(TOKEN_DIR, ignore_errors=True)
+                    print("  [auth] Tokens deleted (auth rejected)", file=sys.stderr)
 
     # Fresh interactive login (local only)
     email = os.environ.get("GARMIN_EMAIL") or input("Garmin email: ")
