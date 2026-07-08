@@ -394,6 +394,46 @@ def cleanup_old_workouts(client, new_sessions):
                 print(f"  [workout] Could not delete {old.get('workoutId')}: {e}")
 
 
+def cleanup_calendar(client, sessions):
+    """Remove any AI-coach workouts from the calendar that aren't in the current plan.
+    Prevents stale/orphaned workouts from cluttering the watch."""
+    try:
+        today = date.today()
+        # Get current month's calendar (Garmin uses 0-indexed months)
+        resp = client.garth.connectapi(f"/calendar-service/year/{today.year}/month/{today.month - 1}")
+        cal_workouts = [i for i in resp.get("calendarItems", []) if i.get("itemType") == "workout"]
+
+        # Known session keys from current plan
+        plan_names = {s["name"] for s in sessions}
+        plan_dates = {s.get("date") for s in sessions}
+        # Known IDs we pushed
+        pushed_ids = {s.get("scheduleId") for s in load_push_state()}
+
+        for item in cal_workouts:
+            title = item.get("title", "")
+            sched_id = item.get("id")
+            item_date = item.get("date", "")
+
+            # Only touch workouts that look like ours (contain @ or pace patterns)
+            if "@" not in title and "km" not in title.lower():
+                continue
+            # Skip if it's in the current plan
+            if title in plan_names and item_date in plan_dates:
+                continue
+            # Skip if it's in our push state (we'll handle via cleanup_old_workouts)
+            if sched_id in pushed_ids:
+                continue
+            # It's an orphan — delete it
+            if item_date >= today.isoformat():
+                try:
+                    client.garth.connectapi(f"/workout-service/schedule/{sched_id}", method="DELETE")
+                    print(f"  [workout] Cleaned orphan from calendar: {title} ({item_date})")
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"  [workout] Calendar cleanup skipped: {e}")
+
+
 def main():
     sessions = parse_coach_note()
     if not sessions:
@@ -409,6 +449,7 @@ def main():
 
     try:
         client = load_client()
+        cleanup_calendar(client, sessions)
         cleanup_old_workouts(client, sessions)
 
         pushed = []
