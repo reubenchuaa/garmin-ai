@@ -112,9 +112,27 @@ def load_client():
                     shutil.rmtree(TOKEN_DIR, ignore_errors=True)
                     print("  [auth] Tokens deleted (auth rejected)", file=sys.stderr)
 
-    # Fresh interactive login (local only)
-    email = os.environ.get("GARMIN_EMAIL") or input("Garmin email: ")
-    password = os.environ.get("GARMIN_PASSWORD") or getpass.getpass("Garmin password: ")
+    # Try macOS Keychain before falling back to interactive prompt
+    email = os.environ.get("GARMIN_EMAIL")
+    password = os.environ.get("GARMIN_PASSWORD")
+    if not email or not password:
+        try:
+            import subprocess
+            email = email or subprocess.run(
+                ["security", "find-generic-password", "-s", "garmin-ai", "-a", "email", "-w"],
+                capture_output=True, text=True, check=True
+            ).stdout.strip()
+            password = password or subprocess.run(
+                ["security", "find-generic-password", "-s", "garmin-ai", "-a", "password", "-w"],
+                capture_output=True, text=True, check=True
+            ).stdout.strip()
+            print("  [auth] Credentials loaded from macOS Keychain", file=sys.stderr)
+        except Exception:
+            pass
+    if not email:
+        email = input("Garmin email: ")
+    if not password:
+        password = getpass.getpass("Garmin password: ")
 
     client = Garmin(email, password)
     try:
