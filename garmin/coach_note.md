@@ -1,4 +1,4 @@
-_Updated: Friday, 10 Jul 2026 at 12:06 AM SGT_
+_Updated: Friday, 10 Jul 2026 at 12:24 AM SGT_
 
 **48 hours of recovery is banked — easy run today, big long run tomorrow to close the gap on 100km.**
 
