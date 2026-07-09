@@ -1,17 +1,17 @@
-_Updated: Friday, 10 Jul 2026 at 07:43 AM SGT_
+_Updated: Friday, 10 Jul 2026 at 07:44 AM SGT_
 
-**Recovery is on track — easy today, long tomorrow, then your next quality window opens.**
+**ACWR is locked at 1.0 — body is adapting right on schedule, easy today keeps it that way.**
 
 **What your data says**
-ACWR sits at exactly 1.0 (optimal), with acute load 238 vs chronic 219. HM prediction is 2:01:12 against your sub-1:50 goal — 11 minutes of work still to do with 79 days on the clock. July is at **40.7km of 100km** with 21 days remaining — need 59.3km, averaging ~2.8km/day; doable with a long run tomorrow. Training Readiness is 49 (LOW) — a marked improvement from yesterday's 26 and Tuesday's post-tempo 1 — and HRV bounced from 63 back to 76 overnight, which is a clean recovery signal. RHR is 50 (+3 bpm above baseline), not yet back at 47 but trending the right direction. Your load balance flags an aerobic-high shortage, meaning the next tempo window is coming, but the body needs one more easy day first.
+ACWR confirmed at 1.0 (OPTIMAL), acute load 238 vs chronic 219, Training Status PRODUCTIVE_2. HM prediction holds at 2:01:12 against your sub-1:50 goal with 79 days to race day. July sits at **40.7km of 100km** with 21 days remaining — this weekend's 7km + 11km pushes you to ~59km and keeps the 100km target very much in reach. Training Readiness is 49 (LOW, up from 26 yesterday), HRV bounced back to 76 from 63 overnight — clear recovery signal — and RHR is 50 (+3 bpm from baseline), trending back toward 47. Garmin flags an aerobic-high shortage; next tempo window opens Monday, not today.
 
 **Today's session**
-**Easy run — 6km @ HR ≤ 135, pace ~7:00–7:30/km.** With TR still in the LOW band, today's purpose is active recovery: flush residual lactate from Tuesday's tempo, maintain mitochondrial stimulus, and let the HRV trend continue upward. Cap by HR, not pace — if Singapore heat pushes you above 135 in the first 2km, slow to a shuffle. Stop at 6km regardless of how good you feel.
+**Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km.** TR at 49 means the system is recovering but not ready for quality. Today's job is aerobic maintenance: capillary stimulus, fat oxidation, flushing residual lactate from Tuesday's tempo — without adding new stress. Cap strictly by HR, not pace. If Singapore heat drives you above 135 in the first 2km, slow to a shuffle or walk 60s and resume. If you feel genuinely flat at 4km, cut to 5km — quality beats distance today.
 
 **3-Day Plan**
-- **Today (Friday, 10 July 2026):** Easy run — 6km @ HR ≤ 135, pace ~7:00–7:30/km
-- **Tomorrow (Saturday, 11 July 2026):** Long run — 11km @ HR ≤ 135, fully conversational. Pushes July to ~51.7km and opens the aerobic base.
-- **Day after (Sunday, 12 July 2026):** REST — supercompensation from Tuesday's tempo and Saturday's long run happens here. Adaptation is built during recovery, not the run itself.
+- **Today (Friday, 10 July 2026):** Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km
+- **Tomorrow (Saturday, 11 July 2026):** Long run — 11km @ HR ≤ 135, fully conversational. Puts July at ~59km.
+- **Day after (Sunday, 12 July 2026):** REST — supercompensation from Tuesday's tempo and Saturday's long run happens here. Adaptation is built in recovery, not on the road.
 
 **Coach's take**
-A VO2max of 55.8 already projects faster than your goal — protect this recovery arc and the tempo gains will compound exactly when you need them.
+A 1.0 ACWR in Productive status with VO2max at 55.8 means the training is stacking exactly right — protect this recovery arc and the aerobic engine will be primed for Monday's next quality session.
