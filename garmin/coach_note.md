@@ -1,17 +1,17 @@
-_Updated: Thursday, 09 Jul 2026 at 08:10 AM SGT_
+_Updated: Thursday, 09 Jul 2026 at 08:54 PM SGT_
 
-**The tempo is in the bank — now honour the 48h window and let the adaptation land.**
+**Rest today is non-negotiable — readiness is LOW at 26 and your body still has ~41 hours of recovery on the clock from Wednesday's tempo.**
 
 **What your data says**
-ACWR sits at 1.3 (acute 285 / chronic 219) — right at the top of the OPTIMAL range after Wednesday's 9km tempo. Training readiness is 16/100 (POOR), with Garmin calling for full recovery and estimating 48h still needed. Resting HR is 52 bpm — exactly +5 above your ~47 baseline, the clinical threshold for backing off — and last night's HRV came in at 63 vs your 70 weekly average, consistent with post-quality-session suppression. Sleep logged 7.5h but Garmin flagged poor REM (only ~48 min), which explains why body battery recovered well (charged +73 overnight) but training readiness didn't. HM prediction holds at 2:01:03, VO2max 55.8, heat acclimation 100%. July stands at **40.7km of 100km** with 22 days left — 59km across ~17 remaining run days is very achievable at 7–11km per session.
+ACWR sits at 1.3 (acute 285 / chronic 219) — right at the top of optimal after Wednesday's 9km at 6:21/km (HR 144, load 137.5). Training readiness is 26/100 (LOW), up from the morning's 16 but still well below the 40-point threshold for any meaningful work — Garmin flags ~41 hours of recovery still needed. HRV weekly average is stable at 70, which is a good sign — no multi-day declining trend. Sleep score was 81 last night but recovery time factor is rated POOR (30th percentile), which explains why readiness hasn't bounced back yet. HM prediction holds at 2:01:03, VO2max 55.8, heat acclimation 100%. July stands at **40.7km of 100km** with 22 days remaining — 59km is very doable at 7–11km per session over the remaining run days.
 
 **Today's session**
-**REST — mandatory.** Two reasons with zero ambiguity: (1) hard schedule constraint, (2) training readiness of 16 with 48h recovery clock still running. Supercompensation — the actual fitness gain from Wednesday's tempo — happens in this window. Sleep 7–9h tonight with the aim of improving REM; that's the lever that unlocks tomorrow's readiness.
+**REST — mandatory.** Hard schedule constraint plus readiness at 26/100 means this isn't a choice. Wednesday's tempo stimulus is converting into adaptation right now, in this rest window. Interfering with it doesn't make you tougher — it just delays the fitness gain. Sleep 7–9h tonight; that's the lever that moves tomorrow's readiness into the green.
 
 **3-Day Plan**
-- **Today (Thursday, 09 July 2026):** REST — schedule constraint + training readiness POOR (16/100)
-- **Tomorrow (Friday, 10 July 2026):** Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km. Run by HR, not pace; back off if it drifts past 135.
-- **Day after (Saturday, 11 July 2026):** Long run — 10–11km @ HR ≤ 135, conversational effort. This is the aerobic anchor of the week and pushes July past 57km.
+- **Today (Thursday, 09 July 2026):** REST — schedule constraint + readiness LOW (26/100)
+- **Tomorrow (Friday, 10 July 2026):** Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km. Lead with HR, not pace — back off if it drifts.
+- **Day after (Saturday, 11 July 2026):** Long run — 10–11km @ HR ≤ 135, fully conversational. Pushes July total to ~58km.
 
 **Coach's take**
-A 2:01 HM predictor with 11 weeks to race day and 100% heat acclimation is a strong foundation — trust the process, bank the rest today, and Friday's easy run will confirm the adaptation took.
+You're 41% through July's 100km with three weeks left and VO2max sitting at 55.8 — bank the rest today, and Friday + Saturday will put you firmly on track.
