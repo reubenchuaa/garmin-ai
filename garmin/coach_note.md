@@ -1,17 +1,17 @@
-_Updated: Friday, 10 Jul 2026 at 04:25 PM SGT_
+_Updated: Friday, 10 Jul 2026 at 04:58 PM SGT_
 
-**ACWR optimal at 1.0 and HRV recovering — protect today's easy run to set up a strong long run tomorrow.**
+**ACWR optimal and HRV rebounding — knock out today's easy run and you're set up for a strong long run tomorrow.**
 
 **What your data says**
-ACWR is 1.0 (OPTIMAL), acute 238 vs chronic 219, Training Status PRODUCTIVE_2 — the Wednesday 9km tempo is still consolidating. TR is 50 (MODERATE), RHR at 50 (+3 above 47 baseline, not alarming), and HRV has bounced to 76 from 63 yesterday — normal post-hard-session recovery arc. HM prediction sits at 2:01:12, 11+ minutes off sub-1:50 with 79 days to race; that gap closes through threshold work next week. July stands at **40.7km of 100km** with 21 days left — today + tomorrow adds ~18km and puts you at 58.7km, keeping the target very much on track.
+ACWR is 1.0 (OPTIMAL), acute 238 vs chronic 219, Training Status PRODUCTIVE_2. TR is 50 (MODERATE) — the July 8 tempo session is still consolidating, so quality is off the menu today. HRV has climbed back to 76 from yesterday's 63, a normal post-hard-session recovery arc; RHR is 50 (+3 above 47 baseline, well within tolerance). HM prediction sits at 2:01:12 — 11+ minutes off sub-1:50 with 79 days to race. July stands at **40.7km of 100km** with 21 days left; today + tomorrow pushes you to ~58.7km and keeps the target firmly on track.
 
 **Today's session**
-**Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km.** TR at 50 means quality is off the table — this is aerobic maintenance only. Your Garmin load balance flags an aerobic high shortage, which means next week needs a threshold session, but first today's adaptation has to finish processing. Manage by HR cap, not pace — Singapore afternoon heat will push cardiac drift, so start at shuffle pace and let the HR settle before opening up. The 7km is already scheduled on your watch.
+**Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km.** Body battery woke at 76 and is currently at 39 after a full day — enough fuel for a steady aerobic run. Singapore afternoon heat will drive cardiac drift, so start shuffling and let HR settle before picking up pace. If HR creeps above 135, slow down — aerobic adaptation (capillaries, fat oxidation, mitochondrial density) only happens at low intensity. Manage by HR, not pride.
 
 **3-Day Plan**
 - **Today (Friday, 10 July 2026):** Easy run — 7km @ HR ≤ 135, pace ~7:00–7:30/km
 - **Tomorrow (Saturday, 11 July 2026):** Long run — 11km @ HR ≤ 135, fully conversational. Brings July to ~58.7km.
-- **Day after (Sunday, 12 July 2026):** REST — supercompensation from the long run lands here. Monday is your next quality window.
+- **Day after (Sunday, 12 July 2026):** REST — supercompensation from the long run lands here. Monday opens the next quality window.
 
 **Coach's take**
-VO2max 55.8, fully heat-acclimatised, and PRODUCTIVE status with 79 days to go — execute the easy work now and next week's threshold session hits a fresher, better-adapted body.
+VO2max 55.8, fully heat-acclimatised, and PRODUCTIVE status with 79 days to go — lock in the aerobic work this weekend and next week's threshold session hits a fresher, better-adapted body.
