@@ -1,17 +1,17 @@
-_Updated: Friday, 10 Jul 2026 at 10:47 PM SGT_
+_Updated: Saturday, 11 Jul 2026 at 05:43 AM SGT_
 
-**Walk + run both banked — ACWR at the 1.3 ceiling, Saturday's long run is the week's most important session.**
+**ACWR has reset to 1.1 — the long run is on, but short sleep means today's HR cap is non-negotiable.**
 
 **What your data says**
-ACWR 1.3 (OPTIMAL ceiling — any further load this week pushes into overreaching), Training Status PRODUCTIVE_2, VO2max 55.8, 100% heat acclimatised. HRV last night was 76 (weekly avg 70) — a positive recovery signal. RHR 50 (+3 above 47 baseline, no flag). Training Readiness 51 (MODERATE) — body is absorbing today's load. HM prediction 2:01:12 against a 1:45–1:50 target with 79 days to race. July stands at **46.9km of 100km** with 21 days left; 53.1km to go — Saturday's long run makes a real dent.
+ACWR 1.1 (OPTIMAL), Training Status PRODUCTIVE_2, VO2max 55.8, 100% heat acclimatised. HM prediction 2:01:42 vs your 1:45–1:50 target with 77 days to race. July stands at **46.9km of 100km** with 21 days remaining — 53.1km to go. Training Readiness is 48 (LOW), pulled down by last night's sleep: ~5.9h with almost no REM (Garmin flag: "not enough REM"). RHR 50 (+3 above baseline) and HRV 74 (above weekly avg of 71) are both clean — the underlying physiology is ready, but the CNS needs you to run honest today.
 
 **Today's session**
-**DONE ✅ — 2.69km walk (36.2min, HR 92) + 6.17km run (46.1min, avg HR 125).** Both nailed. The run was perfectly dialled — HR 125 sits solidly in the easy zone (≤135 cap), building aerobic base without burning the reserves you need for tomorrow. 8.86km total on the day; disciplined volume management right at the ACWR ceiling.
+Long run: **10km @ HR ≤ 135**, fully conversational (~7:00–7:30/km guidance only). The sleep deficit will accelerate cardiac drift in the Singapore heat, so start the first 2km deliberately slower than you feel you need to. If HR hits 135, walk it back down, then resume — no exceptions. Purpose: mitochondrial density, capillary growth, glycogen adaptation — this is the aerobic foundation your HM time is built on. Brings July to ~56.9km.
 
 **3-Day Plan**
-- **Today (Friday, 10 July 2026):** DONE ✅ — 2.69km walk + 6.17km easy run (avg HR 125)
-- **Tomorrow (Saturday, 11 July 2026):** Long run — 11km @ HR ≤ 135, fully conversational (~7:00–7:30/km guidance only). Start the first 2km very easy to let HR settle in the heat. If HR creeps above 135, walk until it drops, then resume. This drives mitochondrial density, capillary growth, and glycogen storage — the aerobic foundation your HM time rests on. Brings July to ~57.9km.
-- **Day after (Sunday, 12 July 2026):** REST — supercompensation from Saturday's long run lands here. Adaptation happens during recovery, not during the run.
+- **Today (Saturday, 11 July 2026):** Long run — 10km @ HR ≤ 135 (~7:00–7:30/km guidance)
+- **Tomorrow (Sunday, 12 July 2026):** REST — supercompensation from today's long run lands here. Make sleep the priority tonight; REM recovery is what you missed last night.
+- **Day after (Monday, 13 July 2026):** Easy run — 6–7km @ HR ≤ 135, fully conversational. Re-engage the aerobic base after two days of rest + recovery.
 
 **Coach's take**
-ACWR is maxed for the week, HRV is trending up, and you're fully heat-adapted — get out Saturday morning before the heat peaks and run a disciplined 11km with the HR cap as your only rule.
+ACWR at 1.1 and VO2max holding at 55.8 — run your 10km with the HR cap as your only rule and you'll walk away with exactly the training stimulus this phase calls for.
