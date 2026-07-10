@@ -1,9 +1,9 @@
-_Updated: Friday, 10 Jul 2026 at 10:42 PM SGT_
+_Updated: Friday, 10 Jul 2026 at 10:47 PM SGT_
 
 **Walk + run both banked — ACWR at the 1.3 ceiling, Saturday's long run is the week's most important session.**
 
 **What your data says**
-ACWR 1.3 (OPTIMAL ceiling — any further load this week pushes into overreaching), Training Status PRODUCTIVE_2, VO2max 55.8, 100% heat acclimatised. HRV last night was 76 (weekly avg 70), recovering well from Thursday's dip to 63 — this week's load is clearing. RHR 50 (+3 above 47 baseline, no flag). HM prediction 2:01:12 against a 1:45–1:50 target with 79 days to race. July stands at **46.9km of 100km** with 21 days left; 53.1km to go — Saturday's long run makes a real dent.
+ACWR 1.3 (OPTIMAL ceiling — any further load this week pushes into overreaching), Training Status PRODUCTIVE_2, VO2max 55.8, 100% heat acclimatised. HRV last night was 76 (weekly avg 70) — a positive recovery signal. RHR 50 (+3 above 47 baseline, no flag). Training Readiness 51 (MODERATE) — body is absorbing today's load. HM prediction 2:01:12 against a 1:45–1:50 target with 79 days to race. July stands at **46.9km of 100km** with 21 days left; 53.1km to go — Saturday's long run makes a real dent.
 
 **Today's session**
 **DONE ✅ — 2.69km walk (36.2min, HR 92) + 6.17km run (46.1min, avg HR 125).** Both nailed. The run was perfectly dialled — HR 125 sits solidly in the easy zone (≤135 cap), building aerobic base without burning the reserves you need for tomorrow. 8.86km total on the day; disciplined volume management right at the ACWR ceiling.
@@ -14,4 +14,4 @@ ACWR 1.3 (OPTIMAL ceiling — any further load this week pushes into overreachin
 - **Day after (Sunday, 12 July 2026):** REST — supercompensation from Saturday's long run lands here. Adaptation happens during recovery, not during the run.
 
 **Coach's take**
-ACWR is maxed out for the week, HRV is recovered, and you're fully heat-adapted — get out Saturday morning before the heat peaks and run a disciplined 11km with the HR cap as your only rule.
+ACWR is maxed for the week, HRV is trending up, and you're fully heat-adapted — get out Saturday morning before the heat peaks and run a disciplined 11km with the HR cap as your only rule.
