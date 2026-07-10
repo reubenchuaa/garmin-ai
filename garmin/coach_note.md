@@ -1,4 +1,4 @@
-_Updated: Friday, 10 Jul 2026 at 08:02 AM SGT_
+_Updated: Friday, 10 Jul 2026 at 01:19 PM SGT_
 
 **ACWR sitting at 1.0 OPTIMAL — protect this recovery arc with an easy run today and a strong long run tomorrow.**
 
