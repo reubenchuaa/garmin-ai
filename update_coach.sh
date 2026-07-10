@@ -51,21 +51,60 @@ import json
 from datetime import date
 d = json.load(open('garmin/data.json'))
 today = date.today().isoformat()
-acts = [a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today]
+acts = sorted([a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today],
+              key=lambda a: a.get('startTimeLocal',''))
+run_types = {'running', 'trail_running', 'treadmill_running', 'track_running', 'ultra_running'}
 for a in acts:
     dist = round(a.get('distance', 0) / 1000, 2)
     dur = round(a.get('duration', 0) / 60, 1)
     hr = a.get('averageHR', '?')
-    print(f'  {a.get(\"startTimeLocal\",\"?\")[:16]}: {dist}km, {dur}min, avg HR {hr}')
+    atype = a.get('activityType', {}).get('typeKey', 'unknown')
+    label = 'RUN' if atype in run_types else atype.upper()
+    print(f'  [{label}] {a.get(\"startTimeLocal\",\"?\")[:16]}: {dist}km, {dur}min, avg HR {hr}')
+" 2>/dev/null)
+
+HAS_RUN=$($PYTHON -c "
+import json
+from datetime import date
+d = json.load(open('garmin/data.json'))
+today = date.today().isoformat()
+run_types = {'running', 'trail_running', 'treadmill_running', 'track_running', 'ultra_running'}
+acts = [a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today
+        and a.get('activityType', {}).get('typeKey', '') in run_types]
+print('yes' if acts else 'no')
 " 2>/dev/null)
 
 if [ -n "$NEW_ACTIVITIES" ]; then
-  ACTIVITY_HINT="
-IMPORTANT: Reuben has ALREADY RUN today. Here are today's completed activities:
+  if [ "$HAS_RUN" = "yes" ]; then
+    ACTIVITY_HINT="
+IMPORTANT: Reuben has completed activities today. ALL of these must be acknowledged — do not mention only one:
 $NEW_ACTIVITIES
-Acknowledge the completed run with specific stats. Mark today's session as DONE ✅. Do NOT suggest another run for today.
+Mark the running session(s) as DONE ✅. Do NOT suggest another run for today.
 "
+  else
+    ACTIVITY_HINT="
+NOTE: Reuben has completed non-running activity today:
+$NEW_ACTIVITIES
+These are NOT running sessions. His scheduled run for today may still need to happen. Check the plan.
+"
+  fi
 fi
+
+# --- Pre-compute July running mileage (runs only, no walks/hikes) ---
+JULY_RUN_KM=$($PYTHON -c "
+import json
+from datetime import date
+d = json.load(open('garmin/data.json'))
+run_types = {'running', 'trail_running', 'treadmill_running', 'track_running', 'ultra_running'}
+month = date.today().strftime('%Y-%m')
+total = sum(
+    a.get('distance', 0) / 1000
+    for a in d.get('activities', [])
+    if (a.get('startTimeLocal') or '')[:7] == month
+    and a.get('activityType', {}).get('typeKey', '') in run_types
+)
+print(f'{total:.2f}')
+" 2>/dev/null || echo "?")
 
 # --- Get today's date info for the prompt ---
 TODAY_INFO=$(date '+%A, %d %B %Y')
@@ -93,6 +132,7 @@ YOUR TONE:
 Firm, encouraging, data-driven. Like a coach who genuinely believes in him. Be direct with numbers, honest about gaps, but motivating — not harsh. When he hits a session well, give credit. When he's behind, frame it as \"here's how we fix this\" not \"you're failing.\"
 
 TODAY IS: $TODAY_INFO
+JULY RUNNING MILEAGE (pre-computed, running activities only — use this exact number): ${JULY_RUN_KM}km of 100km target
 The 3-Day Plan MUST start from TODAY. Use today's actual date and weekday. Do NOT copy dates from the previous note.
 
 RULES:
@@ -118,7 +158,7 @@ From coach_data.json, extract and use the LATEST numbers:
 - performance[most recent date]: ACWR, acwr_status, training_status, race_pred_hm, vo2max_precise, heat_acclimation_pct
 - Last 7 days of wellness: training_readiness, body_battery, resting HR, stress, sleep, HRV
 - Recent activities: distance, pace, avg HR, cadence, training load
-- July mileage total so far vs 100km target
+- July RUNNING mileage total (running activities ONLY — exclude walks, hikes, cycling, and any non-running activity types) vs 100km target
 
 SESSION DESIGN GUIDELINES:
 - Easy run: HR ≤ 135, pace ~7:00-7:30/km (adjust for heat). Purpose: aerobic base, capillary development, fat oxidation.
