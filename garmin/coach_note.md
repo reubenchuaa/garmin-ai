@@ -1,4 +1,4 @@
-_Updated: Friday, 10 Jul 2026 at 08:09 PM SGT_
+_Updated: Friday, 10 Jul 2026 at 08:40 PM SGT_
 
 **ACWR optimal, HRV recovering — tomorrow's long run is the week's most important session.**
 
