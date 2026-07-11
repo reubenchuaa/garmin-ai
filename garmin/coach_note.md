@@ -1,17 +1,17 @@
-_Updated: Saturday, 11 Jul 2026 at 10:57 AM SGT_
+_Updated: Saturday, 11 Jul 2026 at 11:29 AM SGT_
 
-**Long run delivered with excellent HR discipline — but ACWR at 1.4 and Training Readiness at 37 mean the next 24 hours belong to recovery.**
+**Long run banked with textbook HR discipline — ACWR at 1.4 and 10 minutes of REM sleep mean recovery is now the priority.**
 
 **What your data says**
-ACWR has climbed to 1.4 (acute load 321 vs chronic 219) — above the 1.3 safety ceiling; your body is absorbing more load than it's adapted to, which raises injury risk if you keep stacking sessions. Training Readiness dropped to 37 post-run (below the mandatory 40-floor), and REM sleep is still just 10 minutes — a pattern that blunts neuromuscular repair. The good news: HRV at 74 is slightly above your weekly average of 71, VO2max holds at 55.8, and you're 100% heat adapted. HM prediction is 2:01:15 vs your 1:45–1:50 goal — 78 days to close that gap. July sits at **57.92km of 100km** with 20 days left; you need 42.1km more.
+ACWR sits at 1.4 (acute 321 vs chronic 219), above the 1.3 safety ceiling — your body is absorbing load faster than it's adapting, and that's where injury risk climbs. Training Readiness is 48 (just above the 40-floor) and last night's REM was only 10 minutes, which blunts neuromuscular repair and means the adaptation from today's long run hasn't fully landed yet. HRV at 74 is slightly above your weekly average of 72 — no declining trend, which is reassuring. VO2max holds at 55.8, HM prediction is 2:01:15 vs your 1:45–1:50 goal, and July now sits at **68.94km of 100km** — 31.1km needed in 20 days. Manageable with smart loading.
 
 **Today's session**
-✅ **Long run — DONE.** 11.02km @ avg HR 129 bpm in 86.4 min. Textbook execution — HR stayed 6 bpm below the ceiling the entire run, which is exactly the aerobic base stimulus you need. That's banked fitness, not junk miles.
+✅ **Long run — DONE.** 11.02km @ avg HR 129 bpm in 86.4 min. Held 6 bpm below the easy ceiling the entire run in Singapore heat — that's the aerobic base stimulus that builds mitochondrial density and fat oxidation. Exactly what the Rebuild Base phase calls for.
 
 **3-Day Plan**
 - **Today (Saturday, 11 July 2026):** Long run 11.02km @ avg HR 129 ✅ DONE
-- **Tomorrow (Sunday, 12 July 2026):** REST — Training Readiness is 37 (below mandatory 40-floor) and ACWR needs to come down. Supercompensation happens here; prioritise 8h sleep and rebuild REM.
-- **Day after (Monday, 13 July 2026):** Easy run — 6–7km @ HR ≤ 135 (~7:00–7:30/km), only if readiness has recovered above 45
+- **Tomorrow (Sunday, 12 July 2026):** REST — ACWR needs to come down from 1.4. With REM at 10 min, supercompensation is still pending; sleep 8h+ and let adaptation happen.
+- **Day after (Monday, 13 July 2026):** Easy run 6–7km @ HR ≤ 135 (~7:00–7:30/km), only if Training Readiness has recovered above 45
 
 **Coach's take**
-That HR-controlled long run is exactly the compounding aerobic work that turns a 2:01 into a 1:50 — now let recovery do its half of the job.
+A 68.94km July with three weeks still on the clock and zero injury flags — the base is building exactly as it should.
