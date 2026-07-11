@@ -1,17 +1,17 @@
-_Updated: Saturday, 11 Jul 2026 at 10:26 AM SGT_
+_Updated: Saturday, 11 Jul 2026 at 10:57 AM SGT_
 
-**ACWR is solid at 1.1 but last night gave you only 10 minutes of REM — the long run is on, and HR discipline is non-negotiable.**
+**Long run delivered with excellent HR discipline — but ACWR at 1.4 and Training Readiness at 37 mean the next 24 hours belong to recovery.**
 
 **What your data says**
-ACWR 1.1 (OPTIMAL), Training Status PRODUCTIVE_2, VO2max 55.8, 100% heat acclimatised. HM prediction 2:01:42 vs your 1:45–1:50 target — 78 days to close that gap. July sits at **46.9km of 100km** with 20 days left; you need 53.1km, roughly 5 more runs at 10–11km each. The red flag today: last night's sleep logged only 600 seconds (10 minutes) of REM — severely below adequate recovery. Training Readiness is 48 (LOW, above the mandatory 40-floor so you're cleared to run). HRV at 74 is stable versus a weekly average of ~72 — no fatigue spiral — and RHR 50 is just +3 above your baseline. Green to go, but the near-zero REM means cardiac drift will arrive fast.
+ACWR has climbed to 1.4 (acute load 321 vs chronic 219) — above the 1.3 safety ceiling; your body is absorbing more load than it's adapted to, which raises injury risk if you keep stacking sessions. Training Readiness dropped to 37 post-run (below the mandatory 40-floor), and REM sleep is still just 10 minutes — a pattern that blunts neuromuscular repair. The good news: HRV at 74 is slightly above your weekly average of 71, VO2max holds at 55.8, and you're 100% heat adapted. HM prediction is 2:01:15 vs your 1:45–1:50 goal — 78 days to close that gap. July sits at **57.92km of 100km** with 20 days left; you need 42.1km more.
 
 **Today's session**
-**Long run — 11km @ HR ≤ 135, purely conversational (~7:00–7:30/km guidance only).** With almost no REM, your neuromuscular fatigue buffer is depleted and heat tolerance is lower than usual. Start the first 2km at perceived effort of "embarrassingly easy." The moment HR hits 132, check your pace — don't wait for 135. Walk until HR drops below 130 if needed, then resume. Purpose: mitochondrial density and glycogen storage — this aerobic work compounds toward your HM base. Completion brings July to ~57.9km.
+✅ **Long run — DONE.** 11.02km @ avg HR 129 bpm in 86.4 min. Textbook execution — HR stayed 6 bpm below the ceiling the entire run, which is exactly the aerobic base stimulus you need. That's banked fitness, not junk miles.
 
 **3-Day Plan**
-- **Today (Saturday, 11 July 2026):** Long run — 11km @ HR ≤ 135 (~7:00–7:30/km), walk breaks if HR drifts
-- **Tomorrow (Sunday, 12 July 2026):** REST — supercompensation happens here; prioritise 8h sleep and clear the REM debt
-- **Day after (Monday, 13 July 2026):** Easy run — 6–7km @ HR ≤ 135, assess readiness before midweek quality session
+- **Today (Saturday, 11 July 2026):** Long run 11.02km @ avg HR 129 ✅ DONE
+- **Tomorrow (Sunday, 12 July 2026):** REST — Training Readiness is 37 (below mandatory 40-floor) and ACWR needs to come down. Supercompensation happens here; prioritise 8h sleep and rebuild REM.
+- **Day after (Monday, 13 July 2026):** Easy run — 6–7km @ HR ≤ 135 (~7:00–7:30/km), only if readiness has recovered above 45
 
 **Coach's take**
-The base is compounding — ACWR optimal, heat adapted, fitness trending up — protect the long run today by letting the HR cap do the work, not willpower.
+That HR-controlled long run is exactly the compounding aerobic work that turns a 2:01 into a 1:50 — now let recovery do its half of the job.
