@@ -276,3 +276,5 @@ Fetching data for: 2026-07-06 → 2026-07-08
 All data saved to garmin/data.json
 Markdown notes written: 5 files
   [git] Stale lock detected (9775s old), removing
+  [git] CONFLICT MARKERS DETECTED — auto-resolving
+  [git] Resolved conflicts in ./garmin/data.json
