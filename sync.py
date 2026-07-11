@@ -24,8 +24,81 @@ SCRIPT_DIR = Path(__file__).parent
 GARMIN_DIR = SCRIPT_DIR / "garmin"
 TOKEN_DIR = SCRIPT_DIR / ".garmin_tokens"
 DATA_FILE = GARMIN_DIR / "data.json"
+BACKUP_FILE = GARMIN_DIR / "data.json.bak"
 
 GARMIN_DIR.mkdir(exist_ok=True)
+
+
+def data_looks_healthy(d, min_activities=10, min_wellness=10):
+    """Return True if data dict looks like a valid full dataset."""
+    return (len(d.get("activities", [])) >= min_activities and
+            len(d.get("wellness", [])) >= min_wellness)
+
+
+def save_backup(data):
+    """Save a backup of healthy data. Only overwrites if new data is larger."""
+    try:
+        current_best = 0
+        if BACKUP_FILE.exists():
+            try:
+                existing_bak = json.loads(BACKUP_FILE.read_text())
+                current_best = len(existing_bak.get("activities", []))
+            except Exception:
+                pass
+        if len(data.get("activities", [])) >= current_best:
+            tmp = BACKUP_FILE.with_suffix(".bak.tmp")
+            tmp.write_text(json.dumps(data, indent=2, default=str))
+            tmp.replace(BACKUP_FILE)
+    except Exception as e:
+        print(f"  [backup] Could not save backup: {e}", file=sys.stderr)
+
+
+def restore_from_backup():
+    """Restore data.json from backup and return the loaded data, or {} if no backup."""
+    if not BACKUP_FILE.exists():
+        print("  [restore] No backup file found.", file=sys.stderr)
+        return {}
+    try:
+        data = json.loads(BACKUP_FILE.read_text())
+        print(f"  [restore] Auto-restoring from backup: {len(data.get('activities',[]))} activities, "
+              f"{len(data.get('wellness',[]))} wellness entries", file=sys.stderr)
+        tmp = DATA_FILE.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(data, indent=2, default=str))
+        tmp.replace(DATA_FILE)
+        print("  [restore] ✅ data.json restored from backup.", file=sys.stderr)
+        return data
+    except Exception as e:
+        print(f"  [restore] Backup restore failed: {e}", file=sys.stderr)
+        return {}
+
+
+def load_existing_data():
+    """Load data.json, auto-restoring from backup if data looks wiped."""
+    if not DATA_FILE.exists():
+        print("  [restore] data.json missing — checking backup...", file=sys.stderr)
+        return restore_from_backup()
+    try:
+        data = json.loads(DATA_FILE.read_text())
+    except Exception:
+        print("  [restore] data.json corrupt — restoring from backup...", file=sys.stderr)
+        return restore_from_backup()
+
+    if not data_looks_healthy(data):
+        # Check if backup is healthier
+        if BACKUP_FILE.exists():
+            try:
+                bak = json.loads(BACKUP_FILE.read_text())
+                if data_looks_healthy(bak) and len(bak.get("activities", [])) > len(data.get("activities", [])):
+                    print(f"  [restore] data.json looks wiped ({len(data.get('activities',[]))} activities) "
+                          f"— auto-restoring from backup ({len(bak.get('activities',[]))} activities)...", file=sys.stderr)
+                    tmp = DATA_FILE.with_suffix(".json.tmp")
+                    tmp.write_text(json.dumps(bak, indent=2, default=str))
+                    tmp.replace(DATA_FILE)
+                    print("  [restore] ✅ Auto-restored.", file=sys.stderr)
+                    return bak
+            except Exception:
+                pass
+    return data
 
 
 def load_client():
@@ -558,13 +631,8 @@ def sync(days=3):
         print("\nNo real data fetched (all API calls failed). Keeping existing data.json unchanged.")
         return written
 
-    # Merge into accumulated data.json
-    existing = {}
-    if DATA_FILE.exists():
-        try:
-            existing = json.loads(DATA_FILE.read_text())
-        except Exception:
-            existing = {}
+    # Merge into accumulated data.json (auto-restores from backup if wiped)
+    existing = load_existing_data()
 
     # Only merge wellness entries that actually have data
     real_wellness = [w for w in new_wellness if w.get("wellness")]
@@ -598,7 +666,6 @@ def sync(days=3):
         a.pop("_details", None)
 
     # Safety check: never write if result has significantly fewer entries than existing
-    # This prevents a bad sync run from wiping accumulated historical data
     existing_act_count = len(existing.get("activities", []))
     existing_well_count = len(existing.get("wellness", []))
     merged_act_count = len(merged.get("activities", []))
@@ -620,6 +687,11 @@ def sync(days=3):
     tmp_file = DATA_FILE.with_suffix(".json.tmp")
     tmp_file.write_text(json.dumps(merged, indent=2, default=str))
     tmp_file.replace(DATA_FILE)
+
+    # Save backup whenever data looks healthy (only grows, never shrinks)
+    if data_looks_healthy(merged):
+        save_backup(merged)
+
     print(f"\nAll data saved to garmin/data.json")
     print(f"Markdown notes written: {len(written)} files")
     return written
