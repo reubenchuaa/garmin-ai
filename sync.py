@@ -597,6 +597,25 @@ def sync(days=3):
     for a in merged.get("activities", []):
         a.pop("_details", None)
 
+    # Safety check: never write if result has significantly fewer entries than existing
+    # This prevents a bad sync run from wiping accumulated historical data
+    existing_act_count = len(existing.get("activities", []))
+    existing_well_count = len(existing.get("wellness", []))
+    merged_act_count = len(merged.get("activities", []))
+    merged_well_count = len(merged.get("wellness", []))
+
+    if existing_act_count > 10 and merged_act_count < existing_act_count * 0.9:
+        print(f"\n  SAFETY: Refusing to write — merged has {merged_act_count} activities vs {existing_act_count} existing (>10% loss). Data preserved.", file=sys.stderr)
+        print(f"All data saved to garmin/data.json (unchanged — safety check triggered)")
+        print(f"Markdown notes written: {len(written)} files")
+        return written
+
+    if existing_well_count > 10 and merged_well_count < existing_well_count * 0.9:
+        print(f"\n  SAFETY: Refusing to write — merged has {merged_well_count} wellness vs {existing_well_count} existing (>10% loss). Data preserved.", file=sys.stderr)
+        print(f"All data saved to garmin/data.json (unchanged — safety check triggered)")
+        print(f"Markdown notes written: {len(written)} files")
+        return written
+
     # Atomic write: write to temp file first, then rename (prevents corruption on crash)
     tmp_file = DATA_FILE.with_suffix(".json.tmp")
     tmp_file.write_text(json.dumps(merged, indent=2, default=str))
