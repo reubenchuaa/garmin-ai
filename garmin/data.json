@@ -120010,8 +120010,19 @@
     {
       "date": "2026-07-11",
       "wellness": {
+=======
+        "userProfileId": 9515677,
+        "totalKilocalories": 1774.0,
+        "activeKilocalories": 745.0,
+        "bmrKilocalories": 1029.0,
+        "wellnessKilocalories": 1774.0,
+        "burnedKilocalories": null,
+        "consumedKilocalories": null,
+        "remainingKilocalories": null,
+>>>>>>> Stashed changes
         "totalSteps": 22339,
         "totalDistanceMeters": 16665,
+<<<<<<< Updated upstream
         "averageStressLevel": 25,
         "maxStressLevel": 100,
         "bodyBatteryHighestValue": 79,

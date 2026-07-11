@@ -262,3 +262,17 @@ Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
   [git] Stale lock detected (8467s old), removing
+
+Fetching data for: 2026-07-06 → 2026-07-08
+
+  Activity: activity_2026-07-08_23520929053.md
+  Activity: activity_2026-07-06_23496536180.md
+  Wellness: wellness_2026-07-06.md
+  Wellness: wellness_2026-07-07.md
+  Wellness: wellness_2026-07-08.md
+  Training status: PRODUCTIVE_7, ACWR: 1.5
+  Race predictions — HM: 2:00:56
+
+All data saved to garmin/data.json
+Markdown notes written: 5 files
+  [git] Stale lock detected (9775s old), removing
