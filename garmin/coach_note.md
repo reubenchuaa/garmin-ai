@@ -1,4 +1,4 @@
-_Updated: Saturday, 11 Jul 2026 at 08:25 AM SGT_
+_Updated: Saturday, 11 Jul 2026 at 08:55 AM SGT_
 
 **ACWR is solid at 1.1 but last night gave you only 10 minutes of REM — the long run is on, and HR discipline is non-negotiable.**
 
