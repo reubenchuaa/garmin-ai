@@ -1,4 +1,4 @@
-_Updated: Saturday, 11 Jul 2026 at 02:38 PM SGT_
+_Updated: Saturday, 11 Jul 2026 at 03:09 PM SGT_
 
 **Long run banked with textbook discipline — ACWR at 1.4 and readiness at 37 means today's job is done.**
 
