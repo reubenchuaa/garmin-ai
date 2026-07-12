@@ -1,4 +1,4 @@
-_Updated: Sunday, 12 Jul 2026 at 10:49 PM SGT_
+_Updated: Sunday, 12 Jul 2026 at 11:20 PM SGT_
 
 **ACWR is 1.2 (OPTIMAL) and readiness has rebounded to 63 — today's rest is doing exactly its job.**
 
