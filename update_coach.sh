@@ -109,6 +109,36 @@ print(f'{total:.2f}')
 # --- Get today's date info for the prompt ---
 TODAY_INFO=$(date '+%A, %d %B %Y')
 
+# --- Check Claude token expiry and warn if refresh token is expiring soon ---
+$PYTHON -c "
+import json, subprocess, sys
+from datetime import datetime, timezone
+try:
+    result = subprocess.run(
+        ['security', 'find-generic-password', '-s', 'Claude Code-credentials', '-a', 'amandakoh', '-w'],
+        capture_output=True, text=True, timeout=5
+    )
+    if result.returncode != 0:
+        sys.exit(0)
+    cred = json.loads(result.stdout.strip())
+    oauth = cred.get('claudeAiOauth', {})
+    ref_exp_ms = oauth.get('refreshTokenExpiresAt')
+    if not ref_exp_ms:
+        sys.exit(0)
+    expires = datetime.fromtimestamp(int(ref_exp_ms)/1000, tz=timezone.utc)
+    now = datetime.now(tz=timezone.utc)
+    days_left = (expires - now).days
+    if days_left <= 3:
+        import subprocess as sp
+        msg = f'Claude login expires in {days_left} day(s)! Open Terminal and run: claude /login'
+        sp.run(['osascript', '-e', f'display notification \"{msg}\" with title \"Garmin AI Coach\" sound name \"Ping\"'], check=False)
+        print(f'  [auth] WARNING: Claude refresh token expires in {days_left} days — please run: claude /login')
+    else:
+        print(f'  [auth] Token OK — refresh token valid for {days_left} more days')
+except Exception as e:
+    pass
+" 2>/dev/null || true
+
 # --- Run Claude to generate coach note (5-min timeout) ---
 # Write to a temp file first so we never corrupt the real note
 TMPNOTE=$(mktemp /tmp/coach_note.XXXXXX)
