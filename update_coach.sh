@@ -113,7 +113,8 @@ TODAY_INFO=$(date '+%A, %d %B %Y')
 # Write to a temp file first so we never corrupt the real note
 TMPNOTE=$(mktemp /tmp/coach_note.XXXXXX)
 
-perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "
+# --- Build the coach prompt (shared between first attempt and retry) ---
+COACH_PROMPT="
 You are Reuben's running coach. Your coaching is grounded in modern exercise science and the methods of elite coaches.
 $ACTIVITY_HINT
 
@@ -131,9 +132,9 @@ You follow the principles used by coaches like Jack Daniels, Steve Magness, Brad
 YOUR TONE:
 Firm, encouraging, data-driven. Like a coach who genuinely believes in him. Be direct with numbers, honest about gaps, but motivating — not harsh. When he hits a session well, give credit. When he's behind, frame it as \"here's how we fix this\" not \"you're failing.\"
 
-TODAY IS: $TODAY_INFO
+⚠️ CRITICAL DATE WARNING: TODAY IS $TODAY_INFO. The previous note was written for a DIFFERENT day. Any dates in the previous note are WRONG and MUST NOT be copied. The 3-Day Plan must use $TODAY_INFO as day 1. If you output yesterday's date anywhere in the plan, the note is invalid.
+
 JULY RUNNING MILEAGE (pre-computed, running activities only — use this exact number): ${JULY_RUN_KM}km of 100km target
-The 3-Day Plan MUST start from TODAY. Use today's actual date and weekday. Do NOT copy dates from the previous note.
 
 RULES:
 - Safety first — never risk injury. But if the data supports it, push him.
@@ -152,7 +153,7 @@ Read garmin/coach_data.json and context.json in the current directory.
 Also read garmin/coach_note.md for your PREVIOUS advice. Use it for session consistency only:
 - If the previous note planned a specific session for today that hasn't been done yet, keep that session type/distance/pace.
 - If today was planned as rest, keep it as rest unless Reuben already ran today.
-- You MUST write a FRESH note with TODAY's date and updated numbers from coach_data.json. NEVER return the previous note unchanged.
+- You MUST write a FRESH note with TODAY's date ($TODAY_INFO) and updated numbers from coach_data.json. NEVER copy dates from the previous note.
 
 From coach_data.json, extract and use the LATEST numbers:
 - performance[most recent date]: ACWR, acwr_status, training_status, race_pred_hm, vo2max_precise, heat_acclimation_pct
@@ -187,40 +188,90 @@ What to do today. Be specific with distance, pace range, HR cap. Explain the phy
 One motivating sentence grounded in what the data shows is possible.
 
 Under 300 words. Write ONLY the markdown to garmin/coach_note.md. No commentary, no explanation — just the note content.
-" > "$TMPNOTE" 2>/dev/null
+"
 
-# --- Validate the new note ---
-CLAUDE_EXIT=$?
-if [ $CLAUDE_EXIT -ne 0 ]; then
-  echo "  [coach] Claude exited with code $CLAUDE_EXIT"
+# --- Helper: validate a coach note file ---
+# Returns 0 if valid (has content + references today's date), 1 otherwise
+validate_coach_note() {
+  local file="$1"
+  local today_day today_month today_full
+  today_day=$(date '+%-d')         # e.g. "12"
+  today_month=$(date '+%b')        # e.g. "Jul"
+  today_full=$(date '+%A')         # e.g. "Sunday"
+  local note_size
+  note_size=$(wc -c < "$file" 2>/dev/null || echo 0)
+
+  # Must be non-trivial and contain bold markers
+  if [ "$note_size" -lt 100 ] || ! grep -q '\*\*' "$file" 2>/dev/null; then
+    echo "  [coach] Validation FAIL: too short or no bold markers (${note_size} bytes)"
+    return 1
+  fi
+  # Must contain today's full date (e.g. "12 July 2026" or "Jul 12") in the Today line of the 3-Day Plan
+  today_year=$(date '+%Y')
+  today_long=$(date '+%-d %B %Y')    # e.g. "12 July 2026"
+  today_short2=$(date '+%b %-d')     # e.g. "Jul 12"
+  # Look for the Today bullet in the 3-Day Plan containing today's actual date
+  if grep -i "Today" "$file" 2>/dev/null | grep -q "$today_long\|$today_short2"; then
+    return 0
+  fi
+  echo "  [coach] Validation FAIL: 3-Day Plan 'Today' line does not contain $today_long"
+  return 1
+}
+
+# --- Preflight: check Claude is logged in before attempting anything ---
+if ! "$CLAUDE" --version > /dev/null 2>&1 || "$CLAUDE" --dangerously-skip-permissions -p "ping" 2>&1 | grep -qi "not logged in\|login\|auth"; then
+  echo "  [coach] ERROR: Claude CLI not logged in — skipping coach note update entirely"
+  # Do NOT re-stamp the existing note; leave it unchanged so the stale timestamp is obvious
+  $PYTHON generate_dashboard.py 2>/dev/null
+  /bin/bash "$REPO/git_safe_push.sh" "coach-skip: not logged in $(date '+%Y-%m-%d %H:%M')" docs/index.html 2>/dev/null
+  exit 0
 fi
 
-# Check if Claude wrote directly to coach_note.md (it should via the prompt)
-# or if it wrote to stdout (captured in TMPNOTE)
-if [ -f garmin/coach_note.md ]; then
-  note_size=$(wc -c < garmin/coach_note.md)
-  # Validate: must have content, must contain bold markers, must reference today's date
-  today_short=$(date '+%b %-d')  # e.g. "Jul 7"
-  today_weekday=$(date '+%a')     # e.g. "Tue"
+# --- Run Claude (attempt 1) ---
+TMPNOTE=$(mktemp /tmp/coach_note.XXXXXX)
+perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "$COACH_PROMPT" > "$TMPNOTE" 2>/dev/null
+CLAUDE_EXIT=$?
+[ $CLAUDE_EXIT -ne 0 ] && echo "  [coach] Claude attempt 1 exited with code $CLAUDE_EXIT"
 
-  has_content=false
-  if [ "$note_size" -gt 100 ] && grep -q '\*\*' garmin/coach_note.md 2>/dev/null; then
-    has_content=true
-  fi
-
-  if [ "$has_content" = true ]; then
-    # Prepend timestamp
-    TIMESTAMP="_Updated: $(date '+%A, %d %b %Y at %I:%M %p SGT')_"
-    sed -i '' '/^_Updated:/d' garmin/coach_note.md
-    sed -i '' '/./,$!d' garmin/coach_note.md
-    printf '%s\n\n%s\n' "$TIMESTAMP" "$(cat garmin/coach_note.md)" > garmin/coach_note.md
-    echo "  [coach] Note updated (${note_size} bytes)"
-  else
-    echo "  [coach] WARNING: Coach note looks invalid (${note_size} bytes, no bold markers)"
-    echo "  [coach] Content preview: $(head -3 garmin/coach_note.md)"
-  fi
+# --- Validate attempt 1 ---
+NOTE_OK=false
+if [ -f garmin/coach_note.md ] && validate_coach_note garmin/coach_note.md; then
+  NOTE_OK=true
+  echo "  [coach] Attempt 1 passed validation"
 else
-  echo "  [coach] No coach note file found after Claude run"
+  echo "  [coach] Attempt 1 failed validation — retrying with stricter prompt..."
+  # Back up the bad note so retry can overwrite it
+  cp garmin/coach_note.md garmin/coach_note.md.bad 2>/dev/null || true
+
+  RETRY_PROMPT="RETRY — your previous output was REJECTED because it contained stale dates from the previous note.
+
+TODAY IS: $TODAY_INFO. You MUST use this exact date for 'Today' in the 3-Day Plan. Do not write any other date for today.
+
+$COACH_PROMPT"
+
+  perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "$RETRY_PROMPT" > "$TMPNOTE" 2>/dev/null
+  CLAUDE_EXIT=$?
+  [ $CLAUDE_EXIT -ne 0 ] && echo "  [coach] Claude attempt 2 exited with code $CLAUDE_EXIT"
+
+  if [ -f garmin/coach_note.md ] && validate_coach_note garmin/coach_note.md; then
+    NOTE_OK=true
+    echo "  [coach] Attempt 2 passed validation"
+  else
+    echo "  [coach] WARNING: Both attempts failed validation — keeping previous note"
+    # Restore the better of the two bad attempts (attempt 1 may have more content)
+    cp garmin/coach_note.md.bad garmin/coach_note.md 2>/dev/null || true
+  fi
+  rm -f garmin/coach_note.md.bad
+fi
+
+# --- Stamp and finalise if valid ---
+if [ "$NOTE_OK" = true ]; then
+  note_size=$(wc -c < garmin/coach_note.md)
+  TIMESTAMP="_Updated: $(date '+%A, %d %b %Y at %I:%M %p SGT')_"
+  sed -i '' '/^_Updated:/d' garmin/coach_note.md
+  sed -i '' '/./,$!d' garmin/coach_note.md
+  printf '%s\n\n%s\n' "$TIMESTAMP" "$(cat garmin/coach_note.md)" > garmin/coach_note.md
+  echo "  [coach] Note finalised (${note_size} bytes)"
 fi
 
 rm -f "$TMPNOTE"
