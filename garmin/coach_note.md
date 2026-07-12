@@ -1,4 +1,4 @@
-_Updated: Monday, 13 Jul 2026 at 12:03 AM SGT_
+_Updated: Monday, 13 Jul 2026 at 05:29 AM SGT_
 
 **ACWR holds at 1.2 (OPTIMAL) and yesterday's readiness climbed to 63 — today's easy run is exactly on schedule.**
 
