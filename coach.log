@@ -278,3 +278,4 @@ Markdown notes written: 5 files
   [git] Stale lock detected (9775s old), removing
   [git] CONFLICT MARKERS DETECTED — auto-resolving
   [git] Resolved conflicts in ./garmin/data.json
+  [git] Stale lock detected (59729s old), removing
