@@ -1,4 +1,4 @@
-_Updated: Saturday, 11 Jul 2026 at 10:42 PM SGT_
+_Updated: Sunday, 12 Jul 2026 at 09:02 PM SGT_
 
 **Solid aerobic work this morning — ACWR at 1.4 says let the load settle before the next stimulus.**
 
