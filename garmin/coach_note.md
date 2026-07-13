@@ -1,17 +1,17 @@
-_Updated: Monday, 13 Jul 2026 at 08:11 AM SGT_
+_Updated: Monday, 13 Jul 2026 at 06:23 PM SGT_
 
-**ACWR is 0.9 (OPTIMAL), HRV has climbed for four straight nights, and readiness is back up to 69 — today's easy run is a green light, exactly as planned.**
+**Easy 7.15km banked at HR 131 — textbook aerobic work, exactly the stimulus we wanted today.**
 
 **What your data says**
-ACWR sits at 0.9 (acute 218 vs chronic 219) — right in the safe 0.8–1.3 zone, training status MAINTAINING_2, VO2max 55.8, heat acclimation 100%. Predicted HM is 2:01:32 against your 1:45–1:50 goal — real ground to close, but the direction is right. Wellness has turned a corner after last week's dip: HRV weekly average is up to 76 (last night 83), resting HR is back at your 47 baseline, readiness 69, stress a low 9, sleep POSITIVE_DEEP. July running mileage: **57.92km of 100km**, 18 days left — 42km to go, comfortably on pace.
+ACWR is 1.2 (acute 281 vs chronic 219) — still inside the safe 0.8–1.3 band but riding the top edge, so we hold the line rather than push volume further this week. Predicted HM is 2:01:32 against your 1:45–1:50 goal; the gap is expected this early in Rebuild Base — threshold work isn't scheduled until the Build phase starts July 19. HRV is trending up nicely (weekly avg 76, last night 83) and resting HR is right at your 47 baseline — recovery signals are strong even with load elevated. July running mileage: **65.07km of 100km**, 18 days left — 34.93km to go, well on pace at under 2km/day needed.
 
 **Today's session**
-**Easy run, 6–7km, HR ≤135, ~7:00–7:30/km** (slow further if the heat pushes HR up). No run logged yet today — this follows Saturday's 11km long run and Sunday's rest, so we keep it unchanged. Purpose: aerobic base and capillary development at true easy effort, the stimulus that makes threshold pace feel easier once quality work ramps up.
+**Easy run 7.15km, 51.5min, avg HR 131 — DONE ✅.** HR stayed comfortably under your 135 cap the whole way, which is exactly the discipline that builds true aerobic base. No further running today — the adaptation from this session happens in the next 24–48h of recovery, not on the next run. Hydrate, eat, sleep well tonight.
 
 **3-Day Plan**
-- Today (Monday, 13 July 2026): Easy run 6–7km, HR ≤135, ~7:00–7:30/km
-- Tomorrow (Tuesday, 14 July 2026): Easy run 6–7km, HR ≤135 — second easy stimulus, keeps the 80/20 split intact
-- Day after (Wednesday, 15 July 2026): Rest — absorb both easy sessions before the next long run this weekend
+- Today (Monday, 13 July 2026): Easy run 7.15km, HR 131 — DONE ✅
+- Tomorrow (Tuesday, 14 July 2026): Easy run 6–7km, HR ≤135, ~7:00–7:30/km — second easy stimulus, keeps 80/20 intact
+- Day after (Wednesday, 15 July 2026): Rest — absorb both easy sessions with ACWR sitting at the top of range before this weekend's long run
 
 **Coach's take**
-Four nights of rising HRV and a resting HR right back at baseline says your body has bounced back — bank today's easy run honestly and the 100km target and the fitness underneath it both take care of themselves.
+Sub-135 for 51 minutes in Singapore heat while the load is riding high is real discipline — keep banking sessions like this and the fitness under the 2:01 prediction will show up fast once threshold work starts.
