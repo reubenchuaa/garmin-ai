@@ -1,9 +1,9 @@
-_Updated: Monday, 13 Jul 2026 at 06:45 PM SGT_
+_Updated: Monday, 13 Jul 2026 at 06:58 PM SGT_
 
 **Easy 7.15km banked at HR 131 — textbook aerobic work, exactly the stimulus we wanted today.**
 
 **What your data says**
-ACWR is 1.2 (acute 281 vs chronic 219, OPTIMAL) — inside the safe 0.8–1.3 band but near the top, so we hold volume steady this week rather than push further. Predicted HM is 2:01:32 against your 1:45–1:50 goal; that gap is expected this early in Rebuild Base — threshold work doesn't open up until Build phase starts July 19. HRV is trending up nicely (weekly avg 76, last night 83, up from 71 three days ago) and resting HR sits right at your 47 baseline with training readiness at 53 (moderate) — good recovery signals even with load elevated. July running mileage: **65.07km of 100km**, 18 days left — 34.93km to go, under 2km/day needed, well on pace.
+ACWR sits at 1.2 (acute 281 vs chronic 219, OPTIMAL) — inside the safe 0.8–1.3 band but near the top, so we hold volume steady this week rather than push further. Predicted HM is 2:01:32 against your 1:45–1:50 goal; that gap is expected this early in Rebuild Base — threshold work doesn't open up until Build phase starts July 19. HRV is trending up nicely (70 → 76 weekly avg over the last 5 days, last night 83) and resting HR is right at your 47 baseline with training readiness at 53 (moderate) — strong recovery signals even with load elevated. July running mileage: **65.07km of 100km**, 18 days left — 34.93km to go, under 2km/day needed, well on pace.
 
 **Today's session**
 **Easy run 7.15km, 51.5min, avg HR 131 — DONE ✅.** HR stayed comfortably under your 135 cap for the full 51 minutes — exactly the discipline that builds true aerobic base in this heat. No further running today; the adaptation from this session happens in the next 24–48h of recovery, not on the next run. Hydrate, eat, sleep on time tonight.
