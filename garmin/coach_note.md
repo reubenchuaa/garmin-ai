@@ -1,4 +1,4 @@
-_Updated: Tuesday, 14 Jul 2026 at 08:48 PM SGT_
+_Updated: Tuesday, 14 Jul 2026 at 09:27 PM SGT_
 
 **Today's 7.1km easy run is banked clean — ACWR is sitting at the top of the safe zone, so tomorrow is a mandatory rest day.**
 
