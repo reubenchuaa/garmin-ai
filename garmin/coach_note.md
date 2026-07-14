@@ -1,17 +1,17 @@
-_Updated: Monday, 13 Jul 2026 at 11:05 PM SGT_
+_Updated: Tuesday, 14 Jul 2026 at 08:01 AM SGT_
 
-**Easy 7.15km banked at HR 131 — textbook aerobic work, exactly the stimulus we wanted today.**
+**ACWR back to 1.0 (OPTIMAL) and readiness at 71 — today's planned rest is exactly what got you here, so let's bank it properly.**
 
 **What your data says**
-ACWR sits at 1.2 (acute 281 vs chronic 219, OPTIMAL) — inside the safe 0.8–1.3 band but riding near the top, so we hold steady rather than push volume further this week. Predicted HM is 2:01:32 against your 1:45–1:50 goal; that gap is expected in Rebuild Base — threshold work opens up properly once Build phase starts July 19. HRV is trending up nicely (weekly avg 68 → 76 over the past week, last night 83) and resting HR sits right at your 47 baseline with training readiness at 53 (moderate) — solid recovery signals even with load elevated. July running mileage: **65.07km of 100km**, 18 days left — 34.93km to go, under 2km/day needed, comfortably on pace.
+ACWR has settled to 1.0 (acute 231 / chronic 219, OPTIMAL) — down from Monday's 1.2, meaning yesterday's rest day is already doing its job of letting chronic load catch up. Training readiness jumped to 71 (MODERATE-good) with resting HR at 50 (still within range of your 47 baseline), HRV weekly average holding steady at 76, and sleep at 7.6h — strong recovery signals across the board. Predicted HM sits at 2:02:18 against your 1:45–1:50 goal, and July mileage is at **65.07km of 100km** with 17 days left (~2.05km/day needed) — comfortably on pace, but Build phase (starting July 19) is where that HM prediction really starts to move.
 
 **Today's session**
-**Easy run 7.15km, 51.5min, avg HR 131 — DONE ✅.** HR stayed comfortably under your 135 cap for the full 51 minutes at ~7:12/km — exactly the discipline that builds true aerobic base in this heat. No further running today; the adaptation happens in the next 24–48h of recovery, not in another session. Hydrate, eat, and get to bed on time tonight.
+**Rest.** This was the plan from yesterday's note and you haven't run today, so we hold it — ACWR was riding the top of the safe band and adaptation from Monday's 7.15km effort happens in the recovery window, not from adding another session on top of it. Hydrate, sleep well, let the legs absorb the work.
 
 **3-Day Plan**
-- Today (Monday, 13 July 2026): Easy run 7.15km, HR 131 — DONE ✅
-- Tomorrow (Tuesday, 14 July 2026): Rest — ACWR is riding the top of the optimal band, so we let chronic load catch up before adding more stimulus
-- Day after (Wednesday, 15 July 2026): Easy run 6–7km, HR ≤135, ~7:00–7:30/km — resume aerobic base work, keeping the 80/20 balance intact ahead of this weekend's long run
+- Today (Tuesday, 14 July 2026): Rest — let chronic load catch up, no running
+- Tomorrow (Wednesday, 15 July 2026): Easy run 6–7km, HR ≤135, ~7:00–7:30/km — resume aerobic base work
+- Day after (Thursday, 16 July 2026): Easy run 5–6km, HR ≤135 — steady frequency into this weekend's long run
 
 **Coach's take**
-Sub-135 for 51 minutes in Singapore heat while load rides high is real discipline — protect tomorrow's rest and that 2:01 prediction starts dropping fast once threshold work opens up.
+Readiness at 71 and ACWR back to optimal is exactly the platform we want heading into Build phase — stay disciplined on the easy days and that 2:02 prediction won't stay put for long.
