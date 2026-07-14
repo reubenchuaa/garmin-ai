@@ -1,4 +1,4 @@
-_Updated: Tuesday, 14 Jul 2026 at 07:12 PM SGT_
+_Updated: Tuesday, 14 Jul 2026 at 07:44 PM SGT_
 
 **Textbook easy execution today — 7.1km at HR 128 — but ACWR just kissed the ceiling of the optimal zone, so tomorrow is a mandatory rest day.**
 
