@@ -1,4 +1,4 @@
-_Updated: Tuesday, 14 Jul 2026 at 11:24 PM SGT_
+_Updated: Tuesday, 14 Jul 2026 at 11:54 PM SGT_
 
 **Today's easy 7.1km is banked clean — ACWR sits right at the safe ceiling, so the discipline now is rest, not more running.**
 
