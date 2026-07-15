@@ -1,12 +1,12 @@
-_Updated: Wednesday, 15 Jul 2026 at 07:58 AM SGT_
+_Updated: Wednesday, 15 Jul 2026 at 08:20 AM SGT_
 
-**ACWR has settled back to 1.0 (OPTIMAL) — today's rest locks in that reset, and it's the right call before we push again.**
+**ACWR is OPTIMAL at 1.0 — stay on the rest day, the HRV dip hasn't reversed yet.**
 
 **What your data says**
-ACWR is 1.0 (acute 237 / chronic 219, OPTIMAL), training status PRODUCTIVE_2, VO2max 55.6, heat acclimation 100%. Predicted HM sits at 2:02:43 vs your 1:45–1:50 goal — that gap closes with threshold work once we're deeper into Build phase, not by adding kilometres now. HRV has slid two nights running (83ms → 68ms → 60ms last night vs a 72ms weekly average) and resting HR is up to 52 (7-day avg 50, ~5bpm over your ~47 baseline) — a real fatigue signal even though Training Readiness reads 66/MODERATE. July mileage: **72.17km of 100km**, 16 days left (~1.74km/day needed) — well on pace, no need to force it today. No run logged yet today.
+ACWR is 1.0 (acute 237 / chronic 219, OPTIMAL), training status PRODUCTIVE_2, VO2max 55.6, heat acclimation 100%. Predicted HM sits at 2:02:43 vs your 1:45–1:50 goal — that gap closes with threshold work deeper into Build phase, not by forcing kilometres now. HRV has slid three readings running (83ms → 68ms → 60ms last night vs a 72ms weekly average) and resting HR is up to 52 (7-day avg ~49, ~5bpm over your ~47 baseline) — a real fatigue signal even though Training Readiness reads 66/MODERATE. July mileage: **72.17km of 100km**, 16 days left (~1.74km/day needed) — comfortably on pace, no need to chase it today. No run logged yet today.
 
 **Today's session**
-Rest — full stop. This was already the plan, and the HRV dip plus elevated resting HR confirm it's the right one. Adaptation happens during recovery, not on the road: today is when yesterday's and Monday's training actually gets absorbed into fitness. Sleep, hydrate, keep the legs moving with light stretching only.
+Rest — full stop. HRV still hasn't turned back up and RHR is still elevated, so today is still the right day to sit out. Adaptation happens during recovery, not on the road: this is when Monday's and last week's training actually gets absorbed into fitness. Sleep, hydrate, light stretching only — no run.
 
 **3-Day Plan**
 - Today (Wednesday, 15 July 2026): Rest — mandatory, HRV trending down + RHR elevated
@@ -14,4 +14,4 @@ Rest — full stop. This was already the plan, and the HRV dip plus elevated res
 - Day after (Friday, 17 July 2026): Rest or short easy shakeout only if HRV/RHR have recovered — save the next long-run build for the weekend
 
 **Coach's take**
-The ACWR reset from 1.3 to 1.0 is exactly the discipline that keeps you healthy through Rebuild Base — one clean rest day now buys you a stronger Thursday and protects the 1:45–1:50 goal.
+Holding the ACWR at 1.0 through a clean rest day now is exactly the discipline that keeps Rebuild Base on track — one more day of patience buys you a stronger Thursday and protects the 1:45–1:50 goal.
