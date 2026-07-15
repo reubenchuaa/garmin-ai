@@ -279,3 +279,28 @@ Markdown notes written: 5 files
   [git] CONFLICT MARKERS DETECTED — auto-resolving
   [git] Resolved conflicts in ./garmin/data.json
   [git] Stale lock detected (59729s old), removing
+
+Fetching data for: 2026-07-12 → 2026-07-14
+
+  Activity: activity_2026-07-13_23579735423.md
+  Wellness: wellness_2026-07-12.md
+  Wellness: wellness_2026-07-13.md
+  Wellness: wellness_2026-07-14.md
+  Training status: MAINTAINING_2, ACWR: 1.0
+  Race predictions — HM: 2:02:18
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+  [auth] Token OK — refresh token valid for 26 more days
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    1709 bytes)
+  [workout] Deleted old: Easy 6km @ 7:00-7:30/km (ID: 1631429439)
+  [workout] Deleted old: Easy 6km @ 7:00-7:30/km (ID: 1631429442)
+  [workout] Pushing: Easy 6km (easy) for 2026-07-16
+    - warmup: 6000m, HR 115-135
+  [workout] Created: Easy 6km (ID: 1631434358)
+  [workout] Scheduled for 2026-07-16
+  ✅ Pushed: Easy 6km → 2026-07-16
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
