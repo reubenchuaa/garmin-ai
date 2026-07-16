@@ -1,17 +1,17 @@
-_Updated: Thursday, 16 Jul 2026 at 11:58 PM SGT_
+_Updated: Friday, 17 Jul 2026 at 12:04 AM SGT_
 
-**Easy run banked at 8.01km with HR 130 — textbook aerobic execution, Rebuild Base closes out clean.**
+**Rest day, exactly as planned — legs stay fresh for Sunday's long run while Rebuild Base wraps up clean.**
 
 **What your data says**
-ACWR sits at 1.1 (acute 259 / chronic 219) — OPTIMAL zone, and today's run is exactly that kind of controlled, steady loading, not a spike. Predicted HM is 2:02:33 against your 1:45–1:50 goal — the Build phase starting Sunday is where that gap starts closing. Training Readiness 54/MODERATE, resting HR 49 (+2 over baseline, non-issue), HRV last night 70ms vs weekly avg 73ms — stable, no fatigue signal. July mileage now **80.18km of 100km**, 15 days left needing just ~1.3km/day — you're well ahead of pace.
+ACWR sits at 1.1 (acute 259 / chronic 219) — OPTIMAL zone, training status MAINTAINING_2, no spike to manage. Predicted HM is 2:02:33 against your 1:45–1:50 goal — Build + Hike Prep starting tomorrow is where that gap starts closing. Training Readiness 54/MODERATE, resting HR 49 (+2 over your ~47 baseline, non-issue), HRV 70ms vs weekly avg 73ms — stable, no fatigue trend. July mileage sits at **80.18km of 100km**, 14 days left needing just ~1.4km/day — you're well ahead of pace.
 
 **Today's session**
-DONE ✅ — 8.01km easy run, 56.2min, avg HR 130 (right under your 135 cap). Purpose served: aerobic base and capillary development at true conversational effort. No more running today — let this one bank.
+Rest. No running today — yesterday's 8.01km easy effort at HR 130 is still being absorbed, and adaptation happens in recovery, not on the road. Saturday is also off-limits for training this week, so today's rest banks the recovery you need before Sunday's long run closes out Rebuild Base.
 
 **3-Day Plan**
-- Today (Thursday, 16 July 2026): Easy run 8.01km, HR 130 avg — DONE ✅
-- Tomorrow (Friday, 17 July 2026): Rest — recovery banked ahead of the long run, adaptation happens now, not on the road
-- Day after (Saturday, 18 July 2026): Rest — unavailable for training this week; long run shifts to Sunday 19 July to close out Rebuild Base
+- Today (Friday, 17 July 2026): Rest — recovery day, adaptation over exertion
+- Tomorrow (Saturday, 18 July 2026): Rest — unavailable for training this week
+- Day after (Sunday, 19 July 2026): Long run ~10–11km, HR ≤ 135, easy effort — closes out Rebuild Base and opens Build + Hike Prep
 
 **Coach's take**
-ACWR in the pocket, HRV steady, mileage well ahead of target — you're executing this phase exactly as prescribed, so rest easy the next two days and let Sunday's long run send you into Build + Hike Prep with fresh legs.
+ACWR steady in the pocket and mileage well ahead of target — two clean rest days here is exactly what turns Thursday's run into fitness, so trust the process and show up fresh for Sunday.
