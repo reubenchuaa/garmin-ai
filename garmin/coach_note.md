@@ -1,4 +1,4 @@
-_Updated: Friday, 17 Jul 2026 at 10:59 PM SGT_
+_Updated: Friday, 17 Jul 2026 at 11:23 PM SGT_
 
 **Bonus run banked clean, ACWR still optimal — Rebuild Base closes out exactly on script.**
 
