@@ -1,17 +1,17 @@
-_Updated: Saturday, 18 Jul 2026 at 10:24 AM SGT_
+_Updated: Saturday, 18 Jul 2026 at 10:43 AM SGT_
 
-**ACWR back to dead-center optimal, readiness peaking — today's rest is the smart move, not a missed one.**
+**ACWR locked at 0.9 (optimal), readiness at its weekly best (72) — today's rest is the plan working, not a day off from it.**
 
 **What your data says**
-ACWR is 0.9 (acute 218 / chronic 219) — squarely OPTIMAL, and Training Readiness jumped to 72/moderate this morning, the best score of the week, backed by resting HR at 47 (right at baseline) and HRV trending up (68→74ms over 5 days). Predicted HM sits at 2:02:33 against your 1:45–1:50 goal — VO2max holds at 55.5, heat acclimation 100%. July running mileage is **87.71km of 100km**, with 14 days left needing just ~0.9km/day — you're well ahead of pace, so there's zero pressure to force volume today.
+ACWR sits at 0.9 (acute 218 / chronic 219) — squarely OPTIMAL, training status MAINTAINING_2. Training Readiness is 72/MODERATE, the highest reading all week, with resting HR at 47 (right at your baseline) and HRV holding steady at 74ms (weekly avg 72 — stable, not declining). Predicted HM is 2:02:33 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5% for your age/gender), heat acclimation 100%. July running mileage stands at **87.71km of 100km** — just 12.3km needed across the 13 days left, so you're well ahead of pace with room to spare.
 
 **Today's session**
-Rest. Today's unavailable for training this week, and your body is asking for it too — this is the day adaptation actually happens: capillary and mitochondrial gains from this week's runs consolidate while you're off your feet. Running today would only chip into tomorrow's long run quality for no real gain.
+Rest. Today is unavailable for training this week and your body doesn't need convincing either — this is when yesterday's easy 7.5km run (128 avg HR, clean and controlled) actually gets converted into fitness. Adaptation happens in recovery, not on the road. Running today would only blunt tomorrow's long run for zero benefit.
 
 **3-Day Plan**
-- Today (Saturday, 18 July 2026): Rest — closes out Rebuild Base, protects tomorrow's long run
-- Tomorrow (Sunday, 19 July 2026): Long run ~10–11km, easy effort, HR ≤ 135 — builds aerobic base and mitochondrial density, opens Build + Hike Prep
-- Day after (Monday, 20 July 2026): Easy recovery — legs off after the long run; optional light stair walk in your hiking shoes (no pack yet) to start Norway break-in
+- Today (Saturday, 18 July 2026): Rest — closes out Rebuild Base, protects tomorrow's long run quality
+- Tomorrow (Sunday, 19 July 2026): Long run ~10–11km, easy effort, HR ≤ 135 — builds aerobic base and mitochondrial density, opens Build + Hike Prep phase
+- Day after (Monday, 20 July 2026): Easy recovery day off the legs; optional short walk in your Columbia hiking shoes (no pack yet) to start the Norway break-in clock
 
 **Coach's take**
-RHR at baseline, HRV climbing, readiness at its weekly high — you're not just banking mileage, you're banking the recovery that makes September's sub-1:50 possible.
+RHR at baseline, HRV steady, readiness peaking, mileage ahead of target — every signal says the base you're building is real, and Sunday's long run is where you cash it in.
