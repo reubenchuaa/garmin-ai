@@ -1,4 +1,4 @@
-_Updated: Saturday, 18 Jul 2026 at 10:43 AM SGT_
+_Updated: Saturday, 18 Jul 2026 at 07:26 PM SGT_
 
 **ACWR locked at 0.9 (optimal), readiness at its weekly best (72) — today's rest is the plan working, not a day off from it.**
 
