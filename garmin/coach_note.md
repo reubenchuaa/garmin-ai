@@ -1,4 +1,4 @@
-_Updated: Sunday, 19 Jul 2026 at 06:04 PM SGT_
+_Updated: Sunday, 19 Jul 2026 at 06:35 PM SGT_
 
 **Long run banked at 11.14km, HR 130 — Rebuild Base closes today, Build + Hike Prep opens, and July's 100km target is essentially in the bag.**
 
