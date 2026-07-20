@@ -1,4 +1,4 @@
-_Updated: Monday, 20 Jul 2026 at 05:18 PM SGT_
+_Updated: Monday, 20 Jul 2026 at 05:49 PM SGT_
 
 **ACWR sits dead-center optimal at 0.9, recovery is fully topped up, and July's 100km target is one short run away — Wednesday's session still shifts to Thursday.**
 
