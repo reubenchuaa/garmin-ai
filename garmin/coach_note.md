@@ -1,4 +1,4 @@
-_Updated: Monday, 20 Jul 2026 at 09:59 PM SGT_
+_Updated: Monday, 20 Jul 2026 at 10:31 PM SGT_
 
 **ACWR holds steady at 0.9 (optimal), readiness is HIGH at 76, resting HR at 44 — the engine's primed, and tomorrow's easy run closes out July's 100km target.**
 
