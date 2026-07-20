@@ -1,9 +1,9 @@
-_Updated: Monday, 20 Jul 2026 at 05:05 PM SGT_
+_Updated: Monday, 20 Jul 2026 at 05:18 PM SGT_
 
 **ACWR sits dead-center optimal at 0.9, recovery is fully topped up, and July's 100km target is one short run away — Wednesday's session still shifts to Thursday.**
 
 **What your data says**
-ACWR is 0.9 (acute 216 / chronic 223) — OPTIMAL, training status MAINTAINING_2. Predicted HM sits at 2:02:10 against your 1:45–1:50 goal, VO2max holding at 55.3 (top 5% for your age/gender) and heat acclimation at 100% (ACCLIMATIZED) — the remaining gap is race-specific speed, not aerobic capacity. July running stands at **98.85km of 100km**, with 11 days left — tomorrow's easy run banks it. Recovery is strong: resting HR 44 (below your ~47 baseline), training readiness 76 (HIGH), overnight HRV 85ms vs a 73ms weekly average and trending up, sleep score POSITIVE_RECOVERING. Load balance flags an aerobic-high shortage, meaning the engine is primed for quality work — that shifts to Thursday since you're fully unavailable Wednesday.
+ACWR is 0.9 (acute 216 / chronic 223) — OPTIMAL, training status MAINTAINING_2. Predicted HM sits at 2:02:10 against your 1:45–1:50 goal, VO2max holding at 55.3 (top 5% for your age/gender) and heat acclimation at 100% (ACCLIMATIZED) — the remaining gap is race-specific speed, not aerobic capacity. July running stands at **98.85km of 100km**, with 11 days left — tomorrow's easy run banks it. Recovery is strong: resting HR 44 (below your ~47 baseline), training readiness 76 (HIGH), overnight HRV 85ms — still comfortably above the 73ms weekly average even though it eased slightly off last night's 88ms. Load balance flags an aerobic-high shortage, meaning the engine is primed for quality work — that shifts to Thursday since you're fully unavailable Wednesday.
 
 **Today's session**
 Rest. Sunday's 11.14km long run needs 48h+ before any quality work — supercompensation means the adaptation (mitochondrial density, glycogen storage) happens during recovery, not during the run itself. Optional: an easy shoe break-in walk in the Columbia hikers (no pack) to keep the Norway break-in clock running.
