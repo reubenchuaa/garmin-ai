@@ -1,4 +1,4 @@
-_Updated: Tuesday, 21 Jul 2026 at 05:59 PM SGT_
+_Updated: Tuesday, 21 Jul 2026 at 06:30 PM SGT_
 
 **Today's easy run tipped ACWR into the OPTIMAL zone at 1.0 and pushed July mileage to 105.22km — the 100km target is done with 10 days to spare.**
 
