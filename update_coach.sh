@@ -106,6 +106,40 @@ total = sum(
 print(f'{total:.2f}')
 " 2>/dev/null || echo "?")
 
+# --- Pre-compute fuel/calorie data ---
+FUEL_INFO=$($PYTHON -c "
+import json
+from datetime import date, timedelta
+d = json.load(open('garmin/data.json'))
+today = date.today().isoformat()
+yesterday = (date.today() - timedelta(1)).isoformat()
+
+def day_cals(dstr):
+    for w in d.get('wellness', []):
+        if w.get('date') == dstr:
+            wl = w.get('wellness', {})
+            return wl.get('totalKilocalories'), wl.get('activeKilocalories'), wl.get('bmrKilocalories')
+    return None, None, None
+
+y_total, y_active, y_bmr = day_cals(yesterday)
+t_total, t_active, t_bmr = day_cals(today)
+
+run_types = {'running','trail_running','treadmill_running','track_running','ultra_running'}
+# Today's run calories
+today_run_cal = sum(a.get('calories',0) for a in d.get('activities',[])
+    if (a.get('startTimeLocal') or '')[:10] == today
+    and a.get('activityType',{}).get('typeKey','') in run_types)
+
+# Is today a run day (planned or done)? Use yesterday's active as proxy baseline
+bmr = y_bmr or t_bmr or 1788
+# Maintenance target: eat back total burn. Run day ~+400-600 over rest.
+lines = []
+if y_total: lines.append(f'Yesterday burned {int(y_total)} kcal total (active {int(y_active or 0)}, BMR {int(y_bmr or bmr)}).')
+if today_run_cal: lines.append(f'Today run so far: {int(today_run_cal)} kcal.')
+lines.append(f'BMR ~{int(bmr)} kcal. Maintenance intake target: eat back total daily burn — do NOT run a deficit (athlete wants to maintain weight and fuel training fully). Run days ~2300-2500 kcal, rest days ~2000-2100 kcal. On hard/long-run days lean slightly OVER maintenance to protect recovery and HRV.')
+print(' '.join(lines))
+" 2>/dev/null || echo "Calorie data unavailable.")
+
 # --- Get today's date info for the prompt ---
 TODAY_INFO=$(date '+%A, %d %B %Y')
 
@@ -214,10 +248,15 @@ What to do today. Be specific with distance, pace range, HR cap. Explain the phy
 - Tomorrow: session
 - Day after: session
 
+**Fuel**
+One or two lines. State calories burned (from FUEL DATA below) and today's intake target to MAINTAIN weight and fuel training (never a deficit). Give ONE relatable Singaporean hawker-food equivalent for the training burn so it's intuitive (e.g. \"today's run ≈ 1 plate chicken rice\"). Hawker reference kcal: chicken rice 600, char kway teow 740, nasi lemak 490, laksa 700, wanton mee 410, bak chor mee 500, economy rice 1-meat-2-veg 600, kaya toast set 450, roti prata 2pc+curry 400, Milo dinosaur 350, kopi 115.
+
 **Coach's take**
 One motivating sentence grounded in what the data shows is possible.
 
-Under 300 words. Write ONLY the markdown to garmin/coach_note.md. No commentary, no explanation — just the note content.
+FUEL DATA (use for the Fuel section): $FUEL_INFO
+
+Under 320 words. Write ONLY the markdown to garmin/coach_note.md. No commentary, no explanation — just the note content.
 "
 
 # --- Helper: validate a coach note file ---
