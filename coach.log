@@ -325,3 +325,20 @@ Markdown notes written: 5 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+
+Fetching data for: 2026-07-18 → 2026-07-20
+
+  Activity: activity_2026-07-19_23648146869.md
+  Wellness: wellness_2026-07-18.md
+  Wellness: wellness_2026-07-19.md
+  Wellness: wellness_2026-07-20.md
+  Training status: MAINTAINING_2, ACWR: 0.9
+  Race predictions — HM: 2:02:10
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+  [auth] Token OK — refresh token valid for 20 more days
+  [coach] ERROR: Claude CLI not logged in — skipping coach note update entirely
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html

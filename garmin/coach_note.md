@@ -1,4 +1,4 @@
-_Updated: Tuesday, 21 Jul 2026 at 04:56 PM SGT_
+_Updated: Tuesday, 21 Jul 2026 at 05:28 PM SGT_
 
 **ACWR is still low at 0.7, readiness sits at a solid 72, and you're 1.15km from July's 100km target — go get it today.**
 
