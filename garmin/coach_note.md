@@ -1,17 +1,17 @@
-_Updated: Tuesday, 21 Jul 2026 at 05:28 PM SGT_
+_Updated: Tuesday, 21 Jul 2026 at 05:59 PM SGT_
 
-**ACWR is still low at 0.7, readiness sits at a solid 72, and you're 1.15km from July's 100km target — go get it today.**
+**Today's easy run tipped ACWR into the OPTIMAL zone at 1.0 and pushed July mileage to 105.22km — the 100km target is done with 10 days to spare.**
 
 **What your data says**
-ACWR reads 0.7 (acute 174 / chronic 219) — LOW per Gabbett's model, meaning undertraining risk from a soft acute block rather than injury risk, so today's easy run is the controlled rebuild that resets the balance. Predicted HM holds at 2:02:25 against your 1:45–1:50 goal, VO2max is steady at 55.3 (top 5% for your age/gender), and heat acclimation sits at 100% ACCLIMATIZED — the gap left to close is race-specific speed, not aerobic engine. July running stands at **98.85km of 100km**, 10 days left, and no run logged yet today. Recovery signals are clean: resting HR at 48 (~1 bpm above your ~47 baseline, non-issue), training readiness 72 MODERATE, HRV weekly average 75ms BALANCED and trending up over the week (72→73→75).
+ACWR now reads 1.0 OPTIMAL (acute 243 / chronic 232) — squarely in Gabbett's safe loading zone after this morning's soft acute block firmed up. Predicted HM holds at 2:02:00 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5% for your age/gender), and heat acclimation sits at 100% ACCLIMATIZED. July running is **105.22km of 100km** — target met. Recovery signals are clean: resting HR 48 (~1 bpm above your ~47 baseline, non-issue), HRV weekly average 75ms BALANCED and trending up (72→73→75→78 last night), training readiness sits at 59 (post-exercise reset from this morning's 72 — expected after today's session, not a concern).
 
 **Today's session**
-Easy run, 5–6km, HR ≤ 135, pace ~7:00–7:30/km (Kayano 31). Purpose: with ACWR low, this rebuilds acute load safely while closing out the July mileage target — low-intensity aerobic work drives capillary and mitochondrial development without adding injury risk.
+DONE ✅. 6.36km easy, 43.6min, avg HR 131 — comfortably under your 135 cap. That's ~6:52/km at aerobic HR — a strong efficiency signal, evidence the base is building. No more running today; let this one bank and go into recovery mode.
 
 **3-Day Plan**
-- Today (Tuesday, 21 July 2026): Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km (Kayano 31) — pushes July past 100km
+- Today (Tuesday, 21 July 2026): Easy run, 6.36km, HR 131 avg — DONE ✅, July target crossed
 - Tomorrow (Wednesday, 22 July 2026): Full rest — you're unavailable all day
 - Thursday, 23 July 2026: Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian), with 1–2km easy warm-up and cool-down
 
 **Coach's take**
-A 55.3 VO2max and full heat acclimation mean the engine is already built — today's easy km is just the last brick before you turn it loose on Thursday's tempo.
+100km banked for July, ACWR dialed in, and a fully acclimatized engine underneath — Thursday's tempo is where you start turning that base into race-day speed.
