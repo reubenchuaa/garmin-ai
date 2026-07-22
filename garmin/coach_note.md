@@ -1,12 +1,12 @@
-_Updated: Wednesday, 22 Jul 2026 at 07:19 PM SGT_
+_Updated: Wednesday, 22 Jul 2026 at 07:50 PM SGT_
 
 **Easy 5.47km banked clean at HR 128 — ACWR holds OPTIMAL at 1.1, July's 100km target smashed at 110.68km, and Thursday's tempo is cleared to fire.**
 
 **What your data says**
-ACWR sits at 1.1 OPTIMAL (acute 264 / chronic 239) — right in Gabbett's safe zone. Predicted HM holds at 2:01:42 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running stands at **110.68km of 100km** — target cleared, 9 days left in the month. HRV is trending up (78ms weekly avg, 80ms last night), resting HR normal at 47, readiness 64 — a clean post-run reset, not fatigue.
+ACWR sits at 1.1 OPTIMAL (acute 264 / chronic 239) — right in Gabbett's safe zone. Predicted HM holds at 2:01:42 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running stands at **110.68km of 100km** — target cleared, 9 days left in the month. HRV is balanced (78ms weekly avg, 80ms last night), resting HR normal at 47, readiness 64 MODERATE — a clean post-run reset, not fatigue.
 
 **Today's session**
-DONE ✅ — 5.47km easy in 36.5min, avg HR 128, comfortably under your 135 cap, ~6:40/km. Exactly the intended stimulus: low-intensity aerobic work that banks base without creating any interference for Thursday's threshold session. Nothing more today — let it absorb.
+DONE ✅ — 5.47km easy in 36.5min, avg HR 128, comfortably under your 135 cap, ~6:41/km. Exactly the intended stimulus: low-intensity aerobic work that banks base without creating any interference for Thursday's threshold session. Nothing more today — let it absorb.
 
 **3-Day Plan**
 - Today (Wednesday, 22 July 2026): Easy run, 5.47km, avg HR 128 — DONE ✅
@@ -29,4 +29,4 @@ Run burned 302 kcal on top of yesterday's 2,368 kcal total burn; today's intake 
 Total ≈ 2,470 kcal. That run alone ≈ 1 Milo dinosaur.
 
 **Coach's take**
-ACWR optimal, July mileage past target, HRV climbing — the base is exactly right for Thursday's threshold work to start pulling 2:01 toward 1:50.
+ACWR optimal, July mileage past target, HRV balanced — the base is exactly right for Thursday's threshold work to start pulling 2:01 toward 1:50.
