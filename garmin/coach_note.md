@@ -1,9 +1,9 @@
-_Updated: Wednesday, 22 Jul 2026 at 08:23 AM SGT_
+_Updated: Wednesday, 22 Jul 2026 at 12:34 PM SGT_
 
-**Your body bounced back overnight — readiness jumped to 73 and HRV rebounded to 80ms — so tonight's easy run is fully green-lit, with tempo waiting fresh for Thursday.**
+**Readiness is back up to 75 HIGH and HRV has rebounded to 80ms — tonight's easy run is fully green-lit, with July's 100km target already banked.**
 
 **What your data says**
-ACWR sits at 0.8 OPTIMAL (acute 201 / chronic 227) — the low edge of Gabbett's safe zone, a fair reflection of yesterday's rest day rather than a red flag. Predicted HM holds at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target already banked with over a week to spare. The three-night HRV dip (88→85→78ms) has reversed to 80ms last night, and readiness rebounded from 59 to 73 MODERATE — fatigue is clearing, exactly on schedule for tonight's easy effort.
+ACWR sits at 0.8 OPTIMAL (acute 201 / chronic 227) — the low edge of Gabbett's safe zone, reflecting yesterday's lighter load rather than a red flag. Predicted HM holds at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target cleared with over a week still to run. The three-night HRV dip (88→85→78ms) has fully reversed to 80ms, and readiness climbed from 59 to 75 HIGH — your body is primed, not fatigued, heading into tonight.
 
 **Today's session**
 Easy run tonight, 5–6km, HR ≤ 135, ~7:00–7:30/km, Asics Gel-Kayano 31. Purpose: pure aerobic base — capillary development and fat oxidation — with zero interference to Thursday's threshold work. Keep it conversational; the goal is time on feet, not effort.
@@ -23,4 +23,4 @@ Yesterday you burned 2,368 kcal (580 active + 1,788 BMR); tonight's easy run add
 Total ≈ 2,365 kcal. That easy run alone ≈ 1 Milo dinosaur.
 
 **Coach's take**
-July's mileage is already banked and your body just proved it can absorb a dip and bounce back within a day — cruise tonight, arrive fresh Thursday, and keep chipping away at turning 2:02 into 1:50 territory.
+July's mileage is already banked and readiness just climbed back to HIGH — cruise tonight, arrive fresh for Thursday's threshold work, and keep chipping away at turning 2:02 into 1:50 territory.
