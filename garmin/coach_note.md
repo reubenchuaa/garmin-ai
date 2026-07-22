@@ -1,26 +1,26 @@
-_Updated: Wednesday, 22 Jul 2026 at 08:03 AM SGT_
+_Updated: Wednesday, 22 Jul 2026 at 08:23 AM SGT_
 
-**Forced rest today, but nothing about your data says you needed convincing — ACWR is dead-center optimal and July's 100km is already banked.**
+**Your body bounced back overnight — readiness jumped to 73 and HRV rebounded to 80ms — so tonight's easy run is fully green-lit, with tempo waiting fresh for Thursday.**
 
 **What your data says**
-ACWR holds at 1.0 OPTIMAL (acute 243 / chronic 232) — squarely in Gabbett's safe zone. Predicted HM sits at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target smashed with over a week to spare. Watch point: HRV has eased three straight nights (88 → 85 → 78ms) and readiness reads 59 MODERATE — mild fatigue, not a red flag, but a good reason to take today's forced rest seriously.
+ACWR sits at 0.8 OPTIMAL (acute 201 / chronic 227) — the low edge of Gabbett's safe zone, a fair reflection of yesterday's rest day rather than a red flag. Predicted HM holds at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target already banked with over a week to spare. The three-night HRV dip (88→85→78ms) has reversed to 80ms last night, and readiness rebounded from 59 to 73 MODERATE — fatigue is clearing, exactly on schedule for tonight's easy effort.
 
 **Today's session**
-Full rest — you're unavailable all day, and your body will use every hour of it. This is when Tuesday's easy 6.36km actually consolidates into fitness; recovery is the stimulus, not the run itself. Nothing to do today except sleep well and eat to maintenance.
+Easy run tonight, 5–6km, HR ≤ 135, ~7:00–7:30/km, Asics Gel-Kayano 31. Purpose: pure aerobic base — capillary development and fat oxidation — with zero interference to Thursday's threshold work. Keep it conversational; the goal is time on feet, not effort.
 
 **3-Day Plan**
-- Today (Wednesday, 22 July 2026): Full rest — unavailable all day
+- Today (Wednesday, 22 July 2026): Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km (Kayano 31)
 - Thursday, 23 July 2026: Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian), with 1–2km easy warm-up and cool-down — the session that raises lactate threshold, your biggest lever on HM time
-- Friday, 24 July 2026: Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km (Asics Gel-Kayano 31) — flush the legs and hold the aerobic base
+- Friday, 24 July 2026: Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km (Kayano 31) — flush the legs, hold the base
 
 **Fuel**
-Yesterday burned 2,368 kcal total (580 active + 1,788 BMR) — today's rest-day target is ~2,020 kcal, full maintenance with no deficit.
+Yesterday you burned 2,368 kcal (580 active + 1,788 BMR); tonight's easy run adds a similar load, so today's target sits at ~2,350 kcal, full maintenance with no deficit.
 - Breakfast: Kaya toast set (2 toast + 2 soft-boiled eggs) + kopi — ~565
 - Lunch: Chicken rice — ~600
-- Snack: Banana + soy milk — ~205
-- Dinner: Bak chor mee — ~500
-- Evening: Yogurt — ~150
-Total ≈ 2,020 kcal. No run today, so no training-burn equivalent — save the Milo dinosaur for Thursday's tempo reward.
+- Snack: Yogurt — ~150
+- Dinner: Laksa — ~700
+- Evening: Milo dinosaur (post-run reward) — ~350
+Total ≈ 2,365 kcal. That easy run alone ≈ 1 Milo dinosaur.
 
 **Coach's take**
-July's mileage is banked and your load is textbook — rest all the way today, let that HRV dip settle, and show up fresh Thursday to start turning 2:02 into 1:50 territory.
+July's mileage is already banked and your body just proved it can absorb a dip and bounce back within a day — cruise tonight, arrive fresh Thursday, and keep chipping away at turning 2:02 into 1:50 territory.
