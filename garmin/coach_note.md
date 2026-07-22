@@ -1,9 +1,9 @@
-_Updated: Wednesday, 22 Jul 2026 at 02:33 PM SGT_
+_Updated: Wednesday, 22 Jul 2026 at 02:42 PM SGT_
 
-**Readiness has rebounded to 75 HIGH with HRV back up to 80ms — tonight's easy run is fully green-lit, and July's 100km target is already banked with over a week to spare.**
+**Readiness is HIGH at 75 with HRV rebounded to 80ms, ACWR sitting comfortably at 0.8 — tonight's easy run is fully green-lit and July's 100km target is already banked with over a week to spare.**
 
 **What your data says**
-ACWR sits at 0.8 OPTIMAL (acute 201 / chronic 227) — the low edge of Gabbett's safe zone, not a red flag, just room to build. Predicted HM holds at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target already cleared. HRV dipped to 78ms Monday but has recovered to 80ms and training readiness is back to 75 HIGH, so the body is primed for tonight's session and Thursday's threshold work.
+ACWR is 0.8 OPTIMAL (acute 201 / chronic 227) — low edge of Gabbett's safe zone, meaning there's room to build without spiking injury risk. Predicted HM holds at 2:02:07 against your 1:45–1:50 goal, VO2max steady at 55.5 (top 5%), heat acclimation 100% ACCLIMATIZED. July running stands at **105.22km of 100km** — target already cleared with 9 days left in the month. HRV dipped to 78ms two nights ago but bounced back to 80ms overnight, and training readiness is HIGH at 75 — the body is primed for tonight's session and Thursday's threshold work.
 
 **Today's session**
 Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km, Asics Gel-Kayano 31. Purpose: pure aerobic base — capillary development and fat oxidation — with zero interference to Thursday's tempo. Keep it conversational; time on feet, not effort.
