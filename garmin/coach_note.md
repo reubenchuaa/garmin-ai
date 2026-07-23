@@ -1,12 +1,12 @@
-_Updated: Thursday, 23 Jul 2026 at 03:14 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 03:15 PM SGT_
 
 **Readiness is HIGH at 77, ACWR sits clean at 0.9 OPTIMAL, and July's 100km target is already banked — today's tempo is about closing the threshold gap, not chasing volume.**
 
 **What your data says**
-ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — Gabbett's safe zone — but load balance flags AEROBIC_HIGH_SHORTAGE: tempo work is under-stocked, so today fills a real gap. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Readiness HIGH at 77, resting HR 48 (7-day avg 47, at baseline), HRV weekly avg 79ms (last night 75ms, BALANCED) — every recovery signal says go.
+ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — Gabbett's safe zone — but load balance flags AEROBIC_HIGH_SHORTAGE: tempo work is under-stocked, so today fills a real gap. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Readiness HIGH at 77, resting HR 48 (7-day avg 47, at baseline), HRV weekly avg 79ms (last night 75ms, trending up from 78→80→75 — stable), no run logged yet today. Every recovery signal says go.
 
 **Today's session**
-Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy warm-up/cool-down either side. Biggest lever on your HM time — raises the pace you can hold before lactate outpaces clearance.
+Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy warm-up/cool-down either side. This is the pace that raises lactate threshold — the single biggest lever on your HM time.
 
 **3-Day Plan**
 - Today (Thursday, 23 July 2026): Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian)
