@@ -1,32 +1,31 @@
-_Updated: Thursday, 23 Jul 2026 at 05:13 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 06:37 PM SGT_
 
-**Readiness is HIGH at 77, ACWR is clean at 0.9 OPTIMAL, July's 100km is already banked — tonight's tempo is the one gap left to close.**
+**Today's tempo turned into a big effort — 10km at HR 155 — and ACWR just spiked to 1.6 HIGH, so tomorrow is a mandatory recovery day, no debate.**
 
 **What your data says**
-ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — squarely in Gabbett's safe zone — but load_balance still reads AEROBIC_HIGH_SHORTAGE: your easy volume is well ahead of your threshold volume, so tonight's tempo isn't a box-tick, it's filling a real gap. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target already cleared with over a week left in the month. Readiness HIGH at 77, resting HR 48 (7-day avg 47, right at baseline), HRV weekly avg 79ms (last night 75ms, BALANCED), sleep score 87 — every recovery signal is green and no run is logged yet today.
+ACWR jumped to 1.6 HIGH (acute 478 / chronic 281) — above Gabbett's safe 0.8–1.3 zone — driven entirely by today's session, which ran nearly double the prescribed tempo distance at real tempo HR. Training Readiness crashed to 5 POOR (was 64 yesterday), a normal post-effort dip but a clear signal: back off tomorrow. Predicted HM 1:56:42 vs your 1:45–1:50 goal, VO2max 55.9 (top 5%), training status PRODUCTIVE. July running: 120.71km of 100km — target smashed with a week still to go. RHR 48, right at baseline — no illness flag, just fatigue from a hard session.
 
 **Today's session**
-Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, with 1–2km easy warm-up and cool-down either side. This is the pace that raises lactate threshold — the single biggest lever on your HM time, and it's under-stocked relative to your easy mileage right now.
+DONE ✅ — 10.03km in 54.6min, avg HR 155. That's a genuine tempo/progression effort, longer than planned but well inside your aerobic ceiling. No more running today — let it absorb.
 
 **3-Day Plan**
-- Today (Thursday, 23 July 2026): Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian)
-- Friday, 24 July 2026: Easy run, 5–6km, HR ≤ 135, ~7:00–7:30/km (Kayano 31) — flush the legs
-- Saturday, 25 July 2026: Long run, up to 10–11km, easy effort, HR ≤ 135 (Kayano 31)
+- Today (Thursday, 23 July 2026): DONE ✅ — 10.03km tempo, avg HR 155
+- Friday, 24 July 2026: Full rest — ACWR HIGH + readiness POOR means adaptation happens now, not on the road
+- Saturday, 25 July 2026: Easy run only if body battery/HRV rebound, 4–5km, HR ≤ 135, Kayano 31 — otherwise a second rest day
 
 **Norway Prep** (16 days to Aug 8)
-- Tonight after tempo: single-leg step-downs, 3×10 each leg — eccentric quad strength for descents.
-- Friday (easy day): loaded stairs, 7–10kg pack, HDB stairwell, 20–30min — OutDry break-in mileage.
-- Sunday: one 2–3hr loaded gear walk (Bukit Timah or Faber) — keeps Saturday's long run unstacked.
-- All loaded walking/stairs in the OutDry shoes — Day 1 blisters would be brutal.
+- Tonight: single-leg step-downs, 3×10 each leg — low load, safe even with ACWR high.
+- Friday (rest day): no-pack OutDry break-in walk, 30–40min flat, easy pace — mileage on the shoes without adding training load.
+- Hold the loaded 7–10kg stair session until Sunday/Monday once ACWR settles back under 1.3 — don't stack more load on top of today.
 
 **Fuel**
-Yesterday burned 2,302 kcal (514 active + 1,788 BMR); tonight's tempo pushes today's target to ~2,470 kcal — full maintenance, no deficit.
+Today's run burned ~576 kcal on top of ~1,788 BMR; target ~2,470 kcal to fully replace the load and protect recovery — no deficit while readiness is this low.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
 - Dinner: Laksa — ~700
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,470 kcal. Tonight's tempo alone ≈ 1 bowl of wanton mee.
+Total ≈ 2,470 kcal. Today's run alone ≈ 1 plate of chicken rice.
 
 **Coach's take**
-Readiness HIGH, ACWR clean, mileage already past target — nail those tempo splits tonight and keep dragging that 2:01 toward 1:50.
+That's real fitness on display — 10km at tempo HR is the kind of session that builds a 1:50; now let the recovery do its job so tomorrow's rest banks the adaptation instead of digging a hole.
