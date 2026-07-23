@@ -1,4 +1,4 @@
-_Updated: Thursday, 23 Jul 2026 at 05:07 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 05:13 PM SGT_
 
 **Readiness is HIGH at 77, ACWR is clean at 0.9 OPTIMAL, July's 100km is already banked — tonight's tempo is the one gap left to close.**
 
