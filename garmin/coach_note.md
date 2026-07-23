@@ -1,9 +1,9 @@
-_Updated: Thursday, 23 Jul 2026 at 01:06 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 01:38 PM SGT_
 
-**Readiness is back to HIGH at 77, ACWR sits at a clean 0.9, and July's 100km target is already banked at 110.68km — tempo is on today to keep building toward 1:50.**
+**Readiness is HIGH at 77, ACWR sits at a clean 0.9, and July's 100km target is already banked at 110.68km — tempo is on today to keep building toward 1:50.**
 
 **What your data says**
-ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — squarely in Gabbett's safe zone — and your load balance flags an aerobic-high shortage, meaning threshold work is under-stocked, not overloaded, so today's tempo fills a real gap rather than adding risk. Predicted HM sits at 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Training readiness is HIGH at 77, resting HR 48 (baseline ~47), HRV weekly average trending up (75→78→79ms) even though last night's reading eased slightly to 75 — body's ready for quality.
+ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — squarely in Gabbett's safe zone — and load balance flags an aerobic-high shortage, meaning threshold work is under-stocked, not overloaded, so today's tempo fills a real gap rather than adding risk. Predicted HM sits at 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Training readiness HIGH at 77, resting HR 48 (7-day avg 47, baseline ~47), HRV weekly average 79ms with last night at 75ms — body's ready for quality.
 
 **Today's session**
 Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, with 1–2km easy warm-up and cool-down either side. This is your biggest lever on HM time — threshold work raises the pace you can hold before lactate outpaces clearance.
@@ -29,4 +29,4 @@ Yesterday burned 2,302 kcal (514 active + 1,788 BMR); today's tempo pushes intak
 Total ≈ 2,470 kcal. Tempo alone ≈ 1 bowl of wanton mee.
 
 **Coach's take**
-Readiness back to HIGH, ACWR clean, mileage already past target — the data says your body can handle this tempo, so nail it and keep dragging that 2:01 toward 1:50.
+Readiness HIGH, ACWR clean, mileage already past target — the data says your body can handle this tempo, so nail it and keep dragging that 2:01 toward 1:50.
