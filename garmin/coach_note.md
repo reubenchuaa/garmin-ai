@@ -1,9 +1,9 @@
-_Updated: Thursday, 23 Jul 2026 at 03:47 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 04:20 PM SGT_
 
-**Readiness is HIGH at 77, ACWR sits clean at 0.9 OPTIMAL, and July's 100km target is already banked — today's tempo is about closing the threshold gap, not chasing volume.**
+**Readiness is HIGH at 77, ACWR sits clean at 0.9 OPTIMAL, July's 100km target is already banked — today's tempo is still on, and it's the one gap left to close.**
 
 **What your data says**
-ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — Gabbett's safe zone — but load balance flags AEROBIC_HIGH_SHORTAGE: tempo work is under-stocked, so today fills a real gap. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Readiness HIGH at 77, resting HR 48 (7-day avg 47, at baseline), HRV weekly avg 79ms (last night 75ms — stable, well within balanced range), no run logged yet today. Every recovery signal says go.
+ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — Gabbett's safe zone — but load balance still flags AEROBIC_HIGH_SHORTAGE: tempo work is under-stocked relative to your easy volume, so today's session fills a real gap, not a box-tick. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left in the month. Readiness HIGH at 77, resting HR 48 (7-day avg 47, right at baseline), HRV weekly avg 79ms (last night 75ms, BALANCED) — no run logged yet today. Every recovery signal says go for the tempo.
 
 **Today's session**
 Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy warm-up/cool-down either side. This is the pace that raises lactate threshold — the single biggest lever on your HM time.
@@ -29,4 +29,4 @@ Yesterday burned 2,302 kcal (514 active + 1,788 BMR); today's tempo pushes the t
 Total ≈ 2,470 kcal. Tempo alone ≈ 1 bowl of wanton mee.
 
 **Coach's take**
-Readiness HIGH, ACWR clean, mileage already past target — nail those splits today and keep dragging that 2:01 toward 1:50.
+Readiness HIGH, ACWR clean, mileage already past target — nail those tempo splits this evening and keep dragging that 2:01 toward 1:50.
