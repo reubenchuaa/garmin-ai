@@ -1,9 +1,9 @@
-_Updated: Thursday, 23 Jul 2026 at 08:05 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 08:22 PM SGT_
 
 **Tempo banked hard today — ACWR spiked to 1.6 HIGH, so tomorrow is a mandatory rest day, no negotiation.**
 
 **What your data says**
-ACWR sits at 1.6 HIGH (acute 478 / chronic 281) — above Gabbett's 0.8–1.3 safe zone, driven by today's tempo running faster and longer than prescribed. Training Readiness crashed to 5 POOR (post-exercise reset, ~77h recovery time flagged) — this is a normal post-effort dip, not a red flag: RHR is 48 vs your ~47 baseline (barely elevated) and HRV weekly average is 79, BALANCED and trending up from 72 a week ago. Predicted HM 1:56:42 vs your 1:45–1:50 goal, VO2max 55.9 (top 5%). July running: 120.71km of 100km — target already smashed with a week to spare.
+ACWR sits at 1.6 HIGH (acute 478 / chronic 281) — above Gabbett's 0.8–1.3 safe zone, driven by today's tempo running faster and longer than prescribed. Training Readiness crashed to 5 POOR (post-exercise reset, ~77h recovery time flagged) — a normal post-effort dip, not a red flag: RHR is 48 vs your ~47 baseline (barely elevated) and HRV weekly average is 79 BALANCED, trending up from 72 a week ago. Predicted HM 1:56:42 vs your 1:45–1:50 goal, VO2max 55.9 (top 5%). July running: 120.71km of 100km — target already smashed with a week to spare.
 
 **Today's session**
 DONE ✅ — 10.03km (2km warm-up, 6km tempo at ~5:11/km, 2km cooldown), avg HR 155, aerobic training effect 4.8 (Highly Impacting Tempo). You ran the tempo segment noticeably faster than the 6:00–6:15/km band, which is exactly why the acute load jumped — a strong session, but it needs to be absorbed, not repeated. No more running today.
