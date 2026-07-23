@@ -114,21 +114,25 @@ def parse_coach_note():
                 # Try to extract month + day: "Jul 8", "8 Jul", "Aug 12", etc.
                 months = {"jan":1,"feb":2,"mar":3,"apr":4,"may":5,"jun":6,
                           "jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dec":12}
-                mon_match = re.search(
-                    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d+)",
+                mon_str = None
+                day_str = None
+                m1 = re.search(
+                    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d+)",
                     line, re.IGNORECASE
                 )
-                if not mon_match:
-                    mon_match = re.search(
-                        r"(\d+)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)",
+                if m1:
+                    mon_str, day_str = m1.group(1), m1.group(2)
+                else:
+                    m2 = re.search(
+                        r"(\d+)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*",
                         line, re.IGNORECASE
                     )
-                    if mon_match:
-                        mon_match = type('M', (), {'group': lambda s,i: [None, mon_match.group(2), mon_match.group(1)][i]})()
-                if mon_match:
+                    if m2:
+                        mon_str, day_str = m2.group(2), m2.group(1)
+                if mon_str and day_str:
                     try:
-                        m = months[mon_match.group(1)[:3].lower()]
-                        d = int(mon_match.group(2))
+                        m = months[mon_str[:3].lower()]
+                        d = int(day_str)
                         session_date = date(today.year, m, d)
                     except (ValueError, KeyError):
                         pass
@@ -193,6 +197,15 @@ def parse_session(line):
     elif hr_cap_match:
         hr_high = int(hr_cap_match.group(1))
         hr_low = hr_high - 20  # reasonable range
+
+    # For tempo sessions where the plan line omits explicit warm-up/cool-down
+    # (common in the condensed 3-Day Plan), synthesize a sensible structure.
+    # The stated distance IS the tempo block; add a 2km warm-up + 2km cool-down
+    # AROUND it (not carved out of it).
+    if is_tempo and not warmup_km and total_km:
+        warmup_km = 2.0
+        cooldown_km = 2.0
+        tempo_km = total_km
 
     # Build workout structure
     if is_tempo and warmup_km and tempo_km:
