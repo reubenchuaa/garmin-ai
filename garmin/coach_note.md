@@ -1,12 +1,12 @@
-_Updated: Thursday, 23 Jul 2026 at 02:10 PM SGT_
+_Updated: Thursday, 23 Jul 2026 at 02:42 PM SGT_
 
-**Readiness is back to HIGH at 77, ACWR holds at a clean 0.9, and with July's 100km target already banked, today's tempo sharpens the one real gap: threshold work.**
+**Readiness holds HIGH at 77, ACWR sits clean at 0.9 OPTIMAL, and with July's 100km target already banked, today's tempo closes the one real gap: threshold work.**
 
 **What your data says**
-ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — Gabbett's safe zone — and load balance flags AEROBIC_HIGH_SHORTAGE, meaning tempo work is under-stocked, so today's session closes a real gap, not adds risk. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Readiness HIGH at 77, resting HR 48 (7-day avg 47, baseline ~47), HRV weekly avg 79ms (last night 75ms, BALANCED) — body's ready for quality.
+ACWR 0.9 OPTIMAL (acute 217 / chronic 234) — squarely in Gabbett's safe zone — and load balance still flags AEROBIC_HIGH_SHORTAGE, meaning tempo work is under-stocked, so today's session fills a genuine gap rather than adding risk. Predicted HM 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running: 110.68km of 100km — target cleared with 8 days left. Readiness HIGH at 77, resting HR 48 (7-day avg 47, at baseline), HRV weekly avg 79ms (last night 75ms, BALANCED) — body's primed for quality.
 
 **Today's session**
-Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy warm-up/cool-down either side. Biggest lever on HM time — raises the pace you can hold before lactate outpaces clearance.
+Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy warm-up/cool-down either side. Biggest lever on your HM time — raises the pace you can hold before lactate outpaces clearance.
 
 **3-Day Plan**
 - Today (Thursday, 23 July 2026): Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian)
@@ -15,12 +15,12 @@ Tempo, 5–6km at 6:00–6:15/km, HR 155–165, Dynafish Xiaonian, 1–2km easy 
 
 **Norway Prep** (16 days to Aug 8)
 - Tonight after tempo: single-leg step-downs, 3×10 each leg — eccentric quad strength for descents.
-- Friday (easy day): loaded stairs, 7–10kg pack, HDB stairwell, 20–30min — OutDry break-in.
+- Friday (easy day): loaded stairs, 7–10kg pack, HDB stairwell, 20–30min — OutDry break-in mileage.
 - Sunday: one 2–3hr loaded gear walk (Bukit Timah or Faber) — keeps Saturday's long run unstacked.
 - All loaded walking/stairs in the OutDry shoes — Day 1 blisters would be brutal.
 
 **Fuel**
-Yesterday burned 2,302 kcal (514 active + 1,788 BMR); today's tempo pushes intake to ~2,470 kcal — full maintenance, no deficit.
+Yesterday burned 2,302 kcal (514 active + 1,788 BMR); today's tempo pushes intake target to ~2,470 kcal — full maintenance, no deficit.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
@@ -29,4 +29,4 @@ Yesterday burned 2,302 kcal (514 active + 1,788 BMR); today's tempo pushes intak
 Total ≈ 2,470 kcal. Tempo alone ≈ 1 bowl of wanton mee.
 
 **Coach's take**
-Readiness HIGH, ACWR clean, mileage already past target — hit those splits and keep dragging that 2:01 toward 1:50.
+Readiness HIGH, ACWR clean, mileage already past target — nail those splits today and keep dragging that 2:01 toward 1:50.
