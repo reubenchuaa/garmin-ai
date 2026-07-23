@@ -1,12 +1,12 @@
-_Updated: Thursday, 23 Jul 2026 at 08:09 AM SGT_
+_Updated: Thursday, 23 Jul 2026 at 08:27 AM SGT_
 
-**Tempo day — ACWR holds OPTIMAL at 1.1, July's 100km target is smashed at 110.68km, and today's threshold work is the lever that pulls 2:01 toward 1:50.**
+**Readiness just spiked to 77 HIGH, ACWR sits clean at 0.9, and July's 100km target is already smashed at 110.68km — every signal says go hard at today's tempo.**
 
 **What your data says**
-ACWR sits at 1.1 OPTIMAL (acute 264 / chronic 239) — squarely in Gabbett's safe zone, no spike risk. Predicted HM holds at 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running stands at **110.68km of 100km** — target cleared with 8 days left in the month. HRV eased slightly overnight to 75ms (weekly avg still a healthy 79ms, status BALANCED), resting HR 48 (7-day avg 47) — nothing outside normal noise, you're cleared for quality work.
+ACWR is 0.9 OPTIMAL (acute 217 / chronic 234) — safely inside Gabbett's 0.8–1.3 zone, and the load-balance readout flags an aerobic-high *shortage*, meaning your body is asking for more threshold work, not less. Predicted HM holds at 2:01:44 vs your 1:45–1:50 goal, VO2max 55.6 (top 5%), heat acclimation 100%. July running stands at **110.68km of 100km** — target cleared with 8 days left in the month. Training readiness jumped to 77 HIGH, resting HR 48 (baseline ~47, normal noise), weekly HRV trending up to 79ms and stress reading a very low 10 today. This is a green light for quality.
 
 **Today's session**
-Tempo, 5–6km at 6:00–6:15/km, HR 155–165, in the Dynafish Xiaonian. 1–2km easy warm-up and cool-down bookending the effort. This is the single biggest lever on your HM time — sustained work at threshold raises the pace you can hold before lactate piles up.
+Tempo, 5–6km at 6:00–6:15/km, HR 155–165, in the Dynafish Xiaonian. 1–2km easy warm-up and cool-down bookending the effort. This is the single biggest lever on your HM time — sustained threshold work raises the pace you can hold before lactate piles up.
 
 **3-Day Plan**
 - Today (Thursday, 23 July 2026): Tempo, 5–6km at 6:00–6:15/km, HR 155–165 (Dynafish Xiaonian)
@@ -29,4 +29,4 @@ Yesterday burned 2,302 kcal total (514 active + 1,788 BMR); today's tempo adds e
 Total ≈ 2,510 kcal. Today's tempo alone ≈ 1 wanton mee bowl.
 
 **Coach's take**
-ACWR optimal, July mileage past target, HRV steady — the base is exactly right for today's threshold work to start pulling 2:01 toward 1:50.
+Readiness HIGH, ACWR clean, July mileage already banked past target — the data says your body is primed, not fatigued, so attack today's tempo and let it start pulling 2:01 toward 1:50.
