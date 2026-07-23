@@ -408,6 +408,16 @@ def generate_html(data, context, coaching_text):
                 pass
     chart_hm_labels = json.dumps(hm_dates)
     chart_hm_values = json.dumps(hm_values)
+    # Realistic buffered prediction: Garmin's VO2max-based figure is optimistic.
+    # Add ~3% for Singapore race-day heat + late-race fade + no HM-specific anchor.
+    HM_BUFFER = 1.03
+    hm_values_real = [round(v * HM_BUFFER, 1) for v in hm_values]
+    chart_hm_values_real = json.dumps(hm_values_real)
+    # Buffered current prediction as a H:MM:SS string for the card
+    def _min_to_hms(m):
+        s = int(round(m * 60))
+        return f"{s//3600}:{(s%3600)//60:02d}:{s%60:02d}"
+    race_pred_hm_real = _min_to_hms(hm_values_real[-1]) if hm_values_real else "—"
 
     # Monthly mileage chart data
     mile_labels, mile_values = get_monthly_mileage(data)
@@ -669,7 +679,7 @@ tr:last-child td{{border-bottom:none}}
     <div class="card"><div class="lbl">Distance</div><div class="val">{distance_str}</div><div class="sub2">km today</div></div>
     <div class="card"><div class="lbl">Floors</div><div class="val">{floors_str}</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:{acwr_color}">{acwr_s}</div><div class="sub2">ACWR · {acwr_status}</div></div>
-    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem">{race_pred_hm}</div><div class="sub2">goal 1:45–1:50</div></div>
+    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">{race_pred_hm_real}</div><div class="sub2">realistic · Garmin {race_pred_hm} · goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">{vo2_s}</div><div class="sub2">ml/kg/min</div></div>
     <div class="card"><div class="lbl">Heat Adapt</div><div class="val">{heat_s}</div><div class="sub2">acclimatised</div></div>
     <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">{training_status}</div><div class="sub2">Garmin</div></div>
@@ -759,7 +769,8 @@ CHART_JS_PLACEHOLDER
         ']},"options":opt()});\n'
         "new Chart(document.getElementById('hmpred'),{"
         '"type":"line","data":{"labels":' + chart_hm_labels + ',"datasets":['
-        '{"label":"HM Pred","data":' + chart_hm_values + ',"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.15)","fill":true,"tension":.35,"pointRadius":4,"pointBackgroundColor":"#f59e0b"},'
+        '{"label":"Garmin (optimistic)","data":' + chart_hm_values + ',"borderColor":"#f59e0b","borderDash":[5,3],"backgroundColor":"rgba(245,158,11,.08)","fill":false,"tension":.35,"pointRadius":3,"pointBackgroundColor":"#f59e0b"},'
+        '{"label":"Realistic (heat/fade adj.)","data":' + chart_hm_values_real + ',"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.12)","fill":true,"tension":.35,"pointRadius":4,"pointBackgroundColor":"#ef4444"},'
         '{"label":"1:50 goal","data":' + json.dumps([110] * len(hm_dates)) + ',"borderColor":"#10b981","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false},'
         '{"label":"1:45 stretch","data":' + json.dumps([105] * len(hm_dates)) + ',"borderColor":"#22d3ee","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false}'
         ']},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},'
