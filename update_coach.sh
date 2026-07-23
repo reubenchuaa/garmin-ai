@@ -248,15 +248,18 @@ What to do today. Be specific with distance, pace range, HR cap. Explain the phy
 - Tomorrow: session
 - Day after: session
 
+**Norway Prep**
+ONLY include this section if today is on or before 8 Aug 2026 (otherwise omit it entirely). 2-4 bullets prescribing this week's hike-specific work ALONGSIDE the runs — these are cross-training, not replacements for runs. Cover, scheduling them across the week (not all today): (1) STAIR CLIMB with 7-10kg loaded pack, 2-3x/week — HDB stairwell or Bukit Timah/Mount Faber; the #1 simulator for the 600-1000m daily gain days. (2) SINGLE-LEG STEP-DOWNS 3x10 each leg after every run — eccentric quad strength for downhill braking. (3) One LONG LOADED GEAR WALK (2-3hr, Faber/Southern Ridges/Bukit Timah) before Aug 8. (4) ALL loaded walking/stairs MUST be done in the Columbia OutDry hiking shoes (need 50-80km break-in before Aug 8 — blisters Day 1 would be catastrophic). Be specific about which day to do what, and respect fatigue/readiness — stack loaded stairs on non-quality-run days where possible.
+
 **Fuel**
-One or two lines. State calories burned (from FUEL DATA below) and today's intake target to MAINTAIN weight and fuel training (never a deficit). Give ONE relatable Singaporean hawker-food equivalent for the training burn so it's intuitive (e.g. \"today's run ≈ 1 plate chicken rice\"). Hawker reference kcal: chicken rice 600, char kway teow 740, nasi lemak 490, laksa 700, wanton mee 410, bak chor mee 500, economy rice 1-meat-2-veg 600, kaya toast set 450, roti prata 2pc+curry 400, Milo dinosaur 350, kopi 115.
+First line: state calories burned (from FUEL DATA below) and today's intake target to MAINTAIN weight and fuel training (never a deficit). Then give a full-day meal breakdown as a bulleted list of real Singaporean meals whose calories sum to roughly the intake target — one item per line as \"- Meal: dish — ~kcal\" (Breakfast, Lunch, Snack, Dinner, Evening), and end with \"Total ≈ X kcal\". Scale portions to the target: hard/long-run days lean higher, rest days lower. Close with ONE relatable single-dish equivalent for just the training burn (e.g. \"that run alone ≈ 1 Milo dinosaur\"). Hawker reference kcal: chicken rice 600, char kway teow 740, nasi lemak 490, laksa 700, wanton mee 410, bak chor mee 500, economy rice 1-meat-2-veg 600, kaya toast set 450, roti prata 2pc+curry 400, Milo dinosaur 350, kopi 115, banana 105, yogurt 150, soy milk 100.
 
 **Coach's take**
 One motivating sentence grounded in what the data shows is possible.
 
 FUEL DATA (use for the Fuel section): $FUEL_INFO
 
-Under 320 words. Write ONLY the markdown to garmin/coach_note.md. No commentary, no explanation — just the note content.
+Under 360 words. Write ONLY the markdown to garmin/coach_note.md. No commentary, no explanation — just the note content.
 "
 
 # --- Helper: validate a coach note file ---
