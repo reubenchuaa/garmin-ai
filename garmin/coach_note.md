@@ -1,9 +1,9 @@
-_Updated: Friday, 24 Jul 2026 at 05:37 PM SGT_
+_Updated: Friday, 24 Jul 2026 at 06:10 PM SGT_
 
 **Two POOR readiness mornings in a row and an ACWR still above the safe zone — today's rest stays non-negotiable.**
 
 **What your data says**
-Training Readiness is 4/100 POOR for a second straight day — recovery-time factor just 17%, overnight HRV at 60ms vs your 76ms weekly average, and RHR at 51 vs your ~47 baseline. ACWR sits at 1.4 (acute 410 / chronic 278) — Garmin calls it "optimal" but that's above Gabbett's 0.8–1.3 ceiling, meaning Thursday's tempo load hasn't been absorbed yet. Garmin's 1:56:41 HM prediction is the optimistic ceiling; with no HM-specific long run to anchor it and a heat/fade buffer, the honest range is **1:58–2:05** vs your 1:45–1:50 goal. July running stands at 120.71km, already past the 100km target with a week left.
+Training Readiness is 4/100 POOR for a second straight day — recovery time factor just 17%, overnight HRV at 60ms vs your 76ms weekly average, and RHR at 51 vs your ~47 baseline. ACWR sits at 1.4 (acute 410 / chronic 278) — Garmin calls it "optimal" but that's above Gabbett's 0.8–1.3 ceiling, meaning Thursday's tempo load hasn't been absorbed yet. Garmin's 1:56:41 HM prediction is the optimistic ceiling; with no HM-specific long run to anchor it and a heat/fade buffer, the honest range is **1:58–2:05** vs your 1:45–1:50 goal. July running stands at 120.71km, already past the 100km target with a week left.
 
 **Today's session**
 Full rest, zero running. A second consecutive POOR morning with HRV still depressed and recovery time barely started (17%) means the body is still repairing — running today would tax a system that hasn't rebuilt, not build fitness.
