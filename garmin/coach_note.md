@@ -1,12 +1,12 @@
-_Updated: Friday, 24 Jul 2026 at 05:06 PM SGT_
+_Updated: Friday, 24 Jul 2026 at 05:37 PM SGT_
 
-**Two POOR readiness mornings in a row and an ACWR still pinned above the safe zone — today's zero is non-negotiable, not optional.**
+**Two POOR readiness mornings in a row and an ACWR still above the safe zone — today's rest stays non-negotiable.**
 
 **What your data says**
-ACWR sits at 1.4 (acute 410 / chronic 278) — Garmin flags it "optimal" but that's above Gabbett's 0.8–1.3 safe ceiling, meaning load is arriving faster than your body is adapting to it. Training Readiness is 4/100 POOR for a second straight day, recovery-time factor just 17%, and overnight HRV crashed to 60ms (weekly avg 76ms) with RHR up to 51 vs your ~47 baseline — real, still-unresolved fatigue from Thursday's tempo. Garmin's 1:56:41 HM prediction is the optimistic ceiling; Riegel off Thursday's 10.03km tempo (54.6min) projects ~2:00, and with no HM-specific long run yet to anchor it, a heat/fade buffer puts the honest range at **1:58–2:05** — 8–15min off the 1:45–1:50 goal. July running stands at 120.71km, already past the 100km target with a week of the month left.
+Training Readiness is 4/100 POOR for a second straight day — recovery-time factor just 17%, overnight HRV at 60ms vs your 76ms weekly average, and RHR at 51 vs your ~47 baseline. ACWR sits at 1.4 (acute 410 / chronic 278) — Garmin calls it "optimal" but that's above Gabbett's 0.8–1.3 ceiling, meaning Thursday's tempo load hasn't been absorbed yet. Garmin's 1:56:41 HM prediction is the optimistic ceiling; with no HM-specific long run to anchor it and a heat/fade buffer, the honest range is **1:58–2:05** vs your 1:45–1:50 goal. July running stands at 120.71km, already past the 100km target with a week left.
 
 **Today's session**
-Full rest, zero running. Two consecutive POOR mornings and a crashed HRV mean Thursday's tempo hasn't been absorbed yet — pushing through today trades tomorrow's fitness for nothing today.
+Full rest, zero running. A second consecutive POOR morning with HRV still depressed and recovery time barely started (17%) means the body is still repairing — running today would tax a system that hasn't rebuilt, not build fitness.
 
 **3-Day Plan**
 - Today (Friday, 24 July 2026): Full rest
@@ -30,4 +30,4 @@ Total ≈ 2,020 kcal
 Thursday's tempo alone burned ≈ 1 char kway teow's worth (740 kcal).
 
 **Coach's take**
-Two hard-earned POOR mornings are the price of a real tempo effort — bank this rest fully and Sunday's long run lands on legs ready to build, not just survive.
+This rest is buying you a Sunday long run on legs that can actually absorb the endurance work — that's the trade that gets you to 1:50, not today's mileage.
