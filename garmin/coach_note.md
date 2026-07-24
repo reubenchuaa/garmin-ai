@@ -1,4 +1,4 @@
-_Updated: Friday, 24 Jul 2026 at 11:23 PM SGT_
+_Updated: Friday, 24 Jul 2026 at 11:53 PM SGT_
 
 **Second POOR morning in a row and ACWR still above the safe ceiling — rest stays the right call today.**
 
