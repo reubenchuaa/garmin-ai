@@ -1,4 +1,4 @@
-_Updated: Friday, 24 Jul 2026 at 06:41 PM SGT_
+_Updated: Friday, 24 Jul 2026 at 07:11 PM SGT_
 
 **Two POOR readiness mornings in a row and an ACWR still elevated — today's rest stays non-negotiable, and no run has been logged yet.**
 
