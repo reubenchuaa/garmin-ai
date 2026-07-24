@@ -1,12 +1,12 @@
-_Updated: Friday, 24 Jul 2026 at 08:13 PM SGT_
+_Updated: Friday, 24 Jul 2026 at 08:45 PM SGT_
 
-**Second straight POOR readiness morning and ACWR still above the safe ceiling — today's rest holds, no run logged yet, and that's the right call.**
+**Two straight POOR readiness mornings and ACWR still above the safe ceiling — rest holds today, no run logged, and that's exactly right.**
 
 **What your data says**
-Training Readiness is 4/100 POOR for a second consecutive day, recovery time factor just 17%, overnight HRV at 60ms vs your 76ms weekly average, and RHR at 51 vs your ~47 baseline — this is a body still absorbing Thursday's tempo, not one ready for more load. ACWR sits at 1.4 (acute 410 / chronic 278); Garmin tags it "optimal" but it's above Gabbett's 0.8–1.3 safe zone, so chronic load needs to catch up before another hard session. Garmin's 1:56:41 HM prediction is the optimistic ceiling with no HM-specific long run to anchor it — the honest, heat/fade-buffered range is **1:58–2:05** vs your 1:45–1:50 goal. July running stands at 120.71km, already past the 100km target with 7 days left in the month.
+Training Readiness is 4/100 POOR again (5/100 yesterday), recovery time factor just 17%, overnight HRV cratered to 60ms vs your 76ms weekly average, RHR at 51 vs your ~47 baseline, and wake-time Body Battery has slid from 93 → 89 → 75 over three mornings — your body is still absorbing Thursday's tempo session. ACWR sits at 1.4 (acute 410 / chronic 278); Garmin calls it "optimal" but it's above Gabbett's 0.8–1.3 safe zone, so chronic load needs another day or two to catch up. Garmin's 1:56:41 HM prediction is the optimistic ceiling with no HM-specific long run to anchor it — the honest, heat/fade-buffered range stays **1:58–2:05** vs your 1:45–1:50 goal. July running sits at 120.71km, already past the 100km target with 7 days left in the month.
 
 **Today's session**
-Full rest, zero running. Two POOR mornings back-to-back with HRV still 16ms below your weekly average and recovery barely a fifth done means the adaptation from Thursday's tempo hasn't happened yet — running now would add load to an unrepaired system, not build fitness. Fitness is built in the recovery, not the session.
+Full rest, zero running. A second POOR morning with HRV 16ms below baseline and recovery barely a fifth complete means Thursday's tempo hasn't been converted into fitness yet — adding load now delays that, it doesn't build on it.
 
 **3-Day Plan**
 - Today (Friday, 24 July 2026): Full rest
@@ -30,4 +30,4 @@ Total ≈ 2,020 kcal
 Thursday's tempo alone burned ≈ 1 char kway teow's worth (740 kcal).
 
 **Coach's take**
-This rest banks the recovery that turns Thursday's tempo into real fitness — push through it and Sunday's long run builds on sand, not concrete.
+Two rough mornings is your body cashing in Thursday's hard work — protect it today and Sunday's long run lands on solid ground, not a half-repaired system.
