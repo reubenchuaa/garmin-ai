@@ -221666,20 +221666,20 @@
     {
       "date": "2026-07-25",
       "wellness": {
-        "totalSteps": 7442,
-        "totalDistanceMeters": 5722,
+        "totalSteps": 13186,
+        "totalDistanceMeters": 10139,
         "averageStressLevel": 28,
         "maxStressLevel": 90,
         "bodyBatteryHighestValue": 100,
         "bodyBatteryLowestValue": 29,
-        "floorsAscended": 10,
+        "floorsAscended": 14,
         "restingHeartRate": 45,
         "maxAvgHeartRate": 99,
         "minAvgHeartRate": 43,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 144,
-        "totalKilocalories": 1554
+        "activeKilocalories": 258,
+        "totalKilocalories": 1822
       },
       "sleep": {
         "dailySleepDTO": {
