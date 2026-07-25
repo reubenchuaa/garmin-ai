@@ -1,4 +1,4 @@
-_Updated: Saturday, 25 Jul 2026 at 04:10 PM SGT_
+_Updated: Saturday, 25 Jul 2026 at 09:37 PM SGT_
 
 **Recovery Time is still the only red flag on the board — everything else says you're ready, so hold the rest one more stretch and let Sunday's long run land clean.**
 
