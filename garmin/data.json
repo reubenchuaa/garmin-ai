@@ -221969,10 +221969,10 @@
         "minAvgHeartRate": 43,
         "maxAvgHeartRate": 77,
         "bodyBatteryChargedValue": 71,
-        "bodyBatteryDrainedValue": 3,
+        "bodyBatteryDrainedValue": 7,
         "bodyBatteryHighestValue": 100,
         "bodyBatteryLowestValue": 29,
-        "bodyBatteryMostRecentValue": 97,
+        "bodyBatteryMostRecentValue": 93,
         "bodyBatteryDuringSleep": 70,
         "bodyBatteryAtWakeTime": 100,
         "bodyBatteryVersion": 3.0,
@@ -221982,7 +221982,7 @@
         "latestSpo2": null,
         "latestSpo2ReadingTimeGmt": null,
         "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": 44.0,
+        "averageMonitoringEnvironmentAltitude": 45.0,
         "restingCaloriesFromActivity": null,
         "bodyBatteryDynamicFeedbackEvent": {
           "eventTimestampGmt": "2026-07-25T02:32:54",
@@ -222015,8 +222015,8 @@
         "avgWakingRespirationValue": 13.0,
         "highestRespirationValue": 20.0,
         "lowestRespirationValue": 7.0,
-        "latestRespirationValue": 10.0,
-        "latestRespirationTimeGMT": "2026-07-25T02:30:00.0",
+        "latestRespirationValue": 13.0,
+        "latestRespirationTimeGMT": "2026-07-25T03:04:00.0",
         "respirationAlgorithmVersion": 200
       },
       "sleep": {
