@@ -1,12 +1,12 @@
-_Updated: Saturday, 25 Jul 2026 at 03:38 PM SGT_
+_Updated: Saturday, 25 Jul 2026 at 04:10 PM SGT_
 
-**HRV bounced back to 79ms and resting HR is under baseline — recovery is clearing fast, so hold the rest today and let Sunday's long run bank the fitness.**
+**Recovery Time is still the only red flag on the board — everything else says you're ready, so hold the rest one more stretch and let Sunday's long run land clean.**
 
 **What your data says**
-ACWR is 1.2 (OPTIMAL), PRODUCTIVE_2 training status — load is well settled, no injury-spike risk. Readiness reads 34 (LOW), but that's Recovery Time still dragging the score (36.7h left, down from 63h yesterday and 76.9h Thursday) — HRV rebounded to 79ms overnight (weekly avg 77ms, BALANCED, up from a 60ms dip Thursday) and resting HR is 45bpm, under your 47 baseline. Garmin's HM prediction reads 1:56:40 — treat that as the optimistic ceiling; the honest, heat/fade-buffered range against your 1:45–1:50 goal is **2:00–2:04**, still soft since your longest continuous effort banked is only 11.14km — no HM-specific long run yet. July running sits at 120.71km, already past the 100km target with 6 days left — mileage is secure; the job now is finishing recovery clean before the next quality block.
+ACWR is 1.2 (OPTIMAL), PRODUCTIVE_2 training status — load is well settled, no injury-spike risk. Readiness reads 34 (LOW), but that's Recovery Time doing the dragging (36.7h left, down from 63h yesterday and 76.9h Thursday) while HRV rebounded to 79ms overnight (weekly avg 77ms, BALANCED) and resting HR sits at 45bpm, under your 47 baseline. Garmin's HM prediction reads 1:56:40 — treat that as the optimistic ceiling; the honest, heat/fade-buffered range against your 1:45–1:50 goal is **2:00–2:04**, still soft since your longest continuous effort banked is just 11.14km — no HM-specific long run yet. July running sits at 120.71km, already past the 100km target with 6 days left — mileage target is secure, so today's job is finishing recovery clean before tomorrow's quality.
 
 **Today's session**
-Rest, or a light 20–30min easy walk if you feel like moving. Every real signal (HRV, resting HR, stress) says you're recovered, but Recovery Time hasn't fully cleared — adaptation happens in the recovery window, not by squeezing in another session. Real training resumes tomorrow.
+Rest, or a light 20–30min easy walk if you feel like moving. HRV, resting HR, and stress all say you're recovered, but Recovery Time hasn't fully cleared — adaptation happens in that window, not by squeezing in another session. Full training resumes tomorrow.
 
 **3-Day Plan**
 - Today (Saturday, 25 July 2026): Rest, or easy 20–30min walk only
@@ -30,4 +30,4 @@ Total ≈ 2,020 kcal
 Yesterday's active burn alone ≈ a banana + a kopi's worth of energy.
 
 **Coach's take**
-Your HRV rebound and sub-baseline resting HR say the recovery is real — give Recovery Time a few more hours today and Sunday's long run builds fitness instead of digging the hole deeper.
+120km banked, ACWR dialed in, HRV bouncing back — you've done the hard part; give Recovery Time the rest of today and Sunday's long run builds fitness instead of digging the hole deeper.
