@@ -79,11 +79,22 @@ safe_pull() {
         echo "  [git] Rebase conflict, aborting rebase"
         git rebase --abort 2>/dev/null || true
         if ! git pull --quiet 2>/dev/null; then
-            echo "  [git] Merge pull has conflicts, auto-resolving (keep ours)"
-            git diff --name-only --diff-filter=U 2>/dev/null | while read -r f; do
+            echo "  [git] Merge pull has conflicts, auto-resolving"
+            local conflicted
+            conflicted=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
+            echo "$conflicted" | while read -r f; do
+                [ -z "$f" ] && continue
                 git checkout --ours "$f" 2>/dev/null || true
                 git add "$f" 2>/dev/null || true
             done
+            # The dashboard is a build artifact — never text-merge it. If it
+            # conflicted, regenerate it fresh from the merged data + newest note.
+            if echo "$conflicted" | grep -q "docs/index.html"; then
+                if python3 generate_dashboard.py >/dev/null 2>&1; then
+                    git add docs/index.html 2>/dev/null || true
+                    echo "  [git] Regenerated dashboard after conflict"
+                fi
+            fi
             git commit --no-edit 2>/dev/null || true
         fi
     fi
@@ -102,6 +113,34 @@ safe_pull() {
     resolve_conflict_markers
 }
 
+# --- Push whenever local is ahead of upstream (with pull-retry) ---
+# CRITICAL: this must run even when there is nothing NEW to commit, because a
+# merge commit created by safe_pull leaves us ahead of origin and MUST be pushed.
+# The old code returned early on "nothing to commit" and never pushed the merge,
+# causing the branch to drift ahead/behind and freeze the live dashboard.
+push_if_ahead() {
+    local attempt=0
+    while [ $attempt -lt 4 ]; do
+        # Integrate any new remote work first so we can fast-forward-push.
+        if [ "$(git rev-list --count HEAD..@{u} 2>/dev/null || echo 0)" -gt 0 ]; then
+            safe_pull
+        fi
+        if [ "$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)" -eq 0 ]; then
+            echo "  [git] In sync with origin, nothing to push"
+            return 0
+        fi
+        if git push --quiet 2>/dev/null; then
+            echo "  [git] Push successful"
+            return 0
+        fi
+        attempt=$((attempt + 1))
+        echo "  [git] Push failed (attempt $attempt/4), reconciling and retrying..."
+        safe_pull
+    done
+    echo "  [git] Push failed after retries — branch left ahead of origin"
+    return 1
+}
+
 # --- Commit and push with retry ---
 commit_and_push() {
     if [ ${#FILES_TO_ADD[@]} -gt 0 ]; then
@@ -109,28 +148,13 @@ commit_and_push() {
     fi
 
     if git diff --cached --quiet 2>/dev/null; then
-        echo "  [git] Nothing to commit"
-        return 0
+        echo "  [git] Nothing new to commit"
+    else
+        git commit -m "$COMMIT_MSG" 2>/dev/null || echo "  [git] Commit failed"
     fi
 
-    git commit -m "$COMMIT_MSG" 2>/dev/null || {
-        echo "  [git] Commit failed"
-        return 1
-    }
-
-    local attempt=0
-    while [ $attempt -lt 3 ]; do
-        if git push --quiet 2>/dev/null; then
-            echo "  [git] Push successful"
-            return 0
-        fi
-        attempt=$((attempt + 1))
-        echo "  [git] Push failed (attempt $attempt/3), pulling and retrying..."
-        safe_pull
-    done
-
-    echo "  [git] Push failed after 3 attempts"
-    return 1
+    # ALWAYS reconcile + push if we're ahead — covers merge commits from safe_pull.
+    push_if_ahead
 }
 
 # --- Main ---
