@@ -1,33 +1,33 @@
-_Updated: Saturday, 25 Jul 2026 at 09:37 PM SGT_
+_Updated: Sunday, 26 Jul 2026 at 06:42 PM SGT_
 
-**Recovery Time is still the only red flag on the board — everything else says you're ready, so hold the rest one more stretch and let Sunday's long run land clean.**
+**Long run's in the bank and every recovery marker turned green overnight — you're clear to build straight into the week.**
 
 **What your data says**
-ACWR is 1.2 (OPTIMAL), PRODUCTIVE_2 training status — load is well settled, no injury-spike risk. Readiness reads 34 (LOW), but that's Recovery Time doing the dragging (36.7h left, down from 63h yesterday and 76.9h Thursday) while HRV rebounded to 79ms overnight (weekly avg 77ms, BALANCED) and resting HR sits at 45bpm, under your 47 baseline. Garmin's HM prediction reads 1:56:40 — treat that as the optimistic ceiling; the honest, heat/fade-buffered range against your 1:45–1:50 goal is **2:00–2:04**, still soft since your longest continuous effort banked is just 11.14km — no HM-specific long run yet. July running sits at 120.71km, already past the 100km target with 6 days left — mileage target is secure, so today's job is finishing recovery clean before tomorrow's quality.
+ACWR sits at 1.2 (OPTIMAL), training status MAINTAINING_2 — load is settled, no spike risk. Garmin's HM prediction reads 1:56:28; treat that as the optimistic ceiling — the honest, heat/fade-buffered range against your 1:45–1:50 goal is **2:00–2:04**, still soft since your longest continuous effort remains 11.14km (Jul 19) with no HM-specific long run or time trial yet to sharpen it. July running sits at **127.73km of 100km** — target smashed with 5 days left. Readiness jumped to 51 (MODERATE) from yesterday's 34, Recovery Time down to ~17h (from 36.7h), HRV rebounded hard to 93ms overnight (weekly avg 78, BALANCED), resting HR 43bpm — well under your 47 baseline. Only flag: last night was a short 5.2h sleep, good quality but keep an eye on the trend.
 
 **Today's session**
-Rest, or a light 20–30min easy walk if you feel like moving. HRV, resting HR, and stress all say you're recovered, but Recovery Time hasn't fully cleared — adaptation happens in that window, not by squeezing in another session. Full training resumes tomorrow.
+Long run — DONE ✅. 7.01km, 46.6min, avg HR 125 — clean aerobic effort, fully inside the HR cap, exactly what supercompensation needs after yesterday's low readiness. It landed shorter than the planned 10–11km (likely the short sleep talking) — no issue, quality of the effort matters more than hitting the number today. No more running — rest of the day is recovery: hydrate, protein, get ahead of sleep tonight.
 
 **3-Day Plan**
-- Today (Saturday, 25 July 2026): Rest, or easy 20–30min walk only
-- Sunday, 26 July 2026: Long run 10–11km easy, HR ≤ 135, Kayano 31
+- Today (Sunday, 26 July 2026): Long run DONE ✅ — 7.01km, HR 125 avg
 - Monday, 27 July 2026: Easy 5–6km recovery, HR ≤ 135, Kayano 31
+- Tuesday, 28 July 2026: Rest or 20–30min walk — protect ACWR before next quality session
 
 **Norway Prep**
-- Today: OutDry break-in walk, no pack, 20–30min — keep load light while Recovery Time finishes clearing
-- After Sunday's long run: single-leg step-downs, 3×10 each leg, for eccentric quad strength
-- Monday: first loaded 7–10kg stair session (HDB stairwell), OutDry shoes
+- Today: single-leg step-downs, 3×10 each leg, post-run eccentric quad work
+- Monday: OutDry break-in walk, no pack, 30–40min, easy pace
+- Tuesday (non-run day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes
 - Bank one loaded 2–3hr gear walk (Faber/Southern Ridges) later this week, ahead of Aug 8
 
 **Fuel**
-Yesterday burned 2,006 kcal (218 active + 1,788 BMR); today's rest-day target ≈ 2,020 kcal — no deficit.
-- Breakfast: Soy milk + kaya toast set — ~550
-- Lunch: Economy rice, 1 meat 2 veg — ~600
+Today's run burned ~382 kcal on top of ~1,788 kcal BMR; as a run day, intake target ≈ 2,500 kcal — no deficit.
+- Breakfast: Kaya toast set + soy milk — ~550
+- Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
-- Dinner: Bak chor mee — ~500
-- Evening: Kopi — ~115
-Total ≈ 2,020 kcal
-Yesterday's active burn alone ≈ a banana + a kopi's worth of energy.
+- Dinner: Char kway teow — ~740
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,495 kcal
+Today's run alone ≈ a Milo dinosaur's worth of energy.
 
 **Coach's take**
-120km banked, ACWR dialed in, HRV bouncing back — you've done the hard part; give Recovery Time the rest of today and Sunday's long run builds fitness instead of digging the hole deeper.
+Every marker — ACWR, HRV, resting HR, mileage — is telling you the same thing: the base is solid, so trust it into this week's quality work.
