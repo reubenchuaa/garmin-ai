@@ -1,4 +1,4 @@
-_Updated: Sunday, 26 Jul 2026 at 11:00 PM SGT_
+_Updated: Sunday, 26 Jul 2026 at 11:18 PM SGT_
 
 **Easy run banked clean today, and every recovery marker — RHR, HRV, ACWR — stays green heading into tomorrow's bigger long run.**
 
