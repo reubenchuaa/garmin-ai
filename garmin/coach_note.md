@@ -1,9 +1,9 @@
-_Updated: Monday, 27 Jul 2026 at 08:14 PM SGT_
+_Updated: Monday, 27 Jul 2026 at 09:10 PM SGT_
 
-**13.02km long run banked — your longest continuous effort this block — but ACWR at 1.4 means today's job is recovery, not more volume.**
+**13.02km long run banked — your longest continuous effort this block — today's job now is recovery, not more volume.**
 
 **What your data says**
-Today's 13.02km long run (HR 137 avg) pushed ACWR to **1.4** — above the 0.8–1.3 safe zone (acute load 429 vs chronic 301) — so ease off tomorrow. Garmin's HM prediction (1:56:04) is the optimistic ceiling; Riegel from your 23 Jul tempo (10.03km/54.6min, HR 155) extrapolates to ~2:00 for 21.1km, so with a heat/fade buffer the realistic range vs your 1:45–1:50 goal is **2:00–2:05** — still soft without a genuine HM-specific time trial, though today's long run helps anchor it. July running: **140.75km of 100km** — target smashed, 4 days left. HRV steady (82ms last night, 77 weekly, BALANCED), RHR 46 near baseline, readiness dropped to 53 MODERATE post-run (was 77 HIGH this morning) — a normal post-volume dip, not a red flag.
+Today's 13.02km long run (HR 137 avg) pushed ACWR to **1.4** — above the 0.8–1.3 safe zone (acute load 429 vs chronic 301) — so ease off tomorrow. Garmin's HM prediction (1:56:04) is the optimistic ceiling; Riegel from your 23 Jul tempo (10.03km/54.6min, HR 155) extrapolates to ~2:00 for 21.1km, so with a heat/fade buffer the realistic range vs your 1:45–1:50 goal is **2:00–2:05** — still soft without a genuine HM-specific time trial, though today's long run is a real endurance anchor for it. July running: **140.75km of 100km** — target smashed, 4 days left in the month. Training status PRODUCTIVE_2, VO2max 56.0, heat acclimation 100% (ACCLIMATIZED). HRV steady (82ms overnight, 77ms weekly, BALANCED), RHR 46 near your 47 baseline, readiness dipped to 53 MODERATE post-run (was 77 HIGH this morning) — a normal post-volume dip, not a red flag.
 
 **Today's session**
 DONE ✅ — 13.02km long run, HR 137 avg, your biggest continuous run this block. No more running today: rehydrate, refuel, and get to bed early — the adaptation from today happens in the next 24–48h of recovery, not on the road.
