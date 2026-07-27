@@ -356,4 +356,4 @@ $PYTHON push_workout.py 2>/dev/null || echo "  [workout] Push skipped or failed"
 $PYTHON generate_dashboard.py 2>/dev/null
 
 # --- Commit and push (with locking, conflict resolution, retries) ---
-/bin/bash "$REPO/git_safe_push.sh" "coach: $(date '+%Y-%m-%d %H:%M')" garmin/coach_note.md docs/index.html garmin/data.json
+/bin/bash "$REPO/git_safe_push.sh" "coach: $(date '+%Y-%m-%d %H:%M')" garmin/coach_note.md docs/index.html garmin/data.json context.json

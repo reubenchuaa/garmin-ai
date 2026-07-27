@@ -18,7 +18,7 @@ $PYTHON sync.py 3
 $PYTHON generate_dashboard.py 2>/dev/null
 
 # --- Commit and push (with locking, conflict resolution, retries) ---
-/bin/bash "$REPO/git_safe_push.sh" "sync: $(date '+%Y-%m-%d %H:%M')" garmin/ docs/
+/bin/bash "$REPO/git_safe_push.sh" "sync: $(date '+%Y-%m-%d %H:%M')" garmin/ docs/ context.json
 
 # --- Update GitHub secret with fresh tokens ---
 $PYTHON update_github_token.py 2>/dev/null || true

@@ -8,3 +8,6 @@ garmin/data.json.bak merge=ours
 garmin/coach_note.md merge=ours
 coach.log            merge=ours
 garmin/.last_workout_push merge=ours
+# context.json is human/AI-edited config; local edits are authoritative
+# (GitHub Actions never writes it) — keep ours so an edit can't be lost to a merge.
+context.json         merge=ours
