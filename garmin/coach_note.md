@@ -1,26 +1,26 @@
-_Updated: Monday, 27 Jul 2026 at 07:40 PM SGT_
+_Updated: Monday, 27 Jul 2026 at 08:14 PM SGT_
 
-**Long run banked at 13.02km — your biggest single session this block — but ACWR just poked above the safe zone at 1.4, so tomorrow is about earning that adaptation, not chasing more volume.**
+**13.02km long run banked — your longest continuous effort this block — but ACWR at 1.4 means today's job is recovery, not more volume.**
 
 **What your data says**
-Today's 13.02km long run (85.7min, avg HR 137 — a touch over the 135 cap, pure Singapore heat drift over that duration) pushed ACWR to **1.4**, above the 0.8–1.3 safe zone (Gabbett). Acute load 429 vs chronic 301 — a real spike, not a crisis, but tomorrow needs to be genuinely easy to let chronic load catch up. Garmin's HM prediction reads 1:56:04 — treat that as the optimistic ceiling. The Riegel cross-check from your 23 Jul tempo (10.03km/54.6min) still extrapolates to ~2:00 for 21.1km, so the heat/fade-buffered realistic range vs your 1:45–1:50 goal stays **2:00–2:05**. Today does extend your longest continuous effort to 13.02km — real progress toward anchoring that number, but still soft without a genuine HM-specific long run or time trial. July running: **140.75km of 100km** — target smashed, 4 days left. HRV is steady (82ms last night, weekly avg 77, BALANCED), RHR 46 (near baseline), readiness dropped to 53 MODERATE post-run (was 77 HIGH pre-run) — expected after this volume, ~28h recovery time flagged.
+Today's 13.02km long run (HR 137 avg) pushed ACWR to **1.4** — above the 0.8–1.3 safe zone (acute load 429 vs chronic 301) — so ease off tomorrow. Garmin's HM prediction (1:56:04) is the optimistic ceiling; Riegel from your 23 Jul tempo (10.03km/54.6min, HR 155) extrapolates to ~2:00 for 21.1km, so with a heat/fade buffer the realistic range vs your 1:45–1:50 goal is **2:00–2:05** — still soft without a genuine HM-specific time trial, though today's long run helps anchor it. July running: **140.75km of 100km** — target smashed, 4 days left. HRV steady (82ms last night, 77 weekly, BALANCED), RHR 46 near baseline, readiness dropped to 53 MODERATE post-run (was 77 HIGH this morning) — a normal post-volume dip, not a red flag.
 
 **Today's session**
-DONE ✅ — 13.02km long run, HR 137 avg. No more running today. Focus now shifts to recovery: hydrate, stretch, get to bed on time to protect tomorrow's readiness.
+DONE ✅ — 13.02km long run, HR 137 avg, your biggest continuous run this block. No more running today: rehydrate, refuel, and get to bed early — the adaptation from today happens in the next 24–48h of recovery, not on the road.
 
 **3-Day Plan**
-- Today (Monday, 27 July 2026): Long run 13.02km — DONE ✅
-- Tuesday, 28 July 2026: Rest or easy 20–30min recovery jog, HR ≤125 — let ACWR settle back toward chronic load
-- Wednesday, 29 July 2026: Tempo 5–8km @ 6:00–6:15/km, HR 155–165, Dynafish Xiaonian — only if readiness has climbed back above 60; otherwise push to Thursday
+- Today (Monday, 27 July 2026): 13.02km long run — DONE ✅
+- Tuesday, 28 July: Rest or easy 20–30min shakeout, HR ≤125 — let ACWR settle before quality work
+- Wednesday, 29 July: Tempo 5–8km @6:00–6:15/km, HR 155–165, Asics Gel-Kayano 31 — only if readiness clears 60, else push to Thursday
 
 **Norway Prep**
-- Today: single-leg step-downs 3×10 each leg post-run (already earned, don't skip)
-- Tuesday (rest/easy day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes — stacked on the non-quality day
-- This week: bank one loaded 2–3hr gear walk (Faber/Southern Ridges) — 11 days to Aug 8, don't delay
-- All loaded work must be in the OutDry shoes — still building toward 50–80km break-in
+- Today (post-run): single-leg step-downs 3×10 each leg — eccentric quad prep
+- Tuesday (rest/easy day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes — protects Wednesday's tempo quality
+- This week: one 2–3hr loaded gear walk (Faber/Southern Ridges) before Aug 8
+- All loaded walking/stairs in the OutDry shoes only — break-in mileage still needed
 
 **Fuel**
-Today's run burned 741 kcal on top of BMR ~1,788; this is your biggest volume day this block, so intake target ≈2,650 kcal to fully fuel recovery — no deficit.
+Today's run burned 741 kcal on top of BMR ~1,788; intake target ≈2,650 kcal — no deficit on a long-run day.
 - Breakfast: Kaya toast set + soy milk — ~550
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt + kopi — ~370
@@ -30,4 +30,4 @@ Total ≈ 2,610 kcal
 Today's run alone ≈ 2 Milo dinosaurs.
 
 **Coach's take**
-You just banked the longest continuous run of this block — respect the ACWR flag tomorrow and this becomes the data point that finally tightens your HM prediction.
+That's your longest continuous run of the block — respect tomorrow's ACWR flag and this becomes the anchor point that finally tightens your HM prediction.
