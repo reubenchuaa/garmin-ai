@@ -15,6 +15,11 @@ FILES_TO_ADD=("$@")
 
 cd "$REPO_DIR"
 
+# Enable the "ours" merge driver referenced by .gitattributes so generated
+# artifacts (dashboard, data.json, coach_note) can NEVER produce a merge
+# conflict — git keeps our freshly-generated version automatically. Idempotent.
+git config merge.ours.driver true 2>/dev/null || true
+
 # --- Check for and remove conflict markers ---
 has_conflict_markers() {
     grep -rql '<<<<<<< ' --include='*.json' --include='*.html' --include='*.md' . 2>/dev/null
@@ -75,27 +80,27 @@ safe_pull() {
         git stash --quiet --include-untracked 2>/dev/null || true
     fi
 
-    if ! git pull --rebase --quiet 2>/dev/null; then
-        echo "  [git] Rebase conflict, aborting rebase"
-        git rebase --abort 2>/dev/null || true
-        if ! git pull --quiet 2>/dev/null; then
-            echo "  [git] Merge pull has conflicts, auto-resolving"
-            local conflicted
-            conflicted=$(git diff --name-only --diff-filter=U 2>/dev/null || true)
-            echo "$conflicted" | while read -r f; do
+    git fetch --quiet origin 2>/dev/null || true
+
+    # Only integrate if the remote actually has commits we lack.
+    if [ "$(git rev-list --count HEAD..origin/main 2>/dev/null || echo 0)" -gt 0 ]; then
+        # MERGE (not rebase) so local history is preserved and the .gitattributes
+        # "ours" driver applies. -X ours resolves any non-generated clash our way.
+        # This combination cannot leave the tree in a stuck conflicted state.
+        if ! git merge --no-edit -X ours origin/main 2>/dev/null; then
+            echo "  [git] Merge needed manual resolve — forcing keep-ours"
+            git diff --name-only --diff-filter=U 2>/dev/null | while read -r f; do
                 [ -z "$f" ] && continue
                 git checkout --ours "$f" 2>/dev/null || true
                 git add "$f" 2>/dev/null || true
             done
-            # The dashboard is a build artifact — never text-merge it. If it
-            # conflicted, regenerate it fresh from the merged data + newest note.
-            if echo "$conflicted" | grep -q "docs/index.html"; then
-                if python3 generate_dashboard.py >/dev/null 2>&1; then
-                    git add docs/index.html 2>/dev/null || true
-                    echo "  [git] Regenerated dashboard after conflict"
-                fi
-            fi
-            git commit --no-edit 2>/dev/null || true
+            git commit --no-edit 2>/dev/null || git merge --abort 2>/dev/null || true
+        fi
+        # Dashboard is generated — rebuild from merged data so it's never stale.
+        if python3 generate_dashboard.py >/dev/null 2>&1; then
+            git add docs/index.html 2>/dev/null || true
+            git diff --cached --quiet 2>/dev/null || \
+                git commit --no-edit -m "reconcile: regenerate dashboard" 2>/dev/null || true
         fi
     fi
 

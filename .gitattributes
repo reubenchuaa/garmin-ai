@@ -1,0 +1,10 @@
+# Generated / machine-written artifacts must NEVER produce merge conflicts.
+# They are rebuilt from source data on every run, so "keep ours" is always safe.
+# Requires the local merge driver: git config merge.ours.driver true
+# (auto-configured by git_safe_push.sh on every run).
+docs/index.html      merge=ours
+garmin/data.json     merge=ours
+garmin/data.json.bak merge=ours
+garmin/coach_note.md merge=ours
+coach.log            merge=ours
+garmin/.last_workout_push merge=ours
