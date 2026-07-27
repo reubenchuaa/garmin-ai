@@ -1,4 +1,4 @@
-_Updated: Monday, 27 Jul 2026_
+_Updated: Monday, 27 Jul 2026 at 08:13 AM SGT_
 
 **Every recovery marker is flashing green — readiness 77 (HIGH), HRV strong, RHR under baseline — today's the day to bank the season's longest run.**
 
