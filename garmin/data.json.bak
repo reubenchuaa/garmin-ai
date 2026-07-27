@@ -234277,20 +234277,20 @@
     {
       "date": "2026-07-27",
       "wellness": {
-        "totalSteps": 7332,
-        "totalDistanceMeters": 5642,
-        "averageStressLevel": 22,
-        "maxStressLevel": 93,
+        "totalSteps": 9677,
+        "totalDistanceMeters": 7445,
+        "averageStressLevel": 26,
+        "maxStressLevel": 96,
         "bodyBatteryHighestValue": 99,
         "bodyBatteryLowestValue": 18,
-        "floorsAscended": 9,
+        "floorsAscended": 11,
         "restingHeartRate": 46,
-        "maxAvgHeartRate": 97,
+        "maxAvgHeartRate": 111,
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 160,
-        "totalKilocalories": 1246
+        "activeKilocalories": 226,
+        "totalKilocalories": 1488
       },
       "sleep": {
         "dailySleepDTO": {
