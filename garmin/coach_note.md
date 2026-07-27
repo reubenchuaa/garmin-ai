@@ -1,33 +1,33 @@
-_Updated: Sunday, 26 Jul 2026 at 11:18 PM SGT_
+_Updated: Monday, 27 Jul 2026_
 
-**Easy run banked clean today, and every recovery marker — RHR, HRV, ACWR — stays green heading into tomorrow's bigger long run.**
+**Every recovery marker is flashing green — readiness 77 (HIGH), HRV strong, RHR under baseline — today's the day to bank the season's longest run.**
 
 **What your data says**
-ACWR sits at 1.2 (OPTIMAL), training status MAINTAINING_2 — load is well-managed, no injury-spike risk. Garmin's HM prediction reads 1:56:28; treat that as the optimistic ceiling, not the expected result. A Riegel cross-check from your 23 Jul tempo effort (10.03km in 54.6min) extrapolates to ~2:00 for 21.1km, so the honest, heat/fade-buffered realistic range vs your 1:45–1:50 goal is **2:00–2:04** — still soft, since your longest continuous effort remains 11.14km (19 Jul) with no dedicated HM-specific long run yet to anchor it. July running sits at **127.73km of 100km** — target already smashed with 5 days left. RHR 43bpm (well under your 47 baseline), HRV rebounded to 93ms overnight (weekly avg 78, BALANCED), readiness climbing back to 51. Only flag: last night was a short 5.2h sleep — watch tonight's before tomorrow's bigger effort.
+ACWR sits at 1.0 (OPTIMAL), training status MAINTAINING_2 — load is well-managed. Garmin's HM prediction reads 1:56:27; treat that as the optimistic ceiling. A Riegel cross-check from your 23 Jul tempo (10.03km in 54.6min) extrapolates to ~2:00 for 21.1km, so the heat/fade-buffered realistic range vs your 1:45–1:50 goal is **2:00–2:05** — still soft, since your longest continuous effort remains 11.14km (19 Jul), with no HM-specific long run yet to anchor it. Today's session starts to fix that. July running sits at **127.73km of 100km** — target smashed with 5 days left. Sleep bounced back to 8.1h, HRV 82ms (weekly avg 77, BALANCED), RHR 46 (under your 47 baseline), stress just 8 — full green light after last night's short sleep.
 
 **Today's session**
-Easy run — DONE ✅. 7.01km, 46.6min, avg HR 125 — clean aerobic effort, comfortably inside cap. No more running today; adaptation happens in the recovery that follows, not the run itself.
+Long run: 12–14km, easy effort, HR ≤135, pace ~7:00–7:30/km (adjust up for heat), Kayano 31. This extends past your current longest continuous effort — the first real step toward anchoring the HM prediction in actual data instead of VO2max math. Purpose: builds mitochondrial density and glycogen storage, the aerobic foundation everything else sits on.
 
 **3-Day Plan**
-- Today (Sunday, 26 July 2026): Easy run DONE ✅ — 7.01km, HR 125 avg
-- Monday, 27 July 2026: Long run ~12–14km, easy effort, HR ≤135, Kayano 31 — extend past your 11.14km best to build an HM-specific endurance anchor (only if tonight's sleep is solid and readiness/HRV hold; else fall back to easy 5–6km)
-- Tuesday, 28 July 2026: Easy/recovery or rest — protect ACWR after Monday's long run
+- Today (Monday, 27 July 2026): Long run 12–14km, easy, HR ≤135, Kayano 31
+- Tuesday, 28 July 2026: Rest or easy 30min recovery jog — protect ACWR after today's biggest volume day
+- Wednesday, 29 July 2026: Tempo 5–8km @ 6:00–6:15/km, HR 155–165, Dynafish Xiaonian — first quality session since Jul 23
 
 **Norway Prep**
-- Today (post-run): single-leg step-downs, 3×10 each leg, eccentric quad work
-- Monday (after the long run): OutDry break-in walk, no pack, 30–40min easy
-- Tuesday (non-run day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes
-- Bank one loaded 2–3hr gear walk (Faber/Southern Ridges) later this week, ahead of Aug 8
+- Today (post-long run): single-leg step-downs, 3×10 each leg
+- Tuesday (rest day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes — stacked on a non-quality day
+- Bank one loaded 2–3hr gear walk (Faber/Southern Ridges) before Aug 8 — 12 days left, don't delay
+- All loaded work must be in the OutDry shoes (still need km toward the 50–80km break-in)
 
 **Fuel**
-Today's run burned ~382 kcal on top of ~1,788 kcal BMR; intake target ≈ 2,400–2,500 kcal — no deficit.
+Yesterday's easy run burned ~450 kcal (2,238 kcal total incl. BMR); today's long run pushes further, so intake target ≈2,600 kcal — no deficit, fuel the effort and recovery fully.
 - Breakfast: Kaya toast set + soy milk — ~550
 - Lunch: Chicken rice — ~600
-- Snack: Banana + yogurt — ~255
+- Snack: Banana + yogurt + kopi — ~370
 - Dinner: Char kway teow — ~740
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,495 kcal
-Today's run alone ≈ a Milo dinosaur's worth of energy.
+Total ≈ 2,610 kcal
+Yesterday's run alone ≈ 1 Milo dinosaur + a kopi.
 
 **Coach's take**
-Every marker — ACWR, HRV, RHR, mileage — is aligned clean; trust the base into tomorrow's longer push.
+Every marker is aligned and the HM estimate is still soft — today's long run is the single most valuable data point you can bank this month, go build it.
