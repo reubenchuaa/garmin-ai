@@ -1,4 +1,4 @@
-_Updated: Monday, 27 Jul 2026 at 09:10 PM SGT_
+_Updated: Monday, 27 Jul 2026 at 09:11 PM SGT_
 
 **13.02km long run banked — your longest continuous effort this block — today's job now is recovery, not more volume.**
 
