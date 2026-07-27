@@ -234605,7 +234605,7 @@
         "averageStressLevel": 26,
         "maxStressLevel": 96,
         "bodyBatteryHighestValue": 99,
-        "bodyBatteryLowestValue": 18,
+        "bodyBatteryLowestValue": 13,
         "floorsAscended": 21,
         "restingHeartRate": 46,
         "maxAvgHeartRate": 146,
@@ -234613,7 +234613,7 @@
         "moderateIntensityMinutes": 8,
         "vigorousIntensityMinutes": 93,
         "activeKilocalories": 991,
-        "totalKilocalories": 2454
+        "totalKilocalories": 2666
       },
       "sleep": {
         "dailySleepDTO": {
