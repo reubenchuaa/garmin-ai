@@ -1,33 +1,33 @@
-_Updated: Monday, 27 Jul 2026 at 09:11 PM SGT_
+_Updated: Tuesday, 28 Jul 2026_
 
-**13.02km long run banked — your longest continuous effort this block — today's job now is recovery, not more volume.**
+**ACWR is still sitting at 1.4 from Monday's long run — today's job is to let that number come back down, not add to it.**
 
 **What your data says**
-Today's 13.02km long run (HR 137 avg) pushed ACWR to **1.4** — above the 0.8–1.3 safe zone (acute load 429 vs chronic 301) — so ease off tomorrow. Garmin's HM prediction (1:56:04) is the optimistic ceiling; Riegel from your 23 Jul tempo (10.03km/54.6min, HR 155) extrapolates to ~2:00 for 21.1km, so with a heat/fade buffer the realistic range vs your 1:45–1:50 goal is **2:00–2:05** — still soft without a genuine HM-specific time trial, though today's long run is a real endurance anchor for it. July running: **140.75km of 100km** — target smashed, 4 days left in the month. Training status PRODUCTIVE_2, VO2max 56.0, heat acclimation 100% (ACCLIMATIZED). HRV steady (82ms overnight, 77ms weekly, BALANCED), RHR 46 near your 47 baseline, readiness dipped to 53 MODERATE post-run (was 77 HIGH this morning) — a normal post-volume dip, not a red flag.
+ACWR is **1.4** (acute 429 vs chronic 301) — above the 0.8–1.3 safe zone, from Monday's 13.02km long run. Recovery markers are clean: PRODUCTIVE_2, VO2max 56.0, heat 100% ACCLIMATIZED, sleep 88, HRV 82ms/77wk BALANCED, RHR 46 — a volume spike, not fatigue. Garmin's HM ceiling is 1:56:04; Riegel from 23 Jul tempo lands ~2:00 for 21.1km, so vs 1:45–1:50 the realistic range stays **2:00–2:05** — soft, but Monday's run is now a real HM anchor. July: **140.75km of 100km** — smashed, 3 days left.
 
 **Today's session**
-DONE ✅ — 13.02km long run, HR 137 avg, your biggest continuous run this block. No more running today: rehydrate, refuel, and get to bed early — the adaptation from today happens in the next 24–48h of recovery, not on the road.
+Rest, or an optional easy 20–30min shakeout, HR ≤125. No quality work — chronic load needs to catch up to acute before you load again; Monday's adaptation happens in this window, not on the road.
 
 **3-Day Plan**
-- Today (Monday, 27 July 2026): 13.02km long run — DONE ✅
-- Tuesday, 28 July: Rest or easy 20–30min shakeout, HR ≤125 — let ACWR settle before quality work
-- Wednesday, 29 July: Tempo 5–8km @6:00–6:15/km, HR 155–165, Asics Gel-Kayano 31 — only if readiness clears 60, else push to Thursday
+- Today (Tue 28 Jul): Rest / optional easy shakeout, HR ≤125
+- Wed 29 Jul: Tempo 5–8km @6:00–6:15/km, HR 155–165, Kayano 31 — only if you wake recovered, else push to Thu
+- Thu 30 Jul: Easy run 6–8km, HR ≤135
 
 **Norway Prep**
-- Today (post-run): single-leg step-downs 3×10 each leg — eccentric quad prep
-- Tuesday (rest/easy day): first loaded 7–10kg stair session, HDB stairwell, OutDry shoes — protects Wednesday's tempo quality
-- This week: one 2–3hr loaded gear walk (Faber/Southern Ridges) before Aug 8
-- All loaded walking/stairs in the OutDry shoes only — break-in mileage still needed
+- Today: loaded 7–10kg stair session, HDB stairwell, OutDry shoes — ideal on a rest day
+- After Wed/Thu run: single-leg step-downs 3×10 each leg
+- Aug 1–2: the one 2–3hr loaded gear walk (Faber/Southern Ridges) — 11 days to Aug 8, lock it in
+- OutDry shoes for all loaded walking/stairs — break-in mileage still needed
 
 **Fuel**
-Today's run burned 741 kcal on top of BMR ~1,788; intake target ≈2,650 kcal — no deficit on a long-run day.
+Yesterday burned 2,666 kcal (active 991, BMR 1,675); today's a rest day, so intake target ≈2,020 kcal — full maintenance, no deficit.
 - Breakfast: Kaya toast set + soy milk — ~550
-- Lunch: Chicken rice — ~600
-- Snack: Banana + yogurt + kopi — ~370
-- Dinner: Char kway teow — ~740
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,610 kcal
-Today's run alone ≈ 2 Milo dinosaurs.
+- Lunch: Economy rice, 1 meat 2 veg — ~600
+- Snack: Banana + kopi — ~220
+- Dinner: Bak chor mee — ~500
+- Evening: Yogurt — ~150
+Total ≈ 2,020 kcal
+Optional shakeout alone ≈ 1 banana.
 
 **Coach's take**
-That's your longest continuous run of the block — respect tomorrow's ACWR flag and this becomes the anchor point that finally tightens your HM prediction.
+You didn't just hit the July target, you obliterated it — respecting today's ACWR flag is what turns Monday's long run into fitness instead of a setback.
