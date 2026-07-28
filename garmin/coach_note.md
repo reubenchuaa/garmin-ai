@@ -1,4 +1,4 @@
-_Updated: Tuesday, 28 Jul 2026 at 01:57 PM SGT_
+_Updated: Tuesday, 28 Jul 2026 at 01:58 PM SGT_
 
 **ACWR has already settled back to 1.2 OPTIMAL a day after Monday's long-run spike — hold today easy and tempo is on for Wednesday.**
 
