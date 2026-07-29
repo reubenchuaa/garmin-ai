@@ -249461,20 +249461,20 @@
     {
       "date": "2026-07-29",
       "wellness": {
-        "totalSteps": 4383,
-        "totalDistanceMeters": 3370,
-        "averageStressLevel": 32,
+        "totalSteps": 4882,
+        "totalDistanceMeters": 3754,
+        "averageStressLevel": 33,
         "maxStressLevel": 98,
         "bodyBatteryHighestValue": 85,
         "bodyBatteryLowestValue": 8,
-        "floorsAscended": 4,
+        "floorsAscended": 6,
         "restingHeartRate": 47,
         "maxAvgHeartRate": 119,
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 140,
-        "totalKilocalories": 1165
+        "activeKilocalories": 148,
+        "totalKilocalories": 1227
       },
       "sleep": {
         "dailySleepDTO": {
