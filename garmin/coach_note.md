@@ -1,12 +1,12 @@
-_Updated: Wednesday, 29 Jul 2026 at 05:16 PM SGT_
+_Updated: Wednesday, 29 Jul 2026 at 05:47 PM SGT_
 
-**ACWR is OPTIMAL at 1.0, readiness is 70, HRV is balanced — today's tempo is a green light.**
+**ACWR is OPTIMAL at 1.0, readiness is 70, HRV is balanced — no run logged yet, tempo is still the green light.**
 
 **What your data says**
-ACWR sits at **1.0** (acute 293 vs chronic 290) — OPTIMAL, meaning Monday's 13.02km long run absorbed cleanly with no lingering overload. Training status MAINTAINING_2, VO2max 56.0, heat 100% acclimatized. Garmin's HM ceiling reads **1:56:03** — treat that as best-case only; it's VO2max-driven and ignores HM-specific endurance, race-day heat, and pacing fade. A Riegel extrapolation off your 23 Jul tempo (54:38/10km, submax) lands near ~2:00, so a realistic buffered target is **2:00–2:05** against your 1:45–1:50 goal — still soft until you bank a genuine HM-effort long run or time trial. July running: **140.75km of 100km** — target smashed with 2 days left. Readiness is 70 (MODERATE, driven by strong HRV factor 100%), HRV last night 79ms vs weekly avg 76ms (balanced), RHR at baseline 47. No run logged yet today — everything is green for the tempo.
+ACWR sits at **1.0** (acute 293 vs chronic 290) — OPTIMAL, Monday's 13.02km long run absorbed cleanly with no lingering overload. Training status MAINTAINING_2, VO2max 56.0, heat 100% acclimatized. Garmin's HM ceiling reads **1:56:03** — treat as best-case only; it's VO2max-driven and ignores HM-specific endurance, heat, and pacing fade. A Riegel extrapolation off your 23 Jul tempo (54:38/10km, submax) lands near ~2:00, so a realistic buffered target is **2:00–2:05** against your 1:45–1:50 goal — still soft until you bank a genuine HM-effort long run or time trial. July running: **140.75km of 100km** — target smashed with 2 days left. Readiness 70 (MODERATE, HRV factor 100%), last-night HRV 79ms vs weekly avg 76ms (balanced), RHR at baseline 47. Nothing logged yet today — every marker is green for the tempo.
 
 **Today's session**
-Tempo 5–8km @6:00–6:15/km, HR 155–165, 1–2km easy warm-up/cool-down, Kayano 31. Purpose: sustained threshold effort raises lactate clearance capacity — the single biggest lever for HM performance, and every recovery marker supports pushing it today.
+Tempo 5–8km @6:00–6:15/km, HR 155–165, 1–2km easy warm-up/cool-down, Kayano 31. Purpose: sustained threshold effort raises lactate clearance capacity — the single biggest lever for HM performance, and recovery markers fully support pushing it today.
 
 **3-Day Plan**
 - Today (Wednesday, 29 July 2026): Tempo 5–8km @6:00–6:15/km, HR 155–165, Kayano 31
