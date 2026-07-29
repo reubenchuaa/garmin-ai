@@ -1,33 +1,33 @@
-_Updated: Wednesday, 29 Jul 2026 at 05:47 PM SGT_
+_Updated: Wednesday, 29 Jul 2026 at 06:19 PM SGT_
 
-**ACWR is OPTIMAL at 1.0, readiness is 70, HRV is balanced — no run logged yet, tempo is still the green light.**
+**Tempo crushed at 5:26/km — but ACWR just spiked to 1.6 HIGH, so the next 48h are strictly about recovery.**
 
 **What your data says**
-ACWR sits at **1.0** (acute 293 vs chronic 290) — OPTIMAL, Monday's 13.02km long run absorbed cleanly with no lingering overload. Training status MAINTAINING_2, VO2max 56.0, heat 100% acclimatized. Garmin's HM ceiling reads **1:56:03** — treat as best-case only; it's VO2max-driven and ignores HM-specific endurance, heat, and pacing fade. A Riegel extrapolation off your 23 Jul tempo (54:38/10km, submax) lands near ~2:00, so a realistic buffered target is **2:00–2:05** against your 1:45–1:50 goal — still soft until you bank a genuine HM-effort long run or time trial. July running: **140.75km of 100km** — target smashed with 2 days left. Readiness 70 (MODERATE, HRV factor 100%), last-night HRV 79ms vs weekly avg 76ms (balanced), RHR at baseline 47. Nothing logged yet today — every marker is green for the tempo.
+ACWR jumped to **1.6 (HIGH)** — acute load 568 vs chronic 340 — today's 10.01km tempo (bigger and faster than the prescribed 5-8km) pushed it well past the 1.3 safe ceiling. Post-run readiness read POOR (score 3, recovery time factor 10%) — that's the immediate hit talking, not a fatigue trend; HRV (79ms), RHR (47, at baseline) and sleep were all green pre-run. Garmin's HM ceiling reads **1:54:28** (VO2max-driven, best-case) — a Riegel extrapolation off today's submax 10km (54:24) lands nearer **2:00**, so realistic buffered target is **1:58–2:04** vs your 1:45-1:50 goal — still soft without a genuine HM-effort test. July running: **150.76km of 100km** — target smashed, 2 days left. VO2max 56.3, heat 100% acclimatized, training status PRODUCTIVE_9.
 
 **Today's session**
-Tempo 5–8km @6:00–6:15/km, HR 155–165, 1–2km easy warm-up/cool-down, Kayano 31. Purpose: sustained threshold effort raises lactate clearance capacity — the single biggest lever for HM performance, and recovery markers fully support pushing it today.
+DONE ✅ — Tempo 10.01km, avg HR 154, ~5:26/km — stronger and longer than asked. Threshold stimulus for lactate clearance is banked; no more running today.
 
 **3-Day Plan**
-- Today (Wednesday, 29 July 2026): Tempo 5–8km @6:00–6:15/km, HR 155–165, Kayano 31
-- Thursday, 30 July 2026: Easy 6–8km, HR ≤135, Kayano 31
-- Friday, 31 July 2026: Rest — let tempo + easy load settle before the weekend
+- Today (Wednesday, 29 July 2026): Tempo 10.01km DONE ✅ — no further running
+- Thursday, 30 July 2026: Easy 4-6km, HR ≤135, keep it short — let ACWR settle
+- Friday, 31 July 2026: Rest — chronic load needs to catch up before ACWR is safe again
 
 **Norway Prep**
-- Thu 30 Jul (easy day): loaded 7–10kg stair session, HDB stairwell or Mount Faber, OutDry shoes
-- After every run: single-leg step-downs 3×10 each leg for downhill quad protection
-- Fri–Sat (31 Jul–1 Aug): lock in the one 2–3hr loaded gear walk (Faber/Southern Ridges) — 10 days left before Aug 8
+- Thu 30 Jul (after the short easy run): loaded 7-10kg stair session, HDB stairwell or Mount Faber, OutDry shoes
+- After every run (today included): single-leg step-downs 3×10 each leg
+- Fri-Sat (31 Jul-1 Aug): lock in the one 2-3hr loaded gear walk (Faber/Southern Ridges) — 10 days left before Aug 8
 - All loaded walking/stairs must be in the OutDry shoes — break-in mileage still needed
 
 **Fuel**
-Yesterday burned 1,868 kcal (active 80, BMR 1,788); today's a tempo day, so intake target ≈2,450 kcal to fuel the session and protect recovery.
+Today's tempo burned 583 kcal on top of BMR ~1,788 (yesterday's total burn was 1,868 kcal); with ACWR high and recovery time elevated, lean to the top of range — target ≈2,550-2,600 kcal to protect recovery.
 - Breakfast: Kaya toast set + soy milk — ~550
-- Lunch: Char kway teow — ~740
-- Snack: Milo dinosaur — ~350
-- Dinner: Chicken rice — ~600
-- Evening: Yogurt + banana — ~255
-Total ≈ 2,495 kcal
-Today's tempo alone ≈ 1 wanton mee.
+- Lunch: Chicken rice — ~600
+- Snack: Roti prata 2pc + curry — ~400
+- Dinner: Laksa — ~700
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,600 kcal
+Today's tempo alone ≈ 1 economy rice (1 meat, 2 veg).
 
 **Coach's take**
-ACWR, HRV, and readiness are all green at once — this is exactly the window your training is built to exploit, so take that tempo with confidence.
+That tempo was a statement — faster and longer than asked — now prove the discipline by backing off fully for 48h so the adaptation actually banks.
