@@ -1,4 +1,4 @@
-_Updated: Wednesday, 29 Jul 2026 at 07:54 PM SGT_
+_Updated: Wednesday, 29 Jul 2026 at 08:26 PM SGT_
 
 **Tempo banked hard at 5:26/km — ACWR now 1.6 HIGH, so today's job is done: the next 48 hours are about recovery, not more running.**
 
