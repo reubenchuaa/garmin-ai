@@ -249732,8 +249732,8 @@
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 4,
         "vigorousIntensityMinutes": 56,
-        "activeKilocalories": 738,
-        "totalKilocalories": 2081
+        "activeKilocalories": 739,
+        "totalKilocalories": 2334
       },
       "sleep": {
         "dailySleepDTO": {
