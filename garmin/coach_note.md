@@ -1,9 +1,9 @@
-_Updated: Wednesday, 29 Jul 2026 at 08:26 PM SGT_
+_Updated: Wednesday, 29 Jul 2026 at 08:58 PM SGT_
 
 **Tempo banked hard at 5:26/km — ACWR now 1.6 HIGH, so today's job is done: the next 48 hours are about recovery, not more running.**
 
 **What your data says**
-ACWR sits at **1.6 (HIGH)** — acute load 568 vs chronic 340 — because today's tempo ran bigger and faster (10.01km @ 5:26/km, avg HR 154, deep into Zone 4-5) than the 8km @ 6:00-6:15/km prescribed. Garmin's HM ceiling is **1:54:28** (VO2max-driven best case); a Riegel extrapolation off today's submax effort lands near 2:00, so the realistic buffered range is **1:58–2:04** vs your 1:45-1:50 goal — still soft until you bank a genuine HM-effort long run or time trial. July running: **150.76km of 100km** target, smashed with 2 days left. Training status PRODUCTIVE, VO2max 56.3, heat 100% acclimatized; HRV 79ms (BALANCED) and RHR 47 (right at baseline) are both green — today's POOR readiness (score 3) is the fresh training hit, not a fatigue trend.
+ACWR sits at **1.6 (HIGH)** — acute load 568 vs chronic 340 — because today's tempo ran bigger and faster (10.01km @ 5:26/km, avg HR 154, deep into Zone 4-5) than the 8km @ 6:00-6:15/km prescribed. Garmin's HM ceiling is **1:54:28** (VO2max-driven best case); a Riegel extrapolation off today's submax tempo lands nearer 2:00, so the realistic buffered range is **1:58–2:04** vs your 1:45-1:50 goal — still soft until you bank a genuine HM-effort long run or time trial. July running: **150.76km of 100km** target, smashed with 2 days left. Training status PRODUCTIVE, VO2max 56.3, heat 100% acclimatized; HRV 79ms (BALANCED) and RHR 47 (at baseline) are both green — today's POOR readiness (score 3) is the fresh training hit, not a fatigue trend.
 
 **Today's session**
 DONE ✅ — Tempo 10.01km, avg HR 154, 5:26/km — a harder threshold stimulus than planned. No further running today; the lactate-clearance adaptation locks in during recovery, not the run itself.
