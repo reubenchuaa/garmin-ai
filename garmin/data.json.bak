@@ -256252,10 +256252,10 @@
     {
       "date": "2026-07-30",
       "wellness": {
-        "totalSteps": 7897,
-        "totalDistanceMeters": 6117,
-        "averageStressLevel": 32,
-        "maxStressLevel": 88,
+        "totalSteps": 9209,
+        "totalDistanceMeters": 7126,
+        "averageStressLevel": 35,
+        "maxStressLevel": 90,
         "bodyBatteryHighestValue": 86,
         "bodyBatteryLowestValue": 11,
         "floorsAscended": 7,
@@ -256264,8 +256264,8 @@
         "minAvgHeartRate": 48,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 79,
-        "totalKilocalories": 1488
+        "activeKilocalories": 95,
+        "totalKilocalories": 1659
       },
       "sleep": {
         "dailySleepDTO": {
@@ -264269,6 +264269,37 @@
         "sleepEndTimestampLocal": "2026-07-30T07:29:11.0"
       },
       "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-07-30",
+          "timestamp": "2026-07-30T12:15:54.0",
+          "timestampLocal": "2026-07-30T20:15:54.0",
+          "deviceId": 3436655159,
+          "level": "LOW",
+          "feedbackLong": "LOW_RT_HIGH_SS_GOOD_OR_MOD",
+          "feedbackShort": "HIGH_RECOVERY_NEEDS",
+          "score": 26,
+          "sleepScore": 94,
+          "sleepScoreFactorPercent": 94,
+          "sleepScoreFactorFeedback": "VERY_GOOD",
+          "recoveryTime": 2915,
+          "recoveryTimeFactorPercent": 30,
+          "recoveryTimeFactorFeedback": "POOR",
+          "acwrFactorPercent": 72,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 481,
+          "stressHistoryFactorPercent": 53,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 100,
+          "hrvFactorFeedback": "VERY_GOOD",
+          "hrvWeeklyAverage": 74,
+          "sleepHistoryFactorPercent": 65,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "UPDATE_REALTIME_VARIABLES",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        },
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-07-30",
