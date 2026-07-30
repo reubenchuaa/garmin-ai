@@ -1,4 +1,4 @@
-_Updated: Thursday, 30 Jul 2026 at 11:22 PM SGT_
+_Updated: Thursday, 30 Jul 2026 at 11:23 PM SGT_
 
 **Readiness ticked up from POOR to LOW today but the fatigue signal is still real — hold the easy run, banking recovery for Saturday's long run.**
 
