@@ -1,9 +1,9 @@
-_Updated: Thursday, 30 Jul 2026 at 05:42 PM SGT_
+_Updated: Thursday, 30 Jul 2026 at 11:20 PM SGT_
 
 **ACWR at 1.4 and readiness POOR for a second straight day — protect today's easy run so Saturday's long run lands well.**
 
 **What your data says**
-ACWR is 1.4 (481 acute vs 335 chronic) — OPTIMAL per Garmin but above the strict 0.8–1.3 Gabbett zone. Training Readiness is POOR (7/100) again, driven by recovery-time factor (19%) — sleep was excellent (8.6h, optimal structure) and RHR is 50 (only +3 vs your ~47 baseline), but HRV weekly avg has slid from 78ms (26 Jul) to 74ms today, a real fatigue signal from back-to-back hard efforts. Garmin's HM ceiling is 1:54:27 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until another long run anchors it. July: 150.76km of 100km target, already smashed with one day left.
+ACWR is 1.4 (481 acute vs 335 chronic) — OPTIMAL per Garmin but above the strict 0.8–1.3 Gabbett zone. Training Readiness is POOR (7/100) again, driven by recovery-time factor (19%) — sleep was excellent (94 score), but HRV weekly avg has slid to 74ms and RHR is 50 (+3 vs your ~47 baseline), a real fatigue signal after Wednesday's 10km tempo-effort run (154 avg HR) on top of Monday's long run. Garmin's HM ceiling is 1:54:27 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until another long run anchors it. July: 150.76km of 100km target, already smashed with one day left.
 
 **Today's session**
 Easy 4–5km, HR ≤135, Kayano 31, pace ~7:00–7:30/km as a guide only. Purpose: active recovery — clear the accumulated fatigue and let recovery-time factor reset before Saturday.
