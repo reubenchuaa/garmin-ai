@@ -264336,20 +264336,20 @@
     {
       "date": "2026-07-31",
       "wellness": {
-        "totalSteps": 4264,
-        "totalDistanceMeters": 3279,
-        "averageStressLevel": 27,
-        "maxStressLevel": 85,
+        "totalSteps": 6062,
+        "totalDistanceMeters": 4661,
+        "averageStressLevel": 29,
+        "maxStressLevel": 86,
         "bodyBatteryHighestValue": 63,
         "bodyBatteryLowestValue": 9,
-        "floorsAscended": 5,
+        "floorsAscended": 7,
         "restingHeartRate": 50,
         "maxAvgHeartRate": 105,
         "minAvgHeartRate": 48,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 78,
-        "totalKilocalories": 1046
+        "activeKilocalories": 106,
+        "totalKilocalories": 1299
       },
       "sleep": {
         "dailySleepDTO": {
