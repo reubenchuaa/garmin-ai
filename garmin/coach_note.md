@@ -1,4 +1,4 @@
-_Updated: Friday, 31 Jul 2026 at 07:53 PM SGT_
+_Updated: Friday, 31 Jul 2026 at 08:24 PM SGT_
 
 **ACWR is optimal at 1.1, but readiness is still LOW — one more rest day locks in July's gains before Saturday's long run.**
 
