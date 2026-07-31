@@ -1,9 +1,9 @@
-_Updated: Friday, 31 Jul 2026 at 07:38 PM SGT_
+_Updated: Friday, 31 Jul 2026 at 07:53 PM SGT_
 
-**ACWR is optimal at 1.1, but readiness is still LOW — rest stays the right call to close out July.**
+**ACWR is optimal at 1.1, but readiness is still LOW — one more rest day locks in July's gains before Saturday's long run.**
 
 **What your data says**
-ACWR sits at 1.1 (394 acute vs 331 chronic, OPTIMAL) with training status PRODUCTIVE, but Training Readiness is only 29 (LOW), RHR is 50 (+3 vs your ~47 baseline) for a second straight day, recovery-time is POOR (39%), and HRV weekly average has slid from 78ms (26 Jul) to 74ms — real fatigue from Monday's 13km long run plus Wednesday's tempo, still being absorbed. Garmin's HM ceiling is 1:54:26 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until Saturday's long run adds a second anchor. July running closes at 150.76km of 100km — target smashed with room to spare.
+ACWR sits at 1.1 (394 acute vs 331 chronic, OPTIMAL) with training status PRODUCTIVE, but Training Readiness is only 29 (LOW), recovery-time is POOR (39%), RHR is 50 for a second straight day (+3 vs your ~47 baseline), and HRV weekly average has slid from 78ms (26 Jul) to 74ms — real fatigue from Monday's 13km long run plus Wednesday's tempo, still being absorbed. Garmin's HM ceiling is 1:54:26 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until Saturday's long run adds a second anchor. July running closes at 150.76km of 100km — target smashed with room to spare.
 
 **Today's session**
 Rest. No run. LOW readiness + POOR recovery-time + declining HRV all say your body is still absorbing this week's load. Adaptation happens in recovery, not the workout — pushing today just deepens the dip before Saturday's long run.
