@@ -1,4 +1,4 @@
-_Updated: Friday, 31 Jul 2026 at 06:42 PM SGT_
+_Updated: Friday, 31 Jul 2026 at 07:14 PM SGT_
 
 **ACWR is optimal at 1.1, but readiness is still LOW — today stays a rest day, exactly as planned.**
 
