@@ -1,32 +1,32 @@
-_Updated: Friday, 31 Jul 2026 at 08:24 PM SGT_
+_Updated: Friday, 31 Jul 2026 at 10:41 PM SGT_
 
-**ACWR is optimal at 1.1, but readiness is still LOW — one more rest day locks in July's gains before Saturday's long run.**
+**ACWR is optimal at 1.2, tonight's 2.51km jog was a smart light touch, not a rest-day violation — tomorrow's long run is where the real work happens.**
 
 **What your data says**
-ACWR sits at 1.1 (394 acute vs 331 chronic, OPTIMAL) with training status PRODUCTIVE, but Training Readiness is only 29 (LOW), recovery-time is POOR (39%), RHR is 50 for a second straight day (+3 vs your ~47 baseline), and HRV weekly average has slid from 78ms (26 Jul) to 74ms — real fatigue from Monday's 13km long run plus Wednesday's tempo, still being absorbed. Garmin's HM ceiling is 1:54:26 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until Saturday's long run adds a second anchor. July running closes at 150.76km of 100km — target smashed with room to spare.
+ACWR sits at 1.2 (433 acute vs 338 chronic, OPTIMAL) with training status PRODUCTIVE. Garmin's HM ceiling is 1:54:26 (VO2max 56.3), but with only one HM-specific long run banked (13.02km, 27 Jul) the buffered realistic range stays 1:58–2:04 vs your 1:45–1:50 goal — still soft until Saturday's long run adds a second anchor. Wellness: RHR 50 (+3 vs your ~47 baseline), Training Readiness LOW (41, up from 29 this morning), recovery time improving to MODERATE, HRV holding flat at 74ms after its dip from 78ms — fatigue is stabilising, not worsening. July running closes TODAY at 153.27km of 100km — target smashed with room to spare.
 
 **Today's session**
-Rest. No run. LOW readiness + POOR recovery-time + declining HRV all say your body is still absorbing this week's load. Adaptation happens in recovery, not the workout — pushing today just deepens the dip before Saturday's long run.
+DONE ✅ — 2.51km easy shakeout, 16.6min, avg HR 126 (well under your 135 cap). Genuinely easy, minimal load added, kept the legs moving without deepening the fatigue dip. No further running today — protect tomorrow's long run.
 
 **3-Day Plan**
-- Today (Friday, 31 July 2026): Rest — full recovery day
+- Today (Friday, 31 July 2026): DONE ✅ — 2.51km easy shakeout, no further running
 - Saturday, 1 August 2026: Easy-moderate long run, 8–9km, HR ≤135, Kayano 31 — closes Build phase before Taper
 - Sunday, 2 August 2026: Easy 30–40min recovery walk — Taper phase begins
 
 **Norway Prep**
-- Today (rest day): loaded 7–10kg stair session, HDB stairwell or Mount Faber, Columbia OutDry shoes — banks break-in km on a day with no run to add fatigue
-- After Saturday's run: single-leg step-downs, 3×10 each leg — eccentric quad prep for downhill braking
-- Sunday/Monday: 2–3hr loaded gear walk (Faber/Southern Ridges), OutDry shoes — 6–7 days out from Aug 8, needs banking now
+- Today (post-shakeout): loaded 7–10kg stair session, HDB stairwell or Mount Faber, Columbia OutDry shoes — legs are fresh enough after a light jog
+- After Saturday's long run: single-leg step-downs, 3×10 each leg — eccentric quad prep for downhill braking
+- Sunday/Monday: 2–3hr loaded gear walk (Faber/Southern Ridges), OutDry shoes — 6–7 days out from Aug 8, bank it now
 
 **Fuel**
-Yesterday burned 1,913 kcal (active 125, BMR 1,788); today's target ≈2,020 kcal — rest day, no deficit.
-- Breakfast: Soy milk + kaya toast set — ~550
+Today's shakeout burned 143 kcal on top of BMR ~1,788; intake target ≈2,165 kcal — light day, no deficit.
+- Breakfast: Kaya toast set + soy milk — ~550
 - Lunch: Chicken rice — ~600
 - Snack: Yogurt + banana — ~255
-- Dinner: Bak chor mee — ~500
-- Evening: Kopi — ~115
-Total ≈ 2,020 kcal
-Today's active burn barely covers a kopi — the real job is banking a surplus for Saturday's long run.
+- Dinner: Wanton mee — ~410
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,165 kcal
+Tonight's jog alone ≈ just over one kopi.
 
 **Coach's take**
-150km banked in July with ACWR sitting at 1.1 is exactly the platform you wanted — one more disciplined rest day and Saturday's long run turns fitness into your second HM anchor.
+153km in July with ACWR sitting optimal at 1.2 and fatigue stabilising is exactly the platform for Saturday's long run to lock in your second HM anchor.
