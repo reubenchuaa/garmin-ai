@@ -1,4 +1,4 @@
-_Updated: Sunday, 02 Aug 2026 at 02:44 AM SGT_
+_Updated: Sunday, 02 Aug 2026 at 03:32 AM SGT_
 
 **Taper day 2 — ACWR still OPTIMAL at 1.0, readiness holds at 69, and today's only job is to keep absorbing last week's work before Norway.**
 
