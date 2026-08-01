@@ -270428,20 +270428,20 @@
     {
       "date": "2026-08-01",
       "wellness": {
-        "totalSteps": 283,
-        "totalDistanceMeters": 228,
+        "totalSteps": 2738,
+        "totalDistanceMeters": 2116,
         "averageStressLevel": 13,
         "maxStressLevel": 65,
         "bodyBatteryHighestValue": 86,
         "bodyBatteryLowestValue": 8,
-        "floorsAscended": 0,
+        "floorsAscended": 14,
         "restingHeartRate": 48,
-        "maxAvgHeartRate": 86,
+        "maxAvgHeartRate": 115,
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 2,
-        "totalKilocalories": 694
+        "activeKilocalories": 68,
+        "totalKilocalories": 1336
       },
       "sleep": {
         "dailySleepDTO": {
