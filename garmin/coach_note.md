@@ -1,12 +1,12 @@
-_Updated: Sunday, 02 Aug 2026 at 01:13 AM SGT_
+_Updated: Sunday, 02 Aug 2026 at 01:45 AM SGT_
 
-**Taper day 1 — ACWR is OPTIMAL at 1.0, readiness has climbed back to 69, and today's job is simply to let last week's work absorb.**
+**Taper day 2 — ACWR still OPTIMAL at 1.0, readiness holds at 69, and the job today is simply to keep absorbing last week's work.**
 
 **What your data says**
-ACWR sat OPTIMAL at 1.0 on Aug 1 (349 acute vs 333 chronic) — a clean entry into Taper after last week's tempo/long-run block. HRV weekly average has eased from 78ms to 73ms over the past week (still BALANCED) and readiness swung 7 → 29 → 50 → 69 as you recovered from the Jul 27 long run and Jul 29 tempo — a real fatigue signal, and exactly why this week backs off. Garmin's HM ceiling is 1:54:31 (best-case, VO2max 56.3); Riegel off your Jul 29 10km tempo (54:24 @ HR154) projects ~2:00, so a realistic range is 2:00–2:05 vs your 1:45–1:50 goal — still soft with no HM-specific long run or time trial banked yet. August opens at 0km of the fresh 100km target, day 2 of 31.
+ACWR sat OPTIMAL at 1.0 as of Aug 1 (349 acute vs 333 chronic) — today's figure hasn't synced yet but nothing in the plan changes that. Training readiness is 69 this morning (MODERATE, all factors GOOD) after peaking at 75 yesterday; HRV weekly average keeps its gentle slide, 78ms → 73ms over the past week — a normal echo of last week's long run + tempo, not a red flag while readiness holds. Garmin's HM ceiling stays 1:54:31; Riegel off your Jul 29 10km tempo (54:24 @ HR154) still projects ~2:00, so a realistic range is 2:00–2:05 vs the 1:45–1:50 goal — still soft with no HM-specific long run or time trial banked since Jul 27. August's fresh 100km target opens at 0km, day 2 of 31 — plenty of runway once Peak Block lands.
 
 **Today's session**
-Easy 30–40min recovery walk, HR ≤135, in the Columbia OutDry shoes. Purpose: active recovery that banks break-in km without adding load while HRV and readiness finish resetting.
+Easy 30–40min recovery walk, HR ≤135, Columbia OutDry shoes. Purpose: bank break-in km without adding load while HRV and readiness finish resetting before Norway.
 
 **3-Day Plan**
 - Today (Sunday, 02 August 2026): Easy 30–40min recovery walk, HR ≤135, OutDry shoes
@@ -30,4 +30,4 @@ Total ≈ 2,050 kcal
 Today's walk alone ≈ 1 banana.
 
 **Coach's take**
-A quiet Sunday walk is the taper working exactly as designed — absorb this week's fatigue now and you'll roll into Senja fresh instead of cooked.
+Readiness bouncing back to 69 shows the taper is working — hold this easy line through Norway prep and you'll land in Senja fresh, not fried.
