@@ -270428,9 +270428,9 @@
     {
       "date": "2026-08-01",
       "wellness": {
-        "totalSteps": 3900,
-        "totalDistanceMeters": 3009,
-        "averageStressLevel": 25,
+        "totalSteps": 6574,
+        "totalDistanceMeters": 5115,
+        "averageStressLevel": 28,
         "maxStressLevel": 88,
         "bodyBatteryHighestValue": 86,
         "bodyBatteryLowestValue": 8,
@@ -270440,8 +270440,8 @@
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 85,
-        "totalKilocalories": 1447
+        "activeKilocalories": 112,
+        "totalKilocalories": 1698
       },
       "sleep": {
         "dailySleepDTO": {
@@ -277355,6 +277355,37 @@
         "sleepEndTimestampLocal": "2026-08-01T08:26:37.0"
       },
       "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-01",
+          "timestamp": "2026-08-01T12:15:55.0",
+          "timestampLocal": "2026-08-01T20:15:55.0",
+          "deviceId": 3436655159,
+          "level": "HIGH",
+          "feedbackLong": "HIGH_RT_HIGHEST_SS_AVAILABLE",
+          "feedbackShort": "WELL_RECOVERED",
+          "score": 75,
+          "sleepScore": 88,
+          "sleepScoreFactorPercent": 86,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 57,
+          "recoveryTimeFactorPercent": 98,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 89,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 349,
+          "stressHistoryFactorPercent": 63,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 100,
+          "hrvFactorFeedback": "VERY_GOOD",
+          "hrvWeeklyAverage": 73,
+          "sleepHistoryFactorPercent": 70,
+          "sleepHistoryFactorFeedback": "GOOD",
+          "validSleep": true,
+          "inputContext": "UPDATE_REALTIME_VARIABLES",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        },
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-08-01",
