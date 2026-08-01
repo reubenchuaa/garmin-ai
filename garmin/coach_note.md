@@ -1,9 +1,9 @@
-_Updated: Sunday, 02 Aug 2026 at 03:32 AM SGT_
+_Updated: Sunday, 02 Aug 2026 at 04:27 AM SGT_
 
-**Taper day 2 — ACWR still OPTIMAL at 1.0, readiness holds at 69, and today's only job is to keep absorbing last week's work before Norway.**
+**Taper day 2 — ACWR factor holds GOOD at 98%, readiness steady at 69, and today's only job is a recovery walk while the body absorbs last week's work before Norway.**
 
 **What your data says**
-ACWR sits OPTIMAL at 1.0 (349 acute vs 333 chronic, as of Aug 1 — today's figure hasn't synced yet). Training readiness is 69 this morning (MODERATE), RHR 52 is ~5bpm above your ~47 baseline — a mild echo of last week's tempo + long run, not a red flag while readiness holds. HRV weekly average keeps its gentle slide, 78ms → 73ms over the past week — normal post-load recovery, not a fatigue trend to act on yet. Garmin's HM ceiling stays 1:54:31; Riegel off your Jul 29 10km tempo (54:24 @ HR154) still projects ~2:00, so a realistic range is 2:00–2:05 vs the 1:45–1:50 goal — still soft with no HM-specific long run or time trial banked since Jul 27's 13km. August's 100km target opens at 0km, day 2 of 31 — plenty of runway once Peak Block lands.
+Acute load is flat at 349 with the ACWR factor at 98% (GOOD per Garmin) — no new load added since yesterday, exactly what a taper should look like. Training readiness is 69 this morning (MODERATE), RHR 52 is ~5bpm above your ~47 baseline (7-day avg 49) — a mild echo of last week's tempo + long run, not a red flag while readiness holds. HRV weekly average is steady at 73ms, though today's daily HRV factor ticked down to 89% from 100% — worth a glance, not yet a trend. Garmin's HM ceiling sits at 1:54:31; Riegel off your Jul 29 10km tempo (54:24 @ HR154) still projects ~2:00, so a realistic range is 2:00–2:05 vs the 1:45–1:50 goal — still soft with no HM-specific long run or time trial banked since Jul 27's 13km. August's 100km target opens at 0km, day 2 of 31 — plenty of runway once Peak Block lands.
 
 **Today's session**
 Easy 30–40min recovery walk, HR ≤135, Columbia OutDry shoes. Purpose: bank shoe break-in km without adding training load while HRV and readiness finish resetting before Norway.
@@ -30,4 +30,4 @@ Total ≈ 2,050 kcal
 Today's walk alone ≈ 1 banana.
 
 **Coach's take**
-Readiness holding at 69 after last week's load is exactly what a working taper looks like — protect this easy stretch and you'll land in Senja fresh, not fried.
+Flat acute load and readiness holding at 69 after last week's load is exactly what a working taper looks like — protect this easy stretch and you'll land in Senja fresh, not fried.
