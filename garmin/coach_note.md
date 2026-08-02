@@ -1,4 +1,4 @@
-_Updated: Sunday, 02 Aug 2026 at 06:36 PM SGT_
+_Updated: Sunday, 02 Aug 2026 at 07:19 PM SGT_
 
 **Taper is holding exactly as planned — ACWR optimal, today's loaded stair session was the smarter call than a run, and now it's about banking recovery before Norway.**
 
