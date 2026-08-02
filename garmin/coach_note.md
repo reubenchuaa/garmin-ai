@@ -1,4 +1,4 @@
-_Updated: Sunday, 02 Aug 2026 at 04:47 PM SGT_
+_Updated: Sunday, 02 Aug 2026 at 04:48 PM SGT_
 
 **Taper is doing its job on load, but HRV keeps sliding — eight days down now — so today's stair session was the right call, not a run.**
 
