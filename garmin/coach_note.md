@@ -1,12 +1,12 @@
-_Updated: Sunday, 02 Aug 2026 at 09:41 AM SGT_
+_Updated: Sunday, 02 Aug 2026 at 10:31 AM SGT_
 
-**Taper day 2 — load is still flat and optimal, readiness is moderate, and the recovery walk from this morning's plan is still on the table.**
+**Taper day 2 — ACWR is optimal but RHR and HRV both ticked the tired direction overnight, so today stays an easy walk, not a run.**
 
 **What your data says**
-ACWR reads OPTIMAL — acute load flat at 349, Garmin's acwr factor scores it 98/100 (GOOD band), no spike risk heading into Norway. Training readiness is 69 (MODERATE), RHR 52 sits +5bpm over your ~47 baseline, and HRV weekly average holds steady at 73ms — this is residual fatigue from last week's tempo + 13km long run settling out, not a fresh decline. Garmin's HM ceiling is 1:54:31; that's still the optimistic figure with no HM-specific long run beyond Jul 27's 13km banked, so treat the realistic range as 2:00–2:05 vs your 1:45–1:50 goal until a longer effort anchors it tighter. July closed at 153.3km, well clear of its 100km target; August has no formal mileage target — it's taper (through Aug 7) then Norway.
+ACWR reads OPTIMAL at 0.8 (acwr factor 98/100, GOOD band) — acute load has fallen to 271 as the taper does its job. But training readiness dipped to 70 (MODERATE, down from 75 HIGH yesterday): RHR ticked up to 52 (+5bpm over your ~47 baseline, from 48 yesterday), and HRV weekly average eased to 70ms, continuing a gentle six-day drift down from 76ms — this reads as residual fatigue from last week's tempo + 13km long run still settling, not a fresh red flag, but it's a reason to stay conservative today. Garmin's HM ceiling is 1:54:31; that's still the optimistic figure with no HM-specific long run beyond Jul 27's 13km banked, so treat the realistic range as 2:00–2:05 vs your 1:45–1:50 goal until a longer effort anchors it tighter. July closed at 153.3km, well clear of its 100km target; August carries no formal mileage target — it's taper (through Aug 7) then Norway.
 
 **Today's session**
-No run logged yet today — the easy 30–40min recovery walk (HR ≤135, Columbia OutDry shoes) from this morning's plan still stands. Purpose: bank shoe break-in km with zero training load while RHR and HRV finish settling before Norway.
+No run logged yet — hold the easy 30–40min recovery walk (HR ≤135, Columbia OutDry shoes) from this morning's plan. Purpose: bank shoe break-in km with zero training load while RHR and HRV finish settling before Norway.
 
 **3-Day Plan**
 - Today (Sunday, 02 August 2026): Easy 30–40min recovery walk, HR ≤135, OutDry shoes
@@ -30,4 +30,4 @@ Total ≈ 2,050 kcal
 Today's walk alone ≈ 1 banana.
 
 **Coach's take**
-Flat load, steady HRV, and a July that blew past 100km — hold this easy stretch a few more days and you land in Senja fresh, not fried.
+Load is exactly where it should be for a taper and July blew past 100km — let RHR and HRV finish resetting over the next day or two and you'll hit Norway fresh, not fried.
