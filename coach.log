@@ -402,3 +402,54 @@ Markdown notes written: 4 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+
+Fetching data for: 2026-07-31 → 2026-08-02
+
+  Activity: activity_2026-07-31_23800741563.md
+  Wellness: wellness_2026-07-31.md
+  Wellness: wellness_2026-08-01.md
+  Wellness: wellness_2026-08-02.md
+  Training status: None, ACWR: None
+  Race predictions — HM: 1:54:31
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+  [auth] Token OK — refresh token valid for 16 more days
+
+Fetching data for: 2026-07-31 → 2026-08-02
+
+  Activity: activity_2026-07-31_23800741563.md
+  Wellness: wellness_2026-07-31.md
+  Wellness: wellness_2026-08-01.md
+  Wellness: wellness_2026-08-02.md
+  Training status: None, ACWR: None
+  Race predictions — HM: 1:54:31
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+  [auth] Token OK — refresh token valid for 16 more days
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    2174 bytes)
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    2190 bytes)
+  [workout] Deleted old: Easy 9km (ID: 1649135350)
+  [workout] Pushing: Easy 5km (easy) for ?
+    - warmup: 5000m, HR 115-135
+  [workout] Created: Easy 5km (ID: 1649942301)
+  ✅ Pushed: Easy 5km → ?
+  [workout] Pushing: Easy 6km (easy) for ?
+    - warmup: 6000m, HR 115-135
+  [workout] Created: Easy 6km (ID: 1649942319)
+  ✅ Pushed: Easy 6km → ?
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+  [workout] Could not delete 1649135350: Error in request: 404 Client Error: Not Found for url: https://connectapi.garmin.com/workout-service/workout/1649135350
+  [workout] Pushing: Easy 5km (easy) for ?
+    - warmup: 5000m, HR 115-135
+  [workout] Created: Easy 5km (ID: 1649942323)
+  ✅ Pushed: Easy 5km → ?
+  [workout] Pushing: Easy 6km (easy) for ?
+    - warmup: 6000m, HR 115-135
+  [workout] Created: Easy 6km (ID: 1649942327)
+  ✅ Pushed: Easy 6km → ?
