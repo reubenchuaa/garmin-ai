@@ -1,9 +1,9 @@
-_Updated: Sunday, 02 Aug 2026 at 03:00 PM SGT_
+_Updated: Sunday, 02 Aug 2026 at 03:02 PM SGT_
 
-**Taper day one, ACWR still parked at the optimal 0.8 — the only thing asking for patience is HRV, which keeps sliding, so the walk stands, not a run.**
+**Taper day one holds — ACWR sits at the optimal 0.8, and the only thing still asking for patience is HRV, still sliding, so the walk stands, not a run.**
 
 **What your data says**
-ACWR 0.8 (OPTIMAL, acute 271 vs chronic 327) — textbook taper loading, training status PRODUCTIVE. Training readiness 70 (MODERATE), RHR 48 (+1 over baseline), body battery already at 71 mid-afternoon after waking at 95, stress low at 17 — all fine. The one signal to respect: HRV weekly average has slid 77→76→74→74→73→70ms over the past week, a genuine multi-day trend, not noise — reason enough to hold off on the run today. Garmin's HM ceiling is 1:54:31 — treat as best-case only; your longest HM-specific anchor is still just the Jul 27 13km run, so the honest range vs 1:45–1:50 is 2:00–2:05 until a real long effort or time trial lands. July closed well past its 100km target (final ~153km); August resets to 0km with no mileage goal this month — taper priority is freshness, not volume. Heat acclimation 100%.
+ACWR 0.8 (OPTIMAL, acute 271 vs chronic 327), training status PRODUCTIVE — textbook taper loading. Training readiness 70 (MODERATE), RHR 48 (+1 over baseline), body battery woke at 95 and already down to 71 mid-afternoon, stress low at 17 — all fine on their own. The signal to respect: HRV weekly average has now slid six straight days (77→76→74→74→73→70ms), a genuine trend, not noise — reason enough to hold the easy walk today rather than run. Garmin's HM ceiling is 1:54:31 — treat as best-case only; your longest HM-specific anchor is still just the Jul 27 13km run, so the honest range vs 1:45–1:50 stays 2:00–2:05 until a real long effort or time trial lands. July closed well past target at ~153km; August resets to 0km with no mileage goal this month — taper priority is freshness, not volume. Heat acclimation 100%.
 
 **Today's session**
 Hold the plan: easy 30–40min recovery walk, HR ≤135, Columbia OutDry shoes. Zero training load, banks break-in km while HRV resets before Norway.
