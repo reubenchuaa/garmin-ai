@@ -1,4 +1,4 @@
-_Updated: Monday, 03 Aug 2026 at 09:32 PM SGT_
+_Updated: Monday, 03 Aug 2026 at 09:49 PM SGT_
 
 **ACWR holds at 0.8 and overnight HRV spiked to 85ms — the taper is banking exactly the freshness you need before Norway.**
 
