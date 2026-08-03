@@ -1,4 +1,4 @@
-_Updated: Monday, 03 Aug 2026 at 06:12 PM SGT_
+_Updated: Monday, 03 Aug 2026 at 06:13 PM SGT_
 
 **ACWR sits at 0.8 — the low edge of optimal, exactly right for a taper — and today's easy run banks more OutDry break-in with five days left before Norway.**
 
