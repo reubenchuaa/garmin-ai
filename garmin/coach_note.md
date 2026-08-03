@@ -1,33 +1,33 @@
-_Updated: Sunday, 02 Aug 2026 at 10:45 PM SGT_
+_Updated: Monday, 03 Aug 2026 at 06:12 PM SGT_
 
-**Taper is on track — ACWR sits right in the pocket, today's loaded stairs did the leg-prep job a run couldn't, and the priority now is arriving at Norway fresh.**
+**ACWR sits at 0.8 — the low edge of optimal, exactly right for a taper — and today's easy run banks more OutDry break-in with five days left before Norway.**
 
 **What your data says**
-ACWR is 0.9 (OPTIMAL, acute 324 vs chronic 337), training status PRODUCTIVE — exactly what a taper week should look like. Garmin's HM prediction sits at 1:54:31 — treat that as a best-case ceiling; your only real HM-specific anchor is still the Jul 27 13km, so the honest range against the 1:45–1:50 goal is 2:00–2:05 until a genuine long effort or time trial lands. July running closed at 153km vs the 100km target (well exceeded); August carries no mileage target, so freshness for Norway is now the goal, not volume. Readiness is 60 (MODERATE), HRV weekly average has slipped to 70ms (down from 78ms eight days ago) though status stays BALANCED, and RHR is 48 — essentially at baseline. Worth watching, not alarming yet.
+ACWR is 0.8 (OPTIMAL, acute 267 vs chronic 327), training status PRODUCTIVE_3 — a controlled taper, not a fitness drop. Garmin's HM prediction reads 1:54:36; treat that as a best-case ceiling — your only genuine HM-specific anchor is still the Jul 27 13km, so the honest range against the 1:45–1:50 goal stays 2:00–2:05 until a real long effort or time trial lands. July running closed at 153km vs the 100km target — well exceeded. Readiness is 66 (MODERATE, up from 60), HRV bounced back to 85ms overnight (weekly avg 71, off Sunday's 70) and RHR is 47 — right at baseline. Recovery is trending the right way.
 
 **Today's session**
-No run — today's loaded stair climb (11.3kg pack, up and down, avg HR 125, 38min) already delivered the aerobic stimulus and is the single best Norway-downhill simulator available in Singapore. Close it out with single-leg step-downs, 3×10 each leg, to lock in the eccentric quad work from the loaded descents.
+Easy 4–5km, HR ≤135, Columbia OutDry shoes — this run doubles as break-in mileage before Norway. Purpose: aerobic maintenance through the taper while banking the last shoe-break-in km you need.
 
 **3-Day Plan**
-- Today (Sunday, 02 August 2026): Done — stair climb + step-downs tonight
-- Monday, 03 August 2026: Easy 4–5km, HR ≤135, Columbia OutDry shoes (break-in km)
+- Today (Monday, 03 August 2026): Easy 4–5km, HR ≤135, OutDry break-in
 - Tuesday, 04 August 2026: Easy 5–6km, HR ≤135, Asics Kayano 31
+- Wednesday, 05 August 2026: Rest or short 3km shakeout — protect freshness for Norway
 
 **Norway Prep**
-- Today's loaded stairs bank this week's downhill-eccentric simulation — no more loaded descents before Aug 8, legs need to arrive adapted, not trashed
-- Monday's easy run doubles as OutDry break-in km — 6 days left before departure
-- Tue–Wed: slot in one 2–3hr **unloaded** gear walk (Faber/Southern Ridges) in the OutDry shoes for final break-in mileage
-- All remaining walking/stairs must be in the OutDry — Day 1 blisters would wreck the trip
+- No more loaded stair descents this week — legs need to arrive adapted, not trashed, per the Aug 2 session
+- Today + Tuesday's runs finish the OutDry break-in — 5 days left before Aug 8
+- Wed or Thu: one 2–3hr **unloaded** gear walk (Southern Ridges/Faber) in the OutDry for final break-in mileage, no pack this close to departure
+- Single-leg step-downs, 3×10 each leg, after every run through this week for eccentric quad protection
 
 **Fuel**
-Yesterday burned 1,914 kcal (active 126, BMR 1,788); today's stair session adds on top, so target ≈2,100 kcal to protect recovery through the taper.
+Yesterday burned 2,143 kcal (active 355, BMR 1,788); today's easy run adds to that, so target ≈2,320 kcal.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
 - Snack: Banana — ~105
-- Dinner: Bak chor mee — ~500
+- Dinner: Laksa — ~700
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,120 kcal
-Today's stair session alone ≈ 1 Milo dinosaur.
+Total ≈ 2,320 kcal
+Today's easy run alone ≈ 1 Milo dinosaur.
 
 **Coach's take**
-This is what a smart taper looks like — one more easy day and HRV should climb back before you land in Norway ready, not depleted.
+Recovery markers are climbing right when you need them to — hold this easy rhythm and you land in Norway fresh, not fatigued.
