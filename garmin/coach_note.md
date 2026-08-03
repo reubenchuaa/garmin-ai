@@ -1,9 +1,9 @@
-_Updated: Monday, 03 Aug 2026 at 06:18 PM SGT_
+_Updated: Monday, 03 Aug 2026 at 06:50 PM SGT_
 
 **ACWR holds at 0.8 — right at the low edge of optimal for taper week — and today's easy run banks more OutDry break-in with five days to Norway.**
 
 **What your data says**
-ACWR 0.8 (OPTIMAL, acute 267 vs chronic 327), status PRODUCTIVE_3 — a controlled taper, not a fitness dip. Garmin's HM prediction reads 1:54:36 — a best-case ceiling; your only real HM-specific anchor is still the Jul 27 13km, so the honest range vs the 1:45–1:50 goal stays 2:00–2:05 until a genuine long effort or time trial lands. July running closed at 153km vs the 100km target — smashed it. Readiness 66 (MODERATE), overnight HRV 85ms (weekly avg 71), RHR 47 — right at baseline. Recovery is trending the right way into Norway.
+ACWR 0.8 (OPTIMAL, acute 267 vs chronic 327), status PRODUCTIVE_3 — a controlled taper, not a fitness dip. Garmin's HM prediction reads 1:54:36 — a best-case ceiling; your only real HM-specific anchor is still the Jul 27 13km, so the honest range vs the 1:45–1:50 goal stays 2:00–2:05 until a genuine long effort or time trial lands. July running closed at 153km vs the 100km target — smashed it; August carries no mileage target, so freshness for Norway is the priority now, not volume. Readiness 66 (MODERATE), overnight HRV 85ms (weekly avg 71), RHR 47 — right at baseline. Recovery is trending the right way into Norway.
 
 **Today's session**
 Easy 4–5km, HR ≤135, Columbia OutDry shoes — doubles as break-in mileage before Norway. Purpose: maintain aerobic stimulus through taper while banking the last shoe-break-in km before Aug 8.
