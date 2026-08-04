@@ -1,4 +1,4 @@
-_Updated: Tuesday, 04 Aug 2026 at 04:30 PM SGT_
+_Updated: Tuesday, 04 Aug 2026 at 06:12 PM SGT_
 
 **Taper is banking exactly as planned — ACWR 0.7, HRV steady, four days from Norway with legs rested, not raced.**
 

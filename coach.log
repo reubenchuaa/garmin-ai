@@ -472,3 +472,32 @@ Markdown notes written: 4 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+Updating 70d7c38..a337207
+Fast-forward
+ docs/index.html               | 14 +++++++-------
+ garmin/data.json              | 10 +++++-----
+ garmin/data.json.bak          | 10 +++++-----
+ garmin/wellness_2026-08-02.md |  4 ++--
+ 4 files changed, 19 insertions(+), 19 deletions(-)
+[main 3205653] reconcile: regenerate dashboard
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Fetching data for: 2026-07-31 → 2026-08-02
+
+  Activity: activity_2026-08-02_23820517662.md
+  Activity: activity_2026-07-31_23800741563.md
+  Wellness: wellness_2026-07-31.md
+  Wellness: wellness_2026-08-01.md
+  Wellness: wellness_2026-08-02.md
+  Training status: PRODUCTIVE_3, ACWR: 0.9
+  Race predictions — HM: 1:54:31
+
+All data saved to garmin/data.json
+Markdown notes written: 5 files
+  [auth] Token OK — refresh token valid for 15 more days
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    2529 bytes)
+  [workout] Already pushed: Easy 5km (?), Easy 6km (?) — skipping
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
