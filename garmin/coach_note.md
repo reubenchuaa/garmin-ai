@@ -1,33 +1,33 @@
 _Updated: Tuesday, 04 Aug 2026 at 06:12 PM SGT_
 
-**Taper is banking exactly as planned — ACWR 0.7, HRV steady, four days from Norway with legs rested, not raced.**
+**Taper right on script — today's easy run nailed the HR cap, ACWR back to OPTIMAL four days out from Norway.**
 
 **What your data says**
-ACWR holds at 0.7 (LOW — acute 245 vs chronic 325), training status PRODUCTIVE — this is deliberate taper, not undertraining, ahead of Norway's aerobic overload. Garmin's HM prediction is 1:54:41 — treat that as the optimistic ceiling; your only genuine HM anchor is still the Jul 27 13km easy at HR 137, so the honest range vs 1:45-1:50 stays ~2:00-2:05 until a real long run or time trial lands. July closed at 153km vs the 100km target — comfortably exceeded. Readiness 65 (MODERATE), HRV steady in the low-70s (71ms today, no decline), RHR 50 (+3 vs ~47 baseline — normal), sleep 7.1h. Heat acclimation 100%.
+ACWR is 0.9 (OPTIMAL — acute 312 vs chronic 337), training status PRODUCTIVE. Garmin's HM prediction sits at 1:54:08 — treat that as the optimistic ceiling; your only genuine HM-specific anchor is still the Jul 27 13km easy at HR 137, so the honest range vs your 1:45-1:50 goal stays ~2:00-2:05 until a real long run or time trial lands. July closed at 153km vs the 100km target — comfortably exceeded; August starts clean with today's 5.02km. Readiness 53 (moderate), HRV steady around 71ms (no decline), RHR 50 (+3 vs ~47 baseline — still fine), sleep 7.0h. Heat acclimation 100%.
 
 **Today's session**
-Easy 5-6km, HR ≤135, Kayano 31 — not yet logged. Purpose: keep the aerobic engine ticking over without adding fatigue this close to Norway.
+DONE ✅ — 5.02km easy, 33.3min, avg HR 134, right under the 135 cap. Exactly the taper-week aerobic top-up prescribed: keeps the engine ticking over without adding fatigue this close to Norway.
 
 **3-Day Plan**
-- Today (Tuesday, 04 August 2026): Easy 5-6km, HR ≤135, Kayano 31
-- Wednesday, 05 August 2026: Unloaded 2-3hr gear walk (Southern Ridges/Faber), OutDry shoes, or rest if flat
+- Today (Tuesday, 04 August 2026): Easy 5.02km, HR 134 — DONE ✅
+- Wednesday, 05 August 2026: Unloaded 2-3hr gear walk (Southern Ridges/Faber), OutDry shoes — last shoe break-in opportunity
 - Thursday, 06 August 2026: Short easy 3-4km shakeout or rest — final easy day before travel prep
 
 **Norway Prep**
-- No more loaded stair descents — Aug 2/3 already banked the downhill-eccentric adaptation
-- Wed or Thu: one 2-3hr UNLOADED gear walk in the OutDry shoes — last shot at break-in km
-- Single-leg step-downs, 3x10 each leg, after today's run
-- Remaining walking stays in the OutDry shoes — break-in window closes Aug 8
+- No more loaded stair descents — Aug 2/3 sessions already banked the downhill-eccentric adaptation
+- Wed: the 2-3hr unloaded gear walk in OutDry shoes — last real shot at break-in km before Aug 8
+- Single-leg step-downs, 3x10 each leg, post-run today — eccentric quad protection for Norway's downhills
+- All remaining walking stays in the OutDry shoes — break-in window closes Aug 8
 
 **Fuel**
-Yesterday burned 2,155 kcal (active 367, BMR 1,788); with today's easy run, target ≈2,300 kcal.
+Yesterday burned 2,155 kcal (active 367, BMR 1,788); today's run added ~295 kcal — target ≈2,300 kcal to fuel training, no deficit.
 - Breakfast: Kaya toast set + soy milk — ~550
-- Lunch: Nasi lemak — ~490
+- Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
-- Dinner: Chicken rice — ~600
+- Dinner: Bak chor mee — ~500
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,245 kcal
-Today's run alone ≈ 1 Milo dinosaur.
+Total ≈ 2,255 kcal
+Today's run alone ≈ nearly a Milo dinosaur.
 
 **Coach's take**
-A flat ACWR and steady HRV four days from Norway isn't stagnation — it's a taper banked on schedule, and you'll feel the payoff on Husfjellet's first climb.
+An OPTIMAL ACWR, a textbook easy run under HR cap, and 100% heat acclimation four days from Norway — this is exactly what a well-banked taper looks like.
