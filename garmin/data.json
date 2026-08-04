@@ -17239,6 +17239,233 @@
       "autoCalcCalories": false,
       "elevationCorrected": false,
       "atpActivity": false
+    },
+    {
+      "activityId": 23846251128,
+      "activityName": "Singapore - Easy 6km",
+      "startTimeLocal": "2026-08-04 16:48:38",
+      "startTimeGMT": "2026-08-04 08:48:38",
+      "activityType": {
+        "typeId": 1,
+        "typeKey": "running",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "distance": 5024.06982421875,
+      "duration": 2000.7060546875,
+      "elapsedDuration": 2059.81298828125,
+      "movingDuration": 1997.0320129394531,
+      "elevationGain": 8.0,
+      "elevationLoss": 15.0,
+      "averageSpeed": 2.5109999179840083,
+      "maxSpeed": 5.374000072479248,
+      "startLatitude": 1.3843315746635199,
+      "startLongitude": 103.8933499250561,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 295.0,
+      "bmrCalories": 41.0,
+      "averageHR": 134.0,
+      "maxHR": 146.0,
+      "averageRunningCadenceInStepsPerMinute": 173.375,
+      "maxRunningCadenceInStepsPerMinute": 211.0,
+      "steps": 5788,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "hasVideo": false,
+      "timeZoneId": 135,
+      "beginTimestamp": 1785833318000,
+      "sportTypeId": 1,
+      "avgPower": 200.0,
+      "maxPower": 398.0,
+      "aerobicTrainingEffect": 2.700000047683716,
+      "anaerobicTrainingEffect": 0.0,
+      "normPower": 200.0,
+      "avgVerticalOscillation": 8.080000305175782,
+      "avgGroundContactTime": 264.8999938964844,
+      "avgStrideLength": 86.14000244140625,
+      "vO2MaxValue": 54.0,
+      "avgVerticalRatio": 9.390000343322754,
+      "workoutId": 1653780160,
+      "deviceId": 3436655159,
+      "minElevation": 7.199999809265137,
+      "maxElevation": 20.399999618530273,
+      "avgElevation": 10.249175383650261,
+      "maxDoubleCadence": 211.0,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.4000005722045899,
+      "manufacturer": "GARMIN",
+      "locationName": "Singapore",
+      "lapCount": 6,
+      "endLatitude": 1.3797140680253506,
+      "endLongitude": 103.8938179705292,
+      "waterEstimated": 555.0,
+      "trainingEffectLabel": "AEROBIC_BASE",
+      "activityTrainingLoad": 53.239105224609375,
+      "minActivityLapDuration": 9.609999656677246,
+      "aerobicTrainingEffectMessage": "MAINTAINING_AEROBIC_FITNESS_1",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "splitSummaries": [
+        {
+          "noOfSplits": 2,
+          "totalAscent": 8.0,
+          "duration": 1995.637939453125,
+          "splitType": "RWD_RUN",
+          "numClimbSends": 0,
+          "maxElevationGain": 8.0,
+          "averageElevationGain": 4.0,
+          "maxDistance": 4116,
+          "maxDistanceWithPrecision": 4116.60009765625,
+          "distance": 5011.9501953125,
+          "averageSpeed": 2.510999917984009,
+          "maxSpeed": 5.374000072479248,
+          "numFalls": 0,
+          "elevationLoss": 15.0,
+          "avgStepFrequency": 173.65625,
+          "avgStepLength": 0.8614000244140625,
+          "verticalRatio": 9.390000343322754,
+          "verticalOscillation": 8.09000015258789,
+          "avgGroundContactTime": 264.8999938964844
+        },
+        {
+          "noOfSplits": 1,
+          "totalAscent": 8.0,
+          "duration": 2000.7060546875,
+          "splitType": "INTERVAL_WARMUP",
+          "numClimbSends": 0,
+          "maxElevationGain": 8.0,
+          "averageElevationGain": 8.0,
+          "maxDistance": 5024,
+          "maxDistanceWithPrecision": 5024.06982421875,
+          "distance": 5024.06982421875,
+          "averageSpeed": 2.510999917984009,
+          "maxSpeed": 5.374000072479248,
+          "numFalls": 0,
+          "elevationLoss": 15.0,
+          "avgStepFrequency": 173.359375,
+          "avgStepLength": 0.8614000244140625,
+          "verticalRatio": 9.390000343322754,
+          "verticalOscillation": 8.080000305175782,
+          "avgGroundContactTime": 264.8999938964844
+        },
+        {
+          "noOfSplits": 1,
+          "totalAscent": 0.0,
+          "duration": 4.0,
+          "splitType": "RWD_WALK",
+          "numClimbSends": 0,
+          "maxElevationGain": 0.0,
+          "averageElevationGain": 0.0,
+          "maxDistance": 12,
+          "maxDistanceWithPrecision": 12.119999885559082,
+          "distance": 12.119999885559082,
+          "averageSpeed": 3.0299999713897705,
+          "maxSpeed": 0.9890000224113464,
+          "numFalls": 0,
+          "elevationLoss": 0.0,
+          "avgStepFrequency": 47.0,
+          "verticalOscillation": 5.529999923706055
+        },
+        {
+          "noOfSplits": 1,
+          "totalAscent": 0.0,
+          "duration": 1.0549999475479126,
+          "splitType": "RWD_STAND",
+          "numClimbSends": 0,
+          "maxElevationGain": 0.0,
+          "averageElevationGain": 0.0,
+          "maxDistance": 0,
+          "maxDistanceWithPrecision": 0.0,
+          "distance": 0.0,
+          "averageSpeed": 0.0,
+          "maxSpeed": 0.0,
+          "numFalls": 0,
+          "elevationLoss": 0.0,
+          "avgStepFrequency": 94.0
+        }
+      ],
+      "hasSplits": true,
+      "hasIntensityIntervals": false,
+      "moderateIntensityMinutes": 1,
+      "vigorousIntensityMinutes": 32,
+      "avgGradeAdjustedSpeed": 2.484999895095825,
+      "differenceBodyBattery": -6,
+      "hasHeatMap": false,
+      "fastestSplit_1000": 395.45098876953125,
+      "fastestSplit_1609": 642.9819946289062,
+      "fastestSplit_5000": 2048.787109375,
+      "hrTimeInZone_1": 28.239,
+      "hrTimeInZone_2": 578.628,
+      "hrTimeInZone_3": 1386.592,
+      "hrTimeInZone_4": 0.0,
+      "hrTimeInZone_5": 0.0,
+      "powerTimeInZone_1": 1692.4,
+      "powerTimeInZone_2": 38.998,
+      "powerTimeInZone_3": 10.0,
+      "powerTimeInZone_4": 7.002,
+      "powerTimeInZone_5": 5.998,
+      "endTimeGMT": "2026-08-04 09:22:57",
+      "qualifyingDive": false,
+      "activityUUID": "35364d1e-a94a-42d4-a516-d96fb79d8059",
+      "parent": false,
+      "decoDive": false,
+      "purposeful": false,
+      "autoCalcCalories": false,
+      "favorite": false,
+      "elevationCorrected": false,
+      "atpActivity": false,
+      "manualActivity": false,
+      "pr": false
     }
   ],
   "wellness": [
@@ -277693,142 +277920,20 @@
     {
       "date": "2026-08-02",
       "wellness": {
-        "userProfileId": 9515677,
-        "totalKilocalories": 2143.0,
-        "activeKilocalories": 355.0,
-        "bmrKilocalories": 1788.0,
-        "wellnessKilocalories": 2143.0,
-        "burnedKilocalories": null,
-        "consumedKilocalories": null,
-        "remainingKilocalories": null,
         "totalSteps": 12246,
-        "netCalorieGoal": null,
         "totalDistanceMeters": 9421,
-        "wellnessDistanceMeters": 9421,
-        "wellnessActiveKilocalories": 355.0,
-        "netRemainingKilocalories": 355.0,
-        "userDailySummaryId": 9515677,
-        "calendarDate": "2026-08-02",
-        "rule": {
-          "typeId": 2,
-          "typeKey": "private"
-        },
-        "uuid": "c9cc5ff85939452cba5e07d0f8b5ac69",
-        "dailyStepGoal": 9570,
-        "wellnessStartTimeGmt": "2026-08-01T16:00:00.0",
-        "wellnessStartTimeLocal": "2026-08-02T00:00:00.0",
-        "wellnessEndTimeGmt": "2026-08-02T16:00:00.0",
-        "wellnessEndTimeLocal": "2026-08-03T00:00:00.0",
-        "durationInMilliseconds": 86400000,
-        "wellnessDescription": null,
-        "highlyActiveSeconds": 1309,
-        "activeSeconds": 5055,
-        "sedentarySeconds": 47336,
-        "sleepingSeconds": 32700,
-        "includesWellnessData": true,
-        "includesActivityData": true,
-        "includesCalorieConsumedData": false,
-        "privacyProtected": false,
-        "moderateIntensityMinutes": 18,
-        "vigorousIntensityMinutes": 19,
-        "floorsAscendedInMeters": 16.523,
-        "floorsDescendedInMeters": 24.437,
-        "floorsAscended": 5.42093,
-        "floorsDescended": 8.01739,
-        "intensityMinutesGoal": 150,
-        "userFloorsAscendedGoal": 10,
-        "minHeartRate": 45,
-        "maxHeartRate": 149,
-        "restingHeartRate": 48,
-        "lastSevenDaysAvgRestingHeartRate": 48,
-        "source": "GARMIN",
         "averageStressLevel": 25,
         "maxStressLevel": 93,
-        "stressDuration": 20700,
-        "restStressDuration": 35820,
-        "activityStressDuration": 17760,
-        "uncategorizedStressDuration": 11700,
-        "totalStressDuration": 85980,
-        "lowStressDuration": 12900,
-        "mediumStressDuration": 5880,
-        "highStressDuration": 1920,
-        "stressPercentage": 24.08,
-        "restStressPercentage": 41.66,
-        "activityStressPercentage": 20.66,
-        "uncategorizedStressPercentage": 13.61,
-        "lowStressPercentage": 15.0,
-        "mediumStressPercentage": 6.84,
-        "highStressPercentage": 2.23,
-        "stressQualifier": "BALANCED",
-        "measurableAwakeDuration": 41700,
-        "measurableAsleepDuration": 32580,
-        "lastSyncTimestampGMT": null,
-        "minAvgHeartRate": 45,
-        "maxAvgHeartRate": 149,
-        "bodyBatteryChargedValue": 78,
-        "bodyBatteryDrainedValue": 68,
         "bodyBatteryHighestValue": 95,
         "bodyBatteryLowestValue": 17,
-        "bodyBatteryMostRecentValue": 28,
-        "bodyBatteryDuringSleep": 76,
-        "bodyBatteryAtWakeTime": 95,
-        "bodyBatteryVersion": 3.0,
-        "abnormalHeartRateAlertsCount": null,
-        "averageSpo2": null,
-        "lowestSpo2": null,
-        "latestSpo2": null,
-        "latestSpo2ReadingTimeGmt": null,
-        "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": 41.0,
-        "restingCaloriesFromActivity": 47.0,
-        "bodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-02T14:30:11",
-          "bodyBatteryLevel": "MODERATE",
-          "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE",
-          "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE"
-        },
-        "endOfDayBodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-01T17:52:29",
-          "bodyBatteryLevel": "HIGH",
-          "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INACTIVE",
-          "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_INACTIVE"
-        },
-        "bodyBatteryActivityEventList": [
-          {
-            "eventType": "SLEEP",
-            "eventStartTimeGmt": "2026-08-01T17:16:41",
-            "timezoneOffset": 28800000,
-            "durationInMilliseconds": 32700000,
-            "bodyBatteryImpact": 76,
-            "feedbackType": "NONE",
-            "shortFeedback": "NONE",
-            "deviceId": 3436655159,
-            "activityName": null,
-            "activityType": null,
-            "activityId": null,
-            "eventUpdateTimeGmt": "2026-08-02T02:27:38"
-          },
-          {
-            "eventType": "ACTIVITY",
-            "eventStartTimeGmt": "2026-08-02T07:29:38",
-            "timezoneOffset": 28800000,
-            "durationInMilliseconds": 2220000,
-            "bodyBatteryImpact": -7,
-            "feedbackType": "EXERCISE_TRAINING_EFFECT_2",
-            "shortFeedback": "EASY_AEROBIC",
-            "deviceId": 3436655159,
-            "activityName": "Stair Stepper",
-            "activityType": "stair_climbing",
-            "activityId": 23820517662,
-            "eventUpdateTimeGmt": "2026-08-02T08:09:32"
-          }
-        ],
-        "avgWakingRespirationValue": 14.0,
-        "highestRespirationValue": 30.0,
-        "lowestRespirationValue": 8.0,
-        "latestRespirationValue": 14.0,
-        "latestRespirationTimeGMT": "2026-08-02T14:39:00.0",
-        "respirationAlgorithmVersion": 200
+        "floorsAscended": 5,
+        "restingHeartRate": 48,
+        "maxAvgHeartRate": 149,
+        "minAvgHeartRate": 45,
+        "moderateIntensityMinutes": 18,
+        "vigorousIntensityMinutes": 19,
+        "activeKilocalories": 355,
+        "totalKilocalories": 2143
       },
       "sleep": {
         "dailySleepDTO": {
@@ -286498,142 +286603,20 @@
     {
       "date": "2026-08-03",
       "wellness": {
-        "userProfileId": 9515677,
-        "totalKilocalories": 2155.0,
-        "activeKilocalories": 367.0,
-        "bmrKilocalories": 1788.0,
-        "wellnessKilocalories": 2155.0,
-        "burnedKilocalories": null,
-        "consumedKilocalories": null,
-        "remainingKilocalories": null,
         "totalSteps": 12347,
-        "netCalorieGoal": null,
         "totalDistanceMeters": 9494,
-        "wellnessDistanceMeters": 9494,
-        "wellnessActiveKilocalories": 367.0,
-        "netRemainingKilocalories": 367.0,
-        "userDailySummaryId": 9515677,
-        "calendarDate": "2026-08-03",
-        "rule": {
-          "typeId": 2,
-          "typeKey": "private"
-        },
-        "uuid": "a59c71282fc04406bdc55fc2dedcb354",
-        "dailyStepGoal": 9570,
-        "wellnessStartTimeGmt": "2026-08-02T16:00:00.0",
-        "wellnessStartTimeLocal": "2026-08-03T00:00:00.0",
-        "wellnessEndTimeGmt": "2026-08-03T16:00:00.0",
-        "wellnessEndTimeLocal": "2026-08-04T00:00:00.0",
-        "durationInMilliseconds": 86400000,
-        "wellnessDescription": null,
-        "highlyActiveSeconds": 1110,
-        "activeSeconds": 5427,
-        "sedentarySeconds": 55330,
-        "sleepingSeconds": 24533,
-        "includesWellnessData": true,
-        "includesActivityData": true,
-        "includesCalorieConsumedData": false,
-        "privacyProtected": false,
-        "moderateIntensityMinutes": 15,
-        "vigorousIntensityMinutes": 14,
-        "floorsAscendedInMeters": 21.336,
-        "floorsDescendedInMeters": 24.165,
-        "floorsAscended": 7.0,
-        "floorsDescended": 7.92815,
-        "intensityMinutesGoal": 150,
-        "userFloorsAscendedGoal": 10,
-        "minHeartRate": 44,
-        "maxHeartRate": 150,
-        "restingHeartRate": 47,
-        "lastSevenDaysAvgRestingHeartRate": 48,
-        "source": "GARMIN",
         "averageStressLevel": 35,
         "maxStressLevel": 93,
-        "stressDuration": 37440,
-        "restStressDuration": 26760,
-        "activityStressDuration": 16020,
-        "uncategorizedStressDuration": 5880,
-        "totalStressDuration": 86100,
-        "lowStressDuration": 16860,
-        "mediumStressDuration": 17160,
-        "highStressDuration": 3420,
-        "stressPercentage": 43.48,
-        "restStressPercentage": 31.08,
-        "activityStressPercentage": 18.61,
-        "uncategorizedStressPercentage": 6.83,
-        "lowStressPercentage": 19.58,
-        "mediumStressPercentage": 19.93,
-        "highStressPercentage": 3.97,
-        "stressQualifier": "STRESSFUL",
-        "measurableAwakeDuration": 55860,
-        "measurableAsleepDuration": 24360,
-        "lastSyncTimestampGMT": null,
-        "minAvgHeartRate": 45,
-        "maxAvgHeartRate": 145,
-        "bodyBatteryChargedValue": 73,
-        "bodyBatteryDrainedValue": 84,
         "bodyBatteryHighestValue": 95,
         "bodyBatteryLowestValue": 12,
-        "bodyBatteryMostRecentValue": 12,
-        "bodyBatteryDuringSleep": 72,
-        "bodyBatteryAtWakeTime": 95,
-        "bodyBatteryVersion": 3.0,
-        "abnormalHeartRateAlertsCount": null,
-        "averageSpo2": null,
-        "lowestSpo2": null,
-        "latestSpo2": null,
-        "latestSpo2ReadingTimeGmt": null,
-        "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": 36.0,
-        "restingCaloriesFromActivity": 37.0,
-        "bodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-03T15:08:46",
-          "bodyBatteryLevel": "LOW",
-          "feedbackShortType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE",
-          "feedbackLongType": "SLEEP_PREPARATION_STRESSFUL_AND_EXERCISE_AND_BB_LOW"
-        },
-        "endOfDayBodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-02T18:00:20",
-          "bodyBatteryLevel": "HIGH",
-          "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE",
-          "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE"
-        },
-        "bodyBatteryActivityEventList": [
-          {
-            "eventType": "SLEEP",
-            "eventStartTimeGmt": "2026-08-02T17:09:32",
-            "timezoneOffset": 28800000,
-            "durationInMilliseconds": 24480000,
-            "bodyBatteryImpact": 72,
-            "feedbackType": "NONE",
-            "shortFeedback": "NONE",
-            "deviceId": 3436655159,
-            "activityName": null,
-            "activityType": null,
-            "activityId": null,
-            "eventUpdateTimeGmt": "2026-08-02T23:58:25"
-          },
-          {
-            "eventType": "ACTIVITY",
-            "eventStartTimeGmt": "2026-08-03T12:57:52",
-            "timezoneOffset": 28800000,
-            "durationInMilliseconds": 1800000,
-            "bodyBatteryImpact": -3,
-            "feedbackType": "EXERCISE_TRAINING_EFFECT_2",
-            "shortFeedback": "EASY_AEROBIC",
-            "deviceId": 3436655159,
-            "activityName": null,
-            "activityType": null,
-            "activityId": null,
-            "eventUpdateTimeGmt": "2026-08-03T13:28:00"
-          }
-        ],
-        "avgWakingRespirationValue": 14.0,
-        "highestRespirationValue": 23.0,
-        "lowestRespirationValue": 7.0,
-        "latestRespirationValue": 16.0,
-        "latestRespirationTimeGMT": "2026-08-03T15:59:00.0",
-        "respirationAlgorithmVersion": 200
+        "floorsAscended": 6,
+        "restingHeartRate": 47,
+        "maxAvgHeartRate": 145,
+        "minAvgHeartRate": 45,
+        "moderateIntensityMinutes": 15,
+        "vigorousIntensityMinutes": 14,
+        "activeKilocalories": 367,
+        "totalKilocalories": 2155
       },
       "sleep": {
         "dailySleepDTO": {
@@ -293303,128 +293286,20 @@
     {
       "date": "2026-08-04",
       "wellness": {
-        "userProfileId": 9515677,
-        "totalKilocalories": 1257.0,
-        "activeKilocalories": 77.0,
-        "bmrKilocalories": 1180.0,
-        "wellnessKilocalories": 1257.0,
-        "burnedKilocalories": null,
-        "consumedKilocalories": null,
-        "remainingKilocalories": null,
-        "totalSteps": 4924,
-        "netCalorieGoal": null,
-        "totalDistanceMeters": 3808,
-        "wellnessDistanceMeters": 3808,
-        "wellnessActiveKilocalories": 77.0,
-        "netRemainingKilocalories": 77.0,
-        "userDailySummaryId": 9515677,
-        "calendarDate": "2026-08-04",
-        "rule": {
-          "typeId": 2,
-          "typeKey": "private"
-        },
-        "uuid": "1d80b431db874bcbacaf7b49fa0fe79b",
-        "dailyStepGoal": 9570,
-        "wellnessStartTimeGmt": "2026-08-03T16:00:00.0",
-        "wellnessStartTimeLocal": "2026-08-04T00:00:00.0",
-        "wellnessEndTimeGmt": "2026-08-04T07:51:00.0",
-        "wellnessEndTimeLocal": "2026-08-04T15:51:00.0",
-        "durationInMilliseconds": 57060000,
-        "wellnessDescription": null,
-        "highlyActiveSeconds": 1319,
-        "activeSeconds": 781,
-        "sedentarySeconds": 28740,
-        "sleepingSeconds": 26220,
-        "includesWellnessData": true,
-        "includesActivityData": false,
-        "includesCalorieConsumedData": false,
-        "privacyProtected": false,
-        "moderateIntensityMinutes": 0,
-        "vigorousIntensityMinutes": 0,
-        "floorsAscendedInMeters": 7.453,
-        "floorsDescendedInMeters": 4.28,
-        "floorsAscended": 2.44521,
-        "floorsDescended": 1.4042,
-        "intensityMinutesGoal": 150,
-        "userFloorsAscendedGoal": 10,
-        "minHeartRate": 48,
-        "maxHeartRate": 102,
-        "restingHeartRate": 50,
-        "lastSevenDaysAvgRestingHeartRate": 49,
-        "source": "GARMIN",
-        "averageStressLevel": 26,
+        "totalSteps": 12089,
+        "totalDistanceMeters": 9878,
+        "averageStressLevel": 28,
         "maxStressLevel": 94,
-        "stressDuration": 15060,
-        "restStressDuration": 29760,
-        "activityStressDuration": 9000,
-        "uncategorizedStressDuration": 3240,
-        "totalStressDuration": 57060,
-        "lowStressDuration": 8460,
-        "mediumStressDuration": 5880,
-        "highStressDuration": 720,
-        "stressPercentage": 26.39,
-        "restStressPercentage": 52.16,
-        "activityStressPercentage": 15.77,
-        "uncategorizedStressPercentage": 5.68,
-        "lowStressPercentage": 14.83,
-        "mediumStressPercentage": 10.3,
-        "highStressPercentage": 1.26,
-        "stressQualifier": "UNKNOWN",
-        "measurableAwakeDuration": 27780,
-        "measurableAsleepDuration": 26040,
-        "lastSyncTimestampGMT": "2026-08-04T07:52:12.768",
-        "minAvgHeartRate": 48,
-        "maxAvgHeartRate": 95,
-        "bodyBatteryChargedValue": 67,
-        "bodyBatteryDrainedValue": 39,
         "bodyBatteryHighestValue": 76,
         "bodyBatteryLowestValue": 9,
-        "bodyBatteryMostRecentValue": 40,
-        "bodyBatteryDuringSleep": 67,
-        "bodyBatteryAtWakeTime": 76,
-        "bodyBatteryVersion": 3.0,
-        "abnormalHeartRateAlertsCount": null,
-        "averageSpo2": null,
-        "lowestSpo2": null,
-        "latestSpo2": null,
-        "latestSpo2ReadingTimeGmt": null,
-        "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": 42.0,
-        "restingCaloriesFromActivity": null,
-        "bodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-04T04:32:11",
-          "bodyBatteryLevel": "MODERATE",
-          "feedbackShortType": "DAY_STRESSFUL_AND_INACTIVE",
-          "feedbackLongType": "DAY_STRESSFUL_AND_INACTIVE"
-        },
-        "endOfDayBodyBatteryDynamicFeedbackEvent": {
-          "eventTimestampGmt": "2026-08-03T19:17:19",
-          "bodyBatteryLevel": "HIGH",
-          "feedbackShortType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE",
-          "feedbackLongType": "SLEEP_TIME_PASSED_STRESSFUL_AND_EXERCISE"
-        },
-        "bodyBatteryActivityEventList": [
-          {
-            "eventType": "SLEEP",
-            "eventStartTimeGmt": "2026-08-03T17:15:00",
-            "timezoneOffset": 28800000,
-            "durationInMilliseconds": 26220000,
-            "bodyBatteryImpact": 67,
-            "feedbackType": "NONE",
-            "shortFeedback": "NONE",
-            "deviceId": 3436655159,
-            "activityName": null,
-            "activityType": null,
-            "activityId": null,
-            "eventUpdateTimeGmt": "2026-08-04T00:58:59"
-          }
-        ],
-        "avgWakingRespirationValue": 14.0,
-        "highestRespirationValue": 23.0,
-        "lowestRespirationValue": 7.0,
-        "latestRespirationValue": 21.0,
-        "latestRespirationTimeGMT": "2026-08-04T07:51:00.0",
-        "respirationAlgorithmVersion": 200
+        "floorsAscended": 3,
+        "restingHeartRate": 50,
+        "maxAvgHeartRate": 140,
+        "minAvgHeartRate": 48,
+        "moderateIntensityMinutes": 3,
+        "vigorousIntensityMinutes": 34,
+        "activeKilocalories": 382,
+        "totalKilocalories": 1690
       },
       "sleep": {
         "dailySleepDTO": {
@@ -301174,2004 +301049,4016 @@
     }
   },
   "latest_route": {
-    "name": "Singapore Running",
-    "date": "2026-07-31",
+    "name": "Singapore - Easy 6km",
+    "date": "2026-08-04",
     "points": [
       [
-        1.384228,
-        103.893361
+        1.384332,
+        103.89335
       ],
       [
-        1.384189,
-        103.893359
+        1.384304,
+        103.893351
       ],
       [
-        1.384149,
-        103.893344
+        1.384262,
+        103.893365
       ],
       [
-        1.384106,
-        103.893339
+        1.384204,
+        103.89337
       ],
       [
-        1.38406,
-        103.893337
-      ],
-      [
-        1.384014,
-        103.893329
-      ],
-      [
-        1.383969,
-        103.893321
-      ],
-      [
-        1.383918,
-        103.893321
-      ],
-      [
-        1.383874,
-        103.893327
-      ],
-      [
-        1.383834,
-        103.89333
-      ],
-      [
-        1.383801,
-        103.893331
-      ],
-      [
-        1.383765,
-        103.893337
-      ],
-      [
-        1.38371,
-        103.893335
-      ],
-      [
-        1.383661,
-        103.893336
-      ],
-      [
-        1.383617,
-        103.893336
-      ],
-      [
-        1.383561,
-        103.893334
-      ],
-      [
-        1.383507,
-        103.893334
-      ],
-      [
-        1.383457,
-        103.893332
-      ],
-      [
-        1.383409,
-        103.893337
-      ],
-      [
-        1.383358,
-        103.893334
-      ],
-      [
-        1.383308,
-        103.893333
-      ],
-      [
-        1.383264,
-        103.893323
-      ],
-      [
-        1.383216,
-        103.893304
-      ],
-      [
-        1.383176,
-        103.893284
-      ],
-      [
-        1.383129,
-        103.893261
-      ],
-      [
-        1.383084,
-        103.89323
-      ],
-      [
-        1.383041,
-        103.89322
-      ],
-      [
-        1.382993,
-        103.893216
-      ],
-      [
-        1.382939,
-        103.89321
-      ],
-      [
-        1.382892,
-        103.893211
-      ],
-      [
-        1.382841,
-        103.893217
-      ],
-      [
-        1.382788,
-        103.893216
-      ],
-      [
-        1.38274,
-        103.893218
-      ],
-      [
-        1.382711,
-        103.89322
-      ],
-      [
-        1.382664,
-        103.893215
-      ],
-      [
-        1.382617,
-        103.893214
-      ],
-      [
-        1.382569,
-        103.893208
-      ],
-      [
-        1.38253,
-        103.893196
-      ],
-      [
-        1.38249,
-        103.893196
-      ],
-      [
-        1.382447,
-        103.893192
-      ],
-      [
-        1.382401,
-        103.893182
-      ],
-      [
-        1.382356,
-        103.893177
-      ],
-      [
-        1.382314,
-        103.89317
-      ],
-      [
-        1.382273,
-        103.893162
-      ],
-      [
-        1.382227,
-        103.893159
-      ],
-      [
-        1.382173,
-        103.893149
-      ],
-      [
-        1.382136,
-        103.893155
-      ],
-      [
-        1.382082,
-        103.893165
-      ],
-      [
-        1.382032,
-        103.893167
-      ],
-      [
-        1.38199,
-        103.893169
-      ],
-      [
-        1.381952,
-        103.893173
-      ],
-      [
-        1.381902,
-        103.893176
-      ],
-      [
-        1.381845,
-        103.893175
-      ],
-      [
-        1.381803,
-        103.893169
-      ],
-      [
-        1.381767,
-        103.89316
-      ],
-      [
-        1.381721,
-        103.893149
-      ],
-      [
-        1.381677,
-        103.893138
-      ],
-      [
-        1.381628,
-        103.893121
-      ],
-      [
-        1.381587,
-        103.893126
-      ],
-      [
-        1.381567,
-        103.893151
-      ],
-      [
-        1.381545,
-        103.893186
-      ],
-      [
-        1.38154,
-        103.893228
-      ],
-      [
-        1.381544,
-        103.893275
-      ],
-      [
-        1.381541,
-        103.893319
-      ],
-      [
-        1.381539,
+        1.384157,
         103.893369
       ],
       [
-        1.381542,
-        103.893413
+        1.384098,
+        103.893356
       ],
       [
-        1.38155,
-        103.893454
+        1.384035,
+        103.893335
       ],
       [
-        1.381551,
-        103.893499
+        1.383973,
+        103.89332
       ],
       [
-        1.381558,
-        103.89355
+        1.383927,
+        103.893325
       ],
       [
-        1.38156,
-        103.893593
+        1.383878,
+        103.893323
       ],
       [
-        1.381558,
-        103.893639
+        1.38383,
+        103.893319
       ],
       [
-        1.381542,
-        103.893673
+        1.383786,
+        103.893314
       ],
       [
-        1.381536,
-        103.893709
+        1.383744,
+        103.89331
       ],
       [
-        1.381526,
-        103.893746
+        1.383693,
+        103.893306
       ],
       [
-        1.381521,
-        103.893794
+        1.383643,
+        103.893299
       ],
       [
-        1.381524,
-        103.89384
+        1.383592,
+        103.893301
       ],
       [
-        1.381538,
-        103.893885
+        1.383538,
+        103.893296
       ],
       [
-        1.381565,
-        103.893922
+        1.383489,
+        103.893298
       ],
       [
-        1.38159,
-        103.893963
+        1.38344,
+        103.893302
       ],
       [
-        1.381618,
-        103.894002
+        1.383393,
+        103.893306
       ],
       [
-        1.381649,
-        103.894047
+        1.383346,
+        103.893304
       ],
       [
-        1.381675,
-        103.894091
+        1.383307,
+        103.893295
       ],
       [
-        1.381697,
-        103.894131
+        1.383263,
+        103.893289
       ],
       [
-        1.381717,
-        103.89417
+        1.38321,
+        103.893272
       ],
       [
-        1.381666,
-        103.894213
+        1.38316,
+        103.893254
       ],
       [
-        1.381674,
-        103.894264
+        1.383112,
+        103.893249
       ],
       [
-        1.381683,
-        103.894307
+        1.383055,
+        103.893247
       ],
       [
-        1.38169,
-        103.894352
+        1.383006,
+        103.893234
       ],
       [
-        1.381693,
-        103.894393
+        1.382962,
+        103.893236
       ],
       [
-        1.381692,
-        103.89444
+        1.382925,
+        103.893239
       ],
       [
-        1.381701,
-        103.894485
+        1.38288,
+        103.893247
       ],
       [
-        1.381708,
-        103.894536
+        1.382832,
+        103.89324
       ],
       [
-        1.381709,
-        103.894583
+        1.382775,
+        103.893233
       ],
       [
-        1.381711,
-        103.894629
+        1.382721,
+        103.893228
       ],
       [
-        1.381705,
-        103.894679
+        1.382671,
+        103.893218
       ],
       [
-        1.381686,
-        103.894721
+        1.382627,
+        103.893211
       ],
       [
-        1.381693,
-        103.894764
+        1.382584,
+        103.893204
       ],
       [
-        1.381692,
-        103.89481
+        1.382545,
+        103.893202
       ],
       [
-        1.381679,
-        103.894852
+        1.382502,
+        103.893202
       ],
       [
-        1.381665,
-        103.894909
-      ],
-      [
-        1.381648,
-        103.894967
-      ],
-      [
-        1.381635,
-        103.895018
-      ],
-      [
-        1.381627,
-        103.895063
-      ],
-      [
-        1.381621,
-        103.895101
-      ],
-      [
-        1.381621,
-        103.895135
-      ],
-      [
-        1.38162,
-        103.895164
-      ],
-      [
-        1.381623,
-        103.895214
-      ],
-      [
-        1.38162,
-        103.895257
-      ],
-      [
-        1.38162,
-        103.895306
-      ],
-      [
-        1.381624,
-        103.89535
-      ],
-      [
-        1.381623,
-        103.895391
-      ],
-      [
-        1.381621,
-        103.895429
-      ],
-      [
-        1.381609,
-        103.895467
-      ],
-      [
-        1.381595,
-        103.895506
-      ],
-      [
-        1.381589,
-        103.895539
-      ],
-      [
-        1.381584,
-        103.895579
-      ],
-      [
-        1.381585,
-        103.895623
-      ],
-      [
-        1.381583,
-        103.895675
-      ],
-      [
-        1.381577,
-        103.895723
-      ],
-      [
-        1.381563,
-        103.895773
-      ],
-      [
-        1.381545,
-        103.895818
-      ],
-      [
-        1.381528,
-        103.89586
-      ],
-      [
-        1.381514,
-        103.895899
-      ],
-      [
-        1.381494,
-        103.89594
-      ],
-      [
-        1.38147,
-        103.895976
-      ],
-      [
-        1.381454,
-        103.896017
-      ],
-      [
-        1.381436,
-        103.896056
-      ],
-      [
-        1.381412,
-        103.896092
-      ],
-      [
-        1.381397,
-        103.896133
-      ],
-      [
-        1.381381,
-        103.896171
-      ],
-      [
-        1.381373,
-        103.896212
-      ],
-      [
-        1.38136,
-        103.896251
-      ],
-      [
-        1.381342,
-        103.896295
-      ],
-      [
-        1.381327,
-        103.896333
-      ],
-      [
-        1.381308,
-        103.896372
-      ],
-      [
-        1.381286,
-        103.896407
-      ],
-      [
-        1.381263,
-        103.896445
-      ],
-      [
-        1.381245,
-        103.896489
-      ],
-      [
-        1.381231,
-        103.896526
-      ],
-      [
-        1.381215,
-        103.896558
-      ],
-      [
-        1.381195,
-        103.896591
-      ],
-      [
-        1.381168,
-        103.896623
-      ],
-      [
-        1.381144,
-        103.896659
-      ],
-      [
-        1.381111,
-        103.896695
-      ],
-      [
-        1.381076,
-        103.896738
-      ],
-      [
-        1.381044,
-        103.896778
-      ],
-      [
-        1.381027,
-        103.89682
-      ],
-      [
-        1.381017,
-        103.896856
-      ],
-      [
-        1.381016,
-        103.896894
-      ],
-      [
-        1.381015,
-        103.896932
-      ],
-      [
-        1.38101,
-        103.896962
-      ],
-      [
-        1.380976,
-        103.89699
-      ],
-      [
-        1.380922,
-        103.897004
-      ],
-      [
-        1.380864,
-        103.897004
-      ],
-      [
-        1.380808,
-        103.896996
-      ],
-      [
-        1.380766,
-        103.896979
-      ],
-      [
-        1.380725,
-        103.896961
-      ],
-      [
-        1.38068,
-        103.896969
-      ],
-      [
-        1.380639,
-        103.896985
-      ],
-      [
-        1.380591,
-        103.89699
-      ],
-      [
-        1.380544,
-        103.896984
-      ],
-      [
-        1.380498,
-        103.896969
-      ],
-      [
-        1.380458,
-        103.896958
-      ],
-      [
-        1.380423,
-        103.896951
-      ],
-      [
-        1.380378,
-        103.896943
-      ],
-      [
-        1.380329,
-        103.896938
-      ],
-      [
-        1.380281,
-        103.896927
-      ],
-      [
-        1.380239,
-        103.896921
-      ],
-      [
-        1.380198,
-        103.896917
-      ],
-      [
-        1.380162,
-        103.89691
-      ],
-      [
-        1.380121,
-        103.896906
-      ],
-      [
-        1.380094,
-        103.896904
-      ],
-      [
-        1.380052,
-        103.896898
-      ],
-      [
-        1.380006,
-        103.896889
-      ],
-      [
-        1.379958,
-        103.896882
-      ],
-      [
-        1.379909,
-        103.896876
-      ],
-      [
-        1.379865,
-        103.896867
-      ],
-      [
-        1.379823,
-        103.896861
-      ],
-      [
-        1.379783,
-        103.896856
-      ],
-      [
-        1.379737,
-        103.89686
-      ],
-      [
-        1.379689,
-        103.896852
-      ],
-      [
-        1.379648,
-        103.896828
-      ],
-      [
-        1.379618,
-        103.896797
-      ],
-      [
-        1.379593,
-        103.89677
-      ],
-      [
-        1.379577,
-        103.896733
-      ],
-      [
-        1.379572,
-        103.896692
-      ],
-      [
-        1.379589,
-        103.896649
-      ],
-      [
-        1.379603,
-        103.896612
-      ],
-      [
-        1.379615,
-        103.896563
-      ],
-      [
-        1.379626,
-        103.896521
-      ],
-      [
-        1.379638,
-        103.896483
-      ],
-      [
-        1.379643,
-        103.896443
-      ],
-      [
-        1.379654,
-        103.896409
-      ],
-      [
-        1.379669,
-        103.896373
-      ],
-      [
-        1.379684,
-        103.896333
-      ],
-      [
-        1.379699,
-        103.896291
-      ],
-      [
-        1.379712,
-        103.896241
-      ],
-      [
-        1.379731,
-        103.896198
-      ],
-      [
-        1.379753,
-        103.896154
-      ],
-      [
-        1.379768,
-        103.896112
-      ],
-      [
-        1.379784,
-        103.896074
-      ],
-      [
-        1.379799,
-        103.896036
-      ],
-      [
-        1.37981,
-        103.895996
-      ],
-      [
-        1.379832,
-        103.89596
-      ],
-      [
-        1.37985,
-        103.895922
-      ],
-      [
-        1.379869,
-        103.895883
-      ],
-      [
-        1.379889,
-        103.895845
-      ],
-      [
-        1.379901,
-        103.895809
-      ],
-      [
-        1.379912,
-        103.895769
-      ],
-      [
-        1.379928,
-        103.895727
-      ],
-      [
-        1.379948,
-        103.895685
-      ],
-      [
-        1.379971,
-        103.895639
-      ],
-      [
-        1.379991,
-        103.895594
-      ],
-      [
-        1.380009,
-        103.895552
-      ],
-      [
-        1.38002,
-        103.89551
-      ],
-      [
-        1.380029,
-        103.895465
-      ],
-      [
-        1.380036,
-        103.895417
-      ],
-      [
-        1.380048,
-        103.895374
-      ],
-      [
-        1.380063,
-        103.895334
-      ],
-      [
-        1.380081,
-        103.89529
-      ],
-      [
-        1.380091,
-        103.895244
-      ],
-      [
-        1.380102,
-        103.895199
-      ],
-      [
-        1.380112,
-        103.895155
-      ],
-      [
-        1.380125,
-        103.895108
-      ],
-      [
-        1.380136,
-        103.895063
-      ],
-      [
-        1.380147,
-        103.895015
-      ],
-      [
-        1.380159,
-        103.894969
-      ],
-      [
-        1.380168,
-        103.894932
-      ],
-      [
-        1.380185,
-        103.894894
-      ],
-      [
-        1.380199,
-        103.89485
-      ],
-      [
-        1.380203,
-        103.894807
-      ],
-      [
-        1.3802,
-        103.894759
-      ],
-      [
-        1.380205,
-        103.89471
-      ],
-      [
-        1.380203,
-        103.894659
-      ],
-      [
-        1.380203,
-        103.894608
-      ],
-      [
-        1.380198,
-        103.894568
-      ],
-      [
-        1.380192,
-        103.894525
-      ],
-      [
-        1.380186,
-        103.894477
-      ],
-      [
-        1.380186,
-        103.894429
-      ],
-      [
-        1.380183,
-        103.894379
-      ],
-      [
-        1.380175,
-        103.894334
-      ],
-      [
-        1.380176,
-        103.894288
-      ],
-      [
-        1.380184,
-        103.894243
-      ],
-      [
-        1.380183,
-        103.894196
-      ],
-      [
-        1.380187,
-        103.894154
-      ],
-      [
-        1.380191,
-        103.894106
-      ],
-      [
-        1.380199,
-        103.894063
-      ],
-      [
-        1.380205,
-        103.894022
-      ],
-      [
-        1.38021,
-        103.89397
-      ],
-      [
-        1.38021,
-        103.893922
-      ],
-      [
-        1.380206,
-        103.893876
-      ],
-      [
-        1.3802,
-        103.893827
-      ],
-      [
-        1.380201,
-        103.893787
-      ],
-      [
-        1.380208,
-        103.893748
-      ],
-      [
-        1.380214,
-        103.893705
-      ],
-      [
-        1.380213,
-        103.893667
-      ],
-      [
-        1.380206,
-        103.89363
-      ],
-      [
-        1.380204,
-        103.893582
-      ],
-      [
-        1.3802,
-        103.893534
-      ],
-      [
-        1.380197,
-        103.893488
-      ],
-      [
-        1.380195,
-        103.893434
-      ],
-      [
-        1.380197,
-        103.893384
-      ],
-      [
-        1.380193,
-        103.893337
-      ],
-      [
-        1.380197,
-        103.893293
-      ],
-      [
-        1.380194,
-        103.893245
-      ],
-      [
-        1.380201,
+        1.382461,
         103.893199
       ],
       [
-        1.380215,
+        1.382418,
+        103.893192
+      ],
+      [
+        1.382373,
+        103.89318
+      ],
+      [
+        1.382333,
+        103.893177
+      ],
+      [
+        1.38229,
+        103.893171
+      ],
+      [
+        1.382243,
+        103.893165
+      ],
+      [
+        1.382205,
+        103.893166
+      ],
+      [
+        1.382163,
+        103.893166
+      ],
+      [
+        1.382119,
         103.893155
       ],
       [
-        1.380241,
-        103.893117
-      ],
-      [
-        1.380229,
-        103.893079
-      ],
-      [
-        1.380198,
-        103.893052
-      ],
-      [
-        1.380172,
-        103.893017
-      ],
-      [
-        1.38015,
-        103.892976
-      ],
-      [
-        1.380142,
-        103.892928
-      ],
-      [
-        1.380145,
-        103.89288
-      ],
-      [
-        1.380154,
-        103.892836
-      ],
-      [
-        1.380165,
-        103.892791
-      ],
-      [
-        1.380186,
-        103.892755
-      ],
-      [
-        1.38022,
-        103.89272
-      ],
-      [
-        1.380246,
-        103.89268
-      ],
-      [
-        1.380237,
-        103.892642
-      ],
-      [
-        1.38023,
-        103.892597
-      ],
-      [
-        1.380229,
-        103.892548
-      ],
-      [
-        1.380229,
-        103.892503
-      ],
-      [
-        1.380235,
-        103.892458
-      ],
-      [
-        1.380241,
-        103.892414
-      ],
-      [
-        1.380245,
-        103.892373
-      ],
-      [
-        1.380242,
-        103.892328
-      ],
-      [
-        1.380238,
-        103.89228
-      ],
-      [
-        1.380237,
-        103.892234
-      ],
-      [
-        1.380232,
-        103.892191
-      ],
-      [
-        1.380232,
-        103.892149
-      ],
-      [
-        1.380226,
-        103.892104
-      ],
-      [
-        1.380228,
-        103.892065
-      ],
-      [
-        1.380221,
-        103.892025
-      ],
-      [
-        1.380222,
-        103.891983
-      ],
-      [
-        1.380224,
-        103.891942
-      ],
-      [
-        1.380232,
-        103.891901
-      ],
-      [
-        1.380245,
-        103.891855
-      ],
-      [
-        1.380253,
-        103.89181
-      ],
-      [
-        1.380254,
-        103.891758
-      ],
-      [
-        1.380261,
-        103.89171
-      ],
-      [
-        1.380268,
-        103.891666
-      ],
-      [
-        1.380276,
-        103.891621
-      ],
-      [
-        1.380286,
-        103.891579
-      ],
-      [
-        1.380292,
-        103.891533
-      ],
-      [
-        1.380293,
-        103.89149
-      ],
-      [
-        1.380308,
-        103.891449
-      ],
-      [
-        1.380318,
-        103.891405
-      ],
-      [
-        1.380327,
-        103.891359
-      ],
-      [
-        1.380339,
-        103.891316
-      ],
-      [
-        1.380358,
-        103.891278
-      ],
-      [
-        1.380368,
-        103.891243
-      ],
-      [
-        1.380384,
-        103.891203
-      ],
-      [
-        1.380396,
-        103.891162
-      ],
-      [
-        1.380412,
-        103.891118
-      ],
-      [
-        1.38043,
-        103.891073
-      ],
-      [
-        1.380443,
-        103.891029
-      ],
-      [
-        1.380464,
-        103.890988
-      ],
-      [
-        1.38049,
-        103.890945
-      ],
-      [
-        1.380507,
-        103.890902
-      ],
-      [
-        1.380521,
-        103.890864
-      ],
-      [
-        1.380551,
-        103.890839
-      ],
-      [
-        1.380571,
-        103.890806
-      ],
-      [
-        1.380589,
-        103.890768
-      ],
-      [
-        1.380611,
-        103.890727
-      ],
-      [
-        1.380637,
-        103.890687
-      ],
-      [
-        1.380662,
-        103.890647
-      ],
-      [
-        1.380691,
-        103.890608
-      ],
-      [
-        1.380726,
-        103.890576
-      ],
-      [
-        1.38075,
-        103.890538
-      ],
-      [
-        1.380775,
-        103.8905
-      ],
-      [
-        1.380805,
-        103.890466
-      ],
-      [
-        1.380833,
-        103.890442
-      ],
-      [
-        1.380864,
-        103.890414
-      ],
-      [
-        1.380891,
-        103.890389
-      ],
-      [
-        1.380924,
-        103.890354
-      ],
-      [
-        1.380953,
-        103.89033
-      ],
-      [
-        1.380989,
-        103.890295
-      ],
-      [
-        1.381019,
-        103.890264
-      ],
-      [
-        1.381047,
-        103.890227
-      ],
-      [
-        1.381068,
-        103.890187
-      ],
-      [
-        1.381091,
-        103.890149
-      ],
-      [
-        1.381118,
-        103.890109
-      ],
-      [
-        1.381138,
-        103.890076
-      ],
-      [
-        1.381156,
-        103.890038
-      ],
-      [
-        1.381181,
-        103.890002
-      ],
-      [
-        1.381212,
-        103.889968
-      ],
-      [
-        1.38124,
-        103.889933
-      ],
-      [
-        1.381272,
-        103.889897
-      ],
-      [
-        1.381297,
-        103.889867
-      ],
-      [
-        1.381322,
-        103.889841
-      ],
-      [
-        1.381353,
-        103.889807
-      ],
-      [
-        1.381382,
-        103.889773
-      ],
-      [
-        1.381415,
-        103.889739
-      ],
-      [
-        1.381443,
-        103.889701
-      ],
-      [
-        1.381471,
-        103.889664
-      ],
-      [
-        1.381504,
-        103.88963
-      ],
-      [
-        1.381534,
-        103.889596
-      ],
-      [
-        1.381562,
-        103.889559
-      ],
-      [
-        1.381593,
-        103.889528
-      ],
-      [
-        1.381622,
-        103.889494
-      ],
-      [
-        1.381652,
-        103.889462
-      ],
-      [
-        1.381685,
-        103.889428
-      ],
-      [
-        1.381708,
-        103.889389
-      ],
-      [
-        1.381736,
-        103.889353
-      ],
-      [
-        1.381767,
-        103.889315
-      ],
-      [
-        1.381804,
-        103.889277
-      ],
-      [
-        1.381838,
-        103.889239
-      ],
-      [
-        1.381869,
-        103.889202
-      ],
-      [
-        1.3819,
-        103.889169
-      ],
-      [
-        1.381932,
-        103.889133
-      ],
-      [
-        1.381962,
-        103.889096
-      ],
-      [
-        1.381993,
-        103.88906
+        1.382073,
+        103.893159
       ],
       [
         1.382023,
-        103.889023
+        103.89315
       ],
       [
-        1.382057,
-        103.888999
+        1.381975,
+        103.893134
       ],
       [
-        1.382099,
-        103.888979
+        1.381919,
+        103.893123
       ],
       [
-        1.382114,
-        103.888936
+        1.381858,
+        103.893115
       ],
       [
-        1.382121,
-        103.888897
+        1.381808,
+        103.893108
       ],
       [
-        1.382117,
-        103.888872
+        1.381766,
+        103.89311
       ],
       [
-        1.382054,
-        103.888829
+        1.381719,
+        103.893102
       ],
       [
-        1.382011,
-        103.8888
+        1.381675,
+        103.893088
       ],
       [
-        1.381967,
-        103.888771
+        1.381614,
+        103.893071
       ],
       [
-        1.381927,
-        103.88874
+        1.381553,
+        103.893061
       ],
       [
-        1.381886,
-        103.888721
+        1.3815,
+        103.893059
       ],
       [
-        1.381836,
-        103.888717
+        1.381442,
+        103.893065
       ],
       [
-        1.381787,
-        103.888721
+        1.381393,
+        103.893069
       ],
       [
-        1.38174,
-        103.888728
+        1.381357,
+        103.893092
       ],
       [
-        1.381697,
-        103.888737
+        1.381316,
+        103.893113
       ],
       [
-        1.381659,
-        103.888757
+        1.381264,
+        103.893124
       ],
       [
-        1.381624,
-        103.888787
+        1.381224,
+        103.893117
       ],
       [
-        1.381593,
-        103.888823
+        1.381188,
+        103.893085
       ],
       [
-        1.381571,
-        103.88886
+        1.381152,
+        103.893072
       ],
       [
-        1.381546,
-        103.888895
+        1.381106,
+        103.89306
       ],
       [
-        1.381521,
-        103.888939
+        1.381064,
+        103.893054
       ],
       [
-        1.381489,
-        103.888977
+        1.38102,
+        103.893048
       ],
       [
-        1.381459,
-        103.88902
+        1.380971,
+        103.893044
       ],
       [
-        1.381429,
-        103.889061
+        1.380916,
+        103.893039
       ],
       [
-        1.381405,
-        103.889098
+        1.380876,
+        103.893034
       ],
       [
-        1.381376,
-        103.889138
+        1.380831,
+        103.893036
       ],
       [
-        1.381351,
-        103.889183
+        1.380779,
+        103.893033
       ],
       [
-        1.381322,
-        103.889214
+        1.380741,
+        103.893025
       ],
       [
-        1.381286,
-        103.889252
+        1.380696,
+        103.893023
       ],
       [
-        1.381261,
-        103.889288
+        1.380652,
+        103.893021
       ],
       [
-        1.381234,
-        103.889325
+        1.380613,
+        103.893015
       ],
       [
-        1.381205,
-        103.889355
+        1.380574,
+        103.893007
       ],
       [
-        1.381177,
-        103.889394
+        1.38053,
+        103.893002
       ],
       [
-        1.381148,
-        103.88943
+        1.380483,
+        103.893
       ],
       [
-        1.381112,
-        103.889467
+        1.380416,
+        103.893003
       ],
       [
-        1.381079,
-        103.889502
+        1.380355,
+        103.893017
       ],
       [
-        1.381051,
-        103.88953
+        1.380322,
+        103.893051
       ],
       [
-        1.381021,
-        103.889564
+        1.380286,
+        103.893092
       ],
       [
-        1.380992,
-        103.889604
+        1.380252,
+        103.893138
       ],
       [
-        1.380961,
-        103.889641
+        1.380232,
+        103.893183
       ],
       [
-        1.380928,
-        103.889677
+        1.380218,
+        103.893223
       ],
       [
-        1.380888,
-        103.889714
+        1.380206,
+        103.893272
       ],
       [
-        1.380861,
-        103.889757
+        1.3802,
+        103.893319
       ],
       [
-        1.380832,
-        103.889798
+        1.380198,
+        103.893352
       ],
       [
-        1.380802,
-        103.889832
+        1.380196,
+        103.893391
       ],
       [
-        1.380765,
-        103.889866
+        1.3802,
+        103.893434
       ],
       [
-        1.380731,
-        103.889898
+        1.380209,
+        103.893478
       ],
       [
-        1.380701,
-        103.889936
+        1.380216,
+        103.893524
       ],
       [
-        1.380675,
-        103.889978
+        1.380213,
+        103.893572
       ],
       [
-        1.380644,
-        103.890019
+        1.380213,
+        103.893615
       ],
       [
-        1.380614,
-        103.890059
+        1.380215,
+        103.893656
       ],
       [
-        1.380583,
-        103.890096
+        1.380217,
+        103.893693
       ],
       [
-        1.380548,
-        103.890138
+        1.380215,
+        103.893737
       ],
       [
-        1.380518,
-        103.890181
+        1.38021,
+        103.893778
       ],
       [
-        1.380491,
-        103.89022
+        1.38021,
+        103.893828
       ],
       [
-        1.380459,
-        103.890255
+        1.380207,
+        103.893877
       ],
       [
-        1.380429,
-        103.890292
+        1.380208,
+        103.893923
       ],
       [
-        1.380409,
-        103.890332
+        1.380205,
+        103.893969
       ],
       [
-        1.380373,
-        103.89037
+        1.380197,
+        103.894027
       ],
       [
-        1.380336,
-        103.890406
+        1.3802,
+        103.894077
       ],
       [
-        1.38031,
-        103.890453
+        1.380199,
+        103.894124
       ],
       [
-        1.380287,
-        103.890499
+        1.380201,
+        103.894166
       ],
       [
-        1.380258,
-        103.890539
+        1.380207,
+        103.894209
       ],
       [
-        1.38023,
-        103.890573
+        1.380203,
+        103.894251
+      ],
+      [
+        1.380203,
+        103.894298
+      ],
+      [
+        1.380201,
+        103.894344
       ],
       [
         1.380202,
-        103.890603
+        103.894386
       ],
       [
-        1.38018,
-        103.890645
+        1.380206,
+        103.894424
       ],
       [
-        1.380159,
-        103.890692
+        1.380216,
+        103.894464
       ],
       [
-        1.380124,
-        103.890741
+        1.380223,
+        103.894519
       ],
       [
-        1.3801,
-        103.890785
+        1.380224,
+        103.894571
       ],
       [
-        1.380085,
-        103.890831
+        1.38023,
+        103.894608
       ],
       [
-        1.380069,
-        103.890885
+        1.38024,
+        103.894649
       ],
       [
-        1.380044,
-        103.890927
+        1.380238,
+        103.894694
       ],
       [
-        1.380024,
-        103.890975
+        1.380227,
+        103.894743
       ],
       [
-        1.380004,
-        103.891018
+        1.380221,
+        103.894789
       ],
       [
-        1.379991,
-        103.891072
+        1.380212,
+        103.894833
       ],
       [
-        1.379968,
-        103.891114
+        1.380203,
+        103.894877
       ],
       [
-        1.37995,
-        103.891159
+        1.380189,
+        103.894921
       ],
       [
-        1.379936,
-        103.891203
+        1.380177,
+        103.894969
       ],
       [
-        1.379921,
-        103.891251
+        1.380167,
+        103.895007
       ],
       [
-        1.379906,
-        103.891297
+        1.380162,
+        103.895044
       ],
       [
-        1.379898,
-        103.891345
+        1.380153,
+        103.895094
       ],
       [
-        1.379887,
-        103.89139
+        1.38015,
+        103.895144
       ],
       [
-        1.379879,
-        103.891436
+        1.380155,
+        103.895198
       ],
       [
-        1.379868,
-        103.891483
+        1.380152,
+        103.895245
       ],
       [
-        1.379856,
-        103.891537
+        1.380135,
+        103.895291
       ],
       [
-        1.379847,
-        103.891591
+        1.380127,
+        103.895335
       ],
       [
-        1.379844,
-        103.891635
+        1.380126,
+        103.895376
       ],
       [
-        1.379839,
-        103.891683
+        1.380117,
+        103.895425
       ],
       [
-        1.379829,
-        103.891727
+        1.380097,
+        103.895467
       ],
       [
-        1.379821,
-        103.891777
+        1.380071,
+        103.895506
       ],
       [
-        1.379807,
-        103.891817
+        1.380051,
+        103.895552
       ],
       [
-        1.379804,
-        103.891862
+        1.380035,
+        103.89559
       ],
       [
-        1.3798,
-        103.891906
+        1.380013,
+        103.895624
       ],
       [
-        1.379793,
-        103.891955
+        1.37999,
+        103.895663
       ],
       [
-        1.379782,
-        103.892
+        1.379971,
+        103.895711
       ],
       [
-        1.379783,
-        103.892048
+        1.379952,
+        103.895758
+      ],
+      [
+        1.379927,
+        103.895808
+      ],
+      [
+        1.379901,
+        103.89587
+      ],
+      [
+        1.379886,
+        103.895911
+      ],
+      [
+        1.379866,
+        103.895955
+      ],
+      [
+        1.379842,
+        103.895998
+      ],
+      [
+        1.37982,
+        103.896037
+      ],
+      [
+        1.379798,
+        103.89608
       ],
       [
         1.379784,
-        103.892099
+        103.896122
       ],
       [
-        1.379779,
-        103.892158
+        1.379767,
+        103.896164
       ],
       [
-        1.379785,
-        103.892216
+        1.37975,
+        103.896197
       ],
       [
-        1.37977,
-        103.892264
+        1.379734,
+        103.896243
       ],
       [
-        1.379732,
-        103.892287
+        1.379715,
+        103.896286
       ],
       [
-        1.379683,
-        103.892288
+        1.37969,
+        103.896334
       ],
       [
-        1.379636,
-        103.892288
+        1.379678,
+        103.896373
       ],
       [
-        1.379605,
-        103.892307
+        1.379664,
+        103.89641
       ],
       [
-        1.3796,
-        103.892335
+        1.379649,
+        103.89645
       ],
       [
-        1.379605,
-        103.89237
+        1.379632,
+        103.896487
       ],
       [
         1.379615,
-        103.892411
+        103.896531
       ],
       [
-        1.379631,
-        103.892456
+        1.379615,
+        103.896572
       ],
       [
-        1.379643,
-        103.892505
+        1.379606,
+        103.896609
       ],
       [
-        1.379648,
-        103.892552
+        1.379593,
+        103.896647
       ],
       [
-        1.379654,
-        103.8926
+        1.379596,
+        103.896688
       ],
       [
-        1.379669,
-        103.892639
+        1.379612,
+        103.896735
+      ],
+      [
+        1.379612,
+        103.896776
+      ],
+      [
+        1.37958,
+        103.896799
+      ],
+      [
+        1.379538,
+        103.896833
+      ],
+      [
+        1.379489,
+        103.896829
+      ],
+      [
+        1.379432,
+        103.896823
+      ],
+      [
+        1.37938,
+        103.89682
+      ],
+      [
+        1.379318,
+        103.896806
+      ],
+      [
+        1.379261,
+        103.896791
+      ],
+      [
+        1.379218,
+        103.896763
+      ],
+      [
+        1.379191,
+        103.896722
+      ],
+      [
+        1.37915,
+        103.896689
+      ],
+      [
+        1.379091,
+        103.896685
+      ],
+      [
+        1.37904,
+        103.896693
+      ],
+      [
+        1.378992,
+        103.896699
+      ],
+      [
+        1.378953,
+        103.896707
+      ],
+      [
+        1.378914,
+        103.896715
+      ],
+      [
+        1.378868,
+        103.896715
+      ],
+      [
+        1.378828,
+        103.89671
+      ],
+      [
+        1.378772,
+        103.896709
+      ],
+      [
+        1.378727,
+        103.896713
+      ],
+      [
+        1.378682,
+        103.896709
+      ],
+      [
+        1.378636,
+        103.896706
+      ],
+      [
+        1.378589,
+        103.896696
+      ],
+      [
+        1.378544,
+        103.89669
+      ],
+      [
+        1.378491,
+        103.896683
+      ],
+      [
+        1.378438,
+        103.896677
+      ],
+      [
+        1.378388,
+        103.896668
+      ],
+      [
+        1.378337,
+        103.89666
+      ],
+      [
+        1.378284,
+        103.896658
+      ],
+      [
+        1.378237,
+        103.896662
+      ],
+      [
+        1.378206,
+        103.896695
+      ],
+      [
+        1.378209,
+        103.896738
+      ],
+      [
+        1.378202,
+        103.896796
+      ],
+      [
+        1.378205,
+        103.89685
+      ],
+      [
+        1.378168,
+        103.896891
+      ],
+      [
+        1.378131,
+        103.896923
+      ],
+      [
+        1.378093,
+        103.896957
+      ],
+      [
+        1.378055,
+        103.896986
+      ],
+      [
+        1.378017,
+        103.897013
+      ],
+      [
+        1.377978,
+        103.897048
+      ],
+      [
+        1.377942,
+        103.897087
+      ],
+      [
+        1.377902,
+        103.897117
+      ],
+      [
+        1.377865,
+        103.897151
+      ],
+      [
+        1.377848,
+        103.897189
+      ],
+      [
+        1.377848,
+        103.897234
+      ],
+      [
+        1.37785,
+        103.897278
+      ],
+      [
+        1.377856,
+        103.89732
+      ],
+      [
+        1.377868,
+        103.897356
+      ],
+      [
+        1.377885,
+        103.897399
+      ],
+      [
+        1.377903,
+        103.897438
+      ],
+      [
+        1.377923,
+        103.897485
+      ],
+      [
+        1.377944,
+        103.897525
+      ],
+      [
+        1.377971,
+        103.897562
+      ],
+      [
+        1.378,
+        103.897599
+      ],
+      [
+        1.378027,
+        103.89764
+      ],
+      [
+        1.378052,
+        103.897686
+      ],
+      [
+        1.378046,
+        103.897728
+      ],
+      [
+        1.378008,
+        103.897752
+      ],
+      [
+        1.377958,
+        103.897755
+      ],
+      [
+        1.377909,
+        103.897755
+      ],
+      [
+        1.37786,
+        103.897763
+      ],
+      [
+        1.377817,
+        103.897771
+      ],
+      [
+        1.377774,
+        103.897776
+      ],
+      [
+        1.377733,
+        103.897784
+      ],
+      [
+        1.377694,
+        103.897785
+      ],
+      [
+        1.377644,
+        103.897783
+      ],
+      [
+        1.377595,
+        103.897783
+      ],
+      [
+        1.377547,
+        103.89778
+      ],
+      [
+        1.377498,
+        103.897764
+      ],
+      [
+        1.377456,
+        103.897746
+      ],
+      [
+        1.377419,
+        103.897723
+      ],
+      [
+        1.377382,
+        103.897696
+      ],
+      [
+        1.377346,
+        103.897672
+      ],
+      [
+        1.377309,
+        103.897648
+      ],
+      [
+        1.377264,
+        103.897628
+      ],
+      [
+        1.377221,
+        103.897618
+      ],
+      [
+        1.377182,
+        103.897611
+      ],
+      [
+        1.377134,
+        103.89761
+      ],
+      [
+        1.377087,
+        103.897626
+      ],
+      [
+        1.377046,
+        103.897653
+      ],
+      [
+        1.377011,
+        103.897679
+      ],
+      [
+        1.376973,
+        103.897705
+      ],
+      [
+        1.376928,
+        103.897731
+      ],
+      [
+        1.376886,
+        103.897752
+      ],
+      [
+        1.376849,
+        103.897771
+      ],
+      [
+        1.376811,
+        103.897788
+      ],
+      [
+        1.376768,
+        103.897808
+      ],
+      [
+        1.376727,
+        103.897821
+      ],
+      [
+        1.376683,
+        103.897829
+      ],
+      [
+        1.376637,
+        103.897838
+      ],
+      [
+        1.37659,
+        103.897844
+      ],
+      [
+        1.376543,
+        103.897853
+      ],
+      [
+        1.376496,
+        103.897855
+      ],
+      [
+        1.376451,
+        103.897858
+      ],
+      [
+        1.376413,
+        103.897865
+      ],
+      [
+        1.376374,
+        103.897865
+      ],
+      [
+        1.376329,
+        103.897867
+      ],
+      [
+        1.376279,
+        103.89787
+      ],
+      [
+        1.37624,
+        103.897866
+      ],
+      [
+        1.376198,
+        103.897862
+      ],
+      [
+        1.376151,
+        103.897855
+      ],
+      [
+        1.376105,
+        103.897854
+      ],
+      [
+        1.37606,
+        103.897845
+      ],
+      [
+        1.376017,
+        103.897829
+      ],
+      [
+        1.37598,
+        103.897823
+      ],
+      [
+        1.375936,
+        103.897821
+      ],
+      [
+        1.3759,
+        103.897819
+      ],
+      [
+        1.375857,
+        103.89783
+      ],
+      [
+        1.375812,
+        103.897844
+      ],
+      [
+        1.375763,
+        103.897854
+      ],
+      [
+        1.375719,
+        103.897868
+      ],
+      [
+        1.37567,
+        103.897883
+      ],
+      [
+        1.375628,
+        103.897895
+      ],
+      [
+        1.375586,
+        103.897911
+      ],
+      [
+        1.375558,
+        103.897934
+      ],
+      [
+        1.375529,
+        103.89796
+      ],
+      [
+        1.375498,
+        103.897987
+      ],
+      [
+        1.375465,
+        103.898016
+      ],
+      [
+        1.375435,
+        103.898047
+      ],
+      [
+        1.375408,
+        103.898085
+      ],
+      [
+        1.375398,
+        103.898127
+      ],
+      [
+        1.375393,
+        103.898181
+      ],
+      [
+        1.375384,
+        103.898233
+      ],
+      [
+        1.375365,
+        103.898276
+      ],
+      [
+        1.375344,
+        103.898317
+      ],
+      [
+        1.375326,
+        103.898358
+      ],
+      [
+        1.375305,
+        103.898396
+      ],
+      [
+        1.375287,
+        103.898432
+      ],
+      [
+        1.375256,
+        103.898467
+      ],
+      [
+        1.375224,
+        103.898496
+      ],
+      [
+        1.375207,
+        103.898532
+      ],
+      [
+        1.375193,
+        103.898567
+      ],
+      [
+        1.375179,
+        103.898608
+      ],
+      [
+        1.375154,
+        103.898643
+      ],
+      [
+        1.375139,
+        103.898687
+      ],
+      [
+        1.375155,
+        103.898726
+      ],
+      [
+        1.375172,
+        103.898771
+      ],
+      [
+        1.375188,
+        103.898813
+      ],
+      [
+        1.3752,
+        103.898856
+      ],
+      [
+        1.375217,
+        103.898894
+      ],
+      [
+        1.375233,
+        103.89894
+      ],
+      [
+        1.37525,
+        103.898977
+      ],
+      [
+        1.37528,
+        103.899017
+      ],
+      [
+        1.375309,
+        103.899054
+      ],
+      [
+        1.375344,
+        103.899085
+      ],
+      [
+        1.375379,
+        103.899112
+      ],
+      [
+        1.375422,
+        103.899136
+      ],
+      [
+        1.375463,
+        103.89915
+      ],
+      [
+        1.37551,
+        103.899156
+      ],
+      [
+        1.375556,
+        103.899161
+      ],
+      [
+        1.375599,
+        103.899158
+      ],
+      [
+        1.375638,
+        103.899147
+      ],
+      [
+        1.375676,
+        103.899133
+      ],
+      [
+        1.375718,
+        103.899113
+      ],
+      [
+        1.375765,
+        103.899084
+      ],
+      [
+        1.375805,
+        103.899055
+      ],
+      [
+        1.375847,
+        103.899031
+      ],
+      [
+        1.375889,
+        103.899012
+      ],
+      [
+        1.375931,
+        103.898998
+      ],
+      [
+        1.37597,
+        103.898985
+      ],
+      [
+        1.376012,
+        103.898968
+      ],
+      [
+        1.376054,
+        103.898954
+      ],
+      [
+        1.376101,
+        103.898938
+      ],
+      [
+        1.376145,
+        103.898936
+      ],
+      [
+        1.376185,
+        103.898936
+      ],
+      [
+        1.376232,
+        103.898939
+      ],
+      [
+        1.376279,
+        103.898954
+      ],
+      [
+        1.376321,
+        103.898976
+      ],
+      [
+        1.376366,
+        103.899002
+      ],
+      [
+        1.376406,
+        103.899036
+      ],
+      [
+        1.376441,
+        103.899068
+      ],
+      [
+        1.376471,
+        103.899099
+      ],
+      [
+        1.376503,
+        103.899132
+      ],
+      [
+        1.376533,
+        103.899165
+      ],
+      [
+        1.376559,
+        103.899197
+      ],
+      [
+        1.376582,
+        103.899228
+      ],
+      [
+        1.376613,
+        103.899259
+      ],
+      [
+        1.376648,
+        103.899289
+      ],
+      [
+        1.376687,
+        103.899318
+      ],
+      [
+        1.376722,
+        103.899344
+      ],
+      [
+        1.376758,
+        103.899366
+      ],
+      [
+        1.3768,
+        103.89938
+      ],
+      [
+        1.376838,
+        103.899383
+      ],
+      [
+        1.37688,
+        103.899381
+      ],
+      [
+        1.376926,
+        103.89938
+      ],
+      [
+        1.376969,
+        103.899378
+      ],
+      [
+        1.377011,
+        103.899384
+      ],
+      [
+        1.377059,
+        103.899398
+      ],
+      [
+        1.377107,
+        103.899414
+      ],
+      [
+        1.377151,
+        103.899439
+      ],
+      [
+        1.377193,
+        103.899456
+      ],
+      [
+        1.377234,
+        103.899471
+      ],
+      [
+        1.377282,
+        103.899486
+      ],
+      [
+        1.377325,
+        103.899504
+      ],
+      [
+        1.377366,
+        103.899505
+      ],
+      [
+        1.377415,
+        103.899499
+      ],
+      [
+        1.377459,
+        103.899484
+      ],
+      [
+        1.377491,
+        103.899464
+      ],
+      [
+        1.377524,
+        103.899437
+      ],
+      [
+        1.377555,
+        103.899411
+      ],
+      [
+        1.377583,
+        103.899383
+      ],
+      [
+        1.377606,
+        103.89935
+      ],
+      [
+        1.377628,
+        103.899318
+      ],
+      [
+        1.377663,
+        103.899294
+      ],
+      [
+        1.377707,
+        103.899278
+      ],
+      [
+        1.377755,
+        103.899285
+      ],
+      [
+        1.377801,
+        103.899306
+      ],
+      [
+        1.377842,
+        103.899336
+      ],
+      [
+        1.377875,
+        103.899367
+      ],
+      [
+        1.377901,
+        103.899396
+      ],
+      [
+        1.377925,
+        103.899429
+      ],
+      [
+        1.377951,
+        103.899471
+      ],
+      [
+        1.377975,
+        103.899512
+      ],
+      [
+        1.377997,
+        103.899547
+      ],
+      [
+        1.378021,
+        103.899584
+      ],
+      [
+        1.378046,
+        103.899629
+      ],
+      [
+        1.378073,
+        103.899668
+      ],
+      [
+        1.378109,
+        103.899693
+      ],
+      [
+        1.378149,
+        103.899725
+      ],
+      [
+        1.378186,
+        103.899752
+      ],
+      [
+        1.378231,
+        103.899763
+      ],
+      [
+        1.378271,
+        103.899767
+      ],
+      [
+        1.378316,
+        103.899769
+      ],
+      [
+        1.378362,
+        103.899757
+      ],
+      [
+        1.378403,
+        103.899733
+      ],
+      [
+        1.37844,
+        103.899714
+      ],
+      [
+        1.378479,
+        103.899686
+      ],
+      [
+        1.37851,
+        103.899656
+      ],
+      [
+        1.378538,
+        103.899622
+      ],
+      [
+        1.378567,
+        103.899578
+      ],
+      [
+        1.378591,
+        103.899535
+      ],
+      [
+        1.378608,
+        103.899493
+      ],
+      [
+        1.378623,
+        103.899457
+      ],
+      [
+        1.378642,
+        103.899415
+      ],
+      [
+        1.378659,
+        103.899371
+      ],
+      [
+        1.378673,
+        103.899329
+      ],
+      [
+        1.378679,
+        103.899293
+      ],
+      [
+        1.378685,
+        103.899249
+      ],
+      [
+        1.378694,
+        103.899202
+      ],
+      [
+        1.378701,
+        103.899162
+      ],
+      [
+        1.378695,
+        103.899117
+      ],
+      [
+        1.37868,
+        103.899078
+      ],
+      [
+        1.378668,
+        103.899042
+      ],
+      [
+        1.378653,
+        103.899011
+      ],
+      [
+        1.37863,
+        103.898971
+      ],
+      [
+        1.378606,
+        103.898926
+      ],
+      [
+        1.378587,
+        103.898884
+      ],
+      [
+        1.37857,
+        103.898844
+      ],
+      [
+        1.378553,
+        103.8988
+      ],
+      [
+        1.378544,
+        103.898754
+      ],
+      [
+        1.37854,
+        103.898704
+      ],
+      [
+        1.378539,
+        103.89866
+      ],
+      [
+        1.378539,
+        103.898613
+      ],
+      [
+        1.378538,
+        103.898565
+      ],
+      [
+        1.378534,
+        103.898522
+      ],
+      [
+        1.378524,
+        103.898478
+      ],
+      [
+        1.378507,
+        103.898436
+      ],
+      [
+        1.378486,
+        103.8984
+      ],
+      [
+        1.37846,
+        103.898355
+      ],
+      [
+        1.378436,
+        103.898317
+      ],
+      [
+        1.378402,
+        103.898286
+      ],
+      [
+        1.378375,
+        103.898246
+      ],
+      [
+        1.378353,
+        103.898215
+      ],
+      [
+        1.378336,
+        103.898177
+      ],
+      [
+        1.378319,
+        103.898136
+      ],
+      [
+        1.378299,
+        103.898101
+      ],
+      [
+        1.37828,
+        103.898057
+      ],
+      [
+        1.378265,
+        103.898009
+      ],
+      [
+        1.378255,
+        103.897962
+      ],
+      [
+        1.378242,
+        103.897919
+      ],
+      [
+        1.378219,
+        103.897884
+      ],
+      [
+        1.378184,
+        103.897851
+      ],
+      [
+        1.378146,
+        103.897831
+      ],
+      [
+        1.378105,
+        103.897819
+      ],
+      [
+        1.378065,
+        103.897808
+      ],
+      [
+        1.378028,
+        103.897791
+      ],
+      [
+        1.377981,
+        103.89778
+      ],
+      [
+        1.377936,
+        103.897776
+      ],
+      [
+        1.377891,
+        103.897787
+      ],
+      [
+        1.377847,
+        103.897794
+      ],
+      [
+        1.377799,
+        103.897797
+      ],
+      [
+        1.377754,
+        103.897803
+      ],
+      [
+        1.377714,
+        103.8978
+      ],
+      [
+        1.377674,
+        103.897793
+      ],
+      [
+        1.377628,
+        103.897787
+      ],
+      [
+        1.37758,
+        103.897783
+      ],
+      [
+        1.377539,
+        103.897772
+      ],
+      [
+        1.377501,
+        103.897752
+      ],
+      [
+        1.377456,
+        103.897735
+      ],
+      [
+        1.377417,
+        103.897712
+      ],
+      [
+        1.377386,
+        103.897691
+      ],
+      [
+        1.377351,
+        103.89767
+      ],
+      [
+        1.377315,
+        103.897652
+      ],
+      [
+        1.377274,
+        103.897635
+      ],
+      [
+        1.377222,
+        103.897628
+      ],
+      [
+        1.377175,
+        103.897627
+      ],
+      [
+        1.377127,
+        103.897625
+      ],
+      [
+        1.377082,
+        103.897633
+      ],
+      [
+        1.377045,
+        103.897648
+      ],
+      [
+        1.377009,
+        103.897669
+      ],
+      [
+        1.376973,
+        103.897694
+      ],
+      [
+        1.376934,
+        103.897718
+      ],
+      [
+        1.376892,
+        103.89774
+      ],
+      [
+        1.376854,
+        103.897766
+      ],
+      [
+        1.376822,
+        103.897787
+      ],
+      [
+        1.376783,
+        103.897805
+      ],
+      [
+        1.376739,
+        103.897823
+      ],
+      [
+        1.376695,
+        103.897829
+      ],
+      [
+        1.376654,
+        103.897834
+      ],
+      [
+        1.376613,
+        103.897836
+      ],
+      [
+        1.376572,
+        103.897838
+      ],
+      [
+        1.376531,
+        103.89784
+      ],
+      [
+        1.376487,
+        103.897841
+      ],
+      [
+        1.376441,
+        103.897841
+      ],
+      [
+        1.376398,
+        103.897843
+      ],
+      [
+        1.376354,
+        103.897851
+      ],
+      [
+        1.376311,
+        103.897849
+      ],
+      [
+        1.376265,
+        103.897851
+      ],
+      [
+        1.376217,
+        103.897849
+      ],
+      [
+        1.376173,
+        103.897849
+      ],
+      [
+        1.376129,
+        103.897841
+      ],
+      [
+        1.376089,
+        103.897836
+      ],
+      [
+        1.376046,
+        103.897827
+      ],
+      [
+        1.376008,
+        103.897821
+      ],
+      [
+        1.375967,
+        103.897818
+      ],
+      [
+        1.37593,
+        103.897821
+      ],
+      [
+        1.375887,
+        103.897827
+      ],
+      [
+        1.375839,
+        103.897831
+      ],
+      [
+        1.37579,
+        103.897833
+      ],
+      [
+        1.375745,
+        103.897841
+      ],
+      [
+        1.375705,
+        103.897862
+      ],
+      [
+        1.375672,
+        103.897881
+      ],
+      [
+        1.375633,
+        103.897905
+      ],
+      [
+        1.375592,
+        103.897926
+      ],
+      [
+        1.375556,
+        103.897955
+      ],
+      [
+        1.375523,
+        103.897977
+      ],
+      [
+        1.375492,
+        103.898002
+      ],
+      [
+        1.375462,
+        103.898028
+      ],
+      [
+        1.375434,
+        103.898054
+      ],
+      [
+        1.375409,
+        103.898085
+      ],
+      [
+        1.375406,
+        103.898126
+      ],
+      [
+        1.375399,
+        103.898173
+      ],
+      [
+        1.375384,
+        103.89822
+      ],
+      [
+        1.375364,
+        103.898261
+      ],
+      [
+        1.375351,
+        103.898305
+      ],
+      [
+        1.375333,
+        103.898344
+      ],
+      [
+        1.37531,
+        103.898382
+      ],
+      [
+        1.375287,
+        103.89842
+      ],
+      [
+        1.375262,
+        103.898455
+      ],
+      [
+        1.375231,
+        103.898484
+      ],
+      [
+        1.375206,
+        103.898519
+      ],
+      [
+        1.375195,
+        103.898562
+      ],
+      [
+        1.375186,
+        103.898604
+      ],
+      [
+        1.375161,
+        103.898638
+      ],
+      [
+        1.375151,
+        103.898673
+      ],
+      [
+        1.375159,
+        103.898711
+      ],
+      [
+        1.375174,
+        103.898758
+      ],
+      [
+        1.375185,
+        103.898805
+      ],
+      [
+        1.375198,
+        103.898846
+      ],
+      [
+        1.375211,
+        103.898888
+      ],
+      [
+        1.375223,
+        103.898934
+      ],
+      [
+        1.375243,
+        103.898977
+      ],
+      [
+        1.375269,
+        103.89901
+      ],
+      [
+        1.375305,
+        103.899045
+      ],
+      [
+        1.375341,
+        103.899078
+      ],
+      [
+        1.375384,
+        103.899109
+      ],
+      [
+        1.375427,
+        103.899132
+      ],
+      [
+        1.375467,
+        103.899147
+      ],
+      [
+        1.375509,
+        103.899154
+      ],
+      [
+        1.375552,
+        103.899159
+      ],
+      [
+        1.375597,
+        103.89916
+      ],
+      [
+        1.375641,
+        103.899155
+      ],
+      [
+        1.375678,
+        103.899142
+      ],
+      [
+        1.375718,
+        103.899125
+      ],
+      [
+        1.375757,
+        103.899103
+      ],
+      [
+        1.375796,
+        103.89908
+      ],
+      [
+        1.375836,
+        103.89905
+      ],
+      [
+        1.375878,
+        103.899028
+      ],
+      [
+        1.375919,
+        103.899004
+      ],
+      [
+        1.375957,
+        103.898989
+      ],
+      [
+        1.375993,
+        103.898969
+      ],
+      [
+        1.376039,
+        103.898946
+      ],
+      [
+        1.376086,
+        103.898932
+      ],
+      [
+        1.376129,
+        103.898928
+      ],
+      [
+        1.376172,
+        103.898932
+      ],
+      [
+        1.376215,
+        103.898938
+      ],
+      [
+        1.376258,
+        103.898952
+      ],
+      [
+        1.376301,
+        103.898969
+      ],
+      [
+        1.376343,
+        103.898988
+      ],
+      [
+        1.376383,
+        103.899011
+      ],
+      [
+        1.376421,
+        103.899045
+      ],
+      [
+        1.376452,
+        103.899078
+      ],
+      [
+        1.376482,
+        103.899109
+      ],
+      [
+        1.376506,
+        103.899137
+      ],
+      [
+        1.376528,
+        103.899167
+      ],
+      [
+        1.376556,
+        103.899202
+      ],
+      [
+        1.376585,
+        103.899235
+      ],
+      [
+        1.376616,
+        103.899259
+      ],
+      [
+        1.376647,
+        103.899286
+      ],
+      [
+        1.376682,
+        103.899309
+      ],
+      [
+        1.376715,
+        103.899332
+      ],
+      [
+        1.376752,
+        103.899356
+      ],
+      [
+        1.376785,
+        103.89937
+      ],
+      [
+        1.376819,
+        103.899383
+      ],
+      [
+        1.376858,
+        103.899394
+      ],
+      [
+        1.376897,
+        103.899397
+      ],
+      [
+        1.376942,
+        103.8994
+      ],
+      [
+        1.376992,
+        103.899401
+      ],
+      [
+        1.377044,
+        103.899399
+      ],
+      [
+        1.377092,
+        103.899405
+      ],
+      [
+        1.377139,
+        103.899416
+      ],
+      [
+        1.377184,
+        103.899437
+      ],
+      [
+        1.377225,
+        103.89946
+      ],
+      [
+        1.377264,
+        103.899476
+      ],
+      [
+        1.377295,
+        103.8995
+      ],
+      [
+        1.377331,
+        103.899518
+      ],
+      [
+        1.377376,
+        103.899521
+      ],
+      [
+        1.377417,
+        103.899509
+      ],
+      [
+        1.377454,
+        103.899496
+      ],
+      [
+        1.377488,
+        103.899474
+      ],
+      [
+        1.377527,
+        103.899447
+      ],
+      [
+        1.377559,
+        103.899415
+      ],
+      [
+        1.377593,
+        103.899382
+      ],
+      [
+        1.377621,
+        103.899347
+      ],
+      [
+        1.37765,
+        103.899307
+      ],
+      [
+        1.377692,
+        103.899282
+      ],
+      [
+        1.377741,
+        103.899278
+      ],
+      [
+        1.377785,
+        103.899293
+      ],
+      [
+        1.377829,
+        103.899324
+      ],
+      [
+        1.377863,
+        103.899364
+      ],
+      [
+        1.377893,
+        103.899401
+      ],
+      [
+        1.377914,
+        103.899441
+      ],
+      [
+        1.377934,
+        103.899476
+      ],
+      [
+        1.377961,
+        103.899512
+      ],
+      [
+        1.377983,
+        103.899547
+      ],
+      [
+        1.378003,
+        103.899583
+      ],
+      [
+        1.37803,
+        103.899626
+      ],
+      [
+        1.378059,
+        103.899665
+      ],
+      [
+        1.37809,
+        103.899697
+      ],
+      [
+        1.378122,
+        103.899724
+      ],
+      [
+        1.378159,
+        103.899746
+      ],
+      [
+        1.378191,
+        103.899767
+      ],
+      [
+        1.378231,
+        103.899773
+      ],
+      [
+        1.37827,
+        103.899774
+      ],
+      [
+        1.378314,
+        103.899777
+      ],
+      [
+        1.378359,
+        103.899768
+      ],
+      [
+        1.378396,
+        103.899751
+      ],
+      [
+        1.378439,
+        103.899732
+      ],
+      [
+        1.37848,
+        103.899708
+      ],
+      [
+        1.378515,
+        103.899676
+      ],
+      [
+        1.378547,
+        103.899635
+      ],
+      [
+        1.378574,
+        103.899594
+      ],
+      [
+        1.378591,
+        103.899555
+      ],
+      [
+        1.378606,
+        103.899512
+      ],
+      [
+        1.378623,
+        103.899469
+      ],
+      [
+        1.378638,
+        103.899424
+      ],
+      [
+        1.378653,
+        103.899383
+      ],
+      [
+        1.378662,
+        103.899343
+      ],
+      [
+        1.378669,
+        103.899303
+      ],
+      [
+        1.378676,
+        103.899269
+      ],
+      [
+        1.378684,
+        103.899231
+      ],
+      [
+        1.37869,
+        103.899182
+      ],
+      [
+        1.378691,
+        103.899137
+      ],
+      [
+        1.37868,
+        103.89909
+      ],
+      [
+        1.378664,
+        103.899049
+      ],
+      [
+        1.378651,
+        103.899019
+      ],
+      [
+        1.378635,
+        103.898983
+      ],
+      [
+        1.378616,
+        103.898939
+      ],
+      [
+        1.378602,
+        103.8989
+      ],
+      [
+        1.378583,
+        103.898861
+      ],
+      [
+        1.37857,
+        103.898819
+      ],
+      [
+        1.37856,
+        103.898779
+      ],
+      [
+        1.378551,
+        103.898741
+      ],
+      [
+        1.378549,
+        103.898701
+      ],
+      [
+        1.378547,
+        103.898661
+      ],
+      [
+        1.378545,
+        103.898614
+      ],
+      [
+        1.378541,
+        103.89857
+      ],
+      [
+        1.378539,
+        103.898528
+      ],
+      [
+        1.37853,
+        103.898489
+      ],
+      [
+        1.378511,
+        103.898444
+      ],
+      [
+        1.378486,
+        103.898399
+      ],
+      [
+        1.378458,
+        103.898358
+      ],
+      [
+        1.378432,
+        103.89832
+      ],
+      [
+        1.378411,
+        103.898285
+      ],
+      [
+        1.378387,
+        103.898246
+      ],
+      [
+        1.378368,
+        103.89821
+      ],
+      [
+        1.378349,
+        103.898174
+      ],
+      [
+        1.37833,
+        103.89813
+      ],
+      [
+        1.378313,
+        103.898087
+      ],
+      [
+        1.378297,
+        103.898044
+      ],
+      [
+        1.378278,
+        103.898003
+      ],
+      [
+        1.378256,
+        103.897961
+      ],
+      [
+        1.378244,
+        103.897919
+      ],
+      [
+        1.378224,
+        103.897881
+      ],
+      [
+        1.3782,
+        103.897853
+      ],
+      [
+        1.378165,
+        103.897832
+      ],
+      [
+        1.378126,
+        103.897819
+      ],
+      [
+        1.378086,
+        103.897803
+      ],
+      [
+        1.378039,
+        103.89779
+      ],
+      [
+        1.377988,
+        103.89778
+      ],
+      [
+        1.377935,
+        103.897775
+      ],
+      [
+        1.377893,
+        103.897778
+      ],
+      [
+        1.377844,
+        103.897776
+      ],
+      [
+        1.377796,
+        103.89778
+      ],
+      [
+        1.377746,
+        103.897786
+      ],
+      [
+        1.377702,
+        103.897787
+      ],
+      [
+        1.377655,
+        103.897782
+      ],
+      [
+        1.377606,
+        103.897776
+      ],
+      [
+        1.377556,
+        103.897768
+      ],
+      [
+        1.377513,
+        103.897752
+      ],
+      [
+        1.377475,
+        103.89774
+      ],
+      [
+        1.377438,
+        103.897714
+      ],
+      [
+        1.3774,
+        103.897684
+      ],
+      [
+        1.377359,
+        103.897669
+      ],
+      [
+        1.377313,
+        103.897649
+      ],
+      [
+        1.377261,
+        103.897635
+      ],
+      [
+        1.377217,
+        103.897628
+      ],
+      [
+        1.377172,
+        103.897626
+      ],
+      [
+        1.37713,
+        103.897626
+      ],
+      [
+        1.377087,
+        103.897637
+      ],
+      [
+        1.377049,
+        103.897661
+      ],
+      [
+        1.377008,
+        103.897685
+      ],
+      [
+        1.37697,
+        103.897711
+      ],
+      [
+        1.376928,
+        103.897736
+      ],
+      [
+        1.376886,
+        103.897757
+      ],
+      [
+        1.376844,
+        103.897777
+      ],
+      [
+        1.3768,
+        103.897796
+      ],
+      [
+        1.376756,
+        103.89781
+      ],
+      [
+        1.376717,
+        103.897819
+      ],
+      [
+        1.376681,
+        103.897825
+      ],
+      [
+        1.376643,
+        103.897833
+      ],
+      [
+        1.376602,
+        103.897838
+      ],
+      [
+        1.376554,
+        103.897841
+      ],
+      [
+        1.376511,
+        103.897838
+      ],
+      [
+        1.376465,
+        103.897844
+      ],
+      [
+        1.376421,
+        103.897847
+      ],
+      [
+        1.376379,
+        103.897851
+      ],
+      [
+        1.376335,
+        103.89785
+      ],
+      [
+        1.376297,
+        103.897849
+      ],
+      [
+        1.376254,
+        103.897846
+      ],
+      [
+        1.376213,
+        103.897833
+      ],
+      [
+        1.376169,
+        103.897834
+      ],
+      [
+        1.376122,
+        103.897832
+      ],
+      [
+        1.376072,
+        103.897828
+      ],
+      [
+        1.376032,
+        103.897818
+      ],
+      [
+        1.375986,
+        103.89782
+      ],
+      [
+        1.375945,
+        103.89783
+      ],
+      [
+        1.375907,
+        103.897838
+      ],
+      [
+        1.375863,
+        103.897843
+      ],
+      [
+        1.375819,
+        103.897846
+      ],
+      [
+        1.375776,
+        103.89785
+      ],
+      [
+        1.375735,
+        103.897862
+      ],
+      [
+        1.375692,
+        103.89788
+      ],
+      [
+        1.375656,
+        103.897894
+      ],
+      [
+        1.375615,
+        103.897911
+      ],
+      [
+        1.37558,
+        103.897939
+      ],
+      [
+        1.375544,
+        103.897966
+      ],
+      [
+        1.375511,
+        103.897992
+      ],
+      [
+        1.375476,
+        103.898016
+      ],
+      [
+        1.375449,
+        103.898045
+      ],
+      [
+        1.375422,
+        103.898072
+      ],
+      [
+        1.375411,
+        103.898109
+      ],
+      [
+        1.375404,
+        103.898153
+      ],
+      [
+        1.375398,
+        103.898196
+      ],
+      [
+        1.375382,
+        103.898235
+      ],
+      [
+        1.375367,
+        103.898278
+      ],
+      [
+        1.375346,
+        103.898328
+      ],
+      [
+        1.375318,
+        103.898375
+      ],
+      [
+        1.375289,
+        103.898413
+      ],
+      [
+        1.375267,
+        103.898448
+      ],
+      [
+        1.375244,
+        103.898472
+      ],
+      [
+        1.375213,
+        103.898501
+      ],
+      [
+        1.375199,
+        103.898538
+      ],
+      [
+        1.375188,
+        103.898582
+      ],
+      [
+        1.375169,
+        103.898623
+      ],
+      [
+        1.375154,
+        103.89866
+      ],
+      [
+        1.375161,
+        103.898707
+      ],
+      [
+        1.375179,
+        103.898759
+      ],
+      [
+        1.375196,
+        103.898803
+      ],
+      [
+        1.375206,
+        103.898846
+      ],
+      [
+        1.375219,
+        103.898887
+      ],
+      [
+        1.375232,
+        103.898935
+      ],
+      [
+        1.375252,
+        103.898976
+      ],
+      [
+        1.375279,
+        103.899012
+      ],
+      [
+        1.375312,
+        103.899046
+      ],
+      [
+        1.375344,
+        103.899071
+      ],
+      [
+        1.375385,
+        103.899098
+      ],
+      [
+        1.375423,
+        103.899126
+      ],
+      [
+        1.375467,
+        103.899146
+      ],
+      [
+        1.37551,
+        103.899153
+      ],
+      [
+        1.375557,
+        103.899157
+      ],
+      [
+        1.3756,
+        103.89916
+      ],
+      [
+        1.375637,
+        103.899148
+      ],
+      [
+        1.375684,
+        103.899135
+      ],
+      [
+        1.375729,
+        103.899108
+      ],
+      [
+        1.375772,
+        103.899082
+      ],
+      [
+        1.375813,
+        103.899055
+      ],
+      [
+        1.375851,
+        103.899031
+      ],
+      [
+        1.375894,
+        103.899008
+      ],
+      [
+        1.37594,
+        103.898987
+      ],
+      [
+        1.375986,
+        103.898971
+      ],
+      [
+        1.376027,
+        103.898953
+      ],
+      [
+        1.376069,
+        103.898939
+      ],
+      [
+        1.376116,
+        103.898932
+      ],
+      [
+        1.376157,
+        103.898929
+      ],
+      [
+        1.376198,
+        103.898935
+      ],
+      [
+        1.376234,
+        103.898943
+      ],
+      [
+        1.376277,
+        103.898966
+      ],
+      [
+        1.376319,
+        103.898993
+      ],
+      [
+        1.376361,
+        103.899018
+      ],
+      [
+        1.376401,
+        103.899045
+      ],
+      [
+        1.376434,
+        103.899075
+      ],
+      [
+        1.376466,
+        103.899105
+      ],
+      [
+        1.376498,
+        103.899144
+      ],
+      [
+        1.376527,
+        103.899179
+      ],
+      [
+        1.376552,
+        103.899217
+      ],
+      [
+        1.376581,
+        103.899252
+      ],
+      [
+        1.376614,
+        103.899282
+      ],
+      [
+        1.37665,
+        103.899303
+      ],
+      [
+        1.376688,
+        103.899324
+      ],
+      [
+        1.376725,
+        103.899348
+      ],
+      [
+        1.376767,
+        103.899368
+      ],
+      [
+        1.376804,
+        103.899384
+      ],
+      [
+        1.376845,
+        103.899394
+      ],
+      [
+        1.376891,
+        103.899396
+      ],
+      [
+        1.376937,
+        103.899396
+      ],
+      [
+        1.376982,
+        103.899402
+      ],
+      [
+        1.377026,
+        103.899403
+      ],
+      [
+        1.377069,
+        103.899409
+      ],
+      [
+        1.377114,
+        103.899419
+      ],
+      [
+        1.377152,
+        103.899436
+      ],
+      [
+        1.37719,
+        103.899453
+      ],
+      [
+        1.377229,
+        103.899472
+      ],
+      [
+        1.377267,
+        103.899487
+      ],
+      [
+        1.377309,
+        103.899509
+      ],
+      [
+        1.377352,
+        103.899521
+      ],
+      [
+        1.377397,
+        103.899522
+      ],
+      [
+        1.377434,
+        103.899515
+      ],
+      [
+        1.377462,
+        103.899499
+      ],
+      [
+        1.377494,
+        103.899479
+      ],
+      [
+        1.377525,
+        103.899451
+      ],
+      [
+        1.377557,
+        103.899415
+      ],
+      [
+        1.377591,
+        103.899377
+      ],
+      [
+        1.377614,
+        103.899343
+      ],
+      [
+        1.377646,
+        103.899306
+      ],
+      [
+        1.377692,
+        103.899281
+      ],
+      [
+        1.377741,
+        103.899281
+      ],
+      [
+        1.377781,
+        103.899297
+      ],
+      [
+        1.37782,
+        103.899324
+      ],
+      [
+        1.377856,
+        103.899351
+      ],
+      [
+        1.377889,
+        103.89939
+      ],
+      [
+        1.377916,
+        103.899429
+      ],
+      [
+        1.377939,
+        103.899466
+      ],
+      [
+        1.377962,
+        103.8995
+      ],
+      [
+        1.377988,
+        103.899537
+      ],
+      [
+        1.378012,
+        103.899577
+      ],
+      [
+        1.378038,
+        103.899618
+      ],
+      [
+        1.378065,
+        103.899658
+      ],
+      [
+        1.378095,
+        103.899695
+      ],
+      [
+        1.378132,
+        103.899724
+      ],
+      [
+        1.378168,
+        103.899753
+      ],
+      [
+        1.378203,
+        103.899769
+      ],
+      [
+        1.378245,
+        103.899773
+      ],
+      [
+        1.378284,
+        103.899779
+      ],
+      [
+        1.37833,
+        103.899775
+      ],
+      [
+        1.378374,
+        103.899761
+      ],
+      [
+        1.378409,
+        103.89974
+      ],
+      [
+        1.378443,
+        103.899721
+      ],
+      [
+        1.378475,
+        103.899688
+      ],
+      [
+        1.378514,
+        103.899654
+      ],
+      [
+        1.378546,
+        103.899615
+      ],
+      [
+        1.378571,
+        103.899578
+      ],
+      [
+        1.378594,
+        103.899536
+      ],
+      [
+        1.378618,
+        103.899499
+      ],
+      [
+        1.378632,
+        103.899456
+      ],
+      [
+        1.378641,
+        103.899414
+      ],
+      [
+        1.378651,
+        103.899375
+      ],
+      [
+        1.378659,
+        103.899331
+      ],
+      [
+        1.378669,
+        103.899292
+      ],
+      [
+        1.378669,
+        103.899251
+      ],
+      [
+        1.378675,
+        103.899205
+      ],
+      [
+        1.378685,
+        103.899156
+      ],
+      [
+        1.37868,
+        103.899109
+      ],
+      [
+        1.378673,
+        103.899061
+      ],
+      [
+        1.378661,
+        103.899013
+      ],
+      [
+        1.37865,
+        103.898968
+      ],
+      [
+        1.378633,
+        103.898926
+      ],
+      [
+        1.378614,
+        103.898886
+      ],
+      [
+        1.378595,
+        103.898845
+      ],
+      [
+        1.378579,
+        103.898804
+      ],
+      [
+        1.378566,
+        103.89876
+      ],
+      [
+        1.378556,
+        103.898717
+      ],
+      [
+        1.378553,
+        103.898672
+      ],
+      [
+        1.378553,
+        103.898623
+      ],
+      [
+        1.378553,
+        103.898577
+      ],
+      [
+        1.378549,
+        103.898531
+      ],
+      [
+        1.37854,
+        103.898483
+      ],
+      [
+        1.378522,
+        103.898437
+      ],
+      [
+        1.378504,
+        103.898387
+      ],
+      [
+        1.37848,
+        103.898352
+      ],
+      [
+        1.378459,
+        103.898314
+      ],
+      [
+        1.378439,
+        103.898281
+      ],
+      [
+        1.378414,
+        103.898248
+      ],
+      [
+        1.378389,
+        103.898209
+      ],
+      [
+        1.378368,
+        103.898169
+      ],
+      [
+        1.378348,
+        103.898136
+      ],
+      [
+        1.378329,
+        103.898097
+      ],
+      [
+        1.378313,
+        103.89806
+      ],
+      [
+        1.378293,
+        103.898021
+      ],
+      [
+        1.378284,
+        103.89798
+      ],
+      [
+        1.378272,
+        103.89794
+      ],
+      [
+        1.378252,
+        103.8979
+      ],
+      [
+        1.378233,
+        103.897872
+      ],
+      [
+        1.378212,
+        103.897836
+      ],
+      [
+        1.378192,
+        103.897798
+      ],
+      [
+        1.378182,
+        103.897753
+      ],
+      [
+        1.378175,
+        103.897713
+      ],
+      [
+        1.378174,
+        103.897672
+      ],
+      [
+        1.378165,
+        103.897632
+      ],
+      [
+        1.37816,
+        103.897588
+      ],
+      [
+        1.378163,
+        103.897541
+      ],
+      [
+        1.378166,
+        103.897493
+      ],
+      [
+        1.378171,
+        103.897448
+      ],
+      [
+        1.378179,
+        103.897404
+      ],
+      [
+        1.378187,
+        103.89736
+      ],
+      [
+        1.378196,
+        103.897315
+      ],
+      [
+        1.378217,
+        103.897267
+      ],
+      [
+        1.378244,
+        103.897233
+      ],
+      [
+        1.378278,
+        103.897205
+      ],
+      [
+        1.378317,
+        103.897187
+      ],
+      [
+        1.378363,
+        103.897177
+      ],
+      [
+        1.378406,
+        103.897166
+      ],
+      [
+        1.378449,
+        103.897149
+      ],
+      [
+        1.378472,
+        103.89711
+      ],
+      [
+        1.378475,
+        103.897065
+      ],
+      [
+        1.37848,
+        103.897014
+      ],
+      [
+        1.378499,
+        103.896973
+      ],
+      [
+        1.378522,
+        103.896938
+      ],
+      [
+        1.378553,
+        103.896906
+      ],
+      [
+        1.378598,
+        103.896905
+      ],
+      [
+        1.378647,
+        103.896909
+      ],
+      [
+        1.378695,
+        103.896914
+      ],
+      [
+        1.37874,
+        103.896919
+      ],
+      [
+        1.378782,
+        103.896927
+      ],
+      [
+        1.378825,
+        103.896938
+      ],
+      [
+        1.378867,
+        103.896949
+      ],
+      [
+        1.378913,
+        103.896956
+      ],
+      [
+        1.378954,
+        103.896959
+      ],
+      [
+        1.378998,
+        103.896962
+      ],
+      [
+        1.379042,
+        103.896971
+      ],
+      [
+        1.379086,
+        103.896986
+      ],
+      [
+        1.379128,
+        103.897002
+      ],
+      [
+        1.379168,
+        103.897023
+      ],
+      [
+        1.379206,
+        103.897043
+      ],
+      [
+        1.379244,
+        103.897026
+      ],
+      [
+        1.379268,
+        103.896976
+      ],
+      [
+        1.379269,
+        103.896882
+      ],
+      [
+        1.379274,
+        103.896792
+      ],
+      [
+        1.379251,
+        103.896737
+      ],
+      [
+        1.379223,
+        103.896704
+      ],
+      [
+        1.379191,
+        103.896685
+      ],
+      [
+        1.379152,
+        103.896663
+      ],
+      [
+        1.379124,
+        103.896626
+      ],
+      [
+        1.379099,
+        103.896583
+      ],
+      [
+        1.379095,
+        103.896537
+      ],
+      [
+        1.37911,
+        103.896498
+      ],
+      [
+        1.379126,
+        103.896463
+      ],
+      [
+        1.37914,
+        103.896425
+      ],
+      [
+        1.379156,
+        103.896385
+      ],
+      [
+        1.379174,
+        103.896347
+      ],
+      [
+        1.379192,
+        103.896305
+      ],
+      [
+        1.379209,
+        103.896266
+      ],
+      [
+        1.379225,
+        103.896231
+      ],
+      [
+        1.37924,
+        103.896192
+      ],
+      [
+        1.379254,
+        103.896152
+      ],
+      [
+        1.379268,
+        103.896113
+      ],
+      [
+        1.379284,
+        103.896074
+      ],
+      [
+        1.379303,
+        103.896032
+      ],
+      [
+        1.379313,
+        103.895988
+      ],
+      [
+        1.379329,
+        103.895948
+      ],
+      [
+        1.379344,
+        103.895903
+      ],
+      [
+        1.379358,
+        103.895869
+      ],
+      [
+        1.379373,
+        103.895829
+      ],
+      [
+        1.379391,
+        103.895782
+      ],
+      [
+        1.379408,
+        103.895741
+      ],
+      [
+        1.379422,
+        103.895698
+      ],
+      [
+        1.379435,
+        103.895663
+      ],
+      [
+        1.379449,
+        103.895626
+      ],
+      [
+        1.379462,
+        103.895585
+      ],
+      [
+        1.379476,
+        103.895543
+      ],
+      [
+        1.379491,
+        103.895505
+      ],
+      [
+        1.379511,
+        103.895472
+      ],
+      [
+        1.379521,
+        103.895438
+      ],
+      [
+        1.37954,
+        103.8954
+      ],
+      [
+        1.379558,
+        103.895369
+      ],
+      [
+        1.379578,
+        103.895335
+      ],
+      [
+        1.379598,
+        103.895304
+      ],
+      [
+        1.379612,
+        103.895265
+      ],
+      [
+        1.379625,
+        103.895221
+      ],
+      [
+        1.379638,
+        103.895173
+      ],
+      [
+        1.379652,
+        103.895131
+      ],
+      [
+        1.379658,
+        103.895085
+      ],
+      [
+        1.379664,
+        103.895041
+      ],
+      [
+        1.379665,
+        103.895002
+      ],
+      [
+        1.379672,
+        103.894963
+      ],
+      [
+        1.379678,
+        103.894922
+      ],
+      [
+        1.379684,
+        103.894879
+      ],
+      [
+        1.379692,
+        103.894835
+      ],
+      [
+        1.379697,
+        103.894798
+      ],
+      [
+        1.379702,
+        103.894765
       ],
       [
         1.37971,
-        103.892655
+        103.894731
       ],
       [
-        1.379746,
-        103.892646
+        1.379714,
+        103.894693
       ],
       [
-        1.379776,
-        103.892629
+        1.37971,
+        103.894652
       ],
       [
-        1.379812,
-        103.892608
+        1.379705,
+        103.894607
       ],
       [
-        1.379831,
-        103.892583
+        1.379701,
+        103.894559
       ],
       [
-        1.379845,
-        103.892545
+        1.379696,
+        103.894513
       ],
       [
-        1.379853,
-        103.892498
+        1.379699,
+        103.894468
       ],
       [
-        1.379861,
-        103.892451
+        1.3797,
+        103.89443
       ],
       [
-        1.379867,
-        103.892409
+        1.379698,
+        103.894392
       ],
       [
-        1.379863,
-        103.892368
+        1.379701,
+        103.894351
       ],
       [
-        1.379863,
-        103.892328
+        1.379705,
+        103.894308
       ],
       [
-        1.379863,
-        103.892296
+        1.379711,
+        103.894268
       ],
       [
-        1.379872,
-        103.892246
+        1.37971,
+        103.89423
       ],
       [
-        1.379876,
-        103.892211
+        1.379702,
+        103.894188
+      ],
+      [
+        1.379704,
+        103.894141
+      ],
+      [
+        1.379703,
+        103.894094
+      ],
+      [
+        1.37971,
+        103.894055
+      ],
+      [
+        1.379717,
+        103.894011
+      ],
+      [
+        1.379719,
+        103.893964
+      ],
+      [
+        1.379723,
+        103.893917
+      ],
+      [
+        1.379722,
+        103.893854
+      ],
+      [
+        1.379724,
+        103.893818
       ]
     ]
   }
