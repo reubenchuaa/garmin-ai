@@ -1,4 +1,4 @@
-_Updated: Tuesday, 04 Aug 2026 at 11:20 AM SGT_
+_Updated: Tuesday, 04 Aug 2026 at 12:21 PM SGT_
 
 **Taper is doing exactly what it should — ACWR at 0.7, HRV rock-steady, and four days out from Norway you're arriving fresh, not fatigued.**
 
