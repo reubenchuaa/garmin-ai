@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 53 days to race</span>
-    <span class="pill pill-green">Synced 05 Aug 2026 12:53 PM SGT</span>
+    <span class="pill pill-green">Synced 05 Aug 2026 02:21 PM SGT</span>
   </div>
 </div>
 </div>
@@ -90,7 +90,7 @@ tr:last-child td{border-bottom:none}
 <div class="tr-wrap">
   <div class="tr-card">
     <div class="lbl">Readiness</div>
-    <div class="score">59</div>
+    <div class="score">61</div>
     <div class="level">MODERATE</div>
   </div>
   <div class="cards" style="margin:0">
@@ -240,7 +240,7 @@ tr:last-child td{border-bottom:none}
 const LB=["07-23", "07-24", "07-25", "07-26", "07-27", "07-28", "07-29", "07-30", "07-31", "08-01", "08-02", "08-03", "08-04", "08-05"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
 new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[93,75,100,92,99,76,85,86,63,86,95,95,76,78],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[14,16,28,14,10,8,5,11,9,8,17,12,9,10],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[5,4,34,51,53,61,3,26,41,75,60,58,53,59],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[5,4,34,51,53,61,3,26,41,75,60,58,53,61],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[48,51,45,43,46,49,47,50,50,48,48,47,50,49],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[28,32,28,29,26,35,35,36,35,29,25,35,34,20],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[1.0,1.2,1.4,1.2,1.8,1.8,1.5,2.2,1.7,1.8,1.4,1.1,1.9,1.5],"backgroundColor":"#1e40af"},{"label":"Light","data":[4.7,5.2,4.8,3.2,5.2,4.3,4.0,4.7,3.2,3.6,6.0,4.4,4.2,4.0],"backgroundColor":"#60a5fa"},{"label":"REM","data":[2.0,1.1,1.1,0.8,1.0,1.1,1.0,1.7,1.1,1.8,1.0,0.9,1.0,0.5],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[0.1,0.5,0.0,0.0,0.1,0.1,0.1,0.0,0.0,0.0,0.7,0.4,0.2,0.0],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
