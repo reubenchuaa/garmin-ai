@@ -314901,7 +314901,7 @@
         "latestSpo2": null,
         "latestSpo2ReadingTimeGmt": null,
         "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": 50.0,
+        "averageMonitoringEnvironmentAltitude": 52.0,
         "restingCaloriesFromActivity": null,
         "bodyBatteryDynamicFeedbackEvent": {
           "eventTimestampGmt": "2026-08-07T05:33:34",
@@ -314934,8 +314934,8 @@
         "avgWakingRespirationValue": 15.0,
         "highestRespirationValue": 23.0,
         "lowestRespirationValue": 8.0,
-        "latestRespirationValue": 20.0,
-        "latestRespirationTimeGMT": "2026-08-07T04:06:00.0",
+        "latestRespirationValue": 8.0,
+        "latestRespirationTimeGMT": "2026-08-07T04:09:00.0",
         "respirationAlgorithmVersion": 200
       },
       "sleep": {
