@@ -17607,6 +17607,289 @@
       "elevationCorrected": false,
       "atpActivity": false,
       "manualActivity": false
+    },
+    {
+      "activityId": 23926228509,
+      "activityName": "Lenvik Hiking",
+      "startTimeLocal": "2026-08-10 16:39:10",
+      "startTimeGMT": "2026-08-10 14:39:10",
+      "activityType": {
+        "typeId": 3,
+        "typeKey": "hiking",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "isFavorite": false,
+      "isPR": false,
+      "isAutoCalcCalories": false,
+      "isParent": false,
+      "distance": 5488.9501953125,
+      "duration": 10065.0,
+      "elapsedDuration": 11303.0,
+      "movingDuration": 4302.0,
+      "elevationGain": 473.9999828338623,
+      "elevationLoss": 470.39998292922974,
+      "averageSpeed": 0.5453502429520616,
+      "maxSpeed": 1.7079999446868899,
+      "startLatitude": 69.5122901815921,
+      "startLongitude": 17.62857877649367,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 655.0,
+      "bmrCalories": 208.0,
+      "averageHR": 99.86388474913065,
+      "maxHR": 150.0,
+      "averageRunningCadenceInStepsPerMinute": 21.745255837059116,
+      "maxRunningCadenceInStepsPerMinute": 239.0,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "courseId": 500146860,
+      "hasVideo": false,
+      "isPurposeful": false,
+      "timeZoneId": 124,
+      "beginTimestamp": 1786372750000,
+      "sportTypeId": 17,
+      "aerobicTrainingEffect": 2.5,
+      "anaerobicTrainingEffect": 0.699999988079071,
+      "avgStrideLength": 150.47426814523496,
+      "deviceId": 3436655159,
+      "minElevation": 1.7999999523162842,
+      "maxElevation": 432.0,
+      "avgElevation": 243.37156484440908,
+      "maxDoubleCadence": 239.0,
+      "isElevationCorrected": false,
+      "isDecoDive": false,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.5999984741210938,
+      "manufacturer": "GARMIN",
+      "locationName": "Lenvik",
+      "lapCount": 1,
+      "endLatitude": 69.51230308972299,
+      "endLongitude": 17.628516918048263,
+      "isAtpActivity": false,
+      "waterEstimated": 1137.0,
+      "trainingEffectLabel": "AEROBIC_BASE",
+      "activityTrainingLoad": 53.43043518066406,
+      "minActivityLapDuration": 10065.0,
+      "aerobicTrainingEffectMessage": "MAINTAINING_AEROBIC_BASE_7",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "splitSummaries": [],
+      "hasSplits": false,
+      "hasIntensityIntervals": false,
+      "isManualActivity": false,
+      "moderateIntensityMinutes": 32,
+      "vigorousIntensityMinutes": 23,
+      "differenceBodyBattery": -9,
+      "hasHeatMap": false,
+      "hrTimeInZone_1": 1944.0,
+      "hrTimeInZone_2": 1403.0,
+      "hrTimeInZone_3": 1409.0,
+      "hrTimeInZone_4": 0.0,
+      "hrTimeInZone_5": 0.0,
+      "endTimeGMT": "2026-08-10 17:47:33",
+      "qualifyingDive": false,
+      "activityUUID": "c04de336-525d-478e-b3cd-8a606d92d7af",
+      "purposeful": false,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "elevationCorrected": false,
+      "atpActivity": false,
+      "parent": false,
+      "decoDive": false,
+      "favorite": false,
+      "pr": false
+    },
+    {
+      "activityId": 23926212501,
+      "activityName": "Berg Hiking",
+      "startTimeLocal": "2026-08-10 08:02:56",
+      "startTimeGMT": "2026-08-10 06:02:56",
+      "activityType": {
+        "typeId": 3,
+        "typeKey": "hiking",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "isFavorite": false,
+      "isPR": false,
+      "isAutoCalcCalories": false,
+      "isParent": false,
+      "distance": 12044.169921875,
+      "duration": 21367.248046875,
+      "elapsedDuration": 24199.390625,
+      "movingDuration": 7729.0,
+      "elevationGain": 681.0,
+      "elevationLoss": 706.0,
+      "averageSpeed": 0.5640000104904175,
+      "maxSpeed": 44.180999755859375,
+      "startLatitude": 69.44174900650978,
+      "startLongitude": 17.31958561576903,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 1454.0,
+      "bmrCalories": 440.0,
+      "averageHR": 106.0,
+      "maxHR": 152.0,
+      "averageRunningCadenceInStepsPerMinute": 19.09375,
+      "maxRunningCadenceInStepsPerMinute": 250.0,
+      "steps": 10820,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "courseId": 500146647,
+      "hasVideo": false,
+      "isPurposeful": false,
+      "timeZoneId": 124,
+      "beginTimestamp": 1786341776000,
+      "sportTypeId": 17,
+      "aerobicTrainingEffect": 2.299999952316284,
+      "anaerobicTrainingEffect": 1.0,
+      "avgStrideLength": 177.12844125376543,
+      "deviceId": 3436655159,
+      "minElevation": 151.39999389648438,
+      "maxElevation": 785.2000122070312,
+      "avgElevation": 456.7540973015794,
+      "maxDoubleCadence": 250.0,
+      "isElevationCorrected": false,
+      "isDecoDive": false,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.600006103515625,
+      "manufacturer": "GARMIN",
+      "locationName": "Berg",
+      "lapCount": 1,
+      "endLatitude": 69.44214228540659,
+      "endLongitude": 17.320718597620726,
+      "isAtpActivity": false,
+      "waterEstimated": 2638.0,
+      "trainingEffectLabel": "AEROBIC_BASE",
+      "activityTrainingLoad": 42.989593505859375,
+      "minActivityLapDuration": 21367.248046875,
+      "aerobicTrainingEffectMessage": "MAINTAINING_AEROBIC_BASE_7",
+      "anaerobicTrainingEffectMessage": "MINOR_ANAEROBIC_BENEFIT_15",
+      "splitSummaries": [],
+      "hasSplits": false,
+      "hasIntensityIntervals": false,
+      "isManualActivity": false,
+      "moderateIntensityMinutes": 136,
+      "vigorousIntensityMinutes": 26,
+      "differenceBodyBattery": -35,
+      "hasHeatMap": false,
+      "hrTimeInZone_1": 10119.772,
+      "hrTimeInZone_2": 6312.997,
+      "hrTimeInZone_3": 1389.004,
+      "hrTimeInZone_4": 3.999,
+      "hrTimeInZone_5": 0.0,
+      "endTimeGMT": "2026-08-10 12:46:15",
+      "qualifyingDive": false,
+      "activityUUID": "f06f2644-dd9f-4043-bd99-934207dd6646",
+      "purposeful": false,
+      "manualActivity": false,
+      "autoCalcCalories": false,
+      "elevationCorrected": false,
+      "atpActivity": false,
+      "parent": false,
+      "decoDive": false,
+      "favorite": false,
+      "pr": false
     }
   ],
   "wellness": [
@@ -333332,20 +333615,20 @@
     {
       "date": "2026-08-10",
       "wellness": {
-        "totalSteps": 8967,
-        "totalDistanceMeters": 11119,
-        "averageStressLevel": 16,
+        "totalSteps": 18838,
+        "totalDistanceMeters": 19167,
+        "averageStressLevel": 28,
         "maxStressLevel": 99,
         "bodyBatteryHighestValue": 88,
-        "bodyBatteryLowestValue": 30,
-        "floorsAscended": 178,
+        "bodyBatteryLowestValue": 9,
+        "floorsAscended": 283,
         "restingHeartRate": 49,
         "maxAvgHeartRate": 141,
         "minAvgHeartRate": 40,
-        "moderateIntensityMinutes": 134,
-        "vigorousIntensityMinutes": 26,
-        "activeKilocalories": 975,
-        "totalKilocalories": 2037
+        "moderateIntensityMinutes": 168,
+        "vigorousIntensityMinutes": 49,
+        "activeKilocalories": 1498,
+        "totalKilocalories": 3286
       },
       "sleep": {
         "dailySleepDTO": {
@@ -333452,7 +333735,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-08-11",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-08-10T12:46:22",
+            "timestampGmt": "2026-08-10T17:48:40",
             "baseline": 480,
             "actual": 480,
             "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
@@ -340701,6 +340984,68 @@
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-08-10",
+          "timestamp": "2026-08-10T17:48:40.0",
+          "timestampLocal": "2026-08-10T19:48:40.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_MOD_SS_GOOD_WORKOUT_COMPLETED",
+          "feedbackShort": "RECOVERY_IN_PROGRESS",
+          "score": 63,
+          "sleepScore": 87,
+          "sleepScoreFactorPercent": 84,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 1222,
+          "recoveryTimeFactorPercent": 67,
+          "recoveryTimeFactorFeedback": "MODERATE",
+          "acwrFactorPercent": 100,
+          "acwrFactorFeedback": "VERY_GOOD",
+          "acuteLoad": 178,
+          "stressHistoryFactorPercent": 65,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 74,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 68,
+          "sleepHistoryFactorPercent": 57,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_POST_EXERCISE_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "NEW_EXERCISE"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-10",
+          "timestamp": "2026-08-10T16:16:03.0",
+          "timestampLocal": "2026-08-10T18:16:03.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_MOD_SS_GOOD_WORKOUT_COMPLETED",
+          "feedbackShort": "RECOVERY_IN_PROGRESS",
+          "score": 70,
+          "sleepScore": 87,
+          "sleepScoreFactorPercent": 84,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 1222,
+          "recoveryTimeFactorPercent": 67,
+          "recoveryTimeFactorFeedback": "MODERATE",
+          "acwrFactorPercent": 100,
+          "acwrFactorFeedback": "VERY_GOOD",
+          "acuteLoad": 108,
+          "stressHistoryFactorPercent": 65,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 74,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 68,
+          "sleepHistoryFactorPercent": 57,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "UPDATE_REALTIME_VARIABLES",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "NEW_EXERCISE"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-10",
           "timestamp": "2026-08-10T12:46:22.0",
           "timestampLocal": "2026-08-10T14:46:22.0",
           "deviceId": 3436655159,
@@ -341659,2504 +342004,1508 @@
     "2026-08-10": {
       "training_status": "RECOVERY_2",
       "fitness_trend": 2,
-      "acwr": 0.3,
+      "acwr": 0.6,
       "acwr_status": "LOW",
-      "acute_load": 108,
-      "chronic_load": 279,
-      "aerobic_low_load": 671.1111,
+      "acute_load": 178,
+      "chronic_load": 292,
+      "aerobic_low_load": 717.18866,
       "aerobic_high_load": 421.62805,
       "load_balance_feedback": "AEROBIC_LOW_FOCUS",
       "vo2max_precise": 56.5,
       "heat_acclimation_pct": 52,
       "heat_trend": "DEACCLIMATIZING",
-      "race_pred_5k": "23:45",
-      "race_pred_10k": "51:10",
-      "race_pred_hm": "1:55:21",
-      "race_pred_marathon": "4:12:41",
-      "avg_respiration": 15.0,
+      "race_pred_5k": "23:46",
+      "race_pred_10k": "51:12",
+      "race_pred_hm": "1:55:23",
+      "race_pred_marathon": "4:12:48",
+      "avg_respiration": 14.0,
       "sleep_respiration": 15.0,
       "avg_spo2": null
     }
   },
   "latest_route": {
-    "name": "Tromso Walking",
-    "date": "2026-08-08",
+    "name": "Lenvik Hiking",
+    "date": "2026-08-10",
     "points": [
       [
-        69.677749,
-        18.903454
+        69.51229,
+        17.628579
       ],
       [
-        69.678038,
-        18.903591
+        69.512388,
+        17.628843
       ],
       [
-        69.678063,
-        18.903819
+        69.512345,
+        17.628927
       ],
       [
-        69.677927,
-        18.903727
+        69.512119,
+        17.628836
       ],
       [
-        69.677921,
-        18.903771
+        69.512008,
+        17.628517
       ],
       [
-        69.679744,
-        18.90934
+        69.511912,
+        17.627245
       ],
       [
-        69.679742,
-        18.909274
+        69.511746,
+        17.627166
       ],
       [
-        69.679737,
-        18.909231
+        69.511614,
+        17.627163
       ],
       [
-        69.679767,
-        18.909255
+        69.511217,
+        17.627178
       ],
       [
-        69.679807,
-        18.909313
+        69.510978,
+        17.627169
       ],
       [
-        69.67981,
-        18.909367
+        69.510817,
+        17.627223
       ],
       [
-        69.679833,
-        18.909447
+        69.510772,
+        17.627064
       ],
       [
-        69.679868,
-        18.909543
+        69.510969,
+        17.626412
       ],
       [
-        69.679909,
-        18.909636
+        69.510986,
+        17.625821
       ],
       [
-        69.679971,
-        18.909762
+        69.510812,
+        17.625134
       ],
       [
-        69.679961,
-        18.909792
+        69.510675,
+        17.625031
       ],
       [
-        69.679949,
-        18.909829
+        69.510398,
+        17.625195
       ],
       [
-        69.680043,
-        18.909891
+        69.510297,
+        17.625254
       ],
       [
-        69.680053,
-        18.909902
+        69.509897,
+        17.625492
       ],
       [
-        69.680065,
-        18.909899
+        69.509318,
+        17.625836
       ],
       [
-        69.680084,
-        18.909843
+        69.509049,
+        17.626004
       ],
       [
-        69.680097,
-        18.909783
+        69.50891,
+        17.626078
       ],
       [
-        69.680096,
-        18.909795
+        69.508829,
+        17.626104
       ],
       [
-        69.680108,
-        18.909704
+        69.508754,
+        17.625678
       ],
       [
-        69.680116,
-        18.909627
+        69.508716,
+        17.624971
       ],
       [
-        69.680125,
-        18.909566
+        69.508607,
+        17.623822
       ],
       [
-        69.680133,
-        18.909516
+        69.508452,
+        17.623273
       ],
       [
-        69.680142,
-        18.909445
+        69.508421,
+        17.622802
       ],
       [
-        69.680148,
-        18.909374
+        69.508168,
+        17.621312
       ],
       [
-        69.680154,
-        18.909308
+        69.508195,
+        17.621205
       ],
       [
-        69.680158,
-        18.90925
+        69.508238,
+        17.620954
       ],
       [
-        69.680162,
-        18.909185
+        69.508237,
+        17.620952
       ],
       [
-        69.680167,
-        18.90912
+        69.508235,
+        17.620946
       ],
       [
-        69.680166,
-        18.909062
+        69.508207,
+        17.620945
       ],
       [
-        69.680164,
-        18.908984
+        69.508115,
+        17.620695
       ],
       [
-        69.680167,
-        18.908903
+        69.50809,
+        17.620106
       ],
       [
-        69.680164,
-        18.908828
+        69.50806,
+        17.619634
       ],
       [
-        69.680162,
-        18.908743
+        69.50806,
+        17.61911
       ],
       [
-        69.680162,
-        18.908663
+        69.507975,
+        17.618754
       ],
       [
-        69.680168,
-        18.908572
+        69.507925,
+        17.618225
       ],
       [
-        69.680169,
-        18.908487
+        69.507969,
+        17.617777
       ],
       [
-        69.680173,
-        18.908414
+        69.50796,
+        17.617538
       ],
       [
-        69.680176,
-        18.908345
+        69.508026,
+        17.61703
       ],
       [
-        69.680173,
-        18.908296
+        69.508106,
+        17.616519
       ],
       [
-        69.68017,
-        18.908226
+        69.508148,
+        17.616216
       ],
       [
-        69.680163,
-        18.908141
+        69.508289,
+        17.615645
       ],
       [
-        69.680157,
-        18.908063
+        69.508346,
+        17.615394
       ],
       [
-        69.680145,
-        18.907978
+        69.508528,
+        17.614954
       ],
       [
-        69.680137,
-        18.907891
+        69.508544,
+        17.614755
       ],
       [
-        69.680134,
-        18.907818
+        69.508544,
+        17.614756
       ],
       [
-        69.680131,
-        18.907712
+        69.508572,
+        17.614742
       ],
       [
-        69.680127,
-        18.907655
+        69.508665,
+        17.614433
       ],
       [
-        69.680122,
-        18.90759
+        69.508944,
+        17.614008
       ],
       [
-        69.680109,
-        18.907514
+        69.509175,
+        17.613494
       ],
       [
-        69.680097,
-        18.907401
+        69.509372,
+        17.613011
       ],
       [
-        69.680082,
-        18.907269
+        69.509493,
+        17.612909
       ],
       [
-        69.680067,
-        18.907149
+        69.509562,
+        17.612785
       ],
       [
-        69.680058,
-        18.907097
+        69.509675,
+        17.61255
       ],
       [
-        69.680034,
-        18.90702
+        69.509777,
+        17.612512
       ],
       [
-        69.680019,
-        18.90695
+        69.50987,
+        17.612165
       ],
       [
-        69.680009,
-        18.906883
+        69.509969,
+        17.611447
       ],
       [
-        69.680006,
-        18.906835
+        69.51004,
+        17.611037
       ],
       [
-        69.679999,
-        18.906755
+        69.51007,
+        17.610559
       ],
       [
-        69.67999,
-        18.906668
+        69.510119,
+        17.610141
       ],
       [
-        69.679976,
-        18.906573
+        69.510067,
+        17.609599
       ],
       [
-        69.679959,
-        18.906483
+        69.510012,
+        17.60925
       ],
       [
-        69.679934,
-        18.906393
+        69.510018,
+        17.609034
       ],
       [
-        69.679906,
-        18.9063
+        69.510025,
+        17.608649
       ],
       [
-        69.679863,
-        18.906177
+        69.510043,
+        17.608226
       ],
       [
-        69.679828,
-        18.906104
+        69.510095,
+        17.607797
       ],
       [
-        69.679795,
-        18.906048
+        69.51016,
+        17.60741
       ],
       [
-        69.679769,
-        18.906015
+        69.510234,
+        17.607092
       ],
       [
-        69.679738,
-        18.905991
+        69.510307,
+        17.60671
       ],
       [
-        69.67971,
-        18.905973
+        69.510461,
+        17.605753
       ],
       [
-        69.679672,
-        18.905959
+        69.510496,
+        17.605493
       ],
       [
-        69.679637,
-        18.905952
+        69.510559,
+        17.605426
       ],
       [
-        69.679602,
-        18.905939
+        69.51062,
+        17.605346
       ],
       [
-        69.67957,
-        18.905929
+        69.510681,
+        17.605281
       ],
       [
-        69.679547,
-        18.905908
+        69.510752,
+        17.604828
       ],
       [
-        69.679521,
-        18.905891
+        69.510812,
+        17.60467
       ],
       [
-        69.6795,
-        18.90588
+        69.510969,
+        17.604256
       ],
       [
-        69.679478,
-        18.905875
+        69.511017,
+        17.604181
       ],
       [
-        69.679446,
-        18.905886
+        69.511085,
+        17.603901
       ],
       [
-        69.67941,
-        18.905883
+        69.511144,
+        17.60352
       ],
       [
-        69.679383,
-        18.905879
+        69.511341,
+        17.60264
       ],
       [
-        69.679357,
-        18.905874
+        69.51149,
+        17.602404
       ],
       [
-        69.679326,
-        18.905875
+        69.511608,
+        17.602362
       ],
       [
-        69.679304,
-        18.905869
+        69.511664,
+        17.602084
       ],
       [
-        69.679274,
-        18.905869
+        69.511705,
+        17.601696
       ],
       [
-        69.679241,
-        18.905871
+        69.511674,
+        17.601341
       ],
       [
-        69.679219,
-        18.905877
+        69.511664,
+        17.600927
       ],
       [
-        69.679186,
-        18.905883
+        69.511629,
+        17.600824
       ],
       [
-        69.679165,
-        18.905899
+        69.511693,
+        17.600466
       ],
       [
-        69.679141,
-        18.905909
+        69.511733,
+        17.599959
       ],
       [
-        69.679112,
-        18.905931
+        69.511831,
+        17.599547
       ],
       [
-        69.67908,
-        18.905948
+        69.511865,
+        17.599518
       ],
       [
-        69.679052,
-        18.905958
+        69.511877,
+        17.599296
       ],
       [
-        69.679025,
-        18.905967
+        69.51193,
+        17.599234
       ],
       [
-        69.679017,
-        18.906007
+        69.512003,
+        17.599
       ],
       [
-        69.67899,
-        18.906015
+        69.512083,
+        17.598934
       ],
       [
-        69.678953,
-        18.906024
+        69.512124,
+        17.598941
       ],
       [
-        69.678925,
-        18.906046
+        69.512192,
+        17.598838
       ],
       [
-        69.678906,
-        18.90606
+        69.512256,
+        17.59875
       ],
       [
-        69.678883,
-        18.906072
+        69.51223,
+        17.598715
       ],
       [
-        69.678861,
-        18.906081
+        69.512294,
+        17.598538
       ],
       [
-        69.678841,
-        18.906074
+        69.512333,
+        17.598413
       ],
       [
-        69.678817,
-        18.906081
+        69.512403,
+        17.598306
       ],
       [
-        69.678805,
-        18.906081
+        69.51246,
+        17.598144
       ],
       [
-        69.678775,
-        18.906094
+        69.512491,
+        17.598121
       ],
       [
-        69.678745,
-        18.906112
+        69.512549,
+        17.598106
       ],
       [
-        69.678717,
-        18.906134
+        69.512617,
+        17.59794
       ],
       [
-        69.67869,
-        18.906144
+        69.512649,
+        17.597837
       ],
       [
-        69.678656,
-        18.906161
+        69.512661,
+        17.597714
       ],
       [
-        69.678629,
-        18.906181
+        69.512648,
+        17.597566
       ],
       [
-        69.678604,
-        18.906197
+        69.512662,
+        17.597345
       ],
       [
-        69.678575,
-        18.906208
+        69.512744,
+        17.597196
       ],
       [
-        69.678538,
-        18.906232
+        69.512728,
+        17.597038
       ],
       [
-        69.678506,
-        18.906259
+        69.512834,
+        17.596134
       ],
       [
-        69.67848,
-        18.906283
+        69.512768,
+        17.595872
       ],
       [
-        69.678454,
-        18.906308
+        69.512763,
+        17.595334
       ],
       [
-        69.678424,
-        18.906332
+        69.512721,
+        17.595138
       ],
       [
-        69.678395,
-        18.906355
+        69.512625,
+        17.59472
       ],
       [
-        69.678368,
-        18.906378
+        69.512552,
+        17.594393
       ],
       [
-        69.678338,
-        18.906398
+        69.512404,
+        17.593946
       ],
       [
-        69.67831,
-        18.906418
+        69.512349,
+        17.593746
       ],
       [
-        69.678289,
-        18.906441
+        69.512026,
+        17.592752
       ],
       [
-        69.678266,
-        18.906481
+        69.511898,
+        17.592496
       ],
       [
-        69.67825,
-        18.906524
+        69.511828,
+        17.592422
       ],
       [
-        69.678226,
-        18.906561
+        69.511729,
+        17.59233
       ],
       [
-        69.678203,
-        18.906603
+        69.511604,
+        17.592081
       ],
       [
-        69.678179,
-        18.906643
+        69.511571,
+        17.592087
       ],
       [
-        69.678157,
-        18.906666
+        69.511478,
+        17.59185
       ],
       [
-        69.678152,
-        18.90666
+        69.511429,
+        17.591804
       ],
       [
-        69.678152,
-        18.90666
+        69.511369,
+        17.591644
       ],
       [
-        69.678152,
-        18.90666
+        69.511312,
+        17.591528
       ],
       [
-        69.678141,
-        18.906626
+        69.511139,
+        17.591125
       ],
       [
-        69.678141,
-        18.906626
+        69.511114,
+        17.591135
       ],
       [
-        69.678129,
-        18.906606
+        69.510981,
+        17.59098
       ],
       [
-        69.678126,
-        18.906601
+        69.510916,
+        17.590986
       ],
       [
-        69.678126,
-        18.906601
+        69.510845,
+        17.590885
       ],
       [
-        69.678126,
-        18.906601
+        69.510791,
+        17.590896
       ],
       [
-        69.678107,
-        18.906555
+        69.510764,
+        17.590749
       ],
       [
-        69.678085,
-        18.906573
+        69.510685,
+        17.59054
       ],
       [
-        69.678054,
-        18.906607
+        69.510698,
+        17.58991
       ],
       [
-        69.678028,
-        18.906638
+        69.51078,
+        17.589721
       ],
       [
-        69.678002,
-        18.90667
+        69.510844,
+        17.589677
       ],
       [
-        69.677976,
-        18.906698
+        69.510844,
+        17.589382
       ],
       [
-        69.677948,
-        18.906733
+        69.510847,
+        17.589356
       ],
       [
-        69.67792,
-        18.906765
+        69.51086,
+        17.589352
       ],
       [
-        69.677892,
-        18.906801
+        69.510854,
+        17.589357
       ],
       [
-        69.677866,
-        18.906827
+        69.510854,
+        17.589357
       ],
       [
-        69.677839,
-        18.906853
+        69.51084,
+        17.589353
       ],
       [
-        69.677811,
-        18.906881
+        69.51084,
+        17.589352
       ],
       [
-        69.677783,
-        18.90691
+        69.51084,
+        17.589352
       ],
       [
-        69.677751,
-        18.906946
+        69.510861,
+        17.58934
       ],
       [
-        69.677721,
-        18.90698
+        69.510871,
+        17.589353
       ],
       [
-        69.677693,
-        18.907011
+        69.510871,
+        17.589324
       ],
       [
-        69.677664,
-        18.907046
+        69.510871,
+        17.589325
       ],
       [
-        69.677637,
-        18.907071
+        69.51087,
+        17.589329
       ],
       [
-        69.677612,
-        18.90709
+        69.510864,
+        17.589368
       ],
       [
-        69.677586,
-        18.907115
+        69.510834,
+        17.589361
       ],
       [
-        69.677556,
-        18.907145
+        69.51085,
+        17.589422
       ],
       [
-        69.677527,
-        18.907172
+        69.51085,
+        17.589405
       ],
       [
-        69.677493,
-        18.907206
+        69.51084,
+        17.589406
       ],
       [
-        69.677464,
-        18.90723
+        69.510852,
+        17.589392
       ],
       [
-        69.677436,
-        18.907253
+        69.510852,
+        17.589384
       ],
       [
-        69.677406,
-        18.907279
+        69.510861,
+        17.589343
       ],
       [
-        69.67738,
-        18.907308
+        69.510865,
+        17.589339
       ],
       [
-        69.677355,
-        18.90734
+        69.510836,
+        17.589327
       ],
       [
-        69.677331,
-        18.907369
+        69.510897,
+        17.589346
       ],
       [
-        69.677303,
-        18.907406
+        69.511022,
+        17.589192
       ],
       [
-        69.677274,
-        18.907438
+        69.511072,
+        17.58901
       ],
       [
-        69.677246,
-        18.907472
+        69.51122,
+        17.588626
       ],
       [
-        69.677214,
-        18.907513
+        69.511262,
+        17.588532
       ],
       [
-        69.677183,
-        18.907551
+        69.511404,
+        17.588388
       ],
       [
-        69.677155,
-        18.907577
+        69.511434,
+        17.588224
       ],
       [
-        69.677128,
-        18.907605
+        69.511471,
+        17.588203
       ],
       [
-        69.6771,
-        18.907634
+        69.511542,
+        17.587973
       ],
       [
-        69.67707,
-        18.907667
+        69.511569,
+        17.587853
       ],
       [
-        69.677045,
-        18.907699
+        69.511601,
+        17.587809
       ],
       [
-        69.677017,
-        18.907722
+        69.511589,
+        17.587836
       ],
       [
-        69.676986,
-        18.907754
+        69.511594,
+        17.587638
       ],
       [
-        69.676956,
-        18.907788
+        69.511649,
+        17.587481
       ],
       [
-        69.676927,
-        18.907821
+        69.511647,
+        17.58732
       ],
       [
-        69.676901,
-        18.90785
+        69.5116,
+        17.587365
       ],
       [
-        69.676875,
-        18.907881
+        69.511613,
+        17.587342
       ],
       [
-        69.676843,
-        18.907915
+        69.511608,
+        17.587372
       ],
       [
-        69.676813,
-        18.907947
+        69.511636,
+        17.587158
       ],
       [
-        69.676784,
-        18.907982
+        69.511593,
+        17.587263
       ],
       [
-        69.676756,
-        18.908015
+        69.511608,
+        17.587342
       ],
       [
-        69.67673,
-        18.908047
+        69.511635,
+        17.587354
       ],
       [
-        69.676703,
-        18.90808
+        69.511654,
+        17.587502
       ],
       [
-        69.676675,
-        18.908112
+        69.511551,
+        17.587677
       ],
       [
-        69.67665,
-        18.908138
+        69.511467,
+        17.587766
       ],
       [
-        69.67662,
-        18.908169
+        69.511359,
+        17.58792
       ],
       [
-        69.676591,
-        18.908204
+        69.511292,
+        17.587974
       ],
       [
-        69.676559,
-        18.90824
+        69.511181,
+        17.588144
       ],
       [
-        69.676536,
-        18.908263
+        69.511099,
+        17.58836
       ],
       [
-        69.676511,
-        18.908287
+        69.511041,
+        17.588468
       ],
       [
-        69.676484,
-        18.908314
+        69.51099,
+        17.588525
       ],
       [
-        69.676452,
-        18.908341
+        69.510883,
+        17.588726
       ],
       [
-        69.676423,
-        18.908366
+        69.510864,
+        17.588682
       ],
       [
-        69.676395,
-        18.908391
+        69.510848,
+        17.588857
       ],
       [
-        69.67637,
-        18.90841
+        69.510794,
+        17.589013
       ],
       [
-        69.676337,
-        18.908441
+        69.510775,
+        17.589339
       ],
       [
-        69.676309,
-        18.908463
+        69.510802,
+        17.589471
       ],
       [
-        69.676279,
-        18.908491
+        69.510815,
+        17.589751
       ],
       [
-        69.676251,
-        18.908517
+        69.510725,
+        17.589785
       ],
       [
-        69.676222,
-        18.908551
+        69.510676,
+        17.589969
       ],
       [
-        69.676195,
-        18.90858
+        69.510679,
+        17.590444
       ],
       [
-        69.676166,
-        18.908607
+        69.510731,
+        17.5906
       ],
       [
-        69.676139,
-        18.908634
+        69.510783,
+        17.590854
       ],
       [
-        69.676112,
-        18.90866
+        69.510848,
+        17.590867
       ],
       [
-        69.67608,
-        18.908692
+        69.510974,
+        17.590951
       ],
       [
-        69.67605,
-        18.908721
+        69.511056,
+        17.59098
       ],
       [
-        69.676021,
-        18.908751
+        69.511144,
+        17.591096
       ],
       [
-        69.675997,
-        18.908767
+        69.511187,
+        17.591236
       ],
       [
-        69.675974,
-        18.908784
+        69.511266,
+        17.59143
       ],
       [
-        69.675942,
-        18.908806
+        69.511347,
+        17.591623
       ],
       [
-        69.675911,
-        18.908825
+        69.511409,
+        17.591692
       ],
       [
-        69.675881,
-        18.908848
+        69.511486,
+        17.591852
       ],
       [
-        69.675851,
-        18.908866
+        69.511547,
+        17.591974
       ],
       [
-        69.675825,
-        18.908878
+        69.511646,
+        17.592176
       ],
       [
-        69.675797,
-        18.908893
+        69.511706,
+        17.59224
       ],
       [
-        69.675764,
-        18.908914
+        69.511853,
+        17.592455
       ],
       [
-        69.67574,
-        18.908925
+        69.511913,
+        17.592573
       ],
       [
-        69.675727,
-        18.908914
+        69.511903,
+        17.592579
       ],
       [
-        69.675699,
-        18.90892
+        69.512037,
+        17.592883
       ],
       [
-        69.675671,
-        18.908922
+        69.512196,
+        17.593105
       ],
       [
-        69.675642,
-        18.908936
+        69.512264,
+        17.593338
       ],
       [
-        69.675613,
-        18.908939
+        69.512299,
+        17.593479
       ],
       [
-        69.675582,
-        18.908944
+        69.512359,
+        17.593723
       ],
       [
-        69.675551,
-        18.908949
+        69.512419,
+        17.593979
       ],
       [
-        69.67552,
-        18.908953
+        69.512578,
+        17.594486
       ],
       [
-        69.675486,
-        18.908961
+        69.512626,
+        17.594559
       ],
       [
-        69.675458,
-        18.90898
+        69.512763,
+        17.595297
       ],
       [
-        69.675424,
-        18.908996
+        69.512776,
+        17.595823
       ],
       [
-        69.675394,
-        18.909003
+        69.512826,
+        17.596064
       ],
       [
-        69.675368,
-        18.909009
+        69.512812,
+        17.596159
       ],
       [
-        69.675338,
-        18.909017
+        69.512845,
+        17.596343
       ],
       [
-        69.675305,
-        18.909017
+        69.512816,
+        17.596345
       ],
       [
-        69.675268,
-        18.909019
+        69.512792,
+        17.596655
       ],
       [
-        69.675243,
-        18.909021
+        69.512737,
+        17.597194
       ],
       [
-        69.675214,
-        18.909025
+        69.512763,
+        17.59721
       ],
       [
-        69.675179,
-        18.909027
+        69.512664,
+        17.597422
       ],
       [
-        69.675148,
-        18.909021
+        69.512643,
+        17.597775
       ],
       [
-        69.675122,
-        18.90901
+        69.512642,
+        17.59798
       ],
       [
-        69.675093,
-        18.909
+        69.512567,
+        17.598115
       ],
       [
-        69.675065,
-        18.908987
+        69.512497,
+        17.598192
       ],
       [
-        69.675032,
-        18.90897
+        69.512437,
+        17.598203
       ],
       [
-        69.675002,
-        18.908953
+        69.512345,
+        17.598409
       ],
       [
-        69.674963,
-        18.90894
+        69.512336,
+        17.598522
       ],
       [
-        69.674919,
-        18.90892
+        69.512298,
+        17.598611
       ],
       [
-        69.674877,
-        18.908903
+        69.512204,
+        17.598816
       ],
       [
-        69.674834,
-        18.908881
+        69.512192,
+        17.598887
       ],
       [
-        69.674793,
-        18.908848
+        69.512093,
+        17.598898
       ],
       [
-        69.674761,
-        18.908817
+        69.512074,
+        17.598934
       ],
       [
-        69.674728,
-        18.908788
+        69.511995,
+        17.598924
       ],
       [
-        69.674685,
-        18.908763
+        69.511934,
+        17.599126
       ],
       [
-        69.674646,
-        18.908742
+        69.511914,
+        17.599284
       ],
       [
-        69.674628,
-        18.908723
+        69.511883,
+        17.599292
       ],
       [
-        69.674596,
-        18.908704
+        69.51182,
+        17.599595
       ],
       [
-        69.674546,
-        18.908673
+        69.511775,
+        17.599773
       ],
       [
-        69.67449,
-        18.908616
+        69.511727,
+        17.599915
       ],
       [
-        69.674448,
-        18.90858
+        69.511726,
+        17.599928
       ],
       [
-        69.674361,
-        18.908549
+        69.511716,
+        17.599896
       ],
       [
-        69.674312,
-        18.90853
+        69.511707,
+        17.599933
       ],
       [
-        69.674279,
-        18.908516
+        69.511723,
+        17.600357
       ],
       [
-        69.67425,
-        18.908501
+        69.511677,
+        17.600608
       ],
       [
-        69.674225,
-        18.90849
+        69.511637,
+        17.600842
       ],
       [
-        69.674204,
-        18.908483
+        69.511671,
+        17.601261
       ],
       [
-        69.67418,
-        18.908476
+        69.511673,
+        17.60179
       ],
       [
-        69.674145,
-        18.908469
+        69.511605,
+        17.602289
       ],
       [
-        69.674111,
-        18.908467
+        69.51154,
+        17.602504
       ],
       [
-        69.674085,
-        18.908465
+        69.511386,
+        17.602627
       ],
       [
-        69.674062,
-        18.908466
+        69.511308,
+        17.602791
       ],
       [
-        69.67403,
-        18.908462
+        69.511238,
+        17.603084
       ],
       [
-        69.674002,
-        18.908454
+        69.511185,
+        17.603162
       ],
       [
-        69.673974,
-        18.90845
+        69.51104,
+        17.603841
       ],
       [
-        69.673944,
-        18.908446
+        69.510996,
+        17.60416
       ],
       [
-        69.673914,
-        18.90845
+        69.510785,
+        17.604735
       ],
       [
-        69.67389,
-        18.908448
+        69.51068,
+        17.605254
       ],
       [
-        69.673866,
-        18.90845
+        69.510613,
+        17.605346
       ],
       [
-        69.673841,
-        18.908449
+        69.510589,
+        17.605378
       ],
       [
-        69.673822,
-        18.908447
+        69.510533,
+        17.605422
       ],
       [
-        69.673791,
-        18.908449
+        69.510463,
+        17.605647
       ],
       [
-        69.67376,
-        18.908449
+        69.510424,
+        17.605842
       ],
       [
-        69.673731,
-        18.908451
+        69.510326,
+        17.606439
       ],
       [
-        69.673698,
-        18.908452
+        69.510319,
+        17.60665
       ],
       [
-        69.673671,
-        18.908452
+        69.510234,
+        17.606946
       ],
       [
-        69.673648,
-        18.908456
+        69.510195,
+        17.607197
       ],
       [
-        69.673631,
-        18.908463
+        69.510167,
+        17.607374
       ],
       [
-        69.673609,
-        18.908487
+        69.510091,
+        17.607821
       ],
       [
-        69.673586,
-        18.908494
+        69.510045,
+        17.608186
       ],
       [
-        69.673562,
-        18.908501
+        69.510004,
+        17.608364
       ],
       [
-        69.673553,
-        18.908488
+        69.510003,
+        17.608483
       ],
       [
-        69.67353,
-        18.908483
+        69.510019,
+        17.608725
       ],
       [
-        69.673485,
-        18.908501
+        69.510008,
+        17.608866
       ],
       [
-        69.67345,
-        18.908512
+        69.510011,
+        17.60923
       ],
       [
-        69.67341,
-        18.90853
+        69.510061,
+        17.609507
       ],
       [
-        69.67339,
-        18.908535
+        69.510089,
+        17.609762
       ],
       [
-        69.67338,
-        18.908522
+        69.51012,
+        17.610087
       ],
       [
-        69.673381,
-        18.908498
+        69.510076,
+        17.610548
       ],
       [
-        69.673361,
-        18.908501
+        69.51004,
+        17.611006
       ],
       [
-        69.67333,
-        18.908516
+        69.51001,
+        17.611222
       ],
       [
-        69.673295,
-        18.908538
+        69.509919,
+        17.611865
       ],
       [
-        69.673271,
-        18.908553
+        69.509784,
+        17.612483
       ],
       [
-        69.67324,
-        18.908586
+        69.509658,
+        17.61254
       ],
       [
-        69.673213,
-        18.90861
+        69.509568,
+        17.612778
       ],
       [
-        69.67319,
-        18.908652
+        69.509493,
+        17.612876
       ],
       [
-        69.673165,
-        18.908693
+        69.509382,
+        17.61297
       ],
       [
-        69.673144,
-        18.90872
+        69.509174,
+        17.613471
       ],
       [
-        69.67312,
-        18.908752
+        69.508951,
+        17.613994
       ],
       [
-        69.673091,
-        18.908788
+        69.50876,
+        17.614306
       ],
       [
-        69.673064,
-        18.908819
+        69.508665,
+        17.614403
       ],
       [
-        69.673036,
-        18.908853
+        69.508659,
+        17.614447
       ],
       [
-        69.67301,
-        18.908878
+        69.508663,
+        17.614373
       ],
       [
-        69.672983,
-        18.908904
+        69.508573,
+        17.614663
       ],
       [
-        69.672958,
-        18.908929
+        69.508404,
+        17.615123
       ],
       [
-        69.672935,
-        18.908954
+        69.508269,
+        17.615644
       ],
       [
-        69.672909,
-        18.908978
+        69.508224,
+        17.615814
       ],
       [
-        69.67288,
-        18.909004
+        69.508108,
+        17.616569
       ],
       [
-        69.672854,
-        18.909022
+        69.508051,
+        17.61694
       ],
       [
-        69.672818,
-        18.90906
+        69.507976,
+        17.617431
       ],
       [
-        69.672791,
-        18.90909
+        69.507985,
+        17.617594
       ],
       [
-        69.672765,
-        18.909121
+        69.507937,
+        17.617956
       ],
       [
-        69.672743,
-        18.909162
+        69.507896,
+        17.618358
       ],
       [
-        69.672719,
-        18.909219
+        69.50804,
+        17.619294
       ],
       [
-        69.672697,
-        18.909273
+        69.50804,
+        17.619872
       ],
       [
-        69.672685,
-        18.909301
+        69.508076,
+        17.620342
       ],
       [
-        69.672662,
-        18.909361
+        69.508099,
+        17.6206
       ],
       [
-        69.672633,
-        18.909421
+        69.508153,
+        17.620705
       ],
       [
-        69.672609,
-        18.909466
+        69.508219,
+        17.621077
       ],
       [
-        69.672597,
-        18.909491
+        69.508169,
+        17.621269
       ],
       [
-        69.672581,
-        18.909534
+        69.508249,
+        17.621557
       ],
       [
-        69.672564,
-        18.909585
+        69.508429,
+        17.622745
       ],
       [
-        69.672548,
-        18.909625
+        69.508497,
+        17.623477
       ],
       [
-        69.672528,
-        18.909671
+        69.508658,
+        17.624172
       ],
       [
-        69.672497,
-        18.909737
+        69.508712,
+        17.624593
       ],
       [
-        69.672476,
-        18.909778
+        69.508811,
+        17.626016
       ],
       [
-        69.672458,
-        18.90982
+        69.508846,
+        17.626034
       ],
       [
-        69.672434,
-        18.909881
+        69.509511,
+        17.625667
       ],
       [
-        69.672412,
-        18.909938
+        69.509937,
+        17.625423
       ],
       [
-        69.672394,
-        18.909994
+        69.51027,
+        17.625251
       ],
       [
-        69.672379,
-        18.91002
+        69.510431,
+        17.625175
       ],
       [
-        69.672367,
-        18.910035
+        69.510769,
+        17.625165
       ],
       [
-        69.672358,
-        18.910061
+        69.510915,
+        17.625408
       ],
       [
-        69.672352,
-        18.91009
+        69.510999,
+        17.626176
       ],
       [
-        69.67233,
-        18.91018
+        69.510823,
+        17.626862
       ],
       [
-        69.672315,
-        18.910259
+        69.510772,
+        17.627179
       ],
       [
-        69.672299,
-        18.910346
+        69.510766,
+        17.627165
       ],
       [
-        69.672283,
-        18.910429
+        69.510774,
+        17.627169
       ],
       [
-        69.672269,
-        18.910517
+        69.510815,
+        17.627171
       ],
       [
-        69.672253,
-        18.910606
+        69.510859,
+        17.627141
       ],
       [
-        69.67224,
-        18.91068
+        69.51097,
+        17.627148
       ],
       [
-        69.672215,
-        18.910752
+        69.51117,
+        17.627043
       ],
       [
-        69.672206,
-        18.91084
+        69.511422,
+        17.627027
       ],
       [
-        69.672173,
-        18.910913
+        69.511529,
+        17.627072
       ],
       [
-        69.672146,
-        18.910988
+        69.511596,
+        17.627031
       ],
       [
-        69.672117,
-        18.911043
+        69.511698,
+        17.62711
       ],
       [
-        69.672098,
-        18.911111
+        69.51194,
+        17.627346
       ],
       [
-        69.672075,
-        18.911172
+        69.512004,
+        17.628254
       ],
       [
-        69.672064,
-        18.911208
+        69.512064,
+        17.628637
       ],
       [
-        69.672051,
-        18.911291
+        69.512204,
+        17.628844
       ],
       [
-        69.672031,
-        18.911375
+        69.51236,
+        17.628921
       ],
       [
-        69.672007,
-        18.911445
+        69.512402,
+        17.628692
       ],
       [
-        69.671977,
-        18.911489
+        69.512318,
+        17.628562
       ],
       [
-        69.671951,
-        18.91156
+        69.512316,
+        17.628568
       ],
       [
-        69.671933,
-        18.911632
+        69.512313,
+        17.628502
       ],
       [
-        69.671928,
-        18.911688
-      ],
-      [
-        69.671918,
-        18.911767
-      ],
-      [
-        69.671908,
-        18.911821
-      ],
-      [
-        69.671895,
-        18.911882
-      ],
-      [
-        69.671886,
-        18.911934
-      ],
-      [
-        69.671889,
-        18.911992
-      ],
-      [
-        69.671889,
-        18.91209
-      ],
-      [
-        69.671898,
-        18.912193
-      ],
-      [
-        69.6719,
-        18.912238
-      ],
-      [
-        69.671905,
-        18.912308
-      ],
-      [
-        69.671913,
-        18.912355
-      ],
-      [
-        69.671934,
-        18.91246
-      ],
-      [
-        69.671947,
-        18.912693
-      ],
-      [
-        69.671954,
-        18.912875
-      ],
-      [
-        69.671968,
-        18.913261
-      ],
-      [
-        69.671975,
-        18.91332
-      ],
-      [
-        69.671996,
-        18.913161
-      ],
-      [
-        69.67202,
-        18.913153
-      ],
-      [
-        69.672037,
-        18.913211
-      ],
-      [
-        69.67205,
-        18.913269
-      ],
-      [
-        69.672059,
-        18.913337
-      ],
-      [
-        69.672068,
-        18.913411
-      ],
-      [
-        69.672077,
-        18.913485
-      ],
-      [
-        69.672087,
-        18.913562
-      ],
-      [
-        69.672096,
-        18.913638
-      ],
-      [
-        69.672104,
-        18.913715
-      ],
-      [
-        69.672112,
-        18.913792
-      ],
-      [
-        69.672119,
-        18.913874
-      ],
-      [
-        69.672124,
-        18.913934
-      ],
-      [
-        69.672129,
-        18.914001
-      ],
-      [
-        69.672132,
-        18.914071
-      ],
-      [
-        69.672136,
-        18.914138
-      ],
-      [
-        69.67214,
-        18.91421
-      ],
-      [
-        69.672144,
-        18.914279
-      ],
-      [
-        69.672149,
-        18.914355
-      ],
-      [
-        69.672153,
-        18.914434
-      ],
-      [
-        69.672156,
-        18.914516
-      ],
-      [
-        69.672159,
-        18.9146
-      ],
-      [
-        69.672164,
-        18.914676
-      ],
-      [
-        69.67217,
-        18.914742
-      ],
-      [
-        69.672176,
-        18.914816
-      ],
-      [
-        69.672181,
-        18.91489
-      ],
-      [
-        69.672186,
-        18.914966
-      ],
-      [
-        69.672188,
-        18.915045
-      ],
-      [
-        69.67219,
-        18.915115
-      ],
-      [
-        69.67219,
-        18.915188
-      ],
-      [
-        69.672191,
-        18.915264
-      ],
-      [
-        69.672192,
-        18.915344
-      ],
-      [
-        69.672193,
-        18.915414
-      ],
-      [
-        69.672196,
-        18.915486
-      ],
-      [
-        69.672201,
-        18.915549
-      ],
-      [
-        69.672202,
-        18.915617
-      ],
-      [
-        69.672208,
-        18.915698
-      ],
-      [
-        69.672212,
-        18.915771
-      ],
-      [
-        69.672216,
-        18.915842
-      ],
-      [
-        69.672217,
-        18.9159
-      ],
-      [
-        69.672217,
-        18.915966
-      ],
-      [
-        69.672218,
-        18.916038
-      ],
-      [
-        69.67222,
-        18.916096
-      ],
-      [
-        69.67222,
-        18.916158
-      ],
-      [
-        69.672219,
-        18.916236
-      ],
-      [
-        69.67222,
-        18.916307
-      ],
-      [
-        69.672219,
-        18.916387
-      ],
-      [
-        69.672218,
-        18.916463
-      ],
-      [
-        69.67222,
-        18.91654
-      ],
-      [
-        69.672221,
-        18.916631
-      ],
-      [
-        69.672217,
-        18.9167
-      ],
-      [
-        69.672214,
-        18.916784
-      ],
-      [
-        69.672215,
-        18.916868
-      ],
-      [
-        69.672219,
-        18.916946
-      ],
-      [
-        69.672227,
-        18.916998
-      ],
-      [
-        69.672243,
-        18.917097
-      ],
-      [
-        69.672253,
-        18.917114
-      ],
-      [
-        69.672261,
-        18.917106
-      ],
-      [
-        69.672324,
-        18.917235
-      ],
-      [
-        69.672312,
-        18.917378
-      ],
-      [
-        69.672319,
-        18.917512
-      ],
-      [
-        69.672335,
-        18.917547
-      ],
-      [
-        69.672352,
-        18.917603
-      ],
-      [
-        69.672363,
-        18.917646
-      ],
-      [
-        69.672367,
-        18.917703
-      ],
-      [
-        69.672351,
-        18.917746
-      ],
-      [
-        69.672295,
-        18.917792
-      ],
-      [
-        69.672293,
-        18.917975
-      ],
-      [
-        69.672284,
-        18.918076
-      ],
-      [
-        69.672274,
-        18.918182
-      ],
-      [
-        69.672262,
-        18.918206
-      ],
-      [
-        69.672251,
-        18.918192
-      ],
-      [
-        69.672249,
-        18.918181
-      ],
-      [
-        69.672245,
-        18.918167
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672243,
-        18.91816
-      ],
-      [
-        69.672236,
-        18.918182
-      ],
-      [
-        69.672214,
-        18.918219
-      ],
-      [
-        69.672189,
-        18.918239
-      ],
-      [
-        69.672164,
-        18.918259
-      ],
-      [
-        69.672142,
-        18.918283
-      ],
-      [
-        69.672123,
-        18.918308
-      ],
-      [
-        69.672095,
-        18.918327
-      ],
-      [
-        69.672069,
-        18.918342
-      ],
-      [
-        69.67205,
-        18.918341
-      ],
-      [
-        69.67203,
-        18.918341
-      ],
-      [
-        69.672015,
-        18.91835
-      ],
-      [
-        69.672001,
-        18.918362
-      ],
-      [
-        69.671987,
-        18.91838
-      ],
-      [
-        69.671916,
-        18.918628
-      ],
-      [
-        69.67189,
-        18.918652
-      ],
-      [
-        69.671906,
-        18.91871
-      ],
-      [
-        69.671901,
-        18.918569
-      ],
-      [
-        69.67187,
-        18.918541
-      ],
-      [
-        69.671837,
-        18.918548
-      ],
-      [
-        69.6718,
-        18.918541
-      ],
-      [
-        69.671754,
-        18.918551
-      ],
-      [
-        69.671723,
-        18.918574
-      ],
-      [
-        69.671693,
-        18.918593
-      ],
-      [
-        69.671669,
-        18.918609
-      ],
-      [
-        69.671644,
-        18.918631
-      ],
-      [
-        69.671618,
-        18.918644
-      ],
-      [
-        69.671599,
-        18.918672
-      ],
-      [
-        69.671575,
-        18.918691
-      ],
-      [
-        69.671553,
-        18.918707
-      ],
-      [
-        69.671526,
-        18.918709
-      ],
-      [
-        69.671503,
-        18.918732
-      ],
-      [
-        69.671478,
-        18.918753
-      ],
-      [
-        69.671453,
-        18.918782
-      ],
-      [
-        69.671429,
-        18.918815
-      ],
-      [
-        69.671401,
-        18.918828
-      ],
-      [
-        69.671379,
-        18.918844
-      ],
-      [
-        69.671356,
-        18.918866
-      ],
-      [
-        69.67133,
-        18.918888
-      ],
-      [
-        69.671301,
-        18.918902
-      ],
-      [
-        69.671295,
-        18.918899
-      ],
-      [
-        69.67129,
-        18.918918
-      ],
-      [
-        69.671274,
-        18.918935
-      ],
-      [
-        69.671251,
-        18.91897
-      ],
-      [
-        69.671225,
-        18.919
-      ],
-      [
-        69.6712,
-        18.919013
-      ],
-      [
-        69.671178,
-        18.919036
-      ],
-      [
-        69.671154,
-        18.919066
-      ],
-      [
-        69.671135,
-        18.919097
-      ],
-      [
-        69.671114,
-        18.919134
-      ],
-      [
-        69.671095,
-        18.919176
-      ],
-      [
-        69.671077,
-        18.919225
-      ],
-      [
-        69.671056,
-        18.919278
-      ],
-      [
-        69.671033,
-        18.91933
-      ],
-      [
-        69.671014,
-        18.919365
-      ],
-      [
-        69.670993,
-        18.919393
-      ],
-      [
-        69.670968,
-        18.919428
-      ],
-      [
-        69.670942,
-        18.919452
-      ],
-      [
-        69.670916,
-        18.919489
-      ],
-      [
-        69.670898,
-        18.919523
-      ],
-      [
-        69.670881,
-        18.91957
-      ],
-      [
-        69.670864,
-        18.919613
-      ],
-      [
-        69.670843,
-        18.919651
-      ],
-      [
-        69.670832,
-        18.919692
-      ],
-      [
-        69.67082,
-        18.919726
-      ],
-      [
-        69.670801,
-        18.919766
-      ],
-      [
-        69.670779,
-        18.919802
-      ],
-      [
-        69.670755,
-        18.91982
-      ],
-      [
-        69.670732,
-        18.919841
-      ],
-      [
-        69.67071,
-        18.919859
-      ],
-      [
-        69.670686,
-        18.919881
-      ],
-      [
-        69.670662,
-        18.919913
-      ],
-      [
-        69.670643,
-        18.919934
-      ],
-      [
-        69.670623,
-        18.919952
-      ],
-      [
-        69.670604,
-        18.919988
-      ],
-      [
-        69.670581,
-        18.920027
-      ],
-      [
-        69.670559,
-        18.92007
-      ],
-      [
-        69.670536,
-        18.920099
-      ],
-      [
-        69.670517,
-        18.920137
-      ],
-      [
-        69.670497,
-        18.920173
-      ],
-      [
-        69.670477,
-        18.920212
-      ],
-      [
-        69.670459,
-        18.920254
-      ],
-      [
-        69.670444,
-        18.920293
-      ],
-      [
-        69.670439,
-        18.920327
-      ],
-      [
-        69.670441,
-        18.920346
-      ],
-      [
-        69.670443,
-        18.920406
-      ],
-      [
-        69.670451,
-        18.92046
-      ],
-      [
-        69.67046,
-        18.92051
-      ],
-      [
-        69.670467,
-        18.920561
-      ],
-      [
-        69.670474,
-        18.920621
-      ],
-      [
-        69.670483,
-        18.920688
-      ],
-      [
-        69.670492,
-        18.920767
-      ],
-      [
-        69.670497,
-        18.920807
-      ],
-      [
-        69.670497,
-        18.920811
-      ],
-      [
-        69.670497,
-        18.920811
-      ],
-      [
-        69.670497,
-        18.920811
-      ],
-      [
-        69.670497,
-        18.920811
-      ],
-      [
-        69.670501,
-        18.920855
-      ],
-      [
-        69.670507,
-        18.920918
-      ],
-      [
-        69.670513,
-        18.920967
-      ],
-      [
-        69.67052,
-        18.921025
-      ],
-      [
-        69.670531,
-        18.921072
-      ],
-      [
-        69.670544,
-        18.921128
-      ],
-      [
-        69.670556,
-        18.921184
-      ],
-      [
-        69.670564,
-        18.921241
-      ],
-      [
-        69.670571,
-        18.921289
-      ],
-      [
-        69.670582,
-        18.921348
-      ],
-      [
-        69.670593,
-        18.9214
-      ],
-      [
-        69.670601,
-        18.921448
-      ],
-      [
-        69.670607,
-        18.921501
-      ],
-      [
-        69.670611,
-        18.921533
-      ],
-      [
-        69.670612,
-        18.921558
-      ],
-      [
-        69.67061,
-        18.9216
-      ],
-      [
-        69.670602,
-        18.921632
-      ],
-      [
-        69.670589,
-        18.921667
-      ],
-      [
-        69.670577,
-        18.921698
-      ],
-      [
-        69.670562,
-        18.921722
-      ],
-      [
-        69.670555,
-        18.921721
-      ],
-      [
-        69.670546,
-        18.921733
-      ],
-      [
-        69.670532,
-        18.921726
-      ],
-      [
-        69.670522,
-        18.921699
-      ],
-      [
-        69.670503,
-        18.921679
-      ],
-      [
-        69.670478,
-        18.921658
-      ],
-      [
-        69.670456,
-        18.921645
-      ],
-      [
-        69.670434,
-        18.921637
-      ],
-      [
-        69.670411,
-        18.921628
-      ],
-      [
-        69.67039,
-        18.921623
-      ],
-      [
-        69.670368,
-        18.921614
-      ],
-      [
-        69.67035,
-        18.921606
-      ],
-      [
-        69.670336,
-        18.92159
-      ],
-      [
-        69.670331,
-        18.921557
-      ],
-      [
-        69.670332,
-        18.921534
-      ],
-      [
-        69.670333,
-        18.921541
-      ],
-      [
-        69.670335,
-        18.92153
-      ],
-      [
-        69.670338,
-        18.921505
-      ],
-      [
-        69.67034,
-        18.921504
-      ],
-      [
-        69.670339,
-        18.921505
-      ],
-      [
-        69.670339,
-        18.92153
-      ],
-      [
-        69.670339,
-        18.921506
-      ],
-      [
-        69.670335,
-        18.921476
-      ],
-      [
-        69.670332,
-        18.921473
-      ],
-      [
-        69.670326,
-        18.921487
-      ],
-      [
-        69.670311,
-        18.921531
-      ],
-      [
-        69.670298,
-        18.921562
-      ],
-      [
-        69.670291,
-        18.921576
-      ],
-      [
-        69.670278,
-        18.921551
-      ],
-      [
-        69.670263,
-        18.921517
-      ],
-      [
-        69.67025,
-        18.921499
-      ],
-      [
-        69.670243,
-        18.921491
-      ],
-      [
-        69.670439,
-        18.92122
-      ],
-      [
-        69.670468,
-        18.921236
-      ],
-      [
-        69.670493,
-        18.921219
-      ],
-      [
-        69.670508,
-        18.921168
-      ],
-      [
-        69.670504,
-        18.921133
+        69.512303,
+        17.628517
       ]
     ]
   }
