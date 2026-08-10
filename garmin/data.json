@@ -333332,19 +333332,20 @@
     {
       "date": "2026-08-10",
       "wellness": {
-        "totalSteps": 27,
-        "totalDistanceMeters": 21,
-        "averageStressLevel": 13,
-        "maxStressLevel": 59,
+        "totalSteps": 8967,
+        "totalDistanceMeters": 11119,
+        "averageStressLevel": 16,
+        "maxStressLevel": 99,
         "bodyBatteryHighestValue": 88,
         "bodyBatteryLowestValue": 30,
-        "floorsAscended": 0,
+        "floorsAscended": 178,
         "restingHeartRate": 49,
-        "maxAvgHeartRate": 71,
-        "minAvgHeartRate": 45,
-        "moderateIntensityMinutes": 0,
-        "vigorousIntensityMinutes": 0,
-        "totalKilocalories": 466
+        "maxAvgHeartRate": 141,
+        "minAvgHeartRate": 40,
+        "moderateIntensityMinutes": 134,
+        "vigorousIntensityMinutes": 26,
+        "activeKilocalories": 975,
+        "totalKilocalories": 2037
       },
       "sleep": {
         "dailySleepDTO": {
@@ -333451,7 +333452,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-08-11",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-08-10T03:47:54",
+            "timestampGmt": "2026-08-10T12:46:22",
             "baseline": 480,
             "actual": 480,
             "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
@@ -336177,72 +336178,217 @@
           {
             "startGMT": "2026-08-10T04:02:00.0",
             "endGMT": "2026-08-10T04:03:00.0",
-            "activityLevel": 4.041495960133689
+            "activityLevel": 4.045879291044145
           },
           {
             "startGMT": "2026-08-10T04:03:00.0",
             "endGMT": "2026-08-10T04:04:00.0",
-            "activityLevel": 4.013025466296623
+            "activityLevel": 4.015935929122093
           },
           {
             "startGMT": "2026-08-10T04:04:00.0",
             "endGMT": "2026-08-10T04:05:00.0",
-            "activityLevel": 3.9754648218694446
+            "activityLevel": 3.9646495959636687
           },
           {
             "startGMT": "2026-08-10T04:05:00.0",
             "endGMT": "2026-08-10T04:06:00.0",
-            "activityLevel": 3.9402802082684354
+            "activityLevel": 3.895041193667299
           },
           {
             "startGMT": "2026-08-10T04:06:00.0",
             "endGMT": "2026-08-10T04:07:00.0",
-            "activityLevel": 3.9216273897978398
+            "activityLevel": 3.812865380003308
           },
           {
             "startGMT": "2026-08-10T04:07:00.0",
             "endGMT": "2026-08-10T04:08:00.0",
-            "activityLevel": 3.93495075435443
+            "activityLevel": 3.719814452925828
           },
           {
             "startGMT": "2026-08-10T04:08:00.0",
             "endGMT": "2026-08-10T04:09:00.0",
-            "activityLevel": 3.994681641943963
+            "activityLevel": 3.6196399888692334
           },
           {
             "startGMT": "2026-08-10T04:09:00.0",
             "endGMT": "2026-08-10T04:10:00.0",
-            "activityLevel": 4.111456276861832
+            "activityLevel": 3.51580015759073
           },
           {
             "startGMT": "2026-08-10T04:10:00.0",
             "endGMT": "2026-08-10T04:11:00.0",
-            "activityLevel": 4.289812093182083
+            "activityLevel": 3.4111234236088985
           },
           {
             "startGMT": "2026-08-10T04:11:00.0",
             "endGMT": "2026-08-10T04:12:00.0",
-            "activityLevel": 4.527344629515424
+            "activityLevel": 3.307522874807467
           },
           {
             "startGMT": "2026-08-10T04:12:00.0",
             "endGMT": "2026-08-10T04:13:00.0",
-            "activityLevel": 4.81476111725352
+            "activityLevel": 3.204566351756401
           },
           {
             "startGMT": "2026-08-10T04:13:00.0",
             "endGMT": "2026-08-10T04:14:00.0",
-            "activityLevel": 5.146794657015475
+            "activityLevel": 3.113558134408346
           },
           {
             "startGMT": "2026-08-10T04:14:00.0",
             "endGMT": "2026-08-10T04:15:00.0",
-            "activityLevel": 5.4967510939325654
+            "activityLevel": 3.013948212840356
           },
           {
             "startGMT": "2026-08-10T04:15:00.0",
             "endGMT": "2026-08-10T04:16:00.0",
-            "activityLevel": 5.8549930528697
+            "activityLevel": 2.9103459531238833
+          },
+          {
+            "startGMT": "2026-08-10T04:16:00.0",
+            "endGMT": "2026-08-10T04:17:00.0",
+            "activityLevel": 2.80136949007723
+          },
+          {
+            "startGMT": "2026-08-10T04:17:00.0",
+            "endGMT": "2026-08-10T04:18:00.0",
+            "activityLevel": 2.6853464793609283
+          },
+          {
+            "startGMT": "2026-08-10T04:18:00.0",
+            "endGMT": "2026-08-10T04:19:00.0",
+            "activityLevel": 2.5605401466654767
+          },
+          {
+            "startGMT": "2026-08-10T04:19:00.0",
+            "endGMT": "2026-08-10T04:20:00.0",
+            "activityLevel": 2.423749901501327
+          },
+          {
+            "startGMT": "2026-08-10T04:20:00.0",
+            "endGMT": "2026-08-10T04:21:00.0",
+            "activityLevel": 2.2755696870239714
+          },
+          {
+            "startGMT": "2026-08-10T04:21:00.0",
+            "endGMT": "2026-08-10T04:22:00.0",
+            "activityLevel": 2.1157767503388007
+          },
+          {
+            "startGMT": "2026-08-10T04:22:00.0",
+            "endGMT": "2026-08-10T04:23:00.0",
+            "activityLevel": 1.9445947940809005
+          },
+          {
+            "startGMT": "2026-08-10T04:23:00.0",
+            "endGMT": "2026-08-10T04:24:00.0",
+            "activityLevel": 1.7785543266136248
+          },
+          {
+            "startGMT": "2026-08-10T04:24:00.0",
+            "endGMT": "2026-08-10T04:25:00.0",
+            "activityLevel": 1.5850286259894755
+          },
+          {
+            "startGMT": "2026-08-10T04:25:00.0",
+            "endGMT": "2026-08-10T04:26:00.0",
+            "activityLevel": 1.380210035412208
+          },
+          {
+            "startGMT": "2026-08-10T04:26:00.0",
+            "endGMT": "2026-08-10T04:27:00.0",
+            "activityLevel": 1.169178717346769
+          },
+          {
+            "startGMT": "2026-08-10T04:27:00.0",
+            "endGMT": "2026-08-10T04:28:00.0",
+            "activityLevel": 0.9548729289835648
+          },
+          {
+            "startGMT": "2026-08-10T04:28:00.0",
+            "endGMT": "2026-08-10T04:29:00.0",
+            "activityLevel": 0.7459027616271922
+          },
+          {
+            "startGMT": "2026-08-10T04:29:00.0",
+            "endGMT": "2026-08-10T04:30:00.0",
+            "activityLevel": 0.544207426022909
+          },
+          {
+            "startGMT": "2026-08-10T04:30:00.0",
+            "endGMT": "2026-08-10T04:31:00.0",
+            "activityLevel": 0.34373546965981844
+          },
+          {
+            "startGMT": "2026-08-10T04:31:00.0",
+            "endGMT": "2026-08-10T04:32:00.0",
+            "activityLevel": 0.13653380112045516
+          },
+          {
+            "startGMT": "2026-08-10T04:32:00.0",
+            "endGMT": "2026-08-10T04:33:00.0",
+            "activityLevel": 0.19734907173371755
+          },
+          {
+            "startGMT": "2026-08-10T04:33:00.0",
+            "endGMT": "2026-08-10T04:34:00.0",
+            "activityLevel": 0.32044078114547153
+          },
+          {
+            "startGMT": "2026-08-10T04:34:00.0",
+            "endGMT": "2026-08-10T04:35:00.0",
+            "activityLevel": 0.687470939319637
+          },
+          {
+            "startGMT": "2026-08-10T04:35:00.0",
+            "endGMT": "2026-08-10T04:36:00.0",
+            "activityLevel": 1.0664805206487964
+          },
+          {
+            "startGMT": "2026-08-10T04:36:00.0",
+            "endGMT": "2026-08-10T04:37:00.0",
+            "activityLevel": 1.4853090390988024
+          },
+          {
+            "startGMT": "2026-08-10T04:37:00.0",
+            "endGMT": "2026-08-10T04:38:00.0",
+            "activityLevel": 1.9414987547701923
+          },
+          {
+            "startGMT": "2026-08-10T04:38:00.0",
+            "endGMT": "2026-08-10T04:39:00.0",
+            "activityLevel": 2.4290101949365566
+          },
+          {
+            "startGMT": "2026-08-10T04:39:00.0",
+            "endGMT": "2026-08-10T04:40:00.0",
+            "activityLevel": 2.9399273479656194
+          },
+          {
+            "startGMT": "2026-08-10T04:40:00.0",
+            "endGMT": "2026-08-10T04:41:00.0",
+            "activityLevel": 3.465180340015096
+          },
+          {
+            "startGMT": "2026-08-10T04:41:00.0",
+            "endGMT": "2026-08-10T04:42:00.0",
+            "activityLevel": 3.9950510651243616
+          },
+          {
+            "startGMT": "2026-08-10T04:42:00.0",
+            "endGMT": "2026-08-10T04:43:00.0",
+            "activityLevel": 4.519620685170564
+          },
+          {
+            "startGMT": "2026-08-10T04:43:00.0",
+            "endGMT": "2026-08-10T04:44:00.0",
+            "activityLevel": 5.02919417748493
+          },
+          {
+            "startGMT": "2026-08-10T04:44:00.0",
+            "endGMT": "2026-08-10T04:45:00.0",
+            "activityLevel": 5.514702939727712
           }
         ],
         "remSleepData": true,
@@ -340555,6 +340701,37 @@
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-08-10",
+          "timestamp": "2026-08-10T12:46:22.0",
+          "timestampLocal": "2026-08-10T14:46:22.0",
+          "deviceId": 3436655159,
+          "level": "HIGH",
+          "feedbackLong": "HIGH_RT_AVAILABLE_SS_HIGHEST_ACWR_POS",
+          "feedbackShort": "WELL_RESTED",
+          "score": 75,
+          "sleepScore": 87,
+          "sleepScoreFactorPercent": 84,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 866,
+          "recoveryTimeFactorPercent": 77,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 100,
+          "acwrFactorFeedback": "VERY_GOOD",
+          "acuteLoad": 108,
+          "stressHistoryFactorPercent": 65,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 74,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 68,
+          "sleepHistoryFactorPercent": 57,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_POST_EXERCISE_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "REACHED_ZERO"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-10",
           "timestamp": "2026-08-10T03:47:54.0",
           "timestampLocal": "2026-08-10T05:47:54.0",
           "deviceId": 3436655159,
@@ -341482,11 +341659,11 @@
     "2026-08-10": {
       "training_status": "RECOVERY_2",
       "fitness_trend": 2,
-      "acwr": 0.1,
+      "acwr": 0.3,
       "acwr_status": "LOW",
-      "acute_load": 54,
-      "chronic_load": 269,
-      "aerobic_low_load": 638.14325,
+      "acute_load": 108,
+      "chronic_load": 279,
+      "aerobic_low_load": 671.1111,
       "aerobic_high_load": 421.62805,
       "load_balance_feedback": "AEROBIC_LOW_FOCUS",
       "vo2max_precise": 56.5,
