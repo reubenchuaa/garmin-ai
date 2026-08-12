@@ -346232,6 +346232,70 @@
           "recoveryTimeChangePhrase": "NO_CHANGE_SLEEP"
         }
       ]
+    },
+    {
+      "date": "2026-08-12",
+      "wellness": {
+        "totalSteps": 25,
+        "totalDistanceMeters": 19,
+        "averageStressLevel": 23,
+        "maxStressLevel": 53,
+        "bodyBatteryHighestValue": 5,
+        "bodyBatteryLowestValue": 5,
+        "floorsAscended": 0,
+        "restingHeartRate": 53,
+        "maxAvgHeartRate": 89,
+        "minAvgHeartRate": 56,
+        "moderateIntensityMinutes": 0,
+        "vigorousIntensityMinutes": 0,
+        "totalKilocalories": 83
+      },
+      "sleep": {
+        "dailySleepDTO": {
+          "id": null,
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-12",
+          "sleepTimeSeconds": null,
+          "napTimeSeconds": null,
+          "sleepWindowConfirmed": null,
+          "sleepWindowConfirmationType": null,
+          "sleepStartTimestampGMT": null,
+          "sleepEndTimestampGMT": null,
+          "sleepStartTimestampLocal": null,
+          "sleepEndTimestampLocal": null,
+          "autoSleepStartTimestampGMT": null,
+          "autoSleepEndTimestampGMT": null,
+          "sleepQualityTypePK": null,
+          "sleepResultTypePK": null,
+          "unmeasurableSleepSeconds": null,
+          "deepSleepSeconds": null,
+          "lightSleepSeconds": null,
+          "remSleepSeconds": null,
+          "awakeSleepSeconds": null,
+          "deviceRemCapable": false,
+          "retro": false,
+          "sleepNeed": {
+            "userProfilePk": 9515677,
+            "calendarDate": "2026-08-12",
+            "deviceId": 3436655159,
+            "timestampGmt": "2026-08-11T18:15:20",
+            "baseline": 480,
+            "actual": 540,
+            "feedback": "HIGHLY_INCREASED",
+            "trainingFeedback": "NO_CHANGE",
+            "sleepHistoryAdjustment": "INCREASING",
+            "hrvAdjustment": "INCREASING",
+            "napAdjustment": "NO_CHANGE",
+            "displayedForTheDay": true,
+            "preferredActivityTracker": true
+          }
+        },
+        "sleepMovement": null,
+        "remSleepData": null,
+        "sleepLevels": null
+      },
+      "hrv": {},
+      "training_readiness": []
     }
   ],
   "performance": {
@@ -347074,6 +347138,27 @@
       "race_pred_marathon": "4:12:55",
       "avg_respiration": 13.0,
       "sleep_respiration": 16.0,
+      "avg_spo2": null
+    },
+    "2026-08-12": {
+      "training_status": null,
+      "fitness_trend": null,
+      "acwr": null,
+      "acwr_status": null,
+      "acute_load": null,
+      "chronic_load": null,
+      "aerobic_low_load": null,
+      "aerobic_high_load": null,
+      "load_balance_feedback": null,
+      "vo2max_precise": null,
+      "heat_acclimation_pct": null,
+      "heat_trend": null,
+      "race_pred_5k": "23:47",
+      "race_pred_10k": "51:13",
+      "race_pred_hm": "1:55:26",
+      "race_pred_marathon": "4:12:55",
+      "avg_respiration": 16.0,
+      "sleep_respiration": null,
       "avg_spo2": null
     }
   },
