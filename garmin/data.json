@@ -366706,20 +366706,20 @@
     {
       "date": "2026-08-15",
       "wellness": {
-        "totalSteps": 1087,
-        "totalDistanceMeters": 865,
-        "averageStressLevel": 17,
-        "maxStressLevel": 72,
+        "totalSteps": 2558,
+        "totalDistanceMeters": 1996,
+        "averageStressLevel": 21,
+        "maxStressLevel": 84,
         "bodyBatteryHighestValue": 78,
         "bodyBatteryLowestValue": 15,
-        "floorsAscended": 0,
+        "floorsAscended": 1,
         "restingHeartRate": 47,
         "maxAvgHeartRate": 103,
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 32,
-        "totalKilocalories": 732
+        "activeKilocalories": 55,
+        "totalKilocalories": 879
       },
       "sleep": {
         "dailySleepDTO": {
