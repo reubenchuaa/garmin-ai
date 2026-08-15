@@ -366706,20 +366706,20 @@
     {
       "date": "2026-08-15",
       "wellness": {
-        "totalSteps": 2558,
-        "totalDistanceMeters": 1996,
-        "averageStressLevel": 21,
+        "totalSteps": 6108,
+        "totalDistanceMeters": 4726,
+        "averageStressLevel": 26,
         "maxStressLevel": 84,
         "bodyBatteryHighestValue": 78,
         "bodyBatteryLowestValue": 15,
-        "floorsAscended": 1,
+        "floorsAscended": 5,
         "restingHeartRate": 47,
         "maxAvgHeartRate": 103,
         "minAvgHeartRate": 45,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 55,
-        "totalKilocalories": 879
+        "activeKilocalories": 108,
+        "totalKilocalories": 1226
       },
       "sleep": {
         "dailySleepDTO": {
@@ -366826,7 +366826,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-08-16",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-08-15T04:36:55",
+            "timestampGmt": "2026-08-15T11:07:05",
             "baseline": 480,
             "actual": 540,
             "feedback": "HIGHLY_INCREASED",
@@ -372162,6 +372162,37 @@
         "sleepEndTimestampLocal": "2026-08-15T05:57:22.0"
       },
       "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-15",
+          "timestamp": "2026-08-15T11:07:05.0",
+          "timestampLocal": "2026-08-15T13:07:05.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_HRV_UNBALANCED",
+          "feedbackShort": "LISTEN_TO_YOUR_BODY",
+          "score": 61,
+          "sleepScore": 69,
+          "sleepScoreFactorPercent": 53,
+          "sleepScoreFactorFeedback": "MODERATE",
+          "recoveryTime": 1,
+          "recoveryTimeFactorPercent": 99,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 100,
+          "acwrFactorFeedback": "VERY_GOOD",
+          "acuteLoad": 155,
+          "stressHistoryFactorPercent": 69,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 55,
+          "hrvFactorFeedback": "MODERATE",
+          "hrvWeeklyAverage": 65,
+          "sleepHistoryFactorPercent": 68,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_WAKEUP_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        },
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-08-15",
