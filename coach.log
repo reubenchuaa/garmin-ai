@@ -501,3 +501,39 @@ Markdown notes written: 5 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+Auto-merging docs/index.html
+Auto-merging garmin/data.json
+Merge made by the 'ort' strategy.
+ garmin/data.json.bak          | 20976 +++++++++++++++++++++++++++++++++++++++-
+ garmin/wellness_2026-08-04.md |     6 +-
+ garmin/wellness_2026-08-05.md |    22 +
+ garmin/wellness_2026-08-06.md |    22 +
+ garmin/wellness_2026-08-07.md |    22 +
+ 5 files changed, 20807 insertions(+), 241 deletions(-)
+ create mode 100644 garmin/wellness_2026-08-05.md
+ create mode 100644 garmin/wellness_2026-08-06.md
+ create mode 100644 garmin/wellness_2026-08-07.md
+[main aaa2523] reconcile: regenerate dashboard
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+Fetching data for: 2026-08-05 → 2026-08-07
+
+  Wellness: wellness_2026-08-05.md
+  Wellness: wellness_2026-08-06.md
+  Wellness: wellness_2026-08-07.md
+  Training status: PEAKING_1, ACWR: 0.4
+  Race predictions — HM: 1:54:26
+
+All data saved to garmin/data.json
+Markdown notes written: 3 files
+  [auth] Token OK — refresh token valid for 11 more days
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    2822 bytes)
+  [workout] Deleted old: Easy 6km (ID: 1653780160)
+  [workout] Pushing: Easy 2km (easy) for ?
+    - warmup: 2000m
+  [workout] Created: Easy 2km (ID: 1656425825)
+  ✅ Pushed: Easy 2km → ?
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
