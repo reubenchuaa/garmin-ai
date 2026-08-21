@@ -19575,6 +19575,425 @@
       "manualActivity": false,
       "pr": false,
       "parent": false
+    },
+    {
+      "activityId": 24060699456,
+      "activityName": "Tromso Walking",
+      "startTimeLocal": "2026-08-21 14:52:57",
+      "startTimeGMT": "2026-08-21 12:52:57",
+      "activityType": {
+        "typeId": 9,
+        "typeKey": "walking",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "isFavorite": false,
+      "isPR": false,
+      "isAutoCalcCalories": false,
+      "isParent": false,
+      "distance": 516.5599975585938,
+      "duration": 448.75299072265625,
+      "elapsedDuration": 448.75299072265625,
+      "movingDuration": 437.0,
+      "elevationGain": 8.0,
+      "elevationLoss": 7.0,
+      "averageSpeed": 1.1510000228881836,
+      "maxSpeed": 5.729000091552734,
+      "startLatitude": 69.67034203000367,
+      "startLongitude": 18.9214289188385,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 27.0,
+      "bmrCalories": 9.0,
+      "averageHR": 89.0,
+      "maxHR": 105.0,
+      "averageRunningCadenceInStepsPerMinute": 86.515625,
+      "maxRunningCadenceInStepsPerMinute": 150.0,
+      "steps": 834,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "hasVideo": false,
+      "isPurposeful": false,
+      "timeZoneId": 124,
+      "beginTimestamp": 1787316777000,
+      "sportTypeId": 11,
+      "aerobicTrainingEffect": 0.10000000149011612,
+      "anaerobicTrainingEffect": 0.0,
+      "avgStrideLength": 79.83073286973215,
+      "deviceId": 3436655159,
+      "minElevation": 54.400001525878906,
+      "maxElevation": 62.79999923706055,
+      "avgElevation": 58.870378549486595,
+      "maxDoubleCadence": 150.0,
+      "isElevationCorrected": false,
+      "isDecoDive": false,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.40000152587890625,
+      "manufacturer": "GARMIN",
+      "locationName": "Tromso",
+      "lapCount": 1,
+      "endLatitude": 69.6729043778032,
+      "endLongitude": 18.921524975448847,
+      "isAtpActivity": false,
+      "waterEstimated": 69.0,
+      "trainingEffectLabel": "UNKNOWN",
+      "activityTrainingLoad": 1.48370361328125,
+      "minActivityLapDuration": 448.75299072265625,
+      "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "splitSummaries": [],
+      "hasSplits": false,
+      "hasIntensityIntervals": false,
+      "isManualActivity": false,
+      "differenceBodyBattery": -1,
+      "hasHeatMap": false,
+      "hrTimeInZone_1": 90.016,
+      "hrTimeInZone_2": 0.0,
+      "hrTimeInZone_3": 0.0,
+      "hrTimeInZone_4": 0.0,
+      "hrTimeInZone_5": 0.0,
+      "endTimeGMT": "2026-08-21 13:00:25",
+      "qualifyingDive": false,
+      "activityUUID": "37d44ac3-2347-49a8-bb28-ae63b59b957a",
+      "parent": false,
+      "elevationCorrected": false,
+      "decoDive": false,
+      "manualActivity": false,
+      "purposeful": false,
+      "atpActivity": false,
+      "autoCalcCalories": false,
+      "pr": false,
+      "favorite": false
+    },
+    {
+      "activityId": 24060026700,
+      "activityName": "Tromso Walking",
+      "startTimeLocal": "2026-08-21 13:53:05",
+      "startTimeGMT": "2026-08-21 11:53:05",
+      "activityType": {
+        "typeId": 9,
+        "typeKey": "walking",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "isFavorite": false,
+      "isPR": false,
+      "isAutoCalcCalories": false,
+      "isParent": false,
+      "distance": 385.25,
+      "duration": 344.2820129394531,
+      "elapsedDuration": 344.2820129394531,
+      "movingDuration": 343.0,
+      "elevationGain": 8.0,
+      "elevationLoss": 5.0,
+      "averageSpeed": 1.11899995803833,
+      "maxSpeed": 3.0230000019073486,
+      "startLatitude": 69.6728975046426,
+      "startLongitude": 18.918604217469692,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 21.0,
+      "bmrCalories": 7.0,
+      "averageHR": 94.0,
+      "maxHR": 112.0,
+      "averageRunningCadenceInStepsPerMinute": 107.0,
+      "maxRunningCadenceInStepsPerMinute": 245.0,
+      "steps": 648,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "hasVideo": false,
+      "isPurposeful": false,
+      "timeZoneId": 124,
+      "beginTimestamp": 1787313185000,
+      "sportTypeId": 11,
+      "aerobicTrainingEffect": 0.10000000149011612,
+      "anaerobicTrainingEffect": 0.0,
+      "avgStrideLength": 62.74740743460483,
+      "deviceId": 3436655159,
+      "minElevation": 54.0,
+      "maxElevation": 63.79999923706055,
+      "avgElevation": 58.476162910461426,
+      "maxDoubleCadence": 245.0,
+      "isElevationCorrected": false,
+      "isDecoDive": false,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.40000152587890625,
+      "manufacturer": "GARMIN",
+      "locationName": "Tromso",
+      "lapCount": 1,
+      "endLatitude": 69.67032912187278,
+      "endLongitude": 18.921545762568712,
+      "isAtpActivity": false,
+      "waterEstimated": 54.0,
+      "trainingEffectLabel": "UNKNOWN",
+      "activityTrainingLoad": 1.4159088134765625,
+      "minActivityLapDuration": 344.2820129394531,
+      "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "splitSummaries": [],
+      "hasSplits": false,
+      "hasIntensityIntervals": false,
+      "isManualActivity": false,
+      "moderateIntensityMinutes": 1,
+      "vigorousIntensityMinutes": 0,
+      "differenceBodyBattery": 0,
+      "hasHeatMap": false,
+      "hrTimeInZone_1": 188.293,
+      "hrTimeInZone_2": 2.0,
+      "hrTimeInZone_3": 0.0,
+      "hrTimeInZone_4": 0.0,
+      "hrTimeInZone_5": 0.0,
+      "endTimeGMT": "2026-08-21 11:58:49",
+      "qualifyingDive": false,
+      "activityUUID": "508c8ad5-6eb8-418f-85e7-5164847346ec",
+      "parent": false,
+      "elevationCorrected": false,
+      "decoDive": false,
+      "manualActivity": false,
+      "purposeful": false,
+      "atpActivity": false,
+      "autoCalcCalories": false,
+      "pr": false,
+      "favorite": false
+    },
+    {
+      "activityId": 24059667305,
+      "activityName": "Tromso Walking",
+      "startTimeLocal": "2026-08-21 10:48:13",
+      "startTimeGMT": "2026-08-21 08:48:13",
+      "activityType": {
+        "typeId": 9,
+        "typeKey": "walking",
+        "parentTypeId": 17,
+        "isHidden": false,
+        "restricted": false,
+        "trimmable": true
+      },
+      "eventType": {
+        "typeId": 9,
+        "typeKey": "uncategorized",
+        "sortOrder": 10
+      },
+      "isFavorite": false,
+      "isPR": false,
+      "isAutoCalcCalories": false,
+      "isParent": false,
+      "distance": 3784.7900390625,
+      "duration": 4202.97705078125,
+      "elapsedDuration": 9532.76953125,
+      "movingDuration": 3209.0,
+      "elevationGain": 16.0,
+      "elevationLoss": 31.0,
+      "averageSpeed": 0.9010000228881837,
+      "maxSpeed": 13.847000122070314,
+      "startLatitude": 69.64992136694491,
+      "startLongitude": 18.956217924132943,
+      "hasPolyline": true,
+      "hasImages": false,
+      "ownerId": 9515677,
+      "ownerDisplayName": "ReubenChua",
+      "ownerFullName": "Reuben",
+      "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prth.png",
+      "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prfr.png",
+      "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/a7af1051-adf2-4622-9295-1ea154f44920-prof.png",
+      "calories": 191.0,
+      "bmrCalories": 87.0,
+      "averageHR": 74.0,
+      "maxHR": 100.0,
+      "averageRunningCadenceInStepsPerMinute": 68.25,
+      "maxRunningCadenceInStepsPerMinute": 240.0,
+      "steps": 6086,
+      "userRoles": [
+        "SCOPE_GOLF_API_READ",
+        "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+        "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+        "SCOPE_ATP_READ",
+        "SCOPE_DIVE_API_WRITE",
+        "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+        "SCOPE_DIVE_API_READ",
+        "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_READ",
+        "SCOPE_CONNECT_WRITE",
+        "SCOPE_COMMUNITY_COURSE_WRITE",
+        "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+        "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+        "SCOPE_MESSAGE_GENERATION_READ",
+        "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+        "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+        "SCOPE_ACTIVITY_DETECTION_READ",
+        "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+        "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+        "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+        "SCOPE_CONNECT_READ",
+        "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+        "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+        "SCOPE_ATP_WRITE",
+        "ROLE_CONNECTUSER",
+        "ROLE_FITNESS_USER",
+        "ROLE_WELLNESS_USER",
+        "ROLE_OUTDOOR_USER",
+        "ROLE_CONNECT_2_USER",
+        "ROLE_GARMIN_USER"
+      ],
+      "privacy": {
+        "typeId": 2,
+        "typeKey": "private"
+      },
+      "userPro": false,
+      "hasVideo": false,
+      "isPurposeful": false,
+      "timeZoneId": 124,
+      "beginTimestamp": 1787302093000,
+      "sportTypeId": 11,
+      "aerobicTrainingEffect": 0.30000001192092896,
+      "anaerobicTrainingEffect": 0.0,
+      "avgStrideLength": 79.81742299375017,
+      "deviceId": 3436655159,
+      "minElevation": 4.0,
+      "maxElevation": 36.599998474121094,
+      "avgElevation": 25.100690005422916,
+      "maxDoubleCadence": 240.0,
+      "isElevationCorrected": false,
+      "isDecoDive": false,
+      "summarizedDiveInfo": {
+        "summarizedDiveGases": []
+      },
+      "maxVerticalSpeed": 0.5999984741210938,
+      "manufacturer": "GARMIN",
+      "locationName": "Tromso",
+      "lapCount": 4,
+      "endLatitude": 69.64719163253903,
+      "endLongitude": 18.953254502266645,
+      "isAtpActivity": false,
+      "waterEstimated": 417.0,
+      "trainingEffectLabel": "UNKNOWN",
+      "activityTrainingLoad": 2.9828338623046875,
+      "minActivityLapDuration": 762.14697265625,
+      "aerobicTrainingEffectMessage": "NO_AEROBIC_BENEFIT_18",
+      "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+      "splitSummaries": [],
+      "hasSplits": false,
+      "hasIntensityIntervals": false,
+      "isManualActivity": false,
+      "differenceBodyBattery": -12,
+      "hasHeatMap": false,
+      "hrTimeInZone_1": 50.998,
+      "hrTimeInZone_2": 0.0,
+      "hrTimeInZone_3": 0.0,
+      "hrTimeInZone_4": 0.0,
+      "hrTimeInZone_5": 0.0,
+      "endTimeGMT": "2026-08-21 11:27:05",
+      "qualifyingDive": false,
+      "activityUUID": "93f8b950-3a05-4e7d-b08a-ca6f9da2f3a5",
+      "parent": false,
+      "elevationCorrected": false,
+      "decoDive": false,
+      "manualActivity": false,
+      "purposeful": false,
+      "atpActivity": false,
+      "autoCalcCalories": false,
+      "pr": false,
+      "favorite": false
     }
   ],
   "wellness": [
@@ -409154,20 +409573,20 @@
     {
       "date": "2026-08-21",
       "wellness": {
-        "totalSteps": 2692,
-        "totalDistanceMeters": 2411,
-        "averageStressLevel": 16,
-        "maxStressLevel": 88,
+        "totalSteps": 11521,
+        "totalDistanceMeters": 8255,
+        "averageStressLevel": 18,
+        "maxStressLevel": 98,
         "bodyBatteryHighestValue": 85,
         "bodyBatteryLowestValue": 5,
-        "floorsAscended": 2,
+        "floorsAscended": 10,
         "restingHeartRate": 48,
-        "maxAvgHeartRate": 93,
+        "maxAvgHeartRate": 117,
         "minAvgHeartRate": 47,
-        "moderateIntensityMinutes": 2,
+        "moderateIntensityMinutes": 4,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 53,
-        "totalKilocalories": 855
+        "activeKilocalories": 212,
+        "totalKilocalories": 1286
       },
       "sleep": {
         "dailySleepDTO": {
@@ -409274,7 +409693,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-08-22",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-08-21T08:30:53",
+            "timestampGmt": "2026-08-21T13:00:32",
             "baseline": 480,
             "actual": 480,
             "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
@@ -416644,6 +417063,99 @@
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-08-21",
+          "timestamp": "2026-08-21T13:00:32.0",
+          "timestampLocal": "2026-08-21T15:00:32.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_MOD_OR_LOW_SS_GOOD_STRESS_HISTORY_NEG",
+          "feedbackShort": "WELL_RESTED",
+          "score": 65,
+          "sleepScore": 89,
+          "sleepScoreFactorPercent": 88,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 1,
+          "recoveryTimeFactorPercent": 99,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 91,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 236,
+          "stressHistoryFactorPercent": 53,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 96,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 71,
+          "sleepHistoryFactorPercent": 51,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_POST_EXERCISE_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "REACHED_ZERO"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-21",
+          "timestamp": "2026-08-21T11:58:54.0",
+          "timestampLocal": "2026-08-21T13:58:54.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_MOD_OR_LOW_SS_GOOD_STRESS_HISTORY_NEG",
+          "feedbackShort": "WELL_RESTED",
+          "score": 65,
+          "sleepScore": 89,
+          "sleepScoreFactorPercent": 88,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 1,
+          "recoveryTimeFactorPercent": 99,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 92,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 234,
+          "stressHistoryFactorPercent": 53,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 96,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 71,
+          "sleepHistoryFactorPercent": 51,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_POST_EXERCISE_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "REACHED_ZERO"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-21",
+          "timestamp": "2026-08-21T11:27:18.0",
+          "timestampLocal": "2026-08-21T13:27:18.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_MOD_OR_LOW_SS_GOOD_STRESS_HISTORY_NEG",
+          "feedbackShort": "WELL_RESTED",
+          "score": 65,
+          "sleepScore": 89,
+          "sleepScoreFactorPercent": 88,
+          "sleepScoreFactorFeedback": "GOOD",
+          "recoveryTime": 1,
+          "recoveryTimeFactorPercent": 99,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 92,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 232,
+          "stressHistoryFactorPercent": 53,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 96,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 71,
+          "sleepHistoryFactorPercent": 51,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": true,
+          "inputContext": "AFTER_POST_EXERCISE_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": "REACHED_ZERO"
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-21",
           "timestamp": "2026-08-21T08:30:53.0",
           "timestampLocal": "2026-08-21T10:30:53.0",
           "deviceId": 3436655159,
@@ -417773,8 +418285,8 @@
       "fitness_trend": 0,
       "acwr": 0.9,
       "acwr_status": "OPTIMAL",
-      "acute_load": 228,
-      "chronic_load": 237,
+      "acute_load": 236,
+      "chronic_load": 238,
       "aerobic_low_load": 658.341,
       "aerobic_high_load": 216.55003,
       "load_balance_feedback": "AEROBIC_HIGH_SHORTAGE",
@@ -417785,7 +418297,7 @@
       "race_pred_10k": "51:44",
       "race_pred_hm": "1:56:13",
       "race_pred_marathon": "4:14:44",
-      "avg_respiration": 14.0,
+      "avg_respiration": 15.0,
       "sleep_respiration": 15.0,
       "avg_spo2": null
     }
@@ -417795,2472 +418307,904 @@
     "date": "2026-08-21",
     "points": [
       [
-        69.653922,
-        18.95545
+        69.670342,
+        18.921429
       ],
       [
-        69.653903,
-        18.9553
+        69.670348,
+        18.921304
       ],
       [
-        69.653901,
-        18.955385
+        69.670371,
+        18.921221
       ],
       [
-        69.653903,
-        18.95546
+        69.670415,
+        18.921319
       ],
       [
-        69.653914,
-        18.955587
+        69.670444,
+        18.921323
       ],
       [
-        69.653915,
-        18.955691
+        69.67047,
+        18.921334
       ],
       [
-        69.653906,
-        18.955768
+        69.670492,
+        18.921342
       ],
       [
-        69.653891,
-        18.95583
+        69.670515,
+        18.921376
       ],
       [
-        69.653888,
-        18.955987
+        69.670534,
+        18.921375
       ],
       [
-        69.653874,
-        18.95612
+        69.67055,
+        18.921407
       ],
       [
-        69.653865,
-        18.956322
+        69.670568,
+        18.921478
       ],
       [
-        69.653838,
-        18.95638
+        69.670588,
+        18.921508
       ],
       [
-        69.65381,
-        18.956449
+        69.670606,
+        18.921498
       ],
       [
-        69.653772,
-        18.956487
+        69.670618,
+        18.921543
       ],
       [
-        69.653732,
-        18.956498
+        69.670621,
+        18.921526
       ],
       [
-        69.653685,
-        18.956424
+        69.670612,
+        18.921512
       ],
       [
-        69.653639,
-        18.956367
+        69.670608,
+        18.921458
       ],
       [
-        69.653585,
-        18.95627
+        69.670609,
+        18.921356
       ],
       [
-        69.653572,
-        18.956247
+        69.670601,
+        18.921293
       ],
       [
-        69.653575,
-        18.95626
+        69.670588,
+        18.921265
       ],
       [
-        69.653557,
-        18.956204
+        69.670564,
+        18.921208
       ],
       [
-        69.653526,
-        18.956132
+        69.670546,
+        18.921138
       ],
       [
-        69.653502,
-        18.956019
+        69.670525,
+        18.921083
       ],
       [
-        69.65347,
-        18.955936
+        69.670506,
+        18.921059
       ],
       [
-        69.653447,
-        18.955852
+        69.670475,
+        18.921001
       ],
       [
-        69.653425,
-        18.955758
+        69.670457,
+        18.920946
       ],
       [
-        69.653401,
-        18.955713
+        69.670438,
+        18.920899
       ],
       [
-        69.653381,
-        18.955669
+        69.67043,
+        18.920818
       ],
       [
-        69.653356,
-        18.955653
+        69.67039,
+        18.920736
       ],
       [
-        69.653326,
-        18.955632
+        69.67037,
+        18.920665
       ],
       [
-        69.653293,
-        18.955569
+        69.670354,
+        18.920577
       ],
       [
-        69.653262,
-        18.95552
+        69.670354,
+        18.920482
       ],
       [
-        69.653255,
-        18.955621
+        69.67035,
+        18.920384
       ],
       [
-        69.653234,
-        18.955594
+        69.670356,
+        18.920368
       ],
       [
-        69.653214,
-        18.955604
+        69.67036,
+        18.920345
       ],
       [
-        69.653192,
-        18.955606
+        69.670352,
+        18.920282
       ],
       [
-        69.653176,
-        18.955618
+        69.670355,
+        18.920282
       ],
       [
-        69.653164,
-        18.955669
+        69.67041,
+        18.920266
       ],
       [
-        69.653156,
-        18.955748
+        69.670431,
+        18.920233
       ],
       [
-        69.653129,
-        18.955655
+        69.670462,
+        18.920167
       ],
       [
-        69.65311,
-        18.955683
+        69.670477,
+        18.920138
       ],
       [
-        69.653099,
-        18.95572
+        69.670503,
+        18.920101
       ],
       [
-        69.653085,
-        18.955789
+        69.67052,
+        18.920079
       ],
       [
-        69.653075,
-        18.955841
+        69.670544,
+        18.920024
       ],
       [
-        69.653073,
-        18.955922
+        69.670562,
+        18.919997
       ],
       [
-        69.653085,
-        18.955992
+        69.670584,
+        18.920001
       ],
       [
-        69.653092,
-        18.956089
+        69.670605,
+        18.919991
       ],
       [
-        69.653089,
-        18.956129
+        69.670625,
+        18.919958
       ],
       [
-        69.653087,
-        18.956232
+        69.670649,
+        18.919909
       ],
       [
-        69.653065,
-        18.956205
+        69.670669,
+        18.919881
       ],
       [
-        69.653056,
-        18.956291
+        69.670689,
+        18.919859
       ],
       [
-        69.653043,
-        18.956393
+        69.670705,
+        18.91983
       ],
       [
-        69.653018,
-        18.956399
+        69.670728,
+        18.919779
       ],
       [
-        69.652992,
-        18.956365
+        69.67075,
+        18.919751
       ],
       [
-        69.652969,
-        18.956416
+        69.670769,
+        18.919749
       ],
       [
-        69.652946,
-        18.956376
+        69.670787,
+        18.919735
       ],
       [
-        69.652921,
-        18.956407
+        69.670805,
+        18.919716
       ],
       [
-        69.652907,
-        18.956369
+        69.670827,
+        18.919673
       ],
       [
-        69.652889,
-        18.956309
+        69.670844,
+        18.919624
       ],
       [
-        69.652873,
-        18.956347
+        69.67087,
+        18.919568
       ],
       [
-        69.652865,
-        18.956397
+        69.670887,
+        18.919517
       ],
       [
-        69.652839,
-        18.956409
+        69.670909,
+        18.919456
       ],
       [
-        69.65282,
-        18.956436
+        69.670922,
+        18.919419
       ],
       [
-        69.652815,
-        18.956505
+        69.670932,
+        18.919374
       ],
       [
-        69.652806,
-        18.956587
+        69.670942,
+        18.919355
       ],
       [
-        69.652799,
-        18.956727
+        69.670958,
+        18.919312
       ],
       [
-        69.652778,
-        18.956706
+        69.670976,
+        18.919279
       ],
       [
-        69.652762,
-        18.9567
+        69.671004,
+        18.919252
       ],
       [
-        69.652754,
-        18.956691
+        69.671017,
+        18.919223
       ],
       [
-        69.652762,
-        18.956707
+        69.671037,
+        18.919191
       ],
       [
-        69.652771,
-        18.956751
+        69.671057,
+        18.919166
       ],
       [
-        69.652758,
-        18.956731
+        69.671066,
+        18.919166
       ],
       [
-        69.652737,
-        18.956709
+        69.671105,
+        18.919149
       ],
       [
-        69.652725,
-        18.956683
+        69.67112,
+        18.919118
       ],
       [
-        69.652715,
-        18.956681
+        69.671148,
+        18.919074
       ],
       [
-        69.6527,
-        18.956654
+        69.671165,
+        18.919051
       ],
       [
-        69.652684,
-        18.956618
+        69.671186,
+        18.919019
       ],
       [
-        69.65265,
-        18.956586
+        69.671203,
+        18.918984
       ],
       [
-        69.652629,
-        18.956555
+        69.671225,
+        18.918951
       ],
       [
-        69.652608,
-        18.956516
+        69.671245,
+        18.918919
       ],
       [
-        69.652591,
-        18.956466
+        69.671262,
+        18.918911
       ],
       [
-        69.652612,
-        18.956351
+        69.671271,
+        18.918901
       ],
       [
-        69.652611,
-        18.956286
+        69.67129,
+        18.918879
       ],
       [
-        69.652592,
-        18.956288
+        69.67131,
+        18.918867
       ],
       [
-        69.652593,
-        18.956233
+        69.671325,
+        18.91885
       ],
       [
-        69.65259,
-        18.956207
+        69.671338,
+        18.91883
       ],
       [
-        69.652582,
-        18.956183
+        69.671356,
+        18.918813
       ],
       [
-        69.653231,
-        18.962907
+        69.671376,
+        18.918797
       ],
       [
-        69.653229,
-        18.962785
+        69.671396,
+        18.918786
       ],
       [
-        69.653191,
-        18.962731
+        69.671416,
+        18.918775
       ],
       [
-        69.653201,
-        18.96246
+        69.671434,
+        18.918763
       ],
       [
-        69.653194,
-        18.962354
+        69.671452,
+        18.918753
       ],
       [
-        69.65318,
-        18.96225
+        69.671466,
+        18.918745
       ],
       [
-        69.653169,
-        18.962184
+        69.671483,
+        18.918738
       ],
       [
-        69.653156,
-        18.962115
+        69.6715,
+        18.918731
       ],
       [
-        69.653143,
-        18.96205
+        69.671519,
+        18.918726
       ],
       [
-        69.65314,
-        18.961984
+        69.671541,
+        18.918724
       ],
       [
-        69.653136,
-        18.961945
+        69.671559,
+        18.918715
       ],
       [
-        69.653118,
-        18.961877
+        69.671579,
+        18.918709
       ],
       [
-        69.653101,
-        18.961826
+        69.671603,
+        18.918712
       ],
       [
-        69.653086,
-        18.961779
+        69.671623,
+        18.918701
       ],
       [
-        69.653067,
-        18.961742
+        69.67164,
+        18.918677
       ],
       [
-        69.65305,
-        18.961699
+        69.671655,
+        18.918651
       ],
       [
-        69.653033,
-        18.961671
+        69.671672,
+        18.91863
       ],
       [
-        69.653011,
-        18.961641
+        69.671693,
+        18.918616
       ],
       [
-        69.652991,
-        18.961609
+        69.671721,
+        18.9186
       ],
       [
-        69.652973,
-        18.961562
+        69.671744,
+        18.918589
       ],
       [
-        69.652954,
-        18.961512
+        69.671763,
+        18.918569
       ],
       [
-        69.652937,
-        18.961463
+        69.67178,
+        18.918555
       ],
       [
-        69.652923,
-        18.961413
+        69.671803,
+        18.918548
       ],
       [
-        69.65291,
-        18.961352
+        69.671842,
+        18.918509
       ],
       [
-        69.652894,
-        18.961294
+        69.671873,
+        18.918481
       ],
       [
-        69.652875,
-        18.961262
+        69.671892,
+        18.918483
       ],
       [
-        69.652858,
-        18.96123
+        69.671891,
+        18.918516
       ],
       [
-        69.652841,
-        18.961188
+        69.671885,
+        18.918596
       ],
       [
-        69.65282,
-        18.961121
+        69.671908,
+        18.918728
       ],
       [
-        69.652805,
-        18.961074
+        69.671911,
+        18.918701
       ],
       [
-        69.652784,
-        18.961025
+        69.671931,
+        18.918572
       ],
       [
-        69.652765,
-        18.960988
+        69.671957,
+        18.918535
       ],
       [
-        69.65275,
-        18.960968
+        69.671977,
+        18.918517
       ],
       [
-        69.652727,
-        18.960932
+        69.671994,
+        18.918515
       ],
       [
-        69.652712,
-        18.960899
+        69.672021,
+        18.918515
       ],
       [
-        69.652699,
-        18.96087
+        69.672059,
+        18.918516
       ],
       [
-        69.652679,
-        18.960831
+        69.67208,
+        18.918455
       ],
       [
-        69.652655,
-        18.960786
+        69.672098,
+        18.918455
       ],
       [
-        69.652631,
-        18.960748
+        69.672109,
+        18.918407
       ],
       [
-        69.652614,
-        18.960699
+        69.672126,
+        18.918399
       ],
       [
-        69.6526,
-        18.960668
+        69.672145,
+        18.918393
       ],
       [
-        69.652576,
-        18.960638
+        69.672163,
+        18.918386
       ],
       [
-        69.652553,
-        18.960591
+        69.672187,
+        18.918379
       ],
       [
-        69.652528,
-        18.960555
+        69.672209,
+        18.918378
       ],
       [
-        69.652505,
-        18.96052
+        69.672231,
+        18.918375
       ],
       [
-        69.65249,
-        18.960492
+        69.672252,
+        18.918359
       ],
       [
-        69.652472,
-        18.96047
+        69.672275,
+        18.918351
       ],
       [
-        69.65246,
-        18.960438
+        69.672291,
+        18.918356
       ],
       [
-        69.652433,
-        18.960398
+        69.672316,
+        18.918352
       ],
       [
-        69.652406,
-        18.960354
+        69.672334,
+        18.918349
       ],
       [
-        69.652376,
-        18.96029
+        69.672344,
+        18.918352
       ],
       [
-        69.652354,
-        18.960238
+        69.672351,
+        18.918343
       ],
       [
-        69.652333,
-        18.960195
+        69.672353,
+        18.918335
       ],
       [
-        69.652309,
-        18.960185
+        69.67236,
+        18.918331
       ],
       [
-        69.652287,
-        18.960185
+        69.672371,
+        18.918336
       ],
       [
-        69.652262,
-        18.960211
+        69.672382,
+        18.918334
       ],
       [
-        69.652249,
-        18.960224
+        69.672391,
+        18.918328
       ],
       [
-        69.652237,
-        18.960217
+        69.672402,
+        18.918334
       ],
       [
-        69.652219,
-        18.960195
+        69.672416,
+        18.918345
       ],
       [
-        69.652189,
-        18.960172
+        69.672425,
+        18.918359
       ],
       [
-        69.65216,
-        18.960144
+        69.672435,
+        18.918382
       ],
       [
-        69.652129,
-        18.960111
+        69.672446,
+        18.918404
       ],
       [
-        69.652108,
-        18.960101
+        69.672458,
+        18.918414
       ],
       [
-        69.652084,
-        18.960078
+        69.672476,
+        18.918424
       ],
       [
-        69.652062,
-        18.960052
+        69.672491,
+        18.918425
       ],
       [
-        69.65204,
-        18.960028
+        69.672512,
+        18.918427
       ],
       [
-        69.652016,
-        18.959998
+        69.672533,
+        18.918445
       ],
       [
-        69.651993,
-        18.959966
+        69.672547,
+        18.918469
       ],
       [
-        69.65197,
-        18.959945
+        69.672566,
+        18.918506
       ],
       [
-        69.651951,
-        18.959917
+        69.672581,
+        18.918544
       ],
       [
-        69.651929,
-        18.959896
+        69.6726,
+        18.918566
       ],
       [
-        69.65191,
-        18.959882
+        69.67262,
+        18.918583
       ],
       [
-        69.651894,
-        18.959868
+        69.672635,
+        18.918589
       ],
       [
-        69.65187,
-        18.959839
+        69.672655,
+        18.91861
       ],
       [
-        69.651845,
-        18.959807
+        69.672674,
+        18.918625
       ],
       [
-        69.651822,
-        18.959781
+        69.672696,
+        18.918637
       ],
       [
-        69.651802,
-        18.959752
+        69.672717,
+        18.918638
       ],
       [
-        69.651786,
-        18.95972
+        69.672734,
+        18.91863
       ],
       [
-        69.651766,
-        18.959693
+        69.672752,
+        18.918626
       ],
       [
-        69.651751,
-        18.959672
+        69.672771,
+        18.918637
       ],
       [
-        69.651731,
-        18.959648
+        69.672794,
+        18.91866
       ],
       [
-        69.651711,
-        18.959629
+        69.672815,
+        18.918674
       ],
       [
-        69.651689,
-        18.959607
+        69.672832,
+        18.918693
       ],
       [
-        69.651666,
-        18.959585
+        69.672851,
+        18.918722
       ],
       [
-        69.65164,
-        18.959564
+        69.672867,
+        18.918737
       ],
       [
-        69.651616,
-        18.959536
+        69.672884,
+        18.918741
       ],
       [
-        69.651593,
-        18.959506
+        69.672907,
+        18.918751
       ],
       [
-        69.651564,
-        18.959486
+        69.672925,
+        18.918752
       ],
       [
-        69.65154,
-        18.959463
+        69.67294,
+        18.918751
       ],
       [
-        69.651524,
-        18.959445
+        69.672955,
+        18.918754
       ],
       [
-        69.651511,
-        18.959418
+        69.67297,
+        18.918769
       ],
       [
-        69.651498,
-        18.959376
+        69.67298,
+        18.918811
       ],
       [
-        69.651477,
-        18.959345
+        69.672984,
+        18.918881
       ],
       [
-        69.651453,
-        18.95932
+        69.672983,
+        18.91895
       ],
       [
-        69.651429,
-        18.95928
+        69.67298,
+        18.91902
       ],
       [
-        69.651409,
-        18.959242
+        69.672977,
+        18.91909
       ],
       [
-        69.651394,
-        18.959206
+        69.672976,
+        18.91916
       ],
       [
-        69.651374,
-        18.959164
+        69.672975,
+        18.919223
       ],
       [
-        69.651354,
-        18.959128
+        69.672969,
+        18.919303
       ],
       [
-        69.651331,
-        18.959083
+        69.672964,
+        18.919354
       ],
       [
-        69.651313,
-        18.959051
+        69.672963,
+        18.919406
       ],
       [
-        69.651297,
-        18.959025
+        69.67296,
+        18.919459
       ],
       [
-        69.651275,
-        18.958994
+        69.672957,
+        18.919533
       ],
       [
-        69.651255,
-        18.958966
+        69.672954,
+        18.919593
       ],
       [
-        69.651229,
-        18.958957
+        69.672952,
+        18.919634
       ],
       [
-        69.651204,
-        18.958944
+        69.67295,
+        18.919699
       ],
       [
-        69.65118,
-        18.958935
+        69.672946,
+        18.91976
       ],
       [
-        69.651159,
-        18.958929
+        69.672941,
+        18.919831
       ],
       [
-        69.651143,
-        18.958922
+        69.672938,
+        18.919899
       ],
       [
-        69.651123,
-        18.958932
+        69.672936,
+        18.919949
       ],
       [
-        69.651096,
-        18.95894
+        69.672937,
+        18.920018
       ],
       [
-        69.651074,
-        18.958937
+        69.672937,
+        18.920075
       ],
       [
-        69.651049,
-        18.958916
+        69.672939,
+        18.920137
       ],
       [
-        69.651027,
-        18.958896
+        69.672938,
+        18.920201
       ],
       [
-        69.651005,
-        18.958877
+        69.672939,
+        18.920268
       ],
       [
-        69.650984,
-        18.958855
+        69.672942,
+        18.920333
       ],
       [
-        69.650963,
-        18.958825
+        69.672947,
+        18.920385
       ],
       [
-        69.650943,
-        18.958785
+        69.672949,
+        18.920442
       ],
       [
-        69.65092,
-        18.958742
+        69.672944,
+        18.920479
       ],
       [
-        69.650905,
-        18.958697
+        69.672941,
+        18.920544
       ],
       [
-        69.650892,
-        18.958657
+        69.672944,
+        18.920616
       ],
       [
-        69.650874,
-        18.958624
+        69.672943,
+        18.920647
       ],
       [
-        69.650854,
-        18.958591
+        69.672945,
+        18.920729
       ],
       [
-        69.650832,
-        18.958566
+        69.672946,
+        18.920786
       ],
       [
-        69.650812,
-        18.958544
+        69.67295,
+        18.920831
       ],
       [
-        69.650792,
-        18.958522
+        69.672958,
+        18.920891
       ],
       [
-        69.650771,
-        18.958497
+        69.672959,
+        18.920953
       ],
       [
-        69.65075,
-        18.958484
+        69.672956,
+        18.921009
       ],
       [
-        69.650734,
-        18.958473
+        69.672958,
+        18.921055
       ],
       [
-        69.650717,
-        18.958456
+        69.672959,
+        18.921093
       ],
       [
-        69.650689,
-        18.958424
+        69.672958,
+        18.921168
       ],
       [
-        69.650664,
-        18.95842
+        69.672947,
+        18.921258
       ],
       [
-        69.650642,
-        18.95839
+        69.672927,
+        18.921332
       ],
       [
-        69.650619,
-        18.958381
+        69.67292,
+        18.921412
       ],
       [
-        69.650599,
-        18.958355
+        69.672919,
+        18.921484
       ],
       [
-        69.65058,
-        18.958343
+        69.672916,
+        18.921527
       ],
       [
-        69.650558,
-        18.958308
+        69.672915,
+        18.92151
       ],
       [
-        69.650545,
-        18.958288
-      ],
-      [
-        69.650519,
-        18.95824
-      ],
-      [
-        69.650489,
-        18.958183
-      ],
-      [
-        69.650474,
-        18.958093
-      ],
-      [
-        69.650463,
-        18.958018
-      ],
-      [
-        69.650454,
-        18.957955
-      ],
-      [
-        69.650455,
-        18.957921
-      ],
-      [
-        69.650454,
-        18.957892
-      ],
-      [
-        69.65047,
-        18.957817
-      ],
-      [
-        69.650484,
-        18.957759
-      ],
-      [
-        69.650499,
-        18.957692
-      ],
-      [
-        69.650511,
-        18.957636
-      ],
-      [
-        69.650521,
-        18.957594
-      ],
-      [
-        69.650515,
-        18.957566
-      ],
-      [
-        69.650522,
-        18.957518
-      ],
-      [
-        69.650526,
-        18.957491
-      ],
-      [
-        69.650536,
-        18.957416
-      ],
-      [
-        69.650547,
-        18.957322
-      ],
-      [
-        69.650552,
-        18.957242
-      ],
-      [
-        69.650564,
-        18.957126
-      ],
-      [
-        69.65058,
-        18.957085
-      ],
-      [
-        69.65059,
-        18.957118
-      ],
-      [
-        69.650597,
-        18.957154
-      ],
-      [
-        69.650605,
-        18.957188
-      ],
-      [
-        69.650602,
-        18.957214
-      ],
-      [
-        69.650597,
-        18.957207
-      ],
-      [
-        69.650592,
-        18.957226
-      ],
-      [
-        69.650591,
-        18.957279
-      ],
-      [
-        69.650578,
-        18.957333
-      ],
-      [
-        69.650573,
-        18.957364
-      ],
-      [
-        69.65057,
-        18.957412
-      ],
-      [
-        69.650573,
-        18.957461
-      ],
-      [
-        69.650573,
-        18.957521
-      ],
-      [
-        69.650571,
-        18.957594
-      ],
-      [
-        69.650574,
-        18.957662
-      ],
-      [
-        69.650575,
-        18.957712
-      ],
-      [
-        69.650566,
-        18.957759
-      ],
-      [
-        69.65057,
-        18.957808
-      ],
-      [
-        69.650579,
-        18.95784
-      ],
-      [
-        69.650595,
-        18.957866
-      ],
-      [
-        69.650612,
-        18.957892
-      ],
-      [
-        69.650633,
-        18.957917
-      ],
-      [
-        69.650642,
-        18.957935
-      ],
-      [
-        69.650654,
-        18.957938
-      ],
-      [
-        69.650665,
-        18.95794
-      ],
-      [
-        69.650677,
-        18.957965
-      ],
-      [
-        69.650685,
-        18.957985
-      ],
-      [
-        69.650687,
-        18.958009
-      ],
-      [
-        69.650688,
-        18.958034
-      ],
-      [
-        69.650692,
-        18.958044
-      ],
-      [
-        69.650698,
-        18.958035
-      ],
-      [
-        69.650699,
-        18.958017
-      ],
-      [
-        69.650704,
-        18.958003
-      ],
-      [
-        69.650707,
-        18.957992
-      ],
-      [
-        69.650712,
-        18.957982
-      ],
-      [
-        69.650725,
-        18.957965
-      ],
-      [
-        69.650747,
-        18.957956
-      ],
-      [
-        69.650759,
-        18.957948
-      ],
-      [
-        69.650778,
-        18.957932
-      ],
-      [
-        69.650791,
-        18.957914
-      ],
-      [
-        69.650807,
-        18.957894
-      ],
-      [
-        69.650825,
-        18.957877
-      ],
-      [
-        69.650839,
-        18.957862
-      ],
-      [
-        69.650852,
-        18.95784
-      ],
-      [
-        69.650864,
-        18.957815
-      ],
-      [
-        69.650876,
-        18.9578
-      ],
-      [
-        69.650899,
-        18.957779
-      ],
-      [
-        69.650911,
-        18.957763
-      ],
-      [
-        69.650914,
-        18.957743
-      ],
-      [
-        69.650909,
-        18.957734
-      ],
-      [
-        69.650904,
-        18.95773
-      ],
-      [
-        69.650896,
-        18.957745
-      ],
-      [
-        69.650892,
-        18.957758
-      ],
-      [
-        69.650886,
-        18.957771
-      ],
-      [
-        69.650879,
-        18.957779
-      ],
-      [
-        69.650872,
-        18.957779
-      ],
-      [
-        69.650866,
-        18.957779
-      ],
-      [
-        69.650859,
-        18.957786
-      ],
-      [
-        69.650849,
-        18.957793
-      ],
-      [
-        69.650839,
-        18.957798
-      ],
-      [
-        69.65083,
-        18.95779
-      ],
-      [
-        69.65081,
-        18.957792
-      ],
-      [
-        69.650782,
-        18.95779
-      ],
-      [
-        69.650767,
-        18.95778
-      ],
-      [
-        69.650749,
-        18.957792
-      ],
-      [
-        69.650734,
-        18.957773
-      ],
-      [
-        69.650723,
-        18.95773
-      ],
-      [
-        69.650703,
-        18.957752
-      ],
-      [
-        69.650682,
-        18.957761
-      ],
-      [
-        69.650654,
-        18.957766
-      ],
-      [
-        69.650629,
-        18.957788
-      ],
-      [
-        69.650613,
-        18.957802
-      ],
-      [
-        69.650593,
-        18.957796
-      ],
-      [
-        69.650577,
-        18.957789
-      ],
-      [
-        69.650571,
-        18.957782
-      ],
-      [
-        69.650564,
-        18.957778
-      ],
-      [
-        69.65056,
-        18.957783
-      ],
-      [
-        69.650556,
-        18.95779
-      ],
-      [
-        69.650551,
-        18.957781
-      ],
-      [
-        69.65054,
-        18.957794
-      ],
-      [
-        69.65054,
-        18.957794
-      ],
-      [
-        69.650542,
-        18.957791
-      ],
-      [
-        69.650545,
-        18.957784
-      ],
-      [
-        69.650548,
-        18.957778
-      ],
-      [
-        69.650553,
-        18.957773
-      ],
-      [
-        69.650557,
-        18.95779
-      ],
-      [
-        69.650565,
-        18.957793
-      ],
-      [
-        69.650566,
-        18.957827
-      ],
-      [
-        69.650575,
-        18.957858
-      ],
-      [
-        69.650584,
-        18.957892
-      ],
-      [
-        69.65059,
-        18.957913
-      ],
-      [
-        69.650603,
-        18.957918
-      ],
-      [
-        69.650623,
-        18.957932
-      ],
-      [
-        69.650635,
-        18.957965
-      ],
-      [
-        69.650655,
-        18.957996
-      ],
-      [
-        69.650682,
-        18.958043
-      ],
-      [
-        69.650706,
-        18.958066
-      ],
-      [
-        69.650728,
-        18.958074
-      ],
-      [
-        69.650744,
-        18.95807
-      ],
-      [
-        69.650752,
-        18.958057
-      ],
-      [
-        69.650757,
-        18.958032
-      ],
-      [
-        69.650759,
-        18.95801
-      ],
-      [
-        69.650762,
-        18.957998
-      ],
-      [
-        69.650761,
-        18.957986
-      ],
-      [
-        69.650761,
-        18.957971
-      ],
-      [
-        69.65076,
-        18.957961
-      ],
-      [
-        69.65076,
-        18.957963
-      ],
-      [
-        69.650756,
-        18.95797
-      ],
-      [
-        69.650757,
-        18.957967
-      ],
-      [
-        69.650754,
-        18.957956
-      ],
-      [
-        69.650755,
-        18.957925
-      ],
-      [
-        69.650758,
-        18.957905
-      ],
-      [
-        69.650757,
-        18.957902
-      ],
-      [
-        69.650754,
-        18.957901
-      ],
-      [
-        69.650754,
-        18.957902
-      ],
-      [
-        69.650756,
-        18.957888
-      ],
-      [
-        69.650762,
-        18.957874
-      ],
-      [
-        69.650768,
-        18.957867
-      ],
-      [
-        69.650773,
-        18.957883
-      ],
-      [
-        69.650779,
-        18.957907
-      ],
-      [
-        69.650774,
-        18.957941
-      ],
-      [
-        69.65077,
-        18.957976
-      ],
-      [
-        69.650767,
-        18.958015
-      ],
-      [
-        69.650766,
-        18.958053
-      ],
-      [
-        69.650763,
-        18.958093
-      ],
-      [
-        69.650766,
-        18.958096
-      ],
-      [
-        69.650784,
-        18.958048
-      ],
-      [
-        69.650778,
-        18.958085
-      ],
-      [
-        69.650782,
-        18.958106
-      ],
-      [
-        69.650784,
-        18.958107
-      ],
-      [
-        69.650786,
-        18.958087
-      ],
-      [
-        69.650782,
-        18.958068
-      ],
-      [
-        69.650777,
-        18.958052
-      ],
-      [
-        69.650776,
-        18.958031
-      ],
-      [
-        69.650775,
-        18.958025
-      ],
-      [
-        69.650753,
-        18.958008
-      ],
-      [
-        69.650716,
-        18.957989
-      ],
-      [
-        69.650707,
-        18.957966
-      ],
-      [
-        69.65071,
-        18.957941
-      ],
-      [
-        69.650712,
-        18.957906
-      ],
-      [
-        69.650716,
-        18.957893
-      ],
-      [
-        69.650704,
-        18.957895
-      ],
-      [
-        69.650686,
-        18.957904
-      ],
-      [
-        69.650678,
-        18.957919
-      ],
-      [
-        69.650663,
-        18.957912
-      ],
-      [
-        69.650654,
-        18.95792
-      ],
-      [
-        69.650653,
-        18.957903
-      ],
-      [
-        69.650651,
-        18.957895
-      ],
-      [
-        69.650643,
-        18.957887
-      ],
-      [
-        69.65064,
-        18.957875
-      ],
-      [
-        69.650637,
-        18.957861
-      ],
-      [
-        69.650641,
-        18.957837
-      ],
-      [
-        69.650643,
-        18.957816
-      ],
-      [
-        69.650636,
-        18.957803
-      ],
-      [
-        69.650625,
-        18.957793
-      ],
-      [
-        69.650616,
-        18.957796
-      ],
-      [
-        69.650607,
-        18.957786
-      ],
-      [
-        69.650607,
-        18.957793
-      ],
-      [
-        69.650604,
-        18.957779
-      ],
-      [
-        69.650603,
-        18.957771
-      ],
-      [
-        69.650599,
-        18.957765
-      ],
-      [
-        69.6506,
-        18.957769
-      ],
-      [
-        69.650603,
-        18.957766
-      ],
-      [
-        69.650601,
-        18.957778
-      ],
-      [
-        69.650605,
-        18.957777
-      ],
-      [
-        69.650595,
-        18.9578
-      ],
-      [
-        69.650591,
-        18.957809
-      ],
-      [
-        69.65059,
-        18.957833
-      ],
-      [
-        69.650595,
-        18.957843
-      ],
-      [
-        69.650598,
-        18.957849
-      ],
-      [
-        69.650599,
-        18.957863
-      ],
-      [
-        69.650597,
-        18.957873
-      ],
-      [
-        69.650598,
-        18.957873
-      ],
-      [
-        69.650605,
-        18.95787
-      ],
-      [
-        69.650615,
-        18.957863
-      ],
-      [
-        69.650622,
-        18.957899
-      ],
-      [
-        69.65063,
-        18.957957
-      ],
-      [
-        69.650631,
-        18.957996
-      ],
-      [
-        69.650626,
-        18.958024
-      ],
-      [
-        69.650621,
-        18.958026
-      ],
-      [
-        69.650615,
-        18.957985
-      ],
-      [
-        69.650614,
-        18.957951
-      ],
-      [
-        69.650625,
-        18.957897
-      ],
-      [
-        69.650637,
-        18.957836
-      ],
-      [
-        69.650668,
-        18.957805
-      ],
-      [
-        69.650719,
-        18.95775
-      ],
-      [
-        69.650741,
-        18.957715
-      ],
-      [
-        69.650742,
-        18.957808
-      ],
-      [
-        69.650744,
-        18.957938
-      ],
-      [
-        69.650754,
-        18.958109
-      ],
-      [
-        69.65076,
-        18.958258
-      ],
-      [
-        69.650788,
-        18.958306
-      ],
-      [
-        69.650845,
-        18.958311
-      ],
-      [
-        69.65091,
-        18.958016
-      ],
-      [
-        69.650938,
-        18.958058
-      ],
-      [
-        69.650952,
-        18.958047
-      ],
-      [
-        69.65092,
-        18.957999
-      ],
-      [
-        69.650902,
-        18.957955
-      ],
-      [
-        69.65089,
-        18.95793
-      ],
-      [
-        69.650882,
-        18.957902
-      ],
-      [
-        69.650917,
-        18.957855
-      ],
-      [
-        69.650903,
-        18.957849
-      ],
-      [
-        69.650892,
-        18.957876
-      ],
-      [
-        69.65082,
-        18.957749
-      ],
-      [
-        69.650781,
-        18.95769
-      ],
-      [
-        69.650757,
-        18.957598
-      ],
-      [
-        69.650745,
-        18.957497
-      ],
-      [
-        69.650743,
-        18.957426
-      ],
-      [
-        69.650717,
-        18.957481
-      ],
-      [
-        69.650707,
-        18.957503
-      ],
-      [
-        69.650698,
-        18.957518
-      ],
-      [
-        69.650701,
-        18.957539
-      ],
-      [
-        69.650705,
-        18.957567
-      ],
-      [
-        69.650718,
-        18.957604
-      ],
-      [
-        69.650744,
-        18.957641
-      ],
-      [
-        69.65074,
-        18.957814
-      ],
-      [
-        69.650742,
-        18.957892
-      ],
-      [
-        69.65074,
-        18.957959
-      ],
-      [
-        69.650741,
-        18.957951
-      ],
-      [
-        69.650738,
-        18.95797
-      ],
-      [
-        69.650733,
-        18.957992
-      ],
-      [
-        69.650733,
-        18.957999
-      ],
-      [
-        69.650726,
-        18.958002
-      ],
-      [
-        69.650724,
-        18.957985
-      ],
-      [
-        69.650724,
-        18.957965
-      ],
-      [
-        69.650728,
-        18.95795
-      ],
-      [
-        69.650731,
-        18.957927
-      ],
-      [
-        69.650735,
-        18.957897
-      ],
-      [
-        69.650737,
-        18.957866
-      ],
-      [
-        69.650741,
-        18.957841
-      ],
-      [
-        69.650747,
-        18.957818
-      ],
-      [
-        69.650755,
-        18.957802
-      ],
-      [
-        69.650762,
-        18.957791
-      ],
-      [
-        69.65077,
-        18.957783
-      ],
-      [
-        69.650767,
-        18.957784
-      ],
-      [
-        69.650759,
-        18.957759
-      ],
-      [
-        69.650761,
-        18.957713
-      ],
-      [
-        69.650757,
-        18.957688
-      ],
-      [
-        69.650747,
-        18.95768
-      ],
-      [
-        69.650733,
-        18.957677
-      ],
-      [
-        69.650724,
-        18.95768
-      ],
-      [
-        69.650719,
-        18.957693
-      ],
-      [
-        69.650713,
-        18.957722
-      ],
-      [
-        69.6507,
-        18.957755
-      ],
-      [
-        69.650685,
-        18.957786
-      ],
-      [
-        69.650675,
-        18.957839
-      ],
-      [
-        69.650671,
-        18.957855
-      ],
-      [
-        69.650688,
-        18.957883
-      ],
-      [
-        69.6507,
-        18.957909
-      ],
-      [
-        69.650714,
-        18.957936
-      ],
-      [
-        69.650724,
-        18.957951
-      ],
-      [
-        69.650727,
-        18.957945
-      ],
-      [
-        69.650716,
-        18.957898
-      ],
-      [
-        69.650698,
-        18.957888
-      ],
-      [
-        69.65069,
-        18.957867
-      ],
-      [
-        69.650683,
-        18.957852
-      ],
-      [
-        69.650676,
-        18.957844
-      ],
-      [
-        69.650672,
-        18.957833
-      ],
-      [
-        69.650671,
-        18.957821
-      ],
-      [
-        69.650671,
-        18.957805
-      ],
-      [
-        69.650683,
-        18.957803
-      ],
-      [
-        69.650685,
-        18.957801
-      ],
-      [
-        69.650681,
-        18.957792
-      ],
-      [
-        69.650675,
-        18.957787
-      ],
-      [
-        69.650667,
-        18.957775
-      ],
-      [
-        69.650669,
-        18.957741
-      ],
-      [
-        69.650668,
-        18.957724
-      ],
-      [
-        69.650668,
-        18.957713
-      ],
-      [
-        69.650673,
-        18.957704
-      ],
-      [
-        69.650679,
-        18.957699
-      ],
-      [
-        69.65068,
-        18.957696
-      ],
-      [
-        69.650688,
-        18.957698
-      ],
-      [
-        69.650694,
-        18.957703
-      ],
-      [
-        69.65069,
-        18.957713
-      ],
-      [
-        69.650684,
-        18.957726
-      ],
-      [
-        69.65067,
-        18.957745
-      ],
-      [
-        69.650661,
-        18.957765
-      ],
-      [
-        69.650652,
-        18.957791
-      ],
-      [
-        69.650639,
-        18.957823
-      ],
-      [
-        69.650635,
-        18.957853
-      ],
-      [
-        69.650641,
-        18.95786
-      ],
-      [
-        69.650646,
-        18.957876
-      ],
-      [
-        69.650653,
-        18.957875
-      ],
-      [
-        69.650661,
-        18.95785
-      ],
-      [
-        69.65067,
-        18.957803
-      ],
-      [
-        69.650676,
-        18.957768
-      ],
-      [
-        69.650675,
-        18.957754
-      ],
-      [
-        69.650677,
-        18.957726
-      ],
-      [
-        69.650683,
-        18.957707
-      ],
-      [
-        69.650679,
-        18.957699
-      ],
-      [
-        69.650675,
-        18.957696
-      ],
-      [
-        69.650669,
-        18.957691
-      ],
-      [
-        69.650666,
-        18.95769
-      ],
-      [
-        69.650661,
-        18.957685
-      ],
-      [
-        69.650647,
-        18.957684
-      ],
-      [
-        69.650632,
-        18.957667
-      ],
-      [
-        69.650621,
-        18.957643
-      ],
-      [
-        69.650613,
-        18.957627
-      ],
-      [
-        69.65061,
-        18.957612
-      ],
-      [
-        69.650611,
-        18.9576
-      ],
-      [
-        69.650609,
-        18.957567
-      ],
-      [
-        69.650612,
-        18.957541
-      ],
-      [
-        69.650619,
-        18.957521
-      ],
-      [
-        69.650622,
-        18.957504
-      ],
-      [
-        69.650622,
-        18.957475
-      ],
-      [
-        69.650617,
-        18.957436
-      ],
-      [
-        69.650623,
-        18.95739
-      ],
-      [
-        69.650622,
-        18.957355
-      ],
-      [
-        69.650623,
-        18.957318
-      ],
-      [
-        69.650621,
-        18.957272
-      ],
-      [
-        69.650619,
-        18.957197
-      ],
-      [
-        69.65061,
-        18.957149
-      ],
-      [
-        69.650596,
-        18.957045
-      ],
-      [
-        69.650593,
-        18.956985
-      ],
-      [
-        69.650575,
-        18.956961
-      ],
-      [
-        69.650562,
-        18.956968
-      ],
-      [
-        69.650563,
-        18.956906
-      ],
-      [
-        69.650555,
-        18.956858
-      ],
-      [
-        69.650555,
-        18.956845
-      ],
-      [
-        69.650548,
-        18.956867
-      ],
-      [
-        69.650539,
-        18.956839
-      ],
-      [
-        69.650517,
-        18.956824
-      ],
-      [
-        69.650493,
-        18.9568
-      ],
-      [
-        69.650478,
-        18.956793
-      ],
-      [
-        69.650464,
-        18.9568
-      ],
-      [
-        69.650442,
-        18.956797
-      ],
-      [
-        69.650423,
-        18.956817
-      ],
-      [
-        69.650394,
-        18.956819
-      ],
-      [
-        69.650368,
-        18.9568
-      ],
-      [
-        69.650349,
-        18.956784
-      ],
-      [
-        69.650337,
-        18.956768
-      ],
-      [
-        69.650331,
-        18.956751
-      ],
-      [
-        69.650313,
-        18.95673
-      ],
-      [
-        69.650286,
-        18.956699
-      ],
-      [
-        69.650259,
-        18.956668
-      ],
-      [
-        69.650239,
-        18.956656
-      ],
-      [
-        69.650224,
-        18.956662
-      ],
-      [
-        69.650207,
-        18.956651
-      ],
-      [
-        69.650178,
-        18.956626
-      ],
-      [
-        69.650161,
-        18.956608
-      ],
-      [
-        69.650158,
-        18.956591
-      ],
-      [
-        69.650145,
-        18.956569
-      ],
-      [
-        69.650114,
-        18.956542
-      ],
-      [
-        69.650096,
-        18.956522
-      ],
-      [
-        69.650086,
-        18.956499
-      ],
-      [
-        69.650074,
-        18.956479
-      ],
-      [
-        69.65005,
-        18.956451
-      ],
-      [
-        69.650028,
-        18.956409
-      ],
-      [
-        69.650015,
-        18.956374
-      ],
-      [
-        69.650012,
-        18.956336
-      ],
-      [
-        69.649994,
-        18.956301
-      ],
-      [
-        69.649978,
-        18.956267
-      ],
-      [
-        69.649964,
-        18.956264
-      ],
-      [
-        69.64995,
-        18.956249
-      ],
-      [
-        69.64993,
-        18.956226
-      ],
-      [
-        69.649909,
-        18.956194
-      ],
-      [
-        69.649895,
-        18.956183
-      ],
-      [
-        69.649888,
-        18.956177
-      ],
-      [
-        69.649863,
-        18.956179
-      ],
-      [
-        69.649851,
-        18.956181
-      ],
-      [
-        69.649846,
-        18.956185
-      ],
-      [
-        69.649835,
-        18.956166
-      ],
-      [
-        69.649807,
-        18.956144
-      ],
-      [
-        69.649781,
-        18.956121
-      ],
-      [
-        69.649773,
-        18.956118
-      ],
-      [
-        69.649775,
-        18.956106
-      ],
-      [
-        69.649764,
-        18.956094
-      ],
-      [
-        69.649755,
-        18.956087
-      ],
-      [
-        69.649743,
-        18.956088
-      ],
-      [
-        69.649739,
-        18.956084
-      ],
-      [
-        69.649755,
-        18.956059
-      ],
-      [
-        69.649758,
-        18.956045
-      ],
-      [
-        69.649757,
-        18.956039
+        69.672912,
+        18.921538
       ]
     ]
   }
