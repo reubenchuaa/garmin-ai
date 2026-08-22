@@ -417423,19 +417423,19 @@
     {
       "date": "2026-08-22",
       "wellness": {
-        "totalSteps": 52,
-        "totalDistanceMeters": 40,
-        "averageStressLevel": 11,
+        "totalSteps": 71,
+        "totalDistanceMeters": 55,
+        "averageStressLevel": 10,
         "maxStressLevel": 24,
-        "bodyBatteryHighestValue": 75,
+        "bodyBatteryHighestValue": 87,
         "bodyBatteryLowestValue": 22,
         "floorsAscended": 0,
-        "restingHeartRate": 49,
+        "restingHeartRate": 47,
         "maxAvgHeartRate": 56,
         "minAvgHeartRate": 44,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "totalKilocalories": 348
+        "totalKilocalories": 449
       },
       "sleep": {
         "dailySleepDTO": {
