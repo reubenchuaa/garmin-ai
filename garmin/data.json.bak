@@ -417423,19 +417423,20 @@
     {
       "date": "2026-08-22",
       "wellness": {
-        "totalSteps": 127,
-        "totalDistanceMeters": 103,
-        "averageStressLevel": 15,
-        "maxStressLevel": 79,
+        "totalSteps": 3635,
+        "totalDistanceMeters": 3384,
+        "averageStressLevel": 25,
+        "maxStressLevel": 96,
         "bodyBatteryHighestValue": 96,
         "bodyBatteryLowestValue": 22,
         "floorsAscended": 0,
         "restingHeartRate": 47,
-        "maxAvgHeartRate": 76,
+        "maxAvgHeartRate": 102,
         "minAvgHeartRate": 44,
-        "moderateIntensityMinutes": 0,
+        "moderateIntensityMinutes": 1,
         "vigorousIntensityMinutes": 0,
-        "totalKilocalories": 745
+        "activeKilocalories": 73,
+        "totalKilocalories": 1180
       },
       "sleep": {
         "dailySleepDTO": {
@@ -417542,7 +417543,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-08-23",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-08-22T06:49:04",
+            "timestampGmt": "2026-08-22T09:21:31",
             "baseline": 480,
             "actual": 480,
             "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
