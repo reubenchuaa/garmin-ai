@@ -425446,7 +425446,39 @@
         "sleepLevels": null
       },
       "hrv": {},
-      "training_readiness": []
+      "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-08-23",
+          "timestamp": "2026-08-23T03:16:09.0",
+          "timestampLocal": "2026-08-23T05:16:09.0",
+          "deviceId": 3436655159,
+          "level": "MODERATE",
+          "feedbackLong": "MOD_RT_LOW_SS_UNKNOWN",
+          "feedbackShort": "GOOD_SLEEP_HISTORY",
+          "score": 70,
+          "sleepScore": null,
+          "sleepScoreFactorPercent": 0,
+          "sleepScoreFactorFeedback": "NONE",
+          "recoveryTime": 0,
+          "recoveryTimeFactorPercent": 100,
+          "recoveryTimeFactorFeedback": "VERY_GOOD",
+          "acwrFactorPercent": 99,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 213,
+          "stressHistoryFactorPercent": 57,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 88,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 70,
+          "sleepHistoryFactorPercent": 90,
+          "sleepHistoryFactorFeedback": "VERY_GOOD",
+          "validSleep": false,
+          "inputContext": "UPDATE_REALTIME_VARIABLES",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        }
+      ]
     }
   ],
   "performance": {
