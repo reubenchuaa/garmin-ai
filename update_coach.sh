@@ -51,7 +51,11 @@ import json
 from datetime import date
 d = json.load(open('garmin/data.json'))
 today = date.today().isoformat()
-acts = sorted([a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today],
+# Walking activities are EXCLUDED — Reuben tracks walks on Garmin for a company
+# project; they are NOT training and must never appear in the coach note.
+walk_types = {'walking', 'indoor_walking', 'casual_walking', 'speed_walking'}
+acts = sorted([a for a in d.get('activities', []) if (a.get('startTimeLocal') or '')[:10] == today
+               and a.get('activityType', {}).get('typeKey', '') not in walk_types],
               key=lambda a: a.get('startTimeLocal',''))
 run_types = {'running', 'trail_running', 'treadmill_running', 'track_running', 'ultra_running'}
 for a in acts:
@@ -213,6 +217,7 @@ RULES:
 - Long runs: should be easy effort, building aerobic base. No more than 30% of weekly volume in a single run.
 - Rest days: explain the science — adaptation occurs during recovery, not during the run. Rest is not weakness, it's when fitness is built.
 - CRITICAL: Read context.json carefully. If it says certain days are unavailable, NEVER schedule runs on those days. Plan around them.
+- CRITICAL — IGNORE WALKS: Reuben logs WALKING activities on his Garmin for a company project. These are NOT training. Completely exclude any activity whose type is walking/indoor_walking/casual_walking/speed_walking from ALL analysis and the note: do NOT count them in mileage, do NOT treat them as sessions or recovery, do NOT mention them, and do NOT let them affect load/readiness commentary. If Garmin's ACWR/training-load numbers look inflated by walking volume, note briefly that load may read high due to non-training walking and lean on running-only signals. Treat only running (and, in season, prescribed loaded hike-prep) as training.
 
 Read garmin/coach_data.json and context.json in the current directory.
 Also read garmin/coach_note.md for your PREVIOUS advice. Use it for session consistency only:
