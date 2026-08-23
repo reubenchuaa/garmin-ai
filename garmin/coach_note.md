@@ -1,9 +1,9 @@
-_Updated: Sunday, 23 Aug 2026 at 08:23 PM SGT_
+_Updated: Sunday, 23 Aug 2026 at 08:54 PM SGT_
 
-**Readiness is still LOW at 43 off a short, poor night's sleep — hold the rest day one more cycle and let tonight reset the trend before you run again.**
+**Readiness is still LOW at 43 — hold the rest day, let tonight's sleep reset the trend before you run again.**
 
 **What your data says**
-ACWR reads 0.8 (OPTIMAL, acute 179 vs chronic 219), but that load is almost entirely Norway hiking, not running — your last run was Aug 4 (5.02km shakeout), so this week's return to running effectively starts from zero under the 10% rule. Garmin's HM prediction is 1:56:17 off VO2max 56.5 — treat that as the optimistic ceiling; your only real anchor is still the Jul 27 13.02km long run at HR 137, now 27 days stale, so the honest range against your 1:45–1:50 goal is ~1:58–2:08 until a fresh long run lands. August running mileage sits at just 5.02km — not a shortfall, just math: 15 of the last 19 days were Norway hiking (July's 100km target is already banked at 153km). Today's readiness (43, LOW) continues yesterday's HIGH-to-LOW swing: sleep only 5.5h and poor quality, RHR 52 vs your ~47 baseline, HRV dipped to 57 from 76 yesterday. Heat acclimation also reset to 0% post-Norway — early runs back will feel hotter than before you left, so cap by HR, not pace.
+ACWR reads 0.8 (OPTIMAL, acute 179 vs chronic 219), but that load is almost entirely residual Norway hiking, not running — your last run was Aug 4 (5.02km shakeout), so this week's return to running effectively restarts from zero under the 10% rule. Garmin's HM prediction is 1:56:17 off VO2max 56.5 — treat that as the optimistic ceiling; your only real HM-specific anchor is still the Jul 27 13.02km long run at HR 137, now 27 days stale, so the honest range against your 1:45–1:50 goal is ~1:58–2:08 until a fresh long run lands. Running mileage since Norway sits at 5.02km — not a shortfall, just math (July's 100km target is already banked at 153km, 15 of the last 19 days were hiking). Today's readiness (43, LOW) hasn't recovered from the HIGH-to-LOW swing: sleep only 5.5h and poor quality, RHR 52 vs your ~47 baseline, HRV dipped to 57 vs a 68 weekly average. Heat acclimation is at 0% post-Norway — the first runs back will feel hotter than before you left, so cap by HR, not pace.
 
 **Today's session**
 Rest. Fitness is built in recovery, not the run — stacking your first run back onto 5.5h of broken sleep and a LOW readiness score just banks fatigue on tired legs for no gain. Let tonight's sleep bring the trend back up before reintroducing load.
@@ -21,7 +21,7 @@ Yesterday burned 2,035 kcal (active 247, BMR 1,788); today's a rest day, target 
 - Dinner: Bak chor mee — ~500
 - Evening: Kopi — ~115
 Total ≈ 2,020 kcal
-Today's active burn so far ≈ under a banana (40 kcal) — a genuine rest day, eat to recover.
+Today's active burn so far is well under a banana (~105 kcal) — a genuine rest day, eat to recover.
 
 **Coach's take**
-153km banked in July and a full Norway block behind you means the base is real — one rough night doesn't undo that, so rest today and let tomorrow's run be the honest, deliberate first step back.
+153km banked in July plus a full Norway block behind you means the base is real — one rough night doesn't undo that, so rest today and let tomorrow's run be the honest, deliberate first step back.
