@@ -1,27 +1,27 @@
-_Updated: Sunday, 23 Aug 2026 at 08:54 PM SGT_
+_Updated: Sunday, 23 Aug 2026 at 10:21 PM SGT_
 
-**Readiness is still LOW at 43 — hold the rest day, let tonight's sleep reset the trend before you run again.**
+**Reintegration run #1 done and HR-disciplined at 123 — now the job is protecting tomorrow after a rough night's sleep.**
 
 **What your data says**
-ACWR reads 0.8 (OPTIMAL, acute 179 vs chronic 219), but that load is almost entirely residual Norway hiking, not running — your last run was Aug 4 (5.02km shakeout), so this week's return to running effectively restarts from zero under the 10% rule. Garmin's HM prediction is 1:56:17 off VO2max 56.5 — treat that as the optimistic ceiling; your only real HM-specific anchor is still the Jul 27 13.02km long run at HR 137, now 27 days stale, so the honest range against your 1:45–1:50 goal is ~1:58–2:08 until a fresh long run lands. Running mileage since Norway sits at 5.02km — not a shortfall, just math (July's 100km target is already banked at 153km, 15 of the last 19 days were hiking). Today's readiness (43, LOW) hasn't recovered from the HIGH-to-LOW swing: sleep only 5.5h and poor quality, RHR 52 vs your ~47 baseline, HRV dipped to 57 vs a 68 weekly average. Heat acclimation is at 0% post-Norway — the first runs back will feel hotter than before you left, so cap by HR, not pace.
+ACWR sits at 1.0 (OPTIMAL, acute 234 vs chronic 226) — safely inside the 0.8–1.3 zone even with tonight's run folded in. Garmin's HM prediction reads 1:56:13 off VO2max 56.5, but that's the optimistic ceiling: your only real HM-specific anchor is still the Jul 27 13.02km long run at HR 137, now 27 days stale, so the honest range against your 1:45–1:50 goal stays ~1:58–2:08 until a fresh long run lands. July's 100km target is already banked at 153km; running mileage since the Norway restart (Aug 4) sits at 10.02km across two easy sessions — right on script for Shake Out's "2 easy runs" plan. Training status reads Maintaining, and readiness swung hard from HIGH (79) yesterday to LOW (39) today — 5.5h of poor-quality sleep, RHR 52 (+5 over your ~47 baseline), HRV 57 vs a 68 weekly average, heat acclimation still 0%. That's exactly why tonight's controlled effort mattered.
 
 **Today's session**
-Rest. Fitness is built in recovery, not the run — stacking your first run back onto 5.5h of broken sleep and a LOW readiness score just banks fatigue on tired legs for no gain. Let tonight's sleep bring the trend back up before reintroducing load.
+Done ✅ — 5.0km treadmill run, 35.5min, avg HR 123, comfortably under the 135 cap. Smart discipline given a LOW readiness day: you banked the reintegration mileage without spending down an already-thin recovery reserve. Nothing more today — protect the evening for sleep.
 
 **3-Day Plan**
-- Today (Sunday, 23 August 2026): Rest — prioritize sleep, no training
-- Tomorrow (Monday, 24 August 2026): Easy reintegration run #1 — 4–5km, HR ≤135, pace ~7:00–7:30/km (adjust down for heat/zero acclimation), only if readiness clears ~60
-- Tuesday, 25 August 2026: Single-leg step-downs 3x10/leg + light walk; hold easy run #2 for later in the week per the Shake Out plan
+- Today (Sunday, 23 August 2026): DONE ✅ — 5.0km easy run, HR 123 avg
+- Tomorrow (Monday, 24 August 2026): Rest — prioritize sleep to reverse the HRV/RHR dip; single-leg step-downs 3x10/leg only if legs feel fresh
+- Tuesday, 25 August 2026: Easy reintegration run #2 — 4–5km, HR ≤135, only if readiness clears ~55–60
 
 **Fuel**
-Yesterday burned 2,035 kcal (active 247, BMR 1,788); today's a rest day, target ≈2,050 kcal.
-- Breakfast: Kaya toast set + soy milk — ~550
-- Lunch: Economy rice, 1 meat + 2 veg — ~600
+Today's run added ~243 kcal on top of a ~1,788 BMR; eat to ≈2,320 kcal to fund recovery, not a deficit.
+- Breakfast: Roti prata (2pc) + curry + soy milk — ~500
+- Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
 - Dinner: Bak chor mee — ~500
-- Evening: Kopi — ~115
-Total ≈ 2,020 kcal
-Today's active burn so far is well under a banana (~105 kcal) — a genuine rest day, eat to recover.
+- Evening: Kopi + Milo dinosaur — ~465
+Total ≈ 2,320 kcal
+Tonight's run burn alone ≈ a kopi + banana combined.
 
 **Coach's take**
-153km banked in July plus a full Norway block behind you means the base is real — one rough night doesn't undo that, so rest today and let tomorrow's run be the honest, deliberate first step back.
+Running HR 123 on a 39-readiness day instead of chasing pace is exactly the judgment that keeps a comeback intact — rest tomorrow, and the second easy run lands clean.
