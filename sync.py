@@ -644,11 +644,28 @@ def sync(days=3):
         perf_by_date[today_str] = performance
     merged["performance"] = perf_by_date
 
-    # Store latest activity route (compact lat/lon pairs for map)
+    # Store latest RUN route (compact lat/lon pairs for map).
+    # Only runs — never walks/indoor walks (those are tracked for a company project
+    # and must not appear as the athlete's latest route).
+    walk_types = {"walking", "indoor_walking", "casual_walking", "speed_walking"}
     all_acts = sorted(merged.get("activities", []), key=lambda x: x.get("startTimeLocal", ""), reverse=True)
-    latest_with_poly = next((a for a in all_acts if a.get("hasPolyline")), None)
+    latest_with_poly = next(
+        (a for a in all_acts
+         if a.get("hasPolyline")
+         and "run" in (a.get("activityType", {}).get("typeKey", "")).lower()
+         and (a.get("activityType", {}).get("typeKey", "")) not in walk_types),
+        None,
+    )
     if latest_with_poly:
         details = latest_with_poly.get("_details")
+        # The latest run may be older than the sync window (e.g. no runs for weeks),
+        # so its _details aren't loaded. Fetch them on demand so the route map always
+        # reflects the latest RUN, not a stale walk left in latest_route.
+        if not details:
+            try:
+                details = client.get_activity_details(latest_with_poly.get("activityId"))
+            except Exception as e:
+                print(f"  Warning: route details for latest run — {e}")
         if details:
             geo = details.get("geoPolylineDTO", {})
             polyline = geo.get("polyline", [])

@@ -47,7 +47,11 @@ def get_wellness_range(data, days=14):
 
 
 def get_recent_activities(data, n=8):
+    # Exclude walks/indoor walks — tracked for a company project, not training.
+    walk_types = {"walking", "indoor_walking", "casual_walking", "speed_walking"}
     acts = sorted(data.get("activities", []), key=lambda x: x.get("startTimeLocal", ""), reverse=True)
+    acts = [a for a in acts
+            if (a.get("activityType", {}).get("typeKey", "")) not in walk_types]
     return acts[:n]
 
 
