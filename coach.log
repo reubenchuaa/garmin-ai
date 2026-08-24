@@ -537,3 +537,71 @@ Markdown notes written: 3 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+Updating 79e11ad..732c34a
+Fast-forward
+ docs/index.html                           |     82 +-
+ garmin/activity_2026-08-17_24012821355.md |     14 +
+ garmin/activity_2026-08-18_24023944800.md |     14 +
+ garmin/activity_2026-08-19_24033383496.md |     14 +
+ garmin/activity_2026-08-19_24040034567.md |     14 +
+ garmin/activity_2026-08-20_24045842102.md |     14 +
+ garmin/activity_2026-08-20_24051199749.md |     14 +
+ garmin/activity_2026-08-21_24058087902.md |     14 +
+ garmin/activity_2026-08-21_24059667305.md |     14 +
+ garmin/activity_2026-08-21_24060026700.md |     14 +
+ garmin/activity_2026-08-21_24060699456.md |     14 +
+ garmin/activity_2026-08-21_24063602463.md |     14 +
+ garmin/activity_2026-08-22_24076935072.md |     14 +
+ garmin/data.json                          | 497130 +++++++++++++++------------
+ garmin/data.json.bak                      | 497130 +++++++++++++++------------
+ garmin/wellness_2026-08-17.md             |     22 +
+ garmin/wellness_2026-08-18.md             |     22 +
+ garmin/wellness_2026-08-19.md             |     22 +
+ garmin/wellness_2026-08-20.md             |     22 +
+ garmin/wellness_2026-08-21.md             |     22 +
+ garmin/wellness_2026-08-22.md             |     22 +
+ garmin/wellness_2026-08-23.md             |     22 +
+ 22 files changed, 550605 insertions(+), 444059 deletions(-)
+ create mode 100644 garmin/activity_2026-08-17_24012821355.md
+ create mode 100644 garmin/activity_2026-08-18_24023944800.md
+ create mode 100644 garmin/activity_2026-08-19_24033383496.md
+ create mode 100644 garmin/activity_2026-08-19_24040034567.md
+ create mode 100644 garmin/activity_2026-08-20_24045842102.md
+ create mode 100644 garmin/activity_2026-08-20_24051199749.md
+ create mode 100644 garmin/activity_2026-08-21_24058087902.md
+ create mode 100644 garmin/activity_2026-08-21_24059667305.md
+ create mode 100644 garmin/activity_2026-08-21_24060026700.md
+ create mode 100644 garmin/activity_2026-08-21_24060699456.md
+ create mode 100644 garmin/activity_2026-08-21_24063602463.md
+ create mode 100644 garmin/activity_2026-08-22_24076935072.md
+ create mode 100644 garmin/wellness_2026-08-17.md
+ create mode 100644 garmin/wellness_2026-08-18.md
+ create mode 100644 garmin/wellness_2026-08-19.md
+ create mode 100644 garmin/wellness_2026-08-20.md
+ create mode 100644 garmin/wellness_2026-08-21.md
+ create mode 100644 garmin/wellness_2026-08-22.md
+ create mode 100644 garmin/wellness_2026-08-23.md
+[main 774544e] reconcile: regenerate dashboard
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Fetching data for: 2026-08-21 → 2026-08-23
+
+  Activity: activity_2026-08-22_24076935072.md
+  Activity: activity_2026-08-21_24063602463.md
+  Activity: activity_2026-08-21_24060699456.md
+  Activity: activity_2026-08-21_24060026700.md
+  Activity: activity_2026-08-21_24059667305.md
+  Activity: activity_2026-08-21_24058087902.md
+  Wellness: wellness_2026-08-21.md
+  Wellness: wellness_2026-08-22.md
+  Wellness: wellness_2026-08-23.md
+  Training status: MAINTAINING_1, ACWR: 0.8
+  Race predictions — HM: 1:56:17
+
+All data saved to garmin/data.json
+Markdown notes written: 9 files
+  [auth] WARNING: Claude refresh token expires in -6 days — please run: claude /login
+  [coach] ERROR: Claude CLI not logged in — skipping coach note update entirely
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
