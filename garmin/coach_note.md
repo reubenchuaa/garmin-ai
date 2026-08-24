@@ -1,27 +1,27 @@
-_Updated: Sunday, 23 Aug 2026 at 11:40 PM SGT_
+_Updated: Monday, 24 Aug 2026 at 02:38 PM SGT_
 
-**Reintegration run #1 is banked and HR-disciplined at 123 — tonight's job is just protecting sleep so tomorrow's rest actually restores you.**
+**Readiness bounced from 39 to 51 overnight — today's rest banks that rebound instead of spending it, setting up a clean second reintegration run tomorrow.**
 
 **What your data says**
-ACWR sits at 1.0 (OPTIMAL, acute 234 vs chronic 226) — safely inside the 0.8–1.3 zone even with tonight's run folded in. Garmin's HM prediction reads 1:56:13 off VO2max 56.5, but treat that as the optimistic ceiling: your only real HM-specific anchor is still the Jul 27 13.02km long run at HR 137, now 27 days stale, so the honest range against your 1:45–1:50 goal stays ~1:58–2:08 until a fresh long run lands. July running closed at 153km — well past the 100km target, no further action needed there. The live number now is Shake Out mileage since the Norway restart (Aug 4): 10.02km across two easy sessions, right on script for "2 easy runs" this week. Training status reads Maintaining. Readiness is LOW today (39) after a poor night (sleep score 52), RHR 52 (+5 over your ~47 baseline), HRV 57 last night vs a 68 weekly average, heat acclimation still 0%.
+ACWR sits at 0.9 (OPTIMAL, acute 202 vs chronic 219) — comfortably inside the 0.8–1.3 safe zone. Garmin's HM prediction reads 1:56:14 off VO2max 56.5, but treat that as the optimistic ceiling: your only real HM-specific anchor is still the Jul 27 13.02km long run at HR 137, now 28 days stale, so the honest range against your 1:45–1:50 goal stays ~1:58–2:08 until a fresh long run lands. July running closed at 153km — well clear of the 100km target, no further action needed. Training status: Maintaining. Overnight recovery was strong — RHR back to your 47 baseline (from 52 yesterday), sleep score 76 (from 52), HRV 67 sits right at your 7-day average of 67 (stable, not declining), and training readiness climbed to 51 (MODERATE) from yesterday's 39 (LOW).
 
 **Today's session**
-Done ✅ — 5.0km treadmill run, 35.5min, avg HR 123, comfortably under the 135 cap. Exactly the right call on a LOW-readiness day: mileage banked without spending down an already-thin recovery reserve. Nothing more today — protect the evening for sleep.
+Rest. Yesterday's 5km easy run (HR 123) is banked; today the job is letting that overnight rebound consolidate rather than chasing it with more mileage. Adaptation happens in recovery, not the run itself — spend today protecting sleep and let HRV/RHR fully normalize before the next session.
 
 **3-Day Plan**
-- Today (Sunday, 23 August 2026): DONE ✅ — 5.0km easy run, HR 123 avg
-- Tomorrow (Monday, 24 August 2026): Rest — prioritize sleep to reverse the HRV/RHR dip; light step-downs 3x10/leg only if legs feel fresh (knee maintenance, not hike prep)
-- Tuesday, 25 August 2026: Easy reintegration run #2 — 4–5km, HR ≤135, only if readiness clears ~55–60
+- Today (Monday, 24 August 2026): Rest — optional light step-downs 3x10/leg only if legs feel fresh (knee maintenance, not hike prep)
+- Tomorrow (Tuesday, 25 August 2026): Easy reintegration run #2 — 4–5km, HR ≤135, pace ~7:00–7:30/km heat-adjusted
+- Wednesday, 26 August 2026: Easy run or rest depending on how Tuesday's HR/readiness respond — keep load controlled ahead of Peak Block starting Aug 30
 
 **Fuel**
-Today's run added ~243 kcal on top of a ~1,788 BMR; eat to ≈2,320 kcal to fund recovery, not a deficit.
-- Breakfast: Roti prata (2pc) + curry + soy milk — ~500
-- Lunch: Chicken rice — ~600
-- Snack: Banana + yogurt — ~255
+Rest day, minimal activity burn on top of your ~1,788 BMR; eat to ≈2,050 kcal to fund recovery, not a deficit.
+- Breakfast: Kaya toast set + kopi — ~565
+- Lunch: Economy rice, 1 meat 2 veg — ~600
+- Snack: Yogurt + banana — ~255
 - Dinner: Bak chor mee — ~500
-- Evening: Kopi + Milo dinosaur — ~465
-Total ≈ 2,320 kcal
-Tonight's run burn alone ≈ a kopi + banana combined.
+- Evening: Soy milk — ~100
+Total ≈ 2,020 kcal
+No training burn to offset today — this plate is purely banking recovery kcal for tomorrow's run.
 
 **Coach's take**
-Running HR 123 on a 39-readiness day instead of chasing pace is exactly the judgment that keeps a comeback intact — rest tomorrow, and the second easy run lands clean.
+A 39-to-51 readiness swing overnight is your body telling you the rest is working — protect it today and Tuesday's easy run will land clean.
