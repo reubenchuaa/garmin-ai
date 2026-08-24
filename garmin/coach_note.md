@@ -1,27 +1,27 @@
-_Updated: Monday, 24 Aug 2026 at 08:36 PM SGT_
+_Updated: Monday, 24 Aug 2026 at 11:22 PM SGT_
 
-**Readiness climbed back to 51 and ACWR sits at a clean 1.0 — one more rest night banks the HRV recovery before tomorrow's second reintegration run.**
+**A spontaneous 10km held right at your easy HR cap just banked real endurance — but ACWR's now at the ceiling, so tonight's job is simple: let it absorb.**
 
 **What your data says**
-ACWR is 1.0 (OPTIMAL, acute 220 vs chronic 219) — safely inside the 0.8–1.3 zone. Garmin's HM prediction reads 1:56:14 off VO2max 56.5, but that's the optimistic ceiling: your only real HM-specific anchor is the Jul 27 13.02km run at HR 137, now 28 days stale, so the honest range against your 1:45–1:50 goal is still ~1:58–2:08 until a fresh long run lands. July running closed at 153km vs the 100km target — comfortably cleared, no action needed there. Training status: Maintaining. RHR is back to your 47 baseline and sleep score sits at 76, but weekly HRV keeps easing (71→66 over the past week, last night 67, status flipped to UNBALANCED) — a fatigue signal worth respecting even as readiness rebounded from Saturday's 39 to 51.
+ACWR sits at 1.3 today — the very top edge of the safe 0.8–1.3 zone — after that run (training status: Productive), so there's zero headroom for another hard day right now. Garmin's HM prediction reads 1:56:07, but treat that as the optimistic ceiling — the honest buffered range against your 1:45–1:50 goal is still ~1:58–2:08; today's 10km at HR 134 (6:55/km) is an encouraging fresh data point but not yet the 12–14km HM-specific long run needed to tighten it. August running sits at 20km post-Norway/shake-out (July itself closed clean at 153km vs the 100km target — no action needed there). HRV keeps easing — weekly average 71→66, flipped to UNBALANCED — worth respecting even with RHR at baseline (47) and today's readiness at 50.
 
 **Today's session**
-Rest. Nothing logged today beyond incidental walking (excluded from training load) — let the readiness climb consolidate rather than forcing a session tonight. Adaptation happens in recovery, not the run itself.
+Done — 10.0km treadmill, 69.1min, HR 134 avg ✅. Unplanned but well-executed: HR stayed right at cap despite a brisk 6:55/km pace, and it's your longest continuous effort since the Jul 27 long run. No further running today — recovery is where this run actually pays off.
 
 **3-Day Plan**
-- Today (Monday, 24 August 2026): Rest
-- Tomorrow (Tuesday, 25 August 2026): Easy reintegration run #2 — 4–5km, HR ≤135, pace ~7:00–7:30/km heat-adjusted
-- Wednesday, 26 August 2026: Easy run or rest depending on how Tuesday's HR/readiness respond — keep load controlled ahead of Peak Block starting Aug 30
+- Today (Monday, 24 August 2026): Treadmill run 10.0km, HR 134 avg — DONE ✅
+- Tomorrow (Tuesday, 25 August 2026): Rest — ACWR's at the ceiling and HRV is trending down; bank a clean recovery night
+- Wednesday, 26 August 2026: Easy run 4–5km, HR ≤135, pace ~7:00–7:30/km if readiness rebounds — stay light ahead of Peak Block starting Aug 30
 
 **Fuel**
-Rest day, no activity burn beyond your ~1,341 BMR (yesterday's total was 1,709 kcal incl. the run); eat to ≈2,020 kcal to fund recovery, not a deficit.
+Today's burn: ~551 kcal from the run + 1,341 BMR (plus daily activity) — eat to ≈2,470 kcal to fund recovery on this bigger-than-planned effort, not a deficit.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
-- Snack: Yogurt + banana — ~255
-- Dinner: Bak chor mee — ~500
-- Evening: Soy milk — ~100
-Total ≈ 2,020 kcal
-No training burn to offset today — this plate is purely banking recovery kcal for tomorrow's run.
+- Snack: Banana + yogurt — ~255
+- Dinner: Laksa — ~700
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,470 kcal
+The run alone ≈ 1 bak chor mee (551 kcal).
 
 **Coach's take**
-The HRV dip is a blip, not a trend — one more clean rest night and Tuesday's run lands right on schedule for Peak Block.
+That's the discipline that gets you to sub-1:50 — a spontaneous 10km held right at cap; let tomorrow's rest bank it properly before Peak Block arrives.
