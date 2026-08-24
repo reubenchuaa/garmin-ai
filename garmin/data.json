@@ -425868,20 +425868,20 @@
     {
       "date": "2026-08-23",
       "wellness": {
-        "totalSteps": 9341,
-        "totalDistanceMeters": 8056,
-        "averageStressLevel": 32,
-        "maxStressLevel": 91,
+        "totalSteps": 12321,
+        "totalDistanceMeters": 10709,
+        "averageStressLevel": 33,
+        "maxStressLevel": 94,
         "bodyBatteryHighestValue": 45,
         "bodyBatteryLowestValue": 11,
-        "floorsAscended": 1,
+        "floorsAscended": 3,
         "restingHeartRate": 52,
-        "maxAvgHeartRate": 128,
+        "maxAvgHeartRate": 131,
         "minAvgHeartRate": 46,
-        "moderateIntensityMinutes": 21,
-        "vigorousIntensityMinutes": 5,
-        "activeKilocalories": 223,
-        "totalKilocalories": 1395
+        "moderateIntensityMinutes": 38,
+        "vigorousIntensityMinutes": 7,
+        "activeKilocalories": 368,
+        "totalKilocalories": 1709
       },
       "sleep": {
         "dailySleepDTO": {
@@ -433964,7 +433964,7 @@
       "heat_trend": null,
       "race_pred_5k": "24:00",
       "race_pred_10k": "51:44",
-      "race_pred_hm": "1:56:13",
+      "race_pred_hm": "1:56:14",
       "race_pred_marathon": "4:14:38",
       "avg_respiration": 14.0,
       "sleep_respiration": 16.0,
