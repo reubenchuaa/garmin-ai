@@ -1,27 +1,27 @@
-_Updated: Monday, 24 Aug 2026 at 11:26 PM SGT_
+_Updated: Tuesday, 25 Aug 2026 at 06:36 AM SGT_
 
-**A spontaneous 10km held right at your easy HR cap just banked real endurance — but ACWR's now at the ceiling, so tonight's job is simple: let it absorb.**
+**Readiness cratered to 6/100 and HRV is unbalanced two days running — today is a mandatory rest, not a suggestion.**
 
 **What your data says**
-ACWR sits at 1.3 today (OPTIMAL, but the very top edge of the safe 0.8–1.3 zone) after that run — training status Productive — so there's zero headroom for another hard day right now. Garmin's HM prediction reads 1:56:07, but treat that as the optimistic ceiling: the honest buffered range against your 1:45–1:50 goal is still ~1:58–2:08, and it stays soft until you bank a genuine HM-specific long run or time trial (last long run Jul 27, 13.02km). July running closed clean at 153km — well past the 100km target, no action needed there; August shake-out reintegration sits at 20km post-Norway. HRV keeps easing (weekly avg 71→66, flipped UNBALANCED) even with RHR at baseline (47) and today's readiness at 50 — worth respecting.
+Training Readiness is 6 (POOR) — sleep just 5.0h with poor structure, resting HR up to 51 (+4 above your 47 baseline), and HRV's weekly average has slid three straight days (70→66→64), still flagged UNBALANCED. ACWR itself is fine at 1.1 (OPTIMAL, training status Productive), so this isn't a load problem — it's a recovery-debt problem, and the rules are clear: readiness under 40 means easy or rest, full stop. Garmin's HM prediction still reads 1:56:07 — treat that as the optimistic ceiling; the honest buffered range against your 1:45–1:50 goal stays ~1:58–2:08, and it's still soft with no HM-specific long run since Jul 27. July closed at 153km, well clear of the 100km target — no action needed there. August's Shake Out reintegration sits at ~20km post-Norway, right on track.
 
 **Today's session**
-Done — 10.0km treadmill, 69.1min, HR 134 avg ✅. Unplanned but well-executed: HR stayed right at cap despite a brisk 6:55/km pace, your longest continuous effort since Jul 27. No further running today — recovery is where this run actually pays off.
+Rest. Full stop. Adaptation happens during recovery, not the run — pushing through a 6/100 readiness day risks turning normal fatigue into a setback right before Peak Block starts Aug 30. Prioritise sleep tonight; everything else waits.
 
 **3-Day Plan**
-- Today (Monday, 24 August 2026): Treadmill run 10.0km, HR 134 avg — DONE ✅
-- Tomorrow (Tuesday, 25 August 2026): Rest — ACWR's at the ceiling and HRV is trending down; bank a clean recovery night
-- Wednesday, 26 August 2026: Easy run 4–5km, HR ≤135, pace ~7:00–7:30/km if readiness rebounds — stay light ahead of Peak Block starting Aug 30
+- Today (Tuesday, 25 August 2026): Rest — readiness 6/100, HRV unbalanced, 5h sleep. Non-negotiable.
+- Wednesday, 26 August 2026: Easy run 4–5km, HR ≤135, pace ~7:00–7:30/km — only if readiness rebounds above ~50. If not, another easy day or rest.
+- Thursday, 27 August 2026: Easy run or continued rest depending on Wed's readiness — goal is walking into Peak Block recovered, not rushed.
 
 **Fuel**
-Today's burn: ~551 kcal from the run + 1,341 BMR (plus daily activity) — eat to ≈2,470 kcal to fund recovery on this bigger-than-planned effort, not a deficit.
-- Breakfast: Kaya toast set + kopi — ~565
+Rest day: burn is BMR-only (~1,788 kcal, no active calories) — eat to ≈2,050 kcal to protect recovery, not a deficit.
+- Breakfast: Kaya toast set + kopi — ~450
 - Lunch: Chicken rice — ~600
-- Snack: Banana + yogurt — ~255
-- Dinner: Laksa — ~700
+- Snack: Yogurt — ~150
+- Dinner: Bak chor mee — ~500
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,470 kcal
-The run alone ≈ 1 bak chor mee (551 kcal).
+Total ≈ 2,050 kcal
+No training burn today — the real session is 8 hours of sleep, not calories.
 
 **Coach's take**
-That's the discipline that gets you to sub-1:50 — a spontaneous 10km held right at cap; let tomorrow's rest bank it properly before Peak Block arrives.
+This is the disciplined half of the sub-1:50 build: banking a clean rest day now protects the HRV trend and sets up Peak Block properly instead of digging a deeper hole.
