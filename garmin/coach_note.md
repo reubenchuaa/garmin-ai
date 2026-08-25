@@ -1,4 +1,4 @@
-_Updated: Tuesday, 25 Aug 2026 at 06:38 AM SGT_
+_Updated: Tuesday, 25 Aug 2026 at 06:33 PM SGT_
 
 **Training Readiness bottomed out again at 6/100 — yesterday's late 10km shake-out and a two-day HRV slide both point the same way: rest today, not another session.**
 
