@@ -647,3 +647,45 @@ Markdown notes written: 14 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+
+Fetching data for: 2026-08-23 → 2026-08-25
+
+  Activity: activity_2026-08-25_24108683774.md
+  Activity: activity_2026-08-25_24108389434.md
+  Activity: activity_2026-08-25_24108073425.md
+  Activity: activity_2026-08-25_24106489269.md
+  Activity: activity_2026-08-25_24105250060.md
+  Activity: activity_2026-08-25_24105151752.md
+  Warning: details for 24104936613 — HTTPSConnectionPool(host='connectapi.garmin.com', port=443): Read timed out.
+  Activity: activity_2026-08-25_24104936613.md
+  Activity: activity_2026-08-25_24104607403.md
+  Activity: activity_2026-08-25_24104607195.md
+  Activity: activity_2026-08-25_24104395933.md
+  Activity: activity_2026-08-25_24104202477.md
+  Activity: activity_2026-08-25_24103833930.md
+  Activity: activity_2026-08-25_24103574442.md
+  Activity: activity_2026-08-24_24098149192.md
+  Activity: activity_2026-08-24_24097699147.md
+  Activity: activity_2026-08-24_24096749969.md
+  Activity: activity_2026-08-24_24096482047.md
+  Activity: activity_2026-08-24_24096115283.md
+  Activity: activity_2026-08-24_24094633380.md
+  Activity: activity_2026-08-24_24093104915.md
+  Activity: activity_2026-08-24_24092432237.md
+  Activity: activity_2026-08-24_24092240396.md
+  Activity: activity_2026-08-24_24092000769.md
+  Activity: activity_2026-08-24_24091960141.md
+  Activity: activity_2026-08-24_24091739565.md
+  Activity: activity_2026-08-24_24091563128.md
+  Activity: activity_2026-08-23_24086064660.md
+  Activity: activity_2026-08-23_24085794783.md
+  Activity: activity_2026-08-23_24085154956.md
+  Wellness: wellness_2026-08-23.md
+  Wellness: wellness_2026-08-24.md
+  Wellness: wellness_2026-08-25.md
+  Training status: PRODUCTIVE_1, ACWR: 1.3
+  Race predictions — HM: 1:56:07
+
+All data saved to garmin/data.json
+Markdown notes written: 32 files
+  [auth] Token OK — refresh token valid for 26 more days

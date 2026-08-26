@@ -1,4 +1,4 @@
-_Updated: Wednesday, 26 Aug 2026 at 09:00 PM SGT_
+_Updated: Wednesday, 26 Aug 2026 at 09:47 PM SGT_
 
 **Training Readiness is holding flat at 33 — the body's still cashing in the HRV rebound, so rest stays the right call today.**
 
