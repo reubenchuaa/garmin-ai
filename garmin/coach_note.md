@@ -1,4 +1,4 @@
-_Updated: Wednesday, 26 Aug 2026 at 07:06 AM SGT_
+_Updated: Wednesday, 26 Aug 2026 at 03:33 PM SGT_
 
 **Training Readiness climbed to 33 (still LOW) as HRV and resting HR rebound fast — one more rest day locks in the recovery before Peak Block opens.**
 
