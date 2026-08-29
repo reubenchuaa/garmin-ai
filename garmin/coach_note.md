@@ -1,26 +1,26 @@
-_Updated: Saturday, 29 Aug 2026 at 07:58 PM SGT_
+_Updated: Saturday, 29 Aug 2026 at 09:17 PM SGT_
 
-**A run's in the bank ✅ — shorter and a touch hot at HR140, and ACWR has ticked up to the edge of the safe zone, so tomorrow's rest is non-negotiable.**
+**Run's in the bank ✅ — first one since 4 Aug, and the signals around it (HRV, RHR, sleep) all say your body is ready to rebuild, just not in one giant leap.**
 
 **What your data says**
-ACWR is now 1.4 (OPTIMAL but at the top edge of Gabbett's 0.8–1.3 safe zone — one more load jump risks overreaching). Garmin's HM prediction is 1:56:11 (optimistic ceiling, VO2max 56.8); it's still anchored on an easy-effort long run (Jul 27), not a time trial, so the honest range vs your 1:45–1:50 goal is ~1:58–2:04 once heat/fade is priced in — soft until Monday's long run re-anchors it. July closed at 35.65km of the 100km target; that's history now (illness recovery), not a live concern. HRV keeps climbing (78→80→83 the last three nights, BALANCED), RHR 45 sits below your ~47 baseline, sleep hit a weekly-best 7.1h — but today's Readiness dipped to 42, a normal post-run signal, not fatigue.
+ACWR sits at 1.4 (OPTIMAL, but right at the top edge of Gabbett's 0.8–1.3 safe zone) — worth a pinch of salt since it's likely inflated by non-running walking load, not just today's run. Garmin's HM prediction is 1:56:11 (optimistic ceiling off VO2max 56.8); with no time trial or fresh long run to anchor it and Singapore heat/fade priced in, the honest range vs your 1:45–1:50 goal is ~1:58–2:05 — still soft. July closed at 35.65km of the 100km target (illness recovery — history now, not live). HRV is BALANCED at 83 (up 3 nights running), RHR 45 sits below your ~47 baseline, sleep hit a weekly-best 7.1h — genuinely good recovery signals. Heat acclimation is only 36% (ACCLIMATIZING) — expected after weeks off running.
 
 **Today's session**
-Done ✅ — 5.63km in 35.8min, avg HR 140, ~6:22/km. Shorter and brisker than the planned 10–11km easy long run; HR ran 5bpm over your 135 cap, likely heat + pace creeping. Aerobic stimulus is banked — no more running today.
+Done ✅ — 5.63km in 35.8min, avg HR 140 (~6:22/km). HR ran 5bpm over your 135 cap — heat plus a layoff after 3+ weeks off running, not a red flag on its own. No more running today.
 
 **3-Day Plan**
-- Today (Saturday, 29 August 2026): 5.63km run — DONE ✅. Rest of the day easy.
-- Sunday, 30 August 2026: Rest — ACWR at 1.4 needs chronic load to catch up before Peak Block ramps up.
-- Monday, 31 August 2026: Long run 10–11km, easy, HR≤135, Kayano 31 — first real shot at re-anchoring the HM prediction as Peak Block opens.
+- Today (Saturday, 29 August 2026): 5.63km run — DONE ✅.
+- Sunday, 30 August 2026: Rest — let chronic load catch up before Peak Block ramps intensity.
+- Monday, 31 August 2026: Easy run 7–8km, HR≤135, Kayano 31 — rebuilding gradually; jumping straight to a 10km+ long run off one comeback run would be too big a single-session spike given the knee history.
 
 **Fuel**
-Today's run burned ~336 kcal on top of ~1,788 BMR — target ≈2,400 kcal to fuel recovery without a deficit.
-- Breakfast: Kaya toast set + kopi — ~565
-- Lunch: Chicken rice — ~600
+Today's run burned ~336 kcal on top of ~1,788 BMR — target ≈2,450 kcal to fuel recovery without a deficit.
+- Breakfast: Kaya toast set + kopi — ~450
+- Lunch: Char kway teow — ~740
 - Snack: Banana + soy milk — ~205
-- Dinner: Wanton mee — ~410
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,130 kcal — top up with a banana or extra kopi to close the gap. Today's run alone ≈ a kopi and a banana.
+- Dinner: Economy rice (1 meat, 2 veg) — ~600
+- Evening: Milo dinosaur + kopi — ~465
+Total ≈ 2,460 kcal. Today's run alone ≈ a Milo dinosaur.
 
 **Coach's take**
-Short and warm today, but three straight nights of rising HRV and a below-baseline RHR say your body is primed to open Peak Block strong on Monday — just let Sunday's rest do its job first.
+Three straight nights of rising HRV and a below-baseline RHR say the engine's ready — Sunday's rest banks that readiness, and Monday you build back up on your terms, not in one jump.
