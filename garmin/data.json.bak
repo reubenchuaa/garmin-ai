@@ -474211,8 +474211,8 @@
     {
       "date": "2026-08-29",
       "wellness": {
-        "totalSteps": 15508,
-        "totalDistanceMeters": 12630,
+        "totalSteps": 15519,
+        "totalDistanceMeters": 12638,
         "averageStressLevel": 38,
         "maxStressLevel": 96,
         "bodyBatteryHighestValue": 89,
@@ -474224,7 +474224,7 @@
         "moderateIntensityMinutes": 14,
         "vigorousIntensityMinutes": 41,
         "activeKilocalories": 547,
-        "totalKilocalories": 2315
+        "totalKilocalories": 2335
       },
       "sleep": {
         "dailySleepDTO": {
