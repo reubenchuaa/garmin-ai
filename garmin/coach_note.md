@@ -1,26 +1,26 @@
-_Updated: Saturday, 29 Aug 2026 at 04:58 PM SGT_
+_Updated: Saturday, 29 Aug 2026 at 05:35 PM SGT_
 
-**RHR 45, HRV 83 and climbing, sleep at a weekly-best 7.1h — the green lights are real, go bank today's long run before Peak Block opens tomorrow.**
+**A run's in the bank ✅ — shorter than planned and a touch hot at HR140, but every recovery marker is green heading into Peak Block tomorrow.**
 
 **What your data says**
-ACWR is 1.3 (OPTIMAL, but the top edge of Gabbett's safe zone — no room for another load jump this week). Training Readiness read 65 this morning before dipping to 43 later, but that dip tracks a non-training walking spike in acute load, not fatigue — lean on RHR 45 (right at your ~47 baseline) and HRV 83 last night (BALANCED, climbing all week: 57→84→83) as the real signal. Garmin's HM prediction is 1:56:11 (optimistic ceiling, VO2max 56.8), but a Riegel extrapolation off your Jul 29 tempo effort — now a month stale — lands near 2:00:00, so the honest range vs your 1:45–1:50 goal is ~1:56–2:00, still soft with no HM-specific long run since Jul 27. Heat acclimation is climbing again post-Norway (36%). You've logged 30.02km across 4 easy runs since reintegration began.
+ACWR is 1.3 (OPTIMAL, top edge of Gabbett's safe zone — no room for another load jump). Garmin's HM prediction is 1:56:11 (optimistic ceiling, VO2max 56.8); a Riegel extrapolation off your month-stale Jul 29 tempo lands near 2:00:00, so the honest range vs 1:45–1:50 stays ~1:56–2:00 — today's 5.63km was too short to re-anchor it. July closed at 35.65km of the 100km target; that's history now (illness recovery), not a live concern. HRV keeps climbing (78→80→83 the last three nights, BALANCED), RHR 45 sits below your ~47 baseline, sleep hit a weekly-best 7.1h — the post-run dip to Readiness 43 is a normal acute-load dip, not fatigue.
 
 **Today's session**
-Long run, 10–11km, easy effort, HR capped at 135, Kayano 31. This re-anchors your stale HM prediction with real data and closes out Shake Out before Peak Block opens tomorrow. Keep it at 10–11km rather than pushing to 12 — ACWR is already at the ceiling of the safe zone.
+Done ✅ — 5.63km in 35.8min, avg HR 140, ~6:21/km. Shorter and brisker than the 10–11km easy long run planned; HR ran 5bpm over your 135 cap, likely heat + pace creeping up. Aerobic stimulus banked regardless. No more running today.
 
 **3-Day Plan**
-- Today (Saturday, 29 August 2026): Long run 10–11km, easy, HR≤135 — HM-anchoring effort.
-- Sunday, 30 August 2026: Rest — Peak Block opens; let the long run adapt.
-- Monday, 31 August 2026: Easy run 5–6km, HR≤135 — ease into this week's first quality session.
+- Today (Saturday, 29 August 2026): 5.63km run — DONE ✅. Rest of the day easy.
+- Sunday, 30 August 2026: Rest — recovery time is still elevated post-run; bank it before Peak Block ramps.
+- Monday, 31 August 2026: Long run 10–11km, easy, HR≤135, Kayano 31 — first real shot at anchoring the HM prediction as Peak Block opens.
 
 **Fuel**
-Yesterday burned 2,498 kcal (710 active + 1,788 BMR) — today's a long run day, so target ≈2,500 kcal, over maintenance to protect recovery.
+Today's run burned ~336 kcal on top of ~1,788 BMR — target ≈2,400 kcal to fuel recovery without a deficit.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
 - Snack: Banana + soy milk — ~205
-- Dinner: Char kway teow — ~740
+- Dinner: Wanton mee — ~410
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,460 kcal. Today's run alone ≈ a plate of char kway teow.
+Total ≈ 2,130 kcal — top up with a banana or kopi to close the gap. Today's run alone ≈ a kopi and a banana.
 
 **Coach's take**
-Every green marker — RHR, HRV, sleep — is pointing the same direction: your body has absorbed the shake-out block and is ready to turn a soft guess into a real HM number today.
+Short and warm today, but HRV up three nights straight and RHR under baseline say your body's ready to open Peak Block strong on Monday.
