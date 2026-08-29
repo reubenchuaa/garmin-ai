@@ -1,26 +1,26 @@
-_Updated: Thursday, 27 Aug 2026 at 11:06 AM SGT_
+_Updated: Saturday, 29 Aug 2026 at 10:17 AM SGT_
 
-**Training Readiness crawled back to 40 and HRV is fully BALANCED — but lingering sleep debt says bank one more clean rest day before Friday's return.**
+**Readiness climbed to 65 (MODERATE) with HRV rising three nights straight — green light for today's long run to finally re-anchor your HM prediction before Peak Block begins tomorrow.**
 
 **What your data says**
-ACWR is 1.2 (OPTIMAL), training status PRODUCTIVE_1 — load isn't the issue. TR sits at 40 (LOW, right on the mandatory-rest line), driven almost entirely by a still-MODERATE sleep-history factor even though HRV (78 overnight vs 70 weekly avg, BALANCED), RHR (49, only 2bpm over your ~47 baseline), and last night's session all read GOOD. Garmin's HM prediction reads 1:56:56 — the optimistic ceiling, not the expectation. A Riegel extrapolation off your Jul 29 10km tempo (54:24) lands near 2:00, and with the usual heat/fade buffer the honest range vs your 1:45–1:50 goal is ~1:58–2:08 — still soft since your last true long run was Jul 27 (a month stale), though last night's smooth 10km treadmill run (7:01/km, avg HR 130) is a real step toward rebuilding that anchor. July closed at ~153km, smashing the 100km target; since Shake Out reintegration (Aug 23) you're at 25km across three runs (5, 10, 10km) — volume is trending the right way into Peak Block (starts Aug 30).
+ACWR is 1.0 (OPTIMAL), training status MAINTAINING_1 — load is well controlled coming out of Shake Out. HRV is BALANCED and climbing (weekly avg 67→70→71→72, last night 83), RHR 45 (under your ~47 baseline), stress low at 14 — the sleep-debt drag from earlier this week has cleared, and TR sits at 65/100 (sleep-history factor is the last lagging piece). Garmin's HM prediction reads 1:56:49 — treat that as the optimistic ceiling, not the expectation. A Riegel extrapolation off your Jul 29 10km threshold effort (54:24) lands near 2:00 flat; with the usual Singapore heat/fade buffer, the honest range vs your 1:45–1:50 goal is ~2:00–2:08 — still soft, since Friday's planned easy run got skipped and you haven't logged a genuine HM-specific long run since Jul 27. July running closed at 153km, well past the 100km target; since Shake Out reintegration (Aug 23) you're at 25km across three runs — today's long run is the missing piece.
 
 **Today's session**
-Rest. TR at 40 with sleep debt still the limiter — adaptation from last night's 10km happens in recovery, not by stacking another session. One clean day protects both that gain and your entry into Peak Block.
+Long run, 10–12km, easy effort, HR capped at 135 (Kayano 31). This is the HM-anchoring run you've been building toward — it rebuilds the aerobic endurance base (mitochondrial density, glycogen storage, fat oxidation) a tempo effort can't give you, and refreshes that stale 2:00+ HM estimate with real data.
 
 **3-Day Plan**
-- Today (Thursday, 27 August 2026): Rest — TR 40/100, sleep history still catching up.
-- Friday, 28 August 2026: Easy run 5–6km, HR ≤135, Kayano 31.
-- Saturday, 29 August 2026: HM-anchoring long run attempt, 10–12km easy, HR ≤135, if readiness holds — last Shake Out day before Peak Block.
+- Today (Saturday, 29 August 2026): Long run 10–12km, easy, HR≤135 — HM-anchoring effort, last Shake Out day.
+- Sunday, 30 August 2026: Rest — legs and HRV bank the long run's adaptation before Peak Block ramps up.
+- Monday, 31 August 2026: Easy run 5–6km, HR≤135 — shake-out before the week's first quality session.
 
 **Fuel**
-Yesterday burned 2,672 kcal (884 active + 1,788 BMR) — today's a rest day, so eat to ≈2,020 kcal to protect recovery, not a deficit.
+Yesterday burned 2,498 kcal (710 active + 1,788 BMR) — today's a long run day, so lean over maintenance to ≈2,500 kcal to protect recovery.
 - Breakfast: Kaya toast set — ~450
-- Lunch: Chicken rice — ~600
+- Lunch: Laksa — ~700
 - Snack: Banana + soy milk — ~205
-- Dinner: Bak chor mee — ~500
-- Evening: Yogurt + kopi — ~265
-Total ≈ 2,020 kcal. Last night's 10km alone burned ≈1.5 plates of chicken rice.
+- Dinner: Char kway teow — ~740
+- Evening: Wanton mee — ~410
+Total ≈ 2,505 kcal. Today's long run alone ≈ 1.5 plates of nasi lemak.
 
 **Coach's take**
-HRV back to BALANCED and a 10km easy run in the legs with HR still capped at 130 is exactly the fitness you want walking into Peak Block — one more patient rest day and Friday's build resumes on schedule.
+Three straight nights of climbing HRV and a controlled ACWR mean your body is ready to bank this long run — run it easy and you'll finally have a real number to replace that soft 2:00+ estimate.
