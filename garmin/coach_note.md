@@ -1,26 +1,26 @@
-_Updated: Saturday, 29 Aug 2026 at 11:45 PM SGT_
+_Updated: Sunday, 30 Aug 2026 at 11:20 AM SGT_
 
-**Four reintegration runs banked this week — legs earned tomorrow's rest before Peak Block gets going.**
+**ACWR back in the safe zone at 1.1 and readiness rebounding — today's rest is exactly what turns this week's four runs into fitness.**
 
 **What your data says**
-Today's 5.63km (avg HR 140) is run #4 since Norway — with treadmill sessions on 23, 24 and 26 Aug, that's ~30.6km this week, pushing ACWR to 1.4 (Garmin tags it "OPTIMAL," but that's the top edge of Gabbett's 0.8–1.3 safe zone; acute load 356 vs chronic 252). Garmin's HM ceiling is 1:56:11 off a 56.8 VO2max, but with no HM-specific long run since Jul 27 and heat/fade unpriced, a Riegel check off your Jul 29 10km effort (54.4min @ HR154) puts the honest range at ~1:58–2:06 vs your 1:45–1:50 goal — still soft until a fresh long run re-anchors it. July running closed at 35.65km of the 100km target. Recovery signals are strong: HRV 83 BALANCED (weekly avg 72, climbing), RHR 45 (below your ~47 baseline), readiness peaked at 65 before today's run and now reads 45 post-exercise — a normal exertion dip, still comfortably above the 40 rest threshold. Heat acclimation sits at 36% (ACCLIMATIZING) — three of four runs this week were treadmill, so today's outdoor exposure mattered.
+ACWR sits at 1.1 (OPTIMAL, Gabbett's 0.8–1.3 safe zone) — down from last week's top-of-zone 1.4 spike, acute load 290 vs chronic 246. Garmin's HM ceiling is 1:56:07 off a 56.8 VO2max, but a Riegel check off your Jul 29 10km effort (54.3min @ HR154) puts the honest range closer to 1:59–2:04 vs your 1:45–1:50 goal — still soft with no HM-specific long run since Jul 27. July running closed at 35.65km of the 100km target, well short, but that was before Norway's 61km of hiking and four reintegration runs this week banked real volume. Recovery is trending the right way: HRV weekly average climbing to 74 (last night 68, BALANCED), sleep was long and deep, and training readiness rebounded to 57 (MODERATE) from yesterday's exertion dip; heat acclimation holds at 36% (ACCLIMATIZED).
 
 **Today's session**
-Done ✅ — 5.63km in 35.8min, avg HR 140, ~5bpm over your 135 easy cap (heat plus a week of cumulative load). No more running today.
+Rest. Adaptation happens in recovery, not on the run — this week's four sessions (30.6km) pushed ACWR to 1.4, and today is where that load converts into fitness rather than fatigue. Peak Block starts properly tomorrow; you earn it by resting today.
 
 **3-Day Plan**
-- Today (Saturday, 29 August 2026): 5.63km run — DONE ✅ (4th reintegration run this week).
-- Sunday, 30 August 2026: Rest — ACWR is at the top of the safe zone; this is where this week's four sessions convert into fitness before Peak Block intervals start.
-- Monday, 31 August 2026: Easy run 6–7km, HR≤135, Kayano 31 — opens Peak Block gently, banking this week's volume before quality gets layered in.
+- Today (Sunday, 30 August 2026): Rest — let ACWR settle before Peak Block quality begins.
+- Monday, 31 August 2026: Easy run 6–7km, HR≤135, Kayano 31 — opens Peak Block gently.
+- Tuesday, 1 September 2026: Easy run 5–6km, HR≤135 — second easy day before the week's first tempo, keeping load controlled after last week's spike.
 
 **Fuel**
-Today's run burned ~336 kcal on top of ~1,788 BMR — target ≈2,300 kcal to fuel recovery without a deficit.
+Yesterday's run burned ~547 active kcal (2,335 total) — today's rest-day target is ~2,050 kcal to protect recovery without a deficit.
 - Breakfast: Kaya toast set + kopi — ~450
 - Lunch: Chicken rice — ~600
-- Snack: Banana + soy milk — ~205
-- Dinner: Laksa — ~700
+- Snack: Banana + yogurt — ~255
+- Dinner: Wanton mee — ~410
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,305 kcal. Today's run alone ≈ a Milo dinosaur.
+Total ≈ 2,065 kcal. Yesterday's run alone ≈ a bak chor mee.
 
 **Coach's take**
-Four runs banked in your first week back with HRV still climbing — that's a body ready to build, so tomorrow's rest is what buys you the right to hit Peak Block's intervals fresh.
+HRV climbing, readiness rebounding, ACWR back in the safe zone — that's a body primed to build, so tomorrow's easy run kicks off Peak Block with real fitness underneath it.
