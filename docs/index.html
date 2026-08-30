@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 28 days to race</span>
-    <span class="pill pill-green">Synced 30 Aug 2026 03:37 PM SGT</span>
+    <span class="pill pill-green">Synced 30 Aug 2026 05:37 PM SGT</span>
   </div>
 </div>
 </div>
@@ -90,7 +90,7 @@ tr:last-child td{border-bottom:none}
 <div class="tr-wrap">
   <div class="tr-card">
     <div class="lbl">Readiness</div>
-    <div class="score">57</div>
+    <div class="score">61</div>
     <div class="level">MODERATE</div>
   </div>
   <div class="cards" style="margin:0">
@@ -102,7 +102,7 @@ tr:last-child td{border-bottom:none}
     <div class="card"><div class="lbl">Active Cal</div><div class="val">83</div><div class="sub2">kcal</div></div>
     <div class="card"><div class="lbl">Distance</div><div class="val">5.4</div><div class="sub2">km today</div></div>
     <div class="card"><div class="lbl">Floors</div><div class="val">2</div><div class="sub2">ascended</div></div>
-    <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#f59e0b">1.10</div><div class="sub2">ACWR · Optimal</div></div>
+    <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#f59e0b">1.20</div><div class="sub2">ACWR · Optimal</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">1:59:36</div><div class="sub2">realistic · Garmin 1:56:07 · goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">56.8</div><div class="sub2">ml/kg/min</div></div>
     <div class="card"><div class="lbl">Heat Adapt</div><div class="val">36%</div><div class="sub2">acclimatised</div></div>
@@ -234,7 +234,7 @@ tr:last-child td{border-bottom:none}
 const LB=["08-17", "08-18", "08-19", "08-20", "08-21", "08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
 new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[92,86,75,46,85,96,45,75,39,66,74,76,89,69],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[18,11,9,5,5,12,11,5,5,5,5,5,6,5],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[76,66,38,53,65,79,39,34,14,15,45,56,45,57],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[76,66,38,53,65,79,39,34,14,15,45,56,45,61],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[47,47,48,51,48,47,52,47,51,45,49,47,45,50],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[27,36,37,41,24,39,33,39,38,31,37,20,38,26],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[1.9,2.1,1.9,1.1,1.6,1.4,1.1,1.8,1.6,1.4,1.4,2.2,1.2,1.6],"backgroundColor":"#1e40af"},{"label":"Light","data":[4.5,3.6,3.8,4.4,5.1,5.2,4.3,4.3,3.4,3.5,4.0,2.7,4.5,4.4],"backgroundColor":"#60a5fa"},{"label":"REM","data":[1.5,1.5,1.0,0.4,1.1,1.4,0.2,0.7,0.0,0.9,0.8,0.9,1.4,1.6],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[0.0,0.0,0.0,0.5,0.0,0.1,1.7,0.1,0.1,0.0,0.2,0.0,0.7,0.0],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
