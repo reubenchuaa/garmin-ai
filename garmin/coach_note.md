@@ -1,26 +1,26 @@
-_Updated: Sunday, 30 Aug 2026 at 10:48 PM SGT_
+_Updated: Monday, 31 Aug 2026 at 07:09 AM SGT_
 
-**15km banked at an easy HR — now ACWR needs a day to catch its breath before Peak Block quality begins.**
+**ACWR is back in the safe zone at 1.2 — today's rest is what turns Sunday's 15km into fitness, not lost time.**
 
 **What your data says**
-Today's long run pushed ACWR to 1.4 (acute 369 vs chronic 260) — top of Gabbett's safe zone, right at the overreaching line. Garmin's HM ceiling is 1:55:34 off a 56.8 VO2max, but a Riegel check off your Jul 29 10km (54:24 @ HR154, buffered for heat/fade) puts the honest range at 1:59–2:04 vs your 1:45–1:50 goal — still soft with no HM-specific time trial since Jul 27. August running sits at 50.65km of the 100km target with just one day left in the month. Recovery signals are mixed: HRV weekly trend is climbing nicely (66→74 across the week, flipped from UNBALANCED to BALANCED), but RHR is 50 today (+3 over your ~47 baseline) and readiness is 49, still LOW — expected right after a 105-minute effort. 4 of your last 5 runs have been on the treadmill too, which is why heat acclimation is stuck at 36% — you need outdoor miles back in the mix.
+ACWR eased to 1.2 (acute 312, chronic 252) — solidly inside Gabbett's 0.8–1.3 safe zone after Sunday's spike to 1.4 — and training status reads PRODUCTIVE. Garmin's HM ceiling is 1:55:33 off a 56.8 VO2max, but a Riegel check off your Jul 29 10km (54:24 @ HR154), buffered for heat and fade, puts the honest range at 1:59–2:04 vs your 1:45–1:50 goal — still soft with no HM-specific time trial since Jul 27. August running closes today at 50.65km of the 100km target, well short — but July already banked 153km, so the aerobic base is real and the monthly number understates your fitness. Readiness is 48 (LOW) and RHR is 52, right at the edge of your ~47 baseline — both expected 36h after a 105-min long run — while HRV's weekly average keeps climbing (72→72→75), a genuinely good sign underneath the surface fatigue.
 
 **Today's session**
-DONE ✅ — 15km treadmill long run, 104.9min, avg HR 128, comfortably under your 135 cap. Your longest run since the Jul 27 13.02km, and a real HM-endurance anchor. No more running today — this is where the aerobic adaptation gets banked, not built.
+Rest. Readiness hasn't cleared and RHR is still elevated — quality work today would blunt Sunday's adaptation, not add to it. This is when the fitness from that long run actually gets built.
 
 **3-Day Plan**
-- Today (Sunday, 30 August 2026): DONE ✅ — 15km easy long run @ HR128. No further running.
-- Monday, 31 August 2026: Rest — ACWR at 1.4 and LOW readiness both need a day to settle before Peak Block quality opens.
-- Tuesday, 1 September 2026: Easy run 5–6km, OUTDOORS (not treadmill), HR≤135 — rebuilds heat acclimation and opens Peak Block gently.
+- Today (Monday, 31 August 2026): Rest — no running.
+- Tuesday, 1 September 2026: Easy 5–6km, OUTDOORS (not treadmill), HR≤135, Kayano 31 — rebuilds heat acclimation and opens Peak Block gently.
+- Wednesday, 2 September 2026: Tempo 5–6km @ 6:00–6:15/km, HR155–165, with 1–2km warm-up/cool-down, Kayano 31 — Peak Block's first quality session, raises lactate threshold, the single biggest predictor of HM performance.
 
 **Fuel**
-Today's run burned ~678 kcal on top of your ~1,788 BMR — a big-volume day, so target ~2,600 kcal to fully refuel and protect HRV overnight.
-- Breakfast: Roti prata (2pc) + curry + kopi — ~515
+Yesterday's 15km burned 828 active kcal on top of 1,788 BMR (2,616 total) — today's rest-day target is ~2,050 kcal to finish absorbing that effort, not offset it.
+- Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
-- Snack: Banana + yogurt — ~255
-- Dinner: Char kway teow — ~740
-- Evening: Milo dinosaur + kopi — ~465
-Total ≈ 2,575 kcal. Today's run alone ≈ two Milo dinosaurs.
+- Snack: Yogurt — ~150
+- Dinner: Wanton mee — ~410
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,075 kcal. Rest days carry no separate training burn — this fuels recovery and keeps that HRV trend climbing.
 
 **Coach's take**
-That 15km at HR128 is exactly the kind of controlled, patient long run that turns into a faster half — rest tomorrow, let readiness climb back up, then Peak Block starts for real.
+Sunday's 15km at HR128 already banked the fitness — rest today and an outdoor easy run tomorrow are what let it show up as a faster half.
