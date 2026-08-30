@@ -1,4 +1,4 @@
-_Updated: Sunday, 30 Aug 2026 at 11:21 AM SGT_
+_Updated: Sunday, 30 Aug 2026 at 06:50 PM SGT_
 
 **ACWR back in the safe zone at 1.1 and readiness rebounding — today's rest is exactly what turns this week's four runs into fitness.**
 
