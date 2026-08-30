@@ -1,26 +1,26 @@
-_Updated: Sunday, 30 Aug 2026 at 06:50 PM SGT_
+_Updated: Sunday, 30 Aug 2026 at 10:32 PM SGT_
 
-**ACWR back in the safe zone at 1.1 and readiness rebounding — today's rest is exactly what turns this week's four runs into fitness.**
+**15km banked at an easy HR — now ACWR needs a day to catch its breath before Peak Block quality begins.**
 
 **What your data says**
-ACWR sits at 1.1 (OPTIMAL, Gabbett's 0.8–1.3 zone) — down from last week's top-of-zone 1.4 spike, acute load 290 vs chronic 246. Garmin's HM ceiling is 1:56:07 off a 56.8 VO2max, but a Riegel check off your Jul 29 10km (54.4min @ HR154) puts the honest range closer to 1:59–2:04 vs your 1:45–1:50 goal — still soft with no HM-specific long run since Jul 27. July closed at 35.65km of the 100km target, but Norway's 61km of hiking plus four reintegration runs this week banked real volume since. Recovery trends the right way: HRV weekly average climbing to 74 (BALANCED), sleep long and deep, readiness rebounded to 57 (MODERATE); heat acclimation holds at 36% (ACCLIMATIZED).
+Today's long run pushed ACWR to 1.4 (acute 369 vs chronic 260) — top of Gabbett's safe zone, right at the overreaching line. Garmin's HM ceiling is 1:55:34 off a 56.8 VO2max, but a Riegel check off your Jul 29 10km (54:24 @ HR154, buffered for heat/fade) puts the honest range at 1:59–2:04 vs your 1:45–1:50 goal — still soft with no HM-specific time trial since Jul 27. August running sits at 50.65km of the 100km target with just one day left in the month. Recovery signals are decent (HRV weekly climbing to 74, RHR 50 — +3 over your ~47 baseline, readiness 49 MODERATE), but 4 of your last 5 runs have been on the treadmill, which is why heat acclimation is stuck at 36% — you need outdoor miles back in the mix.
 
 **Today's session**
-Rest. Adaptation happens in recovery, not on the run — this week's four sessions (30.6km) pushed ACWR to 1.4, and today is where that load converts into fitness. Peak Block starts properly tomorrow; you earn it by resting today.
+DONE ✅ — 15km treadmill long run, 104.9min, avg HR 128, comfortably under your 135 cap. Your longest run since the Jul 27 13.02km, and a real HM-endurance anchor. No more running today — this is where the aerobic adaptation gets banked, not built.
 
 **3-Day Plan**
-- Today (Sunday, 30 August 2026): Rest — let ACWR settle before Peak Block quality begins.
-- Monday, 31 August 2026: Easy run 6–7km, HR≤135, Kayano 31 — opens Peak Block gently.
-- Tuesday, 1 September 2026: Easy run 5–6km, HR≤135 — second easy day before the week's first tempo, keeping load controlled after last week's spike.
+- Today (Sunday, 30 August 2026): DONE ✅ — 15km easy long run @ HR128. No further running.
+- Monday, 31 August 2026: Rest — ACWR at 1.4 needs a day to settle before Peak Block quality opens.
+- Tuesday, 1 September 2026: Easy run 5–6km, OUTDOORS (not treadmill), HR≤135 — rebuilds heat acclimation and opens Peak Block gently.
 
 **Fuel**
-Yesterday's run burned ~547 active kcal (2,335 total) — today's rest-day target is ~2,050 kcal to protect recovery without a deficit.
-- Breakfast: Kaya toast set + kopi — ~450
+Today's run burned ~678 kcal on top of your ~1,788 BMR — a big-volume day, so target ~2,600 kcal to fully refuel and protect HRV overnight.
+- Breakfast: Roti prata (2pc) + curry + kopi — ~515
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
-- Dinner: Wanton mee — ~410
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,065 kcal. Yesterday's run alone ≈ a bak chor mee.
+- Dinner: Char kway teow — ~740
+- Evening: Milo dinosaur + kopi — ~465
+Total ≈ 2,575 kcal. Today's run alone ≈ two Milo dinosaurs.
 
 **Coach's take**
-HRV climbing, readiness rebounding, ACWR back in the safe zone — that's a body primed to build, so tomorrow's easy run kicks off Peak Block with real fitness underneath it.
+That 15km at HR128 is exactly the kind of controlled, patient long run that turns into a faster half — rest tomorrow, then Peak Block starts for real.
