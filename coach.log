@@ -754,3 +754,62 @@ Markdown notes written: 39 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+Updating fc19c25..40a7a27
+Fast-forward
+ docs/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[main ee4dcb4] reconcile: regenerate dashboard
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Fetching data for: 2026-08-26 → 2026-08-28
+
+  Activity: activity_2026-08-27_24132958029.md
+  Activity: activity_2026-08-27_24132732996.md
+  Activity: activity_2026-08-27_24131732561.md
+  Activity: activity_2026-08-27_24131497062.md
+  Activity: activity_2026-08-27_24131272566.md
+  Activity: activity_2026-08-27_24130518017.md
+  Activity: activity_2026-08-27_24130272031.md
+  Warning: details for 24130054928 — HTTPSConnectionPool(host='connectapi.garmin.com', port=443): Read timed out.
+  Activity: activity_2026-08-27_24130054928.md
+  Activity: activity_2026-08-26_24124744400.md
+  Activity: activity_2026-08-26_24124256931.md
+  Activity: activity_2026-08-26_24123347145.md
+  Activity: activity_2026-08-26_24121602351.md
+  Activity: activity_2026-08-26_24121035947.md
+  Activity: activity_2026-08-26_24120700716.md
+  Activity: activity_2026-08-26_24120549802.md
+  Warning: details for 24119170321 — HTTPSConnectionPool(host='connectapi.garmin.com', port=443): Read timed out.
+  Activity: activity_2026-08-26_24119170321.md
+  Activity: activity_2026-08-26_24118877101.md
+  Activity: activity_2026-08-26_24118674962.md
+  Activity: activity_2026-08-26_24118560270.md
+  Activity: activity_2026-08-26_24118392328.md
+  Activity: activity_2026-08-26_24118192212.md
+  Activity: activity_2026-08-26_24118110806.md
+  Activity: activity_2026-08-26_24117805161.md
+  Activity: activity_2026-08-26_24117494653.md
+  Activity: activity_2026-08-26_24117336014.md
+  Activity: activity_2026-08-26_24117002733.md
+  Activity: activity_2026-08-26_24116784554.md
+  Activity: activity_2026-08-26_24116762250.md
+  Wellness: wellness_2026-08-26.md
+  Wellness: wellness_2026-08-27.md
+  Wellness: wellness_2026-08-28.md
+  Training status: None, ACWR: None
+  Race predictions — HM: 1:56:56
+
+All data saved to garmin/data.json
+Markdown notes written: 31 files
+  [auth] Token OK — refresh token valid for 23 more days
+/Users/amandakoh/garmin-ai/update_coach.sh: line 310: 71903 Alarm clock: 14         perl -e 'alarm 300; exec @ARGV' "$CLAUDE" --dangerously-skip-permissions -p "$COACH_PROMPT" > "$TMPNOTE" 2> /dev/null
+  [coach] Claude attempt 1 exited with code 142
+  [coach] Validation FAIL: 3-Day Plan 'Today' line does not contain 28 August 2026
+  [coach] Attempt 1 failed validation — retrying with stricter prompt...
+  [coach] Claude attempt 2 exited with code 1
+  [coach] Validation FAIL: 3-Day Plan 'Today' line does not contain 28 August 2026
+  [coach] WARNING: Both attempts failed validation — keeping previous note
+  [workout] Already pushed: Easy 6km (?), Easy 12km (?) — skipping
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
