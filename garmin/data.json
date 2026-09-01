@@ -498778,7 +498778,7 @@
       "wellness": {
         "totalSteps": 16125,
         "totalDistanceMeters": 19301,
-        "averageStressLevel": 31,
+        "averageStressLevel": 29,
         "maxStressLevel": 88,
         "bodyBatteryHighestValue": 59,
         "bodyBatteryLowestValue": 5,
@@ -498789,7 +498789,7 @@
         "moderateIntensityMinutes": 29,
         "vigorousIntensityMinutes": 0,
         "activeKilocalories": 497,
-        "totalKilocalories": 2163
+        "totalKilocalories": 2285
       },
       "sleep": {
         "dailySleepDTO": {
@@ -505156,11 +505156,11 @@
       "vo2max_precise": 56.8,
       "heat_acclimation_pct": 38,
       "heat_trend": "ACCLIMATIZED",
-      "race_pred_5k": "23:50",
-      "race_pred_10k": "51:17",
-      "race_pred_hm": "1:55:30",
-      "race_pred_marathon": "4:13:28",
-      "avg_respiration": 15.0,
+      "race_pred_5k": "23:49",
+      "race_pred_10k": "51:14",
+      "race_pred_hm": "1:55:26",
+      "race_pred_marathon": "4:13:20",
+      "avg_respiration": 14.0,
       "sleep_respiration": 15.0,
       "avg_spo2": null
     }
