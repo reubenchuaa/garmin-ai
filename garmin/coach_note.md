@@ -9,9 +9,9 @@ ACWR is 0.9 (acute 250, chronic 251) — squarely in Gabbett's 0.8–1.3 safe zo
 Tempo 5–6km @ 6:00–6:15/km, HR 155–165, with 1–2km easy warm-up and cool-down, Kayano 31. Legs are fresh and readiness supports quality — this is the pace that raises lactate threshold, the biggest predictor of HM performance.
 
 **3-Day Plan**
-- Today (Wednesday, 02 September 2026): Tempo 5–6km @ 6:00–6:15/km, HR 155–165, Kayano 31.
-- Thursday, 3 September 2026: Easy 5–6km, OUTDOORS, HR≤135, Kayano 31 — rebuilds heat acclimation (currently 38%) without stacking quality days.
-- Friday, 4 September 2026: Rest or easy 30–40min shakeout — sets up a fresh 12–14km long run this weekend to re-anchor the stale HM prediction.
+- Today (Wednesday, 02 September 2026): No run today — tempo pushed to Thursday.
+- Thursday, 3 September 2026: Tempo 6km @ 6:00–6:15/km, HR 155–165, 2km warm-up + 2km cool-down, OUTDOORS, Kayano 31 — the fuller threshold session off fresh legs; run outdoors to also rebuild heat acclimation (currently 38%).
+- Friday, 4 September 2026: Easy 5–6km, HR≤135, Kayano 31 — or rest if legs are flat, sets up a fresh 12–14km long run this weekend to re-anchor the stale HM prediction.
 
 **Fuel**
 Yesterday burned 2,285 kcal total (active 497, BMR 1,788) — today's tempo day target is ~2,400 kcal to fuel the session and protect recovery.
