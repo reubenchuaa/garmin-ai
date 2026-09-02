@@ -1,4 +1,4 @@
-_Updated: Wednesday, 02 Sep 2026 at 10:29 PM SGT_
+_Updated: Wednesday, 02 Sep 2026 at 10:30 PM SGT_
 
 **ACWR is sitting right in the safe zone at 0.9 and readiness bounced back to 59 — tonight's tempo is still the call, and it's the single biggest lever you have on that HM time.**
 
