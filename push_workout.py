@@ -116,19 +116,22 @@ def parse_coach_note():
                           "jul":7,"aug":8,"sep":9,"oct":10,"nov":11,"dec":12}
                 mon_str = None
                 day_str = None
-                m1 = re.search(
-                    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d+)",
+                # Day-before-month ("3 September 2026") FIRST so the year can't be
+                # mistaken for the day. Day is 1-2 digits, not part of a longer number.
+                m2 = re.search(
+                    r"(\d{1,2})(?!\d)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*",
                     line, re.IGNORECASE
                 )
-                if m1:
-                    mon_str, day_str = m1.group(1), m1.group(2)
+                if m2:
+                    mon_str, day_str = m2.group(2), m2.group(1)
                 else:
-                    m2 = re.search(
-                        r"(\d+)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*",
+                    # Month-before-day ("Sep 3"); (?!\d) stops it eating a 4-digit year.
+                    m1 = re.search(
+                        r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{1,2})(?!\d)",
                         line, re.IGNORECASE
                     )
-                    if m2:
-                        mon_str, day_str = m2.group(2), m2.group(1)
+                    if m1:
+                        mon_str, day_str = m1.group(1), m1.group(2)
                 if mon_str and day_str:
                     try:
                         m = months[mon_str[:3].lower()]
