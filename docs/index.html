@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 24 days to race</span>
-    <span class="pill pill-green">Synced 03 Sep 2026 06:13 PM SGT</span>
+    <span class="pill pill-green">Synced 03 Sep 2026 07:58 PM SGT</span>
   </div>
 </div>
 </div>
@@ -101,7 +101,7 @@ tr:last-child td{border-bottom:none}
     <div class="card"><div class="lbl">Intensity</div><div class="val">82</div><div class="sub2">min (mod+vig)</div></div>
     <div class="card"><div class="lbl">Active Cal</div><div class="val">936</div><div class="sub2">kcal</div></div>
     <div class="card"><div class="lbl">Distance</div><div class="val">18.9</div><div class="sub2">km today</div></div>
-    <div class="card"><div class="lbl">Floors</div><div class="val">30</div><div class="sub2">ascended</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">24</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#ef4444">1.50</div><div class="sub2">ACWR · High</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">1:54:54</div><div class="sub2">realistic · Garmin 1:51:38 · goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">57.3</div><div class="sub2">ml/kg/min</div></div>
@@ -233,7 +233,7 @@ tr:last-child td{border-bottom:none}
 <script>
 const LB=["08-21", "08-22", "08-23", "08-24", "08-25", "08-26", "08-27", "08-28", "08-29", "08-30", "08-31", "09-01", "09-02", "09-03"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[85,96,45,75,39,66,74,76,89,69,60,60,76,66],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[5,12,11,5,5,5,5,5,6,5,5,5,5,5],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[85,96,45,75,39,66,74,76,89,69,60,59,76,66],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[5,12,11,5,5,5,5,5,6,5,5,5,5,5],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[65,79,39,34,14,15,45,56,45,50,51,28,59,1],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[48,47,52,47,51,45,49,47,45,50,52,49,50,52],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[24,39,33,39,38,31,37,20,38,31,41,29,39,27],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
