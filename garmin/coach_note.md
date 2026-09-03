@@ -1,26 +1,26 @@
-_Updated: Thursday, 03 Sep 2026 at 01:43 AM SGT_
+_Updated: Thursday, 03 Sep 2026 at 06:07 PM SGT_
 
-**Three rest days banked, ACWR dead-center at 1.0 — legs are primed for today's tempo, the session that actually moves your HM number.**
+**Tempo's banked and it's a strong one — but ACWR just hit 1.5 (HIGH), so the next 48h protects that gain, not chases another.**
 
 **What your data says**
-As of Tue's last full readout, ACWR sat at 1.0 (acute 252, chronic 250) — squarely in Gabbett's 0.8–1.3 safe zone, training status MAINTAINING_1, VO2max 56.8. Garmin's HM ceiling is 1:55:26, but your last hard-effort anchor (Jul 29, 10km in 54:24 @ HR154) is now over 5 weeks stale — a Riegel extrapolation buffered ~3% for heat/fade puts the honest range at ~2:00–2:04 vs your 1:45–1:50 goal, still soft until a fresh time trial. Running has been quiet since Aug 30's 15km treadmill long run (good volume, but indoor/easy — doesn't tighten the prediction), and August closed at 50.65km. Readiness is 59, RHR 50 (3bpm above your ~47 baseline, mild), overnight HRV 68 vs a 73 weekly average — a small dip, not a trend. Heat acclimation is stuck at 38%, since 3 of your last 4 runs were treadmill.
+Today's 8.01km tempo (45.1min, avg HR 154, pace 5:38/km) — done outdoors, well under your 6:00–6:15/km target — is a genuine threshold stimulus. ACWR is now 1.5, HIGH (acute 461, chronic 294), training status PRODUCTIVE_6, VO2max 57.3, heat acclimation climbing nicely to 63%. Garmin's HM ceiling reads 1:51:38 — treat that as best-case; buffered off today's tempo and your Jul 27 13km anchor, a realistic range is 2:00–2:09 vs your 1:45–1:50 goal, still soft without a true HM-length long run (Saturday's 10–12km is a step, but an 18–20km anchor is still ahead in Peak Block). RHR 52 (+5 over your ~47 baseline) and readiness cratered to 1 today — expected after a hard tempo effort, not a red flag, but respect it. July's 100km target is long banked (140km logged); the number that matters now is this week's 23km so far in Peak Block (Aug 30–Sep 19).
 
 **Today's session**
-Tempo 6km @ 6:00–6:15/km, HR 155–165, with 2km warm-up + 2km cool-down. OUTDOORS, in the Kayano 31 (Xiaonian still needs its break-in). This raises lactate threshold — the single biggest predictor of HM performance — and starts rebuilding that stalled heat acclimation.
+Done ✅ — no more training today. Hydrate, protein at dinner, sleep priority tonight so chronic load starts catching up to that acute spike.
 
 **3-Day Plan**
-- Today (Thursday, 03 September 2026): Tempo 6km @ 6:00–6:15/km, HR 155–165, outdoors, Kayano 31.
-- Friday, 4 September 2026: Easy 5–6km, HR≤135 — debut the Xiaonian here to start its break-in.
-- Saturday, 5 September 2026: Long run 12–14km, easy effort, HR≤135, outdoors — the fresh anchor needed to re-tighten the HM prediction.
+- Today (Thursday, 03 September 2026): Tempo 8.01km @ 5:38/km, HR 154 — DONE ✅.
+- Tomorrow (Friday, 04 September 2026): Easy 5–6km, HR ≤135. Debut the Xiaonian here for break-in — easy effort only.
+- Day after (Saturday, 05 September 2026): Long run 10–12km, easy effort, HR ≤135, Kayano 31 — your freshest HM anchor yet, scaled down slightly given HIGH ACWR.
 
 **Fuel**
-Yesterday burned 1,939 kcal total (active 264, BMR 1,675) — today's tempo day target is ~2,470 kcal.
+Yesterday burned 2,054 kcal; today's tempo added 479 kcal — target ~2,500 kcal to fuel recovery from a hard session.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
 - Snack: Yogurt + banana — ~255
-- Dinner: Laksa — ~700
+- Dinner: Char kway teow — ~740
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,470 kcal. Today's tempo session alone ≈ 1 chicken rice serving.
+Total ≈ 2,510 kcal. Today's tempo alone ≈ 1 chicken rice serving burned.
 
 **Coach's take**
-Fresh legs, safe load, and a tempo session on the calendar — this is exactly the kind of day that starts closing the gap between 2:00 and your sub-1:50 goal.
+That threshold session is exactly what your HM prediction needed — bank two easy days, respect the ACWR spike, and Saturday's long run does the rest.
