@@ -1,4 +1,4 @@
-_Updated: Saturday, 05 Sep 2026 at 12:19 AM SGT_
+_Updated: Saturday, 05 Sep 2026 at 01:22 AM SGT_
 
 **ACWR is optimal at 1.3, but three straight days of sliding HRV and back-to-back POOR readiness mean today's long run stays capped, not extended.**
 
