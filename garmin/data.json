@@ -523206,20 +523206,20 @@
     {
       "date": "2026-09-04",
       "wellness": {
-        "totalSteps": 10572,
-        "totalDistanceMeters": 12663,
-        "averageStressLevel": 26,
-        "maxStressLevel": 83,
+        "totalSteps": 13971,
+        "totalDistanceMeters": 15284,
+        "averageStressLevel": 30,
+        "maxStressLevel": 86,
         "bodyBatteryHighestValue": 54,
         "bodyBatteryLowestValue": 5,
-        "floorsAscended": 22,
+        "floorsAscended": 29,
         "restingHeartRate": 51,
-        "maxAvgHeartRate": 98,
+        "maxAvgHeartRate": 100,
         "minAvgHeartRate": 50,
         "moderateIntensityMinutes": 20,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 283,
-        "totalKilocalories": 1597
+        "activeKilocalories": 320,
+        "totalKilocalories": 1895
       },
       "sleep": {
         "dailySleepDTO": {
