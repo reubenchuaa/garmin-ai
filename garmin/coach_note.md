@@ -1,26 +1,26 @@
-_Updated: Thursday, 03 Sep 2026 at 06:13 PM SGT_
+_Updated: Saturday, 05 Sep 2026 at 12:13 AM SGT_
 
-**Tempo's banked and it's a strong one — but ACWR just hit 1.5 (HIGH), so the next 48h protects that gain, not chases another.**
+**Load's cooling off right on schedule (ACWR down to 1.3) — but HRV and readiness say ease into today's long run, not chase distance.**
 
 **What your data says**
-Today's 8.01km tempo (45.1min, avg HR 154, pace 5:38/km) — outdoors, comfortably under your 6:00–6:15/km target — was a genuine threshold stimulus and lands you PRODUCTIVE_6 with VO2max 57.3 and heat acclimation up to 63%. ACWR is now 1.5 (HIGH: acute 461, chronic 294) — the load spike is real, so ease off, don't stack another hard day. Garmin's HM ceiling reads 1:51:38 — treat that as best-case only; buffered off today's tempo and your Jul 27 13km anchor, a realistic range is 2:00–2:09 vs your 1:45–1:50 goal, still soft without a true HM-length long run. RHR 52 (+5 over your ~47 baseline) and readiness at 1 today — expected post-hard-session, not a red flag. July's 100km target is long banked (140km logged); this week (Peak Block) sits at 23km so far.
+ACWR eased to 1.3 (OPTIMAL) by Thursday, and since Friday's planned easy run got skipped entirely (two clear rest days since Wednesday's tempo), it's almost certainly lower today — the load spike is under control. Garmin's HM ceiling improved to 1:48:50 off the tempo's VO2max bump (57.3), but treat that as best-case only — there's still no HM-specific long run or time trial to anchor it, so the realistic range stays 2:00–2:10 vs your 1:45–1:50 goal. HRV's been sliding for 3 straight days (75→73→71→68) and readiness has read POOR twice running, with RHR still 4–5bpm over your ~47 baseline — real fatigue, not noise. Peak Block volume is also light: only 8.01km logged this week so far.
 
 **Today's session**
-Done ✅ — no more training today. Hydrate, protein at dinner, prioritize sleep so chronic load starts catching up to that acute spike.
+Long run, scaled back: 8–9km at true easy effort, HR ≤135 hard cap, Kayano 31. Purpose: banks aerobic base and HM-endurance without digging deeper into the fatigue signal — if HR creeps up in the heat, walk breaks are fine, this is about time-under-cap, not chasing distance.
 
 **3-Day Plan**
-- Today (Thursday, 03 September 2026): Tempo 8.01km @ 5:38/km, HR 154 — DONE ✅.
-- Tomorrow (Friday, 04 September 2026): Easy 5–6km, HR ≤135. Debut the Xiaonian here for break-in — easy effort only.
-- Day after (Saturday, 05 September 2026): Long run 10–12km, easy effort, HR ≤135, Kayano 31 — your freshest HM anchor yet, scaled slightly given HIGH ACWR.
+- Today (Saturday, 05 September 2026): Long run 8–9km easy, HR ≤135, Kayano 31.
+- Tomorrow (Sunday, 06 September 2026): Short easy 4–5km, HR ≤135 — debut the Xiaonian here (Friday's break-in run was skipped, so it still needs 1–2 clean easy runs before any quality session).
+- Day after (Monday, 07 September 2026): Rest — let HRV and readiness reset before the next quality session.
 
 **Fuel**
-Yesterday burned 2,054 kcal; today's tempo added 479 kcal — target ~2,500 kcal to fuel recovery from a hard session.
+Yesterday burned 2,111 kcal (active 323 + BMR 1,788); today's long run adds ~500–600 kcal on top — target ~2,400 kcal.
 - Breakfast: Kaya toast set + kopi — ~565
 - Lunch: Chicken rice — ~600
-- Snack: Yogurt + banana — ~255
-- Dinner: Char kway teow — ~740
+- Snack: Banana + soy milk — ~205
+- Dinner: Bak chor mee — ~500
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,510 kcal. Today's tempo alone ≈ 1 chicken rice serving burned.
+Total ≈ 2,220 kcal. Today's long run alone ≈ 1 roti prata + curry burned.
 
 **Coach's take**
-That threshold session is exactly what your HM prediction needed — bank two easy days, respect the ACWR spike, and Saturday's long run does the rest.
+This is the discipline that makes a tempo like Wednesday's actually stick — bank today's easy long run under HR cap, let HRV reset by Monday, and Peak Block's harder work will land on a body that's ready for it.
