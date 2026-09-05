@@ -1,26 +1,26 @@
-_Updated: Saturday, 05 Sep 2026 at 10:14 PM SGT_
+_Updated: Saturday, 05 Sep 2026 at 10:46 PM SGT_
 
-**Today's 6.02km is banked ✅ — ACWR is still red at 1.6, so full rest tomorrow stays non-negotiable.**
+**Today's 6.02km is banked ✅ — but ACWR at 1.6 and readiness near rock bottom mean the next 24–48h are about recovery, not more running.**
 
 **What your data says**
-ACWR sits at 1.6 (Gabbett red zone), acute load 517 vs chronic 322 — driven by Thursday's 8.01km at 5:37/km (HR154, threshold-adjacent) and today's 6.02km at 5:22/km (HR150), which ran far hotter than your 135bpm easy cap. Training readiness swung wildly today (16→39→24→34→17→25, last reading 25) and HRV has slid for four straight days (78→68→64→60) before bouncing to 76 last night — read that as a real fatigue signal, not noise, especially with RHR sitting 2–5bpm above your ~47 baseline. Garmin's HM ceiling reads 1:45:28 off VO2max 57.3, but that's the optimistic best case — triangulating against your actual effort paces, the honest range is closer to ~2:00–2:10 vs the 1:45–1:50 goal, and it's still soft without a fresh HM-specific long run to anchor it (last one Jul 27). July mileage closed at 14.02km of the 100km target — that window's shut; Peak Block is what counts now. Heat acclimation holds at 87%, still climbing.
+ACWR sits at 1.6 (Gabbett red/high zone), acute load 517 vs chronic 322 — driven by Wednesday's 8.01km at ~5:38/km (HR154, threshold-adjacent) and today's 6.02km at 5:22/km (HR150), both well hotter than your 135bpm easy cap. Training readiness cratered through the day (low teens–20s most readings, last 25), and HRV whipsawed — 78→68→64→60 across four days before rebounding to 76 last night; RHR at 49 is only mildly elevated (2bpm over your ~47 baseline), so this reads as accumulated load rather than illness. Garmin's HM ceiling is 1:45:28 off VO2max 57.3 — that's the optimistic best case; triangulating against actual effort paces, the honest range is closer to ~2:00–2:10 vs the 1:45–1:50 goal, still soft without a fresh HM-specific long run since Jul 27. Heat acclimation holds at 87%, still climbing. July mileage closed at 14.02km of the 100km target — that window's shut; Peak Block is what counts now.
 
 **Today's session**
-Done — 6.02km at 5:22/km, HR150 ✅. No more running today. That pace/HR combo ran tempo-adjacent-hot for what should've been an easy day, two days after a genuine threshold effort — exactly what pushed ACWR into the red. Recovery, not more mileage, is today's job.
+Done — 6.02km at 5:22/km, HR150 ✅. That's the second hot effort in three days on the heels of Wednesday's threshold run — exactly the pattern that pushed ACWR into the red. No more running today; recovery is what lets both efforts actually convert into fitness.
 
 **3-Day Plan**
 - Today (Saturday, 05 September 2026): 6.02km complete, HR150 ✅ — done for the day.
-- Tomorrow (Sunday, 06 September 2026): Full rest. ACWR 1.6 and a readiness floor near 16 mean the body needs the day fully off — adaptation happens in recovery, not on the road.
+- Tomorrow (Sunday, 06 September 2026): Full rest. ACWR 1.6 and readiness bottoming near 25 mean the body needs the day fully off.
 - Monday (07 September 2026): If readiness climbs back above 40, easy 4–5km, HR ≤135, Kayano 31 (Xiaonian still needs its easy-run debut before any quality session). If readiness is still low, extend rest one more day.
 
 **Fuel**
-Yesterday burned 2,111 kcal (active 323, BMR 1,788); today's run adds 343 kcal on top of BMR. With ACWR red, target ~2,450 kcal to protect recovery — no deficit.
+Yesterday burned 2,111 kcal (active 323, BMR 1,788); today's run adds 343 kcal on top of BMR. With ACWR red and HRV still recovering, target ~2,400 kcal to protect adaptation — no deficit.
 - Breakfast: Kaya toast set — ~450
 - Lunch: Char kway teow — ~740
-- Snack: Banana + kopi — ~220
-- Dinner: Laksa — ~700
+- Snack: Yogurt + banana — ~255
+- Dinner: Chicken rice — ~600
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,460 kcal. Today's run alone ≈ 1 Milo dinosaur (343 kcal).
+Total ≈ 2,395 kcal. Today's run alone ≈ 1 Milo dinosaur (343 kcal).
 
 **Coach's take**
 A 1:45:28 ceiling and 87% heat acclimation prove the fitness is real — banking full rest tomorrow is what turns that ceiling into a raceday floor instead of an overreached fade.
