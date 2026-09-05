@@ -1,4 +1,4 @@
-_Updated: Saturday, 05 Sep 2026 at 12:50 PM SGT_
+_Updated: Saturday, 05 Sep 2026 at 01:03 PM SGT_
 
 **Today's 6.02km is banked ✅ — ACWR is still pinned at 1.6 HIGH with a third straight POOR readiness day, so the rest of today is strictly recovery.**
 
