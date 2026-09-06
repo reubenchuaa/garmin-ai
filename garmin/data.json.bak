@@ -537515,20 +537515,20 @@
     {
       "date": "2026-09-06",
       "wellness": {
-        "totalSteps": 965,
-        "totalDistanceMeters": 716,
-        "averageStressLevel": 19,
-        "maxStressLevel": 86,
+        "totalSteps": 4328,
+        "totalDistanceMeters": 3557,
+        "averageStressLevel": 30,
+        "maxStressLevel": 87,
         "bodyBatteryHighestValue": 69,
         "bodyBatteryLowestValue": 5,
-        "floorsAscended": 0,
+        "floorsAscended": 10,
         "restingHeartRate": 49,
-        "maxAvgHeartRate": 92,
+        "maxAvgHeartRate": 103,
         "minAvgHeartRate": 47,
-        "moderateIntensityMinutes": 1,
+        "moderateIntensityMinutes": 4,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 19,
-        "totalKilocalories": 621
+        "activeKilocalories": 86,
+        "totalKilocalories": 1008
       },
       "sleep": {
         "dailySleepDTO": {
@@ -537635,7 +537635,7 @@
             "userProfilePk": 9515677,
             "calendarDate": "2026-09-07",
             "deviceId": 3436655159,
-            "timestampGmt": "2026-09-06T00:26:00",
+            "timestampGmt": "2026-09-06T01:29:55",
             "baseline": 480,
             "actual": 540,
             "feedback": "HIGHLY_INCREASED",
@@ -539816,72 +539816,82 @@
           {
             "startGMT": "2026-09-05T23:51:00.0",
             "endGMT": "2026-09-05T23:52:00.0",
-            "activityLevel": 3.4393127659807994
+            "activityLevel": 3.445320045774451
           },
           {
             "startGMT": "2026-09-05T23:52:00.0",
             "endGMT": "2026-09-05T23:53:00.0",
-            "activityLevel": 3.435449503712749
+            "activityLevel": 3.4394150595472026
           },
           {
             "startGMT": "2026-09-05T23:53:00.0",
             "endGMT": "2026-09-05T23:54:00.0",
-            "activityLevel": 3.489865754949394
+            "activityLevel": 3.469527141507047
           },
           {
             "startGMT": "2026-09-05T23:54:00.0",
             "endGMT": "2026-09-05T23:55:00.0",
-            "activityLevel": 3.6128808966744788
+            "activityLevel": 3.551352764569802
           },
           {
             "startGMT": "2026-09-05T23:55:00.0",
             "endGMT": "2026-09-05T23:56:00.0",
-            "activityLevel": 3.8074544776867123
+            "activityLevel": 3.688046633746156
           },
           {
             "startGMT": "2026-09-05T23:56:00.0",
             "endGMT": "2026-09-05T23:57:00.0",
-            "activityLevel": 4.068663332448928
+            "activityLevel": 3.8777810013907805
           },
           {
             "startGMT": "2026-09-05T23:57:00.0",
             "endGMT": "2026-09-05T23:58:00.0",
-            "activityLevel": 4.385367875571567
+            "activityLevel": 4.1144160314041605
           },
           {
             "startGMT": "2026-09-05T23:58:00.0",
             "endGMT": "2026-09-05T23:59:00.0",
-            "activityLevel": 4.742876821198345
+            "activityLevel": 4.388926566230977
           },
           {
             "startGMT": "2026-09-05T23:59:00.0",
             "endGMT": "2026-09-06T00:00:00.0",
-            "activityLevel": 5.12537863188993
+            "activityLevel": 4.6909455494878305
           },
           {
             "startGMT": "2026-09-06T00:00:00.0",
             "endGMT": "2026-09-06T00:01:00.0",
-            "activityLevel": 5.517608688468942
+            "activityLevel": 5.009994452098898
           },
           {
             "startGMT": "2026-09-06T00:01:00.0",
             "endGMT": "2026-09-06T00:02:00.0",
-            "activityLevel": 5.905802324111175
+            "activityLevel": 5.336281328326515
           },
           {
             "startGMT": "2026-09-06T00:02:00.0",
             "endGMT": "2026-09-06T00:03:00.0",
-            "activityLevel": 6.278178133927373
+            "activityLevel": 5.66113604994206
           },
           {
             "startGMT": "2026-09-06T00:03:00.0",
             "endGMT": "2026-09-06T00:04:00.0",
-            "activityLevel": 6.625161674031086
+            "activityLevel": 5.977202629816936
           },
           {
             "startGMT": "2026-09-06T00:04:00.0",
             "endGMT": "2026-09-06T00:05:00.0",
-            "activityLevel": 6.939471921594795
+            "activityLevel": 6.278488301090891
+          },
+          {
+            "startGMT": "2026-09-06T00:05:00.0",
+            "endGMT": "2026-09-06T00:06:00.0",
+            "activityLevel": 6.559725959630154
+          },
+          {
+            "startGMT": "2026-09-06T00:06:00.0",
+            "endGMT": "2026-09-06T00:07:00.0",
+            "activityLevel": 6.818272736665379
           }
         ],
         "remSleepData": true,
@@ -543014,6 +543024,37 @@
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-09-06",
+          "timestamp": "2026-09-06T01:29:55.0",
+          "timestampLocal": "2026-09-06T09:29:55.0",
+          "deviceId": 3436655159,
+          "level": "LOW",
+          "feedbackLong": "LOW_RT_MOD_OR_LOW_SS_MOD_STRESS_HISTORY_NEG",
+          "feedbackShort": "FIND_TIME_TO_RELAX",
+          "score": 37,
+          "sleepScore": 66,
+          "sleepScoreFactorPercent": 49,
+          "sleepScoreFactorFeedback": "MODERATE",
+          "recoveryTime": 797,
+          "recoveryTimeFactorPercent": 79,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 74,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 445,
+          "stressHistoryFactorPercent": 37,
+          "stressHistoryFactorFeedback": "POOR",
+          "hrvFactorPercent": 81,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 69,
+          "sleepHistoryFactorPercent": 70,
+          "sleepHistoryFactorFeedback": "GOOD",
+          "validSleep": true,
+          "inputContext": "AFTER_WAKEUP_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        },
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-09-06",
           "timestamp": "2026-09-06T00:26:00.0",
           "timestampLocal": "2026-09-06T08:26:00.0",
           "deviceId": 3436655159,
@@ -544491,7 +544532,7 @@
       "race_pred_10k": "46:07",
       "race_pred_hm": "1:45:05",
       "race_pred_marathon": "3:55:00",
-      "avg_respiration": 15.0,
+      "avg_respiration": 14.0,
       "sleep_respiration": 15.0,
       "avg_spo2": null
     }
