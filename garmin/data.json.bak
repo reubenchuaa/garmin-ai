@@ -537515,20 +537515,20 @@
     {
       "date": "2026-09-06",
       "wellness": {
-        "totalSteps": 4328,
-        "totalDistanceMeters": 3557,
-        "averageStressLevel": 30,
-        "maxStressLevel": 87,
+        "totalSteps": 9030,
+        "totalDistanceMeters": 7172,
+        "averageStressLevel": 42,
+        "maxStressLevel": 93,
         "bodyBatteryHighestValue": 69,
         "bodyBatteryLowestValue": 5,
-        "floorsAscended": 10,
+        "floorsAscended": 12,
         "restingHeartRate": 49,
         "maxAvgHeartRate": 103,
         "minAvgHeartRate": 47,
         "moderateIntensityMinutes": 4,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 86,
-        "totalKilocalories": 1008
+        "activeKilocalories": 173,
+        "totalKilocalories": 1564
       },
       "sleep": {
         "dailySleepDTO": {
