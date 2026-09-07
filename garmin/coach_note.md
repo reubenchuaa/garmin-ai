@@ -1,4 +1,4 @@
-_Updated: Monday, 07 Sep 2026 at 08:11 PM SGT_
+_Updated: Monday, 07 Sep 2026 at 09:18 PM SGT_
 
 **Rest holds — ACWR's still at 1.4, one more day before Tuesday's easy debut and Wednesday's tempo.**
 
