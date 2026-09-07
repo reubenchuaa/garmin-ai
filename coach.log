@@ -814,3 +814,26 @@ Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
   [git] Stale lock detected (7254s old), removing
+
+Fetching data for: 2026-09-05 → 2026-09-07
+
+  Activity: activity_2026-09-07_24268055209.md
+  Activity: activity_2026-09-07_24267585647.md
+  Activity: activity_2026-09-07_24267073277.md
+  Activity: activity_2026-09-07_24266121942.md
+  Activity: activity_2026-09-07_24265339745.md
+  Activity: activity_2026-09-06_24259205360.md
+  Activity: activity_2026-09-06_24258537942.md
+  Activity: activity_2026-09-06_24252956661.md
+  Activity: activity_2026-09-06_24252663182.md
+  Activity: activity_2026-09-05_24241462251.md
+  Activity: activity_2026-09-05_24241461722.md
+  Wellness: wellness_2026-09-05.md
+  Wellness: wellness_2026-09-06.md
+  Wellness: wellness_2026-09-07.md
+  Training status: PRODUCTIVE_9, ACWR: 1.4
+  Race predictions — HM: 1:41:05
+
+All data saved to garmin/data.json
+Markdown notes written: 14 files
+  [auth] Token OK — refresh token valid for 13 more days
