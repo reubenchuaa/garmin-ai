@@ -1,26 +1,26 @@
-_Updated: Sunday, 06 Sep 2026 at 11:37 PM SGT_
+_Updated: Monday, 07 Sep 2026 at 05:25 PM SGT_
 
-**Today's run banked right at the HR cap ✅ — ACWR is pinned at 1.6 HIGH, so tomorrow's rest is the real work.**
+**Rest day banked as planned — ACWR is back to 1.4 and TR climbed to 55 overnight, recovery is tracking right on schedule.**
 
 **What your data says**
-ACWR is 1.6 (Gabbett HIGH), acute load 549 vs chronic 337 — driven by Wed's 8.01km tempo (5:38/km, HR154) and Sat's 6.02km hot run (5:22/km, HR150); today's 10.5km treadmill at 6:06/km, HR138 stayed disciplined at cap, adding volume without adding heat or intensity. Readiness is 29 (LOW, down from 35-37 this morning post-run) but HRV keeps climbing (64→60→76→79 over four nights) and RHR 49 is only 2bpm over your ~47 baseline — recovering, not red-flagging. Garmin's HM ceiling is 1:44:25 off VO2max 57.3 — best-case only; Riegel from this week's tempo efforts lands at 2:02–2:06, still soft with no HM-specific long run since Aug 30's 15km. Realistic target: ~2:05. July closed at 24.52km of 100km — window shut; Peak Block (through Sep 19) counts now.
+ACWR is 1.4 — still just above the 0.8–1.3 Gabbett safe band, but down sharply from Sunday's 1.6 HIGH (acute load 475 vs chronic 335), so one more clean rest day lets chronic load catch up before the next hard session. Garmin's HM ceiling jumped to 1:41:05 off VO2max 57.3 — treat that as best-case only; Riegel extrapolation from this week's harder efforts (Sep 3: 8.01km at 5:38/km, Sep 5: 6.02km at 5:22/km) lands at 2:02–2:06, still soft with no HM-specific long run since Aug 30's 15km. Realistic target ~2:04 vs the 1:45–1:50 goal — real work still ahead. HRV is steady at 72 (weekly avg 71, BALANCED), RHR 50 is only 3bpm over your ~47 baseline, and TR climbed from 47 overnight to 55 this morning. July closed at 24.52km of 100km — window's shut; Peak Block (through Sep 19) is what counts now.
 
 **Today's session**
-Done — 10.5km treadmill, 64.1min, HR138 ✅. Longest run since Aug 30, held right at cap — banks volume without deepening the load spike. No heat credit (indoor), but you're comfortably ACCLIMATIZED at 87%. No more running today.
+Rest, as planned. ACWR is still above the 1.3 safe ceiling, so no run today — this lets chronic load absorb last week's spike (Sep 3 tempo + Sep 5 hard effort) so Wednesday's quality session lands on fresh legs. Adaptation happens during recovery, not the workout itself.
 
 **3-Day Plan**
-- Today (Sunday, 06 September 2026): 10.5km treadmill done, HR138 ✅.
-- Tomorrow (Monday, 07 September 2026): Full rest — ACWR 1.6 and TR 29 mean chronic load must catch up.
-- Tuesday (08 September 2026): If TR climbs above 40, easy 5–6km, HR ≤135, Kayano 31. If still low, extend rest.
+- Today (Monday, 07 September 2026): Full rest.
+- Tomorrow (Tuesday, 08 September 2026): Easy 5–6km, HR ≤135, Kayano 31 — or debut the Xiaonian if it's not yet broken in.
+- Wednesday (09 September 2026): Tempo 6–7km at 6:00–6:15/km, HR 155–165, Xiaonian once broken in — raises lactate threshold, the biggest predictor of HM performance.
 
 **Fuel**
-Today's run adds ~567 kcal on ~1,788 BMR; with ACWR high and recovery the priority, target ~2,400 kcal — no deficit.
+Yesterday's 10.5km run burned 2,531 kcal total (743 active + 1,788 BMR); today's a rest day, so target ~2,050 kcal — no deficit even resting.
 - Breakfast: Kaya toast set — ~450
 - Lunch: Chicken rice — ~600
 - Snack: Yogurt + banana — ~255
-- Dinner: Char kway teow — ~740
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,395 kcal. Today's run alone ≈ 1 nasi lemak (490kcal).
+- Dinner: Bak chor mee — ~500
+- Evening: Kopi + banana — ~220
+Total ≈ 2,025 kcal. Yesterday's run alone ≈ 2 Milo dinosaurs.
 
 **Coach's take**
-Staying disciplined at the HR cap on your longest run in a week is exactly what turns a 1:44 ceiling into a real raceday number — banking full rest tomorrow locks it in.
+The ACWR climb-then-drop and TR's overnight jump from 47 to 55 show your body absorbing last week's load exactly the way it should — stay patient today and Wednesday's tempo will be earned, not forced.
