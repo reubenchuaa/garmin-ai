@@ -1,4 +1,4 @@
-_Updated: Tuesday, 08 Sep 2026 at 10:33 PM SGT_
+_Updated: Wednesday, 09 Sep 2026 at 12:12 AM SGT_
 
 **ACWR is back to OPTIMAL at 1.1 — you're clear to run today, and the Xiaonian debut kicks off the heat-acclimation rebuild.**
 
