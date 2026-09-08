@@ -837,3 +837,21 @@ Fetching data for: 2026-09-05 → 2026-09-07
 All data saved to garmin/data.json
 Markdown notes written: 14 files
   [auth] Token OK — refresh token valid for 13 more days
+  [coach] Attempt 1 passed validation
+  [coach] Note finalised (    2374 bytes)
+  [workout] Could not delete 1685308387: Error in request: 404 Client Error: Not Found for url: https://connectapi.garmin.com/workout-service/workout/1685308387
+  [workout] Pushing: Easy 6km (easy) for 2026-09-08
+    - warmup: 6000m, HR 115-135
+  [workout] Created: Easy 6km (ID: 1690633529)
+  [workout] Scheduled for 2026-09-08
+  ✅ Pushed: Easy 6km → 2026-09-08
+  [workout] Pushing: Tempo 7km @ 6:00-6:15/km (tempo) for 2026-09-09
+    - warmup: 2000m
+    - interval: 7000m, HR 155-165, pace 2.667-2.778 m/s
+    - cooldown: 2000m
+  [workout] Created: Tempo 7km @ 6:00-6:15/km (ID: 1690633567)
+  [workout] Scheduled for 2026-09-09
+  ✅ Pushed: Tempo 7km @ 6:00-6:15/km → 2026-09-09
+Using Claude coach note...
+Generating dashboard...
+Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
