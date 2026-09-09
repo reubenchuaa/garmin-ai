@@ -1,12 +1,12 @@
-_Updated: Wednesday, 09 Sep 2026 at 05:20 PM SGT_
+_Updated: Wednesday, 09 Sep 2026 at 05:53 PM SGT_
 
-**ACWR is locked in the optimal pocket and recovery markers are green — today's tempo is still the session to bank before heat acclimation slips further.**
+**ACWR is optimal and recovery is green — get today's tempo done outdoors before heat deacclimation digs any deeper.**
 
 **What your data says**
-ACWR sits at 1.1 (acute 390 vs chronic 332) — OPTIMAL, training status Productive. Garmin's HM ceiling reads 1:41:17 off VO2max 57.3, but Riegel off your two hardest recent efforts — Sep 3's tempo (8.01km @ 5:38/km → 2:05:54) and Sep 5's threshold run (6.02km @ 5:22/km → 2:02:02) — puts the realistic, heat/fade-buffered target at 2:05–2:12 vs your 1:45–1:50 goal. Still soft: your longest run remains Aug 30's easy 15km treadmill session, with no outdoor HM-effort long run or time trial to anchor it yet. Heat acclimation has slipped to 84% and is still trending DEACCLIMATIZING — your last outdoor run was Sep 5, and Sep 6's 10.5km was on the treadmill (full training credit, zero heat benefit). Recovery is strong: Training Readiness 63 (MODERATE), HRV BALANCED (74 last night, weekly avg 70, stable), RHR 49, sleep 7.8h. 18 days out, mid Peak Block — long runs need to build toward 16–17km from here.
+Latest computed ACWR (Sep 8) sits at 1.1 — OPTIMAL, training status Productive. Garmin's HM ceiling reads 1:41:17 off VO2max 57.3, but Riegel off your two hardest recent efforts — Sep 3's tempo (8.01km @ 5:38/km → 2:05:54) and Sep 5's threshold run (6.02km @ 5:22/km → 2:02:02) — puts the realistic, heat/fade-buffered target at 2:05–2:12 vs your 1:45–1:50 goal. Still soft: no outdoor HM-effort long run or time trial has anchored it yet. Heat acclimation has slipped to 84% and is DEACCLIMATIZING — no run at all since Sep 6 (and that was treadmill, zero heat credit), so 3 days with no heat exposure. Recovery is solid: Training Readiness 63 (MODERATE), HRV BALANCED (74 last night, weekly avg 70, stable), RHR 49, sleep 7.8h. 18 days to race day, mid Peak Block — long runs need to build toward 16–17km from here.
 
 **Today's session**
-Tempo 6–7km at 6:00–6:15/km, HR 155–165, outdoors — Kayano 31 (Xiaonian still needs its break-in easy run first). Purpose: raise lactate threshold, the single biggest predictor of half marathon performance, while banking outdoor heat exposure.
+Tempo 6–7km at 6:00–6:15/km, HR 155–165, outdoors — Kayano 31 (Xiaonian still needs its break-in easy run first). Purpose: raise lactate threshold, the single biggest predictor of half marathon performance, while finally banking outdoor heat exposure after 3 days off.
 
 **3-Day Plan**
 - Today (Wednesday, 09 September 2026): Tempo 6–7km at 6:00–6:15/km, HR 155–165, outdoors — Kayano 31.
@@ -23,4 +23,4 @@ Yesterday burned 1,603 kcal (25 active + 1,578 BMR); today's a tempo day, so tar
 Total ≈ 2,395 kcal. Today's tempo effort alone ≈ 1 bowl of wanton mee.
 
 **Coach's take**
-Your threshold paces already project a sub-2:12 shape — get outdoors twice this week to rebuild heat tolerance and that range only tightens toward 1:50.
+Your threshold paces already project sub-2:12 shape — get outdoors today and stack a heat-exposed easy run tomorrow, and that range keeps tightening toward 1:50.
