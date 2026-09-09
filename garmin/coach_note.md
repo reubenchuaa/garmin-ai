@@ -1,4 +1,4 @@
-_Updated: Wednesday, 09 Sep 2026 at 10:58 PM SGT_
+_Updated: Wednesday, 09 Sep 2026 at 11:31 PM SGT_
 
 **Recovery's green across the board — tonight's outdoor tempo is still the call before heat acclimation slides any further.**
 
