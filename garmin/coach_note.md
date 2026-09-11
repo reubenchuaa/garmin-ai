@@ -1,26 +1,26 @@
-_Updated: Thursday, 10 Sep 2026 at 10:41 PM SGT_
+_Updated: Friday, 11 Sep 2026 at 06:18 PM SGT_
 
-**Recovery is green across the board — the job now is banking outdoor heat exposure before it costs you on race day, 17 days out.**
+**Five days without a run cost you heat acclimation, not fitness — get back outside today and start clawing it back, 16 days from race day.**
 
 **What your data says**
-ACWR is 0.8 (OPTIMAL, training status MAINTAINING) — plenty of room to load without spike risk. Garmin's ceiling reads 1:40:58 (VO2max 57.3), but a Riegel extrapolation from your best recent tempo effort (8.01km @ 5:38/km, HR 154, Sep 3) buffered 2–4% for heat and fade lands a realistic target closer to 2:06–2:11 vs the 1:45–1:50 goal — still soft with no HM-effort long run or time trial banked since Jul 27. Recovery signals are strong: HRV 89 overnight (75 weekly, BALANCED and climbing), RHR 44 — well under your 47 baseline, readiness 66 MODERATE despite a short 5.7h sleep. The one flag: heat acclimation has slipped to 72% (DEACCLIMATIZING) — no outdoor run since Sep 5, and with 17 days left that needs reversing now, not next week.
+ACWR is 0.6 (LOW — below the 0.8 safe floor), but that's a frequency gap, not a fitness one: your last run was Sep 6, five days ago. Garmin's HM ceiling reads 1:41:18 (VO2max 57.3), but a Riegel extrapolation from your best recent tempo effort (8.01km @ 5:38/km, HR 154, Sep 3) buffered 2–4% for heat and fade lands a realistic target closer to 2:06–2:10 vs the 1:45–1:50 goal — still soft with no HM-effort long run banked since Jul 27. The real flag is heat acclimation, now down to 62% (DEACCLIMATIZING, from 72% on Sep 10) as the layoff bites. Recovery itself is fine: HRV 79 overnight (weekly avg 78 and climbing), RHR 47 right at baseline, readiness 61 MODERATE despite a short 5.3h sleep.
 
 **Today's session**
-Easy 5–6km outdoors, HR ≤135 — debut the Xiaonian on this short, easy run. Purpose: rebuild heat tolerance while keeping load controlled on short sleep — aerobic adaptation happens at low intensity, not by chasing pace.
+Easy 5–6km outdoors, HR ≤135 — debut the Xiaonian. Purpose: after 5 days off, ease back into load and rebuild heat tolerance without spiking ACWR or intensity in the same session.
 
 **3-Day Plan**
-- Today (Thursday, 10 September 2026): Easy 5–6km outdoors, HR ≤135 — debut Xiaonian, bank heat exposure.
-- Friday, 11 September 2026: Tempo 6–7km at 6:00–6:15/km, HR 155–165, outdoors — Kayano 31 unless today felt clean, then Xiaonian. Builds lactate clearance capacity.
-- Saturday, 12 September 2026: Easy recovery 4–5km, HR ≤135, or rest if legs feel heavy — 48h buffer after tempo.
+- Today (Friday, 11 September 2026): Easy 5–6km outdoors, HR ≤135 — debut Xiaonian, restart the running streak and bank heat exposure.
+- Saturday, 12 September 2026: Tempo 6–7km at 6:00–6:15/km, HR 155–165, outdoors — Kayano 31 (Xiaonian's only had one easy outing, give it a second before trusting it for quality). Builds lactate clearance capacity — the single biggest lever on HM time.
+- Sunday, 13 September 2026: Easy recovery 4–5km, HR ≤135, or rest if legs feel heavy — 24h buffer after tempo, keeps heat re-acclimation going.
 
 **Fuel**
-Yesterday burned 1,813 kcal (25 active + 1,788 BMR); today's an easy outdoor run on short sleep, so target ~2,350 kcal to fuel it and protect recovery.
+Yesterday burned 2,096 kcal (active 308 + BMR 1,788); target ~2,350 kcal today to fuel the return-to-running session and protect recovery.
 - Breakfast: Kaya toast set — ~450
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
-- Dinner: Char kway teow — ~740
+- Dinner: Laksa — ~700
 - Evening: Milo dinosaur — ~350
-Total ≈ 2,395 kcal. Today's run alone ≈ 1 Milo dinosaur.
+Total ≈ 2,355 kcal. Today's run alone ≈ 1 Milo dinosaur.
 
 **Coach's take**
-RHR at 44 and HRV climbing tell you the body is more than ready — get outside tonight or tomorrow morning and start clawing back the heat tolerance you'll need on Sep 27.
+HRV climbing and RHR at baseline mean your body's been resting, not breaking down — get outside tonight and you're back on track toward Sep 27 with time to spare.

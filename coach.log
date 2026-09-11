@@ -855,3 +855,26 @@ Markdown notes written: 14 files
 Using Claude coach note...
 Generating dashboard...
 Dashboard written → /Users/amandakoh/garmin-ai/docs/index.html
+
+Fetching data for: 2026-09-06 → 2026-09-08
+
+  Activity: activity_2026-09-07_24268055209.md
+  Warning: details for 24267585647 — HTTPSConnectionPool(host='connectapi.garmin.com', port=443): Read timed out.
+  Activity: activity_2026-09-07_24267585647.md
+  Activity: activity_2026-09-07_24267073277.md
+  Activity: activity_2026-09-07_24266121942.md
+  Activity: activity_2026-09-07_24265339745.md
+  Activity: activity_2026-09-06_24259205360.md
+  Activity: activity_2026-09-06_24258537942.md
+  Activity: activity_2026-09-06_24252956661.md
+  Activity: activity_2026-09-06_24252663182.md
+  Wellness: wellness_2026-09-06.md
+  Wellness: wellness_2026-09-07.md
+  Wellness: wellness_2026-09-08.md
+  Training status: PRODUCTIVE_3, ACWR: 1.1
+  Race predictions — HM: 1:41:17
+
+All data saved to garmin/data.json
+Markdown notes written: 12 files
+  [auth] Token OK — refresh token valid for 12 more days
+  [git] Stale lock detected (16095s old), removing
