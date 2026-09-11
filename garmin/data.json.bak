@@ -573813,6 +573813,461 @@
           "recoveryTimeChangePhrase": null
         }
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "wellness": {
+        "totalSteps": null,
+        "totalDistanceMeters": null,
+        "averageStressLevel": 42,
+        "maxStressLevel": 89,
+        "bodyBatteryHighestValue": 14,
+        "bodyBatteryLowestValue": 12,
+        "floorsAscended": 0,
+        "maxAvgHeartRate": 91,
+        "minAvgHeartRate": 56,
+        "moderateIntensityMinutes": 0,
+        "vigorousIntensityMinutes": 0,
+        "totalKilocalories": 34
+      },
+      "sleep": {
+        "dailySleepDTO": {
+          "id": null,
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-09-11",
+          "sleepTimeSeconds": null,
+          "napTimeSeconds": null,
+          "sleepWindowConfirmed": null,
+          "sleepWindowConfirmationType": null,
+          "sleepStartTimestampGMT": null,
+          "sleepEndTimestampGMT": null,
+          "sleepStartTimestampLocal": null,
+          "sleepEndTimestampLocal": null,
+          "autoSleepStartTimestampGMT": null,
+          "autoSleepEndTimestampGMT": null,
+          "sleepQualityTypePK": null,
+          "sleepResultTypePK": null,
+          "unmeasurableSleepSeconds": null,
+          "deepSleepSeconds": null,
+          "lightSleepSeconds": null,
+          "remSleepSeconds": null,
+          "awakeSleepSeconds": null,
+          "deviceRemCapable": false,
+          "retro": false,
+          "sleepNeed": {
+            "userProfilePk": 9515677,
+            "calendarDate": "2026-09-11",
+            "deviceId": 3436655159,
+            "timestampGmt": "2026-09-10T08:08:14",
+            "baseline": 480,
+            "actual": 510,
+            "feedback": "INCREASED",
+            "trainingFeedback": "NO_CHANGE",
+            "sleepHistoryAdjustment": "INCREASING",
+            "hrvAdjustment": "NO_CHANGE",
+            "napAdjustment": "NO_CHANGE",
+            "displayedForTheDay": true,
+            "preferredActivityTracker": true
+          },
+          "nextSleepNeed": {
+            "userProfilePk": 9515677,
+            "calendarDate": "2026-09-12",
+            "deviceId": 3436655159,
+            "timestampGmt": "2026-09-10T16:14:26",
+            "baseline": 480,
+            "actual": 480,
+            "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+            "trainingFeedback": "NO_CHANGE",
+            "sleepHistoryAdjustment": "NO_CHANGE",
+            "hrvAdjustment": "NO_DATA",
+            "napAdjustment": "NO_CHANGE",
+            "displayedForTheDay": false,
+            "preferredActivityTracker": true
+          }
+        },
+        "sleepMovement": null,
+        "remSleepData": null,
+        "sleepLevels": null
+      },
+      "hrv": {
+        "userProfilePk": 9515677,
+        "hrvSummary": {
+          "calendarDate": "2026-09-11",
+          "weeklyAvg": 78,
+          "lastNightAvg": null,
+          "lastNight5MinHigh": 124,
+          "baseline": {
+            "lowUpper": 62,
+            "balancedLow": 66,
+            "balancedUpper": 86,
+            "markerValue": 0.5499878
+          },
+          "status": "BALANCED",
+          "feedbackPhrase": "HRV_BALANCED_8",
+          "createTimeStamp": "2026-09-10T16:14:43.288"
+        },
+        "hrvReadings": [
+          {
+            "hrvValue": 50,
+            "readingTimeGMT": "2026-09-09T17:09:56.0",
+            "readingTimeLocal": "2026-09-10T01:09:56.0"
+          },
+          {
+            "hrvValue": 63,
+            "readingTimeGMT": "2026-09-09T17:14:56.0",
+            "readingTimeLocal": "2026-09-10T01:14:56.0"
+          },
+          {
+            "hrvValue": 74,
+            "readingTimeGMT": "2026-09-09T17:19:56.0",
+            "readingTimeLocal": "2026-09-10T01:19:56.0"
+          },
+          {
+            "hrvValue": 70,
+            "readingTimeGMT": "2026-09-09T17:24:56.0",
+            "readingTimeLocal": "2026-09-10T01:24:56.0"
+          },
+          {
+            "hrvValue": 75,
+            "readingTimeGMT": "2026-09-09T17:29:56.0",
+            "readingTimeLocal": "2026-09-10T01:29:56.0"
+          },
+          {
+            "hrvValue": 76,
+            "readingTimeGMT": "2026-09-09T17:34:56.0",
+            "readingTimeLocal": "2026-09-10T01:34:56.0"
+          },
+          {
+            "hrvValue": 80,
+            "readingTimeGMT": "2026-09-09T17:39:56.0",
+            "readingTimeLocal": "2026-09-10T01:39:56.0"
+          },
+          {
+            "hrvValue": 65,
+            "readingTimeGMT": "2026-09-09T17:44:56.0",
+            "readingTimeLocal": "2026-09-10T01:44:56.0"
+          },
+          {
+            "hrvValue": 66,
+            "readingTimeGMT": "2026-09-09T17:49:56.0",
+            "readingTimeLocal": "2026-09-10T01:49:56.0"
+          },
+          {
+            "hrvValue": 73,
+            "readingTimeGMT": "2026-09-09T17:54:56.0",
+            "readingTimeLocal": "2026-09-10T01:54:56.0"
+          },
+          {
+            "hrvValue": 92,
+            "readingTimeGMT": "2026-09-09T17:59:56.0",
+            "readingTimeLocal": "2026-09-10T01:59:56.0"
+          },
+          {
+            "hrvValue": 101,
+            "readingTimeGMT": "2026-09-09T18:04:56.0",
+            "readingTimeLocal": "2026-09-10T02:04:56.0"
+          },
+          {
+            "hrvValue": 83,
+            "readingTimeGMT": "2026-09-09T18:09:56.0",
+            "readingTimeLocal": "2026-09-10T02:09:56.0"
+          },
+          {
+            "hrvValue": 88,
+            "readingTimeGMT": "2026-09-09T18:14:56.0",
+            "readingTimeLocal": "2026-09-10T02:14:56.0"
+          },
+          {
+            "hrvValue": 60,
+            "readingTimeGMT": "2026-09-09T18:19:56.0",
+            "readingTimeLocal": "2026-09-10T02:19:56.0"
+          },
+          {
+            "hrvValue": 45,
+            "readingTimeGMT": "2026-09-09T18:24:56.0",
+            "readingTimeLocal": "2026-09-10T02:24:56.0"
+          },
+          {
+            "hrvValue": 66,
+            "readingTimeGMT": "2026-09-09T18:29:56.0",
+            "readingTimeLocal": "2026-09-10T02:29:56.0"
+          },
+          {
+            "hrvValue": 72,
+            "readingTimeGMT": "2026-09-09T18:34:56.0",
+            "readingTimeLocal": "2026-09-10T02:34:56.0"
+          },
+          {
+            "hrvValue": 98,
+            "readingTimeGMT": "2026-09-09T18:39:56.0",
+            "readingTimeLocal": "2026-09-10T02:39:56.0"
+          },
+          {
+            "hrvValue": 100,
+            "readingTimeGMT": "2026-09-09T18:44:56.0",
+            "readingTimeLocal": "2026-09-10T02:44:56.0"
+          },
+          {
+            "hrvValue": 87,
+            "readingTimeGMT": "2026-09-09T18:49:56.0",
+            "readingTimeLocal": "2026-09-10T02:49:56.0"
+          },
+          {
+            "hrvValue": 95,
+            "readingTimeGMT": "2026-09-09T18:54:56.0",
+            "readingTimeLocal": "2026-09-10T02:54:56.0"
+          },
+          {
+            "hrvValue": 112,
+            "readingTimeGMT": "2026-09-09T18:59:56.0",
+            "readingTimeLocal": "2026-09-10T02:59:56.0"
+          },
+          {
+            "hrvValue": 104,
+            "readingTimeGMT": "2026-09-09T19:04:56.0",
+            "readingTimeLocal": "2026-09-10T03:04:56.0"
+          },
+          {
+            "hrvValue": 108,
+            "readingTimeGMT": "2026-09-09T19:09:56.0",
+            "readingTimeLocal": "2026-09-10T03:09:56.0"
+          },
+          {
+            "hrvValue": 109,
+            "readingTimeGMT": "2026-09-09T19:14:56.0",
+            "readingTimeLocal": "2026-09-10T03:14:56.0"
+          },
+          {
+            "hrvValue": 108,
+            "readingTimeGMT": "2026-09-09T19:19:56.0",
+            "readingTimeLocal": "2026-09-10T03:19:56.0"
+          },
+          {
+            "hrvValue": 112,
+            "readingTimeGMT": "2026-09-09T19:24:56.0",
+            "readingTimeLocal": "2026-09-10T03:24:56.0"
+          },
+          {
+            "hrvValue": 99,
+            "readingTimeGMT": "2026-09-09T19:29:56.0",
+            "readingTimeLocal": "2026-09-10T03:29:56.0"
+          },
+          {
+            "hrvValue": 85,
+            "readingTimeGMT": "2026-09-09T19:34:56.0",
+            "readingTimeLocal": "2026-09-10T03:34:56.0"
+          },
+          {
+            "hrvValue": 73,
+            "readingTimeGMT": "2026-09-09T19:39:56.0",
+            "readingTimeLocal": "2026-09-10T03:39:56.0"
+          },
+          {
+            "hrvValue": 73,
+            "readingTimeGMT": "2026-09-09T19:44:56.0",
+            "readingTimeLocal": "2026-09-10T03:44:56.0"
+          },
+          {
+            "hrvValue": 89,
+            "readingTimeGMT": "2026-09-09T19:49:56.0",
+            "readingTimeLocal": "2026-09-10T03:49:56.0"
+          },
+          {
+            "hrvValue": 90,
+            "readingTimeGMT": "2026-09-09T19:54:56.0",
+            "readingTimeLocal": "2026-09-10T03:54:56.0"
+          },
+          {
+            "hrvValue": 71,
+            "readingTimeGMT": "2026-09-09T19:59:56.0",
+            "readingTimeLocal": "2026-09-10T03:59:56.0"
+          },
+          {
+            "hrvValue": 61,
+            "readingTimeGMT": "2026-09-09T20:04:56.0",
+            "readingTimeLocal": "2026-09-10T04:04:56.0"
+          },
+          {
+            "hrvValue": 66,
+            "readingTimeGMT": "2026-09-09T20:09:56.0",
+            "readingTimeLocal": "2026-09-10T04:09:56.0"
+          },
+          {
+            "hrvValue": 78,
+            "readingTimeGMT": "2026-09-09T20:14:56.0",
+            "readingTimeLocal": "2026-09-10T04:14:56.0"
+          },
+          {
+            "hrvValue": 83,
+            "readingTimeGMT": "2026-09-09T20:19:56.0",
+            "readingTimeLocal": "2026-09-10T04:19:56.0"
+          },
+          {
+            "hrvValue": 103,
+            "readingTimeGMT": "2026-09-09T20:24:56.0",
+            "readingTimeLocal": "2026-09-10T04:24:56.0"
+          },
+          {
+            "hrvValue": 93,
+            "readingTimeGMT": "2026-09-09T20:29:56.0",
+            "readingTimeLocal": "2026-09-10T04:29:56.0"
+          },
+          {
+            "hrvValue": 96,
+            "readingTimeGMT": "2026-09-09T20:34:56.0",
+            "readingTimeLocal": "2026-09-10T04:34:56.0"
+          },
+          {
+            "hrvValue": 124,
+            "readingTimeGMT": "2026-09-09T20:39:56.0",
+            "readingTimeLocal": "2026-09-10T04:39:56.0"
+          },
+          {
+            "hrvValue": 115,
+            "readingTimeGMT": "2026-09-09T20:44:56.0",
+            "readingTimeLocal": "2026-09-10T04:44:56.0"
+          },
+          {
+            "hrvValue": 117,
+            "readingTimeGMT": "2026-09-09T20:49:56.0",
+            "readingTimeLocal": "2026-09-10T04:49:56.0"
+          },
+          {
+            "hrvValue": 105,
+            "readingTimeGMT": "2026-09-09T20:54:56.0",
+            "readingTimeLocal": "2026-09-10T04:54:56.0"
+          },
+          {
+            "hrvValue": 89,
+            "readingTimeGMT": "2026-09-09T20:59:56.0",
+            "readingTimeLocal": "2026-09-10T04:59:56.0"
+          },
+          {
+            "hrvValue": 82,
+            "readingTimeGMT": "2026-09-09T21:04:56.0",
+            "readingTimeLocal": "2026-09-10T05:04:56.0"
+          },
+          {
+            "hrvValue": 111,
+            "readingTimeGMT": "2026-09-09T21:09:56.0",
+            "readingTimeLocal": "2026-09-10T05:09:56.0"
+          },
+          {
+            "hrvValue": 100,
+            "readingTimeGMT": "2026-09-09T21:14:56.0",
+            "readingTimeLocal": "2026-09-10T05:14:56.0"
+          },
+          {
+            "hrvValue": 104,
+            "readingTimeGMT": "2026-09-09T21:19:56.0",
+            "readingTimeLocal": "2026-09-10T05:19:56.0"
+          },
+          {
+            "hrvValue": 96,
+            "readingTimeGMT": "2026-09-09T21:24:56.0",
+            "readingTimeLocal": "2026-09-10T05:24:56.0"
+          },
+          {
+            "hrvValue": 80,
+            "readingTimeGMT": "2026-09-09T21:29:56.0",
+            "readingTimeLocal": "2026-09-10T05:29:56.0"
+          },
+          {
+            "hrvValue": 96,
+            "readingTimeGMT": "2026-09-09T21:34:56.0",
+            "readingTimeLocal": "2026-09-10T05:34:56.0"
+          },
+          {
+            "hrvValue": 102,
+            "readingTimeGMT": "2026-09-09T21:39:56.0",
+            "readingTimeLocal": "2026-09-10T05:39:56.0"
+          },
+          {
+            "hrvValue": 105,
+            "readingTimeGMT": "2026-09-09T21:44:56.0",
+            "readingTimeLocal": "2026-09-10T05:44:56.0"
+          },
+          {
+            "hrvValue": 85,
+            "readingTimeGMT": "2026-09-09T21:49:56.0",
+            "readingTimeLocal": "2026-09-10T05:49:56.0"
+          },
+          {
+            "hrvValue": 79,
+            "readingTimeGMT": "2026-09-09T21:54:56.0",
+            "readingTimeLocal": "2026-09-10T05:54:56.0"
+          },
+          {
+            "hrvValue": 82,
+            "readingTimeGMT": "2026-09-09T21:59:56.0",
+            "readingTimeLocal": "2026-09-10T05:59:56.0"
+          },
+          {
+            "hrvValue": 87,
+            "readingTimeGMT": "2026-09-09T22:04:56.0",
+            "readingTimeLocal": "2026-09-10T06:04:56.0"
+          },
+          {
+            "hrvValue": 86,
+            "readingTimeGMT": "2026-09-09T22:09:56.0",
+            "readingTimeLocal": "2026-09-10T06:09:56.0"
+          },
+          {
+            "hrvValue": 86,
+            "readingTimeGMT": "2026-09-09T22:14:56.0",
+            "readingTimeLocal": "2026-09-10T06:14:56.0"
+          },
+          {
+            "hrvValue": 84,
+            "readingTimeGMT": "2026-09-09T22:19:56.0",
+            "readingTimeLocal": "2026-09-10T06:19:56.0"
+          },
+          {
+            "hrvValue": 93,
+            "readingTimeGMT": "2026-09-09T22:24:56.0",
+            "readingTimeLocal": "2026-09-10T06:24:56.0"
+          },
+          {
+            "hrvValue": 68,
+            "readingTimeGMT": "2026-09-09T22:29:56.0",
+            "readingTimeLocal": "2026-09-10T06:29:56.0"
+          },
+          {
+            "hrvValue": 84,
+            "readingTimeGMT": "2026-09-09T22:34:56.0",
+            "readingTimeLocal": "2026-09-10T06:34:56.0"
+          },
+          {
+            "hrvValue": 102,
+            "readingTimeGMT": "2026-09-09T22:39:56.0",
+            "readingTimeLocal": "2026-09-10T06:39:56.0"
+          },
+          {
+            "hrvValue": 81,
+            "readingTimeGMT": "2026-09-09T22:44:56.0",
+            "readingTimeLocal": "2026-09-10T06:44:56.0"
+          },
+          {
+            "hrvValue": 90,
+            "readingTimeGMT": "2026-09-09T22:49:56.0",
+            "readingTimeLocal": "2026-09-10T06:49:56.0"
+          },
+          {
+            "hrvValue": 90,
+            "readingTimeGMT": "2026-09-09T22:54:56.0",
+            "readingTimeLocal": "2026-09-10T06:54:56.0"
+          }
+        ],
+        "startTimestampGMT": "2026-09-09T17:07:37.0",
+        "endTimestampGMT": "2026-09-09T22:54:56.0",
+        "startTimestampLocal": "2026-09-10T01:07:37.0",
+        "endTimestampLocal": "2026-09-10T06:54:56.0",
+        "sleepStartTimestampGMT": null,
+        "sleepEndTimestampGMT": null,
+        "sleepStartTimestampLocal": null,
+        "sleepEndTimestampLocal": null
+      },
+      "training_readiness": []
     }
   ],
   "performance": {
@@ -575285,6 +575740,27 @@
       "race_pred_marathon": "3:49:14",
       "avg_respiration": 14.0,
       "sleep_respiration": 15.0,
+      "avg_spo2": null
+    },
+    "2026-09-11": {
+      "training_status": "MAINTAINING_4",
+      "fitness_trend": 2,
+      "acwr": 0.6,
+      "acwr_status": "LOW",
+      "acute_load": 200,
+      "chronic_load": 314,
+      "aerobic_low_load": 635.57355,
+      "aerobic_high_load": 300.54248,
+      "load_balance_feedback": "AEROBIC_LOW_FOCUS",
+      "vo2max_precise": 57.3,
+      "heat_acclimation_pct": 62,
+      "heat_trend": "DEACCLIMATIZING",
+      "race_pred_5k": "20:22",
+      "race_pred_10k": "44:16",
+      "race_pred_hm": "1:41:18",
+      "race_pred_marathon": "3:49:14",
+      "avg_respiration": 11.0,
+      "sleep_respiration": null,
       "avg_spo2": null
     }
   },
