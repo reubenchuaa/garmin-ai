@@ -1,4 +1,4 @@
-_Updated: Sunday, 13 Sep 2026 at 07:13 PM SGT_
+_Updated: Sunday, 13 Sep 2026 at 07:14 PM SGT_
 
 **Yesterday's 15.03km long run is your best HM anchor yet — today the job is banking that gain, not chasing another one.**
 
@@ -10,8 +10,8 @@ Rest. Yesterday was your biggest run in months — glycogen restocking and muscl
 
 **3-Day Plan**
 - Today (Sunday, 13 September 2026): Rest — full recovery from yesterday's 15km long run.
-- Monday, 14 September 2026: Easy 5–6km outdoors, HR ≤135 — Xiaonian's second outing, rebuilds heat exposure and confirms the shoe before trusting it for quality.
-- Tuesday, 15 September 2026: Tempo 6–7km at 6:00–6:15/km, HR 155–165 — Xiaonian if clean from Monday. 48h post long run; raises lactate threshold, the single biggest lever on HM time.
+- Monday, 14 September 2026: Easy 5–6km outdoors, HR ≤135 — debut the Xiaonian here (still unbroken-in), rebuilds heat exposure.
+- Tuesday, 15 September 2026: Tempo 6–7km at 6:00–6:15/km, HR 155–165 — Kayano 31 (Xiaonian's only had one easy outing, not yet trusted for quality). 48h post long run; raises lactate threshold, the single biggest lever on HM time.
 
 **Fuel**
 Yesterday burned 2,812 kcal (active 1,024 + BMR 1,788); today's rest-day target ~2,050 kcal to recover fully without a deficit.
