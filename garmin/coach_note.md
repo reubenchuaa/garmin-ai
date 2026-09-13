@@ -1,4 +1,4 @@
-_Updated: Sunday, 13 Sep 2026 at 07:14 PM SGT_
+_Updated: Sunday, 13 Sep 2026 at 07:29 PM SGT_
 
 **Yesterday's 15.03km long run is your best HM anchor yet — today the job is banking that gain, not chasing another one.**
 
