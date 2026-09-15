@@ -601141,20 +601141,20 @@
     {
       "date": "2026-09-15",
       "wellness": {
-        "totalSteps": 11582,
-        "totalDistanceMeters": 14240,
-        "averageStressLevel": 28,
-        "maxStressLevel": 94,
+        "totalSteps": 33785,
+        "totalDistanceMeters": 35132,
+        "averageStressLevel": 31,
+        "maxStressLevel": 99,
         "bodyBatteryHighestValue": 81,
-        "bodyBatteryLowestValue": 9,
+        "bodyBatteryLowestValue": 5,
         "floorsAscended": 36,
         "restingHeartRate": 46,
-        "maxAvgHeartRate": 111,
+        "maxAvgHeartRate": 157,
         "minAvgHeartRate": 44,
-        "moderateIntensityMinutes": 21,
-        "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 359,
-        "totalKilocalories": 1613
+        "moderateIntensityMinutes": 31,
+        "vigorousIntensityMinutes": 107,
+        "activeKilocalories": 1351,
+        "totalKilocalories": 2915
       },
       "sleep": {
         "dailySleepDTO": {
