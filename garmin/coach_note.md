@@ -1,4 +1,4 @@
-_Updated: Monday, 14 Sep 2026 at 10:14 PM SGT_
+_Updated: Tuesday, 15 Sep 2026 at 11:17 PM SGT_
 
 **Today's short treadmill test is done — tomorrow's outdoor easy run is what actually rebuilds you.**
 
