@@ -1,26 +1,26 @@
-_Updated: Wednesday, 16 Sep 2026 at 12:26 AM SGT_
+_Updated: Wednesday, 16 Sep 2026 at 10:04 PM SGT_
 
-**Yesterday's 18.24km tempo-effort is banked fitness — now let it convert with a genuine rest day, not another session.**
+**Readiness climbed back to 57 overnight — legs earned today's rest, but Peak Block closes in 3 days and you still owe an outdoor run and a 16-17km long run before Race Taper starts.**
 
 **What your data says**
-ACWR was 0.9 (OPTIMAL, acute 300/chronic 310) Monday, pre-effort — expect it to jump once recomputed, hence true recovery today. Garmin's HM ceiling still reads 1:38:41 (VO2max 56.8), but that's best-case: buffered off yesterday's sub-threshold 18.24km @ ~5:59/km, HR 143 (12+ beats under tempo band), realistic range is **1:52-2:00**, 1:45-1:50 only with a clean taper and cool race day — still soft without a full-effort time trial. Heat acclimation was 53% Monday, likely lower now after two straight indoor sessions; Thursday's outdoor run fixes that. Readiness read 38 (LOW) yesterday morning, pre-effort — HRV steady/balanced (80) but sleep short two nights (5.95h, 6.33h). Today's readiness hasn't synced, but the signal's clear: legs need the rest.
+ACWR sits at 0.9 (OPTIMAL, acute 276/chronic 304) — load is well-balanced, training status MAINTAINING. Garmin's HM ceiling reads 1:38:55 (VO2max 56.8), but that's best-case off yesterday's sub-threshold 18.24km @ 6:00/km, HR 143 (well under tempo band) rather than a true race effort — realistic range stays **1:52–2:00**, with 1:45–1:50 needing a clean taper and cool conditions; still soft without a genuine HM-specific long run or time trial to anchor it. Heat acclimation dropped to 49% and is DEACCLIMATIZING after two straight indoor treadmill sessions — tomorrow's outdoor run is now essential. Readiness rebounded to 57 from yesterday's low 38, HRV steady (71 last night vs 81 weekly avg, still BALANCED), sleep 6.77h, RHR 49 (vs ~47 baseline) — nothing alarming, just a body still absorbing yesterday's effort.
 
 **Today's session**
-Rest, or a 20-30min easy shakeout if you feel like moving, HR ≤135. Yesterday's effort was quality-sized on already-low readiness — recovery is when it converts to fitness, not a bonus extra.
+Rest, or an easy 20-30min shakeout if you feel restless, HR ≤135. Adaptation from yesterday's big tempo effort happens today, during recovery — not on the run itself.
 
 **3-Day Plan**
-- Today (Wednesday, 16 September 2026): Rest or 20-30min easy shakeout, HR ≤135.
-- Thursday, 17 September 2026: Easy 6-8km outdoors (Kayano), HR ≤135 — heat re-acclimation is the priority, not pace.
-- Friday, 18 September 2026: Rest — bank full recovery ahead of a long run this weekend; Peak Block still owes one more 16-17km effort before Race Taper starts Sep 20.
+- Today (Wednesday, 16 September 2026): Rest.
+- Thursday, 17 September 2026: Easy 6-8km outdoors (Kayano), HR ≤135 — priority is heat re-acclimation, not pace.
+- Friday, 18 September 2026: Rest — bank full recovery; Peak Block ends Sep 19 and still owes one 16-17km long run before Race Taper starts Sep 20, so target that over the weekend.
 
 **Fuel**
-Yesterday's massive session burned 2,915 kcal total (1,351 active + 1,564 BMR) — today's a recovery day, so target ≈2,050 kcal to refuel that effort without stacking new load.
+Yesterday burned 3,140 kcal (1,352 active + 1,788 BMR) — today's a recovery day after that big effort, so target ≈2,100 kcal to refuel without stacking new load.
 - Breakfast: Kaya toast set — ~450
 - Lunch: Chicken rice — ~600
-- Snack: Yogurt + soy milk — ~250
-- Dinner: Bak chor mee — ~500
+- Snack: Yogurt — ~150
+- Dinner: Laksa — ~700
 - Evening: Banana + kopi — ~220
-Total ≈ 2,020 kcal. Yesterday's run alone (1,351 active kcal) ≈ nearly 4 Milo dinosaurs.
+Total ≈ 2,120 kcal. Yesterday's tempo effort alone (1,352 active kcal) ≈ about 4 Milo dinosaurs.
 
 **Coach's take**
-Sustaining tempo pace at HR 143 for almost two hours is real, race-ready fitness — protect it today so it's still there when Peak Block's next long run and Race Taper arrive.
+A 56.8 VO2max and 18km at HR143 says the engine is there — bank today's rest, get outside tomorrow, and lock in this weekend's long run, and the sub-1:50 case stops being theoretical.
