@@ -602028,9 +602028,9 @@
             "feedbackType": "EXERCISE_TRAINING_EFFECT_BELOW_2",
             "shortFeedback": "EASY_RECOVERY",
             "deviceId": 3436655159,
-            "activityName": null,
-            "activityType": null,
-            "activityId": null,
+            "activityName": "Singapore Walking",
+            "activityType": "walking",
+            "activityId": 24365928491,
             "eventUpdateTimeGmt": "2026-09-15T05:55:44"
           },
           {
