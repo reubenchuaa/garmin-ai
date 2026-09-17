@@ -1,9 +1,9 @@
-_Updated: Thursday, 17 Sep 2026 at 11:02 PM SGT_
+_Updated: Thursday, 17 Sep 2026 at 11:35 PM SGT_
 
-**10km banked tonight (avg HR 140) — solid volume, but another treadmill session means heat acclimation keeps sliding with 10 days to race day.**
+**10km banked tonight (avg HR 140) — solid volume, but a fourth straight treadmill session means heat acclimation keeps sliding with 10 days to go.**
 
 **What your data says**
-ACWR sits at 1.1 (OPTIMAL, acute 369 / chronic 316), training status MAINTAINING — load is exactly where it needs to be this close to race day. Garmin's HM ceiling reads 1:38:01 off a 56.8 VO2max — that's best-case, not expected. Riegel off Sep 15's 18.24km near-HM effort (~6:00/km) still points to ~2:06–2:08; realistic range stays **2:00–2:10** vs your 1:45–1:50 goal, and it's still soft with no true HM-pace test banked yet. Heat acclimation dropped further to 43% and is deacclimatizing — tonight was your fourth straight indoor session, so the slide continues with 10 days left. Readiness read LOW today (39), RHR ticked up to 51 (+4 vs your ~47 baseline), and stress is elevated (56) — real fatigue signals worth respecting tomorrow.
+ACWR sits at 1.1 (OPTIMAL, acute 369 / chronic 316), training status MAINTAINING — load is exactly where it should be this close to race day. Garmin's HM ceiling reads 1:38:01 off a 56.8 VO2max — that's best-case, not expected. Riegel off Sep 15's 18.24km near-HM effort (~6:00/km, avg HR 143) points to ~2:07–2:08; realistic range stays **2:00–2:10** vs your 1:45–1:50 goal, and it's still soft with no true HM-pace time trial banked yet. Heat acclimation dropped to 43% and is deacclimatizing — tonight was your fourth straight indoor session. Readiness read LOW (39), RHR ticked to 51 (+4 vs your ~47 baseline), and stress is elevated (60) — real fatigue signals worth respecting tomorrow. HRV stays BALANCED (weekly avg 80), so this looks like transient session fatigue, not a deeper decline.
 
 **Today's session**
 Done ✅ — 10km treadmill, 60.1min, avg HR 140. Solid aerobic volume, comfortably under tempo HR, but indoors again means zero heat-acclimation credit. No more running needed today.
