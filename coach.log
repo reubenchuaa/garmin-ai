@@ -878,3 +878,4 @@ All data saved to garmin/data.json
 Markdown notes written: 12 files
   [auth] Token OK — refresh token valid for 12 more days
   [git] Stale lock detected (16095s old), removing
+  [git] Stale lock detected (27766s old), removing
