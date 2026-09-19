@@ -1,26 +1,26 @@
-_Updated: Saturday, 19 Sep 2026 at 11:29 PM SGT_
+_Updated: Sunday, 20 Sep 2026 at 12:02 AM SGT_
 
-**Today's outdoor long run slipped — the fix is simple: get it done tomorrow morning before taper eats the window.**
+**Race Taper starts today — get outside for this long run and you bank real HM endurance and heat tolerance in one shot, with 7 days left to arrive fresh.**
 
 **What your data says**
-ACWR sits at 0.9 (OPTIMAL, acute 278 / chronic 297) — Peak Block closes tonight with load right in the safe zone. Garmin's HM ceiling is 1:38:25 off a strong 56.8 VO2max, but that's best-case only: Riegel off Sep 15's 18.24km near-HM effort (6:00/km, HR 143, treadmill) points closer to 2:07–2:08, so the honest range stays **2:00–2:10** vs your 1:45–1:50 goal — still soft with no outdoor HM-pace time trial banked yet. Heat acclimation has slid to 35% and is DEACCLIMATIZING after three treadmill sessions (Sep 14/15/17); your last outdoor run was Sep 12, seven days ago. RHR is back to baseline 47 (was 51 mid-week), readiness climbed 39→77→70 over the last three days, HRV is BALANCED (80 last night / 76 weekly) — the body's ready, you just didn't get outside today.
+ACWR sits at 0.9 (OPTIMAL, acute 278 / chronic 297) right as Race Taper opens — load is exactly where it should be heading into race week. Garmin's HM ceiling is 1:38:25 off a strong 56.8 VO2max, but that's best-case only: Riegel off Sep 15's 18.24km sustained effort (6:00/km, HR 143) points closer to 2:07–2:08, so the honest range stays **2:00–2:10** vs your 1:45–1:50 goal — still soft with no outdoor HM-pace time trial banked. Heat acclimation has slid to 35% and is DEACCLIMATIZING (last outdoor run Sep 12, 8 days ago); with a week to go, full re-acclimation isn't realistic, so race-day pacing needs an extra heat buffer. Training readiness is 70 (up from a 39 dip on Sep 17), RHR back to baseline 47, HRV BALANCED (80 last night / 76 weekly) — the body's ready to work.
 
 **Today's session**
-No run logged, and it's now late — forcing 12–14km outdoors tonight isn't the move. A fresh, fully-fuelled long run tomorrow morning while it's cool beats a rushed one at midnight.
+Long run, 10–12km OUTDOORS (not treadmill), easy effort, HR ≤135, Kayano 31. Purpose: re-anchor a stale HM endurance prediction and start clawing back heat tolerance before taper volume drops further — one run, two jobs.
 
 **3-Day Plan**
-- Today (Saturday, 19 September 2026): Missed — no session logged; sleep instead of forcing a late run.
-- Sunday, 20 September 2026: Long run, 10–12km outdoors, easy, HR ≤135 — last real window to re-anchor HM endurance and claw back heat tolerance before taper deepens.
-- Monday, 21 September 2026: Easy recovery or rest, HR ≤135 — protect Sunday's adaptation before tempo work resumes.
+- Today (Sunday, 20 September 2026): Long run, 10–12km outdoors, easy, HR ≤135
+- Monday, 21 September 2026: Rest or easy 30min recovery, HR ≤135 — protect today's adaptation
+- Tuesday, 22 September 2026: Easy 5–6km + 4x20s relaxed strides, HR ≤135 — taper volume down, keep legs sharp
 
 **Fuel**
-Yesterday burned 2,054 kcal total (active 266, BMR 1,788). No training today, so target ≈2,050 kcal to hold maintenance — not a deficit.
+Yesterday burned 1,607 kcal total (active 103, BMR 1,504). Today's long run pushes burn higher, so target ≈2,500 kcal to fuel training and protect recovery — not a deficit.
 - Breakfast: Kaya toast set + soy milk — ~450
-- Lunch: Chicken rice — ~600
+- Lunch: Char kway teow — ~740
 - Snack: Banana + yogurt — ~255
-- Dinner: Economy rice, 1 meat 2 veg — ~600
-- Evening: Kopi — ~115
-Total ≈ 2,020 kcal.
+- Dinner: Laksa — ~700
+- Evening: Milo dinosaur — ~350
+Total ≈ 2,495 kcal. Today's run alone ≈ 1 chicken rice worth of burn.
 
 **Coach's take**
-One missed session doesn't dent an OPTIMAL-load, BALANCED-HRV body — get tomorrow's long run outside and you've lost nothing but a day.
+OPTIMAL load, climbing readiness, balanced HRV — the body's primed; get this long run outside today and the 7-day taper starts from a position of strength, not repair.
