@@ -1,26 +1,27 @@
-_Updated: Thursday, 17 Sep 2026 at 11:35 PM SGT_
+_Updated: Saturday, 19 Sep 2026 at 01:48 PM SGT_
 
-**10km banked tonight (avg HR 140) — solid volume, but a fourth straight treadmill session means heat acclimation keeps sliding with 10 days to go.**
+**Readiness bounced back to 70 and ACWR sits at a textbook 0.9 — today's long run is your last real shot to bank outdoor heat tolerance before Race Taper opens tomorrow.**
 
 **What your data says**
-ACWR sits at 1.1 (OPTIMAL, acute 369 / chronic 316), training status MAINTAINING — load is exactly where it should be this close to race day. Garmin's HM ceiling reads 1:38:01 off a 56.8 VO2max — that's best-case, not expected. Riegel off Sep 15's 18.24km near-HM effort (~6:00/km, avg HR 143) points to ~2:07–2:08; realistic range stays **2:00–2:10** vs your 1:45–1:50 goal, and it's still soft with no true HM-pace time trial banked yet. Heat acclimation dropped to 43% and is deacclimatizing — tonight was your fourth straight indoor session. Readiness read LOW (39), RHR ticked to 51 (+4 vs your ~47 baseline), and stress is elevated (60) — real fatigue signals worth respecting tomorrow. HRV stays BALANCED (weekly avg 80), so this looks like transient session fatigue, not a deeper decline.
+ACWR reads 0.9 (OPTIMAL, acute 278 / chronic 297) — Friday's rest brought load right back into the safe zone after Thursday's spike. Garmin's HM ceiling is 1:38:25 off a 56.8 VO2max — that's best-case, not expected. Riegel off Sep 15's 18.24km near-HM effort (~6:00/km, HR 143) points to ~2:07–2:08; realistic range stays **2:00–2:10** vs your 1:45–1:50 goal, still soft with no outdoor HM-pace time trial banked yet. The rest day worked: RHR is back to baseline 47 (was 51), readiness jumped 39→77→70, stress dropped to 24, HRV stays BALANCED (80, weekly avg 76) — you're recovered and cleared for today's session. Heat acclimation slid to 35% and is still DEACCLIMATIZING after three straight treadmill runs (Sep 14, 15, 17). Today is also the final day of Peak Block — Race Taper opens tomorrow.
 
 **Today's session**
-Done ✅ — 10km treadmill, 60.1min, avg HR 140. Solid aerobic volume, comfortably under tempo HR, but indoors again means zero heat-acclimation credit. No more running needed today.
+Long run, 12–14km, easy effort, HR ≤135 — OUTDOORS, non-negotiable. Purpose: re-anchor HM-specific endurance (last outdoor long run was Sep 12's 15km) and claw back real heat tolerance that four indoor sessions have been bleeding away, right before the taper window closes that door for good.
 
 **3-Day Plan**
-- Today (Thursday, 17 September 2026): 10km treadmill run — DONE ✅.
-- Friday, 18 September 2026: Rest — readiness is low and RHR/stress are both up; recovery banks tonight's fitness and sets up a clean Saturday.
-- Saturday, 19 September 2026: Long run, 12–14km easy, HR ≤135, OUTDOORS if at all possible — your best remaining shot at heat re-acclimation before Race Taper starts Sep 20.
+- Today (Saturday, 19 September 2026): Long run, 12–14km outdoors, easy, HR ≤135.
+- Sunday, 20 September 2026: Rest — Race Taper begins; bank today's adaptation, no running.
+- Monday, 21 September 2026: Tempo, 5–6km @ 6:00–6:15/km, HR 155–165, with warm-up/cool-down — maintain sharpness at reduced volume per taper principles.
 
 **Fuel**
-Tonight's run burned 545 kcal on top of ~1,788 kcal BMR (total ≈2,333) — target ≈2,400–2,450 kcal to fully refuel and protect tomorrow's recovery.
+Yesterday (rest day) burned 2,054 kcal total (active 266, BMR 1,788). Today's long run adds ~750–850 active kcal — intake target ≈2,650 kcal to fully refuel and protect recovery, not a deficit.
 - Breakfast: Kaya toast set + soy milk — ~550
 - Lunch: Chicken rice — ~600
 - Snack: Banana + yogurt — ~255
-- Dinner: Laksa — ~700
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,455 kcal. Tonight's run alone ≈ 1.5 Milo dinosaurs.
+- Post-run: Milo dinosaur — ~350
+- Dinner: Bak chor mee — ~500
+- Evening: Roti prata 2pc + curry — ~400
+Total ≈ 2,655 kcal. Today's run alone ≈ 1 laksa.
 
 **Coach's take**
-Ten days out, the engine is exactly where it needs to be — get outside for Saturday's long run and you'll bank both the fitness and the heat tolerance this race actually demands.
+Everything's flashing green — load optimal, body recovered, engine strong — so get outside today and bank the heat tolerance this race will actually demand.
