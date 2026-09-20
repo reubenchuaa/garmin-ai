@@ -1,9 +1,9 @@
-_Updated: Sunday, 20 Sep 2026 at 11:33 PM SGT_
+_Updated: Sunday, 20 Sep 2026 at 11:51 PM SGT_
 
-**Race Taper Day 1 — one more outdoor long run to bank heat tolerance and sharpen your soft HM read before the volume drops for good.**
+**Race Taper Day 1 — the outdoor long run is still the priority tonight; get it in before the taper volume drops for good.**
 
 **What your data says**
-ACWR sits at 0.7 (LOW, acute 230 vs chronic 289) — by design, the taper pulling load down, not a fitness leak. Garmin's 1:39:23 HM ceiling is VO2max-only (56.8); Riegel off Sep 15's 18.24km treadmill effort (~6:00/km, HR 143) points closer to ~2:08, so the honest range stays **2:00–2:10** vs your 1:45–1:50 goal — still soft without a genuine outdoor HM-pace anchor. Heat acclimation has slipped to 31% and is DEACCLIMATIZING (8 days since your last outdoor run, Sep 12); with 7 days to race day that needs reversing now. Recovery is strong — Readiness 76 (HIGH), RHR 46 (at baseline), HRV 82 vs 76 weekly avg (BALANCED) — you're primed to work today.
+ACWR sits at 0.7 (LOW, acute 230 vs chronic 289) — that's the taper pulling load down by design, not a fitness leak. Garmin's 1:39:23 HM ceiling is VO2max-only (56.8); Riegel off Sep 15's 18.24km treadmill effort (~6:00/km, HR 143) points closer to ~2:08, so the honest range stays **2:00–2:10** vs your 1:45–1:50 goal — still soft without a genuine outdoor HM-pace anchor. Heat acclimation has slipped to 31% and is DEACCLIMATIZING (8 days since your last outdoor run, Sep 12); with 7 days to race day that needs reversing now. Recovery is excellent — Readiness 76 (HIGH), RHR 46 (at baseline), HRV 82 vs 76 weekly avg (BALANCED) — the body is primed, so don't let this session slip.
 
 **Today's session**
 Long run, 10–12km OUTDOORS, easy effort, HR ≤135, Kayano 31. This is your last real aerobic/heat stimulus before taper volume drops hard — it re-anchors the soft HM number with genuine outdoor data and starts clawing back lost acclimation.
@@ -23,4 +23,4 @@ Yesterday burned 1,912 kcal (active 124, BMR 1,788). Today's long run pushes cos
 Total ≈ 2,460 kcal. Today's run alone ≈ 1 char kway teow worth of burn.
 
 **Coach's take**
-Readiness at 76 and HRV back above baseline say the fitness is banked, not lost — get outside today and both your heat tolerance and the HM number swing back toward 1:50.
+Readiness at 76 and HRV back above baseline say the fitness is banked, not lost — get outside tonight and both your heat tolerance and the HM number swing back toward 1:50.
