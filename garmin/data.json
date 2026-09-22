@@ -642402,7 +642402,7 @@
         "averageStressLevel": 42,
         "maxStressLevel": 95,
         "bodyBatteryHighestValue": 86,
-        "bodyBatteryLowestValue": 11,
+        "bodyBatteryLowestValue": 9,
         "floorsAscended": 1,
         "restingHeartRate": 46,
         "maxAvgHeartRate": 105,
@@ -642410,7 +642410,7 @@
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
         "activeKilocalories": 72,
-        "totalKilocalories": 1759
+        "totalKilocalories": 1860
       },
       "sleep": {
         "dailySleepDTO": {
@@ -651787,10 +651787,10 @@
       "vo2max_precise": 56.8,
       "heat_acclimation_pct": 18,
       "heat_trend": "DEACCLIMATIZING",
-      "race_pred_5k": "20:25",
-      "race_pred_10k": "43:53",
-      "race_pred_hm": "1:40:43",
-      "race_pred_marathon": "3:51:39",
+      "race_pred_5k": "20:30",
+      "race_pred_10k": "44:03",
+      "race_pred_hm": "1:41:06",
+      "race_pred_marathon": "3:52:30",
       "avg_respiration": 15.0,
       "sleep_respiration": 15.0,
       "avg_spo2": null
