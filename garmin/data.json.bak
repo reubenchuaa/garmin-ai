@@ -650075,7 +650075,7 @@
       "wellness": {
         "totalSteps": 10326,
         "totalDistanceMeters": 7942,
-        "averageStressLevel": 47,
+        "averageStressLevel": 48,
         "maxStressLevel": 99,
         "bodyBatteryHighestValue": 65,
         "bodyBatteryLowestValue": 5,
@@ -650086,7 +650086,7 @@
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
         "activeKilocalories": 341,
-        "totalKilocalories": 1934
+        "totalKilocalories": 2044
       },
       "sleep": {
         "dailySleepDTO": {
