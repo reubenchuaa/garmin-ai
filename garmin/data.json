@@ -673008,20 +673008,20 @@
     {
       "date": "2026-09-27",
       "wellness": {
-        "totalSteps": 12060,
-        "totalDistanceMeters": 11962,
-        "averageStressLevel": 55,
+        "totalSteps": 18780,
+        "totalDistanceMeters": 17129,
+        "averageStressLevel": 58,
         "maxStressLevel": 97,
         "bodyBatteryHighestValue": 50,
-        "bodyBatteryLowestValue": 33,
-        "floorsAscended": 14,
+        "bodyBatteryLowestValue": 15,
+        "floorsAscended": 16,
         "restingHeartRate": 51,
         "maxAvgHeartRate": 156,
         "minAvgHeartRate": 59,
         "moderateIntensityMinutes": 3,
         "vigorousIntensityMinutes": 55,
-        "activeKilocalories": 577,
-        "totalKilocalories": 1068
+        "activeKilocalories": 764,
+        "totalKilocalories": 1736
       },
       "sleep": {
         "dailySleepDTO": {
@@ -673084,6 +673084,37 @@
       },
       "hrv": {},
       "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-09-27",
+          "timestamp": "2026-09-27T03:49:09.0",
+          "timestampLocal": "2026-09-27T11:49:09.0",
+          "deviceId": 3436655159,
+          "level": "LOW",
+          "feedbackLong": "LOW_RT_HIGH_SS_UNKNOWN",
+          "feedbackShort": "HIGH_RECOVERY_NEEDS",
+          "score": 25,
+          "sleepScore": null,
+          "sleepScoreFactorPercent": 0,
+          "sleepScoreFactorFeedback": "NONE",
+          "recoveryTime": 2721,
+          "recoveryTimeFactorPercent": 32,
+          "recoveryTimeFactorFeedback": "POOR",
+          "acwrFactorPercent": 98,
+          "acwrFactorFeedback": "GOOD",
+          "acuteLoad": 210,
+          "stressHistoryFactorPercent": 50,
+          "stressHistoryFactorFeedback": "MODERATE",
+          "hrvFactorPercent": 82,
+          "hrvFactorFeedback": "GOOD",
+          "hrvWeeklyAverage": 69,
+          "sleepHistoryFactorPercent": 59,
+          "sleepHistoryFactorFeedback": "MODERATE",
+          "validSleep": false,
+          "inputContext": "UPDATE_REALTIME_VARIABLES",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        },
         {
           "userProfilePK": 9515677,
           "calendarDate": "2026-09-27",
@@ -674974,7 +675005,7 @@
       "race_pred_10k": "43:02",
       "race_pred_hm": "1:38:35",
       "race_pred_marathon": "3:45:58",
-      "avg_respiration": 15.0,
+      "avg_respiration": 14.0,
       "sleep_respiration": null,
       "avg_spo2": null
     }
