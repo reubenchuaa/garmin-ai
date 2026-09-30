@@ -673985,14 +673985,14 @@
         "bodyBatteryMostRecentValue": null,
         "bodyBatteryDuringSleep": null,
         "bodyBatteryAtWakeTime": null,
-        "bodyBatteryVersion": null,
+        "bodyBatteryVersion": 3.0,
         "abnormalHeartRateAlertsCount": null,
         "averageSpo2": null,
         "lowestSpo2": null,
         "latestSpo2": null,
         "latestSpo2ReadingTimeGmt": null,
         "latestSpo2ReadingTimeLocal": null,
-        "averageMonitoringEnvironmentAltitude": null,
+        "averageMonitoringEnvironmentAltitude": 22.0,
         "restingCaloriesFromActivity": null
       },
       "sleep": {
