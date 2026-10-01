@@ -673722,20 +673722,20 @@
     {
       "date": "2026-10-01",
       "wellness": {
-        "totalSteps": 4337,
-        "totalDistanceMeters": 3335,
-        "averageStressLevel": 49,
-        "maxStressLevel": 88,
+        "totalSteps": 6997,
+        "totalDistanceMeters": 5385,
+        "averageStressLevel": 48,
+        "maxStressLevel": 90,
         "bodyBatteryHighestValue": 83,
-        "bodyBatteryLowestValue": 53,
-        "floorsAscended": 2,
-        "restingHeartRate": 57,
+        "bodyBatteryLowestValue": 23,
+        "floorsAscended": 3,
+        "restingHeartRate": 64,
         "maxAvgHeartRate": 96,
-        "minAvgHeartRate": 62,
+        "minAvgHeartRate": 60,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 102,
-        "totalKilocalories": 1005
+        "activeKilocalories": 140,
+        "totalKilocalories": 1639
       },
       "sleep": {
         "dailySleepDTO": {
