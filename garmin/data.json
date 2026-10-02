@@ -673834,20 +673834,20 @@
     {
       "date": "2026-10-02",
       "wellness": {
-        "totalSteps": 4411,
-        "totalDistanceMeters": 3401,
-        "averageStressLevel": 38,
+        "totalSteps": 6334,
+        "totalDistanceMeters": 4879,
+        "averageStressLevel": 41,
         "maxStressLevel": 91,
         "bodyBatteryHighestValue": 80,
-        "bodyBatteryLowestValue": 54,
-        "floorsAscended": 3,
+        "bodyBatteryLowestValue": 46,
+        "floorsAscended": 5,
         "restingHeartRate": 57,
         "maxAvgHeartRate": 108,
         "minAvgHeartRate": 57,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 110,
-        "totalKilocalories": 1038
+        "activeKilocalories": 156,
+        "totalKilocalories": 1565
       },
       "sleep": {
         "dailySleepDTO": {
