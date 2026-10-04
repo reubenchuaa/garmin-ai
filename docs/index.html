@@ -27,10 +27,10 @@ a{color:inherit;text-decoration:none}
 .card .val{font-size:1.5rem;font-weight:700;color:#f1f5f9;line-height:1}
 .card .sub2{font-size:0.7rem;color:#94a3b8;margin-top:2px}
 .tr-wrap{display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:start}
-.tr-card{background:#1e293b;border-radius:10px;padding:14px 16px;border:2px solid #6b7280;min-width:110px;text-align:center}
+.tr-card{background:#1e293b;border-radius:10px;padding:14px 16px;border:2px solid #10b981;min-width:110px;text-align:center}
 .tr-card .lbl{font-size:0.65rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
-.tr-card .score{font-size:2.8rem;font-weight:800;color:#6b7280;line-height:1}
-.tr-card .level{font-size:0.8rem;color:#6b7280;font-weight:700;margin-top:3px;text-transform:uppercase}
+.tr-card .score{font-size:2.8rem;font-weight:800;color:#10b981;line-height:1}
+.tr-card .level{font-size:0.8rem;color:#10b981;font-weight:700;margin-top:3px;text-transform:uppercase}
 .coach-card{background:#1e293b;border-radius:10px;padding:16px;border-left:3px solid #3b82f6}
 .coach-card p{font-size:0.88rem;line-height:1.65;color:#cbd5e1}
 .coach-card p+p{margin-top:8px}
@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 -7 days to race</span>
-    <span class="pill pill-green">Synced 04 Oct 2026 02:35 PM SGT</span>
+    <span class="pill pill-green">Synced 04 Oct 2026 03:27 PM SGT</span>
   </div>
 </div>
 </div>
@@ -90,8 +90,8 @@ tr:last-child td{border-bottom:none}
 <div class="tr-wrap">
   <div class="tr-card">
     <div class="lbl">Readiness</div>
-    <div class="score">—</div>
-    <div class="level">—</div>
+    <div class="score">89</div>
+    <div class="level">HIGH</div>
   </div>
   <div class="cards" style="margin:0">
     <div class="card"><div class="lbl">Resting HR</div><div class="val">57</div><div class="sub2">bpm</div></div>
@@ -234,7 +234,7 @@ tr:last-child td{border-bottom:none}
 const LB=["09-21", "09-22", "09-23", "09-24", "09-25", "09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
 new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[82,86,65,58,97,91,50,66,75,76,83,80,null,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[10,9,5,5,12,22,5,8,11,19,17,16,null,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[78,79,74,77,81,70,25,58,81,83,85,null,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[78,79,74,77,81,70,25,58,81,83,85,89,null,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[47,46,49,50,46,51,51,52,54,64,61,57,null,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[34,42,48,29,26,69,54,52,47,42,47,40,null,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[1.7,1.2,1.6,1.7,2.0,null,null,null,null,null,null,null,null,null],"backgroundColor":"#1e40af"},{"label":"Light","data":[4.2,4.6,4.5,4.3,4.7,null,null,null,null,null,null,null,null,null],"backgroundColor":"#60a5fa"},{"label":"REM","data":[1.1,1.3,0.5,1.6,1.1,null,null,null,null,null,null,null,null,null],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[0.1,0.9,0.2,0.2,0.7,null,null,null,null,null,null,null,null,null],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
