@@ -880,3 +880,6 @@ Markdown notes written: 12 files
   [git] Stale lock detected (16095s old), removing
   [git] Stale lock detected (27766s old), removing
   [git] Stale lock detected (74032s old), removing
+  [git] Stale lock detected (2693s old), removing
+The stash entry is kept in case you need it again.
+  [git] Stash pop conflict — resolving
