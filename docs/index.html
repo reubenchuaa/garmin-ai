@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 -12 days to race</span>
-    <span class="pill pill-green">Synced 09 Oct 2026 04:06 PM SGT</span>
+    <span class="pill pill-green">Synced 09 Oct 2026 07:03 PM SGT</span>
   </div>
 </div>
 </div>
@@ -105,7 +105,7 @@ tr:last-child td{border-bottom:none}
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">—</div><div class="sub2">ACWR · Low</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">1:45:36</div><div class="sub2">realistic · Garmin 1:42:33 · goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">58.0</div><div class="sub2">ml/kg/min</div></div>
-    <div class="card"><div class="lbl">Heat Adapt</div><div class="val">7%</div><div class="sub2">acclimatised</div></div>
+    <div class="card"><div class="lbl">Heat Adapt</div><div class="val">4%</div><div class="sub2">acclimatised</div></div>
     <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">Detraining</div><div class="sub2">Garmin</div></div>
   </div>
 </div>
@@ -234,7 +234,7 @@ tr:last-child td{border-bottom:none}
 const LB=["09-26", "09-27", "09-28", "09-29", "09-30", "10-01", "10-02", "10-03", "10-04", "10-05", "10-06", "10-07", "10-08", "10-09"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
 new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[91,50,66,75,76,83,80,16,74,null,null,null,null,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[22,5,8,11,19,17,16,5,5,null,null,null,null,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[70,25,58,81,83,85,89,83,94,94,94,94,94,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[70,25,58,81,83,85,89,83,94,94,94,94,94,94],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[51,51,52,54,64,61,57,59,62,null,null,null,null,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[69,54,52,47,42,47,40,45,46,-1,-1,-1,-1,-1],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#1e40af"},{"label":"Light","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#60a5fa"},{"label":"REM","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
