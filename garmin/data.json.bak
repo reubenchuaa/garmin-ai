@@ -674601,7 +674601,7 @@
         "floorsAscended": 0,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "totalKilocalories": 1307
+        "totalKilocalories": 1788
       },
       "sleep": {
         "dailySleepDTO": {
@@ -674700,11 +674700,20 @@
     {
       "date": "2026-10-10",
       "wellness": {
-        "averageStressLevel": null,
-        "maxStressLevel": null,
-        "floorsAscended": 0,
-        "moderateIntensityMinutes": null,
-        "vigorousIntensityMinutes": null
+        "totalSteps": 1751,
+        "totalDistanceMeters": 1356,
+        "averageStressLevel": 43,
+        "maxStressLevel": 74,
+        "bodyBatteryHighestValue": 38,
+        "bodyBatteryLowestValue": 28,
+        "floorsAscended": 2,
+        "restingHeartRate": 67,
+        "maxAvgHeartRate": 128,
+        "minAvgHeartRate": 61,
+        "moderateIntensityMinutes": 3,
+        "vigorousIntensityMinutes": 1,
+        "activeKilocalories": 51,
+        "totalKilocalories": 1839
       },
       "sleep": {
         "dailySleepDTO": {
@@ -674744,6 +674753,21 @@
             "napAdjustment": "NO_CHANGE",
             "displayedForTheDay": false,
             "preferredActivityTracker": true
+          },
+          "nextSleepNeed": {
+            "userProfilePk": 9515677,
+            "calendarDate": "2026-10-11",
+            "deviceId": 3436655159,
+            "timestampGmt": "2026-10-10T01:20:09",
+            "baseline": 480,
+            "actual": 480,
+            "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+            "trainingFeedback": "NO_CHANGE",
+            "sleepHistoryAdjustment": "NO_DATA",
+            "hrvAdjustment": "NO_DATA",
+            "napAdjustment": "NO_CHANGE",
+            "displayedForTheDay": false,
+            "preferredActivityTracker": true
           }
         },
         "sleepMovement": null,
@@ -674751,7 +674775,39 @@
         "sleepLevels": null
       },
       "hrv": {},
-      "training_readiness": []
+      "training_readiness": [
+        {
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-10-10",
+          "timestamp": "2026-10-10T01:20:09.0",
+          "timestampLocal": "2026-10-10T09:20:09.0",
+          "deviceId": 3436655159,
+          "level": "HIGH",
+          "feedbackLong": "HIGH_RT_AVAILABLE_SS_UNKNOWN_ACWR_POS",
+          "feedbackShort": "WELL_RECOVERED",
+          "score": 94,
+          "sleepScore": null,
+          "sleepScoreFactorPercent": 0,
+          "sleepScoreFactorFeedback": "NONE",
+          "recoveryTime": 1,
+          "recoveryTimeFactorPercent": 99,
+          "recoveryTimeFactorFeedback": "GOOD",
+          "acwrFactorPercent": 100,
+          "acwrFactorFeedback": "VERY_GOOD",
+          "acuteLoad": 0,
+          "stressHistoryFactorPercent": 0,
+          "stressHistoryFactorFeedback": "NONE",
+          "hrvFactorPercent": 0,
+          "hrvFactorFeedback": "NONE",
+          "hrvWeeklyAverage": 511,
+          "sleepHistoryFactorPercent": 0,
+          "sleepHistoryFactorFeedback": "NONE",
+          "validSleep": false,
+          "inputContext": "AFTER_WAKEUP_RESET",
+          "primaryActivityTracker": true,
+          "recoveryTimeChangePhrase": null
+        }
+      ]
     }
   ],
   "performance": {
@@ -676836,23 +676892,23 @@
       "avg_spo2": null
     },
     "2026-10-10": {
-      "training_status": null,
-      "fitness_trend": null,
-      "acwr": null,
-      "acwr_status": null,
-      "acute_load": null,
-      "chronic_load": null,
-      "aerobic_low_load": null,
-      "aerobic_high_load": null,
-      "load_balance_feedback": null,
-      "vo2max_precise": null,
-      "heat_acclimation_pct": null,
-      "heat_trend": null,
-      "race_pred_5k": "20:52",
-      "race_pred_10k": "44:53",
-      "race_pred_hm": "1:42:33",
-      "race_pred_marathon": "3:54:40",
-      "avg_respiration": null,
+      "training_status": "DETRAINING",
+      "fitness_trend": 0,
+      "acwr": 0.0,
+      "acwr_status": "LOW",
+      "acute_load": 0,
+      "chronic_load": 219,
+      "aerobic_low_load": 407.81314,
+      "aerobic_high_load": 0.0,
+      "load_balance_feedback": "AEROBIC_HIGH_SHORTAGE",
+      "vo2max_precise": 58.0,
+      "heat_acclimation_pct": 2,
+      "heat_trend": "DEACCLIMATIZING",
+      "race_pred_5k": "20:54",
+      "race_pred_10k": "44:58",
+      "race_pred_hm": "1:42:43",
+      "race_pred_marathon": "3:55:01",
+      "avg_respiration": 13.0,
       "sleep_respiration": null,
       "avg_spo2": null
     }
