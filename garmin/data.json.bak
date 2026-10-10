@@ -674696,6 +674696,62 @@
           "recoveryTimeChangePhrase": null
         }
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "wellness": {
+        "averageStressLevel": null,
+        "maxStressLevel": null,
+        "floorsAscended": 0,
+        "moderateIntensityMinutes": null,
+        "vigorousIntensityMinutes": null
+      },
+      "sleep": {
+        "dailySleepDTO": {
+          "id": null,
+          "userProfilePK": 9515677,
+          "calendarDate": "2026-10-10",
+          "sleepTimeSeconds": null,
+          "napTimeSeconds": null,
+          "sleepWindowConfirmed": null,
+          "sleepWindowConfirmationType": null,
+          "sleepStartTimestampGMT": null,
+          "sleepEndTimestampGMT": null,
+          "sleepStartTimestampLocal": null,
+          "sleepEndTimestampLocal": null,
+          "autoSleepStartTimestampGMT": null,
+          "autoSleepEndTimestampGMT": null,
+          "sleepQualityTypePK": null,
+          "sleepResultTypePK": null,
+          "unmeasurableSleepSeconds": null,
+          "deepSleepSeconds": null,
+          "lightSleepSeconds": null,
+          "remSleepSeconds": null,
+          "awakeSleepSeconds": null,
+          "deviceRemCapable": false,
+          "retro": false,
+          "sleepNeed": {
+            "userProfilePk": 9515677,
+            "calendarDate": "2026-10-10",
+            "deviceId": 3436655159,
+            "timestampGmt": "2026-10-09T01:45:09",
+            "baseline": 480,
+            "actual": 480,
+            "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
+            "trainingFeedback": "NO_CHANGE",
+            "sleepHistoryAdjustment": "NO_DATA",
+            "hrvAdjustment": "NO_DATA",
+            "napAdjustment": "NO_CHANGE",
+            "displayedForTheDay": false,
+            "preferredActivityTracker": true
+          }
+        },
+        "sleepMovement": null,
+        "remSleepData": null,
+        "sleepLevels": null
+      },
+      "hrv": {},
+      "training_readiness": []
     }
   ],
   "performance": {
@@ -676771,6 +676827,27 @@
       "vo2max_precise": 58.0,
       "heat_acclimation_pct": 4,
       "heat_trend": "DEACCLIMATIZING",
+      "race_pred_5k": "20:52",
+      "race_pred_10k": "44:53",
+      "race_pred_hm": "1:42:33",
+      "race_pred_marathon": "3:54:40",
+      "avg_respiration": null,
+      "sleep_respiration": null,
+      "avg_spo2": null
+    },
+    "2026-10-10": {
+      "training_status": null,
+      "fitness_trend": null,
+      "acwr": null,
+      "acwr_status": null,
+      "acute_load": null,
+      "chronic_load": null,
+      "aerobic_low_load": null,
+      "aerobic_high_load": null,
+      "load_balance_feedback": null,
+      "vo2max_precise": null,
+      "heat_acclimation_pct": null,
+      "heat_trend": null,
       "race_pred_5k": "20:52",
       "race_pred_10k": "44:53",
       "race_pred_hm": "1:42:33",
