@@ -674812,20 +674812,20 @@
     {
       "date": "2026-10-11",
       "wellness": {
-        "totalSteps": 3630,
-        "totalDistanceMeters": 2791,
-        "averageStressLevel": 47,
+        "totalSteps": 6730,
+        "totalDistanceMeters": 5175,
+        "averageStressLevel": 46,
         "maxStressLevel": 93,
         "bodyBatteryHighestValue": 78,
         "bodyBatteryLowestValue": 24,
-        "floorsAscended": 9,
-        "restingHeartRate": 65,
+        "floorsAscended": 10,
+        "restingHeartRate": 63,
         "maxAvgHeartRate": 105,
-        "minAvgHeartRate": 59,
+        "minAvgHeartRate": 56,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 69,
-        "totalKilocalories": 1171
+        "activeKilocalories": 124,
+        "totalKilocalories": 1524
       },
       "sleep": {
         "dailySleepDTO": {
