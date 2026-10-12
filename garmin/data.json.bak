@@ -674924,20 +674924,20 @@
     {
       "date": "2026-10-12",
       "wellness": {
-        "totalSteps": 7707,
-        "totalDistanceMeters": 5926,
-        "averageStressLevel": 55,
+        "totalSteps": 8969,
+        "totalDistanceMeters": 6896,
+        "averageStressLevel": 51,
         "maxStressLevel": 93,
         "bodyBatteryHighestValue": 88,
-        "bodyBatteryLowestValue": 43,
+        "bodyBatteryLowestValue": 32,
         "floorsAscended": 2,
         "restingHeartRate": 63,
         "maxAvgHeartRate": 108,
         "minAvgHeartRate": 60,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 183,
-        "totalKilocalories": 1337
+        "activeKilocalories": 208,
+        "totalKilocalories": 1613
       },
       "sleep": {
         "dailySleepDTO": {
