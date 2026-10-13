@@ -675036,20 +675036,20 @@
     {
       "date": "2026-10-13",
       "wellness": {
-        "totalSteps": 4599,
-        "totalDistanceMeters": 3537,
-        "averageStressLevel": 41,
-        "maxStressLevel": 84,
+        "totalSteps": 7764,
+        "totalDistanceMeters": 5986,
+        "averageStressLevel": 47,
+        "maxStressLevel": 86,
         "bodyBatteryHighestValue": 89,
-        "bodyBatteryLowestValue": 57,
-        "floorsAscended": 4,
+        "bodyBatteryLowestValue": 35,
+        "floorsAscended": 7,
         "restingHeartRate": 65,
-        "maxAvgHeartRate": 97,
+        "maxAvgHeartRate": 99,
         "minAvgHeartRate": 58,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 96,
-        "totalKilocalories": 1076
+        "activeKilocalories": 166,
+        "totalKilocalories": 1490
       },
       "sleep": {
         "dailySleepDTO": {
