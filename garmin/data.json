@@ -675581,12 +675581,12 @@
     {
       "date": "2026-10-16",
       "wellness": {
-        "totalSteps": 6372,
-        "totalDistanceMeters": 4899,
-        "averageStressLevel": 44,
+        "totalSteps": 6442,
+        "totalDistanceMeters": 4980,
+        "averageStressLevel": 45,
         "maxStressLevel": 81,
         "bodyBatteryHighestValue": 85,
-        "bodyBatteryLowestValue": 49,
+        "bodyBatteryLowestValue": 47,
         "floorsAscended": 11,
         "restingHeartRate": 67,
         "maxAvgHeartRate": 104,
@@ -675594,7 +675594,7 @@
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
         "activeKilocalories": 131,
-        "totalKilocalories": 1192
+        "totalKilocalories": 1332
       },
       "sleep": {
         "dailySleepDTO": {
