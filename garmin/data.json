@@ -675581,20 +675581,20 @@
     {
       "date": "2026-10-16",
       "wellness": {
-        "totalSteps": 6442,
-        "totalDistanceMeters": 4980,
-        "averageStressLevel": 45,
+        "totalSteps": 9052,
+        "totalDistanceMeters": 6991,
+        "averageStressLevel": 43,
         "maxStressLevel": 81,
         "bodyBatteryHighestValue": 85,
-        "bodyBatteryLowestValue": 47,
-        "floorsAscended": 11,
-        "restingHeartRate": 67,
+        "bodyBatteryLowestValue": 21,
+        "floorsAscended": 12,
+        "restingHeartRate": 64,
         "maxAvgHeartRate": 104,
-        "minAvgHeartRate": 61,
+        "minAvgHeartRate": 60,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 131,
-        "totalKilocalories": 1536
+        "activeKilocalories": 189,
+        "totalKilocalories": 1892
       },
       "sleep": {
         "dailySleepDTO": {
