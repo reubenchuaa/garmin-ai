@@ -675693,20 +675693,20 @@
     {
       "date": "2026-10-17",
       "wellness": {
-        "totalSteps": 2256,
-        "totalDistanceMeters": 1756,
-        "averageStressLevel": 49,
+        "totalSteps": 4890,
+        "totalDistanceMeters": 3810,
+        "averageStressLevel": 45,
         "maxStressLevel": 90,
         "bodyBatteryHighestValue": 72,
         "bodyBatteryLowestValue": 15,
-        "floorsAscended": 2,
-        "restingHeartRate": 65,
+        "floorsAscended": 8,
+        "restingHeartRate": 61,
         "maxAvgHeartRate": 103,
-        "minAvgHeartRate": 57,
+        "minAvgHeartRate": 51,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 37,
-        "totalKilocalories": 1307
+        "activeKilocalories": 75,
+        "totalKilocalories": 1643
       },
       "sleep": {
         "dailySleepDTO": {
