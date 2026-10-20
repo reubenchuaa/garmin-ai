@@ -676249,20 +676249,20 @@
     {
       "date": "2026-10-20",
       "wellness": {
-        "totalSteps": 650,
-        "totalDistanceMeters": 500,
-        "averageStressLevel": 43,
-        "maxStressLevel": 67,
+        "totalSteps": 5606,
+        "totalDistanceMeters": 4310,
+        "averageStressLevel": 50,
+        "maxStressLevel": 93,
         "bodyBatteryHighestValue": 86,
-        "bodyBatteryLowestValue": 80,
-        "floorsAscended": 0,
+        "bodyBatteryLowestValue": 56,
+        "floorsAscended": 1,
         "restingHeartRate": 65,
-        "maxAvgHeartRate": 95,
+        "maxAvgHeartRate": 104,
         "minAvgHeartRate": 63,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 10,
-        "totalKilocalories": 699
+        "activeKilocalories": 114,
+        "totalKilocalories": 1098
       },
       "sleep": {
         "dailySleepDTO": {
