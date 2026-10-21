@@ -676361,20 +676361,20 @@
     {
       "date": "2026-10-21",
       "wellness": {
-        "totalSteps": 8996,
-        "totalDistanceMeters": 6917,
-        "averageStressLevel": 38,
-        "maxStressLevel": 84,
+        "totalSteps": 11912,
+        "totalDistanceMeters": 9159,
+        "averageStressLevel": 45,
+        "maxStressLevel": 96,
         "bodyBatteryHighestValue": 89,
-        "bodyBatteryLowestValue": 44,
-        "floorsAscended": 13,
+        "bodyBatteryLowestValue": 25,
+        "floorsAscended": 14,
         "restingHeartRate": 60,
-        "maxAvgHeartRate": 99,
+        "maxAvgHeartRate": 106,
         "minAvgHeartRate": 46,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 194,
-        "totalKilocalories": 1539
+        "activeKilocalories": 285,
+        "totalKilocalories": 1928
       },
       "sleep": {
         "dailySleepDTO": {
