@@ -676598,7 +676598,7 @@
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
         "activeKilocalories": 278,
-        "totalKilocalories": 1841
+        "totalKilocalories": 2066
       },
       "sleep": {
         "dailySleepDTO": {
@@ -679063,9 +679063,9 @@
       "heat_acclimation_pct": 0,
       "heat_trend": null,
       "race_pred_5k": "21:10",
-      "race_pred_10k": "45:39",
-      "race_pred_hm": "1:44:09",
-      "race_pred_marathon": "3:58:07",
+      "race_pred_10k": "45:41",
+      "race_pred_hm": "1:44:12",
+      "race_pred_marathon": "3:58:13",
       "avg_respiration": 14.0,
       "sleep_respiration": null,
       "avg_spo2": null
