@@ -676697,20 +676697,20 @@
     {
       "date": "2026-10-24",
       "wellness": {
-        "totalSteps": 5008,
-        "totalDistanceMeters": 3851,
+        "totalSteps": 9496,
+        "totalDistanceMeters": 7302,
         "averageStressLevel": 45,
         "maxStressLevel": 91,
         "bodyBatteryHighestValue": 53,
-        "bodyBatteryLowestValue": 23,
+        "bodyBatteryLowestValue": 17,
         "floorsAscended": 4,
         "restingHeartRate": 66,
         "maxAvgHeartRate": 97,
-        "minAvgHeartRate": 61,
+        "minAvgHeartRate": 59,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 64,
-        "totalKilocalories": 1149
+        "activeKilocalories": 120,
+        "totalKilocalories": 1408
       },
       "sleep": {
         "dailySleepDTO": {
