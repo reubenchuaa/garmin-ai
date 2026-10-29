@@ -677516,20 +677516,20 @@
     {
       "date": "2026-10-29",
       "wellness": {
-        "totalSteps": 942,
-        "totalDistanceMeters": 724,
-        "averageStressLevel": 28,
-        "maxStressLevel": 65,
+        "totalSteps": 4834,
+        "totalDistanceMeters": 3717,
+        "averageStressLevel": 45,
+        "maxStressLevel": 90,
         "bodyBatteryHighestValue": 84,
         "bodyBatteryLowestValue": 13,
-        "floorsAscended": 0,
+        "floorsAscended": 1,
         "restingHeartRate": 67,
-        "maxAvgHeartRate": 101,
-        "minAvgHeartRate": 62,
+        "maxAvgHeartRate": 103,
+        "minAvgHeartRate": 60,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 22,
-        "totalKilocalories": 738
+        "activeKilocalories": 99,
+        "totalKilocalories": 1176
       },
       "sleep": {
         "dailySleepDTO": {
