@@ -677691,20 +677691,20 @@
     {
       "date": "2026-10-30",
       "wellness": {
-        "totalSteps": 927,
-        "totalDistanceMeters": 713,
-        "averageStressLevel": 42,
-        "maxStressLevel": 87,
+        "totalSteps": 3177,
+        "totalDistanceMeters": 2456,
+        "averageStressLevel": 59,
+        "maxStressLevel": 93,
         "bodyBatteryHighestValue": 83,
-        "bodyBatteryLowestValue": 72,
-        "floorsAscended": 0,
+        "bodyBatteryLowestValue": 33,
+        "floorsAscended": 2,
         "restingHeartRate": 68,
-        "maxAvgHeartRate": 94,
+        "maxAvgHeartRate": 99,
         "minAvgHeartRate": 60,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 18,
-        "totalKilocalories": 720
+        "activeKilocalories": 56,
+        "totalKilocalories": 1229
       },
       "sleep": {
         "dailySleepDTO": {
