@@ -79,7 +79,7 @@ tr:last-child td{border-bottom:none}
   <div class="sub">Kiprun Singapore Half Marathon · 1:45–1:50</div>
   <div class="pills">
     <span class="pill pill-blue">🏁 -37 days to race</span>
-    <span class="pill pill-green">Synced 03 Nov 2026 10:52 PM SGT</span>
+    <span class="pill pill-green">Synced 04 Nov 2026 01:35 AM SGT</span>
   </div>
 </div>
 </div>
@@ -95,15 +95,15 @@ tr:last-child td{border-bottom:none}
   </div>
   <div class="cards" style="margin:0">
     <div class="card"><div class="lbl">Resting HR</div><div class="val">68</div><div class="sub2">bpm</div></div>
-    <div class="card"><div class="lbl">Body Battery</div><div class="val">87</div><div class="sub2">peak · 25 low</div></div>
+    <div class="card"><div class="lbl">Body Battery</div><div class="val">87</div><div class="sub2">peak · 24 low</div></div>
     <div class="card"><div class="lbl">Stress</div><div class="val">49</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">8,930</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">9,437</div><div class="sub2">today</div></div>
     <div class="card"><div class="lbl">Intensity</div><div class="val">—</div><div class="sub2">min (mod+vig)</div></div>
-    <div class="card"><div class="lbl">Active Cal</div><div class="val">229</div><div class="sub2">kcal</div></div>
-    <div class="card"><div class="lbl">Distance</div><div class="val">6.9</div><div class="sub2">km today</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">234</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Distance</div><div class="val">7.3</div><div class="sub2">km today</div></div>
     <div class="card"><div class="lbl">Floors</div><div class="val">5</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">—</div><div class="sub2">ACWR · Low</div></div>
-    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">1:49:42</div><div class="sub2">realistic · Garmin 1:46:29 · goal 1:45–1:50</div></div>
+    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">1:49:42</div><div class="sub2">realistic · Garmin 1:46:31 · goal 1:45–1:50</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">—</div><div class="sub2">ml/kg/min</div></div>
     <div class="card"><div class="lbl">Heat Adapt</div><div class="val">7%</div><div class="sub2">acclimatised</div></div>
     <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">No Status</div><div class="sub2">Garmin</div></div>
@@ -233,7 +233,7 @@ tr:last-child td{border-bottom:none}
 <script>
 const LB=["10-21", "10-22", "10-23", "10-24", "10-25", "10-26", "10-27", "10-28", "10-29", "10-30", "10-31", "11-01", "11-02", "11-03"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[89,86,83,53,87,86,85,87,84,83,81,82,90,87],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[23,30,36,7,18,17,16,14,13,14,19,34,17,25],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[89,86,83,53,87,86,85,87,84,83,81,82,90,87],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[23,30,36,7,18,17,16,14,13,14,19,34,17,24],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[94,94,94,94,94,94,94,87,94,94,94,94,94,94],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[60,69,66,59,65,63,64,64,67,68,64,64,63,68],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[44,52,44,44,55,52,43,48,47,55,51,45,53,49],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
