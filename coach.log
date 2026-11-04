@@ -883,3 +883,16 @@ Markdown notes written: 12 files
   [git] Stale lock detected (2693s old), removing
 The stash entry is kept in case you need it again.
   [git] Stash pop conflict — resolving
+
+Fetching data for: 2026-10-27 → 2026-10-29
+
+  Activity: activity_2026-10-28_24881632001.md
+  Wellness: wellness_2026-10-27.md
+  Wellness: wellness_2026-10-28.md
+  Wellness: wellness_2026-10-29.md
+  Training status: NO_STATUS_2, ACWR: 0.1
+  Race predictions — HM: 1:45:33
+
+All data saved to garmin/data.json
+Markdown notes written: 4 files
+  [auth] WARNING: Claude refresh token expires in -39 days — please run: claude /login
