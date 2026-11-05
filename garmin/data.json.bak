@@ -678547,20 +678547,20 @@
     {
       "date": "2026-11-05",
       "wellness": {
-        "totalSteps": 1491,
-        "totalDistanceMeters": 1146,
-        "averageStressLevel": 51,
+        "totalSteps": 3681,
+        "totalDistanceMeters": 2830,
+        "averageStressLevel": 43,
         "maxStressLevel": 81,
         "bodyBatteryHighestValue": 85,
         "bodyBatteryLowestValue": 19,
-        "floorsAscended": 0,
-        "restingHeartRate": 65,
+        "floorsAscended": 2,
+        "restingHeartRate": 64,
         "maxAvgHeartRate": 95,
         "minAvgHeartRate": 57,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 31,
-        "totalKilocalories": 731
+        "activeKilocalories": 78,
+        "totalKilocalories": 1039
       },
       "sleep": {
         "dailySleepDTO": {
@@ -681301,7 +681301,7 @@
       "race_pred_10k": "46:44",
       "race_pred_hm": "1:46:28",
       "race_pred_marathon": "3:58:47",
-      "avg_respiration": 15.0,
+      "avg_respiration": 14.0,
       "sleep_respiration": null,
       "avg_spo2": null
     }
