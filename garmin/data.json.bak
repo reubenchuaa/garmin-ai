@@ -684415,20 +684415,20 @@
     {
       "date": "2026-11-12",
       "wellness": {
-        "totalSteps": 4826,
-        "totalDistanceMeters": 3717,
-        "averageStressLevel": 38,
+        "totalSteps": 6765,
+        "totalDistanceMeters": 5208,
+        "averageStressLevel": 39,
         "maxStressLevel": 87,
         "bodyBatteryHighestValue": 87,
-        "bodyBatteryLowestValue": 44,
+        "bodyBatteryLowestValue": 31,
         "floorsAscended": 2,
         "restingHeartRate": 65,
         "maxAvgHeartRate": 100,
         "minAvgHeartRate": 57,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 95,
-        "totalKilocalories": 1351
+        "activeKilocalories": 131,
+        "totalKilocalories": 1695
       },
       "sleep": {
         "dailySleepDTO": {
