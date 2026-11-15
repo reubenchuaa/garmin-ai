@@ -1,0 +1,4 @@
+{
+  "tests": [],
+  "_format": "each test: {date, pushups, situps, run_2400_sec, type: 'baseline'|'mock'|'official', points (optional)}"
+}

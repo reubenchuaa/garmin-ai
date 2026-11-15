@@ -1,0 +1,47 @@
+{
+  "athlete_name": "Reuben",
+  "goal": "Sub 1:50 (chase 1:45) · Kiprun Singapore Half Marathon · 27 Sep 2026",
+  "race_date": "2026-09-27",
+  "race_name": "Kiprun Singapore Half Marathon",
+  "target_time": "1:45–1:50",
+
+  "health_notes": [
+    "Post-illness recovery (fever 38°C, body aches, cough 16–20 Jun). Two clean runs done 25 Jun and 29 Jun.",
+    "Knee niggle (medial, mild) flared once mid-June — resolved with rest. Watch for recurrence.",
+    "VO2 Max dipped post-illness but still top 5% for age/gender — expect full return."
+  ],
+
+  "key_context": [
+    "Gym (Snap Fitness Buangkok) opens August — literally across the road.",
+    "Columbia OutDry hiking shoes need 50–80km break-in before Norway (Aug 8). Must be worn for all walks and stair sessions from now. Blisters on Day 1 would be catastrophic.",
+    "Norway prep (COMPLETE — trip done Aug 8–22, historical reference only): pre-trip prep was shoe break-in walks, loaded 7–10kg stair climbs 2–3x/week, single-leg step-downs, and a long loaded gear walk. Do NOT prescribe any of this anymore — Norway is over. Kept for context only.",
+    "Norway prep WHERE (historical, Norway complete): loaded stair/step-down locations were HDB stairwell, Bukit Timah, Mount Faber/Southern Ridges, Snap Fitness Buangkok. No longer prescribe loaded stairs or gear walks. If step-downs are mentioned at all, it is ONLY as light knee-health maintenance (see NOTE 23 Aug), not Norway prep.",
+    "Shoe rotation (UPDATED 2 Sep): Reuben now owns a correctly-fitting Dynafish Xiaonian (the earlier pair was too small; this replacement fits). Two-shoe rotation is now in effect: ASICS GEL-KAYANO 31 for easy, long, and recovery runs (max cushioning, daily trainer); DYNAFISH XIAONIAN — the lightweight tempo shoe — for tempo/threshold/interval/strides sessions. IMPORTANT break-in caveat: the Xiaonian is brand new (as of 2 Sep), so it must be broken in on 1-2 SHORT EASY runs before being used for any quality session or long run — do NOT debut it on a tempo/threshold day or long run. So in the immediate term: keep Kayano 31 for the next quality session(s), debut the Xiaonian on the next easy run, and only after it feels clean (no rubbing/hot spots) switch quality sessions to the Xiaonian. Recommend the specific shoe per session type in the note.",
+    "IPPT target: Silver Nov 2026, Gold Feb 2027.",
+    "Daily habits: stairs up on return home, push-ups + sit-ups morning routine (resume once fully recovered).",
+    "Norway (8–22 Aug): 9 hike days, ~83km total, ~6,059m elevation gain across Senja and Lofoten. ALL hikes rated Hard (one Moderate-Hard). Full schedule: Aug 9 Husfjellet 8.2km/640m; Aug 10 Segla 4.4km/610m + Hesten 5.3km/545m (two hikes same day); Aug 11 Grytetippen+Keipen 8.9km/1002m; Aug 14 Matmora+Delpen 9.7km/835m; Aug 15 Reinebringen 6km/448m; Aug 17 Munkebu+Munken 13km/800m; Aug 18 Ryten+Kvalvika 7.6km/597m; Aug 19 Haen via Hornet 10.3km/582m. Rest days: Aug 8 (travel/arrival), Aug 12-13, Aug 16, Aug 20-22 (travel). Aug 10 and Aug 11 are consecutive hard days with high elevation. This is serious aerobic work — treat as high-volume low-intensity cross-training, NOT a deload. Expect significant leg fatigue during but strong aerobic adaptation after.",
+    "July 2026 mileage goal: 100km running. Plan sessions to hit this target while staying injury-free.",
+    "NOTE (27 Jul): Monday 27 Jul long run DONE — 13.02km easy, avg HR 137 (new longest, past the 11.14km Jul 19 best; first HM-specific endurance anchor). ACWR spiked to ~1.4, so Tue 28 Jul = easy/recovery or rest, then tempo Wed/Thu once readiness recovers. No standing day-of-week constraints currently.",
+    "NOTE (2 Aug): Loaded Norway-prep stair session DONE today — 11.3kg pack, walking UP AND DOWN stairs for the full workout (loaded descents, not lift-down). This is high eccentric quad load and the best possible simulator for Norway's downhills; also triggers the 'repeated-bout effect' that protects against worse DOMS on the trip. Reference in coach's take as strong hike-specific prep. WATCH: expect DOMS 24–48h; monitor soreness. Since taper is on (Aug 2–7) and Norway is Aug 8, do NOT schedule another heavy loaded-DESCENT session in the final ~4–5 days before Aug 8 — legs should arrive recovered and adapted, not trashed. Lighter unloaded shoe-break-in walks are still fine.",
+    "NOTE (3 Aug): Another loaded stair session today (~10–11kg, up AND down) — legs only slightly sore from Aug 2, shoes broken in and comfortable. This is the FINAL heavy loaded-descent session before Norway. From Aug 4–7 the focus is TAPER THE LOAD: unloaded easy walks only, no more heavy loaded descents — goal is to arrive at Aug 8 fresh, springy, and adapted (repeated-bout protection banked), NOT sore. Athlete's priority now is explicitly THRIVING in Norway, so frame the final week around arrival freshness, sleep/recovery, and hike fuelling — running stays easy/short and secondary.",
+    "NOTE (23 Aug): BACK FROM NORWAY — trip complete (Aug 8–22, ~61km/4,655m hiking done). All Norway-specific prescriptions are now OFF: no loaded stairs, no gear walks, no shoe break-in, and step-downs are NO LONGER 'after every run for downhill protection'. Norway's 4,655m of real descending already banked the eccentric quad work. STEP-DOWNS going forward are LIGHT INJURY-PREVENTION MAINTENANCE ONLY — ~2x/week (or folded into the existing mobility/stretches routine), primarily to protect the June medial knee niggle as running load ramps. Do NOT prescribe them daily and do NOT frame them as hike prep. Focus is now the HM build: Shake Out reintegration (2–3 easy runs, re-acclimate to Singapore heat — acclimation reset to 0%), then a fresh 12–14km long run to re-anchor the stale HM prediction (last long run Jul 27; last run of any kind Aug 4), then Peak Block intervals + long runs to 16–17km toward the Sep 27 sub-1:50 goal."
+  ],
+
+  "training_phases": [
+    { "name": "Confirm Recovery",  "start": "2026-06-28", "end": "2026-07-04", "focus": "Easy 3×/week, HR < 135" },
+    { "name": "Rebuild Base",      "start": "2026-07-05", "end": "2026-07-18", "focus": "Long run up to 10–11km" },
+    { "name": "Build + Hike Prep", "start": "2026-07-19", "end": "2026-08-01", "focus": "Tempo, stairs w/ pack, gym" },
+    { "name": "Taper",             "start": "2026-08-02", "end": "2026-08-07", "focus": "Ease off before Norway" },
+    { "name": "Norway Hiking",     "start": "2026-08-08", "end": "2026-08-22", "focus": "~79km, 7,400m — active recovery" },
+    { "name": "Shake Out",         "start": "2026-08-23", "end": "2026-08-29", "focus": "2 easy runs, reintegrate" },
+    { "name": "Peak Block",        "start": "2026-08-30", "end": "2026-09-19", "focus": "Intervals, long runs 16–17km" },
+    { "name": "Race Taper",        "start": "2026-09-20", "end": "2026-09-26", "focus": "Easy + rest" },
+    { "name": "RACE DAY",          "start": "2026-09-27", "end": "2026-09-27", "focus": "Sub 1:50, chase 1:45 🏁" }
+  ],
+
+  "hr_zones": {
+    "easy_max": 135,
+    "tempo_range": "155–165",
+    "notes": "Singapore heat — expect 5–8 bpm higher than cool-weather equivalent"
+  }
+}
