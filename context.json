@@ -1,10 +1,10 @@
 {
   "athlete_name": "Reuben",
-  "goal": "IPPT GOLD by 19 Feb 2027 (birthday) · then week-long snowboarding trip 20-27 Feb 2027",
+  "goal": "IPPT GOLD done BY 19 Feb 2027 (birthday deadline, any earlier date is fine) · then week-long snowboarding trip 20-27 Feb 2027",
   "race_date": "2027-02-19",
-  "race_name": "IPPT Gold Attempt",
+  "race_name": "IPPT Gold (deadline)",
   "target_time": "Gold (85+ pts)",
-  "test_date": "2027-02-19",
+  "test_date": null,
   "trip": {
     "name": "Snowboarding trip",
     "start": "2027-02-20",
@@ -18,9 +18,9 @@
   ],
   "key_context": [
     "PIVOT (15 Nov 2026): the Sep 2026 half-marathon goal is DONE/dropped. Do NOT reference HM predictions, VDOT race paces, long runs to 16-17km, July mileage targets, or Norway. Running is now in service of the 2.4km IPPT station + general aerobic base only.",
-    "IPPT = 3 stations: 1-min push-ups, 1-min sit-ups, 2.4km run. Gold = 85+ total points (Silver 75-84, Pass 51-74), and each station must score at least 1 point. Age group at TEST DATE determines the scoring table — the athlete is turning 28-30 on 19 Feb; if he tests BEFORE his birthday he may fall in the younger (harder) age band. Use the official IPPT scoring table for the right age band; never guess point values — if unsure, say so.",
+    "IPPT = 3 stations: 1-min push-ups, 1-min sit-ups, 2.4km run. Gold = 85+ total points (Silver 75-84, Pass 51-74), and each station must score at least 1 point. The 19 Feb date is a DEADLINE, not a fixed test day: he can take the official IPPT any day before it, so aim to bank Gold early and keep 19 Feb as a retake buffer. Age group at the TEST DATE determines the scoring table — he turns 28-30 on 19 Feb, so testing BEFORE his birthday may put him in the younger (harder) age band; flag this when scheduling the attempt. Use the official IPPT scoring table for the right age band; never guess point values — if unsure, say so.",
     "Baseline: NOT tested recently. Week of 16-22 Nov is a BASELINE TEST WEEK: max push-ups in 1 min, max sit-ups in 1 min, all-out 2.4km (outdoor track/route, record time). Results are logged in ippt_log.json and drive every later prescription.",
-    "Snowboarding prep (beginner): the trip is 20-27 Feb, the day AFTER the IPPT test. Build leg endurance (squats, wall sits, single-leg work, step-downs), core and glute strength, ankle/hip mobility, balance (single-leg, BOSU if available), and wrist/shoulder resilience (push-up work already covers a lot). Falls are inevitable for a beginner — prioritise injury resilience over max strength. Do NOT schedule heavy leg days in the last ~5 days before the IPPT test or trip; arrive fresh, not sore.",
+    "Snowboarding prep (beginner): the trip is 20-27 Feb, right after the IPPT deadline, so finish IPPT early and arrive at the trip fresh. Build leg endurance (squats, wall sits, single-leg work, step-downs), core and glute strength, ankle/hip mobility, balance (single-leg, BOSU if available), and wrist/shoulder resilience (push-up work already covers a lot). Falls are inevitable for a beginner — prioritise injury resilience over max strength. Do NOT schedule heavy leg days in the last ~5 days before the official IPPT attempt or the trip; arrive fresh, not sore.",
     "Training-load logic: push-up/sit-up volume is the main driver of IPPT scores — use greasing-the-groove (frequent submaximal sets through the day), density/ladder sessions, and weekly max-rep re-tests. Running: 2.4km-specific work (400m/800m repeats at goal pace, one tempo, easy aerobic runs HR <=135). Keep ~2 hard sessions per week max and never 2 hard days back-to-back.",
     "Gym: Snap Fitness Buangkok (across the road) — available for squats, leg press, core, cable work.",
     "Daily habits: stairs up on return home; push-ups + sit-ups morning routine (now treated as training — count volume).",
@@ -51,19 +51,19 @@
       "name": "IPPT Peak",
       "start": "2027-01-25",
       "end": "2027-02-07",
-      "focus": "Mock IPPT weekly, 2.4km goal-pace work, specificity"
+      "focus": "Mock IPPT weekly, 2.4km goal-pace work; take the OFFICIAL attempt as soon as mocks are consistently Gold with margin (from ~25 Jan)"
     },
     {
       "name": "Taper + Trip Prep",
       "start": "2027-02-08",
       "end": "2027-02-18",
-      "focus": "Cut volume 40-50%, keep intensity short, NO heavy legs last 5 days, mobility + sleep"
+      "focus": "If Gold is banked: maintenance + trip prep. If not: sharpen for retake. Cut volume 40-50%, NO heavy legs last 5 days before attempt/trip, mobility + sleep"
     },
     {
-      "name": "IPPT TEST DAY",
+      "name": "IPPT Deadline",
       "start": "2027-02-19",
       "end": "2027-02-19",
-      "focus": "Gold attempt 🥇 (birthday)"
+      "focus": "Gold must be done by now (retake buffer). Ideally already banked in late Jan / early Feb."
     },
     {
       "name": "Snowboarding Trip",
@@ -85,11 +85,17 @@
       "pushups_1min": "45+",
       "situps_1min": "50+",
       "run_2400m": "<= 10:30"
-    }
+    },
+    "official_attempt_window": "25 Jan - 12 Feb 2027 (earlier if mocks are consistently Gold with margin); keep 19 Feb as the fallback for a retake"
   },
   "hr_zones": {
     "easy_max": 135,
     "tempo_range": "155–165",
     "notes": "Singapore heat — expect 5–8 bpm higher than cool-weather equivalent"
+  },
+  "ippt_deadline": "2027-02-19",
+  "gym": {
+    "name": "Snap Fitness Buangkok (across the road)",
+    "equipment": "TBD - ask Reuben / fill in"
   }
 }
