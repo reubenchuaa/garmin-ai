@@ -96,7 +96,42 @@
   "ippt_deadline": "2027-02-19",
   "gym": {
     "name": "Snap Fitness Buangkok (across the road)",
-    "equipment": "TBD - ask Reuben / fill in"
+    "equipment": {
+      "cardio": [
+        "Treadmill",
+        "Powermill (curved manual treadmill)",
+        "Crosstrainer",
+        "Recumbent bike",
+        "Air bike",
+        "Rower"
+      ],
+      "selectorized_machines": [
+        "Seated row",
+        "Adductor",
+        "Bicep",
+        "Leg extension",
+        "Chest press",
+        "Shoulder press",
+        "Dual adjustable pulley (cables)",
+        "PWR Play 8"
+      ],
+      "free_weight_and_plate_loaded": [
+        "Glute machine",
+        "Pendulum X squat",
+        "Linear leg press",
+        "X-Create customizable rig (pull-ups/bodyweight/suspension)",
+        "Relentless Ripper (ski machine)",
+        "ISO chest/back",
+        "Barbell rack",
+        "Leg raise station",
+        "Smith machine",
+        "Ziva dumbbell rack",
+        "2-tier dumbbell rack",
+        "Flat/incline bench",
+        "Abdominal bench"
+      ]
+    },
+    "programming_notes": "Use ONLY this equipment when prescribing gym work. Snowboard-specific picks: Pendulum X squat, linear leg press, Smith/barbell squats, split squats with dumbbells, glute machine, adductor, leg extension, leg raise + abs bench for core, Ripper (ski) for ski-motion conditioning, cables for Pallof press. Muscle-gain picks: barbell/Smith squat or press, flat/incline dumbbell press, ISO chest/back, seated row, cable pulley work, X-Create rig pull-ups/dips."
   },
   "body": {
     "latest_scan": "2026-10-18 Technogym: 53.9kg, BMI 18.9, body fat 13.2% (7.1kg), skeletal muscle 26.3kg (48.8%), BMR 1391kcal, overall 87/100",
