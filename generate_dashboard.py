@@ -340,8 +340,14 @@ def generate_html(data, context, coaching_text):
     intensity_str = f"{intensity_total}" if intensity_total else "—"
     active_cal = ww.get("activeKilocalories")
     active_cal_str = f"{int(active_cal)}" if active_cal else "—"
-    distance_m = ww.get("totalDistanceMeters")
-    distance_str = f"{distance_m/1000:.1f}" if distance_m else "—"
+    # Distance card = today's RUNS from activities (Garmin's wellness daily total lags/under-reports)
+    _run_types = {"running", "trail_running", "treadmill_running", "track_running", "ultra_running"}
+    _today_run_m = sum(
+        a.get("distance", 0) for a in data.get("activities", [])
+        if (a.get("startTimeLocal") or "")[:10] == today.isoformat()
+        and a.get("activityType", {}).get("typeKey", "") in _run_types
+    )
+    distance_str = f"{_today_run_m/1000:.1f}" if _today_run_m else "—"
     floors_raw = ww.get("floorsAscended")
     floors_str = f"{int(floors_raw)}" if floors_raw else "—"
     tr_list = (today_w or {}).get("training_readiness", [])
@@ -680,7 +686,7 @@ tr:last-child td{{border-bottom:none}}
     <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">{steps}</div><div class="sub2">today</div></div>
     <div class="card"><div class="lbl">Intensity</div><div class="val">{intensity_str}</div><div class="sub2">min (mod+vig)</div></div>
     <div class="card"><div class="lbl">Active Cal</div><div class="val">{active_cal_str}</div><div class="sub2">kcal</div></div>
-    <div class="card"><div class="lbl">Distance</div><div class="val">{distance_str}</div><div class="sub2">km today</div></div>
+    <div class="card"><div class="lbl">Distance</div><div class="val">{distance_str}</div><div class="sub2">km run today</div></div>
     <div class="card"><div class="lbl">Floors</div><div class="val">{floors_str}</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:{acwr_color}">{acwr_s}</div><div class="sub2">ACWR · {acwr_status}</div></div>
     <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">{race_pred_hm_real}</div><div class="sub2">realistic · Garmin {race_pred_hm} · goal 1:45–1:50</div></div>
