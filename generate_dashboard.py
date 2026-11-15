@@ -84,7 +84,7 @@ def get_monthly_mileage(data):
 def get_coaching(data, context):
     """Rule-based daily coaching — no API needed."""
     today = date.today()
-    race_date = date.fromisoformat(context.get("race_date", "2026-09-27"))
+    race_date = date.fromisoformat(context.get("race_date", "2027-02-19"))
     days_to_race = (race_date - today).days
     easy_hr_cap = context.get("hr_zones", {}).get("easy_max", 135)
 
@@ -205,41 +205,41 @@ def get_coaching(data, context):
 
     # Body paragraph 2 — what to do
     if recovery_score is not None and recovery_score >= 75:
-        if phase_name == "Confirm Recovery":
+        if phase_name == "Baseline Test":
             lines.append(
-                f"Stick to the recovery protocol: easy 5–6 km at 7:00–7:30/km, "
-                f"HR under {easy_hr_cap} bpm. Singapore heat will push your HR up — "
-                f"slow down rather than let it creep above the cap."
+                "Baseline week: today is a good day to test. Do max strict push-ups in 1 minute, rest 10 min, "
+                "then max sit-ups in 1 minute (or the all-out 2.4km on a separate day). Tell Claude your numbers to log them."
             )
-        elif phase_name == "Rebuild Base":
+        elif phase_name == "Base Build":
             lines.append(
-                f"Good day to extend your long run. Aim for 8–10 km at an easy conversational pace, "
-                f"HR under {easy_hr_cap} bpm. Focus on time on feet, not pace."
+                f"Build the engine and the volume: 5 sets of push-ups at ~50% of your max, 4 sets of sit-ups, "
+                f"then an easy 4-5 km run, HR under {easy_hr_cap} bpm. Submaximal sets - never to failure."
             )
-        elif phase_name in ("Build + Hike Prep", "Peak Block"):
+        elif phase_name in ("Strength-Endurance", "IPPT Peak"):
             lines.append(
-                f"Readiness supports a quality session. Consider a tempo effort: "
-                f"10–12 km with 20 min at 155–165 bpm in the middle. "
-                f"Warm up and cool down easy."
+                "Readiness supports a quality session: rep ladders (push-ups/sit-ups) or 6 x 400m at goal 2.4km pace "
+                "with equal-time jog recovery. Warm up and cool down easy."
             )
-        elif phase_name == "Norway Hiking":
+        elif phase_name == "Taper + Trip Prep":
             lines.append(
-                "You're in Norway — today's hiking is your training. Enjoy it. "
-                "Focus on fuelling well and managing your knees on the descents."
+                "Taper: cut volume ~40-50%, keep it short and sharp. Light mobility + balance work. "
+                "No heavy legs - arrive at the attempt and the trip fresh."
             )
+        elif phase_name == "Snowboarding Trip":
+            lines.append("You're on the slopes - riding is your training. Stretch, hydrate, and fall smart.")
         else:
             lines.append(
-                f"Good recovery — an easy 5–6 km run today is well within range. "
-                f"Keep HR under {easy_hr_cap} bpm."
+                f"Good recovery - an easy 4-5 km run or a push-up/sit-up session is well within range. "
+                f"Keep run HR under {easy_hr_cap} bpm."
             )
     elif recovery_score is not None and recovery_score >= 50:
         lines.append(
-            f"Keep today easy: 4–5 km at a relaxed pace, HR strictly under {easy_hr_cap} bpm. "
-            f"If you feel flat after 10 minutes, turn around. No hero miles today."
+            f"Keep today easy: light mobility or a relaxed 3-4 km, HR strictly under {easy_hr_cap} bpm. "
+            f"No max-rep tests or hard intervals today."
         )
     else:
         lines.append(
-            "Skip the run today. Rest, hydrate, and get to bed early. "
+            "Skip training today. Rest, hydrate, and get to bed early. "
             "One rest day now protects the whole training block."
         )
 
@@ -276,33 +276,31 @@ def get_coaching(data, context):
             # Alternate run/rest for future days
             is_run_day = (offset % 2 == 1)  # tomorrow rest, day after run (simple pattern)
 
-        if pname == "Norway Hiking":
-            return f"**{label} ({dow}):** Hiking — active recovery, manage knees on descents."
-        elif pname == "Race Taper":
-            return f"**{label} ({dow}):** Easy 3–4 km shakeout or rest. Stay fresh."
-        elif pname == "RACE DAY":
-            return f"**{label} ({dow}):** 🏁 RACE DAY — Kiprun Singapore Half Marathon. Sub 1:50, chase 1:45."
+        if pname == "Snowboarding Trip":
+            return f"**{label} ({dow}):** Snowboarding - active recovery. Stretch, hydrate, fall smart."
+        elif pname == "IPPT Deadline":
+            return f"**{label} ({dow}):** IPPT deadline day - Gold should already be banked. If not, last chance: warm up well, pace the run."
+        elif pname == "Taper + Trip Prep":
+            return f"**{label} ({dow}):** Light mobility + short sharp work. No heavy legs. Sleep well."
         elif not is_run_day:
-            return f"**{label} ({dow}):** Rest or easy walk. Let your body absorb the training."
-        elif pname == "Confirm Recovery":
-            return f"**{label} ({dow}):** Easy run — 5–6 km, 7:00–7:30/km, HR under {easy_hr_cap} bpm."
-        elif pname == "Rebuild Base":
+            return f"**{label} ({dow}):** Rest, mobility or easy walk. Let your body absorb the training."
+        elif pname == "Baseline Test":
+            return f"**{label} ({dow}):** Baseline test - max 1-min push-ups/sit-ups, or all-out 2.4km (separate days)."
+        elif pname == "Base Build":
+            return f"**{label} ({dow}):** Push-up/sit-up volume sets + easy 4-5 km run, HR under {easy_hr_cap} bpm."
+        elif pname in ("Strength-Endurance", "IPPT Peak"):
             if offset == 2:
-                return f"**{label} ({dow}):** Long run — 8–10 km easy, HR under {easy_hr_cap} bpm, focus on time on feet."
-            return f"**{label} ({dow}):** Easy run — 6–7 km, relaxed pace, HR under {easy_hr_cap} bpm."
-        elif pname in ("Build + Hike Prep", "Peak Block"):
-            if offset == 2:
-                return f"**{label} ({dow}):** Tempo run — 10 km with 20 min at 155–165 bpm, easy warm-up/cool-down."
-            return f"**{label} ({dow}):** Easy run — 6 km, HR under {easy_hr_cap} bpm."
+                return f"**{label} ({dow}):** 400m repeats at goal 2.4km pace + core."
+            return f"**{label} ({dow}):** Rep ladders (push-ups/sit-ups) + snowboard legs (squats/split squats)."
         else:
-            return f"**{label} ({dow}):** Easy run — 5 km, HR under {easy_hr_cap} bpm."
+            return f"**{label} ({dow}):** Easy run - 4-5 km, HR under {easy_hr_cap} bpm."
 
     lines.append("**3-Day Plan:**")
     lines.append("")
     for i in range(3):
         lines.append(day_plan(i))
     lines.append("")
-    lines.append(f"*{days_to_race} days to race · Phase: {phase_name}*")
+    lines.append(f"*{days_to_race} days to IPPT deadline · Phase: {phase_name}*")
 
     return "\n".join(lines)
 
@@ -313,7 +311,7 @@ def js_arr(lst):
 
 def generate_html(data, context, coaching_text):
     today = date.today()
-    race_date = date.fromisoformat(context.get("race_date", "2026-09-27"))
+    race_date = date.fromisoformat(context.get("race_date", "2027-02-19"))
     days_to_race = (race_date - today).days
 
     wellness_14 = get_wellness_range(data, 14)
@@ -402,32 +400,23 @@ def generate_html(data, context, coaching_text):
     # HRV chart data
     chart_hrv = js_arr([g(w, "hrv", "hrvSummary", "lastNightAvg") for w in wellness_14])
 
-    # HM prediction trend from performance data
-    perf_all = data.get("performance", {})
-    hm_dates = []
-    hm_values = []
-    for dk in sorted(perf_all.keys()):
-        pred = perf_all[dk].get("race_pred_hm")
-        if pred and isinstance(pred, str) and ":" in pred:
-            parts = pred.split(":")
-            try:
-                total_min = int(parts[0]) * 60 + int(parts[1]) + (int(parts[2]) / 60 if len(parts) > 2 else 0)
-                hm_dates.append(dk[-5:])  # MM-DD
-                hm_values.append(round(total_min, 1))
-            except (ValueError, IndexError):
-                pass
-    chart_hm_labels = json.dumps(hm_dates)
-    chart_hm_values = json.dumps(hm_values)
-    # Realistic buffered prediction: Garmin's VO2max-based figure is optimistic.
-    # Add ~3% for Singapore race-day heat + late-race fade + no HM-specific anchor.
-    HM_BUFFER = 1.03
-    hm_values_real = [round(v * HM_BUFFER, 1) for v in hm_values]
-    chart_hm_values_real = json.dumps(hm_values_real)
-    # Buffered current prediction as a H:MM:SS string for the card
-    def _min_to_hms(m):
-        s = int(round(m * 60))
-        return f"{s//3600}:{(s%3600)//60:02d}:{s%60:02d}"
-    race_pred_hm_real = _min_to_hms(hm_values_real[-1]) if hm_values_real else "—"
+    # IPPT progress from ippt_log.json (manual test entries)
+    try:
+        _ippt = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "ippt_log.json"))).get("tests", [])
+    except Exception:
+        _ippt = []
+    chart_ippt_labels = json.dumps([t["date"][-5:] for t in _ippt])
+    chart_ippt_pu = json.dumps([t.get("pushups") for t in _ippt])
+    chart_ippt_su = json.dumps([t.get("situps") for t in _ippt])
+    chart_ippt_run = json.dumps([round(t["run_2400_sec"] / 60, 2) if t.get("run_2400_sec") else None for t in _ippt])
+    if _ippt:
+        _t = _ippt[-1]
+        _m, _sec = divmod(int(_t.get("run_2400_sec", 0)), 60)
+        ippt_card_val = f"{_t.get('pushups','?')}/{_t.get('situps','?')}/{_m}:{_sec:02d}"
+        ippt_card_sub = f"push-ups / sit-ups / 2.4km · {_t.get('type','test')} {_t['date'][-5:]}"
+    else:
+        ippt_card_val = "Not tested yet"
+        ippt_card_sub = "baseline test due 16–22 Nov"
 
     # Monthly mileage chart data
     mile_labels, mile_values = get_monthly_mileage(data)
@@ -664,7 +653,8 @@ tr:last-child td{{border-bottom:none}}
   <h1>🏃 {context.get('athlete_name','Reuben')} · Training Dashboard</h1>
   <div class="sub">{context.get('race_name','Race')} · {context.get('target_time','')}</div>
   <div class="pills">
-    <span class="pill pill-blue">🏁 {days_to_race} days to race</span>
+    <span class="pill pill-blue">🥇 {days_to_race} days to IPPT deadline (19 Feb)</span>
+    <span class="pill pill-green">🏂 Snowboarding in {days_to_race + 1} days</span>
     <span class="pill pill-green">Synced {datetime.now(timezone(timedelta(hours=8))).strftime('%d %b %Y %I:%M %p')} SGT</span>
   </div>
 </div>
@@ -689,7 +679,7 @@ tr:last-child td{{border-bottom:none}}
     <div class="card"><div class="lbl">Distance</div><div class="val">{distance_str}</div><div class="sub2">km run today</div></div>
     <div class="card"><div class="lbl">Floors</div><div class="val">{floors_str}</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:{acwr_color}">{acwr_s}</div><div class="sub2">ACWR · {acwr_status}</div></div>
-    <div class="card"><div class="lbl">HM Prediction</div><div class="val" style="font-size:1.1rem;color:#ef4444">{race_pred_hm_real}</div><div class="sub2">realistic · Garmin {race_pred_hm} · goal 1:45–1:50</div></div>
+    <div class="card"><div class="lbl">IPPT Latest</div><div class="val" style="font-size:1.1rem;color:#f59e0b">{ippt_card_val}</div><div class="sub2">{ippt_card_sub}</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">{vo2_s}</div><div class="sub2">ml/kg/min</div></div>
     <div class="card"><div class="lbl">Heat Adapt</div><div class="val">{heat_s}</div><div class="sub2">acclimatised</div></div>
     <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">{training_status}</div><div class="sub2">Garmin</div></div>
@@ -714,7 +704,7 @@ tr:last-child td{{border-bottom:none}}
 <div class="box"><h3>Stress (avg)</h3><canvas id="stress" height="75"></canvas></div>
 <div class="box"><h3>Sleep (hours)</h3><canvas id="sleep" height="75"></canvas></div>
 <div class="box"><h3>HRV (overnight avg)</h3><canvas id="hrv" height="75"></canvas></div>
-<div class="box"><h3>HM Race Prediction</h3><canvas id="hmpred" height="75"></canvas></div>
+<div class="box"><h3>IPPT Progress (push-ups &amp; sit-ups: left · 2.4km min: right)</h3><canvas id="hmpred" height="75"></canvas></div>
 <div class="box"><h3>Monthly Running Mileage (km)</h3><canvas id="mileage" height="75"></canvas></div>
 
 <div class="sec">Recent Activities</div>
@@ -778,14 +768,14 @@ CHART_JS_PLACEHOLDER
         '{"label":"HRV","data":' + chart_hrv + ',"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}'
         ']},"options":opt()});\n'
         "new Chart(document.getElementById('hmpred'),{"
-        '"type":"line","data":{"labels":' + chart_hm_labels + ',"datasets":['
-        '{"label":"Garmin (optimistic)","data":' + chart_hm_values + ',"borderColor":"#f59e0b","borderDash":[5,3],"backgroundColor":"rgba(245,158,11,.08)","fill":false,"tension":.35,"pointRadius":3,"pointBackgroundColor":"#f59e0b"},'
-        '{"label":"Realistic (heat/fade adj.)","data":' + chart_hm_values_real + ',"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.12)","fill":true,"tension":.35,"pointRadius":4,"pointBackgroundColor":"#ef4444"},'
-        '{"label":"1:50 goal","data":' + json.dumps([110] * len(hm_dates)) + ',"borderColor":"#10b981","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false},'
-        '{"label":"1:45 stretch","data":' + json.dumps([105] * len(hm_dates)) + ',"borderColor":"#22d3ee","borderWidth":2,"borderDash":[6,3],"pointRadius":0,"fill":false}'
+        '"type":"line","data":{"labels":' + chart_ippt_labels + ',"datasets":['
+        '{"label":"Push-ups","data":' + chart_ippt_pu + ',"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},'
+        '{"label":"Sit-ups","data":' + chart_ippt_su + ',"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},'
+        '{"label":"2.4km (min)","data":' + chart_ippt_run + ',"borderColor":"#f59e0b","borderDash":[5,3],"tension":.3,"pointRadius":4,"yAxisID":"y1"}'
         ']},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},'
         '"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},'
-        '"y":{"reverse":true,"ticks":{"color":"#475569","font":{"size":10},callback:function(v){var h=Math.floor(v/60);var m=Math.floor(v%60);return h+\":\"+String(m).padStart(2,\"0\")}},"grid":{"color":"#334155"}}}}});\n'
+        '"y":{"position":"left","ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true},'
+        '"y1":{"position":"right","reverse":true,"ticks":{"color":"#f59e0b","font":{"size":10}},"grid":{"drawOnChartArea":false}}}}});\n'
         "new Chart(document.getElementById('mileage'),{"
         '"type":"bar","data":{"labels":' + chart_mile_labels + ',"datasets":['
         '{"label":"km","data":' + chart_mile_values + ',"backgroundColor":"rgba(59,130,246,.6)","borderColor":"#3b82f6","borderWidth":1,"borderRadius":4}'

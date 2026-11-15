@@ -1,0 +1,24 @@
+{
+  "_source": "Technogym body scan (manual entry from app screenshots)",
+  "scans": [
+    {
+      "date": "2026-10-18",
+      "score": 87,
+      "weight_kg": 53.9,
+      "bmi": 18.9,
+      "body_fat_pct": 13.2,
+      "body_fat_kg": 7.1,
+      "smm_kg": 26.3,
+      "smm_pct": 48.8,
+      "tbw_kg": 34.2,
+      "tbw_pct": 63.5,
+      "slm_kg": 44.1,
+      "ffm_kg": 46.8,
+      "bmr_kcal": 1391,
+      "ecw_kg": 12.8,
+      "icw_kg": 21.5,
+      "phase_angle": 7.1,
+      "bmc_kg": 2.7
+    }
+  ]
+}

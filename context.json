@@ -97,5 +97,16 @@
   "gym": {
     "name": "Snap Fitness Buangkok (across the road)",
     "equipment": "TBD - ask Reuben / fill in"
+  },
+  "body": {
+    "latest_scan": "2026-10-18 Technogym: 53.9kg, BMI 18.9, body fat 13.2% (7.1kg), skeletal muscle 26.3kg (48.8%), BMR 1391kcal, overall 87/100",
+    "log_file": "body_log.json",
+    "goal": "Look athletic / 'nice body' = ADD MUSCLE. He is already lean (13.2% BF, BMI 18.9) - fat loss is NOT the goal.",
+    "rules": [
+      "NEVER prescribe a calorie deficit or fat-loss diet. BMI 18.9 is near underweight.",
+      "Eat at least maintenance, small surplus (+200-300 kcal) on lifting/hard days; protein ~90-110g/day (1.6-2g/kg).",
+      "2-3 gym lifting sessions/week, compound lifts + progressive overload, fits IPPT (push-ups/sit-ups) and snowboard legs.",
+      "If he says he 'feels fat', respond with the data kindly; do not reinforce restriction."
+    ]
   }
 }
