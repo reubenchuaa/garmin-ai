@@ -1,26 +1,37 @@
-_Updated: Sunday, 20 Sep 2026 at 11:51 PM SGT_
+_Updated: Sunday, 15 Nov 2026 at 06:01 PM SGT_
 
-**Race Taper Day 1 — the outdoor long run is still the priority tonight; get it in before the taper volume drops for good.**
+**96 days out and the baseline is still untested, so we can't yet say how far you are from Gold. Resting HR says hold the tests until you're recovered.**
 
 **What your data says**
-ACWR sits at 0.7 (LOW, acute 230 vs chronic 289) — that's the taper pulling load down by design, not a fitness leak. Garmin's 1:39:23 HM ceiling is VO2max-only (56.8); Riegel off Sep 15's 18.24km treadmill effort (~6:00/km, HR 143) points closer to ~2:08, so the honest range stays **2:00–2:10** vs your 1:45–1:50 goal — still soft without a genuine outdoor HM-pace anchor. Heat acclimation has slipped to 31% and is DEACCLIMATIZING (8 days since your last outdoor run, Sep 12); with 7 days to race day that needs reversing now. Recovery is excellent — Readiness 76 (HIGH), RHR 46 (at baseline), HRV 82 vs 76 weekly avg (BALANCED) — the body is primed, so don't let this session slip.
+96 days to the IPPT test, 97 to the snowboarding trip. No IPPT tests are logged, so no limiter can be named yet. The baseline plan is below. ACWR is 0.0 (LOW; acute 11 vs chronic 219): last 7 days were 0 km running and 0 strength sessions, and the last 28 days were 13.1 km over 4 runs. Resting HR has run 61-67 bpm over the last 5 days against your ~47 baseline, which is more than 5 bpm above. Garmin shows Training Readiness 94, but it has no sleep or HRV data behind it (HRV is blank), so I'm trusting resting HR over that score. VO2max is 57.7. Heat acclimation is 0%.
 
 **Today's session**
-Long run, 10–12km OUTDOORS, easy effort, HR ≤135, Kayano 31. This is your last real aerobic/heat stimulus before taper volume drops hard — it re-anchors the soft HM number with genuine outdoor data and starts clawing back lost acclimation.
+Easy and light only, with no max-rep tests and no quality work:
+- 30-40 min easy aerobic (jog or brisk cycle), HR ≤ 135, RPE 3-4.
+- 10 min mobility: hips, ankles, thoracic spine, wrists.
+- 2 x 30 s plank and 2 x 30 s side plank each side.
+
+Purpose: restart load gently from a near-zero week and let resting HR settle before we measure you.
 
 **3-Day Plan**
-- Today (Sunday, 20 September 2026): Long run, 10–12km outdoors, easy, HR ≤135
-- Monday, 21 September 2026: Rest or easy 30min recovery, HR ≤135
-- Tuesday, 22 September 2026: Easy 5–6km + 4x20s relaxed strides, HR ≤135
+- Today (Sunday, 15 November 2026): easy 30-40 min HR ≤ 135 + mobility + core, as above.
+- Tomorrow (Monday, 16 November 2026): if resting HR is ≤ 55 and you slept 7h+, do baseline test 1. Warm up, then max 1-min push-ups, rest 10 min, then max 1-min sit-ups. Log with `python3 log_ippt.py <pushups> <situps> <M:SS> baseline`. If resting HR is still above 55, do an easy 4 km and GTG push-ups instead (5 x 40% of max, never to failure).
+- Day after (Tuesday, 17 November 2026): rest or a 20 min walk-free mobility flow. Then the 2.4 km all-out test on Wed 18 Nov, only if it is not stacked on hard legs.
+
+**Snowboard Prep**
+- Mon-Tue: light step-downs, 2 x 8 per leg (knee-friendly), plus glute bridges, 2 x 12.
+- Thu: split squats, wall sits and hip thrusts, 3 sets, moderate load. Keep it away from test days.
+- Daily 2 min: single-leg balance on a foam pad, eyes open.
 
 **Fuel**
-Yesterday burned 1,912 kcal (active 124, BMR 1,788). Today's long run pushes cost well above that, so target ≈2,450 kcal to fuel the session and protect recovery — not a deficit.
-- Breakfast: Roti prata (2pc) + curry + kopi — ~515
-- Lunch: Char kway teow — ~740
-- Snack: Banana + yogurt — ~255
-- Dinner: Chicken rice — ~600
-- Evening: Milo dinosaur — ~350
-Total ≈ 2,460 kcal. Today's run alone ≈ 1 char kway teow worth of burn.
+Yesterday burned 1972 kcal. Today is a low-load day, so aim for ~2050 kcal (no deficit) with protein at every meal.
+- Breakfast: kaya toast set — ~450 kcal
+- Lunch: economy rice 1 meat 2 veg — ~600 kcal
+- Snack: yogurt — ~150 kcal
+- Dinner: chicken rice — ~600 kcal
+- Evening: banana + soy milk — ~205 kcal
+
+Total ≈ 2005 kcal. Add a kopi (~115) to reach the ~2050 target. Today's easy session burns about 250 kcal, roughly two-thirds of a roti prata set (2pc + curry, 400).
 
 **Coach's take**
-Readiness at 76 and HRV back above baseline say the fitness is banked, not lost — get outside tonight and both your heat tolerance and the HM number swing back toward 1:50.
+Your VO2max of 57.7 gives you an engine most people can't build, so the run is probably not the problem. We test properly this week and start scoring points from there.
