@@ -80,7 +80,7 @@ tr:last-child td{border-bottom:none}
   <div class="pills">
     <span class="pill pill-blue">🥇 95 days to IPPT deadline (19 Feb)</span>
     <span class="pill pill-green">🏂 Snowboarding in 96 days</span>
-    <span class="pill pill-green">Synced 16 Nov 2026 05:16 PM SGT</span>
+    <span class="pill pill-green">Synced 16 Nov 2026 05:46 PM SGT</span>
   </div>
 </div>
 </div>
@@ -110,6 +110,66 @@ tr:last-child td{border-bottom:none}
     <div class="card"><div class="lbl">Status</div><div class="val" style="font-size:0.85rem;padding-top:4px">No Status</div><div class="sub2">Garmin</div></div>
   </div>
 </div>
+
+
+<div class="sec">Today's Plan</div>
+<div class="box" id="planbox">
+  <div id="plan-head" style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"></div>
+  <div id="plan-today" style="margin-top:10px"></div>
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px">
+    <button id="plan-send" style="background:#3b82f6;color:#fff;border:0;border-radius:8px;padding:9px 14px;font-size:.85rem;font-weight:600;cursor:pointer">Send check-in to coach</button>
+    <span id="plan-sent" style="font-size:.75rem;color:#64748b"></span>
+  </div>
+  <div style="font-size:.7rem;color:#475569;margin-top:8px">Garmin runs and gym sessions tick themselves. Tick the rest as you go, then tap Send once a day (opens a GitHub page &mdash; tap Submit). Tomorrow's coach note uses it.</div>
+</div>
+<div class="sec">Next 7 Days</div>
+<div class="box" id="plan-week" style="font-size:.82rem;line-height:1.5"></div>
+<script>
+(function(){
+var PLAN={"2026-11-15": {"phase": "", "dow": "Sun 15 Nov", "tasks": []}, "2026-11-16": {"phase": "Baseline Test", "dow": "Mon 16 Nov", "tasks": [{"id": "test_pu_su", "label": "BASELINE TEST A: push-ups + sit-ups", "detail": "Warm up 5 min. Max strict push-ups in 1 min, rest 10 min, max sit-ups in 1 min. Tell Claude your numbers. Skip if resting HR is >55 or you slept badly.", "kind": "manual"}, {"id": "mobility", "label": "Mobility 10 min", "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.", "kind": "manual"}]}, "2026-11-17": {"phase": "Baseline Test", "dow": "Tue 17 Nov", "tasks": [{"id": "easy_run", "label": "Easy run 4-5 km", "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).", "kind": "run", "min_km": 3.0}, {"id": "core", "label": "Core", "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).", "kind": "manual"}]}, "2026-11-18": {"phase": "Baseline Test", "dow": "Wed 18 Nov", "tasks": [{"id": "test_run", "label": "BASELINE TEST B: 2.4km all-out", "detail": "1.5 km easy warm-up, then 2.4 km as fast as you can (flat route or treadmill at 1% incline). Note the time and tell Claude.", "kind": "run", "min_km": 2.4}]}, "2026-11-19": {"phase": "Baseline Test", "dow": "Thu 19 Nov", "tasks": [{"id": "legs_gym", "label": "Gym: legs + glutes (snowboard)", "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.", "kind": "strength"}]}, "2026-11-20": {"phase": "Baseline Test", "dow": "Fri 20 Nov", "tasks": [{"id": "upper_gym", "label": "Gym: upper body", "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.", "kind": "strength"}, {"id": "gtg", "label": "Push-up GTG", "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.", "kind": "manual"}]}, "2026-11-21": {"phase": "Baseline Test", "dow": "Sat 21 Nov", "tasks": [{"id": "easy_run", "label": "Easy run 4-5 km", "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).", "kind": "run", "min_km": 3.0}]}, "2026-11-22": {"phase": "Baseline Test", "dow": "Sun 22 Nov", "tasks": [{"id": "rest", "label": "Rest day", "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.", "kind": "manual"}, {"id": "mobility", "label": "Mobility 10 min", "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.", "kind": "manual"}]}, "2026-11-23": {"phase": "Base Build", "dow": "Mon 23 Nov", "tasks": [{"id": "upper_gym", "label": "Gym: upper body", "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.", "kind": "strength"}, {"id": "gtg", "label": "Push-up GTG", "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.", "kind": "manual"}, {"id": "situp_vol", "label": "Sit-up volume", "detail": "4 sets at ~60% of your max, clean full reps.", "kind": "manual"}]}, "2026-11-24": {"phase": "Base Build", "dow": "Tue 24 Nov", "tasks": [{"id": "easy_run", "label": "Easy run 4-5 km", "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).", "kind": "run", "min_km": 3.0}, {"id": "core", "label": "Core", "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).", "kind": "manual"}]}}, DONE={"2026-11-15": {"auto": [], "server": []}, "2026-11-16": {"auto": [], "server": []}}, REPO='reubenchuaa/garmin-ai';
+function sg(off){return new Date(Date.now()+8*3600*1000+off*86400000).toISOString().slice(0,10);}
+var today=sg(0), key='ckv1_'+today, sentKey='cksent_'+today, local=[];
+try{local=JSON.parse(localStorage.getItem(key)||'[]');}catch(e){}
+function save(){try{localStorage.setItem(key,JSON.stringify(local));}catch(e){}}
+var info=PLAN[today], dn=DONE[today]||{auto:[],server:[]};
+var head=document.getElementById('plan-head'), box=document.getElementById('plan-today');
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function isDone(id){return dn.auto.indexOf(id)>-1||dn.server.indexOf(id)>-1||local.indexOf(id)>-1;}
+function draw(){
+  if(!info||!info.tasks.length){head.innerHTML='<b>'+(info?esc(info.dow):'Today')+'</b><span style="font-size:.75rem;color:#94a3b8">No checklist today</span>';box.innerHTML='';return;}
+  var n=0;info.tasks.forEach(function(t){if(isDone(t.id))n++;});
+  head.innerHTML='<span style="font-weight:700;font-size:1rem">'+esc(info.dow)+'</span><span style="font-size:.75rem;color:#94a3b8">'+esc(info.phase)+' &middot; '+n+'/'+info.tasks.length+' done</span>';
+  box.innerHTML=info.tasks.map(function(t){
+    var auto=dn.auto.indexOf(t.id)>-1, on=isDone(t.id);
+    return '<label style="display:flex;gap:10px;padding:9px 0;border-top:1px solid #1e293b;cursor:'+(auto?'default':'pointer')+'">'
+      +'<input type="checkbox" data-id="'+esc(t.id)+'" '+(on?'checked ':'')+(auto?'disabled ':'')+'style="width:20px;height:20px;margin-top:2px;accent-color:#10b981;flex:none">'
+      +'<span><span style="font-weight:600;color:'+(on?'#64748b':'#e2e8f0')+';'+(on?'text-decoration:line-through':'')+'">'+esc(t.label)+(auto?' <span style="font-size:.7rem;color:#10b981">&#10003; Garmin</span>':'')+'</span>'
+      +'<span style="display:block;font-size:.76rem;color:#94a3b8">'+esc(t.detail)+'</span></span></label>';
+  }).join('');
+  Array.prototype.forEach.call(box.querySelectorAll('input'),function(el){
+    el.onchange=function(){var id=el.getAttribute('data-id'),i=local.indexOf(id);
+      if(el.checked&&i<0)local.push(id); if(!el.checked&&i>-1)local.splice(i,1); save(); draw();};
+  });
+}
+draw();
+var sent=document.getElementById('plan-sent');
+try{if(localStorage.getItem(sentKey))sent.textContent='Sent ✓ (the coach reads it on its next run)';}catch(e){}
+document.getElementById('plan-send').onclick=function(){
+  if(!info)return;
+  var ids=info.tasks.filter(function(t){return isDone(t.id);}).map(function(t){return t.id;});
+  if(!ids.length){alert('Tick at least one task first.');return;}
+  var body=JSON.stringify({date:today,done:ids,v:1});
+  window.open('https://github.com/'+REPO+'/issues/new?title='+encodeURIComponent('checkin '+today)+'&body='+encodeURIComponent(body),'_blank');
+  try{localStorage.setItem(sentKey,'1');}catch(e){}
+  sent.textContent='Opened GitHub — tap "Submit new issue" to finish.';
+};
+var wk=document.getElementById('plan-week'),h='';
+for(var o=1;o<=7;o++){var d=sg(o),p=PLAN[d];if(!p)continue;
+  h+='<div style="padding:7px 0;border-top:1px solid #1e293b"><b>'+esc(p.dow)+'</b> <span style="color:#64748b;font-size:.72rem">'+esc(p.phase)+'</span><br><span style="color:#cbd5e1">'
+   +p.tasks.map(function(t){return esc(t.label);}).join(' &middot; ')+'</span></div>';}
+wk.innerHTML=h;
+})();
+</script>
 
 <div class="sec">Daily Coach</div>
 <div class="coach-card">
