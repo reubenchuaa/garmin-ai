@@ -2,6 +2,7 @@
  "_format": "{date: {done:[task ids], via:'github-issue'}}",
  "2026-11-16": {
   "done": [
+   "mobility",
    "test_pu_su"
   ],
   "via": "github-issue"
