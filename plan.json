@@ -1,0 +1,482 @@
+{
+ "phases": {
+  "Baseline Test": {
+   "0": [
+    {
+     "id": "test_pu_su",
+     "label": "BASELINE TEST A: push-ups + sit-ups",
+     "detail": "Warm up 5 min. Max strict push-ups in 1 min, rest 10 min, max sit-ups in 1 min. Tell Claude your numbers. Skip if resting HR is >55 or you slept badly.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "1": [
+    {
+     "id": "easy_run",
+     "label": "Easy run 4-5 km",
+     "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "2": [
+    {
+     "id": "test_run",
+     "label": "BASELINE TEST B: 2.4km all-out",
+     "detail": "1.5 km easy warm-up, then 2.4 km as fast as you can (flat route or treadmill at 1% incline). Note the time and tell Claude.",
+     "kind": "run",
+     "min_km": 2.4
+    }
+   ],
+   "3": [
+    {
+     "id": "legs_gym",
+     "label": "Gym: legs + glutes (snowboard)",
+     "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
+     "kind": "strength"
+    }
+   ],
+   "4": [
+    {
+     "id": "upper_gym",
+     "label": "Gym: upper body",
+     "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
+     "kind": "strength"
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    }
+   ],
+   "5": [
+    {
+     "id": "easy_run",
+     "label": "Easy run 4-5 km",
+     "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
+     "kind": "run",
+     "min_km": 3.0
+    }
+   ],
+   "6": [
+    {
+     "id": "rest",
+     "label": "Rest day",
+     "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ]
+  },
+  "Base Build": {
+   "0": [
+    {
+     "id": "upper_gym",
+     "label": "Gym: upper body",
+     "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
+     "kind": "strength"
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    },
+    {
+     "id": "situp_vol",
+     "label": "Sit-up volume",
+     "detail": "4 sets at ~60% of your max, clean full reps.",
+     "kind": "manual"
+    }
+   ],
+   "1": [
+    {
+     "id": "easy_run",
+     "label": "Easy run 4-5 km",
+     "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "2": [
+    {
+     "id": "legs_gym",
+     "label": "Gym: legs + glutes (snowboard)",
+     "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
+     "kind": "strength"
+    },
+    {
+     "id": "balance",
+     "label": "Balance + knee care",
+     "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
+     "kind": "manual"
+    }
+   ],
+   "3": [
+    {
+     "id": "ladder",
+     "label": "Rep ladders",
+     "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "4": [
+    {
+     "id": "full_gym",
+     "label": "Gym: full body",
+     "detail": "Smith squat 3x8, incline dumbbell press 3x10, seated row 3x10, leg raise 3x10, cable Pallof press 2x10 per side.",
+     "kind": "strength"
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    }
+   ],
+   "5": [
+    {
+     "id": "steady_run",
+     "label": "Steady run 4-5 km",
+     "detail": "Comfortable but purposeful, HR up to ~145.",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "6": [
+    {
+     "id": "rest",
+     "label": "Rest day",
+     "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ]
+  },
+  "Strength-Endurance": {
+   "0": [
+    {
+     "id": "upper_gym",
+     "label": "Gym: upper body",
+     "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
+     "kind": "strength"
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    }
+   ],
+   "1": [
+    {
+     "id": "intervals",
+     "label": "Intervals: 6 x 400m",
+     "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "2": [
+    {
+     "id": "legs_gym",
+     "label": "Gym: legs + glutes (snowboard)",
+     "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
+     "kind": "strength"
+    },
+    {
+     "id": "balance",
+     "label": "Balance + knee care",
+     "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
+     "kind": "manual"
+    }
+   ],
+   "3": [
+    {
+     "id": "ladder",
+     "label": "Rep ladders",
+     "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "4": [
+    {
+     "id": "full_gym",
+     "label": "Gym: full body",
+     "detail": "Smith squat 3x8, incline dumbbell press 3x10, seated row 3x10, leg raise 3x10, cable Pallof press 2x10 per side.",
+     "kind": "strength"
+    }
+   ],
+   "5": [
+    {
+     "id": "tempo",
+     "label": "Tempo run",
+     "detail": "1.5 km warm-up, 15-20 min comfortably hard (HR 155-165), 1 km cool-down.",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "situp_vol",
+     "label": "Sit-up volume",
+     "detail": "4 sets at ~60% of your max, clean full reps.",
+     "kind": "manual"
+    }
+   ],
+   "6": [
+    {
+     "id": "rest",
+     "label": "Rest day",
+     "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ]
+  },
+  "IPPT Peak": {
+   "0": [
+    {
+     "id": "upper_gym",
+     "label": "Gym: upper body",
+     "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
+     "kind": "strength"
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    }
+   ],
+   "1": [
+    {
+     "id": "intervals",
+     "label": "Intervals: 6 x 400m",
+     "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "2": [
+    {
+     "id": "legs_gym",
+     "label": "Gym: legs + glutes (snowboard)",
+     "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
+     "kind": "strength"
+    },
+    {
+     "id": "balance",
+     "label": "Balance + knee care",
+     "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
+     "kind": "manual"
+    }
+   ],
+   "3": [
+    {
+     "id": "ladder",
+     "label": "Rep ladders",
+     "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "4": [
+    {
+     "id": "easy_run",
+     "label": "Easy run 4-5 km",
+     "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
+     "kind": "run",
+     "min_km": 3.0
+    },
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    }
+   ],
+   "5": [
+    {
+     "id": "mock",
+     "label": "MOCK IPPT",
+     "detail": "Push-ups (1 min), 10 min rest, sit-ups (1 min), 10 min rest, 2.4 km run. Tell Claude all three numbers.",
+     "kind": "manual"
+    }
+   ],
+   "6": [
+    {
+     "id": "rest",
+     "label": "Rest day",
+     "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ]
+  },
+  "Taper + Trip Prep": {
+   "0": [
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "1": [
+    {
+     "id": "intervals",
+     "label": "Intervals: 6 x 400m",
+     "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
+     "kind": "run",
+     "min_km": 3.0
+    }
+   ],
+   "2": [
+    {
+     "id": "balance",
+     "label": "Balance + knee care",
+     "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
+     "kind": "manual"
+    },
+    {
+     "id": "core",
+     "label": "Core",
+     "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
+     "kind": "manual"
+    }
+   ],
+   "3": [
+    {
+     "id": "gtg",
+     "label": "Push-up GTG",
+     "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+     "kind": "manual"
+    },
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "4": [
+    {
+     "id": "easy_run",
+     "label": "Easy run 4-5 km",
+     "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
+     "kind": "run",
+     "min_km": 3.0
+    }
+   ],
+   "5": [
+    {
+     "id": "mobility",
+     "label": "Mobility 10 min",
+     "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+     "kind": "manual"
+    }
+   ],
+   "6": [
+    {
+     "id": "rest",
+     "label": "Rest day",
+     "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
+     "kind": "manual"
+    }
+   ]
+  }
+ },
+ "default": [
+  {
+   "id": "mobility",
+   "label": "Mobility 10 min",
+   "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
+   "kind": "manual"
+  },
+  {
+   "id": "gtg",
+   "label": "Push-up GTG",
+   "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
+   "kind": "manual"
+  }
+ ],
+ "_note": "weekday keys: 0=Mon..6=Sun. kind run/strength ticks automatically from Garmin; manual tasks need a tick. Coach may adjust the day if readiness is poor."
+}

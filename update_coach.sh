@@ -125,6 +125,9 @@ else:
 print(' | '.join(out))
 " 2>/dev/null || echo "IPPT summary unavailable.")
 
+# --- Pre-compute daily checklist + yesterday's completion (plan.json + dashboard check-ins + Garmin auto-ticks) ---
+CHECKIN_INFO=$($PYTHON plan_lib.py coach 2>/dev/null || echo "Checklist data unavailable.")
+
 # --- Pre-compute fuel/calorie data ---
 FUEL_INFO=$($PYTHON -c "
 import json
@@ -218,6 +221,10 @@ Firm, encouraging, data-driven. A coach who believes he can hit Gold. Direct wit
 ⚠️ CRITICAL DATE WARNING: TODAY IS $TODAY_INFO. The previous note was written for a DIFFERENT day. Any dates in the previous note are WRONG and MUST NOT be copied. The 3-Day Plan must use $TODAY_INFO as day 1. If you output yesterday's date anywhere in the plan, the note is invalid.
 
 IPPT / VOLUME DATA (pre-computed — use these exact numbers): $IPPT_INFO
+
+DAILY CHECKLIST + COMPLETION (pre-computed from plan.json, his dashboard ticks and Garmin): $CHECKIN_INFO
+- The dashboard shows him a fixed daily checklist (plan.json). Base TODAY's session and the 3-Day Plan on that checklist; only change it if readiness/HRV/resting HR says to go easier, and say so briefly.
+- Use the completion data: credit what was done; for NOT DONE items, do NOT stack/make-up everything — reschedule at most ONE key missed session (a test or a leg day), drop the rest. If no manual check-in was received, say non-Garmin items are unconfirmed rather than assuming he skipped them. Flag repeated misses candidly but constructively.
 
 RULES:
 - Safety first — never risk injury. If data supports it, push him.

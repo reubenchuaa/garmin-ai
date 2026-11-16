@@ -6,6 +6,11 @@ import os
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+try:
+    import plan_lib
+except Exception:
+    plan_lib = None
+
 SCRIPT_DIR = Path(__file__).parent
 DATA_FILE = SCRIPT_DIR / "garmin" / "data.json"
 CONTEXT_FILE = SCRIPT_DIR / "context.json"
@@ -313,6 +318,12 @@ def generate_html(data, context, coaching_text):
     today = date.today()
     race_date = date.fromisoformat(context.get("race_date", "2027-02-19"))
     days_to_race = (race_date - today).days
+
+    try:
+        plan_html = plan_lib.render(data, context) if plan_lib else ""
+    except Exception as _e:
+        print(f"  [plan] skipped: {_e}")
+        plan_html = ""
 
     wellness_14 = get_wellness_range(data, 14)
     # Try today first, fall back to most recent day with actual data
@@ -686,6 +697,7 @@ tr:last-child td{{border-bottom:none}}
   </div>
 </div>
 
+{plan_html}
 <div class="sec">Daily Coach</div>
 <div class="coach-card">
   {coach_html}

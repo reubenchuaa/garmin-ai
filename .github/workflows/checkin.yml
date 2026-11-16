@@ -1,0 +1,38 @@
+name: Save dashboard check-in
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: garmin-sync
+  cancel-in-progress: false
+
+jobs:
+  checkin:
+    # Only the repo owner's issues titled "checkin ..." are processed; anything else is ignored.
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'checkin ')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Apply check-in
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python3 apply_checkin.py
+      - name: Commit and push
+        run: |
+          git config user.name "garmin-coach-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add garmin/checkins.json
+          git diff --cached --quiet && echo "no change" || git commit -m "checkin: ${{ github.event.issue.title }}"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "Check-in saved."
