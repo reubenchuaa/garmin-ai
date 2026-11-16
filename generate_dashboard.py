@@ -422,8 +422,9 @@ def generate_html(data, context, coaching_text):
     chart_ippt_run = json.dumps([round(t["run_2400_sec"] / 60, 2) if t.get("run_2400_sec") else None for t in _ippt])
     if _ippt:
         _t = _ippt[-1]
-        _m, _sec = divmod(int(_t.get("run_2400_sec", 0)), 60)
-        ippt_card_val = f"{_t.get('pushups','?')}/{_t.get('situps','?')}/{_m}:{_sec:02d}"
+        _rs = _t.get("run_2400_sec")
+        _rtxt = f"{int(_rs)//60}:{int(_rs)%60:02d}" if _rs else "run TBD"
+        ippt_card_val = f"{_t.get('pushups','?')}/{_t.get('situps','?')}/{_rtxt}"
         ippt_card_sub = f"push-ups / sit-ups / 2.4km · {_t.get('type','test')} {_t['date'][-5:]}"
     else:
         ippt_card_val = "Not tested yet"

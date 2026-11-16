@@ -1,4 +1,12 @@
 {
-  "tests": [],
+  "tests": [
+    {
+      "date": "2026-11-16",
+      "pushups": 31,
+      "situps": 20,
+      "run_2400_sec": null,
+      "type": "baseline"
+    }
+  ],
   "_format": "each test: {date, pushups, situps, run_2400_sec, type: 'baseline'|'mock'|'official', points (optional)}"
 }

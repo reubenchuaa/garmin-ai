@@ -119,9 +119,10 @@ if not log:
     out.append('IPPT LOG: NO TESTS LOGGED YET. Baseline is untested — prescribe/confirm the baseline test (max 1-min push-ups, max 1-min sit-ups, all-out 2.4km) and tell him to log it with: python3 log_ippt.py <pushups> <situps> <M:SS> baseline')
 else:
     for t in log[-6:]:
-        m, s_ = divmod(int(t['run_2400_sec']), 60)
+        rs = t.get('run_2400_sec')
+        run_txt = f\"{int(rs)//60}:{int(rs)%60:02d}\" if rs else 'NOT RUN YET'
         pts = f\", {t['points']} pts\" if t.get('points') else ''
-        out.append(f\"IPPT {t['type']} {t['date']}: {t['pushups']} push-ups, {t['situps']} sit-ups, 2.4km {m}:{s_:02d}{pts}\")
+        out.append(f\"IPPT {t['type']} {t['date']}: {t['pushups']} push-ups, {t['situps']} sit-ups, 2.4km {run_txt}{pts}\")
 print(' | '.join(out))
 " 2>/dev/null || echo "IPPT summary unavailable.")
 
