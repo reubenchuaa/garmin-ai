@@ -6,13 +6,32 @@
      "id": "test_pu_su",
      "label": "BASELINE TEST A: push-ups + sit-ups",
      "detail": "Warm up 5 min. Max strict push-ups in 1 min, rest 10 min, max sit-ups in 1 min. Tell Claude your numbers. Skip if resting HR is >55 or you slept badly.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "First check: resting HR 55 or under and you slept 7+ hours. If not, skip the test today, do an easy walk instead and test tomorrow.",
+      "Warm-up (5 min): 20 jumping jacks, arm circles 10 each way, cat-cow 10, 10 easy push-ups, 10 easy sit-ups.",
+      "PUSH-UP TEST: set a 1-minute timer. Do as many strict push-ups as you can. Count only clean reps: straight body, elbows to about 90 degrees, arms fully straight at the top. Resting is allowed in the up position only.",
+      "Rest 10 minutes. Walk around, sip water.",
+      "SIT-UP TEST: 1-minute timer, feet anchored, count only full reps (shoulders to the floor, then all the way up).",
+      "Ask a friend to count, or prop up your phone to film so you can count after. Be honest, a clean score is worth more than an inflated one.",
+      "Write down both numbers and tell Claude. They set your whole training plan."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "1": [
@@ -21,13 +40,27 @@
      "label": "Easy run 4-5 km",
      "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km. Keep your heart rate at 135 bpm or lower. Pace is only a guide (roughly 7:00 to 7:30 per km in the heat).",
+      "You should be able to speak in full sentences. If HR creeps above 135, slow down or walk for 30 seconds.",
+      "Outdoors is better than a treadmill because it helps you get used to the heat.",
+      "Shoes: Kayano 31 for easy runs.",
+      "Finish with a 5-minute walk. Easy runs build the aerobic base that your 2.4 km sits on."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "2": [
@@ -36,7 +69,15 @@
      "label": "BASELINE TEST B: 2.4km all-out",
      "detail": "1.5 km easy warm-up, then 2.4 km as fast as you can (flat route or treadmill at 1% incline). Note the time and tell Claude.",
      "kind": "run",
-     "min_km": 2.4
+     "min_km": 2.4,
+     "steps": [
+      "Warm-up: 1.5 km easy jog, then 4 x 100 m at a fast-but-relaxed pace with walking in between.",
+      "Where: a flat route, a track, or the treadmill at 1% incline. Same place for every future test so the results compare fairly.",
+      "Run 2.4 km as fast as you can. Pacing matters: start a little slower than you feel like going for the first 400 m, then hold an even pace, and empty the tank in the last 400 m.",
+      "Don't sprint the first lap. Going out too fast is the number one way to run a slow 2.4 km.",
+      "Cool-down: 1 km easy jog or walk, then stretch your calves and hips.",
+      "Tell Claude your time (your Garmin will have it too). Wear the Xiaonian only if it's already broken in, otherwise the Kayano."
+     ]
     }
    ],
    "3": [
@@ -44,7 +85,18 @@
      "id": "legs_gym",
      "label": "Gym: legs + glutes (snowboard)",
      "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the air bike or bike, then 1 light set of squats.",
+      "Smith machine or barbell squat: 3 x 8 to 10. Feet shoulder-width, heels flat, knees track over toes, go down to about parallel. Rest 2 minutes. First time, use a light weight to learn the movement.",
+      "Linear leg press: 3 x 12. Feet mid-platform, don't lock your knees at the top. Rest 90 s.",
+      "Dumbbell split squat: 3 x 8 per leg. Back knee drops toward the floor, front foot stays flat. Rest 60 s.",
+      "Glute machine: 2 x 12, squeeze at the top for 1 s.",
+      "Adductor machine: 2 x 12, slow and controlled.",
+      "Calf raise (Smith machine or a step): 2 x 15, full range.",
+      "Choose weights so you stop with 1 to 2 reps left in the tank. Total about 50 minutes.",
+      "Why: strong, tired-proof legs make beginner snowboarding easier and protect your knees."
+     ]
     }
    ],
    "4": [
@@ -52,13 +104,29 @@
      "id": "upper_gym",
      "label": "Gym: upper body",
      "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the rower, then 10 easy push-ups.",
+      "Flat or incline dumbbell press: 3 x 8 to 10. Shoulder blades pulled back and down, elbows about 45 degrees from your body. Rest 90 s.",
+      "Seated row: 3 x 10, squeeze your shoulder blades together and pause for 1 s.",
+      "Shoulder press machine: 2 x 10.",
+      "Pull-ups on the rig: 3 sets of (your max minus 2). If you can't do one yet, jump up and lower yourself slowly for 4 seconds, 5 reps.",
+      "Cable pushdown or face pull (dual adjustable pulley): 2 x 12.",
+      "Total about 45 minutes. This builds the pushing strength that carries over to your push-up score."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     }
    ],
    "5": [
@@ -67,7 +135,14 @@
      "label": "Easy run 4-5 km",
      "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km. Keep your heart rate at 135 bpm or lower. Pace is only a guide (roughly 7:00 to 7:30 per km in the heat).",
+      "You should be able to speak in full sentences. If HR creeps above 135, slow down or walk for 30 seconds.",
+      "Outdoors is better than a treadmill because it helps you get used to the heat.",
+      "Shoes: Kayano 31 for easy runs.",
+      "Finish with a 5-minute walk. Easy runs build the aerobic base that your 2.4 km sits on."
+     ]
     }
    ],
    "6": [
@@ -75,13 +150,29 @@
      "id": "rest",
      "label": "Rest day",
      "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "No training. Sleep 7 to 9 hours.",
+      "Eat protein at every meal (about 90 to 110 g for the day) and enough total food. Rest days are when muscle is built.",
+      "An easy 20 to 30 minute walk is fine.",
+      "If your resting HR is still more than 5 bpm above your usual (about 47), keep it fully easy."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ]
   },
@@ -91,19 +182,42 @@
      "id": "upper_gym",
      "label": "Gym: upper body",
      "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the rower, then 10 easy push-ups.",
+      "Flat or incline dumbbell press: 3 x 8 to 10. Shoulder blades pulled back and down, elbows about 45 degrees from your body. Rest 90 s.",
+      "Seated row: 3 x 10, squeeze your shoulder blades together and pause for 1 s.",
+      "Shoulder press machine: 2 x 10.",
+      "Pull-ups on the rig: 3 sets of (your max minus 2). If you can't do one yet, jump up and lower yourself slowly for 4 seconds, 5 reps.",
+      "Cable pushdown or face pull (dual adjustable pulley): 2 x 12.",
+      "Total about 45 minutes. This builds the pushing strength that carries over to your push-up score."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     },
     {
      "id": "situp_vol",
      "label": "Sit-up volume",
      "detail": "4 sets at ~60% of your max, clean full reps.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "4 sets, each at about 60% of your max (max 40 means 24 per set). Before the baseline test, use 15 per set.",
+      "Rest 60 s between sets.",
+      "Use IPPT form so the reps count. Feet anchored (abdominal bench pads or feet under a rack), full range every rep: shoulders down to the floor, then all the way up.",
+      "Check the official IPPT sit-up standard once so your practice matches the test.",
+      "Control the lowering, don't drop onto your back."
+     ]
     }
    ],
    "1": [
@@ -112,13 +226,27 @@
      "label": "Easy run 4-5 km",
      "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km. Keep your heart rate at 135 bpm or lower. Pace is only a guide (roughly 7:00 to 7:30 per km in the heat).",
+      "You should be able to speak in full sentences. If HR creeps above 135, slow down or walk for 30 seconds.",
+      "Outdoors is better than a treadmill because it helps you get used to the heat.",
+      "Shoes: Kayano 31 for easy runs.",
+      "Finish with a 5-minute walk. Easy runs build the aerobic base that your 2.4 km sits on."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "2": [
@@ -126,13 +254,30 @@
      "id": "legs_gym",
      "label": "Gym: legs + glutes (snowboard)",
      "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the air bike or bike, then 1 light set of squats.",
+      "Smith machine or barbell squat: 3 x 8 to 10. Feet shoulder-width, heels flat, knees track over toes, go down to about parallel. Rest 2 minutes. First time, use a light weight to learn the movement.",
+      "Linear leg press: 3 x 12. Feet mid-platform, don't lock your knees at the top. Rest 90 s.",
+      "Dumbbell split squat: 3 x 8 per leg. Back knee drops toward the floor, front foot stays flat. Rest 60 s.",
+      "Glute machine: 2 x 12, squeeze at the top for 1 s.",
+      "Adductor machine: 2 x 12, slow and controlled.",
+      "Calf raise (Smith machine or a step): 2 x 15, full range.",
+      "Choose weights so you stop with 1 to 2 reps left in the tank. Total about 50 minutes.",
+      "Why: strong, tired-proof legs make beginner snowboarding easier and protect your knees."
+     ]
     },
     {
      "id": "balance",
      "label": "Balance + knee care",
      "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Single-leg stand: stand on one leg, slight knee bend, eyes open. 2 x 45 s each side. Easier: touch a wall. Harder: eyes closed or stand on a folded towel.",
+      "Step-downs: stand on a bench or step, slowly lower the other heel to the floor over 3 s, tap lightly, push back up. 2 x 10 per leg.",
+      "Keep the knee of the standing leg lined up over your 2nd toe, never caving inward. This protects your medial knee niggle and trains the control you need when landing on a snowboard.",
+      "Takes about 8 minutes."
+     ]
     }
    ],
    "3": [
@@ -140,13 +285,29 @@
      "id": "ladder",
      "label": "Rep ladders",
      "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Push-up ladder: 2, 4, 6, 8, 10, 8, 6, 4, 2 reps. Rest 10 to 20 seconds between each rung. That's 50 push-ups in total.",
+      "Then the same ladder for sit-ups.",
+      "Keep every rep clean. If your form breaks, rest longer, don't push through bad reps.",
+      "Takes about 15 minutes. This builds the ability to keep going without hitting failure."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "4": [
@@ -154,13 +315,29 @@
      "id": "full_gym",
      "label": "Gym: full body",
      "detail": "Smith squat 3x8, incline dumbbell press 3x10, seated row 3x10, leg raise 3x10, cable Pallof press 2x10 per side.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy cardio, then 1 light set of squats.",
+      "Smith squat: 3 x 8. Rest 90 s.",
+      "Incline dumbbell press: 3 x 10. Rest 90 s.",
+      "Seated row: 3 x 10. Rest 60 s.",
+      "Leg raises: 3 x 10, slow on the way down.",
+      "Cable Pallof press: 2 x 10 per side. Stand sideways to the cable, press the handle straight out, hold 2 s, resist twisting. This is the core strength you'll use on a board.",
+      "Total about 45 minutes."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     }
    ],
    "5": [
@@ -169,13 +346,26 @@
      "label": "Steady run 4-5 km",
      "detail": "Comfortable but purposeful, HR up to ~145.",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km at a comfortable-but-purposeful effort. Heart rate between 135 and 145 bpm.",
+      "A bit quicker than your easy pace but you can still speak in short sentences.",
+      "Start easy for the first 5 minutes, then settle in.",
+      "Finish with a 5-minute walk."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "6": [
@@ -183,13 +373,29 @@
      "id": "rest",
      "label": "Rest day",
      "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "No training. Sleep 7 to 9 hours.",
+      "Eat protein at every meal (about 90 to 110 g for the day) and enough total food. Rest days are when muscle is built.",
+      "An easy 20 to 30 minute walk is fine.",
+      "If your resting HR is still more than 5 bpm above your usual (about 47), keep it fully easy."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ]
   },
@@ -199,13 +405,29 @@
      "id": "upper_gym",
      "label": "Gym: upper body",
      "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the rower, then 10 easy push-ups.",
+      "Flat or incline dumbbell press: 3 x 8 to 10. Shoulder blades pulled back and down, elbows about 45 degrees from your body. Rest 90 s.",
+      "Seated row: 3 x 10, squeeze your shoulder blades together and pause for 1 s.",
+      "Shoulder press machine: 2 x 10.",
+      "Pull-ups on the rig: 3 sets of (your max minus 2). If you can't do one yet, jump up and lower yourself slowly for 4 seconds, 5 reps.",
+      "Cable pushdown or face pull (dual adjustable pulley): 2 x 12.",
+      "Total about 45 minutes. This builds the pushing strength that carries over to your push-up score."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     }
    ],
    "1": [
@@ -214,13 +436,27 @@
      "label": "Intervals: 6 x 400m",
      "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Warm-up: 1.5 km easy jog plus 3 x 100 m strides.",
+      "Main set: 6 x 400 m at your target 2.4 km pace. Until the baseline test tells us the exact pace, run at a hard but controlled effort (about 8 out of 10).",
+      "Recovery: jog or walk 400 m (about 2 minutes) between reps.",
+      "The last rep should be as fast as the first. If you're slowing down a lot, stop at 4 or 5 reps.",
+      "Cool-down: 1 km easy jog. Wear the Xiaonian once it's broken in."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "2": [
@@ -228,13 +464,30 @@
      "id": "legs_gym",
      "label": "Gym: legs + glutes (snowboard)",
      "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the air bike or bike, then 1 light set of squats.",
+      "Smith machine or barbell squat: 3 x 8 to 10. Feet shoulder-width, heels flat, knees track over toes, go down to about parallel. Rest 2 minutes. First time, use a light weight to learn the movement.",
+      "Linear leg press: 3 x 12. Feet mid-platform, don't lock your knees at the top. Rest 90 s.",
+      "Dumbbell split squat: 3 x 8 per leg. Back knee drops toward the floor, front foot stays flat. Rest 60 s.",
+      "Glute machine: 2 x 12, squeeze at the top for 1 s.",
+      "Adductor machine: 2 x 12, slow and controlled.",
+      "Calf raise (Smith machine or a step): 2 x 15, full range.",
+      "Choose weights so you stop with 1 to 2 reps left in the tank. Total about 50 minutes.",
+      "Why: strong, tired-proof legs make beginner snowboarding easier and protect your knees."
+     ]
     },
     {
      "id": "balance",
      "label": "Balance + knee care",
      "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Single-leg stand: stand on one leg, slight knee bend, eyes open. 2 x 45 s each side. Easier: touch a wall. Harder: eyes closed or stand on a folded towel.",
+      "Step-downs: stand on a bench or step, slowly lower the other heel to the floor over 3 s, tap lightly, push back up. 2 x 10 per leg.",
+      "Keep the knee of the standing leg lined up over your 2nd toe, never caving inward. This protects your medial knee niggle and trains the control you need when landing on a snowboard.",
+      "Takes about 8 minutes."
+     ]
     }
    ],
    "3": [
@@ -242,13 +495,29 @@
      "id": "ladder",
      "label": "Rep ladders",
      "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Push-up ladder: 2, 4, 6, 8, 10, 8, 6, 4, 2 reps. Rest 10 to 20 seconds between each rung. That's 50 push-ups in total.",
+      "Then the same ladder for sit-ups.",
+      "Keep every rep clean. If your form breaks, rest longer, don't push through bad reps.",
+      "Takes about 15 minutes. This builds the ability to keep going without hitting failure."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "4": [
@@ -256,7 +525,16 @@
      "id": "full_gym",
      "label": "Gym: full body",
      "detail": "Smith squat 3x8, incline dumbbell press 3x10, seated row 3x10, leg raise 3x10, cable Pallof press 2x10 per side.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy cardio, then 1 light set of squats.",
+      "Smith squat: 3 x 8. Rest 90 s.",
+      "Incline dumbbell press: 3 x 10. Rest 90 s.",
+      "Seated row: 3 x 10. Rest 60 s.",
+      "Leg raises: 3 x 10, slow on the way down.",
+      "Cable Pallof press: 2 x 10 per side. Stand sideways to the cable, press the handle straight out, hold 2 s, resist twisting. This is the core strength you'll use on a board.",
+      "Total about 45 minutes."
+     ]
     }
    ],
    "5": [
@@ -265,13 +543,26 @@
      "label": "Tempo run",
      "detail": "1.5 km warm-up, 15-20 min comfortably hard (HR 155-165), 1 km cool-down.",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Warm-up: 1.5 km easy jog.",
+      "Main set: 15 to 20 minutes at a comfortably hard effort, heart rate 155 to 165 bpm (roughly 6:00 to 6:15 per km). You can say a few words but not hold a conversation.",
+      "Cool-down: 1 km easy jog, then walk.",
+      "Shoes: Xiaonian once it's broken in. This session raises the pace you can hold for a long time, which makes the 2.4 km feel easier."
+     ]
     },
     {
      "id": "situp_vol",
      "label": "Sit-up volume",
      "detail": "4 sets at ~60% of your max, clean full reps.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "4 sets, each at about 60% of your max (max 40 means 24 per set). Before the baseline test, use 15 per set.",
+      "Rest 60 s between sets.",
+      "Use IPPT form so the reps count. Feet anchored (abdominal bench pads or feet under a rack), full range every rep: shoulders down to the floor, then all the way up.",
+      "Check the official IPPT sit-up standard once so your practice matches the test.",
+      "Control the lowering, don't drop onto your back."
+     ]
     }
    ],
    "6": [
@@ -279,13 +570,29 @@
      "id": "rest",
      "label": "Rest day",
      "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "No training. Sleep 7 to 9 hours.",
+      "Eat protein at every meal (about 90 to 110 g for the day) and enough total food. Rest days are when muscle is built.",
+      "An easy 20 to 30 minute walk is fine.",
+      "If your resting HR is still more than 5 bpm above your usual (about 47), keep it fully easy."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ]
   },
@@ -295,13 +602,29 @@
      "id": "upper_gym",
      "label": "Gym: upper body",
      "detail": "Flat/incline dumbbell press 3x8-10, seated row 3x10, shoulder press 2x10, pull-ups on the rig 3 x (max-2), cable pushdown or face pull 2x12.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the rower, then 10 easy push-ups.",
+      "Flat or incline dumbbell press: 3 x 8 to 10. Shoulder blades pulled back and down, elbows about 45 degrees from your body. Rest 90 s.",
+      "Seated row: 3 x 10, squeeze your shoulder blades together and pause for 1 s.",
+      "Shoulder press machine: 2 x 10.",
+      "Pull-ups on the rig: 3 sets of (your max minus 2). If you can't do one yet, jump up and lower yourself slowly for 4 seconds, 5 reps.",
+      "Cable pushdown or face pull (dual adjustable pulley): 2 x 12.",
+      "Total about 45 minutes. This builds the pushing strength that carries over to your push-up score."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     }
    ],
    "1": [
@@ -310,13 +633,27 @@
      "label": "Intervals: 6 x 400m",
      "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Warm-up: 1.5 km easy jog plus 3 x 100 m strides.",
+      "Main set: 6 x 400 m at your target 2.4 km pace. Until the baseline test tells us the exact pace, run at a hard but controlled effort (about 8 out of 10).",
+      "Recovery: jog or walk 400 m (about 2 minutes) between reps.",
+      "The last rep should be as fast as the first. If you're slowing down a lot, stop at 4 or 5 reps.",
+      "Cool-down: 1 km easy jog. Wear the Xiaonian once it's broken in."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "2": [
@@ -324,13 +661,30 @@
      "id": "legs_gym",
      "label": "Gym: legs + glutes (snowboard)",
      "detail": "Smith or barbell squat 3x8-10, linear leg press 3x12, dumbbell split squat 3x8 per leg, glute machine 2x12, adductor 2x12, calf raise 2x15. Stop 1-2 reps short of failure.",
-     "kind": "strength"
+     "kind": "strength",
+     "steps": [
+      "Warm-up: 5 minutes easy on the air bike or bike, then 1 light set of squats.",
+      "Smith machine or barbell squat: 3 x 8 to 10. Feet shoulder-width, heels flat, knees track over toes, go down to about parallel. Rest 2 minutes. First time, use a light weight to learn the movement.",
+      "Linear leg press: 3 x 12. Feet mid-platform, don't lock your knees at the top. Rest 90 s.",
+      "Dumbbell split squat: 3 x 8 per leg. Back knee drops toward the floor, front foot stays flat. Rest 60 s.",
+      "Glute machine: 2 x 12, squeeze at the top for 1 s.",
+      "Adductor machine: 2 x 12, slow and controlled.",
+      "Calf raise (Smith machine or a step): 2 x 15, full range.",
+      "Choose weights so you stop with 1 to 2 reps left in the tank. Total about 50 minutes.",
+      "Why: strong, tired-proof legs make beginner snowboarding easier and protect your knees."
+     ]
     },
     {
      "id": "balance",
      "label": "Balance + knee care",
      "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Single-leg stand: stand on one leg, slight knee bend, eyes open. 2 x 45 s each side. Easier: touch a wall. Harder: eyes closed or stand on a folded towel.",
+      "Step-downs: stand on a bench or step, slowly lower the other heel to the floor over 3 s, tap lightly, push back up. 2 x 10 per leg.",
+      "Keep the knee of the standing leg lined up over your 2nd toe, never caving inward. This protects your medial knee niggle and trains the control you need when landing on a snowboard.",
+      "Takes about 8 minutes."
+     ]
     }
    ],
    "3": [
@@ -338,13 +692,29 @@
      "id": "ladder",
      "label": "Rep ladders",
      "detail": "Push-ups: 2-4-6-8-10-8-6-4-2. Same for sit-ups. Rest as needed, perfect form.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Push-up ladder: 2, 4, 6, 8, 10, 8, 6, 4, 2 reps. Rest 10 to 20 seconds between each rung. That's 50 push-ups in total.",
+      "Then the same ladder for sit-ups.",
+      "Keep every rep clean. If your form breaks, rest longer, don't push through bad reps.",
+      "Takes about 15 minutes. This builds the ability to keep going without hitting failure."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "4": [
@@ -353,13 +723,27 @@
      "label": "Easy run 4-5 km",
      "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km. Keep your heart rate at 135 bpm or lower. Pace is only a guide (roughly 7:00 to 7:30 per km in the heat).",
+      "You should be able to speak in full sentences. If HR creeps above 135, slow down or walk for 30 seconds.",
+      "Outdoors is better than a treadmill because it helps you get used to the heat.",
+      "Shoes: Kayano 31 for easy runs.",
+      "Finish with a 5-minute walk. Easy runs build the aerobic base that your 2.4 km sits on."
+     ]
     },
     {
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     }
    ],
    "5": [
@@ -367,7 +751,15 @@
      "id": "mock",
      "label": "MOCK IPPT",
      "detail": "Push-ups (1 min), 10 min rest, sit-ups (1 min), 10 min rest, 2.4 km run. Tell Claude all three numbers.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do this fresh (not after a hard day) and treat it like the real thing.",
+      "Warm-up 5 to 10 minutes.",
+      "Push-ups: 1 minute, clean reps only. Rest 10 minutes.",
+      "Sit-ups: 1 minute, clean reps only. Rest 10 minutes.",
+      "2.4 km run: pace it evenly, empty the tank at the end.",
+      "Tell Claude all three numbers. The coach uses these to decide when you're ready for the official attempt."
+     ]
     }
    ],
    "6": [
@@ -375,13 +767,29 @@
      "id": "rest",
      "label": "Rest day",
      "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "No training. Sleep 7 to 9 hours.",
+      "Eat protein at every meal (about 90 to 110 g for the day) and enough total food. Rest days are when muscle is built.",
+      "An easy 20 to 30 minute walk is fine.",
+      "If your resting HR is still more than 5 bpm above your usual (about 47), keep it fully easy."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ]
   },
@@ -391,13 +799,30 @@
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "1": [
@@ -406,7 +831,14 @@
      "label": "Intervals: 6 x 400m",
      "detail": "1.5 km warm-up, 6 x 400m at goal 2.4km pace, jog back as recovery, 1 km cool-down.",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Warm-up: 1.5 km easy jog plus 3 x 100 m strides.",
+      "Main set: 6 x 400 m at your target 2.4 km pace. Until the baseline test tells us the exact pace, run at a hard but controlled effort (about 8 out of 10).",
+      "Recovery: jog or walk 400 m (about 2 minutes) between reps.",
+      "The last rep should be as fast as the first. If you're slowing down a lot, stop at 4 or 5 reps.",
+      "Cool-down: 1 km easy jog. Wear the Xiaonian once it's broken in."
+     ]
     }
    ],
    "2": [
@@ -414,13 +846,26 @@
      "id": "balance",
      "label": "Balance + knee care",
      "detail": "2 x 45s single-leg stand per side (foam pad if you have one), 2 x 10 step-downs per leg.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Single-leg stand: stand on one leg, slight knee bend, eyes open. 2 x 45 s each side. Easier: touch a wall. Harder: eyes closed or stand on a folded towel.",
+      "Step-downs: stand on a bench or step, slowly lower the other heel to the floor over 3 s, tap lightly, push back up. 2 x 10 per leg.",
+      "Keep the knee of the standing leg lined up over your 2nd toe, never caving inward. This protects your medial knee niggle and trains the control you need when landing on a snowboard.",
+      "Takes about 8 minutes."
+     ]
     },
     {
      "id": "core",
      "label": "Core",
      "detail": "3 x 30s plank, 3 x 30s side plank per side, 2 x 10 leg raises (leg raise station).",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Plank: forearms down, body in one straight line, squeeze glutes and abs, ribs pulled down. 3 x 30 s.",
+      "Side plank: stacked feet, hips lifted, straight line from head to feet. 3 x 30 s each side.",
+      "Leg raises (leg raise station): back flat against the pad, raise legs to hip height, lower slowly over 3 s, no swinging. 2 x 10.",
+      "Rest 45 s between sets. Total about 10 minutes.",
+      "If the lower back arches or aches on leg raises, bend your knees."
+     ]
     }
    ],
    "3": [
@@ -428,13 +873,30 @@
      "id": "gtg",
      "label": "Push-up GTG",
      "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+      "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+      "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+      "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+      "Tick it once you've done all 5 sets."
+     ]
     },
     {
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "4": [
@@ -443,7 +905,14 @@
      "label": "Easy run 4-5 km",
      "detail": "HR 135 or under (Singapore heat: slow down rather than let HR creep).",
      "kind": "run",
-     "min_km": 3.0
+     "min_km": 3.0,
+     "steps": [
+      "Distance 4 to 5 km. Keep your heart rate at 135 bpm or lower. Pace is only a guide (roughly 7:00 to 7:30 per km in the heat).",
+      "You should be able to speak in full sentences. If HR creeps above 135, slow down or walk for 30 seconds.",
+      "Outdoors is better than a treadmill because it helps you get used to the heat.",
+      "Shoes: Kayano 31 for easy runs.",
+      "Finish with a 5-minute walk. Easy runs build the aerobic base that your 2.4 km sits on."
+     ]
     }
    ],
    "5": [
@@ -451,7 +920,17 @@
      "id": "mobility",
      "label": "Mobility 10 min",
      "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+      "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+      "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+      "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+      "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+      "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+      "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+      "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+     ]
     }
    ],
    "6": [
@@ -459,7 +938,13 @@
      "id": "rest",
      "label": "Rest day",
      "detail": "Sleep 7-9h, eat enough protein, easy walk. Recovery is when the gains happen.",
-     "kind": "manual"
+     "kind": "manual",
+     "steps": [
+      "No training. Sleep 7 to 9 hours.",
+      "Eat protein at every meal (about 90 to 110 g for the day) and enough total food. Rest days are when muscle is built.",
+      "An easy 20 to 30 minute walk is fine.",
+      "If your resting HR is still more than 5 bpm above your usual (about 47), keep it fully easy."
+     ]
     }
    ]
   }
@@ -469,13 +954,30 @@
    "id": "mobility",
    "label": "Mobility 10 min",
    "detail": "Hips, ankles, thoracic spine, wrists. Easy and slow.",
-   "kind": "manual"
+   "kind": "manual",
+   "steps": [
+    "Cat-cow: on hands and knees, round then arch your back slowly. 10 reps (spine).",
+    "90/90 hip switches: sit with both knees bent at 90 degrees, rotate your knees side to side without using your hands. 8 per side (hips).",
+    "World's greatest stretch: lunge forward, put the inside hand on the floor, rotate the other arm up to the ceiling. 5 per side, pause 2 s at the top (hips + upper back).",
+    "Deep squat hold: sink into a full squat, hold a rack or post for balance, push the knees out. 3 x 30 s (hips + ankles).",
+    "Ankle rocks: half-kneeling, drive the front knee forward over the toes with the heel down. 10 per side (ankles, important for snowboard landings).",
+    "Open books: lie on your side, knees stacked, rotate the top arm open and follow it with your eyes. 8 per side (upper back).",
+    "Wrists: circles 10 each way, then press your palms flat (fingers forward, then fingers back) and hold 20 s each. Protects you for push-ups and snowboard falls.",
+    "Go slow, breathe out on the stretch, nothing should hurt. Total about 10 minutes."
+   ]
   },
   {
    "id": "gtg",
    "label": "Push-up GTG",
    "detail": "5 sets at ~50% of your max, spread through the day. Never to failure.",
-   "kind": "manual"
+   "kind": "manual",
+   "steps": [
+    "Do 5 short sets spread through the day (for example 8am, 11am, 2pm, 5pm, 8pm). Takes about a minute each.",
+    "Each set = about HALF your max. If your max is 30, do 15. Until you've done the baseline test, do 10 per set.",
+    "Stop well before your arms burn. Never go to failure, the point is lots of clean practice.",
+    "Form that counts: body in a straight line, lower until your elbows are about 90 degrees (upper arms parallel to the floor), push up to fully straight arms.",
+    "Tick it once you've done all 5 sets."
+   ]
   }
  ],
  "_note": "weekday keys: 0=Mon..6=Sun. kind run/strength ticks automatically from Garmin; manual tasks need a tick. Coach may adjust the day if readiness is poor."

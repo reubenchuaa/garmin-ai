@@ -100,17 +100,24 @@ var info=PLAN[today], dn=DONE[today]||{auto:[],server:[]};
 var head=document.getElementById('plan-head'), box=document.getElementById('plan-today');
 function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 function isDone(id){return dn.auto.indexOf(id)>-1||dn.server.indexOf(id)>-1||local.indexOf(id)>-1;}
+var openSet={};
+function stepsHtml(t){if(!t.steps||!t.steps.length)return '';
+  return '<details data-sid="'+esc(t.id)+'"'+(openSet[t.id]?' open':'')+' style="margin:6px 0 0 30px"><summary style="cursor:pointer;font-size:.78rem;color:#60a5fa">How to do it</summary><ol style="margin:6px 0 0 18px;padding:0;font-size:.78rem;color:#cbd5e1;line-height:1.55">'
+   +t.steps.map(function(x){return '<li style="margin-bottom:4px">'+esc(x)+'</li>';}).join('')+'</ol></details>';}
 function draw(){
   if(!info||!info.tasks.length){head.innerHTML='<b>'+(info?esc(info.dow):'Today')+'</b><span style="font-size:.75rem;color:#94a3b8">No checklist today</span>';box.innerHTML='';return;}
   var n=0;info.tasks.forEach(function(t){if(isDone(t.id))n++;});
   head.innerHTML='<span style="font-weight:700;font-size:1rem">'+esc(info.dow)+'</span><span style="font-size:.75rem;color:#94a3b8">'+esc(info.phase)+' &middot; '+n+'/'+info.tasks.length+' done</span>';
   box.innerHTML=info.tasks.map(function(t){
     var auto=dn.auto.indexOf(t.id)>-1, on=isDone(t.id);
-    return '<label style="display:flex;gap:10px;padding:9px 0;border-top:1px solid #1e293b;cursor:'+(auto?'default':'pointer')+'">'
+    return '<div style="padding:9px 0;border-top:1px solid #1e293b"><label style="display:flex;gap:10px;cursor:'+(auto?'default':'pointer')+'">'
       +'<input type="checkbox" data-id="'+esc(t.id)+'" '+(on?'checked ':'')+(auto?'disabled ':'')+'style="width:20px;height:20px;margin-top:2px;accent-color:#10b981;flex:none">'
       +'<span><span style="font-weight:600;color:'+(on?'#64748b':'#e2e8f0')+';'+(on?'text-decoration:line-through':'')+'">'+esc(t.label)+(auto?' <span style="font-size:.7rem;color:#10b981">&#10003; Garmin</span>':'')+'</span>'
-      +'<span style="display:block;font-size:.76rem;color:#94a3b8">'+esc(t.detail)+'</span></span></label>';
+      +'<span style="display:block;font-size:.76rem;color:#94a3b8">'+esc(t.detail)+'</span></span></label>'+stepsHtml(t)+'</div>';
   }).join('');
+  Array.prototype.forEach.call(box.querySelectorAll('details'),function(el){
+    el.ontoggle=function(){openSet[el.getAttribute('data-sid')]=el.open;};
+  });
   Array.prototype.forEach.call(box.querySelectorAll('input'),function(el){
     el.onchange=function(){var id=el.getAttribute('data-id'),i=local.indexOf(id);
       if(el.checked&&i<0)local.push(id); if(!el.checked&&i>-1)local.splice(i,1); save(); draw();};
