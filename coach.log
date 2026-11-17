@@ -897,3 +897,4 @@ All data saved to garmin/data.json
 Markdown notes written: 4 files
   [auth] WARNING: Claude refresh token expires in -39 days — please run: claude /login
   [git] Stale lock detected (72999s old), removing
+  [git] Stale lock detected (7598s old), removing
