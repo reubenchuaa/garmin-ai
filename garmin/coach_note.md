@@ -1,35 +1,35 @@
-_Updated: Monday, 16 Nov 2026 at 10:10 PM SGT_
+_Updated: Tuesday, 17 Nov 2026 at 07:45 PM SGT_
 
-**Baseline Test A is logged and the run is done ✅. Sit-ups (20) are your biggest gap to Gold, and the 2.4km is still unmeasured.**
+**Day 2 of baseline week: sit-ups (20) are still the biggest gap to Gold, the 2.4km is unmeasured, and today is an easy-volume day.**
 
 **What your data says**
-95 days to the IPPT deadline (19 Feb), 96 to the trip. Baseline 16 Nov: 31 push-ups, 20 sit-ups, 2.4km not run yet. The working targets (45+ push-ups, 50+ sit-ups, ≤10:30 run) are unverified estimates, so check the official scoring table for your age band. Sit-ups are the limiter (30 reps short) and push-ups are 14 short. ACWR is 0.5 (LOW), with 8.2km over 3 runs in 7 days, 21.3km over 7 runs in 28 days and 0 strength sessions. We will raise volume gradually. ⚠️ Resting HR has run 62–67 over 10–13 Nov against your ~47 baseline, which is more than 5 bpm above. Training Readiness was HIGH on those days. Sleep and HRV data are missing, so I'm treating readiness as unconfirmed.
+94 days to the IPPT deadline (19 Feb), 95 to the trip. Baseline 16 Nov: 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups are the limiter so far, and I can't confirm the run until it's timed. Any rep or time targets are working estimates, so check the official IPPT table for your age band (testing before your birthday may put you in the harder, younger band). ACWR is 0.4 (LOW, acute 106 vs chronic 219). Last 7 days: 8.2km over 3 runs; last 28 days: 19.3km over 6 runs; 0 strength sessions. We'll raise volume gradually. ⚠️ Resting HR is 66–67 (7-day avg 64) against your ~47 baseline, well over the +5 bpm line, even though Training Readiness is 86 (HIGH). Sleep and HRV data are missing, so I'm trusting the resting HR and keeping today easy.
 
 **Today's session**
-- [RUN] 5.01km, 29.8 min, avg HR 129 ✅ (under the 135 easy cap, with good control). No more running today.
-- Baseline Test A (31 push-ups, 20 sit-ups) is logged ✅.
-- Finish with 10 min mobility: hips, thoracic spine, wrists, ankles.
-- Purpose: easy aerobic volume and mobility without adding fatigue.
+- Easy run 4–5km, HR ≤135 (cap by HR, not pace, because of the heat).
+- Core: 3 x 30s plank, 3 x 20s side plank per side, 2 x 10 Pallof press per side.
+- Purpose: aerobic volume and trunk endurance with no max efforts while resting HR is elevated.
 
 **3-Day Plan**
-- Today (Monday, 16 November 2026): run ✅ + Test A ✅ + mobility.
-- Tomorrow (Tuesday, 17 November 2026): easy run 4–5km at HR ≤135, then core (3 x 30s plank, 3 x 20s side plank per side, Pallof press) and 3 sets of submax push-ups and sit-ups (about 60% of max, never to failure).
-- Day after (Wednesday, 18 November 2026): Baseline Test B, the 2.4km all-out, ONLY if resting HR is ≤52 that morning. If not, do an easy 4km and move the test to Friday or Saturday. Log it with `python3 log_ippt.py ...`.
+- Today (Tuesday, 17 November 2026): easy run 4–5km (HR ≤135) + core.
+- Tomorrow (Wednesday, 18 November 2026): the 2.4km all-out is moved. Do 20 min easy or rest, plus 10 min mobility.
+- Day after (Thursday, 19 November 2026): Gym, legs + glutes, moderate load: 3 x 8–10 goblet squats, split squats, hip thrusts, light step-downs for the knee.
+- Rescheduled key session: the 2.4km time trial moves to Fri 20 or Sat 21 Nov, only if resting HR is back under ~58. Log it with `python3 log_ippt.py`.
 
 **Snowboard Prep**
-- Thu 19 Nov: light legs, 3 x 10 goblet squats, 3 x 8 per leg step-downs (knee niggle, so keep them controlled) and hip thrusts. Do not stack this with a hard run.
-- Add 2 x 30s single-leg balance per side and lateral band walks after Tuesday's core.
-- Keep ankle and hip mobility daily.
+- Thu: legs and glutes as above (goblet/split squats, hip thrusts, step-downs).
+- Today: Pallof press and side planks for anti-rotation.
+- Daily: 5 min of single-leg balance while brushing your teeth, plus ankle and hip mobility.
 
 **Fuel**
-Yesterday burned 2205 kcal. Today's run alone burned about 256 kcal. Target today is about 2400 kcal, which is maintenance with a small surplus and 90–110g protein. No deficit.
-- Breakfast: kaya toast set + soy milk — ~550 kcal
-- Lunch: chicken rice — ~600 kcal
-- Snack: banana + yogurt — ~255 kcal
-- Dinner: economy rice 1-meat-2-veg — ~600 kcal
-- Evening: Milo dinosaur — ~350 kcal
-- Total ≈ 2355 kcal
-Today's run burn is about one plate of nasi lemak (~490 kcal) shared across two people.
+Yesterday burned 2249 kcal. Today's target is ~2360 kcal (maintenance, no deficit), with ~95–105g protein.
+- Breakfast: kaya toast set — ~450 kcal
+- Lunch: economy rice 1-meat-2-veg — ~600 kcal
+- Snack: yogurt + banana — ~255 kcal
+- Dinner: chicken rice — ~600 kcal
+- Evening: Milo dinosaur + soy milk — ~450 kcal
+
+Total ≈ 2355 kcal. Yesterday's active burn (461 kcal) is about one plate of wanton mee (410).
 
 **Coach's take**
-A 129 bpm average HR over 5km shows your engine is ready, and 20 sit-ups is a very fixable number once we start the daily submax sets.
+Your engine is strong (VO2max 59), so once we fix the sit-ups and sort out the resting HR, Gold is a realistic target.
