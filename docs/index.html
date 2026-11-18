@@ -80,7 +80,7 @@ tr:last-child td{border-bottom:none}
   <div class="pills">
     <span class="pill pill-blue">🥇 93 days to IPPT deadline (19 Feb)</span>
     <span class="pill pill-green">🏂 Snowboarding in 94 days</span>
-    <span class="pill pill-green">Synced 18 Nov 2026 08:47 AM SGT</span>
+    <span class="pill pill-green">Synced 18 Nov 2026 12:03 PM SGT</span>
   </div>
 </div>
 </div>
@@ -91,19 +91,19 @@ tr:last-child td{border-bottom:none}
 <div class="tr-wrap">
   <div class="tr-card">
     <div class="lbl">Readiness</div>
-    <div class="score">89</div>
+    <div class="score">90</div>
     <div class="level">HIGH</div>
   </div>
   <div class="cards" style="margin:0">
-    <div class="card"><div class="lbl">Resting HR</div><div class="val">67</div><div class="sub2">bpm</div></div>
-    <div class="card"><div class="lbl">Body Battery</div><div class="val">89</div><div class="sub2">peak · 28 low</div></div>
-    <div class="card"><div class="lbl">Stress</div><div class="val">33</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">12,755</div><div class="sub2">today</div></div>
-    <div class="card"><div class="lbl">Intensity</div><div class="val">10</div><div class="sub2">min (mod+vig)</div></div>
-    <div class="card"><div class="lbl">Active Cal</div><div class="val">342</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Resting HR</div><div class="val">68</div><div class="sub2">bpm</div></div>
+    <div class="card"><div class="lbl">Body Battery</div><div class="val">93</div><div class="sub2">peak · 93 low</div></div>
+    <div class="card"><div class="lbl">Stress</div><div class="val">24</div><div class="sub2">avg</div></div>
+    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">452</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Intensity</div><div class="val">—</div><div class="sub2">min (mod+vig)</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">11</div><div class="sub2">kcal</div></div>
     <div class="card"><div class="lbl">Distance</div><div class="val">—</div><div class="sub2">km run today</div></div>
-    <div class="card"><div class="lbl">Floors</div><div class="val">15</div><div class="sub2">ascended</div></div>
-    <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">0.50</div><div class="sub2">ACWR · Low</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">—</div><div class="sub2">ascended</div></div>
+    <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">0.40</div><div class="sub2">ACWR · Low</div></div>
     <div class="card"><div class="lbl">IPPT Latest</div><div class="val" style="font-size:1.1rem;color:#f59e0b">31/20/run TBD</div><div class="sub2">push-ups / sit-ups / 2.4km · baseline 11-16</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">59.0</div><div class="sub2">ml/kg/min</div></div>
     <div class="card"><div class="lbl">Heat Adapt</div><div class="val">16%</div><div class="sub2">acclimatised</div></div>
@@ -300,10 +300,10 @@ wk.innerHTML=h;
 <script>
 const LB=["11-05", "11-06", "11-07", "11-08", "11-09", "11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[85,45,70,88,71,90,80,87,93,88,83,91,89,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[14,9,17,31,15,23,19,31,26,26,26,31,28,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[94,59,68,79,94,94,94,94,94,94,79,77,89,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[64,57,66,66,56,66,66,62,67,61,61,66,67,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[54,25,38,39,29,46,38,36,37,45,25,39,33,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[85,45,70,88,71,90,80,87,93,88,83,91,89,93],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[14,9,17,31,15,23,19,31,26,26,26,31,27,93],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[94,59,68,79,94,94,94,94,94,94,79,77,89,90],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[64,57,66,66,56,66,66,62,67,61,61,66,67,68],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[54,25,38,39,29,46,38,36,37,45,25,39,33,24],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[null,1.0,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#1e40af"},{"label":"Light","data":[null,2.8,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#60a5fa"},{"label":"REM","data":[null,0.1,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[null,0.5,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
 new Chart(document.getElementById('hrv'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"HRV","data":[null,52,null,null,null,null,null,null,null,null,null,null,null,null],"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('hmpred'),{"type":"line","data":{"labels":["11-16"],"datasets":[{"label":"Push-ups","data":[31],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},{"label":"Sit-ups","data":[20],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},{"label":"2.4km (min)","data":[null],"borderColor":"#f59e0b","borderDash":[5,3],"tension":.3,"pointRadius":4,"yAxisID":"y1"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"position":"left","ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true},"y1":{"position":"right","reverse":true,"ticks":{"color":"#f59e0b","font":{"size":10}},"grid":{"drawOnChartArea":false}}}}});
