@@ -686029,20 +686029,20 @@
     {
       "date": "2026-11-18",
       "wellness": {
-        "totalSteps": 7005,
-        "totalDistanceMeters": 5386,
-        "averageStressLevel": 27,
+        "totalSteps": 8750,
+        "totalDistanceMeters": 6728,
+        "averageStressLevel": 31,
         "maxStressLevel": 77,
         "bodyBatteryHighestValue": 93,
-        "bodyBatteryLowestValue": 72,
+        "bodyBatteryLowestValue": 51,
         "floorsAscended": 1,
         "restingHeartRate": 66,
         "maxAvgHeartRate": 98,
         "minAvgHeartRate": 61,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 106,
-        "totalKilocalories": 1084
+        "activeKilocalories": 124,
+        "totalKilocalories": 1481
       },
       "sleep": {
         "dailySleepDTO": {
