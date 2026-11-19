@@ -1,33 +1,31 @@
-_Updated: Thursday, 19 Nov 2026 at 11:47 PM SGT_
+_Updated: Friday, 20 Nov 2026 at 12:03 AM SGT_
 
-**Run banked, but Gold is still unproven: 31 push-ups and 20 sit-ups are your gap, and the 2.4km hasn't been tested.**
+**Sit-ups (20) and push-ups (31) are your gap to Gold, and the 2.4km is still untested, so today we build the muscular engine.**
 
 **What your data says**
-92 days to the IPPT deadline, 93 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km NOT RUN YET. Sit-ups look like the limiter, but the run must be tested before we call it. Working targets (45 push-ups / 50 sit-ups / ≤10:30) are unverified, so check the official table for your age band (testing before your birthday may put you in the harder band). ACWR is 0.7 (LOW), with 14.1km over 5 runs in the last 7 days, 25.2km over 8 runs in 28 days, and 0 strength sessions. Resting HR has run 61–67 all week, 14–20 bpm above your ~47 baseline. Readiness fell from 92 this morning to 52 after the run. No sleep or HRV data came through. Either the baseline is outdated or you're carrying fatigue, so we stay easy until the trend settles.
+91 days to the IPPT deadline, 92 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km NOT RUN YET. Sit-ups look like the limiter, but we can't confirm that until the run is tested. Working targets (45 / 50 / ≤10:30) are estimates, so check the official IPPT table for your age band. Testing before your birthday may put you in the harder, younger band. ACWR isn't reported today, so I'm not quoting a number. Last 7 days: 14.1km over 5 runs, 0 strength sessions; last 28 days: 25.2km over 8 runs. Readiness was 52 (moderate) after last night's 5.2km run, down from 92 that morning. Resting HR was 61 (baseline ~47, though your 7-day average is 64). HRV and sleep data are missing, so don't push max reps today. Gym sessions and the 2.4km test are unconfirmed (no check-in received). The 2.4km test and the leg day are the missed items, so I'm rescheduling only one, the 2.4km test.
 
 **Today's session**
-- ✅ DONE: Easy run, 5.22km in 31.0 min, avg HR 135, right at the Maffetone cap. No more running today.
-- Gym legs + glutes is unconfirmed. Given readiness 52 and the elevated resting HR, do a light version only, or skip it. Goblet squat 3x10, split squat 3x8/leg, hip thrust 3x12, slow step-downs 3x8/leg, RPE 6 with 2 reps in reserve. Don't make it up tomorrow if skipped.
-- Purpose: build leg endurance and knee resilience for snowboarding, and raise strength volume gradually.
+Gym: upper body, submaximal. Do 4 x 8-10 bench or dumbbell press, 4 x 8 rows, 3 x 10 overhead press and 3 x 12 face pulls at RPE 7, with 90s rest. Then do push-up GTG: 6-8 sets of 12-15 clean reps through the day, never to failure. Add 3 x 30s hollow holds. Purpose: build pressing and trunk endurance without a max effort while readiness is moderate.
 
 **3-Day Plan**
-- Today (Thursday, 19 November 2026): Easy run ✅ done; optional light legs + glutes
-- Tomorrow (Friday, 20 November 2026): Upper body gym (push, pull, shoulders, 3x8–10, 2 reps in reserve) + push-up greasing-the-groove (5–6 sets of ~12 reps spread through the day, never to failure). No max test.
-- Day after (Saturday, 21 November 2026): Easy run 4–5km, HR ≤135. Reschedule the 2.4km test (Baseline B) to ~Tue 24 Nov, only if resting HR is under ~55 and readiness is above 70.
+- Today (Friday, 20 November 2026): Gym upper body + push-up GTG
+- Saturday, 21 November 2026: Easy run 4-5km, HR ≤135, then log sit-up GTG sets
+- Sunday, 22 November 2026: Rest + 10 min mobility. The 2.4km all-out test moves to Mon 23 Nov if readiness is 60+ and resting HR is ≤55; otherwise Tue.
 
 **Snowboard Prep**
-- Light legs today, if done: step-downs and glute work give the knee ~2x/week exposure.
-- This week: 2 min/side single-leg balance plus 3x30s side planks after Saturday's run.
-- Hip and ankle mobility, 10 min, tonight or Friday.
+- Mon/Thu: light step-downs, glute bridges and lateral band walks, 2x/week for the knee.
+- Sat: 3 x 30s single-leg balance per side after the easy run.
+- Daily: 5 min ankle and hip mobility, plus wrist circles.
 
 **Fuel**
-Burned so far: BMR ~1788 + run 301 kcal active, so ~2300 kcal is the day's target. Eat to maintain or slightly above, never a deficit, with ~100g protein.
+Burned 2137 kcal yesterday (active 573, BMR 1564). Target today ≈2,300 kcal (maintenance, no deficit), with ~100g protein on a lifting day.
 - Breakfast: kaya toast set + soy milk — ~550 kcal
-- Lunch: chicken rice — ~600 kcal
+- Lunch: chicken rice + extra egg — ~680 kcal
 - Snack: banana + yogurt — ~255 kcal
-- Dinner: economy rice 1-meat-2-veg — ~600 kcal
-- Evening: Milo dinosaur — ~350 kcal
-Total ≈ 2355 kcal. The run's 301 kcal burn is about half a plate of char kway teow (740).
+- Dinner: economy rice, 1 meat 2 veg, fish — ~650 kcal
+- Evening: kopi + 2 slices wholemeal toast with peanut butter — ~200 kcal
+Total ≈ 2,335 kcal. Yesterday's 573 active kcal ≈ one plate of char kway teow.
 
 **Coach's take**
-Your aerobic engine is clearly strong, with a 5.2km run at HR 135, so the points to win are in sit-ups and push-ups. Stay patient this week, and we'll test properly once your resting HR settles.
+Your aerobic base is strong, and that leaves 20-ish sit-ups as the cheapest points to win, so stay patient and consistent for 91 days.
