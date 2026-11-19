@@ -80,7 +80,7 @@ tr:last-child td{border-bottom:none}
   <div class="pills">
     <span class="pill pill-blue">🥇 91 days to IPPT deadline (19 Feb)</span>
     <span class="pill pill-green">🏂 Snowboarding in 92 days</span>
-    <span class="pill pill-green">Synced 20 Nov 2026 12:37 AM SGT</span>
+    <span class="pill pill-green">Synced 20 Nov 2026 01:06 AM SGT</span>
   </div>
 </div>
 </div>
@@ -96,13 +96,13 @@ tr:last-child td{border-bottom:none}
   </div>
   <div class="cards" style="margin:0">
     <div class="card"><div class="lbl">Resting HR</div><div class="val">61</div><div class="sub2">bpm</div></div>
-    <div class="card"><div class="lbl">Body Battery</div><div class="val">94</div><div class="sub2">peak · 39 low</div></div>
+    <div class="card"><div class="lbl">Body Battery</div><div class="val">94</div><div class="sub2">peak · 38 low</div></div>
     <div class="card"><div class="lbl">Stress</div><div class="val">25</div><div class="sub2">avg</div></div>
-    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">17,906</div><div class="sub2">today</div></div>
+    <div class="card"><div class="lbl">Steps</div><div class="val" style="font-size:1.1rem">18,501</div><div class="sub2">today</div></div>
     <div class="card"><div class="lbl">Intensity</div><div class="val">41</div><div class="sub2">min (mod+vig)</div></div>
-    <div class="card"><div class="lbl">Active Cal</div><div class="val">573</div><div class="sub2">kcal</div></div>
+    <div class="card"><div class="lbl">Active Cal</div><div class="val">592</div><div class="sub2">kcal</div></div>
     <div class="card"><div class="lbl">Distance</div><div class="val">—</div><div class="sub2">km run today</div></div>
-    <div class="card"><div class="lbl">Floors</div><div class="val">20</div><div class="sub2">ascended</div></div>
+    <div class="card"><div class="lbl">Floors</div><div class="val">23</div><div class="sub2">ascended</div></div>
     <div class="card"><div class="lbl">Training Load</div><div class="val" style="font-size:1.1rem;color:#10b981">0.70</div><div class="sub2">ACWR · Low</div></div>
     <div class="card"><div class="lbl">IPPT Latest</div><div class="val" style="font-size:1.1rem;color:#f59e0b">31/20/run TBD</div><div class="sub2">push-ups / sit-ups / 2.4km · baseline 11-16</div></div>
     <div class="card"><div class="lbl">VO2 Max</div><div class="val">58.6</div><div class="sub2">ml/kg/min</div></div>
@@ -301,7 +301,7 @@ wk.innerHTML=h;
 <script>
 const LB=["11-07", "11-08", "11-09", "11-10", "11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[70,88,71,90,80,87,93,88,83,91,89,93,94,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[17,31,15,23,19,31,26,26,26,31,27,36,39,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[70,88,71,90,80,87,93,88,83,91,89,93,94,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[17,31,15,23,19,31,26,26,26,31,27,36,38,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[68,79,94,94,94,94,94,94,79,77,89,90,52,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[66,66,56,66,66,62,67,61,61,66,67,65,61,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[38,39,29,46,38,36,37,45,25,39,33,30,25,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
