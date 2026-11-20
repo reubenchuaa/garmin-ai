@@ -1,39 +1,37 @@
-_Updated: Friday, 20 Nov 2026 at 07:20 PM SGT_
+_Updated: Friday, 20 Nov 2026 at 07:33 PM SGT_
 
-**91 days out: baseline is 31 push-ups and 20 sit-ups, the 2.4km is still untimed, and elevated resting HR means today stays submaximal.**
+**Day 1 of the baseline week: push-ups 31 and sit-ups 20 are logged, the 2.4km is still missing, and Gold is a clear gap we can close in 91 days.**
 
 **What your data says**
-91 days to the IPPT deadline (19 Feb), 92 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups look like the likely limiter, but the run can't be confirmed until it's timed. Targets are working estimates, so check the official IPPT table for your age band. Testing before your birthday may put you in the younger, harder band. Garmin has no ACWR today. Last 7 days: 14.1km over 5 runs, 0 strength sessions. Last 28 days: 25.2km over 8 runs, 0 strength sessions. Resting HR was 61 yesterday and the 7-day average is 64, well above your ~47 baseline. Readiness dipped to 52 after yesterday's run, and recovery time is flagged poor. No HRV or sleep data came through. The 2.4km test and the leg session were not logged. Non-Garmin items are unconfirmed, not assumed skipped.
+91 days to the IPPT deadline and 92 to the trip. Your only logged baseline is 31 push-ups and 20 sit-ups, so sit-ups are the limiter. The 2.4km is not logged, so I can't call the run your best station yet. The working targets of 45+ push-ups, 50+ sit-ups and a run of 10:30 or faster are unverified, so check the official table for your age band. ACWR is not reported today. You ran 14.1km over 5 runs in the last 7 days and 25.2km over 8 runs in 28 days, with 0 strength sessions in either window. Readiness fell from 92 to 52 after yesterday's 5.2km run. Resting HR is 61 (7-day average 64), well above your ~47 baseline, and HRV is not reporting. Recovery is the priority.
 
 **Today's session**
-Gym: upper body, kept submaximal (RPE 6-7, no failure, no max-rep test):
-- Bench or DB press 3x8
-- One-arm row 3x10
-- Overhead press 3x8
-- Push-ups 3x10 at an easy pace
-- Plank 3x40s
-
-Push-up GTG: 5-6 sets of 8-10 spread through the day, never to failure. This builds muscle and push-up volume without adding fatigue. The resting HR flag rules out quality work.
+- Gym upper body, kept moderate: bench or DB press, row and overhead press, 3 x 8-10 at RPE 7, 90s rest. Stop 2 reps short of failure.
+- Push-up GTG: 5-6 sets of 10-12 reps spread through the day, never to failure, perfect form.
+- Do not max-test today because resting HR is high.
+- Purpose: build pressing volume and muscle without adding fatigue.
 
 **3-Day Plan**
-- Today (Friday, 20 November 2026): Upper-body gym (submaximal) + push-up GTG
-- Tomorrow (Saturday, 21 November 2026): Easy run 4-5 km, HR ≤135, cap by HR, not pace
-- Day after (Sunday, 22 November 2026): Rest day + 10 min mobility. If resting HR is back near baseline, book the missed 2.4km baseline for Tue 24 Nov. The leg day is dropped, not stacked.
+- Today (Friday, 20 November 2026): upper-body gym plus push-up GTG, with an easy day otherwise
+- Tomorrow (Saturday, 21 November): easy run 4-5km, HR ≤135, stop early if resting HR is still high
+- Day after (Sunday, 22 November): rest and 10 min mobility
+- Missed items: Wednesday's 2.4km test moves to Mon 23 Nov, if readiness is above 60 and resting HR is back toward baseline. Thursday's leg session is dropped, not stacked.
 
 **Snowboard Prep**
-- Sun: ankle and hip mobility, plus 2x30s single-leg balance each side.
-- Wed: the one rescheduled leg session. Light step-downs 3x8, glute bridges 3x12 and side planks 3x30s, easy on the medial knee. Keep it two days away from the 2.4km test.
-- Add Pallof press 2x10 to any gym day.
+- Light step-downs and glute bridges, 2 x 10 each leg, on Monday, after the 2.4km test.
+- Core and balance: side planks and a single-leg stand, 3 x 30s, on Saturday after the run.
+- Hips and ankles: 10 min mobility on Sunday.
 
 **Fuel**
-Yesterday burned 2380 kcal. Today's target is ~2450 kcal (maintenance, small surplus), with ~100g protein, protein-forward on a lifting day.
-- Breakfast: kaya toast set + soy milk — ~550
-- Lunch: chicken rice — ~600
-- Snack: yogurt + banana — ~255
-- Dinner: economy rice, 1 meat 2 veg — ~600
-- Evening: Milo dinosaur + soy milk — ~450
+Yesterday you burned 2380 kcal. Today's target is about 2350 kcal, at maintenance or a slight surplus, with 100g protein or more because it's a lifting day.
+- Breakfast: kaya toast set — ~450 kcal
+- Lunch: chicken rice — ~600 kcal
+- Snack: yogurt + banana — ~255 kcal
+- Dinner: economy rice 1-meat-2-veg — ~600 kcal
+- Evening: soy milk + Milo dinosaur — ~450 kcal
+- Total ≈ 2355 kcal
 
-Total ≈ 2455 kcal. Yesterday's 592 active kcal is about one plate of chicken rice.
+Yesterday's 592 active kcal equals about one plate of chicken rice.
 
 **Coach's take**
-You've logged 25km over 28 days and sit-ups are the cheapest points. Ease off today, then start building the strength base.
+Your aerobic engine is already strong, and 31 push-ups from a cold baseline is room to grow. Recover today, test properly on Monday, and the points will follow.
