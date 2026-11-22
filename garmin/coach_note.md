@@ -1,37 +1,34 @@
-_Updated: Friday, 20 Nov 2026 at 10:29 PM SGT_
+_Updated: Sunday, 22 Nov 2026 at 08:56 PM SGT_
 
-**Gold is still unproven: sit-ups (20) are the limiter, the 2.4km is unmeasured, and resting HR says keep today light.**
+**89 days out and no 2.4km baseline yet, so Gold is still unmeasured, but the engine is there. Today is a rest day, and your resting HR says you need it.**
 
 **What your data says**
-91 days to the IPPT deadline, 92 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km NOT RUN YET. Sit-ups are the weakest logged station, but I can't rank the run until you have a time. Points are working estimates, so check the official IPPT table for your age band (testing before your birthday may put you in the younger, harder band). ACWR isn't reported today. Last 7 days: 14.1km over 5 runs, 0 strength sessions (28 days: 25.2km over 8 runs). Resting HR was 61 on 19 Nov (65-67 on 17-18 Nov), well above your ~47 baseline. Readiness fell from 92 to 52 after yesterday's 40-min run. There is no HRV or sleep data, so I'm leaning on RHR and readiness.
+89 days to the IPPT deadline, 90 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups are the likely limiter (working target 50+, UNVERIFIED, so check the official table for your age band). ACWR is 0.4 (LOW) with acute load 107 vs chronic 219. Last 7 days: 14.1km over 5 runs, 0 strength sessions. Last 28 days: 25.2km over 8 runs. Resting HR is 62, and the 7-day average is 64 against your ~47 baseline, so recovery is still lagging post-illness. Readiness was 52 on 19 Nov, and there is no HRV or sleep data. Garmin's 1:48 HM prediction is VO2max-based and optimistic, so keep carrying a buffer.
 
 **Today's session**
-Light upper-body gym. No max-rep test, because RHR is more than 5 bpm over baseline.
-- Bench or DB press 3 x 8-10, rows 3 x 10, overhead press 2 x 10, all at RPE 6-7 and 2-3 reps short of failure.
-- Plank 3 x 30-40s, then 5 min wrist and shoulder mobility.
-- Push-up GTG: 5-6 sets of 8-10 clean reps spread through the day, never to failure.
-- Purpose: build push-up endurance and muscle without adding fatigue.
-- Missed items: the 2.4km baseline is the ONE test I'm rescheduling. Legs gym on 19 Nov is unconfirmed (no check-in), so I'm dropping it rather than stacking it.
+Rest day plus 10 min mobility: hip flexors, ankles, thoracic rotation, wrists (2 min each, easy). Purpose: your resting HR is well above baseline, so adaptation happens in recovery. The low ACWR is a volume problem, not a fitness problem, and we fix it by building steadily from tomorrow, not by cramming today.
 
 **3-Day Plan**
-- Today (Friday, 20 November 2026): Light upper-body gym + push-up GTG.
-- Tomorrow (Saturday, 21 November 2026): Easy run 4-5km, HR <= 135 bpm. Cap by HR, not pace.
-- Day after (Sunday, 22 November 2026): Rest day + 10 min mobility. Do the 2.4km baseline Mon 23 Nov only if RHR is back near 55 or lower.
+- Today (Sunday, 22 November 2026): Rest + 10 min mobility
+- Tomorrow (Monday, 23 November 2026): Gym upper body (2-3 compound lifts, 3x8-10, RPE 7), push-up GTG (5-6 sets of ~10 reps, never to failure), sit-up volume (4 x 15, 60s rest). Only if resting HR is under ~65 and you feel fine.
+- Day after (Tuesday, 24 November 2026): Easy run 4-5km at HR <= 135, then 10 min core (planks, side planks, Pallof)
+
+**Missed items:** Fri's upper-body gym and GTG and Sat's easy run are unconfirmed, since no check-in came through. Only the upper-body gym is rescheduled (tomorrow). The rest is dropped. Please tick items on the dashboard.
 
 **Snowboard Prep**
-- Sat/Sun: ankle and hip mobility, plus 2 x 30s single-leg balance per side (foam pad if you have one).
-- Next week: one legs + glutes session (goblet squat, split squat, hip thrust, step-downs). Keep it away from the 2.4km test day.
-- Light step-downs or glute bridges 2x/week to protect the medial knee.
+- Tue: 2 x 10 light step-downs (medial knee safe) and glute bridges after the easy run.
+- This week: add 1 leg session (goblet squats, split squats, hip thrusts, wall sits) on a non-run day, around Thu or Fri.
+- Daily: 1 min single-leg balance per side while brushing your teeth.
 
 **Fuel**
-Yesterday burned 2380 kcal. Today's target is ~2250 kcal (maintenance, no deficit), with ~100g protein.
-- Breakfast: kaya toast set + soy milk — ~550
-- Lunch: chicken rice, extra chicken — ~680
-- Snack: yogurt + banana — ~255
-- Dinner: economy rice 1 meat 2 veg + egg — ~680
-- Evening: soy milk — ~100
+Yesterday burned 1937 kcal (active 149, BMR 1788). Target today ~2100 kcal at maintenance, never a deficit, with ~95-105g protein.
+- Breakfast: kaya toast set — ~450 kcal
+- Lunch: economy rice 1-meat-2-veg — ~600 kcal
+- Snack: yogurt + banana — ~255 kcal
+- Dinner: chicken rice — ~600 kcal
+- Evening: soy milk + kopi — ~215 kcal
 
-Total ≈ 2265 kcal. Yesterday's 592 active kcal is about one economy rice 1-meat-2-veg plate.
+Total ≈ 2120 kcal. Yesterday's active burn is about 1.5 bananas.
 
 **Coach's take**
-Your aerobic engine is elite and sit-ups are the cheapest points on the table, so one calm, consistent week of GTG will start closing the gap to Gold.
+Your VO2max of 58.6 means the run will not be your problem, so stay patient, build volume 10% a week, and the sit-ups and push-ups will move.
