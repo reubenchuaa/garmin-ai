@@ -78,9 +78,9 @@ tr:last-child td{border-bottom:none}
   <h1>🏃 Reuben · Training Dashboard</h1>
   <div class="sub">IPPT Gold (deadline) · Gold (85+ pts)</div>
   <div class="pills">
-    <span class="pill pill-blue">🥇 86 days to IPPT deadline (19 Feb)</span>
-    <span class="pill pill-green">🏂 Snowboarding in 87 days</span>
-    <span class="pill pill-green">Synced 25 Nov 2026 06:45 AM SGT</span>
+    <span class="pill pill-blue">🥇 87 days to IPPT deadline (19 Feb)</span>
+    <span class="pill pill-green">🏂 Snowboarding in 88 days</span>
+    <span class="pill pill-green">Synced 25 Nov 2026 06:48 AM SGT</span>
   </div>
 </div>
 </div>
@@ -301,12 +301,12 @@ wk.innerHTML=h;
 </div>
 
 <script>
-const LB=["11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24", "11-25"];
+const LB=["11-11", "11-12", "11-13", "11-14", "11-15", "11-16", "11-17", "11-18", "11-19", "11-20", "11-21", "11-22", "11-23", "11-24"];
 const opt=(ymin,ymax)=>({"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"min":ymin,"max":ymax}}});
-new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[87,93,88,83,91,89,93,94,89,83,95,92,96,null],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[31,26,26,26,31,27,36,38,29,33,33,41,45,null],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[94,94,94,79,77,89,90,52,75,85,88,92,94,null],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
-new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[62,67,61,61,66,67,65,61,65,62,62,60,60,null],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
-new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[36,37,45,25,39,33,30,25,32,32,35,30,27,null],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('bb'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Peak","data":[80,87,93,88,83,91,89,93,94,89,83,95,92,96],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","fill":true,"tension":.35,"pointRadius":3},{"label":"Low","data":[19,31,26,26,26,31,27,36,38,29,33,33,41,45],"borderColor":"#f59e0b","backgroundColor":"rgba(245,158,11,.05)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('tr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Readiness","data":[94,94,94,94,79,77,89,90,52,75,85,88,92,94],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
+new Chart(document.getElementById('rhr'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"RHR","data":[66,62,67,61,61,66,67,65,61,65,62,62,60,60],"borderColor":"#ef4444","backgroundColor":"rgba(239,68,68,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
+new Chart(document.getElementById('stress'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"Stress","data":[38,36,37,45,25,39,33,30,25,32,32,35,30,27],"borderColor":"#a855f7","backgroundColor":"rgba(168,85,247,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt(0,100)});
 new Chart(document.getElementById('sleep'),{"type":"bar","data":{"labels":LB,"datasets":[{"label":"Deep","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#1e40af"},{"label":"Light","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#60a5fa"},{"label":"REM","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#a78bfa"},{"label":"Awake","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"backgroundColor":"#f87171"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"stacked":true,"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true}}}});
 new Chart(document.getElementById('hrv'),{"type":"line","data":{"labels":LB,"datasets":[{"label":"HRV","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null],"borderColor":"#14b8a6","backgroundColor":"rgba(20,184,166,.1)","fill":true,"tension":.35,"pointRadius":3}]},"options":opt()});
 new Chart(document.getElementById('hmpred'),{"type":"line","data":{"labels":["11-16"],"datasets":[{"label":"Push-ups","data":[31],"borderColor":"#3b82f6","backgroundColor":"rgba(59,130,246,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},{"label":"Sit-ups","data":[20],"borderColor":"#10b981","backgroundColor":"rgba(16,185,129,.1)","tension":.3,"pointRadius":4,"yAxisID":"y"},{"label":"2.4km (min)","data":[null],"borderColor":"#f59e0b","borderDash":[5,3],"tension":.3,"pointRadius":4,"yAxisID":"y1"}]},"options":{"responsive":true,"plugins":{"legend":{"labels":{"color":"#64748b","font":{"size":10}}}},"scales":{"x":{"ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#1e293b"}},"y":{"position":"left","ticks":{"color":"#475569","font":{"size":10}},"grid":{"color":"#334155"},"beginAtZero":true},"y1":{"position":"right","reverse":true,"ticks":{"color":"#f59e0b","font":{"size":10}},"grid":{"drawOnChartArea":false}}}}});
