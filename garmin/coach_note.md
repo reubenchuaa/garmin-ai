@@ -1,39 +1,39 @@
-_Updated: Wednesday, 25 Nov 2026 at 06:14 AM SGT_
+_Updated: Wednesday, 25 Nov 2026 at 06:45 AM SGT_
 
-**86 days to the Gold deadline: push-ups (31) and sit-ups (20) are the gap, the 2.4km is still untimed, and today is a controlled snowboard-legs day.**
+**86 days to the Gold deadline and you're at 31 push-ups / 20 sit-ups with no 2.4km logged, so the next job is to build volume and run the baseline.**
 
 **What your data says**
-86 days to the IPPT deadline, 87 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups are the limiter, then push-ups. No points are logged, so any targets are working estimates. Check the official IPPT table for your age band (testing before your birthday may put you in the harder, younger band). ACWR is unavailable today. Last 7 days: 5.2km over 1 run, 0 strength sessions. Last 28 days: 25.2km over 8 runs, 0 strength sessions. Training Readiness is 94 (HIGH) and body battery peaked at 96. Resting HR is 60, which is 13 bpm above your ~47 baseline. That is a flag, so no max-rep tests and no quality work today. HRV and sleep data are empty. Mon's gym/GTG and Tue's run/core are unconfirmed (no check-in), so I'm not assuming you skipped them.
+Deadline 19 Feb is 86 days away and the snowboard trip is 87 days away. Baseline (16 Nov) was 31 push-ups and 20 sit-ups. Sit-ups are the weakest station at 20 reps, push-ups are next, and the 2.4km is still unmeasured. Please run it this week. Garmin gives no ACWR today (null), so I'm not quoting one. Last 7 days were 5.2km over 1 run and 0 strength sessions. Last 28 days were 25.2km over 8 runs and 0 strength sessions, which is too little load. Readiness was 94 yesterday (HIGH). **Resting HR is 60–65 against your ~47 baseline** (60 on 23–24 Nov). That is well above the +5 bpm limit, but it has been steady for a week and readiness is high, so I suspect the baseline is outdated. HRV and sleep data are missing. Mon/Tue items are unconfirmed, not assumed skipped. I'm keeping today lighter and capping the intensity.
 
 **Today's session**
-Gym: legs + glutes (snowboard), RPE 6-7, no failure sets.
-- Goblet squat 3x10, 3s lowering
+Gym: legs + glutes (snowboard), moderate load, no grinding.
+- Goblet squat 3x10, 3-sec lowering, RPE 6–7
 - Split squat 3x8/leg
 - Hip thrust 3x10
 - Calf raise 3x15
-- Balance + knee care: single-leg balance 3x30s/leg, light step-downs 2x8/leg, lateral band walks 2x12/side. Stop if the medial knee twinges.
+- Then balance + knee care: single-leg stand 3x30s/leg, light step-downs 2x8/leg, side-lying band walks 2x12
 
-Purpose: build leg endurance and glute control for falls and edging, and protect the knee.
+Purpose: build leg endurance and glute strength for snowboarding while protecting the medial knee. Stay 2 reps from failure.
 
 **3-Day Plan**
-- Today (Wednesday, 25 November 2026): Gym legs + glutes, balance + knee care
-- Tomorrow (Thursday, 26 November 2026): Rep ladders (push-ups/sit-ups, submaximal, no failure) + 10 min mobility
-- Day after (Friday, 27 November 2026): Gym full body (upper emphasis, no heavy legs) + push-up GTG
+- Today (Wednesday, 25 November 2026): Gym legs + glutes, then balance + knee care
+- Tomorrow (Thursday, 26 November 2026): Rep ladders (push-ups and sit-ups, submaximal, no failure) + 10 min mobility
+- Day after (Friday, 27 November 2026): Gym full body (upper emphasis for muscle) + push-up GTG. Easy run 4–5km (HR ≤135) this weekend, with the 2.4km time trial next week once resting HR settles.
 
 **Snowboard Prep**
-- Wed: legs, glutes and balance (today). Keep step-downs and glute work at ~2x/week for the knee.
-- Thu: hip, ankle and wrist mobility, 10 min.
-- Fri or weekend: planks, side planks and Pallof press, 3 rounds, after the full-body gym session.
+- Wed: legs, glutes and single-leg balance (above)
+- Thu: 10 min hip and ankle mobility
+- Fri: add planks and Pallof press 3x30s as part of the full-body session
 
 **Fuel**
-Yesterday burned 1952 kcal. Today's target is ~2350 kcal to maintain weight and fuel the lift, with ~100g protein. No deficit.
+Yesterday burned 1952 kcal. Today's target is ~2350 kcal to maintain weight, with no deficit and ~100g protein.
 - Breakfast: kaya toast set — ~450 kcal
 - Lunch: chicken rice — ~600 kcal
 - Snack: banana + yogurt — ~255 kcal
 - Dinner: economy rice 1-meat-2-veg — ~600 kcal
 - Evening: Milo dinosaur + soy milk — ~450 kcal
 
-Total ≈ 2355 kcal. Today's training burn (~400 kcal) is about one roti prata 2pc + curry.
+Total ≈ 2355 kcal. The gym session burns roughly one Milo dinosaur (~350 kcal, an estimate).
 
 **Coach's take**
-Readiness 94 and a 5.2km run with no setbacks show your engine is ready. Log that 2.4km time trial soon so we can see exactly how many points you're from Gold.
+Your engine is strong (readiness 94), so with consistent sit-up and push-up volume the 20 and 31 can climb quickly. Start the week's work today.
