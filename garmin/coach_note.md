@@ -1,4 +1,4 @@
-_Updated: Wednesday, 25 Nov 2026 at 07:16 AM SGT_
+_Updated: Wednesday, 25 Nov 2026 at 07:46 AM SGT_
 
 **86 days to the Gold deadline: you're at 31 push-ups / 20 sit-ups with no 2.4km logged, so today we build the legs and the base.**
 
