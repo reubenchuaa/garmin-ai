@@ -1,33 +1,32 @@
 _Updated: Tuesday, 24 Nov 2026 at 11:22 PM SGT_
 
-**87 days to the Gold deadline: your engine is ready (readiness 94), but 31 push-ups / 20 sit-ups and an untested 2.4km mean the points are still to be built.**
+**87 days to the deadline and Gold is still unmeasured: the run is untested and your engine is fresh (readiness 94), but training load is far too low.**
 
 **What your data says**
-87 days to the IPPT deadline, 88 to the snow trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km NOT RUN YET. Sit-ups and push-ups are the likely limiters, and the run is unconfirmed until you time it. Any rep targets are working estimates, so check the official IPPT table for your age band (testing before your birthday may put you in the harder, younger band). ACWR is 0.2 (LOW; acute 63 vs chronic 219), with 5.9km over 2 runs and 0 strength sessions in 7 days, and 25.2km over 8 runs and 0 strength sessions in 28 days. Resting HR is 60 against a ~47 baseline (+13), so no quality work or max tests today. HRV and sleep data are missing. Mon's gym, GTG and sit-up volume are unconfirmed (no check-in), so I'm not counting them as skipped. I'm not stacking make-ups. The one item to reschedule is the 2.4km baseline, for Sat 28 Nov if resting HR settles.
+Deadline 19 Feb 2027 is 87 days away and the trip is 88. Baseline 16 Nov: 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups (20 against a working target of 50+) are the biggest gap, then push-ups (31 against 45+). These targets are unverified placeholders, so check the official IPPT table for your age band. ACWR is 0.2 (LOW; acute 63 vs chronic 219), with 5.9km over 2 runs in the last 7 days, 25.2km over 8 runs in 28 days and 0 strength sessions. Readiness is 94, but resting HR has run 60–65 this week against the ~47 baseline. That is well above the +5 rule, so treat the baseline as stale or still recovering from illness, and keep today easy. No HRV or sleep data came through. Monday's gym, push-up GTG and sit-up volume are unconfirmed, not assumed skipped.
 
 **Today's session**
-- Easy run 4-5km, HR ≤135 bpm (cap by HR, not pace; walk if it spikes in the heat)
-- Core after: plank 3x40s, side plank 3x30s/side, dead bug 3x10, Pallof press 3x10/side
-- Purpose: rebuild aerobic volume (ACWR is low) and trunk endurance for sit-ups without adding fatigue.
+Easy run 4–5km, HR ≤135 bpm (cap by HR, not pace; walk breaks are fine in the heat). Then core: 3 × 30–40s plank, 3 × 30s side plank each side, 3 × 10 Pallof press each side, 60s rest. Purpose: rebuild aerobic volume safely from a low ACWR and train the trunk for sit-ups and snowboard falls.
 
 **3-Day Plan**
-- Today (Tuesday, 24 November 2026): Easy run 4-5km + core
-- Tomorrow (Wednesday, 25 November 2026): Gym legs + glutes (snowboard), then balance + knee care
-- Day after (Thursday, 26 November 2026): Rep ladders (submaximal, no failure) + 10 min mobility
+- Today (Tuesday, 24 November 2026): easy run 4–5km at HR ≤135, then core.
+- Tomorrow (Wednesday, 25 November 2026): gym legs + glutes (goblet squat, Bulgarian split squat, hip thrust, calf raise, 3 × 8–10), then balance and knee care.
+- Day after (Thursday, 26 November 2026): rep ladders (push-ups and sit-ups, 1-2-3-4-5, 3 rounds, all submaximal), then 10 min mobility.
+- Reschedule one miss: the 2.4km baseline time trial goes on Sat 28 Nov. Drop the missed upper-body gym day.
 
 **Snowboard Prep**
-- Wed: goblet squat 3x10, Bulgarian split squat 3x8, hip thrust 3x10, light step-downs, calf raises
-- Wed after lifting: single-leg balance on foam 3x30s/side + lateral band walks
-- Thu: hips, ankles and wrists mobility. Keep step-down and glute work to ~2x/week for the medial knee.
+- Wed: legs and glutes plus single-leg balance and light step-downs for the knee.
+- Today: core and anti-rotation (Pallof, side planks).
+- Thu: ankle, hip and wrist mobility. Keep step-downs to ~2×/week.
 
 **Fuel**
-Yesterday burned 1966 kcal. Target today ≈ 2450 kcal (maintenance plus training, no deficit), ~100g protein.
+Yesterday burned 1966 kcal. Eat ~2350 kcal today (run day, maintenance or slightly over, never a deficit) with ~95–105g protein.
 - Breakfast: kaya toast set + soy milk — ~550
-- Lunch: chicken rice — ~600
-- Snack: banana + yogurt — ~255
-- Dinner: economy rice 1 meat 2 veg, extra egg — ~700
+- Lunch: economy rice 1 meat 2 veg — ~600
+- Snack: yogurt + banana — ~255
+- Dinner: chicken rice — ~600
 - Evening: Milo dinosaur — ~350
-Total ≈ 2455 kcal. The run burns roughly 350 kcal (estimate), about one Milo dinosaur.
+Total ≈ 2355 kcal. Today's run burns about one Milo dinosaur (~350 kcal).
 
 **Coach's take**
-Readiness 94 and a VO2max of 58.6 say the engine is there. Get the weekly volume and strength routine going, and the 2.4km will take care of itself.
+With a VO2max of 58.6 and Garmin predicting a 1:48 half, your run can carry the points. Win Gold by building sit-up and push-up volume consistently, starting this week.
