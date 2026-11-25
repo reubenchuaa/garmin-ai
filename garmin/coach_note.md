@@ -1,11 +1,11 @@
-_Updated: Wednesday, 25 Nov 2026 at 05:31 PM SGT_
+_Updated: Wednesday, 25 Nov 2026 at 06:02 PM SGT_
 
 **86 days to the Gold deadline: your engine is strong (VO2max 58.6, Garmin HM prediction 1:49), but training load is near zero, so we restart the build today.**
 
 **What your data says**
-- **Deadlines:** 86 days to the IPPT deadline (19 Feb) and 87 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups look like the limiter, but that can't be confirmed until the run is timed. All targets are working estimates with no official points logged, so check the official table for your age band. Testing before your birthday may put you in the younger, harder band.
+- **Deadlines:** 86 days to the IPPT deadline (19 Feb) and 87 to the trip. Baseline (16 Nov): 31 push-ups, 20 sit-ups, 2.4km not run yet. Sit-ups look like the limiter, but that can't be confirmed until the run is timed. Targets are working estimates with no official points logged, so check the official table for your age band. Testing before your birthday may put you in the younger, harder band.
 - **Load:** ACWR **0.1 (LOW)**, acute 41 vs chronic 219. Last 7 days: 5.2km over 1 run, 0 strength sessions. Last 28 days: 25.2km over 8 runs, 0 strength sessions. We rebuild by about 10% a week, not in one jump.
-- **Recovery:** Training readiness is 94, but resting HR is 60-62 against the ~47 baseline, well over the +5 bpm line. HRV and sleep data are missing. So today is moderate with nothing to failure, with no max-rep tests or hard running until RHR settles. Mon and Tue items are unconfirmed, not skipped. Only today's leg day stays, and Mon's upper body folds into Fri.
+- **Recovery:** Training readiness is HIGH, but resting HR is 60-61 against the ~47 baseline, well over the +5 bpm line. HRV and sleep data are missing. So today is moderate, nothing to failure, with no max-rep tests or hard running until RHR settles. Mon and Tue items are unconfirmed, not skipped. Only today's leg day stays, and Mon's upper body folds into Fri.
 
 **Today's session**
 Gym: legs + glutes (snowboard), **RPE 5-6, ~45 min**
