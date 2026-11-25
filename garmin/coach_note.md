@@ -1,37 +1,37 @@
-_Updated: Thursday, 26 Nov 2026 at 05:50 AM SGT_
+_Updated: Thursday, 26 Nov 2026 at 06:20 AM SGT_
 
-**85 days to the Gold deadline and you're still at baseline: 31 push-ups / 20 sit-ups logged, no 2.4km yet. Volume is the gap, so we rebuild the habit this week.**
+**Gold is 85 days away and you are still at baseline: 31 push-ups and 20 sit-ups, with the 2.4km run not yet tested. Today is an easy, submaximal build day.**
 
 **What your data says**
-Deadline 19 Feb 2027 is 85 days away; the snowboarding trip is 86 days away. Sit-ups (20) are the clear limiter against the working targets of 45+ push-ups / 50+ sit-ups (unverified estimates, so check the official IPPT table for your age band), and the 2.4km is still untested. Last 7 days: 5.2km over 1 run, 0 strength sessions. Last 28 days: 21.2km over 7 runs. ACWR is not reported today, so I won't quote one. Training Readiness was 94 yesterday, but resting HR is 60-65 against your ~47 baseline, well over 5 bpm above. Sleep and HRV data are missing. Treat that as a caution flag: easy work only, no max-rep tests. Tue/Wed items (easy run, core, legs, balance) are unconfirmed, not assumed skipped. Please log your check-ins.
+85 days to the IPPT deadline (19 Feb) and 86 to the snowboarding trip. Your baseline (16 Nov) was 31 push-ups and 20 sit-ups, so sit-ups are the clear limiter. The 2.4km has not been run, so that station is unconfirmed. ACWR is not available from Garmin today. Load is low: 5.2km over 1 run in the last 7 days, 21.2km over 7 runs in 28 days, and 0 strength sessions. Training Readiness was 94 on 25 Nov, but resting HR is 60–62 this week against a ~47 baseline. That is well above the +5 bpm flag, so I'm keeping today submaximal with no max-rep tests. HRV and sleep data are missing, so I'm leaning on resting HR. Please check that your watch is worn overnight. Tue/Wed check-ins were not received, so those items are unconfirmed, not assumed skipped. Pick up the one missed leg session on Friday and drop the rest. Gold points depend on your age band, so check the official IPPT table. The 45/50/10:30 targets are working estimates only.
 
 **Today's session**
-Rep ladders, submaximal, stopping well short of failure (RPE 6-7):
-- Sit-ups: ladder 5-8-10-8-5, 60s rest between rungs, 2 rounds
-- Push-ups: ladder 4-6-8-6-4, 60s rest, 2 rounds
-- Mobility 10 min: hips, ankles, thoracic spine, wrists
-
-Purpose: build volume and clean form on the limiter without adding fatigue on top of an elevated resting HR.
+- Warm-up: 5 min easy movement and shoulder circles.
+- Push-up ladder: 2-4-6-8-6-4-2, 45s rest between rungs, all clean reps. Stop at 8, well short of your 31 max.
+- Sit-up ladder: 3-6-9-12-9-6-3 with the same rest, stopping short of failure.
+- Mobility 10 min: hips, ankles, thoracic spine, wrists.
+- Purpose: build rep volume and movement quality without extra fatigue while resting HR is elevated.
 
 **3-Day Plan**
-- Today (Thursday, 26 November 2026): Rep ladders + 10 min mobility
-- Tomorrow (Friday, 27 November 2026): Gym full body (compound lifts, moderate load), plus push-up GTG (5-6 sets of 50% max, spread through the day)
-- Day after (Saturday, 28 November 2026): Steady run 4-5km, HR cap 135 bpm, then core (planks, side planks, Pallof)
+- Today (Thursday, 26 November 2026): rep ladders plus mobility, as above.
+- Tomorrow (Friday, 27 November 2026): full-body gym with squat and split-squat emphasis, which covers the missed leg day. Keep it moderate, 3 sets, and add push-up GTG: 5 sets of 10 reps through the day, never to failure.
+- Day after (Saturday, 28 November 2026): steady 4–5km at HR ≤135 (easy, not tempo, while resting HR is high), then core.
 
 **Snowboard Prep**
-- Friday gym: goblet squats and split squats, 3 x 8-10, controlled eccentrics, plus hip thrusts.
-- Saturday after the run: core and anti-rotation (Pallof press, side planks).
-- Light knee care this week: step-downs and single-leg balance (2x), because of your medial knee niggle. Do it today if you have the energy.
+- Friday: split squats, step-downs (light, protecting the medial knee) and hip thrusts, in the gym session.
+- Saturday: planks, side planks and Pallof press after the run.
+- Today: 2 minutes of single-leg balance in the mobility block.
 
 **Fuel**
-Yesterday burned 2107 kcal. Target about 2250 kcal today, at maintenance or slightly above with no deficit. Aim for 90-110g protein.
-- Breakfast: kaya toast set — ~450 kcal
-- Lunch: chicken rice — ~600 kcal
-- Snack: yogurt + kopi — ~265 kcal
-- Dinner: economy rice 1-meat-2-veg — ~600 kcal
-- Evening: Milo dinosaur — ~350 kcal
+Yesterday burned 2107 kcal. Today's target is ~2200 kcal at maintenance, with ~100g protein.
+- Breakfast: kaya toast set + soy milk — ~450
+- Lunch: economy rice, 1 meat 2 veg — ~600
+- Snack: Milo dinosaur + banana — ~455
+- Dinner: chicken rice — ~600
+- Evening: soy milk — ~100
+- Total ≈ 2205 kcal
 
-Total ≈ 2265 kcal. Yesterday's 319 active kcal is roughly one Milo dinosaur.
+Yesterday's 319 active kcal is about one roti prata 2pc with curry (~400).
 
 **Coach's take**
-Your engine is strong (VO2max ~55.8, Garmin HM prediction 1:49), so the run should carry you. Fix the sit-ups with consistent volume and Gold is realistic by February.
+Your aerobic base is strong, and 31 push-ups is a platform to build on. Consistent ladders and GTG this month can get you well past it.
