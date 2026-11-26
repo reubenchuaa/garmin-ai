@@ -687222,20 +687222,20 @@
     {
       "date": "2026-11-26",
       "wellness": {
-        "totalSteps": 6505,
-        "totalDistanceMeters": 5002,
-        "averageStressLevel": 36,
-        "maxStressLevel": 92,
+        "totalSteps": 9603,
+        "totalDistanceMeters": 7397,
+        "averageStressLevel": 37,
+        "maxStressLevel": 96,
         "bodyBatteryHighestValue": 93,
-        "bodyBatteryLowestValue": 55,
-        "floorsAscended": 6,
+        "bodyBatteryLowestValue": 40,
+        "floorsAscended": 7,
         "restingHeartRate": 63,
         "maxAvgHeartRate": 103,
         "minAvgHeartRate": 50,
         "moderateIntensityMinutes": 0,
         "vigorousIntensityMinutes": 0,
-        "activeKilocalories": 144,
-        "totalKilocalories": 1272
+        "activeKilocalories": 229,
+        "totalKilocalories": 1655
       },
       "sleep": {
         "dailySleepDTO": {
